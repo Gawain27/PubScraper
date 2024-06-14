@@ -10,8 +10,6 @@ from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
 from net.gwngames.pubscraper.scheduling.sender.OutSenderQueue import OutSenderQueue
 from net.gwngames.pubscraper.scraper.ifaces.ScholarlyDataFetcher import ScholarlyDataFetcher
-from net.gwngames.pubscraper.utils.FileReader import FileReader
-
 
 class ScraperQueue(AsyncQueue):
     MSG_GOOGLE_SCHOLAR_QUERY: Final = "getGoogleScholarEntity"
@@ -38,6 +36,7 @@ class ScraperQueue(AsyncQueue):
                 logging.error("Failed to fetch data for query %s: %s", msg.query, str(e))
         else:
             logging.error("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
+            raise Exception("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
 
         json_serialize_req = SerializeJSONData(msg.content, scraped_info_file)
-        MessageRouter().send_message(json_serialize_req, OutSenderQueue(), priority=PriorityConstants.SERIALIZATION_REQ)
+        MessageRouter.get_instance().send_message(json_serialize_req, OutSenderQueue(), priority=PriorityConstants.SERIALIZATION_REQ)

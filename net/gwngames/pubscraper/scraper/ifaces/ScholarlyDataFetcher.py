@@ -1,10 +1,10 @@
 import json
 import logging
 from datetime import datetime
-from typing import List, Dict, Set, Final
+from typing import List, Set, Final
 
-from scholarly import scholarly
 from scholarly import ProxyGenerator
+from scholarly import scholarly
 
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
 from net.gwngames.pubscraper.msg.scraper.GetGoogleScholarData import GetGoogleScholarData
@@ -30,20 +30,27 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
     def get_new_data_since(self, query: str, date: datetime) -> str:
         logging.info("Fetching new data since %s for query: %s", date, query)
 
-        search_query = scholarly.search_pubs(query)
-        new_data = []
-
-        for paper in search_query:
-            paper_filled = scholarly.fill(paper)
-            pub_date = datetime.strptime(str(paper_filled['pub_year']), '%Y')
-            if pub_date >= date:
-                new_data.append(paper_filled)
-
-        filename = f"{ScholarlyDataFetcher.INTERFACE_ID}_{query}.json"
+        filename = f"{self.INTERFACE_ID}_{query}.json"
         with open(filename, 'w') as file:
-            json.dump(new_data, file, indent=4)
-        logging.info("Saved new data to file: %s", filename)
+            new_data = []
+            search_query = scholarly.search_pubs(query)
 
+            for paper in search_query:
+                paper_filled = scholarly.fill(paper)
+                last_update_str = paper_filled.get('last_update', None)
+                if last_update_str:
+                    try:
+                        last_update = datetime.strptime(last_update_str, '%Y-%m-%d')  # Adjust format if necessary
+                        if last_update >= date:
+                            new_data.append(paper_filled)
+                            json.dump(paper_filled, file)  # Write each paper to file immediately
+                            file.write('\n')  # Add newline for better readability
+                    except ValueError:
+                        logging.warning("Date format for last_update is incorrect: %s", last_update_str)
+                else:
+                    logging.warning("No last_update field found for paper: %s", paper_filled.get('title', 'Unknown'))
+
+        logging.info("Saved new data to file: %s", filename)
         return filename
 
     def generate_all_queries(self, base_query: str, additional_terms: List[str]) -> List[str]:
@@ -86,10 +93,10 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
 
     @staticmethod
     def dispatch_scholarly_requests(queries: List[str]):
-        router: MessageRouter = MessageRouter()
+        router: MessageRouter = MessageRouter.get_instance()
         stats: FileReader = FileReader(FileReader.MESSAGE_STAT_FILE_NAME)
         for query in queries:
-            message = GetGoogleScholarData(ScholarlyDataFetcher.INTERFACE_ID+"_"+query, query)
+            message = GetGoogleScholarData(ScholarlyDataFetcher.INTERFACE_ID + "_" + query, query)
             first_run: bool = stats.get_value(message.content) is not None
             message.is_first_run = first_run
             router.send_message(message, ScraperQueue(), PriorityConstants.INTERFACE_REQ)
