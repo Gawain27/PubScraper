@@ -24,6 +24,7 @@ class FileReader:
         if file not in FileReader._locks:
             FileReader._locks[file] = threading.Lock()
         self.lock = FileReader._locks[file]
+        self.load_file()
 
     def load_file(self):
         """

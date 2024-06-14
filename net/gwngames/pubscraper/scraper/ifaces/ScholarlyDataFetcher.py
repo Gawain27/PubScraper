@@ -88,7 +88,6 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
     def dispatch_scholarly_requests(queries: List[str]):
         router: MessageRouter = MessageRouter()
         stats: FileReader = FileReader(FileReader.MESSAGE_STAT_FILE_NAME)
-        stats.load_file()
         for query in queries:
             message = GetGoogleScholarData(ScholarlyDataFetcher.INTERFACE_ID+"_"+query, query)
             first_run: bool = stats.get_value(message.content) is not None

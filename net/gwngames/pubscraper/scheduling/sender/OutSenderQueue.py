@@ -19,19 +19,18 @@ class OutSenderQueue(AsyncQueue):
             logging.info("Processing SerializeJSONData message with file: %s", msg.json_loc)
             try: # TODO: also apply flags here
                 entity_data = FileReader(msg.json_loc)
-                entity_data.load_file()
                 entity_num = 0
                 for paper in entity_data.data:
                     paper_file = FileReader(str(entity_num)+"_"+msg.json_loc)
-                    paper_file.load_file()
                     paper_file.set_and_save("entity", paper)
                     entity_num += 1
                     entity_serialize_req = SerializeEntity(msg.content, str(entity_num)+"_"+msg.json_loc)
                     MessageRouter().send_message(entity_serialize_req, OutSenderQueue(), PriorityConstants.ENTITY_SERIAL_REQ)
                 logging.info("Successfully requested serialization for file: %s", msg.json_loc)
             except Exception as e:
-                logging.error("Failed to serialize entity for file %s: %s", msg.json_loc, str(e))
+                logging.error("Failed to read entities for file %s: %s", msg.json_loc, str(e))
         elif isinstance(msg, SerializeEntity):
+            logging.info("Processing SerializeEntity message with file: %s", msg.entity_loc)
             pass
             # TODO: implement actual serialization
         else:

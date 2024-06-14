@@ -12,7 +12,6 @@ class AsyncQueue(queue.Queue):
     def __init__(self, maxsize: int = 0):
         super().__init__(maxsize)
         self.message_stats = FileReader(FileReader.MESSAGE_STAT_FILE_NAME)
-        self.message_stats.load_file()
 
     def process_message(self, router: MessageRouter, msg: AbstractMessage):
         """

@@ -20,9 +20,8 @@ class WebScraper:
         pass
 
     @staticmethod
-    def scrape_interfaces():
+    async def scrape_interfaces():
         config = FileReader(FileReader.CONFIG_FILE_NAME)
-        config.load_file()
 
         interfaces: str = config.get_value(ConfigConstants.INTERFACES_ENABLED)
         terms_max: int = config.get_value(ConfigConstants.TERMS_MAX)
