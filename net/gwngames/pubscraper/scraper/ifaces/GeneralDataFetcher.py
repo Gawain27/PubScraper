@@ -19,12 +19,12 @@ class SingletonMeta(type):
 
 class GeneralDataFetcher(ABC, metaclass=SingletonMeta):
     @abstractmethod
-    def get_new_data_since(self, query: str, date: datetime) -> List[Dict]:
+    def get_new_data_since(self, query: str, date: datetime) -> str:
         """
         Fetch all new data from a specific date going forward for the given query.
         :param query: The search query
         :param date: The start date to filter new data (format: 'YYYY-MM-DD')
-        :return: List of new data
+        :return: file location of the new data
         """
         pass
 

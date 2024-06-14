@@ -2,11 +2,12 @@ from datetime import datetime
 from typing import Dict
 
 from net.gwngames.pubscraper.msg.BaseMessage import BaseMessage
+from net.gwngames.pubscraper.scheduling.sender.ScraperQueue import ScraperQueue
 
 
 class GetGoogleScholarData(BaseMessage):
     def __init__(self, content: str, query: str, timestamp: datetime = None) -> None:
-        super().__init__('GetGoogleScholarData', content, timestamp)
+        super().__init__(ScraperQueue.MSG_GOOGLE_SCHOLAR_QUERY, content, timestamp)
         self.query: str = query
 
     def __str__(self) -> str:

@@ -2,10 +2,15 @@ import logging
 from datetime import datetime
 from typing import Final, Dict
 
+from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
 from net.gwngames.pubscraper.msg.BaseMessage import BaseMessage
+from net.gwngames.pubscraper.msg.comm.SerializeJSONData import SerializeJSONData
 from net.gwngames.pubscraper.msg.scraper.GetGoogleScholarData import GetGoogleScholarData
+from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
+from net.gwngames.pubscraper.scheduling.sender.OutSenderQueue import OutSenderQueue
 from net.gwngames.pubscraper.scraper.ifaces.ScholarlyDataFetcher import ScholarlyDataFetcher
+from net.gwngames.pubscraper.utils.FileReader import FileReader
 
 
 class ScraperQueue(AsyncQueue):
@@ -15,21 +20,24 @@ class ScraperQueue(AsyncQueue):
         logging.info("Received message: %s", msg)
 
         if msg.is_first_run:
-            filter_date = datetime.today()
-            logging.info("Setting filter date to today: %s", filter_date)
-        else:
             filter_date = datetime.min
-            logging.info("Setting filter date to the minimum possible date: %s", filter_date)
+            logging.info("Setting filter date from the minimum possible date: %s", filter_date)
+        else:
+            filter_date = self.message_stats.get_value(msg.content)
+            logging.info("Setting filter date from: %s", filter_date)
+        self.message_stats.set_and_save(msg.content, datetime.today())
 
-        new_data: list[Dict] = []
+        scraped_info_file: str = ""
 
         if isinstance(msg, GetGoogleScholarData):
             logging.info("Processing GetGoogleScholarData message with query: %s", msg.query)
             try:
-                new_data = ScholarlyDataFetcher().get_new_data_since(msg.query, filter_date)
+                scraped_info_file = ScholarlyDataFetcher().get_new_data_since(msg.query, filter_date)
                 logging.info("Successfully fetched new data since %s for query: %s", filter_date, msg.query)
             except Exception as e:
                 logging.error("Failed to fetch data for query %s: %s", msg.query, str(e))
         else:
-            logging.error("Received undefined message type: %s", type(msg).__name__)
-        # TODO: take the data and send it to the serialization unit via queue, when ready
+            logging.error("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
+
+        json_serialize_req = SerializeJSONData(msg.content, scraped_info_file)
+        MessageRouter().send_message(json_serialize_req, OutSenderQueue(), priority=PriorityConstants.SERIALIZATION_REQ)
