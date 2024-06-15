@@ -1,14 +1,18 @@
 import logging
 from typing import Final
 
+from net.gwngames.pubscraper.comm.OutSender import OutSender
+from net.gwngames.pubscraper.comm.PackagingUnit import PackagingUnit
 from net.gwngames.pubscraper.comm.SerializationUnit import SerializationUnit
 from net.gwngames.pubscraper.constants.EntityCidConstants import EntityCidConstants
 from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
 from net.gwngames.pubscraper.msg.BaseMessage import BaseMessage
+from net.gwngames.pubscraper.msg.comm import PackageEntity
+from net.gwngames.pubscraper.msg.comm.SendEntity import SendEntity
 from net.gwngames.pubscraper.msg.comm.SerializeEntity import SerializeEntity
 from net.gwngames.pubscraper.msg.comm.SerializeJSONData import SerializeJSONData
-from net.gwngames.pubscraper.msg.comm.ValidateEntity import ValidateEntity
+from net.gwngames.pubscraper.msg.comm.PackageEntity import PackageEntity
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
 from net.gwngames.pubscraper.utils.FileReader import FileReader
@@ -17,12 +21,13 @@ from net.gwngames.pubscraper.utils.FileReader import FileReader
 class OutSenderQueue(AsyncQueue):
     MSG_SERIALIZE_DATA: Final = "serializeJsonData"
     MSG_SERIALIZE_ENTITY: Final = "serializeEntity"
-    MSG_VALIDATE_ENTITY: Final = "validateEntity"
+    MSG_PACKAGE_ENTITY: Final = "validateEntity"
+    MSG_SEND_ENTITY: Final = "sendEntity"
 
     def on_message(self, msg: BaseMessage) -> None:
         if isinstance(msg, SerializeJSONData):
             logging.info("Processing SerializeJSONData message with file: %s", msg.json_loc)
-            try: # TODO: also apply flags here
+            try:
                 entity_data = FileReader(msg.json_loc)
                 entity_num = 0
                 for paper in entity_data.data:
@@ -37,11 +42,16 @@ class OutSenderQueue(AsyncQueue):
                 logging.error("Failed to read entities for file %s: %s", msg.json_loc, str(e))
         elif isinstance(msg, SerializeEntity):
             logging.info("Processing SerializeEntity message with file: %s", msg.entity_loc)
+            #  entity gets handed over to the packager right away, compress during serialization
             SerializationUnit().execute(msg)
             logging.info("Serialized and sent for validation message with file: %s", msg.entity_loc)
-        elif isinstance(msg, ValidateEntity):
-            logging.info("Processing Entity %s with message id: %s", msg.entity.cid, msg.message_id)
-            pass
-            # TODO: implement actual validation
+        elif isinstance(msg, PackageEntity):
+            logging.info("Processing Entity %s with message id: %s", msg.entity_cid, msg.message_id)
+            PackagingUnit().sleep_based_on_load(msg)
+            logging.info("Packaged Entity %s with message id: %s", msg.entity_cid, msg.message_id)
+        elif isinstance(msg, SendEntity):
+            logging.info("Sending bufferized Entity %s with message id: %s", msg.entity_cid, msg.message_id)
+            OutSender().send_data(msg.entity)
+            logging.info("Entity %s with message id: %s successfully delivered to server", msg.entity_cid, msg.message_id)
         else:
             logging.error("OutSenderQueue - Received undefined message type: %s", type(msg).__name__)

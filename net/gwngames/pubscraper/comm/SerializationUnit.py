@@ -1,14 +1,31 @@
+import gzip
 import json
 import logging
+import pickle
+from typing import Any
 
 from net.gwngames.pubscraper.comm.entity.EntityBase import EntityBase
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
 from net.gwngames.pubscraper.msg.comm.SerializeEntity import SerializeEntity
-from net.gwngames.pubscraper.msg.comm.ValidateEntity import ValidateEntity
+from net.gwngames.pubscraper.msg.comm.PackageEntity import PackageEntity
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scheduling.sender.OutSenderQueue import OutSenderQueue
 
 logger = logging.getLogger(__name__)
+
+
+def compress_object(obj: Any) -> bytes:
+    """
+        Compress a Python object.
+    Returns:
+        The compressed byte stream.
+    """
+    # Serialize the object using pickle
+    serialized_data = pickle.dumps(obj)
+    # Compress the serialized data using gzip
+    compressed_data = gzip.compress(serialized_data)
+
+    return compressed_data
 
 
 class SerializationUnit:
@@ -23,9 +40,14 @@ class SerializationUnit:
 
         if entity_instance:
             entity_instance.fill_properties(self.entity_data)
-            entity_validate_req: ValidateEntity = ValidateEntity(msg.content, entity_instance)
-            MessageRouter.get_instance().send_message(entity_validate_req, OutSenderQueue(),
-                                                      PriorityConstants.ENTITY_VALIDATE_REQ)
+
+            if not self._check_attribute_count(entity_instance):
+                raise Exception(f"Entity {entity_instance} is not serializable, check error logs")
+
+            serialized_entity = compress_object(entity_instance)
+            entity_package_req: PackageEntity = PackageEntity(msg.content, serialized_entity, entity_instance.cid)
+            MessageRouter.get_instance().send_message(entity_package_req, OutSenderQueue(),
+                                                      PriorityConstants.ENTITY_PACKAGE_REQ)
         else:
             logger.error("Failed to find or instantiate entity instance.")
 
@@ -54,6 +76,25 @@ class SerializationUnit:
             return None
 
         return entity_instance
+
+    def _check_attribute_count(self, entity_instance: EntityBase) -> bool:
+        # Get the attributes of entity_instance
+        entity_attributes = vars(entity_instance)
+
+        # Track missing attributes
+        missing_attributes = []
+
+        # Check each key in self.entity_data
+        for key in self.entity_data:
+            if key not in entity_attributes:
+                missing_attributes.append(key)
+
+        # Log missing attributes if any
+        if missing_attributes:
+            logger.error(f"Missing attributes in entity {entity_instance.cid}: {', '.join(missing_attributes)}")
+            return False
+
+        return True
 
     def get_entity_cid(self):
         return self.entity_cid

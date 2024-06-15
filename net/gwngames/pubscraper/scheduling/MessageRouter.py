@@ -75,6 +75,7 @@ class MessageRouter:
             args=(self, message),
             daemon=True
         )
+        # TODO don't randomly start threads, maintain a max and release with wait/notify
         self.routing_threads[message.message_id].start()
 
     def send_message(self, message: AbstractMessage, message_queue: AsyncQueue, priority=0):

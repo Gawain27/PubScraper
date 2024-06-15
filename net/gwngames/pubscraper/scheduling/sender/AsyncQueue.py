@@ -23,12 +23,13 @@ class AsyncQueue(queue.Queue):
         the routing threads list in the provided `router` object.
         """
         start_time: float = time.time()
-        logging.info(f"Message routed for topic '{msg.message_type}': {msg.message_id}")
+        logging.debug(f"Message routed for topic '{msg.message_type}': {msg.message_id}")
 
-        self.on_message(msg)
+        self.on_message(msg)  # TODO implement exception catching for logging of errors
 
-        elapsed_time: float = (time.time() - start_time)*1000
-        logging.info(f"Managed message for topic '{msg.message_type}': {msg.message_id} - Time: {elapsed_time:.3f} ms.")
+        elapsed_time: float = (time.time() - start_time) * 1000
+        logging.debug(
+            f"Managed message for topic '{msg.message_type}': {msg.message_id} - Time: {elapsed_time:.3f} ms.")
         router.routing_threads.pop(msg.message_id)
 
     @abstractmethod

@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="#47 - file loading logic refactor">
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/comm/SerializationUnit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/comm/entity/EntityBase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/EntityCidConstants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/JsonConstants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/comm/ValidateEntity.py" afterDir="false" />
+    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="#44 - SerializationUnit (rough impl)">
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/comm/OutSender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/comm/PackagingUnit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/comm/SynchroSocket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/comm/SendEntity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/LoadState.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/comm/SerializationUnit.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/comm/SerializationUnit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/ConfigConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/ConfigConstants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/PriorityConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/PriorityConstants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/comm/ValidateEntity.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/comm/PackageEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/MessageRouter.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/MessageRouter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/AsyncQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/AsyncQueue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/OutSenderQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/OutSenderQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/ScraperQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/ScraperQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScholarlyDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScholarlyDataFetcher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,26 +34,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2hqPxYKdC0v9EV3oXI4ROo7RCDz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gwn27\PycharmProjects\PubScraper\net\gwngames\pubscraper" />
@@ -99,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718318880815</updated>
-      <workItem from="1718318882340" duration="38622000" />
+      <workItem from="1718318882340" duration="41431000" />
+      <workItem from="1718461841888" duration="7744000" />
     </task>
     <task id="LOCAL-00001" summary="#47 - Basic structure + general interface unit">
       <option name="closed" value="true" />
@@ -125,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718391917891</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="#44 - SerializationUnit (rough impl)">
+      <option name="closed" value="true" />
+      <created>1718397551619</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718397551619</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +158,7 @@
     <MESSAGE value="#47 - Basic structure + general interface unit" />
     <MESSAGE value="#48 - Bufferization of unprocessed entities via disk storage" />
     <MESSAGE value="#47 - file loading logic refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="#47 - file loading logic refactor" />
+    <MESSAGE value="#44 - SerializationUnit (rough impl)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#44 - SerializationUnit (rough impl)" />
   </component>
 </project>
