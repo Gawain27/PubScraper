@@ -11,3 +11,5 @@ class ConfigConstants:
     ACCEPTABLE_LOAD: Final = 'acceptable_load'
     SERVER_URL: Final = 'server_url'
     SERVER_ENTITY_PORT: Final = 'entity_port'
+    SERVER_STATUS_PORT: Final = 'status_port'
+    KEEPDOWN_TIME: Final = 'keepdown_time'

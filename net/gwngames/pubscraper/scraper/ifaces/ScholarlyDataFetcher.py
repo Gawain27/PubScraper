@@ -7,9 +7,8 @@ from scholarly import ProxyGenerator
 from scholarly import scholarly
 
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
+from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.scraper.GetGoogleScholarData import GetGoogleScholarData
-from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
-from net.gwngames.pubscraper.scheduling.sender.ScraperQueue import ScraperQueue
 from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
 from net.gwngames.pubscraper.utils.FileReader import FileReader
 
@@ -93,10 +92,11 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
 
     @staticmethod
     def dispatch_scholarly_requests(queries: List[str]):
+        from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
         router: MessageRouter = MessageRouter.get_instance()
         stats: FileReader = FileReader(FileReader.MESSAGE_STAT_FILE_NAME)
         for query in queries:
             message = GetGoogleScholarData(ScholarlyDataFetcher.INTERFACE_ID + "_" + query, query)
             first_run: bool = stats.get_value(message.content) is not None
             message.is_first_run = first_run
-            router.send_message(message, ScraperQueue(), PriorityConstants.INTERFACE_REQ)
+            router.send_message(message, QueueConstants.SCRAPER_QUEUE, PriorityConstants.INTERFACE_REQ)

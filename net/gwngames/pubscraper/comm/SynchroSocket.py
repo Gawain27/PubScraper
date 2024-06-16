@@ -59,15 +59,16 @@ class SynchroSocket:
                         break
                     buffer += chunk
 
-                    # Split the accumulated data into messages based on '\n' delimiter
-                    messages = buffer.split('\n')
+                    # Look for the first complete message in the buffer
+                    if '\n' in buffer:
+                        # Split the buffer at the first '\n' only
+                        message, buffer = buffer.split('\n', 1)
 
-                    # The last element in messages may be incomplete, so we process all except the last one
-                    for msg in messages[:-1]:
-                        yield msg.strip()
+                        # Yield the complete message
+                        yield message.strip()
 
-                    # Update buffer with the last incomplete message
-                    buffer = messages[-1]
+                        # Continue processing the next chunk of data
+                        continue
 
                 except Exception as e:
                     logging.error(f'Error receiving message from Java socket on port {self.port}: {e}')

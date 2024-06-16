@@ -6,6 +6,7 @@ from typing import Any
 
 from net.gwngames.pubscraper.comm.entity.EntityBase import EntityBase
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
+from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.comm.SerializeEntity import SerializeEntity
 from net.gwngames.pubscraper.msg.comm.PackageEntity import PackageEntity
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
@@ -46,7 +47,7 @@ class SerializationUnit:
 
             serialized_entity = compress_object(entity_instance)
             entity_package_req: PackageEntity = PackageEntity(msg.content, serialized_entity, entity_instance.cid)
-            MessageRouter.get_instance().send_message(entity_package_req, OutSenderQueue(),
+            MessageRouter.get_instance().send_message(entity_package_req, QueueConstants.OUTSENDER_QUEUE,
                                                       PriorityConstants.ENTITY_PACKAGE_REQ)
         else:
             logger.error("Failed to find or instantiate entity instance.")

@@ -5,6 +5,7 @@ import time
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
+from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.comm.PackageEntity import PackageEntity
 from net.gwngames.pubscraper.msg.comm.SendEntity import SendEntity
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
@@ -23,7 +24,7 @@ class PackagingUnit:
         self.config = FileReader(FileReader.CONFIG_FILE_NAME)
 
     @staticmethod
-    def calculate_sleep_duration(load_percentage, threshold, retries):
+    def calculate_sleep_duration(load_percentage, threshold, retries):  # TODO: to rework
         """
         Calculate the sleep duration based on an exponential function.
 
@@ -70,7 +71,7 @@ class PackagingUnit:
         retries = 0
 
         while retries < max_retries:
-            load_percentage = self.load_state.value
+            load_percentage = self.load_state.load_perc
             if load_percentage < acceptable_load:
                 logging.debug(f"Message: {msg.content} - Load is {load_percentage}%. No need to sleep.")
                 break
@@ -83,4 +84,4 @@ class PackagingUnit:
 
         # Can finally be bufferized for sender
         entity_send_req = SendEntity(msg.content, msg.entity, msg.entity_cid)
-        MessageRouter.get_instance().send_message(entity_send_req, OutSenderQueue, PriorityConstants.ENTITY_SEND_REQ)
+        MessageRouter.get_instance().send_message(entity_send_req, QueueConstants.OUTSENDER_QUEUE, PriorityConstants.ENTITY_SEND_REQ)

@@ -17,7 +17,7 @@ class SingletonMeta(type):
         return cls._instances[cls]
 
 
-class GeneralDataFetcher(ABC, metaclass=SingletonMeta):
+class GeneralDataFetcher(metaclass=SingletonMeta):
     @abstractmethod
     def get_new_data_since(self, query: str, date: datetime) -> str:
         """

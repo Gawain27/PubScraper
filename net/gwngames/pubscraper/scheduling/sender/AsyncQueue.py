@@ -41,3 +41,10 @@ class AsyncQueue(queue.Queue):
 
         """
         pass
+
+    @staticmethod
+    def get_queue_class(queue_name: str) -> type:
+        for cls in AsyncQueue.__subclasses__():
+            if getattr(cls, 'QUEUE', None) == queue_name:
+                return cls
+        logging.warning('Queue named %s not found in Queue types list', queue_name)
