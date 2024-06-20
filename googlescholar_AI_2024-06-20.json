@@ -1,0 +1,25 @@
+{
+    "topic_barrier": true,
+    "topic_set": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Deep Learning",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Robotics",
+    "Neural Networks",
+    "Reinforcement Learning",
+    "AI Ethics",
+    "AI Governance",
+    "AI in Healthcare",
+    "AI in Finance",
+    "AI in Education",
+    "AI Applications",
+    "AI Algorithms",
+    "AI Research",
+    "AI Trends",
+    "Ethical AI",
+    "Explainable AI",
+    "AI Safety"
+  ]
+}

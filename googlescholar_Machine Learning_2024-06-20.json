@@ -1,0 +1,25 @@
+{
+    "topic_barrier": true,
+    "topic_set": [
+    "Machine Learning",
+    "AI",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Deep Learning",
+    "Robotics",
+    "Data Science",
+    "Big Data",
+    "Neural Networks",
+    "Reinforcement Learning",
+    "Image Processing",
+    "Virtual Reality",
+    "Augmented Reality",
+    "Blockchain",
+    "Internet of Things (IoT)",
+    "Cloud Computing",
+    "Cybersecurity",
+    "Quantum Computing",
+    "Bioinformatics",
+    "Genomics"
+  ]
+}

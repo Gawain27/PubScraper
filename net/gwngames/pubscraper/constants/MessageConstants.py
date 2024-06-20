@@ -8,7 +8,11 @@ class MessageConstants:
     MSG_PACKAGE_ENTITY: Final = "validateEntity"
     MSG_SEND_ENTITY: Final = "sendEntity"
 
-    #  Scraper messages
+    #  Scraper messages -- General
+    MSG_SCRAPE_TOPIC: Final = "scrapeTopic"
+    MSG_SCRAPE_LEAF: Final = "scrapeLeaf"
+
+    #  Scraper messages -- Interface
     MSG_GOOGLE_SCHOLAR_QUERY: Final = "getGoogleScholarEntity"
 
     #  System messages

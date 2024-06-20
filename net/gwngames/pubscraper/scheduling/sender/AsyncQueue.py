@@ -2,16 +2,22 @@ import logging
 import queue
 import time
 from abc import abstractmethod
+
+from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
+from net.gwngames.pubscraper.utils.ClassUtils import ClassUtils
 from net.gwngames.pubscraper.utils.FileReader import FileReader
 
 
 class AsyncQueue(queue.Queue):
 
-    def __init__(self, maxsize: int = 0):
+    def __init__(self, maxsize: int = 100):
         super().__init__(maxsize)
-        self.message_stats = FileReader(FileReader.MESSAGE_STAT_FILE_NAME)
+        self.logger = logging.getLogger(self.register_me().__name__)
+        self.logger.setLevel(LoggingConstants.ASYNC_QUEUE)
+        self.message_stats = FileReader(FileReader.MESSAGE_STAT_FILE_NAME, self.register_me().__name__)
+        self.register_queue()
 
     def process_message(self, router: MessageRouter, msg: AbstractMessage):
         """
@@ -42,9 +48,16 @@ class AsyncQueue(queue.Queue):
         """
         pass
 
+    def register_queue(self) -> None:
+        ClassUtils.add_class_to_superclass(self.register_me(), AsyncQueue)
+
+    @abstractmethod
+    def register_me(self) -> type:
+        pass
+
     @staticmethod
     def get_queue_class(queue_name: str) -> type:
-        for cls in AsyncQueue.__subclasses__():
-            if getattr(cls, 'QUEUE', None) == queue_name:
+        for cls in ClassUtils.get_all_subclasses(AsyncQueue):
+            if getattr(cls, 'QUEUE') == queue_name:
                 return cls
         logging.warning('Queue named %s not found in Queue types list', queue_name)

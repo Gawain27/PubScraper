@@ -7,10 +7,9 @@ from typing import Any
 from net.gwngames.pubscraper.comm.entity.EntityBase import EntityBase
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
-from net.gwngames.pubscraper.msg.comm.SerializeEntity import SerializeEntity
 from net.gwngames.pubscraper.msg.comm.PackageEntity import PackageEntity
+from net.gwngames.pubscraper.msg.comm.SerializeEntity import SerializeEntity
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
-from net.gwngames.pubscraper.scheduling.sender.OutSenderQueue import OutSenderQueue
 
 logger = logging.getLogger(__name__)
 

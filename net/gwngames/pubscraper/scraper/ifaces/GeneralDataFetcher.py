@@ -1,23 +1,10 @@
 import logging
-from abc import abstractmethod, ABC
+from abc import abstractmethod
 from datetime import datetime
-from typing import List, Dict, Set
+from typing import List, Set
 
 
-# TODO remember the bitmap for configuration
-class SingletonMeta(type):
-    """
-    A metaclass that ensures only one instance of the singleton class is created.
-    """
-    _instances = {}
-
-    def __call__(cls, *args, **kwargs):
-        if cls not in cls._instances:
-            cls._instances[cls] = super(SingletonMeta, cls).__call__(*args, **kwargs)
-        return cls._instances[cls]
-
-
-class GeneralDataFetcher(metaclass=SingletonMeta):
+class GeneralDataFetcher:
     @abstractmethod
     def get_new_data_since(self, query: str, date: datetime) -> str:
         """
@@ -40,7 +27,7 @@ class GeneralDataFetcher(metaclass=SingletonMeta):
         pass
 
     @abstractmethod
-    def generate_all_relevant_queries(self, base_query: str, number_of_terms: int = 10) -> List[str]:
+    def generate_all_relevant_queries(self, base_query: str, number_of_terms: int) -> List[str]:
         """
         Generate all relevant queries by extracting relevant terms from the search results.
 
@@ -51,16 +38,16 @@ class GeneralDataFetcher(metaclass=SingletonMeta):
         pass
 
     @staticmethod
-    def extract_terms(text: str) -> Set[str]:
+    def extract_terms(term_list: list[str]) -> Set[str]:
         """
         Extract terms from text for use in generating relevant queries.
 
-        :param text: The text to extract terms from
+        :param term_list: The text to extract terms from
         :return: A set of extracted terms
         """
         # For simplicity, we assume terms are words longer than 6 characters.
         # This function can be enhanced with more complex NLP techniques.
-        return {word for word in text.split() if len(word) > 6}
+        return {word for word in term_list if len(word) > 2}
 
     @staticmethod
     def get_data_fetcher_class(interface_id: str) -> type:

@@ -9,7 +9,6 @@ from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.comm.PackageEntity import PackageEntity
 from net.gwngames.pubscraper.msg.comm.SendEntity import SendEntity
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
-from net.gwngames.pubscraper.scheduling.sender.OutSenderQueue import OutSenderQueue
 from net.gwngames.pubscraper.utils.FileReader import FileReader
 from net.gwngames.pubscraper.utils.LoadState import LoadState
 

@@ -24,6 +24,11 @@ from net.gwngames.pubscraper.utils.LoadState import LoadState
 
 class OutSenderQueue(AsyncQueue):
 
+    QUEUE: Final = QueueConstants.OUTSENDER_QUEUE
+
+    def register_me(self) -> type:
+        return OutSenderQueue
+
     def on_message(self, msg: BaseMessage) -> None:
         if isinstance(msg, SerializeJSONData):
             logging.info("Processing SerializeJSONData message with file: %s", msg.json_loc)
@@ -46,6 +51,7 @@ class OutSenderQueue(AsyncQueue):
                 logging.info("Successfully requested serialization for file: %s", msg.json_loc)
             except Exception as e:
                 logging.error("Failed to read entities for file %s: %s", msg.json_loc, str(e))
+                raise e
         elif isinstance(msg, SerializeEntity):
             logging.info("Processing SerializeEntity message with file: %s", msg.entity_loc)
             #  entity gets handed over to the packager right away, compress during serialization

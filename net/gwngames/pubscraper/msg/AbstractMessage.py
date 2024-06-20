@@ -10,7 +10,6 @@ class AbstractMessage:
 
     :param message_type: The type of the message.
     """
-    message_counter: Dict[str, int] = {}
 
     def __init__(self, message_type: str) -> None:
         self.stats: FileReader = FileReader(FileReader.MESSAGE_STAT_FILE_NAME)
@@ -24,11 +23,11 @@ class AbstractMessage:
 
         :return: A unique message ID in the format "<message_type>_<counter>".
         """
-        if self.message_type not in AbstractMessage.message_counter:
-            AbstractMessage.message_counter[self.message_type] = 0
-        AbstractMessage.message_counter[self.message_type] += 1
-        self.stats.set_and_save(self.message_type, AbstractMessage.message_counter[self.message_type])
-        return f"{self.message_type}_{AbstractMessage.message_counter[self.message_type]}"
+        if self.stats.get_value(self.message_type) is None:
+            self.stats.set_and_save(self.message_type, 0)
+        else:
+            self.stats.increment(self.message_type)
+        return f"{self.message_type}_{self.stats.get_value(self.message_type)}"
 
     def __str__(self) -> str:
         """
