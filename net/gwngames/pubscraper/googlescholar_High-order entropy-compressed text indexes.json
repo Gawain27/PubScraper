@@ -1,0 +1,45 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "High-order entropy-compressed text indexes",
+        "pub_year": 2003,
+        "citation": "Society for Industrial and Applied Mathematics Philadelphia, 2003",
+        "author": "Roberto Grossi and Ankur Gupta and Jeffrey Scott Vitter",
+        "publisher": "Society for Industrial and Applied Mathematics Philadelphia",
+        "abstract": "We present a novel implementation of compressed su~x arrays exhibiting new tradeoffs between search time and space occupancy for a given text (or sequence) of n symbols over an alphabet E, where each symbol is encoded by lg ]E I bits. We show that compressed su1~x arrays use just nHh + O(n lglg n~ lgl~ I n) bits, while retaining full text indexing functionalities, such as searching any pattern sequence of length m in O(mlg [E[ + polylog(n)) time. The term Hh < lg IEI denotes the hth-order empirical entropy of the text, which means that our index is nearly optimal in space apart from lower-order terms, achieving asymptotically the empirical entropy of the text (with a multiplicative constant 1). If the text is highly compressible so that H~ = o(1) and the alphabet size is small, we obtain a text index with o(m) search time that requires only o(n) bits. Further results and tradeoffs are reported in the paper."
+    },
+    "filled": true,
+    "author_pub_id": "yZTneswAAAAJ:u-x6o8ySG0sC",
+    "num_citations": 993,
+    "citedby_url": "/scholar?hl=en&cites=6946481020063769737",
+    "cites_id": [
+        "6946481020063769737"
+    ],
+    "pub_url": "https://kuscholarworks.ku.edu/handle/1808/7192",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ieTkB6_bZmAJ:scholar.google.com/",
+    "cites_per_year": {
+        "2003": 5,
+        "2004": 15,
+        "2005": 20,
+        "2006": 23,
+        "2007": 40,
+        "2008": 32,
+        "2009": 48,
+        "2010": 46,
+        "2011": 54,
+        "2012": 68,
+        "2013": 71,
+        "2014": 72,
+        "2015": 62,
+        "2016": 57,
+        "2017": 81,
+        "2018": 60,
+        "2019": 39,
+        "2020": 49,
+        "2021": 48,
+        "2022": 38,
+        "2023": 39,
+        "2024": 13
+    }
+}

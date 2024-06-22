@@ -1,0 +1,45 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Bases of motifs for generating repeated patterns with wild cards",
+        "pub_year": 2005,
+        "citation": "Computational Biology and Bioinformatics, IEEE/ACM Transactions on 2 (1), 40-50, 2005",
+        "author": "Nadia Pisanti and Maxime Crochemore and Roberto Grossi and Marie-France Sagot",
+        "journal": "Computational Biology and Bioinformatics, IEEE/ACM Transactions on",
+        "volume": "2",
+        "number": "1",
+        "pages": "40-50",
+        "publisher": "IEEE",
+        "abstract": "Motif inference represents one of the most important areas of research in computational biology, and one of its oldest ones. Despite this, the problem remains very much open in the sense that no existing definition is fully satisfying, either in formal terms, or in relation to the biological questions that involve finding such motifs. Two main types of motifs have been considered in the literature: matrices (of letter frequency per position in the motif) and patterns. There is no conclusive evidence in favor of either, and recent work has attempted to integrate the two types into a single model. In this paper, we address the formal issue in relation to motifs as patterns. This is essential to get at a better understanding of motifs in general. In particular, we consider a promising idea that was recently proposed, which attempted to avoid the combinatorial explosion in the number of motifs by means of a generator set for the motifs \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "yZTneswAAAAJ:Y0pCki6q_DkC",
+    "num_citations": 83,
+    "citedby_url": "/scholar?hl=en&cites=6796871302762594096",
+    "cites_id": [
+        "6796871302762594096"
+    ],
+    "pub_url": "https://ieeexplore.ieee.org/abstract/document/1416850/",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:MP81QXBWU14J:scholar.google.com/",
+    "cites_per_year": {
+        "2007": 8,
+        "2008": 4,
+        "2009": 9,
+        "2010": 7,
+        "2011": 12,
+        "2012": 7,
+        "2013": 8,
+        "2014": 10,
+        "2015": 2,
+        "2016": 2,
+        "2017": 3,
+        "2018": 2,
+        "2019": 2,
+        "2020": 2,
+        "2021": 1,
+        "2022": 2,
+        "2023": 0,
+        "2024": 2
+    }
+}

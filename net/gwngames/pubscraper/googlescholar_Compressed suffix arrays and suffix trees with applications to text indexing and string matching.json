@@ -1,0 +1,51 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Compressed suffix arrays and suffix trees with applications to text indexing and string matching",
+        "pub_year": 2005,
+        "citation": "SIAM Journal on Computing 35 (2), 378-407, 2005",
+        "author": "Roberto Grossi and Jeffrey Scott Vitter",
+        "journal": "SIAM Journal on Computing",
+        "volume": "35",
+        "number": "2",
+        "pages": "378-407",
+        "publisher": "Society for Industrial and Applied Mathematics"
+    },
+    "filled": true,
+    "author_pub_id": "yZTneswAAAAJ:u5HHmVD_uO8C",
+    "num_citations": 867,
+    "citedby_url": "/scholar?hl=en&cites=7706450568335967594,2270959191255689073",
+    "cites_id": [
+        "7706450568335967594",
+        "2270959191255689073"
+    ],
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:asXFHPbP8moJ:scholar.google.com/",
+    "cites_per_year": {
+        "2000": 7,
+        "2001": 13,
+        "2002": 24,
+        "2003": 22,
+        "2004": 34,
+        "2005": 49,
+        "2006": 37,
+        "2007": 55,
+        "2008": 36,
+        "2009": 61,
+        "2010": 43,
+        "2011": 37,
+        "2012": 42,
+        "2013": 43,
+        "2014": 45,
+        "2015": 44,
+        "2016": 40,
+        "2017": 39,
+        "2018": 33,
+        "2019": 19,
+        "2020": 36,
+        "2021": 42,
+        "2022": 21,
+        "2023": 22,
+        "2024": 9
+    }
+}
