@@ -75,7 +75,7 @@ class StatusServlet:
         while True:
             for server_msg in self.socket.receive_message():
                 load_req = SystemStatusReq("StatusServlet", server_msg)
-                MessageRouter.get_instance().send_message(load_req, QueueConstants.SYSTEM_QUEUE, PriorityConstants.SYSTEM_REQ)
+                MessageRouter.get_instance().send_message(load_req, PriorityConstants.SYSTEM_REQ)
 
     def start(self):
         if self.thread is None:

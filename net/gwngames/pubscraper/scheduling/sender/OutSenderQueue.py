@@ -46,7 +46,7 @@ class OutSenderQueue(AsyncQueue):
                         time.sleep(keepdown_time)
                     entity_num += 1
                     entity_serialize_req = SerializeEntity(msg.content, str(entity_num) + "_" + msg.json_loc)
-                    MessageRouter().send_message(entity_serialize_req, QueueConstants.OUTSENDER_QUEUE,
+                    MessageRouter().send_message(entity_serialize_req,
                                                  PriorityConstants.ENTITY_SERIAL_REQ)
                 logging.info("Successfully requested serialization for file: %s", msg.json_loc)
             except Exception as e:

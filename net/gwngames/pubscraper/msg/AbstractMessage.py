@@ -11,10 +11,12 @@ class AbstractMessage:
     :param message_type: The type of the message.
     """
 
-    def __init__(self, message_type: str) -> None:
+    def __init__(self, message_type: str, delayed: bool = False, destination_queue: str = "") -> None:
         self.stats: FileReader = FileReader(FileReader.MESSAGE_STAT_FILE_NAME)
         self.message_type: str = message_type
         self.message_id: str = self.generate_message_id()
+        self.delayed: bool = delayed
+        self.destination_queue: str = destination_queue
         # TODO: loading of message types from file, define constant enum
 
     def generate_message_id(self) -> str:

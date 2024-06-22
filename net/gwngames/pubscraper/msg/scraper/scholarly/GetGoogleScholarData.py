@@ -2,6 +2,7 @@ from datetime import datetime
 from typing import Dict
 
 from net.gwngames.pubscraper.constants.MessageConstants import MessageConstants
+from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.BaseMessage import BaseMessage
 
 
@@ -9,6 +10,7 @@ class GetGoogleScholarData(BaseMessage):
     def __init__(self, content: str, query: str, timestamp: datetime = None) -> None:
         super().__init__(MessageConstants.MSG_GOOGLE_SCHOLAR_QUERY, content, timestamp)
         self.query: str = query
+        self.destination_queue = QueueConstants.SCRAPER_QUEUE
 
     def __str__(self) -> str:
         parent_str = super().__str__()

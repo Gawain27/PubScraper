@@ -46,7 +46,7 @@ class SerializationUnit:
 
             serialized_entity = compress_object(entity_instance)
             entity_package_req: PackageEntity = PackageEntity(msg.content, serialized_entity, entity_instance.cid)
-            MessageRouter.get_instance().send_message(entity_package_req, QueueConstants.OUTSENDER_QUEUE,
+            MessageRouter.get_instance().send_message(entity_package_req,
                                                       PriorityConstants.ENTITY_PACKAGE_REQ)
         else:
             logger.error("Failed to find or instantiate entity instance.")

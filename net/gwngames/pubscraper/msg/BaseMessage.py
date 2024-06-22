@@ -18,7 +18,6 @@ class BaseMessage(AbstractMessage):
         super().__init__(message_type)  # Initialize the parent class
         self.content: str = content
         self.timestamp: datetime = timestamp if timestamp else datetime.now()
-        self.is_first_run: bool = is_first_run
 
     def __str__(self) -> str:
         """

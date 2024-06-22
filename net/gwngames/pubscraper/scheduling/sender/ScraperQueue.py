@@ -57,5 +57,5 @@ class ScraperQueue(AsyncQueue):
         json_serialize_req = SerializeJSONData(msg.content, scraped_info_file)
         self.logger.info("Sending message %s for %s of type %s", json_serialize_req.message_id,
                          json_serialize_req.content, json_serialize_req.message_type)
-        MessageRouter.get_instance().send_message(json_serialize_req, QueueConstants.OUTSENDER_QUEUE,
+        MessageRouter.get_instance().send_message(json_serialize_req,
                                                   priority=PriorityConstants.SERIALIZATION_REQ)

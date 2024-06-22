@@ -87,7 +87,12 @@ class MessageRouter:
         # TODO don't randomly start threads, maintain a max and release with wait/notify
         self.routing_threads[message.message_id].start()
 
-    def send_message(self, message: AbstractMessage, message_queue: str, priority=0):
+    def send_delayed(self, message: AbstractMessage, priority=0):
+        ThreadUtils.random_sleep(self.config.get_value(ConfigConstants.MIN_WAIT_TIME),
+                                 self.config.get_value(ConfigConstants.MAX_WAIT_TIME))
+        self.send_message(message, priority)
+
+    def send_message(self, message: AbstractMessage, priority=0):
         """
         Send a message to a message queue with an optional priority.
 
@@ -105,23 +110,22 @@ class MessageRouter:
             queue = AsyncQueue()
             send_message(self, message, queue, priority=1)
         """
-        if self.config.get_value(ConfigConstants.MAX_MS_WORKTIME) < (datetime.datetime.now() - self.started_at).total_seconds():
-            logging.info(f"Not starting message: {message}")
+        if self.config.get_value(ConfigConstants.MAX_MS_WORKTIME) < (
+                datetime.datetime.now() - self.started_at).total_seconds():
+            logging.info(f"Timeout. Not starting message: {message}")
             return
 
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
-        loaded_queue: type = AsyncQueue.get_queue_class(message_queue)
+        loaded_queue: type = AsyncQueue.get_queue_class(message.destination_queue)
         self.incoming_queue.send(priority, message, loaded_queue())
-        logging.info(f"Message sent: {message} to: {message_queue}")
+        logging.info(f"Message sent: {message} to: {message.destination_queue}")
 
-    def send_later_in(self, message: AbstractMessage, message_queue: str, sem_type: str, priority=0):
-        #TODO: move this logic to master queue
-        sem: SingletonSemaphore = SingletonSemaphore(sem_type, self.config.get_value(ConfigConstants.MAX_IFACE_REQUESTS))
+    def send_later_in(self, message: AbstractMessage, sem_type: str, priority=0):
+        sem: SingletonSemaphore = SingletonSemaphore(sem_type,
+                                                     self.config.get_value(ConfigConstants.MAX_IFACE_REQUESTS))
         sem.acquire()
         logging.info(f"Delaying message: {message.message_id} of type {message.message_type}")
-        ThreadUtils.random_sleep(self.config.get_value(ConfigConstants.MIN_WAIT_TIME),
-                                 self.config.get_value(ConfigConstants.MAX_WAIT_TIME))
-        self.send_message(message, message_queue, priority)
+        self.send_delayed(message, priority)
         sem.release()
 
     @staticmethod

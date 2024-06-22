@@ -83,4 +83,4 @@ class PackagingUnit:
 
         # Can finally be bufferized for sender
         entity_send_req = SendEntity(msg.content, msg.entity, msg.entity_cid)
-        MessageRouter.get_instance().send_message(entity_send_req, QueueConstants.OUTSENDER_QUEUE, PriorityConstants.ENTITY_SEND_REQ)
+        MessageRouter.get_instance().send_message(entity_send_req, PriorityConstants.ENTITY_SEND_REQ)

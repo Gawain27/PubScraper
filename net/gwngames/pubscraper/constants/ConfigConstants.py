@@ -3,6 +3,7 @@ from typing import Final
 
 class ConfigConstants:
     # FIXME Deprecated, will be removed when implemented the automatic from link
+    DELAY_THRESHOLD: Final = "delay_threshold"
     ROOT_AUTHORS: Final = "root_authors"
     MAX_LOGFILE_LINES: Final = "max_logfile_lines"
     LOG_FILENAME: Final = 'pubscraper.log'

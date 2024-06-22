@@ -91,7 +91,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         authors: list[str] = StringUtils.process_string(authors_list)
         for author in authors:
             author_msg = GetScholarlyAuthor(self.INTERFACE_ID + "_" + author, author)
-            MessageRouter.get_instance().send_later_in(author_msg, QueueConstants.SCRAPER_QUEUE, self.INTERFACE_ID)
+            MessageRouter.get_instance().send_later_in(author_msg, self.INTERFACE_ID)
             self.logger.info("Sent message %s for author: %s", author_msg.message_id, author)
 
     def fetch_author_data(self, author: str) -> str:
@@ -113,7 +113,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
 
             for pub in full_author['publications']:
                 publication_msg = GetScholarlyPublication(self.INTERFACE_ID + "_" + author, pub)
-                MessageRouter.get_instance().send_later_in(publication_msg, QueueConstants.SCRAPER_QUEUE, self.INTERFACE_ID)
+                MessageRouter.get_instance().send_later_in(publication_msg, self.INTERFACE_ID)
                 self.logger.info("Sent publication message %s for author %s", publication_msg.message_id, author)
 
             authors.append(full_author)
@@ -171,7 +171,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
                 self.logger.debug("Paper fetched: %s", paper)
 
                 root_topic_msg = ScrapeTopic(filename, number_of_terms, paper)
-                MessageRouter.get_instance().send_message(root_topic_msg, QueueConstants.SCRAPER_QUEUE)
+                MessageRouter.get_instance().send_message(root_topic_msg)
                 self.logger.debug("Sent message to scraper queue for paper: %s", paper)
 
         except StopIteration:
@@ -215,7 +215,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
             first_run = stats.get_value(message.content) is not None
             message.is_first_run = first_run
             stats.set_and_save(message.content, datetime.today())
-            router.send_message(message, QueueConstants.SCRAPER_QUEUE, PriorityConstants.INTERFACE_REQ)
+            router.send_message(message, PriorityConstants.INTERFACE_REQ)
 
     def scrape_paper(self, msg: ScrapeTopic):
         self.logger.debug("Scraping paper for topic: %s", msg.content)

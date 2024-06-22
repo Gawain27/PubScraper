@@ -8,6 +8,7 @@ from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.utils.ClassUtils import ClassUtils
 from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
 class AsyncQueue(queue.Queue):
@@ -28,6 +29,8 @@ class AsyncQueue(queue.Queue):
         This method is used to process a message by invoking the `on_message` method and removing the message from
         the routing threads list in the provided `router` object.
         """
+        if msg.delayed:
+            router.send_delayed(msg,)
         start_time: float = time.time()
         logging.debug(f"Message routed for topic '{msg.message_type}': {msg.message_id}")
 
