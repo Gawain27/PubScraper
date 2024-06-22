@@ -13,6 +13,8 @@ class MessageConstants:
     MSG_SCRAPE_LEAF: Final = "scrapeLeaf"
 
     #  Scraper messages -- Interface
+    MSG_SCHOLARLY_AUTHOR: Final = "scholarlyAuthor"
+    MSG_SCHOLARLY_PUB: Final = "scholarlyPublication"
     MSG_GOOGLE_SCHOLAR_QUERY: Final = "getGoogleScholarEntity"
 
     #  System messages

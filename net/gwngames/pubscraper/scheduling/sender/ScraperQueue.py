@@ -5,9 +5,10 @@ from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstant
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.BaseMessage import BaseMessage
 from net.gwngames.pubscraper.msg.comm.SerializeJSONData import SerializeJSONData
-from net.gwngames.pubscraper.msg.scraper.GetGoogleScholarData import GetGoogleScholarData
-from net.gwngames.pubscraper.msg.scraper.core.ScrapeLeaf import ScrapeLeaf
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetGoogleScholarData import GetGoogleScholarData
 from net.gwngames.pubscraper.msg.scraper.core.ScrapeTopic import ScrapeTopic
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyAuthor import GetScholarlyAuthor
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPublication import GetScholarlyPublication
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
 from net.gwngames.pubscraper.scraper.ifaces.ScholarlyDataFetcher import ScholarlyDataFetcher
@@ -22,21 +23,24 @@ class ScraperQueue(AsyncQueue):
     def on_message(self, msg: BaseMessage) -> None:
         self.logger.info("Received message: %s", msg)
 
-        if msg.is_first_run:
-            filter_date = datetime.min
-            self.logger.info("Setting filter date from the minimum possible date: %s", filter_date)
-        else:
-            filter_date = self.message_stats.get_value(msg.content)
+        filter_date = self.message_stats.get_value(msg.content)
+        if filter_date is None:
             self.logger.info("Setting filter date from: %s", filter_date)
-        self.message_stats.set_and_save(msg.content, datetime.today().isoformat())
+            self.message_stats.set_and_save(msg.content, datetime.today().isoformat())
 
         scraped_info_file: str = ""
-
         if isinstance(msg, ScrapeTopic):
             self.logger.info("Processing ScrapeTopic message for paper: %s", msg.content)
             ScholarlyDataFetcher().scrape_paper(msg)
             self.logger.info("Successfully completed ScrapeTopic message for paper: %s", msg.content)
             return
+        elif isinstance(msg, GetScholarlyAuthor):
+            self.logger.info("Processing message %s of type GetScholarlyAuthor", msg.message_id)
+            scraped_info_file = ScholarlyDataFetcher().fetch_author_data(msg.author)
+            self.logger.info("Processed message %s of type GetScholarlyAuthor", msg.message_id)
+        elif isinstance(msg, GetScholarlyPublication):
+            scraped_info_file = ScholarlyDataFetcher().fetch_author_publication(msg.pub)
+            self.logger.info("Processed message %s of type GetScholarlyPublication", msg.message_id)
         elif isinstance(msg, GetGoogleScholarData):
             self.logger.info("Processing GetGoogleScholarData message with query: %s", msg.query)
             try:
@@ -49,6 +53,9 @@ class ScraperQueue(AsyncQueue):
             self.logger.error("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
             raise Exception("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
 
+        return
         json_serialize_req = SerializeJSONData(msg.content, scraped_info_file)
+        self.logger.info("Sending message %s for %s of type %s", json_serialize_req.message_id,
+                         json_serialize_req.content, json_serialize_req.message_type)
         MessageRouter.get_instance().send_message(json_serialize_req, QueueConstants.OUTSENDER_QUEUE,
                                                   priority=PriorityConstants.SERIALIZATION_REQ)

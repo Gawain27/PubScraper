@@ -1,9 +1,14 @@
+import datetime
 import logging
 import threading
 from typing import Dict, Any
 
+from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MasterPriorityQueue import MasterPriorityQueue
+from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.Semaphore import SingletonSemaphore
+from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
 class MessageRouter:
@@ -33,8 +38,10 @@ class MessageRouter:
         if self.__initialized:
             return
         self.__initialized = True
+        self.started_at = datetime.datetime.now()
         self.incoming_queue = MasterPriorityQueue()
         self.routing_threads: Dict[str, threading.Thread] = {}
+        self.config = FileReader(FileReader.CONFIG_FILE_NAME)
 
     def start(self):
         """
@@ -98,10 +105,24 @@ class MessageRouter:
             queue = AsyncQueue()
             send_message(self, message, queue, priority=1)
         """
+        if self.config.get_value(ConfigConstants.MAX_MS_WORKTIME) < (datetime.datetime.now() - self.started_at).total_seconds():
+            logging.info(f"Not starting message: {message}")
+            return
+
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
         loaded_queue: type = AsyncQueue.get_queue_class(message_queue)
         self.incoming_queue.send(priority, message, loaded_queue())
         logging.info(f"Message sent: {message} to: {message_queue}")
+
+    def send_later_in(self, message: AbstractMessage, message_queue: str, sem_type: str, priority=0):
+        #TODO: move this logic to master queue
+        sem: SingletonSemaphore = SingletonSemaphore(sem_type, self.config.get_value(ConfigConstants.MAX_IFACE_REQUESTS))
+        sem.acquire()
+        logging.info(f"Delaying message: {message.message_id} of type {message.message_type}")
+        ThreadUtils.random_sleep(self.config.get_value(ConfigConstants.MIN_WAIT_TIME),
+                                 self.config.get_value(ConfigConstants.MAX_WAIT_TIME))
+        self.send_message(message, message_queue, priority)
+        sem.release()
 
     @staticmethod
     def get_instance():

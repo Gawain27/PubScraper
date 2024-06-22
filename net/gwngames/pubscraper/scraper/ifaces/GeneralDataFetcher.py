@@ -1,7 +1,7 @@
 import logging
 from abc import abstractmethod
 from datetime import datetime
-from typing import List, Set
+from typing import List, Set, Any
 
 
 class GeneralDataFetcher:
@@ -27,12 +27,37 @@ class GeneralDataFetcher:
         pass
 
     @abstractmethod
-    def generate_all_relevant_queries(self, base_query: str, number_of_terms: int) -> List[str]:
+    def generate_all_relevant_authors(self, authors_list: str):
+        """
+                Generate all relevant authors by extracting relevant links from the search results.
+
+                :param authors_list: The base author's list (e.g. '<NAME>, etc...')'
+                :return: None, everything is handled with files for less ram complexity
+                """
+        pass
+
+    @abstractmethod
+    def fetch_author_data(self, author: str) -> str:
+        """
+        :param author:
+        :return: the file name of the author
+        """
+        pass
+
+    @abstractmethod
+    def fetch_author_publication(self, publication: Any) -> str:
+        """
+        :param publication:
+        :return: the file name of the publication
+        """
+        pass
+
+    @abstractmethod
+    def generate_all_relevant_queries(self, base_query: str) -> List[str]:
         """
         Generate all relevant queries by extracting relevant terms from the search results.
 
         :param base_query: The base search query
-        :param number_of_terms: The number of relevant terms to extract
         :return: List of all relevant queries
         """
         pass

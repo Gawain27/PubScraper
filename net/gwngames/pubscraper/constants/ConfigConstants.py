@@ -2,18 +2,18 @@ from typing import Final
 
 
 class ConfigConstants:
-    ROOT_TOPICS: Final = "root_topics"
+    # FIXME Deprecated, will be removed when implemented the automatic from link
+    ROOT_AUTHORS: Final = "root_authors"
     MAX_LOGFILE_LINES: Final = "max_logfile_lines"
     LOG_FILENAME: Final = 'pubscraper.log'
     INTERFACES_ENABLED: Final = 'interfaces_enabled'
-    TERMS_MAX: Final = 'terms_max'
-    DELAY_THRESHOLD: Final = 'delay_threshold'
     MAX_BUFFER_RETRIES: Final = 'max_buffer_retries'
     ACCEPTABLE_LOAD: Final = 'acceptable_load'
     SERVER_URL: Final = 'server_url'
     SERVER_ENTITY_PORT: Final = 'entity_port'
     SERVER_STATUS_PORT: Final = 'status_port'
     KEEPDOWN_TIME: Final = 'keepdown_time'
-    TERMS_MIN: Final = 'terms_min'
-    RESCRAPE_ROOT_TIME: Final = 'rescrape_root_time'
-    MAX_SCHOLARLY_REQUESTS: Final = 'max_scholarly_requests'
+    MIN_WAIT_TIME: Final = 'min_wait_time'
+    MAX_WAIT_TIME: Final = 'max_wait_time'
+    MAX_MS_WORKTIME: Final = 'max_ms_worktime'
+    MAX_IFACE_REQUESTS: Final = 'max_iface_requests'

@@ -1,4 +1,5 @@
 import logging
+import os
 import sys
 
 from net.gwngames.pubscraper.LogFileHandler import LogFileHandler
@@ -15,7 +16,7 @@ class ExcludeFilter(logging.Filter):
 
 
 if __name__ == '__main__':
-    conf_reader = FileReader(FileReader.CONFIG_FILE_NAME, "main")
+    conf_reader = FileReader(FileReader.CONFIG_FILE_NAME)
 
     max_logfile_lines: int = conf_reader.get_value(ConfigConstants.MAX_LOGFILE_LINES)
 

@@ -1,9 +1,9 @@
+import asyncio
 import json
 import logging
 import os
-import time
 from datetime import datetime, timedelta
-from typing import List, Final
+from typing import List, Final, Any
 
 from scholarly import ProxyGenerator
 from scholarly import scholarly
@@ -13,15 +13,17 @@ from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
-from net.gwngames.pubscraper.msg.scraper.GetGoogleScholarData import GetGoogleScholarData
-from net.gwngames.pubscraper.msg.scraper.core.ScrapeLeaf import ScrapeLeaf
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetGoogleScholarData import GetGoogleScholarData
 from net.gwngames.pubscraper.msg.scraper.core.ScrapeTopic import ScrapeTopic
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyAuthor import GetScholarlyAuthor
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPublication import GetScholarlyPublication
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
 from net.gwngames.pubscraper.utils.ClassRegisterer import TopicRegisterer
 from net.gwngames.pubscraper.utils.FileReader import FileReader
 from net.gwngames.pubscraper.utils.FileUtils import FileUtils
 from net.gwngames.pubscraper.utils.Semaphore import SingletonSemaphore
+from net.gwngames.pubscraper.utils.StringUtils import StringUtils
 from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
@@ -36,8 +38,6 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         self.logger = logging.getLogger('ScholarlyDataFetcher')
         logging.basicConfig(level=LoggingConstants.SCHOLARLY_DATA_FETCHER)
         self.config = FileReader(FileReader.CONFIG_FILE_NAME, self.INTERFACE_ID)
-        self.terms_max = self.config.get_value(ConfigConstants.TERMS_MAX)
-        self.terms_min = self.config.get_value(ConfigConstants.TERMS_MIN)
 
         if self.proxy_enabled:
             self.pg = ProxyGenerator()
@@ -85,7 +85,52 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
 
         return queries
 
-    def generate_all_relevant_queries(self, base_term: str, number_of_terms: int) -> str:
+    def generate_all_relevant_authors(self, authors_list: str):
+        self.logger.info("Generating all relevant authors for authors: %s", authors_list)
+
+        authors: list[str] = StringUtils.process_string(authors_list)
+        for author in authors:
+            author_msg = GetScholarlyAuthor(self.INTERFACE_ID + "_" + author, author)
+            MessageRouter.get_instance().send_later_in(author_msg, QueueConstants.SCRAPER_QUEUE, self.INTERFACE_ID)
+            self.logger.info("Sent message %s for author: %s", author_msg.message_id, author)
+
+    def fetch_author_data(self, author: str) -> str:
+        self.logger.info("helloooo")
+        search_query = scholarly.search_author(author)
+        self.logger.info("aiuttooo")
+        authors = []
+
+        filename = f"{ScholarlyDataFetcher.INTERFACE_ID}_{author}.json"
+
+        # Supposedly only ever one
+        for author_snip in search_query:
+            full_author = scholarly.fill(author_snip)
+            self.logger.info("Retrieved author: %s", author)
+
+            with open(filename, 'w') as file:
+                json.dump(full_author, file, indent=4)
+            self.logger.info("Saved generated authors to file: %s", filename)
+
+            for pub in full_author['publications']:
+                publication_msg = GetScholarlyPublication(self.INTERFACE_ID + "_" + author, pub)
+                MessageRouter.get_instance().send_later_in(publication_msg, QueueConstants.SCRAPER_QUEUE, self.INTERFACE_ID)
+                self.logger.info("Sent publication message %s for author %s", publication_msg.message_id, author)
+
+            authors.append(full_author)
+
+        return filename
+
+    def fetch_author_publication(self, publication: Any) -> str:
+        self.logger.info("Fetching author publication for interface %s", self.INTERFACE_ID)
+        pub_filled = scholarly.fill(publication)
+
+        filename = f"{ScholarlyDataFetcher.INTERFACE_ID}_{pub_filled['bib']['title']}.json"
+        with open(filename, 'w') as file:
+            json.dump(pub_filled, file, indent=4)
+        self.logger.info("Saved generated authors to file: %s", filename)
+        return filename
+
+    def generate_all_relevant_queries(self, base_term: str) -> str:
         current_date = datetime.now().strftime("%Y-%m-%d")
         filehint = f"{ScholarlyDataFetcher.INTERFACE_ID}_{base_term}"
 
@@ -103,7 +148,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
             reader.set_and_save(JsonConstants.TAG_TOPIC_BARRIER, True)
             self.logger.debug("Set topic barrier in file: %s", curr_filename)
 
-            self.generate_root_topics(curr_filename, number_of_terms)
+            self.generate_root_topics(curr_filename)
             self.logger.info("Started generation of relevant terms to file: %s", curr_filename)
         else:
             self.logger.debug("Conditions not met to save terms to %s. Skipping...", filehint)
@@ -176,14 +221,8 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         self.logger.debug("Scraping paper for topic: %s", msg.content)
 
         try:
-            sem = SingletonSemaphore(self.INTERFACE_ID, self.config.get_value(ConfigConstants.MAX_SCHOLARLY_REQUESTS))
-            self.logger.debug("acquireing")
-            sem.acquire()
-            ThreadUtils.random_sleep(1, 5)
             paper_filled = scholarly.fill(msg.paper)
-            self.logger.debug("realising")
-            sem.release()
-            interests = paper_filled.get('interests', '')
+            interests = paper_filled.get('interests', '')  #FIXME change logic
             terms = self.extract_terms(interests)
             self.logger.debug("Total terms read for query %s: %s -> %s", msg.content, len(terms), terms)
 
@@ -202,7 +241,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
             if msg.number_of_terms < self.terms_min:
                 for term in terms:
                     self.generate_root_topics(self.INTERFACE_ID + "_" + term + "_" + msg.content.split("_")[2],
-                                              int(msg.number_of_terms/2))
+                                              int(msg.number_of_terms / 2))
 
         except Exception as e:
             self.logger.error("Error occurred while scraping paper for topic %s: %s", msg.content, str(e))
