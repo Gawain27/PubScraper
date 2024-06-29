@@ -3,9 +3,9 @@
     "googlescholar_Roberto Grossi": "2024-06-28T13:07:55.160990",
     "googlescholar_Riccardo Guidotti": "2024-06-28T13:07:57.168621",
     "googlescholar_Laura Semini": "2024-06-28T13:08:18.617498",
-    "scholarlyPublication": 238,
-    "getScholarlyCitations": 341,
-    "getScholarlyPubRelatedArticles": 32,
+    "scholarlyPublication": 243,
+    "getScholarlyCitations": 351,
+    "getScholarlyPubRelatedArticles": 41,
     "googlescholar_yZTneswAAAAJu-x6o8ySG0sC_2003_High-order_entropy-compressed_text.json": "2024-06-28T13:10:04.675349",
     "googlescholar_yZTneswAAAAJ:u-x6o8ySG0sC_citation": "2024-06-28T13:10:21.031936",
     "googlescholar_yZTneswAAAAJd1gkVwhDpl0C_1999_The_string_B-tree.json": "2024-06-28T13:24:53.119697",
@@ -132,5 +132,8 @@
     "googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_citation.json": "2024-06-29T11:13:14.895138",
     "googlescholar_yZTneswAAAAJu5HHmVD_uO8C_citation.json": "2024-06-29T11:19:08.070230",
     "googlescholar_yZTneswAAAAJZHo1McVdvXMC_citation.json": "2024-06-29T11:22:07.808516",
-    "googlescholar_KZUaK6YAAAAJ:M3NEmzRMIkIC_article": "2024-06-29T11:46:44.862724"
+    "googlescholar_KZUaK6YAAAAJ:M3NEmzRMIkIC_article": "2024-06-29T11:46:44.862724",
+    "googlescholar_KZUaK6YAAAAJ:M3NEmzRMIkIC_related.json": "2024-06-29T11:47:48.399092",
+    "googlescholar_KZUaK6YAAAAJ:EUQCXRtRnyEC_article": "2024-06-29T11:48:07.474315",
+    "googlescholar_KZUaK6YAAAAJ:eq2jaN3J8jMC_article": "2024-06-29T11:50:03.697109"
 }

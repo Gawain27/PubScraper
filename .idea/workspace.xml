@@ -4,33 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="example data">
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/scraper/scholarly/GetScholarlyPubRelatedArticles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/RequestState.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/ConfigConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/ConfigConstants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/MessageConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/MessageConstants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_Bases of motifs for generating repeated patterns with wild cards.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_Compressed suffix arrays and suffix trees with applications to text indexing and string matching.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_High-order entropy-compressed text indexes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_On computing the diameter of real-world undirected graphs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_Roberto Grossi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_Squeezing succinct data structures into entropy bounds.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_The string B-tree" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/scraper/scholarly/GetScholarlyPubCitations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/main.py" afterDir="false" />
+    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="Effectively fetched entities from google scholar interface">
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/message_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/message_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/AbstractMessage.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/AbstractMessage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/MasterPriorityQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/MasterPriorityQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/MessageRouter.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/MessageRouter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/AsyncQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/AsyncQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/ScraperQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/ScraperQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/GeneralDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/GeneralDataFetcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScholarlyDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScholarlyDataFetcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/FileReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/FileReader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/Semaphore.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/Semaphore.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/StringUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/StringUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/ThreadUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/ThreadUtils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +129,7 @@
       <workItem from="1718461841888" duration="45947000" />
       <workItem from="1718825643009" duration="33087000" />
       <workItem from="1719077177009" duration="41239000" />
-      <workItem from="1719559816317" duration="41406000" />
+      <workItem from="1719559816317" duration="41863000" />
     </task>
     <task id="LOCAL-00001" summary="#47 - Basic structure + general interface unit">
       <option name="closed" value="true" />
@@ -228,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719078657534</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Effectively fetched entities from google scholar interface">
+      <option name="closed" value="true" />
+      <created>1719654468836</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719654468836</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,10 +238,11 @@
     <MESSAGE value="latest quick refactor" />
     <MESSAGE value="majon improvement in message logic" />
     <MESSAGE value="example data" />
-    <option name="LAST_COMMIT_MESSAGE" value="example data" />
+    <MESSAGE value="Effectively fetched entities from google scholar interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effectively fetched entities from google scholar interface" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PubScraper$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1719654159032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper" />
+    <SUITE FILE_PATH="coverage/PubScraper$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1719654280921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper" />
     <SUITE FILE_PATH="coverage/PubScraper$main.coverage" NAME="main Coverage Results" MODIFIED="1719015648774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

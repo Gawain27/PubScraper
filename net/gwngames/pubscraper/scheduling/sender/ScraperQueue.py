@@ -49,7 +49,7 @@ class ScraperQueue(AsyncQueue):
             scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_pub_citations(msg.citations, StringUtils.sanitize_string(msg.pub_id), msg.pub)
             self.logger.info("Processed message %s of type GetScholarlyPubCitations", msg.content)
         elif isinstance(msg, GetScholarlyPubRelatedArticles):
-            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_related_articles(msg.articles, msg.pub_id, msg.pub)
+            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_related_articles(msg.articles, StringUtils.sanitize_string(msg.pub_id), msg.pub)
             self.logger.info("Processed message %s of type GetScholarlyPubRelatedArticles", msg.content)
         elif isinstance(msg, GetGoogleScholarData):
             self.logger.info("Processing GetGoogleScholarData message with query: %s", msg.query)
