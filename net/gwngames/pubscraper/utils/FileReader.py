@@ -17,7 +17,7 @@ class FileReader:
 
     def __init__(self, file: str, parent: str = None):
         self.file = file
-        self.data = None
+        self.data: dict = {}
         self.logger = logging.getLogger("file_" + file) if parent is None else logging.getLogger(parent + "_" + file)
         self.logger.setLevel(logging.DEBUG)  # Set the logging level to DEBUG
 
@@ -27,7 +27,7 @@ class FileReader:
         self.lock = FileReader._locks[file]
         self.load_file()
 
-    def load_file(self):
+    def load_file(self, create: bool = False):
         """
         Load the data from the specified file.
 
@@ -39,18 +39,16 @@ class FileReader:
 
                 if file_size == 0:
                     self.data = {}
-                    self.logger.info(f"File '{self.file}' is empty. Initialized with empty data.")
                 else:
                     with open(self.file, 'r') as f:
                         self.data = json.load(f)
-                    self.logger.info(f"Loaded data from '{self.file}' successfully.")
-            except FileNotFoundError:
-                self.logger.info(f"Creating new file '{self.file}'")
-                with open(self.file, 'w') as f:
-                    self.data = {}
-                    json.dump(self.data, f)
-                    self.save_changes()
-                    self.logger.info(f"Created new file '{self.file}' and initialized with empty data.")
+            except FileNotFoundError as e:
+                if create:
+                    with open(self.file, 'w') as f:
+                        self.data = {}
+                        json.dump(self.data, f)
+                        self.save_changes()
+                        self.logger.info(f"Created new file '{self.file}' and initialized with empty data.")
             except json.JSONDecodeError:
                 self.logger.error(f"Error: Invalid JSON format in file '{self.file}'.")
 
@@ -64,7 +62,6 @@ class FileReader:
         if self.lock:
             if self.data is None:
                 raise Exception("Data not loaded. Call load_file() first.")
-            self.logger.debug("Retrieving value from for key '%s - %s'.", key, self.data.get(key, None))
             return self.data.get(key, None)
 
     def set_value(self, key: str, value):
@@ -80,7 +77,6 @@ class FileReader:
                 raise Exception("Data not loaded. Call load_file() first.")
 
             self.data[key] = value
-            self.logger.info(f"Set value '{value}' for key '{key}'.")
             self.save_changes()
 
     def save_changes(self):
@@ -96,11 +92,10 @@ class FileReader:
             try:
                 with open(self.file, 'w') as f:
                     json.dump(self.data, f, indent=4)
-                self.logger.info(f"Changes saved to '{self.file}' successfully.")
             except IOError as e:
                 self.logger.error(f"Error saving changes to '{self.file}': {e}")
         else:
-            self.logger.debug(f"No changes saved to '{self.file}' successfully.")
+            self.logger.error(f"No changes saved to '{self.file}' successfully.")
 
     def clear(self, key: str):
         """
@@ -179,7 +174,7 @@ class FileReader:
             self.set_value(key, prev + 1)
             self.save_changes()
 
-    def dump_and_save(self, dump: Any = None):
+    def dump_and_save(self, dump: Any):
         """
             Save data.
 
@@ -189,6 +184,12 @@ class FileReader:
             """
         with self.lock:
             with open(self.file, 'a') as f:
-                if dump is not None:
-                    json.dump(dump, f)
+                self.data = dump
             self.save_changes()
+
+    def is_empty(self):
+        return self.data.items().__len__() == 0
+
+    def is_outdated(self):
+        # todo implement outdate logic for files
+        return False

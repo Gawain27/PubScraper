@@ -1,0 +1,32 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Give more data, awareness and control to individual citizens, and they will help COVID-19 containment",
+        "pub_year": 2021,
+        "citation": "Ethics and Information Technology 23 (1), 1-6, 2021",
+        "author": "Mirco Nanni and Gennady Andrienko and Albert-L\u00e1szl\u00f3 Barab\u00e1si and Chiara Boldrini and Francesco Bonchi and Ciro Cattuto and Francesca Chiaromonte and Giovanni Comand\u00e9 and Marco Conti and Mark Cot\u00e9 and Frank Dignum and Virginia Dignum and Josep Domingo-Ferrer and Paolo Ferragina and Fosca Giannotti and Riccardo Guidotti and Dirk Helbing and Kimmo Kaski and Janos Kertesz and Sune Lehmann and Bruno Lepri and Paul Lukowicz and Stan Matwin and David Meg\u00edas Jim\u00e9nez and Anna Monreale and Katharina Morik and Nuria Oliver and Andrea Passarella and Andrea Passerini and Dino Pedreschi and Alex Pentland and Fabio Pianesi and Francesca Pratesi and Salvatore Rinzivillo and Salvatore Ruggieri and Arno Siebes and Vicenc Torra and Roberto Trasarti and Jeroen van den Hoven and Alessandro Vespignani",
+        "journal": "Ethics and Information Technology",
+        "volume": "23",
+        "number": "1",
+        "pages": "1-6",
+        "publisher": "Springer Netherlands",
+        "abstract": "The rapid dynamics of COVID-19 calls for quick and effective tracking of virus transmission chains and early detection of outbreaks, especially in the \u201cphase 2\u201d of the pandemic, when lockdown and other restriction measures are progressively withdrawn, in order to avoid or minimize contagion resurgence. For this purpose, contact-tracing apps are being proposed for large scale adoption by many countries. A centralized approach, where data sensed by the app are all sent to a nation-wide server, raises concerns about citizens\u2019 privacy and needlessly strong digital surveillance, thus alerting us to the need to minimize personal data collection and avoiding location tracking. We advocate the conceptual advantage of a decentralized approach, where both contact and location data are collected exclusively in individual citizens\u2019\u201cpersonal data stores\u201d, to be shared separately and selectively (eg, with a backend system \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "KZUaK6YAAAAJ:UxriW0iASnsC",
+    "num_citations": 73,
+    "citedby_url": "/scholar?hl=en&cites=10709308842728334741",
+    "cites_id": [
+        "10709308842728334741"
+    ],
+    "pub_url": "https://link.springer.com/article/10.1007/s10676-020-09572-w?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst&utm_source=ArticleAuthorOnlineFirst&utm_medium=email&utm_content=AA_en_06082018&ArticleAuthorOnlineFirst_20210203&error=cookies_not_supported&code=6b6d6ff2-7a79-407c-88f5-249cc26e3a94",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:laXF8KYbn5QJ:scholar.google.com/",
+    "cites_per_year": {
+        "2020": 12,
+        "2021": 16,
+        "2022": 22,
+        "2023": 20,
+        "2024": 2
+    }
+}

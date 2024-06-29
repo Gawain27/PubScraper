@@ -1,0 +1,33 @@
+{
+    "__2021_Weisfeiler_and_lehman": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Weisfeiler and lehman go cellular: Cw networks",
+            "author": [
+                "C Bodnar",
+                "F Frasca",
+                "N Otter",
+                "Y Wang"
+            ],
+            "pub_year": "2021",
+            "venue": "Advances in neural \u2026",
+            "abstract": "Graph Neural Networks (GNNs) are limited in their expressive power, struggle with long-range interactions and lack a principled way to model higher-order structures. These"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://proceedings.neurips.cc/paper/2021/hash/157792e4abb490f99dbd738483e0d2d4-Abstract.html",
+        "author_id": [
+            "pSmh9tkAAAAJ",
+            "PT2CDA4AAAAJ",
+            "YkTpjh4AAAAJ",
+            "cMSEByAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:F55AqYO-K5MJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D1139997024305818716%26scipsc%3D&citilm=1&update_op=library_add&info=F55AqYO-K5MJ&ei=ONJ_ZrnZDOPTy9YPncyQqAs&json=",
+        "num_citations": 242,
+        "citedby_url": "/scholar?cites=10604779220263542295&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:F55AqYO-K5MJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://proceedings.neurips.cc/paper/2021/file/157792e4abb490f99dbd738483e0d2d4-Paper.pdf"
+    }
+}

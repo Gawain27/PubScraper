@@ -1,6 +1,11 @@
 import logging
 import os
 import sys
+import time
+
+import scholarly
+from fp.fp import FreeProxy
+from scholarly import ProxyGenerator
 
 from net.gwngames.pubscraper.LogFileHandler import LogFileHandler
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
@@ -12,7 +17,7 @@ from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 
 class ExcludeFilter(logging.Filter):
     def filter(self, record):
-        return not any(record.name.startswith(mod) for mod in ('httpx', 'httpcore', 'scholarly'))
+        return not any(record.name.startswith(mod) for mod in ('httpx', 'httpcore', 'urllib3', 'selenium'))
 
 
 if __name__ == '__main__':

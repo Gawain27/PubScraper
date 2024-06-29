@@ -13,3 +13,11 @@ class StringUtils:
             # Split the string by commas
             result = input_string.split(',')
             return result
+
+    @staticmethod
+    def sanitize_string(input_string):
+        trimmed_string = input_string.strip()
+        invalid_chars = '<>:"/\\|?*'
+        sanitized_string = ''.join('' if c in invalid_chars else c for c in trimmed_string)
+
+        return sanitized_string

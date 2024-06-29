@@ -8,6 +8,7 @@ from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.utils.ClassUtils import ClassUtils
 from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.RequestState import RequestState
 from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
@@ -30,7 +31,8 @@ class AsyncQueue(queue.Queue):
         the routing threads list in the provided `router` object.
         """
         if msg.delayed:
-            router.send_delayed(msg,)
+            router.send_delayed(msg)
+            return
         start_time: float = time.time()
         logging.debug(f"Message routed for topic '{msg.message_type}': {msg.message_id}")
 
@@ -39,6 +41,7 @@ class AsyncQueue(queue.Queue):
         elapsed_time: float = (time.time() - start_time) * 1000
         logging.debug(
             f"Managed message for topic '{msg.message_type}': {msg.message_id} - Time: {elapsed_time:.3f} ms.")
+        RequestState().notify_update()
         router.routing_threads.pop(msg.message_id)
 
     @abstractmethod

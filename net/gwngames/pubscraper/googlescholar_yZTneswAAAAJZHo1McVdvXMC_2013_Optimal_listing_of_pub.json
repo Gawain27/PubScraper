@@ -1,0 +1,36 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Optimal listing of cycles and st-paths in undirected graphs",
+        "pub_year": 2013,
+        "citation": "Proceedings of the twenty-fourth annual ACM-SIAM symposium on Discrete \u2026, 2013",
+        "author": "Etienne Birmel\u00e9 and Rui Ferreira and Roberto Grossi and Andrea Marino and Nadia Pisanti and Romeo Rizzi and Gustavo Sacomoto",
+        "pages": "1884-1896",
+        "publisher": "Society for Industrial and Applied Mathematics",
+        "abstract": "The classical problem of efficiently listing all the simple cycles in a graph has been studied since the early 70s. For a graph with n vertices and m edges, containing \u03b7 cycles, the most efficient solution was presented by Johnson [SIAM J. Computing, 1975] and takes O((\u03b7 + 1)(m + n)) time. This solution is not optimal for undirected graphs: nevertheless, no theoretical improvements have been proposed in the past decades.We present the first optimal solution to list all the simple cycles in an undirected graph G. Specifically, let (G) denote the set of all these cycles (|(G)| = \u03b7). For a cycle c \u220a (G), let |c| denote the number of edges in c. Our algorithm requires  time and is asymptotically optimal: \u03a9(m) time is necessarily required to read G as input, and  time is required to list the output.We also present the first optimal solution to list all the simple paths from s to t (shortly, st-paths) in an undirected graph G. Let st(G) denote the \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "yZTneswAAAAJ:ZHo1McVdvXMC",
+    "num_citations": 115,
+    "citedby_url": "/scholar?hl=en&cites=4036470605052839253",
+    "cites_id": [
+        "4036470605052839253"
+    ],
+    "pub_url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611973105.134",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:VQV7EKFsBDgJ:scholar.google.com/",
+    "cites_per_year": {
+        "2013": 5,
+        "2014": 9,
+        "2015": 7,
+        "2016": 9,
+        "2017": 8,
+        "2018": 15,
+        "2019": 10,
+        "2020": 5,
+        "2021": 11,
+        "2022": 13,
+        "2023": 16,
+        "2024": 7
+    }
+}

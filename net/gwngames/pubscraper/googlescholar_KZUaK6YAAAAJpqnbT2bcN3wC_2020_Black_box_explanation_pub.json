@@ -1,0 +1,31 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Black box explanation by learning image exemplars in the latent feature space",
+        "pub_year": 2020,
+        "citation": "Machine Learning and Knowledge Discovery in Databases: European Conference \u2026, 2020",
+        "author": "Riccardo Guidotti and Anna Monreale and Stan Matwin and Dino Pedreschi",
+        "conference": "Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2019, W\u00fcrzburg, Germany, September 16\u201320, 2019, Proceedings, Part I",
+        "pages": "189-205",
+        "publisher": "Springer International Publishing",
+        "abstract": " We present an approach to explain the decisions of black box models for image classification. While using the black box to label images, our explanation method exploits the latent feature space learned through an adversarial autoencoder. The proposed method first generates exemplar images in the latent feature space and learns a decision tree classifier. Then, it selects and decodes exemplars respecting local decision rules. Finally, it visualizes them in a manner that shows to the user how the exemplars can be modified to either stay within their class, or to become counter-factuals by \u201cmorphing\u201d into another class. Since we focus on black box decision systems for image classification, the explanation obtained from the exemplars also provides a saliency map highlighting the areas of the image that contribute to its classification, and areas of the image that push it into another class. We present the results of an \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "KZUaK6YAAAAJ:pqnbT2bcN3wC",
+    "num_citations": 88,
+    "citedby_url": "/scholar?hl=en&cites=6736612098220700472,7498670603261557820",
+    "cites_id": [
+        "6736612098220700472",
+        "7498670603261557820"
+    ],
+    "pub_url": "https://link.springer.com/chapter/10.1007/978-3-030-46150-8_12",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ODML4AJBfV0J:scholar.google.com/",
+    "cites_per_year": {
+        "2020": 18,
+        "2021": 21,
+        "2022": 22,
+        "2023": 20,
+        "2024": 7
+    }
+}

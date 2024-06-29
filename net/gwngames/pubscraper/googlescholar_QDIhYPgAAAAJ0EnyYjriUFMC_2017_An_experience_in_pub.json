@@ -1,0 +1,34 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "An experience in using machine learning for short-term predictions in smart transportation systems",
+        "pub_year": 2017,
+        "citation": "Journal of Logical and Algebraic Methods in Programming 87, 52-66, 2017",
+        "author": "Davide Bacciu and Antonio Carta and Stefania Gnesi and Laura Semini",
+        "journal": "Journal of Logical and Algebraic Methods in Programming",
+        "volume": "87",
+        "pages": "52-66",
+        "publisher": "Elsevier",
+        "abstract": "Bike-sharing systems (BSS) are a means of smart transportation with the benefit of a positive impact on urban mobility. To improve the satisfaction of a user of a BSS, it is useful to inform her/him on the status of the stations at run time, and indeed most of the current systems provide the information in terms of number of bicycles parked in each docking stations by means of services available via web. However, when the departure station is empty, the user could also be happy to know how the situation will evolve and, in particular, if a bike is going to arrive (and vice versa when the arrival station is full).To fulfill this expectation, we envisage services able to make a prediction and infer if there is in use a bike that could be, with high probability, returned at the station where she/he is waiting. The goal of this paper is hence to analyze the feasibility of these services. To this end, we put forward the idea of using Machine \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "QDIhYPgAAAAJ:0EnyYjriUFMC",
+    "num_citations": 41,
+    "citedby_url": "/scholar?hl=en&cites=4837770577810473927",
+    "cites_id": [
+        "4837770577810473927"
+    ],
+    "pub_url": "https://www.sciencedirect.com/science/article/pii/S2352220816301584",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:x8M6e7U2I0MJ:scholar.google.com/",
+    "cites_per_year": {
+        "2017": 1,
+        "2018": 9,
+        "2019": 4,
+        "2020": 4,
+        "2021": 8,
+        "2022": 4,
+        "2023": 5,
+        "2024": 6
+    }
+}

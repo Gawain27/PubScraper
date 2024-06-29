@@ -4,15 +4,18 @@ import threading
 class SingletonSemaphore:
     _instances = {}
 
-    def __new__(cls, name: str, initial_count: int):
+    def __new__(cls, name: str, initial_count: int = 1):
         if name not in cls._instances:
-            cls._instances[name] = super().__new__(cls)
-            cls._instances[name].__init__(name, initial_count)
+            instance = super().__new__(cls)
+            instance._is_initialized = False
+            cls._instances[name] = instance
         return cls._instances[name]
 
-    def __init__(self, name: str, initial_count=1):
-        self.name = name
-        self.semaphore = threading.Semaphore(initial_count)
+    def __init__(self, name: str, initial_count: int = 1):
+        if not self._is_initialized:
+            self.name = name
+            self.semaphore = threading.Semaphore(initial_count)
+            self._is_initialized = True
 
     def acquire(self):
         self.semaphore.acquire()
@@ -21,4 +24,4 @@ class SingletonSemaphore:
         self.semaphore.release()
 
     def __repr__(self):
-        return f"<SingletonSemaphore(name={self.name}, count={self.semaphore._value})>"
+        return f"<SingletonSemaphore(name={self.name})>"

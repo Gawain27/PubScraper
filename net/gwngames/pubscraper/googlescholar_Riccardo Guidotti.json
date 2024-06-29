@@ -1,0 +1,2707 @@
+{
+    "container_type": "Author",
+    "filled": [
+        "basics",
+        "indices",
+        "counts",
+        "coauthors",
+        "publications",
+        "public_access"
+    ],
+    "source": "SEARCH_AUTHOR_SNIPPETS",
+    "scholar_id": "KZUaK6YAAAAJ",
+    "url_picture": "https://scholar.google.com/citations?view_op=medium_photo&user=KZUaK6YAAAAJ",
+    "name": "Riccardo Guidotti",
+    "affiliation": "Assistant Professor @ University of Pisa",
+    "email_domain": "@unipi.it",
+    "interests": [
+        "Explainable AI",
+        "Data Mining",
+        "Clustering Algorithms",
+        "Personal Data Analytics",
+        "Interpretable Machine Learning"
+    ],
+    "citedby": 8219,
+    "organization": 10975463302590740180,
+    "homepage": "http://kdd.isti.cnr.it/kdd7/?q=people/riccardo-guidotti",
+    "citedby5y": 7943,
+    "hindex": 27,
+    "hindex5y": 27,
+    "i10index": 46,
+    "i10index5y": 42,
+    "cites_per_year": {
+        "2016": 41,
+        "2017": 42,
+        "2018": 143,
+        "2019": 441,
+        "2020": 931,
+        "2021": 1408,
+        "2022": 1668,
+        "2023": 2182,
+        "2024": 1301
+    },
+    "coauthors": [
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "5efz6osAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Dino Pedreschi",
+            "affiliation": "Professor of Computer Science, University of Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "PKz_a_AAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Fosca Giannotti",
+            "affiliation": "professor at Scuola Normale Superiore di Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "bA-rXeUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Anna Monreale",
+            "affiliation": "University of Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "q41ZMpAAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Salvatore Ruggieri",
+            "affiliation": "Universit\u00e0 di Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "OkDNfQ0AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Franco Turini",
+            "affiliation": "Professor of Computer Science, University of Pisa, Italy"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "DLastegAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Mirco Nanni",
+            "affiliation": "Senior Researcher at KDD Lab, ISTI-CNR, Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "SEJQSaAAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Salvatore Rinzivillo",
+            "affiliation": "KDDLab, ISTI, CNR"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "88VJDhcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Luca Pappalardo",
+            "affiliation": "Senior Researcher at ISTI-CNR, Associate professor at Scuola Normale Superiore di Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "Eug48ewAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Giulio Rossetti",
+            "affiliation": "Senior Researcher @ CNR-ISTI"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "Q_2gq3MAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Francesca Pratesi",
+            "affiliation": "Universit\u00e0 di Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "WG8fyRAAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Roberto Trasarti",
+            "affiliation": "KDD Lab, ISTI-CNR, Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "GoJhu1YAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Laura Pollacci",
+            "affiliation": "University of Pisa, Pisa, Italy"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "mzniIlQAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Michele Berlingerio",
+            "affiliation": "Executive Director, MSD Animal Health"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "3p_bhfUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Michele Coscia",
+            "affiliation": "IT University of Copenhagen"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "vzJRakUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Diego Pennacchioli",
+            "affiliation": "ISTI CNR"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "yFCVghQAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Andrea Sassi",
+            "affiliation": "Unimore"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "J0-jEAMAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Lorenzo Gabrielli",
+            "affiliation": "Consiglio Nazionale delle Ricerche (CNR), Joint Research Centre (JRC-European \u2026"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "ERQSOF8AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "bissan ghaddar",
+            "affiliation": "Ivey Business School"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "3BqctEIAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Nuno Lopes",
+            "affiliation": "TopQuadrant"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "ZFCg3K8AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Stefano Braghin",
+            "affiliation": "IBM Research"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "k4sVHoUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Jacopo Soldani",
+            "affiliation": "University of Pisa, Italy"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "FnjRptsAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Davide Neri",
+            "affiliation": "University of Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "al7zULkAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Veli Bicer",
+            "affiliation": "Director of Technology, Core Ireland"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "P37OkUUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Lars Kotthoff",
+            "affiliation": "University of Wyoming"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "EtMwv6YAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Barry O'Sullivan",
+            "affiliation": "School of Computer Science & IT, University College Cork, Ireland"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "lk_jn24AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Serge Abiteboul",
+            "affiliation": "INRIA Saclay"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "xKM96goAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Adi Botea",
+            "affiliation": "Principal Data Scientist, Eaton"
+        }
+    ],
+    "publications": [
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A survey of methods for explaining black box models",
+                "pub_year": "2018",
+                "citation": "ACM computing surveys (CSUR) 51 (5), 1-42, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:M3NEmzRMIkIC",
+            "num_citations": 4630,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10318870785830319261",
+            "cites_id": [
+                "10318870785830319261"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Factual and counterfactual explanations for black box decision making",
+                "pub_year": "2019",
+                "citation": "IEEE Intelligent Systems 34 (6), 14-23, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:EUQCXRtRnyEC",
+            "num_citations": 783,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7344227755069549094,18267481458601854795",
+            "cites_id": [
+                "7344227755069549094",
+                "18267481458601854795"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence",
+                "pub_year": "2023",
+                "citation": "Information fusion 99, 101805, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:XD-gHx7UXLsC",
+            "num_citations": 284,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3367852488199289115",
+            "cites_id": [
+                "3367852488199289115"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Counterfactual explanations and how to find them: literature review and benchmarking",
+                "pub_year": "2022",
+                "citation": "Data Mining and Knowledge Discovery, 1-55, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:eq2jaN3J8jMC",
+            "num_citations": 277,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14624729404220899062",
+            "cites_id": [
+                "14624729404220899062"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Meaningful Explanations of Black Box AI Decision Systems",
+                "pub_year": "2019",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:70eg2SAEIzsC",
+            "num_citations": 275,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18022990486443507458,5007585766525994016,2631705000725226382",
+            "cites_id": [
+                "18022990486443507458",
+                "5007585766525994016",
+                "2631705000725226382"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Benchmarking and survey of explanation methods for black box models",
+                "pub_year": "2023",
+                "citation": "Data Mining and Knowledge Discovery 37 (5), 1719-1778, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:eflP2zaiRacC",
+            "num_citations": 199,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2800135126041513523",
+            "cites_id": [
+                "2800135126041513523"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Glocalx-from local to global explanations of black box ai models",
+                "pub_year": "2021",
+                "citation": "Artificial Intelligence 294, 103457, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:5Ul4iDaHHb8C",
+            "num_citations": 119,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3968499026793349101",
+            "cites_id": [
+                "3968499026793349101"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Human migration: The big data perspective",
+                "pub_year": "2021",
+                "citation": "International Journal of Data Science and Analytics 11, 341-360, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:P5F9QuxV20EC",
+            "num_citations": 108,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3920405470080448790",
+            "cites_id": [
+                "3920405470080448790"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Myway: Location prediction via mobility profiling",
+                "pub_year": "2017",
+                "citation": "Information Systems 64, 350-367, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:Wp0gIr-vW9MC",
+            "num_citations": 107,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2799962529791012973",
+            "cites_id": [
+                "2799962529791012973"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Black box explanation by learning image exemplars in the latent feature space",
+                "pub_year": "2020",
+                "citation": "Machine Learning and Knowledge Discovery in Databases: European Conference \u2026, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:pqnbT2bcN3wC",
+            "num_citations": 88,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6736612098220700472,7498670603261557820",
+            "cites_id": [
+                "6736612098220700472",
+                "7498670603261557820"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Evaluating local explanation methods on ground truth",
+                "pub_year": "2021",
+                "citation": "Artificial Intelligence 291, 103428, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:l7t_Zn2s7bgC",
+            "num_citations": 84,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10467770688059378500",
+            "cites_id": [
+                "10467770688059378500"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Give more data, awareness and control to individual citizens, and they will help COVID-19 containment",
+                "pub_year": "2021",
+                "citation": "Ethics and Information Technology 23 (1), 1-6, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:UxriW0iASnsC",
+            "num_citations": 73,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10709308842728334741",
+            "cites_id": [
+                "10709308842728334741"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explainable AI for time series classification: a review, taxonomy and research directions",
+                "pub_year": "2022",
+                "citation": "Ieee Access 10, 100700-100724, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:JQOojiI6XY0C",
+            "num_citations": 68,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17220733812697657000",
+            "cites_id": [
+                "17220733812697657000"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Never drive alone: Boosting carpooling with network analysis",
+                "pub_year": "2017",
+                "citation": "Information Systems 64, 237-257, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:9ZlFYXVOiuMC",
+            "num_citations": 51,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2100893988049490736",
+            "cites_id": [
+                "2100893988049490736"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions",
+                "pub_year": "2024",
+                "citation": "Information Fusion 106, 102301, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:p__nRnzSRKYC",
+            "num_citations": 50,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16601187115023643715",
+            "cites_id": [
+                "16601187115023643715"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "The GRAAL of carpooling: GReen And sociAL optimization from crowd-sourced data",
+                "pub_year": "2017",
+                "citation": "Transportation Research Part C: Emerging Technologies 80, 20-36, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:TQgYirikUcIC",
+            "num_citations": 46,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7448643953935332095",
+            "cites_id": [
+                "7448643953935332095"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining any time series classifier",
+                "pub_year": "2020",
+                "citation": "2020 IEEE second international conference on cognitive machine intelligence \u2026, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:LPZeul_q3PIC",
+            "num_citations": 45,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5243209140638598892",
+            "cites_id": [
+                "5243209140638598892"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "On the stability of interpretable models",
+                "pub_year": "2019",
+                "citation": "2019 International joint conference on neural networks (IJCNN), 1-8, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:ZHo1McVdvXMC",
+            "num_citations": 44,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17113119510525787450,8626532627296206681",
+            "cites_id": [
+                "17113119510525787450",
+                "8626532627296206681"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Personalized market basket prediction with temporal annotated recurring sequences",
+                "pub_year": "2018",
+                "citation": "IEEE Transactions on Knowledge and Data Engineering, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:4OULZ7Gr8RgC",
+            "num_citations": 38,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2827859745568056522",
+            "cites_id": [
+                "2827859745568056522"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Personalized market basket prediction with temporal annotated recurring sequences",
+                "pub_year": "2018",
+                "citation": "IEEE Transactions on Knowledge and Data Engineering, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:RYcK_YlVTxYC",
+            "num_citations": 38,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2827859745568056522",
+            "cites_id": [
+                "2827859745568056522"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "TOSCA: two-steps clustering algorithm for personal locations detection",
+                "pub_year": "2015",
+                "citation": "Proceedings of the 23rd SIGSPATIAL international conference on advances in \u2026, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:qxL8FJ1GzNcC",
+            "num_citations": 38,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6341417969701104654",
+            "cites_id": [
+                "6341417969701104654"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Clustering individual transactional data for masses of users",
+                "pub_year": "2017",
+                "citation": "Proceedings of the 23rd ACM SIGKDD international conference on knowledge \u2026, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:e5wmG9Sq2KIC",
+            "num_citations": 33,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12924738947360983446",
+            "cites_id": [
+                "12924738947360983446"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Guidotti R., Monreale A., Ruggieri S., Turini F., Giannotti F., Pedreschi D",
+                "pub_year": "2018",
+                "citation": "A survey of methods for explaining black box models, ACM Computing Surveys \u2026, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:t7zJ5fGR-2UC",
+            "num_citations": 32,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8180540909996490998",
+            "cites_id": [
+                "8180540909996490998"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Discovering temporal regularities in retail customers\u2019 shopping behavior",
+                "pub_year": "2018",
+                "citation": "EPJ Data Science 7 (1), 1-26, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:blknAaTinKkC",
+            "num_citations": 30,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=140871753155428504",
+            "cites_id": [
+                "140871753155428504"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Market basket prediction using user-centric temporal annotated recurring sequences",
+                "pub_year": "2017",
+                "citation": "2017 IEEE International Conference on Data Mining (ICDM), 895-900, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:dfsIfKJdRG4C",
+            "num_citations": 30,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13951519366656090081",
+            "cites_id": [
+                "13951519366656090081"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Principles of explainable artificial intelligence",
+                "pub_year": "2021",
+                "citation": "Explainable AI Within the Digital Transformation and Cyber Physical Systems \u2026, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:Mojj43d5GZwC",
+            "num_citations": 28,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11240234274360793918",
+            "cites_id": [
+                "11240234274360793918"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Local rule-based explanations of black box decision systems. arXiv 2018",
+                "pub_year": "2021",
+                "citation": "arXiv preprint arXiv:1805.10820, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:t6usbXjVLHcC",
+            "num_citations": 27,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13796074347214849491",
+            "cites_id": [
+                "13796074347214849491"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining sentiment classification with synthetic exemplars and counter-exemplars",
+                "pub_year": "2020",
+                "citation": "International Conference on Discovery Science, 357-373, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:738O_yMBCRsC",
+            "num_citations": 27,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8830140400975850033",
+            "cites_id": [
+                "8830140400975850033"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining multi-label black-box classifiers for health applications",
+                "pub_year": "2020",
+                "citation": "Precision Health and Medicine: A Digital Revolution in Healthcare, 97-110, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:g5m5HwL7SMYC",
+            "num_citations": 27,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17147057186682530626",
+            "cites_id": [
+                "17147057186682530626"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Interaction prediction in dynamic networks exploiting community discovery",
+                "pub_year": "2015",
+                "citation": "2015 IEEE/ACM International Conference on Advances in Social Networks \u2026, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:fPk4N6BV_jEC",
+            "num_citations": 26,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10424947412585521918",
+            "cites_id": [
+                "10424947412585521918"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A supervised approach for intra-/inter-community interaction prediction in dynamic social networks",
+                "pub_year": "2016",
+                "citation": "Social Network Analysis and Mining 6 (1), 86, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:ZeXyd9-uunAC",
+            "num_citations": 24,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10219293543844320065",
+            "cites_id": [
+                "10219293543844320065"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Behavioral entropy and profitability in retail",
+                "pub_year": "2015",
+                "citation": "2015 IEEE International Conference on Data Science and Advanced Analytics \u2026, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:Zph67rFs4hoC",
+            "num_citations": 24,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12371687201438860429",
+            "cites_id": [
+                "12371687201438860429"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "(So) Big Data and the transformation of the city",
+                "pub_year": "2021",
+                "citation": "International Journal of Data Science and Analytics 11, 311-340, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:xtRiw3GOFMkC",
+            "num_citations": 22,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13163510359402258675",
+            "cites_id": [
+                "13163510359402258675"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Investigating neighborhood generation methods for explanations of obscure image classifiers",
+                "pub_year": "2019",
+                "citation": "Advances in Knowledge Discovery and Data Mining: 23rd Pacific-Asia \u2026, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:M05iB0D1s5AC",
+            "num_citations": 20,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=346023978402175351",
+            "cites_id": [
+                "346023978402175351"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "There's a path for everyone: A data-driven personal model reproducing mobility agendas",
+                "pub_year": "2017",
+                "citation": "2017 IEEE International conference on data science and advanced analytics \u2026, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:j3f4tGmQtD8C",
+            "num_citations": 20,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17710484421782307902",
+            "cites_id": [
+                "17710484421782307902"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Retrieving points of interest from human systematic movements",
+                "pub_year": "2015",
+                "citation": "Software Engineering and Formal Methods: SEFM 2014 Collocated Workshops \u2026, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:MXK_kJrjxJIC",
+            "num_citations": 19,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8891086225525381832",
+            "cites_id": [
+                "8891086225525381832"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Stable and actionable explanations of black-box models through factual and counterfactual rules",
+                "pub_year": "2022",
+                "citation": "Data Mining and Knowledge Discovery, 1-38, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:kzcrU_BdoSEC",
+            "num_citations": 14,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12804623027496342780",
+            "cites_id": [
+                "12804623027496342780"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining image classifiers generating exemplars and counter-exemplars from latent representations",
+                "pub_year": "2020",
+                "citation": "Proceedings of the AAAI conference on artificial intelligence 34 (09), 13665 \u2026, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:dshw04ExmUIC",
+            "num_citations": 14,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10591820521098464240",
+            "cites_id": [
+                "10591820521098464240"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Exemplars and counterexemplars explanations for image classifiers, targeting skin lesion labeling",
+                "pub_year": "2021",
+                "citation": "2021 IEEE Symposium on Computers and Communications (ISCC), 1-7, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:Y5dfb0dijaUC",
+            "num_citations": 13,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15422281830388825792",
+            "cites_id": [
+                "15422281830388825792"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Going beyond GDP to nowcast well-being using retail market data",
+                "pub_year": "2016",
+                "citation": "Advances in Network Science: 12th International Conference and School \u2026, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:4DMP91E08xMC",
+            "num_citations": 13,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12911617167838168525",
+            "cites_id": [
+                "12911617167838168525"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Crash prediction and risk assessment with individual mobility networks",
+                "pub_year": "2020",
+                "citation": "2020 21st IEEE International conference on mobile data management (MDM), 89-98, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:OU6Ihb5iCvQC",
+            "num_citations": 12,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13172739958756991334",
+            "cites_id": [
+                "13172739958756991334"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Helping your docker images to spread based on explainable models",
+                "pub_year": "2018",
+                "citation": "Joint European Conference on Machine Learning and Knowledge Discovery in \u2026, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:J_g5lzvAfSwC",
+            "num_citations": 12,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1781352358012224161",
+            "cites_id": [
+                "1781352358012224161"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Quantum clustering with k-means: A hybrid approach",
+                "pub_year": "2024",
+                "citation": "Theoretical Computer Science 992, 114466, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:tKAzc9rXhukC",
+            "num_citations": 11,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8442561020659704284",
+            "cites_id": [
+                "8442561020659704284"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Unveiling mobility complexity through complex network analysis",
+                "pub_year": "2016",
+                "citation": "Social Network Analysis and Mining 6, 1-21, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:L8Ckcad2t8MC",
+            "num_citations": 11,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15831900455842715991",
+            "cites_id": [
+                "15831900455842715991"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Local rule-based explanations of black box decision systems",
+                "pub_year": "2018",
+                "citation": "arXiv preprint arXiv:1805.10820, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:2KloaMYe4IUC",
+            "num_citations": 10,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4191437521107095842",
+            "cites_id": [
+                "4191437521107095842"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "On the equivalence between community discovery and clustering",
+                "pub_year": "2018",
+                "citation": "Smart Objects and Technologies for Social Good: Third International \u2026, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:4JMBOYKVnBMC",
+            "num_citations": 10,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15887119151916606238",
+            "cites_id": [
+                "15887119151916606238"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Social or green? A data-driven approach for more enjoyable carpooling",
+                "pub_year": "2015",
+                "citation": "2015 IEEE 18th International Conference on Intelligent Transportation \u2026, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:rO6llkc54NcC",
+            "num_citations": 10,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3260531415877137855",
+            "cites_id": [
+                "3260531415877137855"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Boosting synthetic data generation with effective nonlinear causal discovery",
+                "pub_year": "2021",
+                "citation": "2021 IEEE Third International Conference on Cognitive Machine Intelligence \u2026, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:dTyEYWd-f8wC",
+            "num_citations": 9,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1574817336886936419",
+            "cites_id": [
+                "1574817336886936419"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Ensemble of counterfactual explainers",
+                "pub_year": "2021",
+                "citation": "Discovery Science: 24th International Conference, DS 2021, Halifax, NS \u2026, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:XiVPGOgt02cC",
+            "num_citations": 9,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1907934389616545520",
+            "cites_id": [
+                "1907934389616545520"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Personal data analytics: capturing human behavior to improve self-awareness and personal services through individual and collective knowledge",
+                "pub_year": "2017",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:R3hNpaxXUhUC",
+            "num_citations": 9,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10448624661650748157",
+            "cites_id": [
+                "10448624661650748157"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining siamese networks in few-shot learning for audio data",
+                "pub_year": "2022",
+                "citation": "International Conference on Discovery Science, 509-524, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:Fu2w8maKXqMC",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17460330668388352769",
+            "cites_id": [
+                "17460330668388352769"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Investigating debiasing effects on classification and explainability",
+                "pub_year": "2022",
+                "citation": "Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society, 468-478, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:hkOj_22Ku90C",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3297757753658687636",
+            "cites_id": [
+                "3297757753658687636"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Bias discovery within human raters: A case study of the jigsaw dataset",
+                "pub_year": "2022",
+                "citation": "Proceedings of the LREC 2022 workshop on Perspectivist Approaches to \u2026, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:1yQoGdGgb4wC",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16227038759469809585",
+            "cites_id": [
+                "16227038759469809585"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Fairshades: Fairness auditing via explainability in abusive language detection systems",
+                "pub_year": "2021",
+                "citation": "2021 IEEE Third International Conference on Cognitive Machine Intelligence \u2026, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:9vf0nzSNQJEC",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4728187027179747653",
+            "cites_id": [
+                "4728187027179747653"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Global explanations with local scoring",
+                "pub_year": "2020",
+                "citation": "Machine Learning and Knowledge Discovery in Databases: International \u2026, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:nb7KW1ujOQ8C",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10860283594971294599",
+            "cites_id": [
+                "10860283594971294599"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining successful docker images using pattern mining analysis",
+                "pub_year": "2018",
+                "citation": "Federation of International Conferences on Software Technologies \u2026, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:cFHS6HbyZ2cC",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4967437459091362226",
+            "cites_id": [
+                "4967437459091362226"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Managing travels with petra: the rome use case",
+                "pub_year": "2015",
+                "citation": "2015 31st IEEE International Conference on Data Engineering Workshops, 110-111, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:kNdYIx-mwKoC",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=434992638667653805,7653940102887114498,7996730875435659692",
+            "cites_id": [
+                "434992638667653805",
+                "7653940102887114498",
+                "7996730875435659692"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "CALIME: Causality-aware local interpretable model-agnostic explanations",
+                "pub_year": "2022",
+                "citation": "arXiv preprint arXiv:2212.05256, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:7T2F9Uy0os0C",
+            "num_citations": 7,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7107313682839699485",
+            "cites_id": [
+                "7107313682839699485"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining Black Box with Visual Exploration of Latent Space.",
+                "pub_year": "2022",
+                "citation": "EuroVis (Short Papers), 85-89, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:ye4kPcJQO24C",
+            "num_citations": 7,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=749343310025614839",
+            "cites_id": [
+                "749343310025614839"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Data-agnostic local neighborhood generation",
+                "pub_year": "2020",
+                "citation": "2020 IEEE International Conference on Data Mining (ICDM), 1040-1045, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:eJXPG6dFmWUC",
+            "num_citations": 7,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3366111044447803319",
+            "cites_id": [
+                "3366111044447803319"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Audio Ergo Sum A Personal Data Model for Musical Preferences",
+                "pub_year": "2016",
+                "citation": "Software Technologies: Applications and Foundations: STAF 2016 Collocated \u2026, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:QIV2ME_5wuYC",
+            "num_citations": 7,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12476931615225000820",
+            "cites_id": [
+                "12476931615225000820"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explainable deep image classifiers for skin lesion diagnosis",
+                "pub_year": "2021",
+                "citation": "arXiv preprint arXiv:2111.11863, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:eMMeJKvmdy0C",
+            "num_citations": 6,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17050036694169562700",
+            "cites_id": [
+                "17050036694169562700"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Matrix profile-based interpretable time series classifier",
+                "pub_year": "2021",
+                "citation": "Frontiers in Artificial Intelligence 4, 699448, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:olpn-zPbct0C",
+            "num_citations": 6,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18079440018717842420",
+            "cites_id": [
+                "18079440018717842420"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Designing shapelets for interpretable data-agnostic classification",
+                "pub_year": "2021",
+                "citation": "Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society, 532-542, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:bnK-pcrLprsC",
+            "num_citations": 6,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6504196080347803824",
+            "cites_id": [
+                "6504196080347803824"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Measuring immigrants adoption of natives shopping consumption with machine learning",
+                "pub_year": "2021",
+                "citation": "Machine Learning and Knowledge Discovery in Databases. Applied Data Science \u2026, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:q3oQSFYPqjQC",
+            "num_citations": 6,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5744092964134168969",
+            "cites_id": [
+                "5744092964134168969"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Where is my next friend? recommending enjoyable profiles in location based services",
+                "pub_year": "2016",
+                "citation": "Complex Networks VII: Proceedings of the 7th Workshop on Complex Networks \u2026, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:mVmsd5A6BfQC",
+            "num_citations": 6,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8906742241497984300",
+            "cites_id": [
+                "8906742241497984300"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Towards user-centric data management: individual mobility analytics for collective services",
+                "pub_year": "2015",
+                "citation": "Proceedings of the Fourth ACM SIGSPATIAL International Workshop on Mobile \u2026, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:aqlVkmm33-oC",
+            "num_citations": 6,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15069979640581773259",
+            "cites_id": [
+                "15069979640581773259"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Local rule-based explanations of black box decision systems. arXiv preprint (2018)",
+                "citation": "arXiv preprint arXiv:1805.10820, 0"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:EYYDruWGBe4C",
+            "num_citations": 6,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13759674025425998087",
+            "cites_id": [
+                "13759674025425998087"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "City indicators for geographical transfer learning: an application to crash prediction",
+                "pub_year": "2022",
+                "citation": "GeoInformatica 26 (4), 581-612, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:JoZmwDi-zQgC",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4607202062121444089",
+            "cites_id": [
+                "4607202062121444089"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Uncovering student temporal learning patterns",
+                "pub_year": "2022",
+                "citation": "European Conference on Technology Enhanced Learning, 340-353, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:dQ2og3OwTAUC",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13675177906063320206",
+            "cites_id": [
+                "13675177906063320206"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining short text classification with diverse synthetic exemplars and counter-exemplars",
+                "pub_year": "2022",
+                "citation": "Machine Learning, 1-34, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:5awf1xo2G04C",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11329211373372964703",
+            "cites_id": [
+                "11329211373372964703"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Modularized Framework for Explaining Black Box Classifiers for Text Data.",
+                "pub_year": "2022",
+                "citation": "Canadian AI, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:UHK10RUVsp4C",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2366673176065091019",
+            "cites_id": [
+                "2366673176065091019"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Exemplars and counterexemplars explanations for skin lesion classifiers",
+                "pub_year": "2022",
+                "citation": "HHAI2022: Augmenting Human Intellect, 258-260, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:ZuybSZzF8UAC",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15378237848107655590",
+            "cites_id": [
+                "15378237848107655590"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "ECML PKDD 2020 Workshops: Workshops of the European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2020): SoGood 2020, PDFL 2020, MLCS 2020 \u2026",
+                "pub_year": "2021",
+                "citation": "Springer Nature, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:kRWSkSYxWN8C",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11872075501012071829",
+            "cites_id": [
+                "11872075501012071829"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Deriving a single interpretable model by merging tree-based classifiers",
+                "pub_year": "2021",
+                "citation": "Discovery Science: 24th International Conference, DS 2021, Halifax, NS \u2026, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:HE397vMXCloC",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=916715519880585236",
+            "cites_id": [
+                "916715519880585236"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Recognizing residents and tourists with retail data using shopping profiles",
+                "pub_year": "2018",
+                "citation": "Smart Objects and Technologies for Social Good: Third International \u2026, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:TFP_iSt0sucC",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18190409886142514704",
+            "cites_id": [
+                "18190409886142514704"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Social bias probing: Fairness benchmarking for language models",
+                "pub_year": "2023",
+                "citation": "arXiv preprint arXiv:2311.09090, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:vbGhcppDl1QC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13125606442559278655,13195282161021822273",
+            "cites_id": [
+                "13125606442559278655",
+                "13195282161021822273"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Improving trust and confidence in medical skin lesion diagnosis through explainable deep learning",
+                "pub_year": "2023",
+                "citation": "International Journal of Data Science and Analytics, 1-13, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:yB1At4FlUx8C",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3841083197419442243",
+            "cites_id": [
+                "3841083197419442243"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Interpretable latent space to enable counterfactual explanations",
+                "pub_year": "2022",
+                "citation": "International Conference on Discovery Science, 525-540, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:_Ybze24A_UAC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2248189241380617586",
+            "cites_id": [
+                "2248189241380617586"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Clustering Classical Data with Quantum k-Means.",
+                "pub_year": "2022",
+                "citation": "ICTCS, 188-200, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:NJ774b8OgUMC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11093313467869581259",
+            "cites_id": [
+                "11093313467869581259"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Effect of different encodings and distance functions on quantum instance-based classifiers",
+                "pub_year": "2022",
+                "citation": "Pacific-Asia Conference on Knowledge Discovery and Data Mining, 96-108, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:tkaPQYYpVKoC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15023246926702858608",
+            "cites_id": [
+                "15023246926702858608"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Self-adapting trajectory segmentation",
+                "pub_year": "2020",
+                "citation": "CEUR WORKSHOP PROCEEDINGS 2579, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:CHSYGLWDkRkC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9491191780399386375",
+            "cites_id": [
+                "9491191780399386375"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "The italian music superdiversity",
+                "pub_year": "2019",
+                "citation": "Multimedia Tools and Applications 78 (3), 3297-3319, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:NaGl4SEjCO4C",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16562839151175562016",
+            "cites_id": [
+                "16562839151175562016"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "The fractal dimension of music: geography, popularity and sentiment analysis",
+                "pub_year": "2017",
+                "citation": "International conference on smart objects and technologies for social good \u2026, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:D03iK_w7-QYC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3292435330919498400",
+            "cites_id": [
+                "3292435330919498400"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Are we playing like Music-Stars",
+                "pub_year": "2016",
+                "citation": "9th international workshop on Machine Learning and Music, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:b1wdh0AR-JQC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3249451620534954706",
+            "cites_id": [
+                "3249451620534954706"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "are we playing like music-stars?\u201d placing emerging artists on the italian music scene",
+                "pub_year": "2016",
+                "citation": "9th international workshop on machine learning and music, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:IWHjjKOFINEC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13498477033132344957",
+            "cites_id": [
+                "13498477033132344957"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Towards a boosted route planner using individual mobility models",
+                "pub_year": "2015",
+                "citation": "SEFM 2015 Collocated Workshops, 108-123, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:_kc_bZDykSQC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16113622417018609856",
+            "cites_id": [
+                "16113622417018609856"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Find your way back: Mobility profile mining with constraints",
+                "pub_year": "2015",
+                "citation": "Principles and Practice of Constraint Programming: 21st International \u2026, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:KlAtU1dfN6UC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17158656470151806185",
+            "cites_id": [
+                "17158656470151806185"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Transparent latent space counterfactual explanations for tabular data",
+                "pub_year": "2022",
+                "citation": "2022 IEEE 9th International Conference on Data Science and Advanced \u2026, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:-_dYPAW6P2MC",
+            "num_citations": 3,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=357557512847788604",
+            "cites_id": [
+                "357557512847788604"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Individual and collective stop-based adaptive trajectory segmentation",
+                "pub_year": "2022",
+                "citation": "GeoInformatica 26 (3), 451-477, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:WA5NYHcadZ8C",
+            "num_citations": 3,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11645041890194442789",
+            "cites_id": [
+                "11645041890194442789"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining Explanation Methods.",
+                "pub_year": "2020",
+                "citation": "BIRDS@ SIGIR, 6-13, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:08ZZubdj9fEC",
+            "num_citations": 3,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3674572958318126165",
+            "cites_id": [
+                "3674572958318126165"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Data-Driven Location Annotation for Fleet Mobility Modeling.",
+                "pub_year": "2020",
+                "citation": "EDBT/ICDT Workshops, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:1sJd4Hv_s6UC",
+            "num_citations": 3,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12902307796329975720",
+            "cites_id": [
+                "12902307796329975720"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "\u201cKnow Thyself\u201d How Personal Music Tastes Shape the Last. Fm Online Social Network",
+                "pub_year": "2020",
+                "citation": "Formal Methods. FM 2019 International Workshops: Porto, Portugal, October 7 \u2026, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:SeFeTyx0c_EC",
+            "num_citations": 3,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13091408747396822884",
+            "cites_id": [
+                "13091408747396822884"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Privacy risk for individual basket patterns",
+                "pub_year": "2019",
+                "citation": "ECML PKDD 2018 Workshops: MIDAS 2018 and PAP 2018, Dublin, Ireland \u2026, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:RGFaLdJalmkC",
+            "num_citations": 3,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2630786340954164698",
+            "cites_id": [
+                "2630786340954164698"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Geolet: An Interpretable Model for Trajectory Classification",
+                "pub_year": "2023",
+                "citation": "International Symposium on Intelligent Data Analysis, 236-248, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:VLnqNzywnoUC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11114550660493104",
+            "cites_id": [
+                "11114550660493104"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Quantum feature selection with variance estimation",
+                "pub_year": "2023",
+                "citation": "Proceedings of ESANN, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:VaXvl8Fpj5cC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16326724997281389017",
+            "cites_id": [
+                "16326724997281389017"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining crash predictions on multivariate time series data",
+                "pub_year": "2022",
+                "citation": "International Conference on Discovery Science, 556-566, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:W5xh706n7nkC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16623150340321436298",
+            "cites_id": [
+                "16623150340321436298"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Machine Learning and Principles and Practice of Knowledge Discovery in Databases: International Workshops of ECML PKDD 2021, Virtual Event, September 13-17, 2021, Proceedings \u2026",
+                "pub_year": "2022",
+                "citation": "Springer Nature, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:LjlpjdlvIbIC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3701825556946471335",
+            "cites_id": [
+                "3701825556946471335"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "City indicators for mobility data mining",
+                "pub_year": "2021",
+                "citation": "CEUR WORKSHOP PROCEEDINGS 2841, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:mvPsJ3kp5DgC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12562030807760174361",
+            "cites_id": [
+                "12562030807760174361"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Exploring students eating habits through individual profiling and clustering analysis",
+                "pub_year": "2019",
+                "citation": "ECML PKDD 2018 Workshops: MIDAS 2018 and PAP 2018, Dublin, Ireland \u2026, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:ns9cj8rnVeAC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12395700432854054749",
+            "cites_id": [
+                "12395700432854054749"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Mobility Ranking - Human Mobility Analysis Using Ranking Measures",
+                "pub_year": "2013",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:0EnyYjriUFMC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3897114385454874150",
+            "cites_id": [
+                "3897114385454874150"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Open the black box data-driven explanation of black box decision systems (2018)",
+                "citation": "arXiv preprint arXiv:1806.09936, 0"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:ZfRJV9d4-WMC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14969328963025711232",
+            "cites_id": [
+                "14969328963025711232"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining Siamese networks in few-shot learning",
+                "pub_year": "2024",
+                "citation": "Machine Learning, 1-38, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:-FonjvnnhkoC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10645475443937228292",
+            "cites_id": [
+                "10645475443937228292"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Advancing Dermatological Diagnostics: Interpretable AI for Enhanced Skin Lesion Classification",
+                "pub_year": "2024",
+                "citation": "Diagnostics 14 (7), 753, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:M7yex6snE4oC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11304789693374897185",
+            "cites_id": [
+                "11304789693374897185"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Applied data science for leasing score prediction",
+                "pub_year": "2023",
+                "citation": "2023 IEEE International Conference on Big Data (BigData), 1687-1696, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:tYavs44e6CUC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8530760794477537872",
+            "cites_id": [
+                "8530760794477537872"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Solving imbalanced learning with outlier detection and features reduction",
+                "pub_year": "2023",
+                "citation": "Machine Learning, 1-58, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:KUbvn5osdkgC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2920248471372266260",
+            "cites_id": [
+                "2920248471372266260"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Understanding Any Time Series Classifier with a Subsequence-based Explainer",
+                "pub_year": "2023",
+                "citation": "ACM Transactions on Knowledge Discovery from Data 18 (2), 1-34, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:uWiczbcajpAC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16669304768036548353",
+            "cites_id": [
+                "16669304768036548353"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "GenFair: A genetic fairness-enhancing data generation framework",
+                "pub_year": "2023",
+                "citation": "International Conference on Discovery Science, 356-371, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:URolC5Kub84C",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6460807655244203966",
+            "cites_id": [
+                "6460807655244203966"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Handling missing values in local post-hoc explainability",
+                "pub_year": "2023",
+                "citation": "World Conference on Explainable Artificial Intelligence, 256-278, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:4MWp96NkSFoC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9860742690722574728",
+            "cites_id": [
+                "9860742690722574728"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining Black-Boxes in Federated Learning",
+                "pub_year": "2023",
+                "citation": "World Conference on Explainable Artificial Intelligence, 151-163, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:ML0RJ9NH7IQC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3232141376074394735",
+            "cites_id": [
+                "3232141376074394735"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Protocol for Continual Explanation of SHAP",
+                "pub_year": "2023",
+                "citation": "arXiv preprint arXiv:2306.07218, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:nrtMV_XWKgEC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=295331640453540594",
+            "cites_id": [
+                "295331640453540594"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A modularized framework for explaining hierarchical attention networks on text classifiers.",
+                "pub_year": "2021",
+                "citation": "Canadian AI, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:V3AGJWp-ZtQC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3253881145556029001",
+            "cites_id": [
+                "3253881145556029001"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Correction to: Human migration: the big data perspective",
+                "pub_year": "2021",
+                "citation": "International Journal of Data Science and Analytics 12 (1), 77-77, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:1qzjygNMrQYC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5334823720569186542",
+            "cites_id": [
+                "5334823720569186542"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Interpretable next basket prediction boosted with representative recipes",
+                "pub_year": "2020",
+                "citation": "2020 IEEE second international conference on cognitive machine intelligence \u2026, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:fQNAKQ3IYiAC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11814895086921339821",
+            "cites_id": [
+                "11814895086921339821"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Formal Methods. FM 2019 International Workshops: Porto, Portugal, October 7\u201311, 2019, Revised Selected Papers, Part II",
+                "pub_year": "2020",
+                "citation": "Springer Nature, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:geHnlv5EZngC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5789132465440101354",
+            "cites_id": [
+                "5789132465440101354"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Defining Geographic Markets from Probabilistic Clusters: A Machine Learning Algorithm Applied to Supermarket Scanner Data",
+                "pub_year": "2019",
+                "citation": "Available at SSRN 3452058, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:HoB7MX3m0LUC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7765913117150291552",
+            "cites_id": [
+                "7765913117150291552"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Explaining Sentiment Prediction by Generating Exemplars in the LatentSpace",
+                "pub_year": "2019",
+                "citation": "Undergraduate thesis, Aristotle University of Thessaloniki, School of \u2026, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:f2IySw72cVMC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=852431317562727701",
+            "cites_id": [
+                "852431317562727701"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "PETRA: The PErsonal TRansport Advisor Platform and Services",
+                "pub_year": "2019",
+                "citation": "Transportation Analytics in the Era of Big Data, 181-216, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:GnPB-g6toBAC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15044340841572354467",
+            "cites_id": [
+                "15044340841572354467"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "ISTI young research award 2016",
+                "pub_year": "2016",
+                "citation": "Technical Report 2016-TR-15, Istituto di Scienza e Tecnologie dell \u2026, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:b0M2c_1WBrUC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8059588846670285706",
+            "cites_id": [
+                "8059588846670285706"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Icon loop carpooling show case",
+                "pub_year": "2016",
+                "citation": "Data Mining and Constraint Programming: Foundations of a Cross-Disciplinary \u2026, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:mB3voiENLucC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17577966602384455476",
+            "cites_id": [
+                "17577966602384455476"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Drifting explanations in continual learning",
+                "pub_year": "2024",
+                "citation": "Neurocomputing, 127960, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:e_rmSamDkqQC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "FLocalX-Local to Global Fuzzy Explanations for Black Box Classifiers",
+                "pub_year": "2024",
+                "citation": "International Symposium on Intelligent Data Analysis, 197-209, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:WZBGuue-350C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Frank System for Co-Evolutionary Hybrid Decision-Making",
+                "pub_year": "2024",
+                "citation": "International Symposium on Intelligent Data Analysis, 236-248, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:oNZyr7d5Mn4C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Generative Model for Decision Trees",
+                "pub_year": "2024",
+                "citation": "Proceedings of the AAAI Conference on Artificial Intelligence 38 (19), 21116 \u2026, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:gsN89kCJA0AC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Quantum Subroutine for Variance Estimation: Algorithmic Design and Applications",
+                "pub_year": "2024",
+                "citation": "arXiv preprint arXiv:2403.14655, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:kz9GbA2Ns4gC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Shape-Based Map Matching Approach for Geographic Transferability of Discriminative Subtrajectories.",
+                "pub_year": "2024",
+                "citation": "EDBT/ICDT Workshops, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:k8Z6L05lTy4C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Exploring Different Encodings and Distance Metrics for a Quantum Instance-based Classifier",
+                "pub_year": "2023",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:g3aElNc5_aQC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Bag of Receptive Fields for Time Series Extrinsic Predictions",
+                "pub_year": "2023",
+                "citation": "arXiv preprint arXiv:2311.18029, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:hMsQuOkrut0C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "The Trajectory Interval Forest Classifier for Trajectory Classification",
+                "pub_year": "2023",
+                "citation": "Proceedings of the 31st ACM International Conference on Advances in \u2026, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:L7CI7m0gUJcC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Interpretable Data Partitioning Through Tree-Based Clustering Methods",
+                "pub_year": "2023",
+                "citation": "International Conference on Discovery Science, 492-507, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:BUYA1_V_uYcC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Text to Time Series Representations: Towards Interpretable Predictive Models",
+                "pub_year": "2023",
+                "citation": "International Conference on Discovery Science, 230-245, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:AvfA0Oy_GE0C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Machine Learning and Principles and Practice of Knowledge Discovery in Databases: International Workshops of ECML PKDD 2022, Grenoble, France, September 19\u201323, 2022 \u2026",
+                "pub_year": "2023",
+                "citation": "Springer Nature, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:tzM49s52ZIMC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Trustworthy AI at KDD Lab.",
+                "pub_year": "2023",
+                "citation": "Ital-IA, 388-393, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:vDijr-p_gm4C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "XAI. it 2022-Preface to the Third Italian Workshop on Explainable Artificial Intelligence",
+                "pub_year": "2022",
+                "citation": "CEUR WORKSHOP PROCEEDINGS 3277, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:ILKRHgRFtOwC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Exploiting auto-encoders for explaining black-box classifiers",
+                "pub_year": "2022",
+                "citation": "Intelligenza Artificiale 16 (1), 115-129, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:PR6Y55bgFSsC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "ECML PKDD 2020 Workshops Workshops of the European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2020): SoGood 2020, PDFL 2020, MLCS 2020 \u2026",
+                "pub_year": "2021",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:VOx2b1Wkg3QC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "XAI. it 2023-Preface to the Fourth Italian Workshop on Explainable Artificial Intelligence",
+                "pub_year": "2021",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:BwyfMAYsbu0C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "XAI. it 2021-Preface to the Second Italian Workshop on Explainable Artificial Intelligence",
+                "pub_year": "2021",
+                "citation": "CEUR WORKSHOP PROCEEDINGS 3014, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:zLWjf1WUPmwC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "168 Fairness",
+                "pub_year": "2020",
+                "citation": "SIGKDD explorations newsletter 1, 10, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:Z5m8FVwuT1cC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Opening the black box: a primer for anti-discrimination",
+                "pub_year": "2020",
+                "citation": "ANNUARIO DI DIRITTO COMPARATO E DI STUDI LEGISLATIVI 2020, 231-242, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:ipzZ9siozwsC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Formal Methods. FM 2019 International Workshops",
+                "pub_year": "2020",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:tS2w5q8j5-wC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Formal Methods. FM 2019 International Workshops",
+                "pub_year": "2020",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:vRqMK49ujn8C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "ECML PKDD 2018 Workshops-MIDAS 2018 and PAP 2018, Dublin, Ireland, September 10-14, 2018, Proceedings",
+                "pub_year": "2019",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:ldfaerwXgEUC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "ECML PKDD 2018 Workshops: MIDAS 2018 and PAP 2018, Dublin, Ireland, September 10-14, 2018, Proceedings",
+                "pub_year": "2019",
+                "citation": "Springer, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:8AbLer7MMksC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Learning Data Mining",
+                "pub_year": "2018",
+                "citation": "2018 IEEE 5th International Conference on Data Science and Advanced \u2026, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:35N4QoGY0k4C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Personal Analytics and Privacy. An Individual and Collective Perspective: First International Workshop, PAP 2017, Held in Conjunction with ECML PKDD 2017, Skopje, Macedonia \u2026",
+                "pub_year": "2017",
+                "citation": "Springer, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:r0BpntZqJG4C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Personal Analytics and Privacy. An Individual and Collective Perspective-First International Workshop, PAP 2017",
+                "pub_year": "2017",
+                "citation": "LECTURE NOTES IN COMPUTER SCIENCE 10708, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:0KyAp5RtaNEC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Measuring wellbeing by extracting social indicators from big data",
+                "pub_year": "2016",
+                "citation": "Proceedings CESS 2016, 0-0, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:tOudhMTPpwUC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Extracting social indicators from big data: an experience in measuring wellbeing",
+                "pub_year": "2016",
+                "citation": "Proceedings DSSR 2016, 0-0, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:pyW8ca7W8N0C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Capturing Human Systematic Behavior",
+                "pub_year": "2014",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:3fE2CSJIrl8C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "DATA MINING 2 Explainability",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:S16KYo8Pm5AC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "CogMI 2023",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:kuK5TVdYjLIC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "CogMI 2022",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:j8SEvjWlNXcC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Personal Analytics and Privacy",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:_Re3VWB3Y0AC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "2021 IEEE Third International Conference on Cognitive Machine Intelligence (CogMI)| 978-1-6654-1621-4/21/$31.00\u00a9 2021 IEEE| DOI: 10.1109/COGMI52975. 2021.00043",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:SdhP9T11ey4C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "2020 IEEE Second International Conference on Cognitive Machine Intelligence (CogMI)| 978-1-7281-4144-2/20/$31.00\u00a9 2020 IEEE| DOI: 10.1109/COGMI50398. 2020.00039",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:AXPGKjj_ei8C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Journal article Open Access",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:D_sINldO8mEC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "ISTI Young Researcher Award \u201cMatteo Dellepiane\u201d\u2013Edition 2019",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:3s1wT3WcHBgC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Shortest Path on Multigraph with Cost Modifiers",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:maZDTaKrznsC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "An Easily Breaking Water Pump: Model Checking Analysis with PRISM",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:k_IJM867U9cC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Mobility Ranking",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:hFOr9nPyWt4C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "The 2nd International Workshop on Dynamics in Networks (DyNo 2016) DyNo 2016 Organizing Committee",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:hC7cP41nSMkC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "The Power of Destructive Interference in Quantum Computing",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:qUcmZB5y_30C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Modeling Biological Dynamic Networks with Reaction Systems",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "KZUaK6YAAAAJ:7PzlFSSx8tAC",
+            "num_citations": 0
+        }
+    ],
+    "public_access": {
+        "available": 77,
+        "not_available": 20
+    }
+}

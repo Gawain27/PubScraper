@@ -17,44 +17,44 @@
     "interests": [
         "Algorithms and Data Structures"
     ],
-    "citedby": 6046,
+    "citedby": 6042,
     "organization": 10975463302590740180,
     "homepage": "http://pages.di.unipi.it/grossi",
-    "citedby5y": 1682,
-    "hindex": 34,
-    "hindex5y": 18,
+    "citedby5y": 1688,
+    "hindex": 35,
+    "hindex5y": 19,
     "i10index": 104,
     "i10index5y": 46,
     "cites_per_year": {
         "1996": 26,
         "1997": 29,
-        "1998": 45,
-        "1999": 50,
-        "2000": 58,
-        "2001": 72,
-        "2002": 99,
-        "2003": 128,
-        "2004": 179,
-        "2005": 192,
-        "2006": 192,
+        "1998": 47,
+        "1999": 57,
+        "2000": 61,
+        "2001": 76,
+        "2002": 100,
+        "2003": 126,
+        "2004": 178,
+        "2005": 194,
+        "2006": 191,
         "2007": 251,
         "2008": 218,
         "2009": 302,
-        "2010": 218,
-        "2011": 218,
-        "2012": 245,
-        "2013": 298,
-        "2014": 324,
-        "2015": 270,
-        "2016": 244,
-        "2017": 295,
-        "2018": 293,
-        "2019": 236,
+        "2010": 217,
+        "2011": 217,
+        "2012": 246,
+        "2013": 293,
+        "2014": 321,
+        "2015": 268,
+        "2016": 246,
+        "2017": 283,
+        "2018": 290,
+        "2019": 231,
         "2020": 319,
         "2021": 323,
-        "2022": 310,
-        "2023": 347,
-        "2024": 142
+        "2022": 314,
+        "2023": 345,
+        "2024": 150
     },
     "coauthors": [],
     "publications": [
@@ -68,7 +68,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:u-x6o8ySG0sC",
-            "num_citations": 993,
+            "num_citations": 987,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6946481020063769737",
             "cites_id": [
                 "6946481020063769737"
@@ -84,11 +84,11 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:u5HHmVD_uO8C",
-            "num_citations": 867,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7706450568335967594,2270959191255689073",
+            "num_citations": 856,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7706450568335967594,2342158370947831605",
             "cites_id": [
                 "7706450568335967594",
-                "2270959191255689073"
+                "2342158370947831605"
             ]
         },
         {
@@ -101,7 +101,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:d1gkVwhDpl0C",
-            "num_citations": 460,
+            "num_citations": 462,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4325788262794555513",
             "cites_id": [
                 "4325788262794555513"
@@ -133,7 +133,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:ZHo1McVdvXMC",
-            "num_citations": 114,
+            "num_citations": 115,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4036470605052839253",
             "cites_id": [
                 "4036470605052839253"
@@ -149,7 +149,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:9yKSN-GCB0IC",
-            "num_citations": 112,
+            "num_citations": 114,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16226379414917791851",
             "cites_id": [
                 "16226379414917791851"
@@ -165,7 +165,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:2osOgNQ5qMEC",
-            "num_citations": 107,
+            "num_citations": 109,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7696967845911356400",
             "cites_id": [
                 "7696967845911356400"
@@ -181,7 +181,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:UeHWp8X0CEIC",
-            "num_citations": 95,
+            "num_citations": 96,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4612941252245649148",
             "cites_id": [
                 "4612941252245649148"
@@ -197,27 +197,11 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:W7OEmFMy1HYC",
-            "num_citations": 86,
+            "num_citations": 85,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2834557880414871744,17332489445355614497",
             "cites_id": [
                 "2834557880414871744",
                 "17332489445355614497"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "On computing the diameter of real-world undirected graphs",
-                "pub_year": "2013",
-                "citation": "Theoretical Computer Science 514, 84-95, 2013"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:JV2RwH3_ST0C",
-            "num_citations": 85,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6331934431225492531",
-            "cites_id": [
-                "6331934431225492531"
             ]
         },
         {
@@ -240,17 +224,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "D2K: scalable community detection in massive networks via small-diameter k-plexes",
-                "pub_year": "2018",
-                "citation": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge \u2026, 2018"
+                "title": "On computing the diameter of real-world undirected graphs",
+                "pub_year": "2013",
+                "citation": "Theoretical Computer Science 514, 84-95, 2013"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:Ri6SYOTghG4C",
-            "num_citations": 79,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17754682949544446458,12346848240651606248",
+            "author_pub_id": "yZTneswAAAAJ:JV2RwH3_ST0C",
+            "num_citations": 81,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6331934431225492531",
             "cites_id": [
-                "17754682949544446458",
-                "12346848240651606248"
+                "6331934431225492531"
             ]
         },
         {
@@ -263,10 +246,27 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:Se3iqnhoufwC",
-            "num_citations": 79,
+            "num_citations": 78,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17748916834444249839",
             "cites_id": [
                 "17748916834444249839"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "D2K: scalable community detection in massive networks via small-diameter k-plexes",
+                "pub_year": "2018",
+                "citation": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge \u2026, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:Ri6SYOTghG4C",
+            "num_citations": 76,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17754682949544446458,12346848240651606248",
+            "cites_id": [
+                "17754682949544446458",
+                "12346848240651606248"
             ]
         },
         {
@@ -279,7 +279,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:LkGwnXOMwfcC",
-            "num_citations": 73,
+            "num_citations": 72,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14412567723692710309",
             "cites_id": [
                 "14412567723692710309"
@@ -305,32 +305,32 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "IP address lookupmade fast and simple",
-                "pub_year": "1999",
-                "citation": "Algorithms-ESA\u201999: 7th Annual European Symposium Prague, Czech Republic \u2026, 1999"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:IjCSPb-OGe4C",
-            "num_citations": 69,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9003147202368705009",
-            "cites_id": [
-                "9003147202368705009"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Sublinear-space bounded-delay enumeration for massive network analytics: Maximal cliques",
                 "pub_year": "2016",
                 "citation": "43rd International Colloquium on Automata, Languages, and Programming (ICALP \u2026, 2016"
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:nrtMV_XWKgEC",
-            "num_citations": 67,
+            "num_citations": 70,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=196969423405231186",
             "cites_id": [
                 "196969423405231186"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "IP address lookupmade fast and simple",
+                "pub_year": "1999",
+                "citation": "Algorithms-ESA\u201999: 7th Annual European Symposium Prague, Czech Republic \u2026, 1999"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:IjCSPb-OGe4C",
+            "num_citations": 68,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9003147202368705009",
+            "cites_id": [
+                "9003147202368705009"
             ]
         },
         {
@@ -343,7 +343,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:zYLM7Y9cAGgC",
-            "num_citations": 63,
+            "num_citations": 65,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11565581477294206034",
             "cites_id": [
                 "11565581477294206034"
@@ -359,7 +359,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:Tyk-4Ss8FVUC",
-            "num_citations": 61,
+            "num_citations": 62,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14142269528170738613",
             "cites_id": [
                 "14142269528170738613"
@@ -387,7 +387,7 @@
             "bib": {
                 "title": "On the complexity of string matching for graphs",
                 "pub_year": "2019",
-                "citation": "46th International Colloquium on Automata, Languages, and Programming (ICALP \u2026, 2019"
+                "citation": "International Colloquium on Automata, Languages and Programming, 55: 1--55: 15, 2019"
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:oi2SiIJ9l4AC",
@@ -407,26 +407,10 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:9ZlFYXVOiuMC",
-            "num_citations": 54,
+            "num_citations": 52,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10964144859574833193",
             "cites_id": [
                 "10964144859574833193"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Wavelet trees: From theory to practice",
-                "pub_year": "2011",
-                "citation": "2011 First International Conference on Data Compression, Communications and \u2026, 2011"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:e5wmG9Sq2KIC",
-            "num_citations": 53,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1287877077334616341",
-            "cites_id": [
-                "1287877077334616341"
             ]
         },
         {
@@ -439,11 +423,28 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:ufrVoPGSRksC",
-            "num_citations": 49,
+            "num_citations": 51,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16916316596840225597,17674297343791445987",
             "cites_id": [
                 "16916316596840225597",
                 "17674297343791445987"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Efficient cross-tree for external memory",
+                "pub_year": "1999",
+                "citation": "External Memory Algorithms and Visualization, 87-106, 1999"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:WF5omc3nYNoC",
+            "num_citations": 50,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16390648019788253148,25162256936038297",
+            "cites_id": [
+                "16390648019788253148",
+                "25162256936038297"
             ]
         },
         {
@@ -456,7 +457,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:35r97b3x0nAC",
-            "num_citations": 48,
+            "num_citations": 49,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11663213575494899538",
             "cites_id": [
                 "11663213575494899538"
@@ -482,17 +483,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Efficient cross-tree for external memory",
-                "pub_year": "1999",
-                "citation": "External Memory Algorithms and Visualization, 87-106, 1999"
+                "title": "Wavelet trees: From theory to practice",
+                "pub_year": "2011",
+                "citation": "2011 First International Conference on Data Compression, Communications and \u2026, 2011"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:WF5omc3nYNoC",
-            "num_citations": 48,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16390648019788253148,25162256936038297",
+            "author_pub_id": "yZTneswAAAAJ:e5wmG9Sq2KIC",
+            "num_citations": 46,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1287877077334616341",
             "cites_id": [
-                "16390648019788253148",
-                "25162256936038297"
+                "1287877077334616341"
             ]
         },
         {
@@ -537,7 +537,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:roLk4NBRz8UC",
-            "num_citations": 43,
+            "num_citations": 44,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11706719464758235630",
             "cites_id": [
                 "11706719464758235630"
@@ -553,7 +553,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:3fE2CSJIrl8C",
-            "num_citations": 38,
+            "num_citations": 40,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16125379066284471112,1085716412124678747",
             "cites_id": [
                 "16125379066284471112",
@@ -564,32 +564,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Output-sensitive listing of bounded-size trees in undirected graphs",
-                "pub_year": "2011",
-                "citation": "Algorithms\u2013ESA 2011: 19th Annual European Symposium, Saarbr\u00fccken, Germany \u2026, 2011"
+                "title": "On-line pattern matching on similar texts",
+                "pub_year": "2017",
+                "citation": "Proceedings of 28th Annual Symposium on Combinatorial Pattern Matching (CPM \u2026, 2017"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:hMod-77fHWUC",
+            "author_pub_id": "yZTneswAAAAJ:tYavs44e6CUC",
             "num_citations": 36,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2677928722670710540",
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11913799640505143915",
             "cites_id": [
-                "2677928722670710540"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "On finding common subtrees",
-                "pub_year": "1993",
-                "citation": "Theoretical Computer Science 108 (2), 345-356, 1993"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:hqOjcs7Dif8C",
-            "num_citations": 36,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13989321569793438163",
-            "cites_id": [
-                "13989321569793438163"
+                "11913799640505143915"
             ]
         },
         {
@@ -612,16 +596,32 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "On-line pattern matching on similar texts",
-                "pub_year": "2017",
-                "citation": "Proceedings of 28th Annual Symposium on Combinatorial Pattern Matching (CPM \u2026, 2017"
+                "title": "Output-sensitive listing of bounded-size trees in undirected graphs",
+                "pub_year": "2011",
+                "citation": "Algorithms\u2013ESA 2011: 19th Annual European Symposium, Saarbr\u00fccken, Germany \u2026, 2011"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:tYavs44e6CUC",
-            "num_citations": 34,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11913799640505143915",
+            "author_pub_id": "yZTneswAAAAJ:hMod-77fHWUC",
+            "num_citations": 35,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2677928722670710540",
             "cites_id": [
-                "11913799640505143915"
+                "2677928722670710540"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "On finding common subtrees",
+                "pub_year": "1993",
+                "citation": "Theoretical Computer Science 108 (2), 345-356, 1993"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:hqOjcs7Dif8C",
+            "num_citations": 35,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13989321569793438163",
+            "cites_id": [
+                "13989321569793438163"
             ]
         },
         {
@@ -644,16 +644,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Finding the diameter in real-world graphs: Experimentally turning a lower bound into an upper bound",
-                "pub_year": "2010",
-                "citation": "Algorithms\u2013ESA 2010: 18th Annual European Symposium, Liverpool, UK \u2026, 2010"
+                "title": "Circular sequence comparison: algorithms and applications",
+                "pub_year": "2016",
+                "citation": "Algorithms for Molecular Biology 11, 1-14, 2016"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:7PzlFSSx8tAC",
+            "author_pub_id": "yZTneswAAAAJ:_Re3VWB3Y0AC",
             "num_citations": 32,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10512038055830884951",
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7802764628036865074",
             "cites_id": [
-                "10512038055830884951"
+                "7802764628036865074"
             ]
         },
         {
@@ -676,16 +676,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Circular sequence comparison: algorithms and applications",
-                "pub_year": "2016",
-                "citation": "Algorithms for Molecular Biology 11, 1-14, 2016"
+                "title": "Efficient techniques for maintaining multidimensional keys in linked data structures",
+                "pub_year": "1999",
+                "citation": "Automata, Languages and Programming: 26th International Colloquium, ICALP\u201999 \u2026, 1999"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:_Re3VWB3Y0AC",
-            "num_citations": 31,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7802764628036865074",
+            "author_pub_id": "yZTneswAAAAJ:kNdYIx-mwKoC",
+            "num_citations": 32,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2114076107097559145",
             "cites_id": [
-                "7802764628036865074"
+                "2114076107097559145"
             ]
         },
         {
@@ -724,16 +724,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Efficient techniques for maintaining multidimensional keys in linked data structures",
-                "pub_year": "1999",
-                "citation": "Automata, Languages and Programming: 26th International Colloquium, ICALP\u201999 \u2026, 1999"
+                "title": "Finding the diameter in real-world graphs: Experimentally turning a lower bound into an upper bound",
+                "pub_year": "2010",
+                "citation": "Algorithms\u2013ESA 2010: 18th Annual European Symposium, Liverpool, UK \u2026, 2010"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:kNdYIx-mwKoC",
+            "author_pub_id": "yZTneswAAAAJ:7PzlFSSx8tAC",
             "num_citations": 31,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2114076107097559145",
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10512038055830884951",
             "cites_id": [
-                "2114076107097559145"
+                "10512038055830884951"
             ]
         },
         {
@@ -804,13 +804,29 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
+                "title": "Efficient bubble enumeration in directed graphs",
+                "pub_year": "2012",
+                "citation": "String Processing and Information Retrieval: 19th International Symposium \u2026, 2012"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:f2IySw72cVMC",
+            "num_citations": 25,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10285784576231988616",
+            "cites_id": [
+                "10285784576231988616"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
                 "title": "Implicit B-trees: New results for the dictionary problem",
                 "pub_year": "2002",
                 "citation": "The 43rd Annual IEEE Symposium on Foundations of Computer Science, 2002 \u2026, 2002"
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:SP6oXDckpogC",
-            "num_citations": 26,
+            "num_citations": 25,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10892967274450445489",
             "cites_id": [
                 "10892967274450445489"
@@ -826,7 +842,7 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:tkaPQYYpVKoC",
-            "num_citations": 25,
+            "num_citations": 24,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7445435411367949376",
             "cites_id": [
                 "7445435411367949376"
@@ -852,22 +868,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Efficient bubble enumeration in directed graphs",
-                "pub_year": "2012",
-                "citation": "String Processing and Information Retrieval: 19th International Symposium \u2026, 2012"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:f2IySw72cVMC",
-            "num_citations": 23,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10285784576231988616",
-            "cites_id": [
-                "10285784576231988616"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Rank-sensitive data structures",
                 "pub_year": "2005",
                 "citation": "String Processing and Information Retrieval: 12th International Conference \u2026, 2005"
@@ -878,6 +878,22 @@
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15237347472702751725",
             "cites_id": [
                 "15237347472702751725"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A general technique for managing strings in comparison-driven data structures",
+                "pub_year": "2004",
+                "citation": "International Colloquium on Automata, Languages, and Programming, 606-617, 2004"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:TQgYirikUcIC",
+            "num_citations": 23,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17815581437021695971",
+            "cites_id": [
+                "17815581437021695971"
             ]
         },
         {
@@ -948,22 +964,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Implicit dictionaries supporting searches and amortized updates in O(log n log log n) time",
-                "pub_year": "2003",
-                "citation": "Proceedings of the fourteenth annual ACM-SIAM symposium on Discrete \u2026, 2003"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:4TOpqqG69KYC",
-            "num_citations": 22,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4566522717209774478",
-            "cites_id": [
-                "4566522717209774478"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Encodings for Range Selection and Top-k Queries",
                 "pub_year": "2013",
                 "citation": "Algorithms\u2013ESA 2013: 21st Annual European Symposium, Sophia Antipolis \u2026, 2013"
@@ -996,16 +996,32 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "A general technique for managing strings in comparison-driven data structures",
-                "pub_year": "2004",
-                "citation": "International Colloquium on Automata, Languages, and Programming, 606-617, 2004"
+                "title": "Strutture di dati e algoritmi",
+                "pub_year": "2006",
+                "citation": "Pearson Education Addison-Wesley, 2006"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:TQgYirikUcIC",
+            "author_pub_id": "yZTneswAAAAJ:XiSMed-E-HIC",
             "num_citations": 21,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17815581437021695971",
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14935297874193171778",
             "cites_id": [
-                "17815581437021695971"
+                "14935297874193171778"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Implicit dictionaries supporting searches and amortized updates in O(log n log log n) time",
+                "pub_year": "2003",
+                "citation": "Proceedings of the fourteenth annual ACM-SIAM symposium on Discrete \u2026, 2003"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:4TOpqqG69KYC",
+            "num_citations": 21,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4566522717209774478",
+            "cites_id": [
+                "4566522717209774478"
             ]
         },
         {
@@ -1044,22 +1060,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Strutture di dati e algoritmi",
-                "pub_year": "2006",
-                "citation": "Pearson Education Addison-Wesley, 2006"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:XiSMed-E-HIC",
-            "num_citations": 20,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14935297874193171778",
-            "cites_id": [
-                "14935297874193171778"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Sublinear-space and bounded-delay algorithms for maximal clique enumeration in graphs",
                 "pub_year": "2020",
                 "citation": "Algorithmica 82 (6), 1547-1573, 2020"
@@ -1076,29 +1076,13 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Listing maximal subgraphs satisfying strongly accessible properties",
-                "pub_year": "2019",
-                "citation": "SIAM Journal on Discrete Mathematics 33 (2), 587-613, 2019"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:HtS1dXgVpQUC",
-            "num_citations": 18,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13345676147837256714",
-            "cites_id": [
-                "13345676147837256714"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Degenerate string comparison and applications",
                 "pub_year": "2018",
                 "citation": "WABI 2018-18th Workshop on Algorithms in Bioinformatics 113, 1-14, 2018"
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:XoXfffV-tXoC",
-            "num_citations": 18,
+            "num_citations": 19,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12217989174516924346",
             "cites_id": [
                 "12217989174516924346"
@@ -1124,16 +1108,32 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Optimal cache-oblivious implicit dictionaries",
-                "pub_year": "2003",
-                "citation": "International Colloquium on Automata, Languages, and Programming, 316-331, 2003"
+                "title": "Comparing degenerate strings",
+                "pub_year": "2020",
+                "citation": "Fundamenta Informaticae 175 (1-4), 41-58, 2020"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:YOwf2qJgpHMC",
-            "num_citations": 18,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7735546793607326572",
+            "author_pub_id": "yZTneswAAAAJ:tH6gc1N1XXoC",
+            "num_citations": 17,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14141108447985182746",
             "cites_id": [
-                "7735546793607326572"
+                "14141108447985182746"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Listing maximal subgraphs satisfying strongly accessible properties",
+                "pub_year": "2019",
+                "citation": "SIAM Journal on Discrete Mathematics 33 (2), 587-613, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:HtS1dXgVpQUC",
+            "num_citations": 17,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13345676147837256714",
+            "cites_id": [
+                "13345676147837256714"
             ]
         },
         {
@@ -1188,6 +1188,22 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
+                "title": "Optimal cache-oblivious implicit dictionaries",
+                "pub_year": "2003",
+                "citation": "International Colloquium on Automata, Languages, and Programming, 316-331, 2003"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:YOwf2qJgpHMC",
+            "num_citations": 17,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7735546793607326572",
+            "cites_id": [
+                "7735546793607326572"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
                 "title": "Search data structures for skewed strings",
                 "pub_year": "2003",
                 "citation": "Experimental and Efficient Algorithms: Second International Workshop, WEA \u2026, 2003"
@@ -1204,29 +1220,13 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Comparing degenerate strings",
-                "pub_year": "2020",
-                "citation": "Fundamenta Informaticae 175 (1-4), 41-58, 2020"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:tH6gc1N1XXoC",
-            "num_citations": 16,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14141108447985182746",
-            "cites_id": [
-                "14141108447985182746"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Simple planar graph partition into three forests",
                 "pub_year": "1998",
                 "citation": "Discrete Applied Mathematics 84 (1-3), 121-132, 1998"
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:qUcmZB5y_30C",
-            "num_citations": 16,
+            "num_citations": 17,
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17800276714207920099",
             "cites_id": [
                 "17800276714207920099"
@@ -1262,6 +1262,22 @@
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1932858694545151479",
             "cites_id": [
                 "1932858694545151479"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Truly scalable k-truss and max-truss algorithms for community detection in graphs",
+                "pub_year": "2020",
+                "citation": "IEEE Access 8, 139096-139109, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:nVrZBo8bIpAC",
+            "num_citations": 15,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=712864162210874407",
+            "cites_id": [
+                "712864162210874407"
             ]
         },
         {
@@ -1332,22 +1348,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Truly scalable k-truss and max-truss algorithms for community detection in graphs",
-                "pub_year": "2020",
-                "citation": "IEEE Access 8, 139096-139109, 2020"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:nVrZBo8bIpAC",
-            "num_citations": 14,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=712864162210874407",
-            "cites_id": [
-                "712864162210874407"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "An experimental study of SB-trees",
                 "pub_year": "1996",
                 "citation": "Symposium on Discrete Algorithms, 1, 1996"
@@ -1387,10 +1387,9 @@
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:FAceZFleit8C",
             "num_citations": 13,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=733964367598170630,5096572839506217619",
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=733964367598170630",
             "cites_id": [
-                "733964367598170630",
-                "5096572839506217619"
+                "733964367598170630"
             ]
         },
         {
@@ -1493,6 +1492,22 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
+                "title": "Proximity search for maximal subgraph enumeration",
+                "pub_year": "2022",
+                "citation": "SIAM Journal on Computing 51 (5), 1580-1625, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:P7Ujq4OLJYoC",
+            "num_citations": 12,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10630944971136483103",
+            "cites_id": [
+                "10630944971136483103"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
                 "title": "Combinatorial algorithms for string sanitization",
                 "pub_year": "2020",
                 "citation": "ACM Transactions on Knowledge Discovery from Data (TKDD) 15 (1), 1-34, 2020"
@@ -1519,6 +1534,22 @@
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9439056621358011782",
             "cites_id": [
                 "9439056621358011782"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Clique covering of large real-world networks",
+                "pub_year": "2016",
+                "citation": "Proceedings of the 31st Annual ACM Symposium on Applied Computing, 1134-1139, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:evX43VCCuoAC",
+            "num_citations": 12,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17659927033819516150",
+            "cites_id": [
+                "17659927033819516150"
             ]
         },
         {
@@ -1573,16 +1604,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Proximity search for maximal subgraph enumeration",
-                "pub_year": "2022",
-                "citation": "SIAM Journal on Computing 51 (5), 1580-1625, 2022"
+                "title": "K-plex cover pooling for graph neural networks",
+                "pub_year": "2021",
+                "citation": "Data Mining and Knowledge Discovery 35 (5), 2200-2220, 2021"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:P7Ujq4OLJYoC",
+            "author_pub_id": "yZTneswAAAAJ:Bg7qf7VwUHIC",
             "num_citations": 11,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10630944971136483103",
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16953581220076002679",
             "cites_id": [
-                "10630944971136483103"
+                "16953581220076002679"
             ]
         },
         {
@@ -1599,22 +1630,6 @@
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1748205640821853065",
             "cites_id": [
                 "1748205640821853065"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Clique covering of large real-world networks",
-                "pub_year": "2016",
-                "citation": "Proceedings of the 31st Annual ACM Symposium on Applied Computing, 1134-1139, 2016"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:evX43VCCuoAC",
-            "num_citations": 11,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17659927033819516150",
-            "cites_id": [
-                "17659927033819516150"
             ]
         },
         {
@@ -1669,16 +1684,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "K-plex cover pooling for graph neural networks",
-                "pub_year": "2021",
-                "citation": "Data Mining and Knowledge Discovery 35 (5), 2200-2220, 2021"
+                "title": "Defining TCR\u03b3\u03b4 lymphoproliferative disorders by combined immunophenotypic and molecular evaluation",
+                "pub_year": "2022",
+                "citation": "Nature Communications 13 (1), 3298, 2022"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:Bg7qf7VwUHIC",
+            "author_pub_id": "yZTneswAAAAJ:v1_lew4L6wgC",
             "num_citations": 10,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16953581220076002679",
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17051399677565215322",
             "cites_id": [
-                "16953581220076002679"
+                "17051399677565215322"
             ]
         },
         {
@@ -1717,32 +1732,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Optimal implicit dictionaries over unbounded universes",
-                "pub_year": "2006",
-                "citation": "Theory of Computing Systems 39 (2), 321-345, 2006"
+                "title": "Proceedings of the 30th International Workshop on Combinatorial Algorithms",
+                "pub_year": "2019",
+                "citation": "Lecture Notes in Computer Science 11638, 2019"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:hC7cP41nSMkC",
-            "num_citations": 10,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1647735220418830752",
-            "cites_id": [
-                "1647735220418830752"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Defining TCR\u03b3\u03b4 lymphoproliferative disorders by combined immunophenotypic and molecular evaluation",
-                "pub_year": "2022",
-                "citation": "Nature Communications 13 (1), 3298, 2022"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:v1_lew4L6wgC",
+            "author_pub_id": "yZTneswAAAAJ:NDuN12AVoxsC",
             "num_citations": 9,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17051399677565215322",
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5239661355031053924",
             "cites_id": [
-                "17051399677565215322"
+                "5239661355031053924"
             ]
         },
         {
@@ -1781,6 +1780,22 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
+                "title": "Optimal implicit dictionaries over unbounded universes",
+                "pub_year": "2006",
+                "citation": "Theory of Computing Systems 39 (2), 321-345, 2006"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:hC7cP41nSMkC",
+            "num_citations": 9,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1647735220418830752",
+            "cites_id": [
+                "1647735220418830752"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
                 "title": "No sorting? Better searching![optimal array organization]",
                 "pub_year": "2004",
                 "citation": "45th Annual IEEE Symposium on Foundations of Computer Science, 491-498, 2004"
@@ -1791,6 +1806,22 @@
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18042093782966109510",
             "cites_id": [
                 "18042093782966109510"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Bases of motifs for generating repeated patterns with don't cares",
+                "pub_year": "2003",
+                "citation": "Universit\u00e0 di Pisa, 2003"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:IWHjjKOFINEC",
+            "num_citations": 9,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1022941268600722022",
+            "cites_id": [
+                "1022941268600722022"
             ]
         },
         {
@@ -1925,22 +1956,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Bases of motifs for generating repeated patterns with don't cares",
-                "pub_year": "2003",
-                "citation": "Universit\u00e0 di Pisa, 2003"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:IWHjjKOFINEC",
-            "num_citations": 8,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1022941268600722022",
-            "cites_id": [
-                "1022941268600722022"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "A fast VLSI solution for approximate string matching",
                 "pub_year": "1992",
                 "citation": "Integration 13 (2), 195-206, 1992"
@@ -2037,22 +2052,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Polynomial-delay enumeration of maximal common subsequences",
-                "pub_year": "2019",
-                "citation": "International Symposium on String Processing and Information Retrieval, 189-202, 2019"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:yqoGN6RLRZoC",
-            "num_citations": 6,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3727510841496559767",
-            "cites_id": [
-                "3727510841496559767"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "On the complexity of exact pattern matching in graphs: determinism and zig-zag matching",
                 "pub_year": "2019",
                 "citation": "arXiv preprint arXiv:1902.03560, 2019"
@@ -2127,6 +2126,22 @@
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=247468420217155562",
             "cites_id": [
                 "247468420217155562"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Polynomial-delay enumeration of maximal common subsequences",
+                "pub_year": "2019",
+                "citation": "International Symposium on String Processing and Information Retrieval, 189-202, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:yqoGN6RLRZoC",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3727510841496559767",
+            "cites_id": [
+                "3727510841496559767"
             ]
         },
         {
@@ -2213,16 +2228,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Optimal space-time dictionaries over an unbounded universe with flat implicit trees",
+                "title": "Text sparsification via local maxima",
                 "pub_year": "2003",
-                "citation": "Universit\u00e0 di Pisa, 2003"
+                "citation": "Theoretical computer science 304 (1-3), 341-364, 2003"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:r0BpntZqJG4C",
+            "author_pub_id": "yZTneswAAAAJ:nb7KW1ujOQ8C",
             "num_citations": 5,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3618367651420425192",
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16635200363005642200",
             "cites_id": [
-                "3618367651420425192"
+                "16635200363005642200"
             ]
         },
         {
@@ -2239,6 +2254,22 @@
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10921196047702356362",
             "cites_id": [
                 "10921196047702356362"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Finding the Anticover of a String",
+                "pub_year": "2020",
+                "citation": "31st Annual Symposium on Combinatorial Pattern Matching (CPM 2020), 2020"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:Aul-kAQHnToC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1050599134200520406",
+            "cites_id": [
+                "1050599134200520406"
             ]
         },
         {
@@ -2293,16 +2324,16 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Text sparsification via local maxima",
+                "title": "Optimal space-time dictionaries over an unbounded universe with flat implicit trees",
                 "pub_year": "2003",
-                "citation": "Theoretical computer science 304 (1-3), 341-364, 2003"
+                "citation": "Universit\u00e0 di Pisa, 2003"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:nb7KW1ujOQ8C",
+            "author_pub_id": "yZTneswAAAAJ:r0BpntZqJG4C",
             "num_citations": 4,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16635200363005642200",
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3618367651420425192",
             "cites_id": [
-                "16635200363005642200"
+                "3618367651420425192"
             ]
         },
         {
@@ -2341,21 +2372,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Compressed su\ufb03x arrays and su\ufb03x trees with applications to text indexing and string matching",
-                "citation": "Proceedings ACM Symposium on the Theory of Computing, 397-406, 0"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:ALROH1vI_8AC",
-            "num_citations": 4,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10246983890108110045",
-            "cites_id": [
-                "10246983890108110045"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Universit\u00e0 degli Studi di Pisa",
                 "citation": ""
             },
@@ -2371,7 +2387,7 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "A Compact DAG for Storing and Searching Maximal Common Subsequences",
+                "title": "A compact DAG for storing and searching maximal common subsequences",
                 "pub_year": "2023",
                 "citation": "arXiv preprint arXiv:2307.13695, 2023"
             },
@@ -2397,22 +2413,6 @@
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17684980937418695105",
             "cites_id": [
                 "17684980937418695105"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Finding the Anticover of a String",
-                "pub_year": "2020",
-                "citation": "31st Annual Symposium on Combinatorial Pattern Matching (CPM 2020), 2020"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:Aul-kAQHnToC",
-            "num_citations": 3,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1050599134200520406",
-            "cites_id": [
-                "1050599134200520406"
             ]
         },
         {
@@ -2451,22 +2451,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Combinatorial Pattern Matching",
-                "pub_year": "2016",
-                "citation": ""
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:1lhNe0rCu4AC",
-            "num_citations": 3,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11172803566054820640",
-            "cites_id": [
-                "11172803566054820640"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Wavelet trees",
                 "pub_year": "2015",
                 "citation": "Encyclopedia of Algorithms, 1-6, 2015"
@@ -2499,22 +2483,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Optimal cache-aware suffix selection",
-                "pub_year": "2009",
-                "citation": "arXiv preprint arXiv:0902.1737, 2009"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:YFjsv_pBGBYC",
-            "num_citations": 3,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6463765386908106291",
-            "cites_id": [
-                "6463765386908106291"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Optimal in-place sorting of vectors and records",
                 "pub_year": "2005",
                 "citation": "International Colloquium on Automata, Languages, and Programming, 90-102, 2005"
@@ -2525,22 +2493,6 @@
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13302055757983811278",
             "cites_id": [
                 "13302055757983811278"
-            ]
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Optimal implicit and cache-oblivious dictionaries over unbounded universes",
-                "pub_year": "2003",
-                "citation": "Full version, 2003"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:kRWSkSYxWN8C",
-            "num_citations": 3,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9230920287703330476",
-            "cites_id": [
-                "9230920287703330476"
             ]
         },
         {
@@ -2610,7 +2562,7 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "On Strings Having the Same Length-k Substrings",
+                "title": "On strings having the same length-k substrings",
                 "pub_year": "2022",
                 "citation": "33rd Annual Symposium on Combinatorial Pattern Matching (CPM), 2022"
             },
@@ -2706,6 +2658,22 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
+                "title": "Combinatorial Pattern Matching",
+                "pub_year": "2016",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:1lhNe0rCu4AC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11172803566054820640",
+            "cites_id": [
+                "11172803566054820640"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
                 "title": "Output-sensitive pattern extraction in sequences",
                 "pub_year": "2014",
                 "citation": "34th IARCS Annual Conference on Foundations of Software Technology and \u2026, 2014"
@@ -2780,6 +2748,38 @@
             "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5129439031172986861",
             "cites_id": [
                 "5129439031172986861"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Optimal cache-aware suffix selection",
+                "pub_year": "2009",
+                "citation": "arXiv preprint arXiv:0902.1737, 2009"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:YFjsv_pBGBYC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6463765386908106291",
+            "cites_id": [
+                "6463765386908106291"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Optimal implicit and cache-oblivious dictionaries over unbounded universes",
+                "pub_year": "2003",
+                "citation": "Full version, 2003"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:kRWSkSYxWN8C",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9230920287703330476",
+            "cites_id": [
+                "9230920287703330476"
             ]
         },
         {
@@ -3058,6 +3058,18 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
+                "title": "On Breaking Truss-based and Core-based Communities",
+                "pub_year": "2024",
+                "citation": "ACM Transactions on Knowledge Discovery from Data 18 (6), 1-43, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:F2UWTTQJPOcC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
                 "title": "Utility-Oriented String Mining",
                 "pub_year": "2024",
                 "citation": "Proceedings of the 2024 SIAM International Conference on Data Mining (SDM \u2026, 2024"
@@ -3070,36 +3082,12 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "On Breaking Truss-Based and Core-Based Communities",
-                "pub_year": "2024",
-                "citation": "ACM Transactions on Knowledge Discovery from Data, 2024"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:F2UWTTQJPOcC",
-            "num_citations": 0
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Refined Bounds on the Number of Eulerian Tours in Undirected Graphs",
                 "pub_year": "2024",
                 "citation": "Algorithmica 86 (1), 194-217, 2024"
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:uVUOdF_882EC",
-            "num_citations": 0
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "ACM Transactions on",
-                "pub_year": "2023",
-                "citation": "ACM Transactions on 19 (3), 2023"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:kWvqk_afx_IC",
             "num_citations": 0
         },
         {
@@ -3154,18 +3142,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Hide and Mine in Strings: Hardness and Algorithms",
-                "pub_year": "2020",
-                "citation": "Proceedings of 20th IEEE International Conference on Data Mining (ICDM 2020), 2020"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:6bLC7aUMtPcC",
-            "num_citations": 0
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Combinatorial Algorithms: 30th International Workshop, IWOCA 2019, Pisa, Italy, July 23\u201325, 2019, Proceedings",
                 "pub_year": "2019",
                 "citation": "Springer, 2019"
@@ -3190,18 +3166,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Proceedings of the 30th International Workshop on Combinatorial Algorithms",
-                "pub_year": "2019",
-                "citation": "LECTURE NOTES IN COMPUTER SCIENCE 11638, 2019"
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:NDuN12AVoxsC",
-            "num_citations": 0
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "CLONOTYPE SHARING AMONG PATIENTS AFFECTED BY gamma delta T-CELL LYMPHOPROLIFERATIVE DISORDERSS",
                 "pub_year": "2018",
                 "citation": "HAEMATOLOGICA 103, S30-S30, 2018"
@@ -3220,30 +3184,6 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:FiDNX6EVdGUC",
-            "num_citations": 0
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "ColorCoding: Implementation of some algorithms for graph similarity based on the color-coding method by Alon-Yuster-Zwick",
-                "pub_year": "2018",
-                "citation": ""
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:w0F2JDEymm0C",
-            "num_citations": 0
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "BC-Cliques: Code to enumerate black connected cliques in the graph obtained by computing the product between two labeled graphs",
-                "pub_year": "2018",
-                "citation": ""
-            },
-            "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:HhcuHIWmDEUC",
             "num_citations": 0
         },
         {
@@ -3310,9 +3250,9 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Compressed and Practical Data Structures for Strings.",
+                "title": "Compressed and Practical Data Structures for Strings",
                 "pub_year": "2018",
-                "citation": "Technical University of Denmark, 2018"
+                "citation": "DTU Compute, 2018"
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:0CzhzZyukY4C",
@@ -3340,6 +3280,18 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:VaXvl8Fpj5cC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "On bubble generators in directed graphs",
+                "pub_year": "2017",
+                "citation": "Springer, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:kzcSZmkxUKAC",
             "num_citations": 0
         },
         {
@@ -3382,9 +3334,21 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Proceedings of the 27th Annual Symposium on Combinatorial Pattern Matching (CPM 2016)",
+                "title": "Sublinear-space bounded-delay enumeration for massive network analytics: Maximal cliques",
                 "pub_year": "2016",
-                "citation": "Schloss Dagstuhl\u2013Leibniz-Zentrum f\u00fcr Informatik, 2016"
+                "citation": "Leibniz International Proceedings in Informatics, LIPIcs 55, 1-15, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:BrOSOlqYqPUC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "27th Annual Symposium on Combinatorial Pattern Matching (CPM 2016)",
+                "pub_year": "2016",
+                "citation": "Schloss Dagstuhl-Leibniz-Zentrum f\u00fcr Informatik GmbH, 2016"
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:YsrPvlHIBpEC",
@@ -3520,6 +3484,30 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:dfsIfKJdRG4C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Output-Sensitive Listing of Bounded-Size Trees in Undirected Graphs",
+                "pub_year": "2011",
+                "citation": "European Symposium on Algorithms (ESA), 2011"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:5bg8sr1QxYwC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Semi-Indexing Semi-Structured Data in Tiny Space",
+                "pub_year": "2011",
+                "citation": "ACM Conference on Information and Knowledge Management (CIKM), 2011"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:WAzi4Gm8nLoC",
             "num_citations": 0
         },
         {
@@ -3802,12 +3790,12 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "A note on updating suffix tree labels",
+                "title": "Optimal deterministic protocols for mobile robots on a grid",
                 "pub_year": "1998",
-                "citation": "THEORETICAL COMPUTER SCIENCE 201, 249, 1998"
+                "citation": "Algorithm Theory\u2014SWAT'98 1432, 181-192, 1998"
             },
             "filled": false,
-            "author_pub_id": "yZTneswAAAAJ:HGTzPopzzJcC",
+            "author_pub_id": "yZTneswAAAAJ:EPG8bYD4jVwC",
             "num_citations": 0
         },
         {
@@ -3868,6 +3856,18 @@
             },
             "filled": false,
             "author_pub_id": "yZTneswAAAAJ:LPZeul_q3PIC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Multi-Dimensional Pattern Matching with",
+                "pub_year": "1995",
+                "citation": "Combinatorial Pattern Matching:... Annual Symposium, 90, 1995"
+            },
+            "filled": false,
+            "author_pub_id": "yZTneswAAAAJ:kF1pexMAQbMC",
             "num_citations": 0
         },
         {
@@ -4117,7 +4117,7 @@
         }
     ],
     "public_access": {
-        "available": 49,
-        "not_available": 4
+        "available": 50,
+        "not_available": 5
     }
 }

@@ -1,0 +1,29 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Hacking an ambiguity detection tool to extract variation points: an experience report",
+        "pub_year": 2018,
+        "citation": "Proceedings of the 12th International Workshop on Variability Modelling of \u2026, 2018",
+        "author": "Alessandro Fantechi and Alessio Ferrari and Stefania Gnesi and Laura Semini",
+        "pages": "43-50",
+        "abstract": "Natural language (NL) requirements documents can be a precious source to identify variability information. This information can be later used to define feature models from which different systems can be instantiated. In this paper, we are interested in validating the approach we have recently proposed to extract variability issues from the ambiguity defects found in NL requirement documents. To this end, we single out ambiguities using an available NL analysis tool, QuARS, and we classify the ambiguities returned by the tool by distinguishing among false positives, real ambiguities, and variation points.We consider three medium sized requirement documents from different domains, namely, train control, social web, home automation. We report in this paper the results of the assessment. Although the validation set is not so large, the results obtained are quite uniform and permit to draw some interesting conclusions \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "QDIhYPgAAAAJ:4DMP91E08xMC",
+    "num_citations": 14,
+    "citedby_url": "/scholar?hl=en&cites=8280926439603086330",
+    "cites_id": [
+        "8280926439603086330"
+    ],
+    "pub_url": "https://dl.acm.org/doi/abs/10.1145/3168365.3168381",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:-qOu-7jC63IJ:scholar.google.com/",
+    "cites_per_year": {
+        "2018": 2,
+        "2019": 3,
+        "2020": 2,
+        "2021": 3,
+        "2022": 2,
+        "2023": 2
+    }
+}

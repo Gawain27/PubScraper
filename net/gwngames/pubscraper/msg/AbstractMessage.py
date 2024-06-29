@@ -2,6 +2,7 @@ import json
 from typing import Dict
 
 from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.Semaphore import SingletonSemaphore
 
 
 class AbstractMessage:
@@ -11,11 +12,12 @@ class AbstractMessage:
     :param message_type: The type of the message.
     """
 
-    def __init__(self, message_type: str, delayed: bool = False, destination_queue: str = "") -> None:
+    def __init__(self, message_type: str, delayed: bool = False, synchronized: bool = False, destination_queue: str = "") -> None:
         self.stats: FileReader = FileReader(FileReader.MESSAGE_STAT_FILE_NAME)
         self.message_type: str = message_type
         self.message_id: str = self.generate_message_id()
         self.delayed: bool = delayed
+        self.synchronized: bool = synchronized
         self.destination_queue: str = destination_queue
         # TODO: loading of message types from file, define constant enum
 

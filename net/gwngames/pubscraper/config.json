@@ -1,5 +1,5 @@
 {
-    "max_logfile_lines": 10000,
+    "max_logfile_lines": 1000,
     "interfaces_enabled": "googlescholar",
     "max_buffer_retries": 3,
     "acceptable_load": 0.5,
@@ -7,10 +7,11 @@
     "entity_port": 8080,
     "status_port": 9090,
     "keepdown_time": 1000,
-    "root_authors": "Riccardo Guidotti,Roberto Grossi",
-    "min_wait_time": 20,
-    "max_wait_time": 60,
-    "max_ms_worktime": 300,
-    "max_iface_requests": 8,
-    "delay_threshold": 50
+    "root_authors": "Riccardo Guidotti,Roberto Grossi,Laura Semini",
+    "min_wait_time": 10,
+    "max_wait_time": 30,
+    "max_ms_worktime": 3000,
+    "max_iface_requests": 5,
+    "delay_threshold": 50,
+    "max_fetchable": 5
 }

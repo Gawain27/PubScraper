@@ -1,0 +1,36 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "A logical view of choreography",
+        "pub_year": 2006,
+        "citation": "Coordination Models and Languages: 8th International Conference \u2026, 2006",
+        "author": "Carlo Montangero and Laura Semini",
+        "conference": "Coordination Models and Languages: 8th International Conference, COORDINATION 2006, Bologna, Italy, June 14-16, 2006. Proceedings 8",
+        "pages": "179-193",
+        "publisher": "Springer Berlin Heidelberg",
+        "abstract": "We present a model for choreography \u00e0 la WS\u2013CDL and formalize it in \u0394DSTL(x), a spatio\u2013temporal logic for the specification and verification of global computing systems. The approach builds on the formalization of an atomic interaction and defines composition rules to describe complex choreographies.The logic permits to reason on the choreography formalization and to derive the properties of interest. A pleasant characteristics of the proposed approach is that the composition of formulae, corresponding to a choreography, results in a formula shaping as an atomic interaction formula. Therefore, the properties of complex choreographies can be uniformly described as interactions.We demonstrate the approach using a business scenario already tackled in the literature."
+    },
+    "filled": true,
+    "author_pub_id": "QDIhYPgAAAAJ:_FxGoFyzp5QC",
+    "num_citations": 18,
+    "citedby_url": "/scholar?hl=en&cites=4191372574977431423",
+    "cites_id": [
+        "4191372574977431423"
+    ],
+    "pub_url": "https://link.springer.com/chapter/10.1007/11767954_12",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:fxfYbCa_KjoJ:scholar.google.com/",
+    "cites_per_year": {
+        "2007": 3,
+        "2008": 0,
+        "2009": 2,
+        "2010": 3,
+        "2011": 1,
+        "2012": 1,
+        "2013": 2,
+        "2014": 2,
+        "2015": 1,
+        "2016": 1,
+        "2017": 1
+    }
+}

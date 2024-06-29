@@ -1,0 +1,37 @@
+{
+    "__2024_Going_beyond_xai": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Going beyond xai: A systematic survey for explanation-guided learning",
+            "author": [
+                "Y Gao",
+                "S Gu",
+                "J Jiang",
+                "SR Hong",
+                "D Yu",
+                "L Zhao"
+            ],
+            "pub_year": "2024",
+            "venue": "ACM Computing Surveys",
+            "abstract": "As the societal impact of Deep Neural Networks (DNNs) grows, the goals for advancing DNNs become more complex and diverse, ranging from improving a conventional model"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3644073",
+        "author_id": [
+            "h0J-7rgAAAAJ",
+            "",
+            "zJKmGRAAAAAJ",
+            "D5bxMHYAAAAJ",
+            "45jOSjQAAAAJ",
+            "qnvyqtwAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:M8cS7wcszikJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D0,33%26sciodt%3D0,33%26as_ylo%3D2024%26as_yhi%3D2024%26cites%3D10318870785830319261%26scipsc%3D&citilm=1&update_op=library_add&info=M8cS7wcszikJ&ei=_M9_ZujAMfyCy9YPqueT2AI&json=",
+        "num_citations": 25,
+        "citedby_url": "/scholar?cites=3012393613344818995&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:M8cS7wcszikJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33&sciodt=0,33&as_ylo=2024&as_yhi=2024",
+        "eprint_url": "https://arxiv.org/pdf/2212.03954"
+    }
+}

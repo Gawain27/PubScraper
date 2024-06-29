@@ -4,9 +4,11 @@ import threading
 from typing import Dict, Any
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MasterPriorityQueue import MasterPriorityQueue
 from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.RequestState import RequestState
 from net.gwngames.pubscraper.utils.Semaphore import SingletonSemaphore
 from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
@@ -88,8 +90,11 @@ class MessageRouter:
         self.routing_threads[message.message_id].start()
 
     def send_delayed(self, message: AbstractMessage, priority=0):
-        ThreadUtils.random_sleep(self.config.get_value(ConfigConstants.MIN_WAIT_TIME),
-                                 self.config.get_value(ConfigConstants.MAX_WAIT_TIME))
+        RequestState().update_last_sent(self.config.get_value(ConfigConstants.MIN_WAIT_TIME),
+                                        self.config.get_value(ConfigConstants.MAX_WAIT_TIME),
+                                        message.message_type)
+
+        message.delayed = False
         self.send_message(message, priority)
 
     def send_message(self, message: AbstractMessage, priority=0):
@@ -111,8 +116,9 @@ class MessageRouter:
             send_message(self, message, queue, priority=1)
         """
         if self.config.get_value(ConfigConstants.MAX_MS_WORKTIME) < (
-                datetime.datetime.now() - self.started_at).total_seconds():
-            logging.info(f"Timeout. Not starting message: {message}")
+                datetime.datetime.now() - self.started_at).total_seconds()\
+                and message.destination_queue == QueueConstants.SCRAPER_QUEUE:
+            logging.info(f"Scraping Timeout. Not starting message: {message}")
             return
 
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
@@ -124,8 +130,11 @@ class MessageRouter:
         sem: SingletonSemaphore = SingletonSemaphore(sem_type,
                                                      self.config.get_value(ConfigConstants.MAX_IFACE_REQUESTS))
         sem.acquire()
+        message.locking_type = sem
         logging.info(f"Delaying message: {message.message_id} of type {message.message_type}")
-        self.send_delayed(message, priority)
+        message.delayed = True
+        message.synchronize = True
+        self.send_message(message, priority)
         sem.release()
 
     @staticmethod

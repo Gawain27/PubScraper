@@ -1,0 +1,46 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "When indexing equals compression: experiments with compressing suffix arrays and applications.",
+        "pub_year": 2004,
+        "citation": "SODA 4, 636-645, 2004",
+        "author": "Roberto Grossi and Ankur Gupta and Jeffrey Scott Vitter",
+        "journal": "SODA",
+        "volume": "4",
+        "pages": "636-645",
+        "abstract": "We report on a new and improved version of high-order entropy-compressed suffix arrays, which has theoretical performance guarantees similar to those in our earlier work [16], yet represents an improvement in practice. Our experiments indicate that the resulting text index offers state-of-the-art compression. In particular, we require roughly 20% of the original text size\u2014without requiring a separate instance of the text\u2014and support fast and powerful searches. To our knowledge, this is the best known method in terms of space for fast searching."
+    },
+    "filled": true,
+    "author_pub_id": "yZTneswAAAAJ:9yKSN-GCB0IC",
+    "num_citations": 114,
+    "citedby_url": "/scholar?hl=en&cites=16226379414917791851",
+    "cites_id": [
+        "16226379414917791851"
+    ],
+    "pub_url": "https://pages.di.unipi.it/grossi/PAPERS/soda04.pdf",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:a8DiWBuuL-EJ:scholar.google.com/",
+    "cites_per_year": {
+        "2003": 1,
+        "2004": 10,
+        "2005": 14,
+        "2006": 16,
+        "2007": 16,
+        "2008": 6,
+        "2009": 7,
+        "2010": 3,
+        "2011": 2,
+        "2012": 4,
+        "2013": 1,
+        "2014": 6,
+        "2015": 2,
+        "2016": 2,
+        "2017": 5,
+        "2018": 5,
+        "2019": 1,
+        "2020": 0,
+        "2021": 3,
+        "2022": 2,
+        "2023": 6
+    }
+}

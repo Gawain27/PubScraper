@@ -1,0 +1,36 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "StPowla: SOA, policies and workflows",
+        "pub_year": 2009,
+        "citation": "Service-Oriented Computing-ICSOC 2007 Workshops: ICSOC 2007, International \u2026, 2009",
+        "author": "Stephen Gorton and Carlo Montangero and Stephan Reiff-Marganiec and Laura Semini",
+        "conference": "Service-Oriented Computing-ICSOC 2007 Workshops: ICSOC 2007, International Workshops, Vienna, Austria, September 17, 2007, Revised Selected Papers 5",
+        "pages": "351-362",
+        "publisher": "Springer Berlin Heidelberg",
+        "abstract": "We introduce StPowla, a workflow based approach to business process modelling that integrates a simple graphical notation, to ease the presentation of the core business process, a user\u2013friendly policy language, Appel, to provide the necessary adaptation to the varied expectations of the various business stakeholders, and the Service Oriented Architecture, to assemble and orchestrate available services in the business process. We illustrate the approach with a loan approval process."
+    },
+    "filled": true,
+    "author_pub_id": "QDIhYPgAAAAJ:Zph67rFs4hoC",
+    "num_citations": 51,
+    "citedby_url": "/scholar?hl=en&cites=3664994349544543255",
+    "cites_id": [
+        "3664994349544543255"
+    ],
+    "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-93851-4_35",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:F5RqZPGs3DIJ:scholar.google.com/",
+    "cites_per_year": {
+        "2008": 9,
+        "2009": 7,
+        "2010": 6,
+        "2011": 7,
+        "2012": 8,
+        "2013": 3,
+        "2014": 4,
+        "2015": 2,
+        "2016": 3,
+        "2017": 0,
+        "2018": 1
+    }
+}

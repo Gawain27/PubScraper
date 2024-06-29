@@ -1,0 +1,35 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Myway: Location prediction via mobility profiling",
+        "pub_year": 2017,
+        "citation": "Information Systems 64, 350-367, 2017",
+        "author": "Roberto Trasarti and Riccardo Guidotti and Anna Monreale and Fosca Giannotti",
+        "journal": "Information Systems",
+        "volume": "64",
+        "pages": "350-367",
+        "publisher": "Pergamon",
+        "abstract": "Forecasting the future positions of mobile users is a valuable task allowing us to operate efficiently a myriad of different applications which need this type of information. We propose MyWay, a prediction system which exploits the individual systematic behaviors modeled by mobility profiles to predict human movements. MyWay provides three strategies: the individual strategy uses only the user individual mobility profile, the collective strategy takes advantage of all users individual systematic behaviors, and the hybrid strategy that is a combination of the previous two. A key point is that MyWay only requires the sharing of individual mobility profiles, a concise representation of the user\u05f3s movements, instead of raw trajectory data revealing the detailed movement of the users. We evaluate the prediction performances of our proposal by a deep experimentation on large real-world data. The results highlight that the \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "KZUaK6YAAAAJ:Wp0gIr-vW9MC",
+    "num_citations": 107,
+    "citedby_url": "/scholar?hl=en&cites=2799962529791012973",
+    "cites_id": [
+        "2799962529791012973"
+    ],
+    "pub_url": "https://www.sciencedirect.com/science/article/pii/S0306437915001945",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:bfCYBBZ32yYJ:scholar.google.com/",
+    "cites_per_year": {
+        "2016": 3,
+        "2017": 7,
+        "2018": 17,
+        "2019": 13,
+        "2020": 22,
+        "2021": 13,
+        "2022": 14,
+        "2023": 10,
+        "2024": 6
+    }
+}
