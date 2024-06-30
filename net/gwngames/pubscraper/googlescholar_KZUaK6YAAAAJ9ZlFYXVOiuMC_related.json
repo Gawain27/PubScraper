@@ -1,0 +1,154 @@
+{
+    "__2017_Never_drive_alone": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Never drive alone: Boosting carpooling with network analysis",
+            "author": [
+                "R Guidotti",
+                "M Nanni",
+                "S Rinzivillo",
+                "D Pedreschi"
+            ],
+            "pub_year": "2017",
+            "venue": "Information Systems",
+            "abstract": "Carpooling, ie, the act where two or more travelers share the same car for a common trip, is one of the possibilities brought forward to reduce traffic and its externalities, but experience"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0306437916300989",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "DLastegAAAAJ",
+            "SEJQSaAAAAAJ",
+            "5efz6osAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:MJNxfPPfJx0J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:7T-Av9bwEjcJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=MJNxfPPfJx0J&ei=PHaAZv_kGOPTy9YPncyQqAs&json=",
+        "num_citations": 51,
+        "citedby_url": "/scholar?cites=2100893988049490736&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:MJNxfPPfJx0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://ricerca.sns.it/bitstream/11384/114496/3/NeverDriveAlone.pdf"
+    },
+    "__2017_The_GRAAL_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "The GRAAL of carpooling: GReen And sociAL optimization from crowd-sourced data",
+            "author": [
+                "M Berlingerio",
+                "B Ghaddar",
+                "R Guidotti",
+                "A Pascale"
+            ],
+            "pub_year": "2017",
+            "venue": "\u2026 Research Part C \u2026",
+            "abstract": "Carpooling, ie the sharing of vehicles to reach common destinations, is often performed to reduce costs and pollution. Recent work on carpooling takes into account, besides mobility"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0968090X17300657",
+        "author_id": [
+            "mzniIlQAAAAJ",
+            "ERQSOF8AAAAJ",
+            "KZUaK6YAAAAJ",
+            "s3D6MaEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:_zKtJDbmXmcJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2100893988049490736%26scipsc%3D&citilm=1&update_op=library_add&info=_zKtJDbmXmcJ&ei=XH2AZrucJd2r6rQPv5O9kAY&json=",
+        "num_citations": 46,
+        "citedby_url": "/scholar?cites=7448643953935332095&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:_zKtJDbmXmcJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://openportal.isti.cnr.it/data/2017/382556/2017_382556.postprint.pdf"
+    },
+    "__2020_Home-work_carpooling_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Home-work carpooling for social mixing",
+            "author": [
+                "F Librino",
+                "ME Renda",
+                "P Santi",
+                "F Martelli",
+                "G Resta"
+            ],
+            "pub_year": "2020",
+            "venue": "Transportation",
+            "abstract": "Shared mobility is widely recognized for its contribution in reducing carbon footprint, traffic congestion, parking needs and transportation-related costs in urban and suburban areas. In"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/article/10.1007/s11116-019-10038-2",
+        "author_id": [
+            "c_x9lzkAAAAJ",
+            "e4bAoyAAAAAJ",
+            "345-ILkAAAAJ",
+            "kVzFvicAAAAJ",
+            "dY42hAgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:BngU7lMVD6sJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=BngU7lMVD6sJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 22,
+        "citedby_url": "/scholar?cites=12326094155357124614&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:BngU7lMVD6sJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://dspace.mit.edu/bitstream/handle/1721.1/126887/Home_work_Carpooling_for_Social_Mixing_Preprtint.pdf?sequence=2&isAllowed=y"
+    },
+    "__2022_Revealing_influences_on": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Revealing influences on carsharing users' trip distance in small urban areas",
+            "author": [
+                "F Baumgarte",
+                "R Keller",
+                "F R\u00f6hrich",
+                "L Valett"
+            ],
+            "pub_year": "2022",
+            "venue": "\u2026 Research Part D \u2026",
+            "abstract": "Carsharing is an essential part of the transformation towards sustainable mobility in smaller urban areas. To expand their services and the positive social and environmental benefits"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S1361920922000827",
+        "author_id": [
+            "",
+            "3kS1fFYAAAAJ",
+            "",
+            "xY_O03MAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:EIpCMAoEAOIJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=EIpCMAoEAOIJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 15,
+        "citedby_url": "/scholar?cites=16285020694377564688&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:EIpCMAoEAOIJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__2005_Car_pooling_clubs": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Car pooling clubs: solution for the affiliation problem in traditional/dynamic ridesharing systems",
+            "author": [
+                "G Correia",
+                "JM Viegas"
+            ],
+            "pub_year": "2005",
+            "venue": "Proceedings of the 16th Mini-EURO Conference \u2026",
+            "abstract": "Traffic congestion and the associated pressure in car parking, that results from growing car ownership, require the study of innovative measures to reduce the number of cars traveling"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1827d9e03c1d802c575ac0975f10ba309a31058a",
+        "author_id": [
+            "qvxWRMIAAAAJ",
+            "zLNP9cgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:-aZDVsC4yzEJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=-aZDVsC4yzEJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 19,
+        "citedby_url": "/scholar?cites=3588164664351237881&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:-aZDVsC4yzEJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1827d9e03c1d802c575ac0975f10ba309a31058a"
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "__1995_A_fully-dynamic_data": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A fully-dynamic data structure for external substring search",
+            "author": [
+                "P Ferragina",
+                "R Grossi"
+            ],
+            "pub_year": "1995",
+            "venue": "Proceedings of the twenty-seventh annual ACM \u2026",
+            "abstract": "We address the issue of efficiently searching on external dynamic data structures for strings, introducing the External Dynamic Substring Search problem. Consider a set A of (external)"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/225058.225287",
+        "author_id": [
+            "3EILU3MAAAAJ",
+            "yZTneswAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Umz1lhMzgaAJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D13796074347214849491%26scipsc%3D&citilm=1&update_op=library_add&info=Umz1lhMzgaAJ&ei=OnqAZvD-GqyXy9YP3bmtyAE&json=",
+        "num_citations": 65,
+        "citedby_url": "/scholar?cites=11565581477294206034&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Umz1lhMzgaAJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/225058.225287"
+    },
+    "__1997_Dynamic_text_indexing": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Dynamic text indexing under string updates",
+            "author": [
+                "P Ferragina"
+            ],
+            "pub_year": "1997",
+            "venue": "Journal of algorithms",
+            "abstract": "This paper generalizes the dynamic text indexing problem, introduced in [15], to insertion and deletion of strings. The problem is to quickly answer on-line queries about the"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0196677496908147",
+        "author_id": [
+            "3EILU3MAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:UJnReTll8pwJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:tbNy-DRvQ8QJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=UJnReTll8pwJ&ei=gnqAZu-BEOPTy9YPncyQqAs&json=",
+        "num_citations": 19,
+        "citedby_url": "/scholar?cites=11309212911812057424&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:UJnReTll8pwJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__2015_Compressed_data_structures": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Compressed data structures for dynamic sequences",
+            "author": [
+                "JI Munro",
+                "Y Nekrich"
+            ],
+            "pub_year": "2015",
+            "venue": "Algorithms-ESA 2015: 23rd Annual European \u2026",
+            "abstract": "We consider the problem of storing a dynamic string S over an alphabet \u03a3={1,, \u03c3} in compressed form. Our representation supports insertions and deletions of symbols and"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-662-48350-3_74",
+        "author_id": [
+            "O55rM6QAAAAJ",
+            "XS3z1rkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:3JOYkYlt6jUJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=3JOYkYlt6jUJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 31,
+        "citedby_url": "/scholar?cites=3885038066181116892&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:3JOYkYlt6jUJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/1507.06866"
+    },
+    "__2018_Dynamic_relative_compression,": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Dynamic relative compression, dynamic partial sums, and substring concatenation",
+            "author": [
+                "P Bille",
+                "AR Christiansen",
+                "PH Cording",
+                "IL G\u00f8rtz"
+            ],
+            "pub_year": "2018",
+            "venue": "Algorithmica",
+            "abstract": "Given a static reference string R and a source string S, a relative compression of S with respect to R is an encoding of S as a sequence of references to substrings of R. Relative"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/article/10.1007/s00453-017-0380-7",
+        "author_id": [
+            "KPsv5TIAAAAJ",
+            "",
+            "",
+            "rYFeExcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:tz-Fh4vpSaoJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=tz-Fh4vpSaoJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=12270595445231009719&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:tz-Fh4vpSaoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/1504.07851"
+    },
+    "__2007_Compressed_indexes_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Compressed indexes for dynamic text collections",
+            "author": [
+                "HL Chan",
+                "WK Hon",
+                "TW Lam",
+                "K Sadakane"
+            ],
+            "pub_year": "2007",
+            "venue": "ACM Transactions on \u2026",
+            "abstract": "Let T be a string with n characters over an alphabet of constant size. A recent breakthrough on compressed indexing allows us to build an index for T in optimal space (ie, O (n) bits)"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1240233.1240244",
+        "author_id": [
+            "",
+            "7bMQ4KAAAAAJ",
+            "wgvU0B8AAAAJ",
+            "yh2tWLIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:wfjJenk1zYQJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D10424947412585521918%26scipsc%3D&citilm=1&update_op=library_add&info=wfjJenk1zYQJ&ei=toeAZvL9LePTy9YPncyQqAs&json=",
+        "num_citations": 110,
+        "citedby_url": "/scholar?cites=9569363579099543745&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:wfjJenk1zYQJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.academia.edu/download/31853703/CHLS05.pdf"
+    },
+    "__2021_Dynamic_suffix_array": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Dynamic suffix array with sub-linear update time and poly-logarithmic lookup time",
+            "author": [
+                "A Amir",
+                "I Boneh"
+            ],
+            "pub_year": "2021",
+            "venue": "arXiv preprint arXiv:2112.12678",
+            "abstract": "The Suffix Array $ SA_S [1\\ldots n] $ of an $ n $-length string $ S $ is a lexicographically sorted array of the suffixes of $ S $. The suffix array is one of the most well known and widely"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://arxiv.org/abs/2112.12678",
+        "author_id": [
+            "otHomQ8AAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:VsF93MMuNYIJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D10424947412585521918%26scipsc%3D&citilm=1&update_op=library_add&info=VsF93MMuNYIJ&ei=toeAZvL9LePTy9YPncyQqAs&json=",
+        "num_citations": 7,
+        "citedby_url": "/scholar?cites=9382456817449025878&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:VsF93MMuNYIJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/2112.12678"
+    }
+}

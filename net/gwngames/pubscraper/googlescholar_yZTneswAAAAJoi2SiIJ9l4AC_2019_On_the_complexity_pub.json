@@ -1,0 +1,30 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "On the complexity of string matching for graphs",
+        "pub_year": 2019,
+        "citation": "International Colloquium on Automata, Languages and Programming, 55: 1--55: 15, 2019",
+        "author": "Massimo Equi and Roberto Grossi and Veli M\u00e4kinen and Alexandru Tomescu",
+        "conference": "International Colloquium on Automata, Languages and Programming",
+        "pages": "55: 1--55: 15",
+        "publisher": "Schloss Dagstuhl-Leibniz-Zentrum f\u00fcr Informatik",
+        "abstract": "Exact string matching in labeled graphs is the problem of searching paths of a graph G=(V, E) such that the concatenation of their node labels is equal to the given pattern string P [1.. m]. This basic problem can be found at the heart of more complex operations on variation graphs in computational biology, of query operations in graph databases, and of analysis operations in heterogeneous networks.We prove a conditional lower bound stating that, for any constant \u03f5> 0, an O (| E| 1\u2212 \u03f5 m)-time, or an O (| E| m1\u2212 \u03f5)-time algorithm for exact string matching in graphs, with node labels and patterns drawn from a binary alphabet, cannot be achieved unless the Strong Exponential Time Hypothesis (SETH) is false. This holds even if restricted to undirected graphs with maximum node degree two, ie to zig-zag matching in bidirectional strings, or to deterministic directed acyclic graphs whose nodes have maximum sum of indegree and outdegree three. These restricted cases make the lower bound stricter than what can be directly derived from related bounds on regular expression matching (Backurs and Indyk, FOCS\u201916). In fact, our bounds are tight in the sense that lowering the degree or the alphabet size yields linear-time solvable problems."
+    },
+    "filled": true,
+    "author_pub_id": "yZTneswAAAAJ:oi2SiIJ9l4AC",
+    "num_citations": 54,
+    "citedby_url": "/scholar?hl=en&cites=4593524232536913218",
+    "cites_id": [
+        "4593524232536913218"
+    ],
+    "pub_url": "https://researchportal.helsinki.fi/files/130496153/LIPIcs_ICALP_2019_55.pdf",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:QvWCs_N5vz8J:scholar.google.com/",
+    "cites_per_year": {
+        "2020": 10,
+        "2021": 11,
+        "2022": 17,
+        "2023": 13,
+        "2024": 3
+    }
+}

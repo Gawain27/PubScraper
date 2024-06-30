@@ -1,0 +1,179 @@
+{
+    "__2022_Explainable_AI_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable AI for time series classification: a review, taxonomy and research directions",
+            "author": [
+                "A Theissler",
+                "F Spinnato",
+                "U Schlegel",
+                "R Guidotti"
+            ],
+            "pub_year": "2022",
+            "venue": "Ieee Access",
+            "abstract": "Time series data is increasingly used in a wide range of fields, and it is often relied on in crucial applications and high-stakes decision-making. For instance, sensors generate time"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/9895252/",
+        "author_id": [
+            "VEBhVSQAAAAJ",
+            "YBrHKOYAAAAJ",
+            "OmfaIuYAAAAJ",
+            "KZUaK6YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:qO5mzSlW_O4J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D6331934431225492531%26scipsc%3D&citilm=1&update_op=library_add&info=qO5mzSlW_O4J&ei=vT-AZvDNAvyCy9YPqueT2AI&json=",
+        "num_citations": 68,
+        "citedby_url": "/scholar?cites=17220733812697657000&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:qO5mzSlW_O4J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://ieeexplore.ieee.org/iel7/6287639/9668973/09895252.pdf"
+    },
+    "__2021_Explainable_artificial_intelligence": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable artificial intelligence (xai) on timeseries data: A survey",
+            "author": [
+                "T Rojat",
+                "R Puget",
+                "D Filliat",
+                "J Del Ser",
+                "R Gelin"
+            ],
+            "pub_year": "2021",
+            "venue": "arXiv preprint arXiv \u2026",
+            "abstract": "Most of state of the art methods applied on time series consist of deep learning methods that are too complex to be interpreted. This lack of interpretability is a major drawback, as several"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://arxiv.org/abs/2104.00950",
+        "author_id": [
+            "",
+            "ApkcOiYAAAAJ",
+            "Wzq_c20AAAAJ",
+            "p_wY0zUAAAAJ",
+            "C2s0GP0AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:F04F8sFNYwwJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D6331934431225492531%26scipsc%3D&citilm=1&update_op=library_add&info=F04F8sFNYwwJ&ei=vT-AZvDNAvyCy9YPqueT2AI&json=",
+        "num_citations": 179,
+        "citedby_url": "/scholar?cites=892642646533950999&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:F04F8sFNYwwJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/2104.00950"
+    },
+    "__2019_Agnostic_local_explanation": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Agnostic local explanation for time series classification",
+            "author": [
+                "M Guillem\u00e9",
+                "V Masson",
+                "L Roz\u00e9"
+            ],
+            "pub_year": "2019",
+            "venue": "2019 IEEE 31st \u2026",
+            "abstract": "Recent advances in Machine Learning (such as Deep Learning) have brought tremendous gains in classification accuracy. However, these approaches build complex non-linear"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8995349/",
+        "author_id": [
+            "",
+            "",
+            "PoihceMAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:-oXeI3_hLmkJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D17748916834444249839%26scipsc%3D&citilm=1&update_op=library_add&info=-oXeI3_hLmkJ&ei=5z-AZtK-BKyXy9YP3bmtyAE&json=",
+        "num_citations": 51,
+        "citedby_url": "/scholar?cites=7579243159090005498&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:-oXeI3_hLmkJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__2021_Instance-based_counterfactual_explanations": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Instance-based counterfactual explanations for time series classification",
+            "author": [
+                "E Delaney",
+                "D Greene",
+                "MT Keane"
+            ],
+            "pub_year": "2021",
+            "venue": "International conference on case \u2026",
+            "abstract": "In recent years, there has been a rapidly expanding focus on explaining the predictions made by black-box AI systems that handle image and tabular data. However, considerably"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-030-86957-1_3",
+        "author_id": [
+            "fYgRdjcAAAAJ",
+            "htlibRwAAAAJ",
+            "bBozfc4AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:3N2s3c4gJW8J:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:Q7TGaLlDY-YJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=3N2s3c4gJW8J&ei=VkSAZp2bNfOCy9YP1YKW-AQ&json=",
+        "num_citations": 105,
+        "citedby_url": "/scholar?cites=8008843585202740700&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:3N2s3c4gJW8J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/2009.13211"
+    },
+    "__2020_Explaining_any_time": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explaining any time series classifier",
+            "author": [
+                "R Guidotti",
+                "A Monreale",
+                "F Spinnato"
+            ],
+            "pub_year": "2020",
+            "venue": "2020 IEEE second \u2026",
+            "abstract": "We present a method to explain the decisions of black box models for time series classification. The explanation consists of factual and counterfactual shapelet-based rules"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/9319285/",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "bA-rXeUAAAAJ",
+            "YBrHKOYAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:7EbYBu-ew0gJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=7EbYBu-ew0gJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 45,
+        "citedby_url": "/scholar?cites=5243209140638598892&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:7EbYBu-ew0gJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "http://didawiki.cli.di.unipi.it/lib/exe/fetch.php/magistraleinformatica/dmi/lasts.pdf"
+    },
+    "__2022_Investigating_explainability_methods": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Investigating explainability methods in recurrent neural network architectures for financial time series data",
+            "author": [
+                "W Freeborough",
+                "T van Zyl"
+            ],
+            "pub_year": "2022",
+            "venue": "Applied Sciences",
+            "abstract": "Statistical methods were traditionally primarily used for time series forecasting. However, new hybrid methods demonstrate competitive accuracy, leading to increased machine"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://www.mdpi.com/2076-3417/12/3/1427",
+        "author_id": [
+            "",
+            "9DLVr5oAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:KJrGGlQ9AhMJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=KJrGGlQ9AhMJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 39,
+        "citedby_url": "/scholar?cites=1369724668109822504&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:KJrGGlQ9AhMJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.mdpi.com/2076-3417/12/3/1427"
+    }
+}

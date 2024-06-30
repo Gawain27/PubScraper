@@ -1,0 +1,147 @@
+{
+    "__2018_Big_Data_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Big Data for transportation and mobility: recent advances, trends and challenges",
+            "author": [
+                "AI Torre\u2010Bastida",
+                "J Del Ser",
+                "I La\u00f1a"
+            ],
+            "pub_year": "2018",
+            "venue": "IET Intelligent \u2026",
+            "abstract": "Big Data is an emerging paradigm and has currently become a strong attractor of global interest, specially within the transportation industry. The combination of disruptive"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/iet-its.2018.5188",
+        "author_id": [
+            "KLRGg4AAAAAJ",
+            "p_wY0zUAAAAJ",
+            "jxlOLMMAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:P7JhdDOul8MJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D4237799735570404243%26scipsc%3D&citilm=1&update_op=library_add&info=P7JhdDOul8MJ&ei=edx_ZqHcBI3A6rQPtueGyA4&json=",
+        "num_citations": 152,
+        "citedby_url": "/scholar?cites=14093925094898381375&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:P7JhdDOul8MJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/iet-its.2018.5188"
+    },
+    "__2021_Machine_learning_approaches": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Machine learning approaches to bike-sharing systems: A systematic literature review",
+            "author": [
+                "V Albuquerque",
+                "M Sales Dias",
+                "F Bacao"
+            ],
+            "pub_year": "2021",
+            "venue": "ISPRS International Journal of \u2026",
+            "abstract": "Cities are moving towards new mobility strategies to tackle smart cities' challenges such as carbon emission reduction, urban transport multimodality and mitigation of pandemic"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.mdpi.com/2220-9964/10/2/62",
+        "author_id": [
+            "",
+            "48Zq8ecAAAAJ",
+            "sFoh1WAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:eF75zYlotF4J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:7EbYBu-ew0gJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=eF75zYlotF4J&ei=tuJ_ZrXPN-C16rQP2Oi78Ak&json=",
+        "num_citations": 43,
+        "citedby_url": "/scholar?cites=6824194276448624248&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:eF75zYlotF4J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.mdpi.com/2220-9964/10/2/62/pdf"
+    },
+    "__2021_Mobility_pattern_recognition": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Mobility pattern recognition based prediction for the subway station related bike-sharing trips",
+            "author": [
+                "Y Lv",
+                "D Zhi",
+                "H Sun",
+                "G Qi"
+            ],
+            "pub_year": "2021",
+            "venue": "Transportation Research Part C: Emerging \u2026",
+            "abstract": "The free-floating bike-sharing (BS) system plays an important role in connection with the public transit system. However, few studies have addressed the impacts of the subway"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0968090X21004009",
+        "author_id": [
+            "",
+            "r0newncAAAAJ",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:seKkjXvzpScJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=seKkjXvzpScJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=2856957250619368113&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:seKkjXvzpScJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2020_Seismic_vulnerability_assessment": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Seismic vulnerability assessment methodologies for roadway assets and networks: A state-of-the-art review",
+            "author": [
+                "AM El-Maissi",
+                "SA Argyroudis",
+                "FM Nazri"
+            ],
+            "pub_year": "2020",
+            "venue": "Sustainability",
+            "abstract": "Road networks are considered as one of the most important transport infrastructure systems, since they attain the economic and social prosperity of modern societies. For this reason, it is"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://www.mdpi.com/2071-1050/13/1/61",
+        "author_id": [
+            "v3kVdj4AAAAJ",
+            "H5rCgQgAAAAJ",
+            "Vnk-Y2oAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:3igpu6stCOkJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=3igpu6stCOkJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 43,
+        "citedby_url": "/scholar?cites=16791721426253588702&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:3igpu6stCOkJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.mdpi.com/2071-1050/13/1/61/pdf"
+    },
+    "__2018_Intelligent_traffic_monitoring": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Intelligent traffic monitoring and guidance system for smart city",
+            "author": [
+                "S Latif",
+                "H Afzaal",
+                "NA Zafar"
+            ],
+            "pub_year": "2018",
+            "venue": "2018 International Conference on \u2026",
+            "abstract": "IoT stands for Internet of things which is defined as an intercommunication of heterogeneous smart devices acting as a single network. In IoT, every device is connected via internet with"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8346327/",
+        "author_id": [
+            "symN9XYAAAAJ",
+            "KhdxB_kAAAAJ",
+            "i-SXw_0AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Azt0oDIgzP4J:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=Azt0oDIgzP4J&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 78,
+        "citedby_url": "/scholar?cites=18360085182695095043&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Azt0oDIgzP4J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    }
+}

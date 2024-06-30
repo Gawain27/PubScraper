@@ -1,0 +1,86 @@
+{
+    "__2021_Interpretable_Machine_Learning": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Interpretable Machine Learning: A brief survey from the predictive maintenance perspective",
+            "author": [
+                "S Vollert",
+                "M Atzmueller"
+            ],
+            "pub_year": "2021",
+            "venue": "2021 26th IEEE \u2026",
+            "abstract": "In the field of predictive maintenance (PdM), machine learning (ML) has gained importance over the last years. Accompanying this development, an increasing number of papers use"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/9613467/",
+        "author_id": [
+            "",
+            "PSxBcWwAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:_60GWyW4IRQJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=_60GWyW4IRQJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 91,
+        "citedby_url": "/scholar?cites=1450643025570475519&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:_60GWyW4IRQJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2023_Deep_learning_in": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Deep learning in economics: a systematic and critical review",
+            "author": [
+                "Y Zheng",
+                "Z Xu",
+                "A Xiao"
+            ],
+            "pub_year": "2023",
+            "venue": "Artificial Intelligence Review",
+            "abstract": "From the perspective of historical review, the methodology of economics develops from qualitative to quantitative, from a small sampling of data to a vast amount of data. Because of"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/article/10.1007/s10462-022-10272-8",
+        "author_id": [
+            "A4E95yUAAAAJ",
+            "kd9L_GUAAAAJ",
+            "T55NwEEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:rRHfoCKu-iMJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=rRHfoCKu-iMJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 17,
+        "citedby_url": "/scholar?cites=2592575999256236461&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:rRHfoCKu-iMJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/s10462-022-10272-8.pdf"
+    },
+    "__2021_Human-centered_XAI_Developing": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Human-centered XAI: Developing design patterns for explanations of clinical decision support systems",
+            "author": [
+                "TAJ Schoonderwoerd",
+                "W Jorritsma",
+                "MA Neerincx"
+            ],
+            "pub_year": "2021",
+            "venue": "International Journal of \u2026",
+            "abstract": "Much of the research on eXplainable Artificial Intelligence (XAI) has centered on providing transparency of machine learning models. More recently, the focus on human-centered"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S1071581921001026",
+        "author_id": [
+            "Ygs0OoQAAAAJ",
+            "",
+            "rwBWbFAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:BQNywUOrJR4J:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=BQNywUOrJR4J&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 148,
+        "citedby_url": "/scholar?cites=2172330702772765445&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:BQNywUOrJR4J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S1071581921001026"
+    }
+}

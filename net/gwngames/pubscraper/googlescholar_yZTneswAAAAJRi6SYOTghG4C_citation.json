@@ -1,0 +1,254 @@
+{
+    "__2020_A_survey_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A survey of community search over big graphs",
+            "author": [
+                "Y Fang",
+                "X Huang",
+                "L Qin",
+                "Y Zhang",
+                "W Zhang",
+                "R Cheng"
+            ],
+            "pub_year": "2020",
+            "venue": "The VLDB Journal",
+            "abstract": "With the rapid development of information technologies, various big graphs are prevalent in many real applications (eg, social media and knowledge bases). An important component of"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/article/10.1007/s00778-019-00556-x",
+        "author_id": [
+            "tArifqQAAAAJ",
+            "PpcRwI0AAAAJ",
+            "DQHL47oAAAAJ",
+            "9LTwX4cAAAAJ",
+            "yHTJo1kAAAAJ",
+            "7R7MSb4AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:FykerZ30IUEJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D17754682949544446458,12346848240651606248%26scipsc%3D&citilm=1&update_op=library_add&info=FykerZ30IUEJ&ei=EECAZubRHo6By9YP9NGdoA4&json=",
+        "num_citations": 275,
+        "citedby_url": "/scholar?cites=4693301244748245271&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:FykerZ30IUEJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://arxiv.org/pdf/1904.12539"
+    },
+    "__2022_Efficient_maximum_k-plex": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Efficient maximum k-plex computation over large sparse graphs",
+            "author": [
+                "L Chang",
+                "M Xu",
+                "D Strash"
+            ],
+            "pub_year": "2022",
+            "venue": "Proceedings of the VLDB Endowment",
+            "abstract": "The k-plex model is a relaxation of the clique model by allowing every vertex to miss up to k neighbors. Designing exact and efficient algorithms for computing a maximum k-plex in a"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.14778/3565816.3565817",
+        "author_id": [
+            "SWYX6pgAAAAJ",
+            "",
+            "BTW2e5AAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:0bIHCpCgw54J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:7EbYBu-ew0gJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=0bIHCpCgw54J&ei=sESAZsiALPOCy9YP1YKW-AQ&json=",
+        "num_citations": 15,
+        "citedby_url": "/scholar?cites=11440164018955203281&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:0bIHCpCgw54J:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://www.vldb.org/pvldb/vol16/p127-chang.pdf"
+    },
+    "__2020_Effective_and_efficient": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Effective and efficient truss computation over large heterogeneous information networks",
+            "author": [
+                "Y Yang",
+                "Y Fang",
+                "X Lin",
+                "W Zhang"
+            ],
+            "pub_year": "2020",
+            "venue": "2020 IEEE 36th international \u2026",
+            "abstract": "Recently, the topic of truss computation has gained plenty of attention, where the k-truss of a graph is the maximum subgraph in which each edge participates in at least (k-2) triangles"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/9101354/",
+        "author_id": [
+            "udc5maMAAAAJ",
+            "tArifqQAAAAJ",
+            "j6rglkYAAAAJ",
+            "yHTJo1kAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:k2gJ5L7KTzkJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:9kDkgp0eh3EJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=k2gJ5L7KTzkJ&ei=u3OAZqD3DdqK6rQPloi72Ao&json=",
+        "num_citations": 46,
+        "citedby_url": "/scholar?cites=4129742304540453011&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:k2gJ5L7KTzkJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2022_Maximal_directed_quasi-clique": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Maximal directed quasi-clique mining",
+            "author": [
+                "G Guo",
+                "D Yan",
+                "L Yuan",
+                "J Khalil",
+                "C Long"
+            ],
+            "pub_year": "2022",
+            "venue": "2022 IEEE 38th \u2026",
+            "abstract": "Quasi-cliques are a type of dense subgraphs that generalize the notion of cliques, important for applications such as community/module detection in various social and biological"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/9835181/",
+        "author_id": [
+            "y4G5zEkAAAAJ",
+            "Kw71k1gAAAAJ",
+            "4G6r2TwAAAAJ",
+            "mH6ot6kAAAAJ",
+            "LybJ7ksAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:bhjqhFH0cPMJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D3367852488199289115%26scipsc%3D&citilm=1&update_op=library_add&info=bhjqhFH0cPMJ&ei=9HOAZrTRE9iu6rQPotCy2AQ&json=",
+        "num_citations": 18,
+        "citedby_url": "/scholar?cites=17541789179567544430&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:bhjqhFH0cPMJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://par.nsf.gov/servlets/purl/10331905"
+    },
+    "__2021_Improving_maximum_k-plex": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Improving maximum k-plex solver via second-order reduction and graph color bounding",
+            "author": [
+                "Y Zhou",
+                "S Hu",
+                "M Xiao",
+                "ZH Fu"
+            ],
+            "pub_year": "2021",
+            "venue": "Proceedings of the AAAI Conference on \u2026",
+            "abstract": "In a graph, a k-plex is a vertex set in which every vertex is not adjacent to at most k vertices of this set. The maximum k-plex problem, which asks for the largest k-plex from the given"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://ojs.aaai.org/index.php/AAAI/article/view/17477",
+        "author_id": [
+            "8MvNCXAAAAAJ",
+            "",
+            "LLJPSucAAAAJ",
+            "65jnWj0AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:8x1UZrVb_qQJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D196969423405231186%26scipsc%3D&citilm=1&update_op=library_add&info=8x1UZrVb_qQJ&ei=lnmAZpPEKp--6rQPk_yx2A4&json=",
+        "num_citations": 31,
+        "citedby_url": "/scholar?cites=11889040900968685043&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:8x1UZrVb_qQJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://ojs.aaai.org/index.php/AAAI/article/download/17477/17284"
+    },
+    "__2020_User_community_detection": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "User community detection via embedding of social network structure and temporal content",
+            "author": [
+                "H Fani",
+                "E Jiang",
+                "E Bagheri",
+                "F Al-Obeidat",
+                "W Du"
+            ],
+            "pub_year": "2020",
+            "venue": "Information Processing \u2026",
+            "abstract": "Identifying and extracting user communities is an important step towards understanding social network dynamics from a macro perspective. For this reason, the work in this paper"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S030645731830997X",
+        "author_id": [
+            "auL5RiAAAAAJ",
+            "",
+            "mG0H8oYAAAAJ",
+            "ER0y4HMAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:CVfVMRF_vAYJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=CVfVMRF_vAYJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 57,
+        "citedby_url": "/scholar?cites=485402571676407561&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:CVfVMRF_vAYJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2022_Finding_locally_densest": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Finding locally densest subgraphs: a convex programming approach",
+            "author": [
+                "C Ma",
+                "R Cheng",
+                "LVS Lakshmanan",
+                "X Han"
+            ],
+            "pub_year": "2022",
+            "venue": "Proceedings of the VLDB \u2026",
+            "abstract": "Finding the densest subgraph (DS) from a graph is a fundamental problem in graph databases. The DS obtained, which reveals closely related entities, has been found to be"
+        },
+        "filled": false,
+        "gsrank": 7,
+        "pub_url": "https://dl.acm.org/doi/abs/10.14778/3551793.3551826",
+        "author_id": [
+            "EFyELCcAAAAJ",
+            "7R7MSb4AAAAJ",
+            "_RCsaOsAAAAJ",
+            "ZE4EJmcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:PyZr6A0IDNAJ:scholar.google.com/&output=cite&scirp=6&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=PyZr6A0IDNAJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 14,
+        "citedby_url": "/scholar?cites=14991366115436471871&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:PyZr6A0IDNAJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.vldb.org/pvldb/vol15/p2719-ma.pdf"
+    },
+    "__2022_Listing_maximal_k-plexes": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Listing maximal k-plexes in large real-world graphs",
+            "author": [
+                "Z Wang",
+                "Y Zhou",
+                "M Xiao",
+                "B Khoussainov"
+            ],
+            "pub_year": "2022",
+            "venue": "Proceedings of the ACM Web \u2026",
+            "abstract": "Listing dense subgraphs in large graphs plays a key task in varieties of network analysis applications like community detection. Clique, as the densest model, has been widely"
+        },
+        "filled": false,
+        "gsrank": 8,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3485447.3512198",
+        "author_id": [
+            "VivZlSoAAAAJ",
+            "8MvNCXAAAAAJ",
+            "LLJPSucAAAAJ",
+            "qQv6KckAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:AIGp4pHzf7EJ:scholar.google.com/&output=cite&scirp=7&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=AIGp4pHzf7EJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 21,
+        "citedby_url": "/scholar?cites=12790209274654064896&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:AIGp4pHzf7EJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/2202.08737"
+    }
+}

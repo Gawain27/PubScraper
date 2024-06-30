@@ -1,0 +1,36 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "A supervised approach for intra-/inter-community interaction prediction in dynamic social networks",
+        "pub_year": 2016,
+        "citation": "Social Network Analysis and Mining 6 (1), 86, 2016",
+        "author": "Giulio Rossetti and Riccardo Guidotti and Ioanna Miliou and Dino Pedreschi and Fosca Giannotti",
+        "journal": "Social Network Analysis and Mining",
+        "volume": "6",
+        "number": "1",
+        "pages": "86",
+        "publisher": "Springer Vienna",
+        "abstract": "Due to the growing availability of Internet services in the last decade, the interactions between people became more and more easy to establish. For example, we can have an intercontinental job interview, or we can send real-time multimedia content to any friend of us just owning a smartphone. All this kind of human activities generates digital footprints, that describe a complex, rapidly evolving, network structures. In such dynamic scenario, one of the most challenging tasks involves the prediction of future interactions between couples of actors (i.e., users in online social networks, researchers in collaboration networks). In this paper, we approach such problem by leveraging networks dynamics: to this extent, we propose a supervised learning approach which exploits features computed by time-aware forecasts of topological measures calculated between node pairs. Moreover, since real social networks are \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "KZUaK6YAAAAJ:ZeXyd9-uunAC",
+    "num_citations": 24,
+    "citedby_url": "/scholar?hl=en&cites=10219293543844320065",
+    "cites_id": [
+        "10219293543844320065"
+    ],
+    "pub_url": "https://link.springer.com/article/10.1007/s13278-016-0397-y",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:QZNIgFU50o0J:scholar.google.com/",
+    "cites_per_year": {
+        "2016": 1,
+        "2017": 1,
+        "2018": 6,
+        "2019": 2,
+        "2020": 5,
+        "2021": 1,
+        "2022": 3,
+        "2023": 3,
+        "2024": 2
+    }
+}

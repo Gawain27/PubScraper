@@ -1,0 +1,145 @@
+{
+    "__1999_E_cient_cross-trees": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "E cient cross-trees for external memory",
+            "author": [
+                "R Grossi",
+                "GF Italiano"
+            ],
+            "pub_year": "1999",
+            "venue": "External Memory Algorithms and Visualization",
+            "abstract": "We describe e cient methods for organizing and maintaining large multidimensional data sets in external memory. This is particular important as access to external memory is"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2833f61aee8d635d95817c0b20125d2173e42f41",
+        "author_id": [
+            "yZTneswAAAAJ",
+            "6jiwt-UAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:3EfwWYhHd-MJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:YhIX4awoAb4J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=3EfwWYhHd-MJ&ei=dXyAZobfLqyXy9YP3bmtyAE&json=",
+        "num_citations": 50,
+        "citedby_url": "/scholar?cites=16390648019788253148&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:3EfwWYhHd-MJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2833f61aee8d635d95817c0b20125d2173e42f41"
+    },
+    "__2001_A_framework_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A framework for index bulk loading and dynamization",
+            "author": [
+                "PK Agarwal",
+                "L Arge",
+                "O Procopiuc",
+                "JS Vitter"
+            ],
+            "pub_year": "2001",
+            "venue": "Automata, Languages and \u2026",
+            "abstract": "In this paper we investigate automated methods for externalizing internal memory data structures. We consider a class of balanced trees that we call weight-balanced partitioning"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/chapter/10.1007/3-540-48224-5_10",
+        "author_id": [
+            "xe0eVksAAAAJ",
+            "MgdxxbAAAAAJ",
+            "",
+            "IeXW2bkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:gbmVcrDR1owJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:OsZEStmPkqAJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=gbmVcrDR1owJ&ei=i3yAZpPnK6jAy9YP8seP4Ac&json=",
+        "num_citations": 59,
+        "citedby_url": "/scholar?cites=10148529366092855681&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:gbmVcrDR1owJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://kuscholarworks.ku.edu/bitstream/handle/1808/7213/AAP01.pdf?sequence=1&isAllowed=y"
+    },
+    "__2023_BP-tree_Overcoming_the": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "BP-tree: Overcoming the Point-Range Operation Tradeoff for In-Memory B-trees",
+            "author": [
+                "H Xu",
+                "A Li",
+                "B Wheatman",
+                "M Marneni"
+            ],
+            "pub_year": "2023",
+            "venue": "Proceedings of the VLDB \u2026",
+            "abstract": "B-trees are the go-to data structure for in-memory indexes in databases and storage systems. B-trees support both point operations (ie, inserts and finds) and range operations"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://dl.acm.org/doi/abs/10.14778/3611479.3611502",
+        "author_id": [
+            "ZcguQt4AAAAJ",
+            "",
+            "vP2to0MAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:dAJs2nl1gl4J:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=dAJs2nl1gl4J&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 1,
+        "citedby_url": "/scholar?cites=6810134752753615476&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:dAJs2nl1gl4J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://prashantpandey.github.io/uploads/vldb23-btree.pdf"
+    },
+    "__2001_Optimizing_multidimensional_index": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Optimizing multidimensional index trees for main memory access",
+            "author": [
+                "K Kim",
+                "SK Cha",
+                "K Kwon"
+            ],
+            "pub_year": "2001",
+            "venue": "ACM SIGMOD Record",
+            "abstract": "Recent studies have shown that cache-conscious indexes such as the CSB+-tree outperform conventional main memory indexes such as the T-tree. The key idea of these"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/376284.375679",
+        "author_id": [
+            "ROThhNAAAAAJ",
+            "",
+            "7T8UnF0AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Ekq9esyrTCUJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Ekq9esyrTCUJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 206,
+        "citedby_url": "/scholar?cites=2687711972354247186&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Ekq9esyrTCUJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://homes.cs.aau.dk/~simas/teaching/mem_hierarchy/p139-kim.pdf"
+    },
+    "__2001_External_memory_algorithms": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "External memory algorithms and data structures: Dealing with massive data",
+            "author": [
+                "JS Vitter"
+            ],
+            "pub_year": "2001",
+            "venue": "ACM Computing surveys (CsUR)",
+            "abstract": "Data sets in large applications are often too massive to fit completely inside the computers internal memory. The resulting input/output communication (or I/O) between fast internal"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/384192.384193",
+        "author_id": [
+            "IeXW2bkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:hiU8hY7st-IJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=hiU8hY7st-IJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 908,
+        "citedby_url": "/scholar?cites=16336786270174586246&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:hiU8hY7st-IJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=88d3164e16d3440ab4079f1e4b510353d4e18d34"
+    }
+}

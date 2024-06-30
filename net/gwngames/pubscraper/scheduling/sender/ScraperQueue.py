@@ -20,17 +20,16 @@ from net.gwngames.pubscraper.utils.StringUtils import StringUtils
 class ScraperQueue(AsyncQueue):
     QUEUE: Final = QueueConstants.SCRAPER_QUEUE
 
-
     def register_me(self) -> type:
         return ScraperQueue
 
     def on_message(self, msg: BaseMessage) -> None:
         self.logger.info("Received message: %s", msg)
 
-        update_date = self.message_stats.get_value(msg.content)
-        if update_date is None:
-            self.logger.info("Setting last update date from: %s", update_date)
-            self.message_stats.set_and_save(msg.content, datetime.today().isoformat())
+        update_data: list = self.message_stats.get_value(msg.content)
+        update_index = 0 if update_data is None else int(update_data[0])
+        self.logger.info("Setting last update data for %s from: %s", msg.content, update_index)
+        self.message_stats.set_and_save(msg.content, [str(update_index+1), datetime.today().isoformat()])
 
         scraped_info_file: str = ""
         if isinstance(msg, ScrapeTopic):
@@ -46,10 +45,10 @@ class ScraperQueue(AsyncQueue):
             scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_author_publication(msg.pub)
             self.logger.info("Processed message %s of type GetScholarlyPublication", msg.message_id)
         elif isinstance(msg, GetScholarlyPubCitations):
-            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_pub_citations(msg.citations, StringUtils.sanitize_string(msg.pub_id), msg.pub)
+            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_pub_citations(msg.content, msg.citations, StringUtils.sanitize_string(msg.pub_id), msg.pub)
             self.logger.info("Processed message %s of type GetScholarlyPubCitations", msg.content)
         elif isinstance(msg, GetScholarlyPubRelatedArticles):
-            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_related_articles(msg.articles, StringUtils.sanitize_string(msg.pub_id), msg.pub)
+            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_related_articles(msg.content, msg.articles, StringUtils.sanitize_string(msg.pub_id), msg.pub)
             self.logger.info("Processed message %s of type GetScholarlyPubRelatedArticles", msg.content)
         elif isinstance(msg, GetGoogleScholarData):
             self.logger.info("Processing GetGoogleScholarData message with query: %s", msg.query)

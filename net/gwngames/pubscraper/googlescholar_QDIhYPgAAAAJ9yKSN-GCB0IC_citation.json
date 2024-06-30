@@ -1,0 +1,194 @@
+{
+    "__2005_Abstracting_application-level_security": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Abstracting application-level security policy for ubiquitous computing",
+            "author": [
+                "DJ Scott"
+            ],
+            "pub_year": "2005",
+            "venue": "NA",
+            "abstract": "In the future world of Ubiquitous Computing, tiny embedded networked computers will be found in everything from mobile phones to microwave ovens. Thanks to improvements in"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-613.html",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:s48whuO9Lz4J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:ePkjgrt8gEoJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=s48whuO9Lz4J&ei=gUaAZsP9EPyCy9YPqueT2AI&json=",
+        "num_citations": 37,
+        "citedby_url": "/scholar?cites=4481008939163488179&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:s48whuO9Lz4J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-613.pdf"
+    },
+    "__2008_Logic-based_conflict_detection": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Logic-based conflict detection for distributed policies",
+            "author": [
+                "C Montangero",
+                "S Reiff-Marganiec"
+            ],
+            "pub_year": "2008",
+            "venue": "Fundamenta \u2026",
+            "abstract": "Policies are used to describe rules that are employed to modify (often distributed) system behaviour at runtime. Typically policies are created by many different people and there are"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://content.iospress.com/articles/fundamenta-informaticae/fi89-4-07",
+        "author_id": [
+            "",
+            "rww_13kAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Zh_d8tmHXFcJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:HtJnVSedhlQJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Zh_d8tmHXFcJ&ei=tHSAZsbUO_yCy9YPqueT2AI&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=6295055749309341542&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Zh_d8tmHXFcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://figshare.le.ac.uk/articles/journal_contribution/Logic-based_Conflict_Detection_for_Distributed_Policies/10088069/1/files/18188510.pdf"
+    },
+    "__2007_Logic\u2013Based_Detection_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Logic\u2013Based Detection of Conflicts in Appel Policies",
+            "author": [
+                "C Montangero",
+                "S Reiff-Marganiec",
+                "L Semini"
+            ],
+            "pub_year": "2007",
+            "venue": "International Symposium on \u2026",
+            "abstract": "Appel is a general language for expressing policies in a variety of application domains with a clear separation between the core language and its specialisation for concrete domains"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-75698-9_17",
+        "author_id": [
+            "",
+            "rww_13kAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:kxPrG2iwzzoJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:tbNy-DRvQ8QJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=kxPrG2iwzzoJ&ei=gnqAZu-BEOPTy9YPncyQqAs&json=",
+        "num_citations": 32,
+        "citedby_url": "/scholar?cites=4237799735570404243&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:kxPrG2iwzzoJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://figshare.le.ac.uk/articles/conference_contribution/Logic_Based_Detection_of_Conflicts_in_APPEL_Policies/10088093/1/files/18188546.pdf"
+    },
+    "__2006_A_logical_view": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A logical view of choreography",
+            "author": [
+                "C Montangero",
+                "L Semini"
+            ],
+            "pub_year": "2006",
+            "venue": "\u2026 , COORDINATION 2006, Bologna, Italy, June 14 \u2026",
+            "abstract": "We present a model for choreography \u00e0 la WS\u2013CDL and formalize it in \u0394DSTL (x), a spatio\u2013temporal logic for the specification and verification of global computing systems. The"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/chapter/10.1007/11767954_12",
+        "author_id": [
+            "",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:fxfYbCa_KjoJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:2jLTCKhpSr4J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=fxfYbCa_KjoJ&ei=aIeAZtrpPNqMy9YP25uj2A0&json=",
+        "num_citations": 18,
+        "citedby_url": "/scholar?cites=4191372574977431423&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:fxfYbCa_KjoJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3433c2894c91313032c4757b262552bbb92f5236"
+    },
+    "__2010_Analyzing_completeness_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Analyzing completeness of axiomatic functional systems for temporal\u00d7 modal logics",
+            "author": [
+                "A Burrieza",
+                "IP de Guzm\u00e1n"
+            ],
+            "pub_year": "2010",
+            "venue": "Mathematical Logic \u2026",
+            "abstract": "In previous works, we presented a modification of the usual possible world semantics by introducing an independent temporal structure in each world and using accessibility"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/malq.200810038",
+        "author_id": [
+            "",
+            "vtMIBv0AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:-7_I0PUto-MJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:2jLTCKhpSr4J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=-7_I0PUto-MJ&ei=aIeAZtrpPNqMy9YP25uj2A0&json=",
+        "num_citations": 5,
+        "citedby_url": "/scholar?cites=16403004801606533115&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:-7_I0PUto-MJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2008_Event-based_service_coordination": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Event-based service coordination",
+            "author": [
+                "GL Ferrari",
+                "R Guanciale",
+                "D Strollo",
+                "E Tuosto"
+            ],
+            "pub_year": "2008",
+            "venue": "\u2026 on the Occasion of His 65th \u2026",
+            "abstract": "In this paper we tackle the problem of designing and implementing a framework for programming service coordination policies. In particular, we illustrate the design and the"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-68679-8_20",
+        "author_id": [
+            "",
+            "VZUWVp4AAAAJ",
+            "",
+            "UsADbUQAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:LNjISFdzZREJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D10424947412585521918%26scipsc%3D&citilm=1&update_op=library_add&info=LNjISFdzZREJ&ei=toeAZvL9LePTy9YPncyQqAs&json=",
+        "num_citations": 9,
+        "citedby_url": "/scholar?cites=1253534890013022252&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:LNjISFdzZREJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ca8e21dc05d3e523831c8936c043e3072855640c"
+    },
+    "__2004_Formalizing_an_adaptive": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Formalizing an adaptive security infrastructure in mobadtl",
+            "author": [
+                "C Montangero",
+                "L Semini"
+            ],
+            "pub_year": "2004",
+            "venue": "Proceedings of the FCS'04",
+            "abstract": "We discuss an approach to the logic specification of an Adaptive Security Infrastructure and, within it, of a specific adaptive policy, namely a routing one. Our proposal is based on"
+        },
+        "filled": false,
+        "gsrank": 7,
+        "pub_url": "http://cs.ait.ac.th/~dung/Site/Publications_files/FCS04.pdf#page=313",
+        "author_id": [
+            "",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:QMpSTPENUNcJ:scholar.google.com/&output=cite&scirp=6&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:CLwFP4R2ECsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=QMpSTPENUNcJ&ei=EYiAZo_qFuC16rQP2Oi78Ak&json=",
+        "num_citations": 8,
+        "citedby_url": "/scholar?cites=15514916046310132288&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:QMpSTPENUNcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "http://cs.ait.ac.th/~dung/Site/Publications_files/FCS04.pdf#page=313"
+    }
+}

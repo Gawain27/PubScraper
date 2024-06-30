@@ -1,0 +1,56 @@
+{
+    "__1999_A_refinement_calculus": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A refinement calculus for tuple spaces",
+            "author": [
+                "L Semini",
+                "C Montangero"
+            ],
+            "pub_year": "1999",
+            "venue": "Science of Computer Programming",
+            "abstract": "It is fairly accepted that the realization of complex systems must be accomplished step by step from the initial specification, through a sequence of intermediate phases, to the final"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0167642398000215",
+        "author_id": [
+            "QDIhYPgAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:ePkjgrt8gEoJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D8280926439603086330%26scipsc%3D&citilm=1&update_op=library_add&info=ePkjgrt8gEoJ&ei=-N1_Zo7HEdqMy9YP25uj2A0&json=",
+        "num_citations": 17,
+        "citedby_url": "/scholar?cites=5368427900609755512&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:ePkjgrt8gEoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0167642398000215/pdf?md5=751d1d3759d15c659b6b495532c67eca&pid=1-s2.0-S0167642398000215-main.pdf"
+    },
+    "__1990_Refinement_calculus,_part": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Refinement calculus, part I: Sequential nondeterministic programs",
+            "author": [
+                "RJR Back",
+                "J von Wright"
+            ],
+            "pub_year": "1990",
+            "venue": "\u2026 : REX Workshop, Mook, The Netherlands May 29 \u2026",
+            "abstract": "A lattice theoretic framework for the calculus of program refinement is presented. Specifications and program statements are combined into a single (infinitary) language of"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/chapter/10.1007/3-540-52559-9_60",
+        "author_id": [
+            "eIP8lCkAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:tYiGIq842QsJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=tYiGIq842QsJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 232,
+        "citedby_url": "/scholar?cites=853775929213094069&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:tYiGIq842QsJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.researchgate.net/profile/Ralph-Johan-Back/publication/2751359_Refinement_Calculus_Part_I_Sequential_Nondeterministic_Programs/links/09e4150ee8253bc3da000000/Refinement-Calculus-Part-I-Sequential-Nondeterministic-Programs.pdf"
+    }
+}

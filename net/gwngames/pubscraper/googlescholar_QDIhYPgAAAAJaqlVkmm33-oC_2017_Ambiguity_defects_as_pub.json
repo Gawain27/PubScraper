@@ -1,0 +1,29 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Ambiguity defects as variation points in requirements",
+        "pub_year": 2017,
+        "citation": "Proceedings of the 11th International Workshop on Variability Modelling of \u2026, 2017",
+        "author": "Alessandro Fantechi and Stefania Gnesi and Laura Semini",
+        "pages": "13-19",
+        "abstract": "Software requirements are generally expressed in Natural Language. NL is intrinsically ambiguous, and this is seen as a possible source of problems in the later interpretation of requirements. However, ambiguity or under-specification at requirements level can in some cases give an indication of possible variability, either in design choice, in implementation choices or configurability. Taking into account the results of previous analyses conducted on different requirements documents with NL analysis tools, we attempt a first classification of the forms of ambiguity that indicate variation points, and we indicate an approach to achieve automated support to variability elicitation."
+    },
+    "filled": true,
+    "author_pub_id": "QDIhYPgAAAAJ:aqlVkmm33-oC",
+    "num_citations": 11,
+    "citedby_url": "/scholar?hl=en&cites=8274578762816999942",
+    "cites_id": [
+        "8274578762816999942"
+    ],
+    "pub_url": "https://dl.acm.org/doi/abs/10.1145/3023956.3023964",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:BtKyT4s11XIJ:scholar.google.com/",
+    "cites_per_year": {
+        "2018": 2,
+        "2019": 3,
+        "2020": 3,
+        "2021": 1,
+        "2022": 1,
+        "2023": 1
+    }
+}

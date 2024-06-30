@@ -1,0 +1,120 @@
+{
+    "__2020_On_the_complexity": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "On the complexity of sequence-to-graph alignment",
+            "author": [
+                "C Jain",
+                "H Zhang",
+                "Y Gao",
+                "S Aluru"
+            ],
+            "pub_year": "2020",
+            "venue": "Journal of Computational Biology",
+            "abstract": "Availability of extensive genetic data across multiple individuals and populations is driving the growing importance of graph-based reference representations. Aligning sequences to"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.liebertpub.com/doi/abs/10.1089/cmb.2019.0066",
+        "author_id": [
+            "Y2UmkF0AAAAJ",
+            "jHgVWDIAAAAJ",
+            "8DxE0DoAAAAJ",
+            "YOGOScoAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:2crbDnhlWBcJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KRDixKh3KJgJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=2crbDnhlWBcJ&ei=bYGAZvvpPPOCy9YP1YKW-AQ&json=",
+        "num_citations": 62,
+        "citedby_url": "/scholar?cites=1682206027142646489&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:2crbDnhlWBcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.biorxiv.org/content/10.1101/522912.full.pdf"
+    },
+    "__2021_On_indexing_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "On indexing and compressing finite automata",
+            "author": [
+                "N Cotumaccio",
+                "N Prezza"
+            ],
+            "pub_year": "2021",
+            "venue": "Proceedings of the 2021 ACM-SIAM Symposium on \u2026",
+            "abstract": "An index for a finite automaton is a powerful data structure that supports locating paths labeled with a query pattern, thus solving pattern matching on the underlying regular"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611976465.153",
+        "author_id": [
+            "DKdQ7bYAAAAJ",
+            "5FM8VekAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:VhzHlDULWAEJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:CLwFP4R2ECsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=VhzHlDULWAEJ&ei=EYiAZo_qFuC16rQP2Oi78Ak&json=",
+        "num_citations": 38,
+        "citedby_url": "/scholar?cites=96839716745714774&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:VhzHlDULWAEJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://epubs.siam.org/doi/pdf/10.1137/1.9781611976465.153"
+    },
+    "__2023_Graphs_cannot_be": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Graphs cannot be indexed in polynomial time for sub-quadratic time string matching, unless SETH fails",
+            "author": [
+                "M Equi",
+                "V M\u00e4kinen",
+                "AI Tomescu"
+            ],
+            "pub_year": "2023",
+            "venue": "Theoretical Computer Science",
+            "abstract": "The string matching problem on a node-labeled graph G=(V, E) asks whether a given pattern string P equals the concatenation of node labels of some path in G. This is a basic"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0304397523004413",
+        "author_id": [
+            "S5LNV9YAAAAJ",
+            "jGsexkoAAAAJ",
+            "-7R4K78AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:vB-50p5W8XEJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:CLwFP4R2ECsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=vB-50p5W8XEJ&ei=EYiAZo_qFuC16rQP2Oi78Ak&json=",
+        "num_citations": 42,
+        "citedby_url": "/scholar?cites=8210438835813294012&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:vB-50p5W8XEJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0304397523004413"
+    },
+    "__2020_Regular_languages_meet": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Regular languages meet prefix sorting",
+            "author": [
+                "J Alanko",
+                "G D'Agostino",
+                "A Policriti",
+                "N Prezza"
+            ],
+            "pub_year": "2020",
+            "venue": "Proceedings of the Fourteenth \u2026",
+            "abstract": "Indexing strings via prefix (or suffix) sorting is, arguably, one of the most successful algorithmic techniques developed in the last decades. Can indexing be extended to"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611975994.55",
+        "author_id": [
+            "5-YWwAIAAAAJ",
+            "",
+            "qrk5mO0AAAAJ",
+            "5FM8VekAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:_8hQHhQ8dZwJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=_8hQHhQ8dZwJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 41,
+        "citedby_url": "/scholar?cites=11273983299297528063&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:_8hQHhQ8dZwJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/1902.01088"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "__2019_On_the_stability": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "On the stability of interpretable models",
+            "author": [
+                "R Guidotti",
+                "S Ruggieri"
+            ],
+            "pub_year": "2019",
+            "venue": "2019 International joint conference on \u2026",
+            "abstract": "Interpretable classification models are built with the purpose of providing a comprehensible description of the decision logic to an external oversight agent. When considered in"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8852158/",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "q41ZMpAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Oj2yj4YDfu0J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:pdn2z_u5A8gJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Oj2yj4YDfu0J&ei=ZECAZtS6EbqWy9YP7pCPMA&json=",
+        "num_citations": 37,
+        "citedby_url": "/scholar?cites=17113119510525787450&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Oj2yj4YDfu0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/1810.09352.pdf?fbclid=IwAR0Tk5PRTwRE7cCZI6yfKQuGpnBKujUwnndtfj3RwlMNqKxFU38C0A2KQOg"
+    },
+    "__2017_Towards_a_rigorous": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Towards a rigorous science of interpretable machine learning",
+            "author": [
+                "F Doshi-Velez",
+                "B Kim"
+            ],
+            "pub_year": "2017",
+            "venue": "arXiv preprint arXiv:1702.08608",
+            "abstract": "As machine learning systems become ubiquitous, there has been a surge of interest in interpretable machine learning: systems that provide explanation for their outputs. These"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://arxiv.org/abs/1702.08608",
+        "author_id": [
+            "hwQtFB0AAAAJ",
+            "aGXkhcwAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:xQ5BC7Hj-HkJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:UqyuoaXGuwIJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=xQ5BC7Hj-HkJ&ei=JEWAZpOIM_yCy9YPqueT2AI&json=",
+        "num_citations": 4309,
+        "citedby_url": "/scholar?cites=8789025022351052485&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:xQ5BC7Hj-HkJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/1702.08608"
+    }
+}

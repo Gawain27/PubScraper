@@ -1,0 +1,140 @@
+{
+    "__2003_The_klaim_project": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "The klaim project: Theory and practice",
+            "author": [
+                "L Bettini",
+                "V Bono",
+                "R De Nicola",
+                "G Ferrari"
+            ],
+            "pub_year": "2003",
+            "venue": "\u2026 , Security, and Analysis \u2026",
+            "abstract": "LNCS 2874 - The Klaim Project: Theory and Practice Page 1 The Klaim Project: Theory and  Practice * Lorenzo Bettini1, Viviana Bono2, Rocco De Nicola1, Gianluigi Ferrari3, Daniele"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-40042-4_4",
+        "author_id": [
+            "s5-YWPQAAAAJ",
+            "e13kYqoAAAAJ",
+            "Meb6JFkAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:1KhiDePV-RMJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D8325269635058768317%26scipsc%3D&citilm=1&update_op=library_add&info=1KhiDePV-RMJ&ei=aEGAZsjjLvyCy9YPqueT2AI&json=",
+        "num_citations": 150,
+        "citedby_url": "/scholar?cites=1439416727080446164&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:1KhiDePV-RMJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://iris.unito.it/bitstream/2318/115007/1/klaim-gen.pdf"
+    },
+    "__2005_Abstracting_application-level_security": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Abstracting application-level security policy for ubiquitous computing",
+            "author": [
+                "DJ Scott"
+            ],
+            "pub_year": "2005",
+            "venue": "NA",
+            "abstract": "In the future world of Ubiquitous Computing, tiny embedded networked computers will be found in everything from mobile phones to microwave ovens. Thanks to improvements in"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-613.html",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:s48whuO9Lz4J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D140871753155428504%26scipsc%3D&citilm=1&update_op=library_add&info=s48whuO9Lz4J&ei=ukWAZqTCD7qWy9YP7pCPMA&json=",
+        "num_citations": 37,
+        "citedby_url": "/scholar?cites=4481008939163488179&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:s48whuO9Lz4J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-613.pdf"
+    },
+    "__2008_Logic-based_conflict_detection": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Logic-based conflict detection for distributed policies",
+            "author": [
+                "C Montangero",
+                "S Reiff-Marganiec"
+            ],
+            "pub_year": "2008",
+            "venue": "Fundamenta \u2026",
+            "abstract": "Policies are used to describe rules that are employed to modify (often distributed) system behaviour at runtime. Typically policies are created by many different people and there are"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://content.iospress.com/articles/fundamenta-informaticae/fi89-4-07",
+        "author_id": [
+            "",
+            "rww_13kAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Zh_d8tmHXFcJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D4191372574977431423%26scipsc%3D&citilm=1&update_op=library_add&info=Zh_d8tmHXFcJ&ei=K0aAZvBbupbL1g_ukI8w&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=6295055749309341542&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Zh_d8tmHXFcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://figshare.le.ac.uk/articles/journal_contribution/Logic-based_Conflict_Detection_for_Distributed_Policies/10088069/1/files/18188510.pdf"
+    },
+    "__2007_Logic\u2013Based_Detection_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Logic\u2013Based Detection of Conflicts in Appel Policies",
+            "author": [
+                "C Montangero",
+                "S Reiff-Marganiec",
+                "L Semini"
+            ],
+            "pub_year": "2007",
+            "venue": "International Symposium on \u2026",
+            "abstract": "Appel is a general language for expressing policies in a variety of application domains with a clear separation between the core language and its specialisation for concrete domains"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-75698-9_17",
+        "author_id": [
+            "",
+            "rww_13kAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:kxPrG2iwzzoJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=kxPrG2iwzzoJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 32,
+        "citedby_url": "/scholar?cites=4237799735570404243&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:kxPrG2iwzzoJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://figshare.le.ac.uk/articles/conference_contribution/Logic_Based_Detection_of_Conflicts_in_APPEL_Policies/10088093/1/files/18188546.pdf"
+    },
+    "__2004_MoMo_A_Modal": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "MoMo: A Modal Logic for Reasoning About Mobility",
+            "author": [
+                "R De Nicola",
+                "M Loreti"
+            ],
+            "pub_year": "2004",
+            "venue": "International Symposium on Formal Methods for \u2026",
+            "abstract": "A temporal logic is proposed as a tool for specifying properties of Klaim programs. Klaim is an experimental programming language that supports a programming paradigm where both"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://link.springer.com/chapter/10.1007/11561163_5",
+        "author_id": [
+            "Meb6JFkAAAAJ",
+            "biRr-ycAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:XUCuIiTTeR4J:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=XUCuIiTTeR4J&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 18,
+        "citedby_url": "/scholar?cites=2196018445473955933&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:XUCuIiTTeR4J:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33"
+    }
+}

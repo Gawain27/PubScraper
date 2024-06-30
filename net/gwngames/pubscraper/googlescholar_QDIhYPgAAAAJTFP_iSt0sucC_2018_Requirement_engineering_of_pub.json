@@ -1,0 +1,30 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Requirement engineering of software product lines: Extracting variability using NLP",
+        "pub_year": 2018,
+        "citation": "2018 IEEE 26th international Requirements Engineering conference (RE), 418-423, 2018",
+        "author": "Alessandro Fantechi and Alessio Ferrari and Stefania Gnesi and Laura Semini",
+        "conference": "2018 IEEE 26th international Requirements Engineering conference (RE)",
+        "pages": "418-423",
+        "publisher": "IEEE",
+        "abstract": "The engineering of software product lines begins with the identification of the possible variation points. To this aim, natural language (NL) requirement documents can be used as a source from which variability-relevant information can be elicited. In this paper, we propose to identify variability issues as a subset of the ambiguity defects found in NL requirement documents. To validate the proposal, we single out ambiguities using an available NL analysis tool, QuARS, and we classify the ambiguities returned by the tool by distinguishing among false positives, real ambiguities, and variation points, by independent analysis and successive agreement phase. We consider three different sets of requirements and collect the data that come from the analysis performed."
+    },
+    "filled": true,
+    "author_pub_id": "QDIhYPgAAAAJ:TFP_iSt0sucC",
+    "num_citations": 17,
+    "citedby_url": "/scholar?hl=en&cites=15544328389968028277",
+    "cites_id": [
+        "15544328389968028277"
+    ],
+    "pub_url": "https://ieeexplore.ieee.org/abstract/document/8491160/",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:dWIQNFCMuNcJ:scholar.google.com/",
+    "cites_per_year": {
+        "2019": 3,
+        "2020": 4,
+        "2021": 3,
+        "2022": 0,
+        "2023": 7
+    }
+}

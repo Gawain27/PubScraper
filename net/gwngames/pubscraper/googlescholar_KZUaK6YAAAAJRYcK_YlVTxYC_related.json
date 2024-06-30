@@ -1,0 +1,86 @@
+{
+    "__2018_Personalized_market_basket": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Personalized market basket prediction with temporal annotated recurring sequences",
+            "author": [
+                "R Guidotti",
+                "G Rossetti",
+                "L Pappalardo"
+            ],
+            "pub_year": "2018",
+            "venue": "\u2026 on Knowledge and \u2026",
+            "abstract": "Nowadays, a hot challenge for supermarket chains is to offer personalized services to their customers. Market basket prediction, ie, supplying the customer a shopping list for the next"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8477157/",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "Eug48ewAAAAJ",
+            "88VJDhcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:yuQ1uXSTPicJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2827859745568056522%26scipsc%3D&citilm=1&update_op=library_add&info=yuQ1uXSTPicJ&ei=uEeAZvOILPyCy9YPqueT2AI&json=",
+        "num_citations": 38,
+        "citedby_url": "/scholar?cites=2827859745568056522&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:yuQ1uXSTPicJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://ieeexplore.ieee.org/iel7/69/4358933/08477157.pdf"
+    },
+    "__2017_Market_basket_prediction": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Market basket prediction using user-centric temporal annotated recurring sequences",
+            "author": [
+                "R Guidotti",
+                "G Rossetti",
+                "L Pappalardo"
+            ],
+            "pub_year": "2017",
+            "venue": "\u2026 Conference on Data \u2026",
+            "abstract": "Nowadays, a hot challenge for supermarket chains is to offer personalized services to their customers. Market basket prediction, ie, supplying the customer a shopping list for the next"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8215574/",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "Eug48ewAAAAJ",
+            "88VJDhcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:4d-EFvLAncEJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2827859745568056522%26scipsc%3D&citilm=1&update_op=library_add&info=4d-EFvLAncEJ&ei=uEeAZvOILPyCy9YPqueT2AI&json=",
+        "num_citations": 30,
+        "citedby_url": "/scholar?cites=13951519366656090081&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:4d-EFvLAncEJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://ricerca.sns.it/bitstream/11384/114514/1/icdm2017.pdf"
+    },
+    "__1990_Multi-user_view_integration": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Multi-user view integration system (MUVIS): An expert system for view integration",
+            "author": [
+                "S Hayne",
+                "S Ram"
+            ],
+            "pub_year": "1990",
+            "venue": "Proceedings. Sixth International Conference on \u2026",
+            "abstract": "Nowadays, a hot challenge for supermarket chains is to offer personalized services to their customers. Market basket prediction, ie, supplying the customer a shopping list for the next"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.computer.org/csdl/proceedings-article/icde/1990/00113493/12OmNBrlPDu",
+        "author_id": [
+            "e6r49L0AAAAJ",
+            "cxxGur8AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Y2qRsLqPeWcJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2827859745568056522%26scipsc%3D&citilm=1&update_op=library_add&info=Y2qRsLqPeWcJ&ei=uEeAZvOILPyCy9YPqueT2AI&json=",
+        "num_citations": 202,
+        "citedby_url": "/scholar?cites=7456148690077575779&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:Y2qRsLqPeWcJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33"
+    }
+}

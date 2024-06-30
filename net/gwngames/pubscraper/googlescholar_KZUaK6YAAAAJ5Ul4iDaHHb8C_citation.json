@@ -1,0 +1,176 @@
+{
+    "__2022_Explainable_artificial_intelligence": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable artificial intelligence: a comprehensive review",
+            "author": [
+                "D Minh",
+                "HX Wang",
+                "YF Li",
+                "TN Nguyen"
+            ],
+            "pub_year": "2022",
+            "venue": "Artificial Intelligence Review",
+            "abstract": "Thanks to the exponential growth in computing power and vast amounts of data, artificial intelligence (AI) has witnessed remarkable developments in recent years, enabling it to be"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/article/10.1007/s10462-021-10088-y",
+        "author_id": [
+            "E9hoN9AAAAAJ",
+            "w5epAMEAAAAJ",
+            "l3eFjv8AAAAJ",
+            "j2SYwykAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:2ft9dCizSL0J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:7woAudLRUPYJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=2ft9dCizSL0J&ei=LOB_ZqiEB9qMy9YP25uj2A0&json=",
+        "num_citations": 369,
+        "citedby_url": "/scholar?cites=13639348457826024409&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:2ft9dCizSL0J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2022_Counterfactual_explanations_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Counterfactual explanations and how to find them: literature review and benchmarking",
+            "author": [
+                "R Guidotti"
+            ],
+            "pub_year": "2022",
+            "venue": "Data Mining and Knowledge Discovery",
+            "abstract": "Interpretable machine learning aims at unveiling the reasons behind predictions returned by uninterpretable classifiers. One of the most valuable types of explanation consists of"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/article/10.1007/s10618-022-00831-6",
+        "author_id": [
+            "KZUaK6YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:9v7Lcuh59coJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:OsZEStmPkqAJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=9v7Lcuh59coJ&ei=i3yAZpPnK6jAy9YP8seP4Ac&json=",
+        "num_citations": 277,
+        "citedby_url": "/scholar?cites=14624729404220899062&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:9v7Lcuh59coJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://link.springer.com/article/10.1007/s10618-022-00831-6"
+    },
+    "__2023_Benchmarking_and_survey": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Benchmarking and survey of explanation methods for black box models",
+            "author": [
+                "F Bodria",
+                "F Giannotti",
+                "R Guidotti",
+                "F Naretto"
+            ],
+            "pub_year": "2023",
+            "venue": "Data Mining and \u2026",
+            "abstract": "The rise of sophisticated black-box machine learning models in Artificial Intelligence systems has prompted the need for explanation methods that reveal how these models work"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/article/10.1007/s10618-023-00933-9",
+        "author_id": [
+            "uHztM40AAAAJ",
+            "PKz_a_AAAAAJ",
+            "KZUaK6YAAAAJ",
+            "rfPD67YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:M07Mtg8U3CYJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=M07Mtg8U3CYJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 199,
+        "citedby_url": "/scholar?cites=2800135126041513523&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:M07Mtg8U3CYJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://link.springer.com/article/10.1007/s10618-023-00933-9"
+    },
+    "__2022_Explainability_of_artificial": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainability of artificial intelligence methods, applications and challenges: A comprehensive survey",
+            "author": [
+                "W Ding",
+                "M Abdel-Basset",
+                "H Hawash",
+                "AM Ali"
+            ],
+            "pub_year": "2022",
+            "venue": "Information Sciences",
+            "abstract": "The continuous advancement of Artificial Intelligence (AI) has been revolutionizing the strategy of decision-making in different life domains. Regardless of this achievement, AI"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S002002552201132X",
+        "author_id": [
+            "",
+            "3ekg8rQAAAAJ",
+            "J7xtf9AAAAAJ",
+            "Rl4dxUcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:u1upybdMWtUJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=u1upybdMWtUJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 75,
+        "citedby_url": "/scholar?cites=15373684630228655035&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:u1upybdMWtUJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2021_Classification_of_explainable": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Classification of explainable artificial intelligence methods through their output formats",
+            "author": [
+                "G Vilone",
+                "L Longo"
+            ],
+            "pub_year": "2021",
+            "venue": "Machine Learning and Knowledge Extraction",
+            "abstract": "Machine and deep learning have proven their utility to generate data-driven models with high accuracy and precision. However, their non-linear, complex structures are often difficult"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://www.mdpi.com/2504-4990/3/3/32",
+        "author_id": [
+            "lWM9ozIAAAAJ",
+            "oBqRuY8AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:9oMUbPn2M0sJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=9oMUbPn2M0sJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 101,
+        "citedby_url": "/scholar?cites=5418946327777412086&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:9oMUbPn2M0sJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.mdpi.com/2504-4990/3/3/32"
+    },
+    "__2022_Artificial_intelligence_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Artificial intelligence and ethics within the food sector: Developing a common language for technology adoption across the supply chain",
+            "author": [
+                "L Manning",
+                "S Brewer",
+                "PJ Craigon",
+                "J Frey"
+            ],
+            "pub_year": "2022",
+            "venue": "Trends in Food Science \u2026",
+            "abstract": "Background The use of artificial intelligence (AI) is growing in food supply chains. The ethical language associated with food supply and technology is contextualised and framed"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0924224422001558",
+        "author_id": [
+            "vcVURpUAAAAJ",
+            "",
+            "",
+            "cIXkTUoAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:X5GSIXwCby8J:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=X5GSIXwCby8J&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 43,
+        "citedby_url": "/scholar?cites=3417953374359949663&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:X5GSIXwCby8J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0924224422001558"
+    }
+}

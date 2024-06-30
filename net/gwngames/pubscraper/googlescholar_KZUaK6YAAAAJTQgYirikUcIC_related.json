@@ -1,0 +1,180 @@
+{
+    "__2017_The_GRAAL_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "The GRAAL of carpooling: GReen And sociAL optimization from crowd-sourced data",
+            "author": [
+                "M Berlingerio",
+                "B Ghaddar",
+                "R Guidotti",
+                "A Pascale"
+            ],
+            "pub_year": "2017",
+            "venue": "\u2026 Research Part C \u2026",
+            "abstract": "Carpooling, ie the sharing of vehicles to reach common destinations, is often performed to reduce costs and pollution. Recent work on carpooling takes into account, besides mobility"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0968090X17300657",
+        "author_id": [
+            "mzniIlQAAAAJ",
+            "ERQSOF8AAAAJ",
+            "KZUaK6YAAAAJ",
+            "s3D6MaEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:_zKtJDbmXmcJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2077600067643409503%26scipsc%3D&citilm=1&update_op=library_add&info=_zKtJDbmXmcJ&ei=NUKAZtz_G_yCy9YPqueT2AI&json=",
+        "num_citations": 46,
+        "citedby_url": "/scholar?cites=7448643953935332095&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:_zKtJDbmXmcJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://openportal.isti.cnr.it/data/2017/382556/2017_382556.postprint.pdf"
+    },
+    "__2020_Home-work_carpooling_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Home-work carpooling for social mixing",
+            "author": [
+                "F Librino",
+                "ME Renda",
+                "P Santi",
+                "F Martelli",
+                "G Resta"
+            ],
+            "pub_year": "2020",
+            "venue": "Transportation",
+            "abstract": "Shared mobility is widely recognized for its contribution in reducing carbon footprint, traffic congestion, parking needs and transportation-related costs in urban and suburban areas. In"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/article/10.1007/s11116-019-10038-2",
+        "author_id": [
+            "c_x9lzkAAAAJ",
+            "e4bAoyAAAAAJ",
+            "345-ILkAAAAJ",
+            "kVzFvicAAAAJ",
+            "dY42hAgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:BngU7lMVD6sJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:njp485YtMZAJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=BngU7lMVD6sJ&ei=3kaAZoPHEuC16rQP2Oi78Ak&json=",
+        "num_citations": 22,
+        "citedby_url": "/scholar?cites=12326094155357124614&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:BngU7lMVD6sJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/s11116-019-10038-2.pdf"
+    },
+    "__2017_Never_drive_alone": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Never drive alone: Boosting carpooling with network analysis",
+            "author": [
+                "R Guidotti",
+                "M Nanni",
+                "S Rinzivillo",
+                "D Pedreschi"
+            ],
+            "pub_year": "2017",
+            "venue": "Information Systems",
+            "abstract": "Carpooling, ie, the act where two or more travelers share the same car for a common trip, is one of the possibilities brought forward to reduce traffic and its externalities, but experience"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0306437916300989",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "DLastegAAAAJ",
+            "SEJQSaAAAAAJ",
+            "5efz6osAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:MJNxfPPfJx0J:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:wKBpxV9fVicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=MJNxfPPfJx0J&ei=Rn6AZsO9CJOK6rQPsOu30AY&json=",
+        "num_citations": 51,
+        "citedby_url": "/scholar?cites=2100893988049490736&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:MJNxfPPfJx0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://ricerca.sns.it/bitstream/11384/114496/3/NeverDriveAlone.pdf"
+    },
+    "__2013_An_intelligent_carpooling": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "An intelligent carpooling app for a green social solution to traffic and parking congestions",
+            "author": [
+                "O Dakroub",
+                "CM Boukhater",
+                "F Lahoud"
+            ],
+            "pub_year": "2013",
+            "venue": "\u2026 IEEE Conference on \u2026",
+            "abstract": "Because existing public transportation infrastructure cannot be adapted in a timely manner to address the daunting traffic and parking congestion in urban environments, researchers"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/6728586/",
+        "author_id": [
+            "",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Fun5khKeT6IJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2827859745568056522%26scipsc%3D&citilm=1&update_op=library_add&info=Fun5khKeT6IJ&ei=xH6AZq2ZMqyXy9YP3bmtyAE&json=",
+        "num_citations": 20,
+        "citedby_url": "/scholar?cites=11695740559916919062&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:Fun5khKeT6IJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "http://fayez.me/papers/ITSC-2013-Paper.pdf"
+    },
+    "__2019_Why_do_they": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Why do they ride with others? Meta-analysis of factors influencing travelers to carpool",
+            "author": [
+                "LE Olsson",
+                "R Maier",
+                "M Friman"
+            ],
+            "pub_year": "2019",
+            "venue": "Sustainability",
+            "abstract": "Carpooling can be viewed as a simple intervention to reduce congestion, environmental problems, and land use for parking spaces. The present study assembled 18 studies on"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://www.mdpi.com/2071-1050/11/8/2414",
+        "author_id": [
+            "O_ceT_kAAAAJ",
+            "",
+            "opcjo50AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:HLdz0wIA4NgJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=HLdz0wIA4NgJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 94,
+        "citedby_url": "/scholar?cites=15627490719113131804&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:HLdz0wIA4NgJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://www.mdpi.com/2071-1050/11/8/2414"
+    },
+    "__2016_User_experience_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "User experience of Dynamic Carpooling: How to encourage drivers and passengers?",
+            "author": [
+                "L Cr\u00e9no"
+            ],
+            "pub_year": "2016",
+            "venue": "\u2026 Consumption and Autonomous Driving: Proceedings of \u2026",
+            "abstract": "In the \u201cInternet world\u201d, the car is rapidly becoming one of the most connected elements in our everyday's life. Our research topic deals more specifically with drivers who connect their"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-319-19818-7_8",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:UR8NKEap05MJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=UR8NKEap05MJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 11,
+        "citedby_url": "/scholar?cites=10652043662446108497&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:UR8NKEap05MJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://www.researchgate.net/profile/Lisa-Creno/publication/274064354_User_Experience_of_Dynamic_Carpooling_How_to_Encourage_Drivers_and_Passengers/links/551327b00cf23203199ba144/User-Experience-of-Dynamic-Carpooling-How-to-Encourage-Drivers-and-Passengers.pdf"
+    }
+}

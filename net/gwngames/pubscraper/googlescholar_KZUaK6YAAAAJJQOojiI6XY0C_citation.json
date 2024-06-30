@@ -1,0 +1,126 @@
+{
+    "__2023_Explainable_Artificial_Intelligence": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence",
+            "author": [
+                "S Ali",
+                "T Abuhmed",
+                "S El-Sappagh",
+                "K Muhammad"
+            ],
+            "pub_year": "2023",
+            "venue": "Information fusion",
+            "abstract": "Artificial intelligence (AI) is currently being utilized in a wide range of sophisticated applications, but the outcomes of many AI models are challenging to comprehend and trust"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S1566253523001148",
+        "author_id": [
+            "pqbeRXEAAAAJ",
+            "pLC4l6YAAAAJ",
+            "NoTMvIAAAAAJ",
+            "k5oUZyQAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:G7kIj_4DvS4J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D2100893988049490736%26scipsc%3D&citilm=1&update_op=library_add&info=G7kIj_4DvS4J&ei=FkSAZorUDqjAy9YP8seP4Ac&json=",
+        "num_citations": 289,
+        "citedby_url": "/scholar?cites=3367852488199289115&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:G7kIj_4DvS4J:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S1566253523001148"
+    },
+    "__2024_Explainable_Artificial_Intelligence": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions",
+            "author": [
+                "L Longo",
+                "M Brcic",
+                "F Cabitza",
+                "J Choi",
+                "R Confalonieri"
+            ],
+            "pub_year": "2024",
+            "venue": "Information \u2026",
+            "abstract": "Understanding black box models has become paramount as systems based on opaque Artificial Intelligence (AI) continue to flourish in diverse real-world applications. In response"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S1566253524000794",
+        "author_id": [
+            "oBqRuY8AAAAJ",
+            "rTdMHv8AAAAJ",
+            "ouFj7GQAAAAJ",
+            "RqMLVzUAAAAJ",
+            "zZPB9jUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Q7TGaLlDY-YJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2100893988049490736%26scipsc%3D&citilm=1&update_op=library_add&info=Q7TGaLlDY-YJ&ei=XH2AZrucJd2r6rQPv5O9kAY&json=",
+        "num_citations": 50,
+        "citedby_url": "/scholar?cites=16601187115023643715&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Q7TGaLlDY-YJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S1566253524000794"
+    },
+    "__2023_Benchmarking_and_survey": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Benchmarking and survey of explanation methods for black box models",
+            "author": [
+                "F Bodria",
+                "F Giannotti",
+                "R Guidotti",
+                "F Naretto"
+            ],
+            "pub_year": "2023",
+            "venue": "Data Mining and \u2026",
+            "abstract": "The rise of sophisticated black-box machine learning models in Artificial Intelligence systems has prompted the need for explanation methods that reveal how these models work"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/article/10.1007/s10618-023-00933-9",
+        "author_id": [
+            "uHztM40AAAAJ",
+            "PKz_a_AAAAAJ",
+            "KZUaK6YAAAAJ",
+            "rfPD67YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:M07Mtg8U3CYJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2100893988049490736%26scipsc%3D&citilm=1&update_op=library_add&info=M07Mtg8U3CYJ&ei=XH2AZrucJd2r6rQPv5O9kAY&json=",
+        "num_citations": 199,
+        "citedby_url": "/scholar?cites=2800135126041513523&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:M07Mtg8U3CYJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://link.springer.com/article/10.1007/s10618-023-00933-9"
+    },
+    "__2024_Harnessing_eXplainable_artificial": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Harnessing eXplainable artificial intelligence for feature selection in time series energy forecasting: A comparative analysis of Grad-CAM and SHAP",
+            "author": [
+                "C Van Zyl",
+                "X Ye",
+                "R Naidoo"
+            ],
+            "pub_year": "2024",
+            "venue": "Applied Energy",
+            "abstract": "This study investigates the efficacy of Explainable Artificial Intelligence (XAI) methods, specifically Gradient-weighted Class Activation Mapping (Grad-CAM) and Shapley Additive"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0306261923014435",
+        "author_id": [
+            "hTjCRTsAAAAJ",
+            "oD3KoR8AAAAJ",
+            "RDj_NmsAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:8r5c6BG8p-sJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=8r5c6BG8p-sJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 11,
+        "citedby_url": "/scholar?cites=16980747705122602738&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:8r5c6BG8p-sJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0306261923014435"
+    }
+}

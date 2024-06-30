@@ -50,7 +50,10 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
 
     def _set_scraperapi_proxy(self):
         pg = ProxyGenerator()
-        success = pg.ScraperAPI(GeneralDataFetcher.SCRAPERAPI_KEY)
+        key: str = self.config.get_value(ConfigConstants.SCRAPERAPI_KEY)
+        if key is None:
+            raise Exception("A Scraper API key must be provided for scholarly to work!")
+        success = pg.ScraperAPI(key)
         if not success:
             raise Exception("Proxy could not be fetched")
         scholarly.use_proxy(pg)
@@ -270,8 +273,9 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
             raise e
 
     pub_cit_num: dict[str, int] = {}
+    cit_starting_index: int = None
 
-    def fetch_pub_citations(self, citations: Any, pub_id: str, pub: Any = None) -> str:
+    def fetch_pub_citations(self, iter_key: str, citations: Any, pub_id: str, pub: Any = None) -> str:
         filename = f"{self.INTERFACE_ID}_{pub_id}_citation.json"
         citations_file: FileReader = FileReader(filename)
         if citations is None:
@@ -280,6 +284,9 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
             MessageRouter.get_instance().send_later_in(GetScholarlyPubCitations(filename, pub_id, citations),
                                                        self.INTERFACE_ID)
             self.pub_cit_num[filename] = 0
+            self.logger.info(iter_key)
+            self.cit_starting_index = int(FileReader(FileReader.MESSAGE_STAT_FILE_NAME).get_value(iter_key)[0])-1
+            self.logger.info("Scraping citations for %s starting at index %d", iter_key, self.cit_starting_index)
             return "/dev/null"
 
         self.logger.info("Fetching citation %s - %s", self.pub_cit_num[filename], pub_id)
@@ -288,7 +295,10 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         if self.pub_cit_num[filename] > self.config.get_value(ConfigConstants.MAX_FETCHABLE):
             self.logger.warning("Reached max number of citations fetchable for %s", filename)
             return "/dev/null"
-        citation = next(citations)
+        citation = next(citations, self.cit_starting_index)
+        if self.cit_starting_index is not None:
+            self.cit_starting_index = None
+
         unique_citation: str = self.generate_unique_key("", citation, self.PUBLICATION_SALT)
         if citations_file.get_value(unique_citation) is None:
             citations_file.set_and_save(unique_citation, citation)
@@ -302,8 +312,9 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         return filename
 
     pub_art_num: dict[str, int] = {}
+    art_starting_index: int = None
 
-    def fetch_related_articles(self, articles: Any, pub_id: str, pub: Any = None) -> str:
+    def fetch_related_articles(self, iter_key: str, articles: Any, pub_id: str, pub: Any = None) -> str:
         filename = f"{self.INTERFACE_ID}_{pub_id}_related.json"
         articles_file: FileReader = FileReader(filename)
         if articles is None:
@@ -312,6 +323,9 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
             MessageRouter.get_instance().send_later_in(GetScholarlyPubRelatedArticles(filename, pub_id, articles),
                                                        self.INTERFACE_ID)
             self.pub_art_num[filename] = 0
+            self.logger.info(iter_key)
+            self.art_starting_index = int(FileReader(FileReader.MESSAGE_STAT_FILE_NAME).get_value(iter_key)[0])-1
+            self.logger.info("Scraping articles for %s starting at index %d", iter_key, self.art_starting_index)
             return "/dev/null"
 
         self.logger.info("Fetching article %s - %s", self.pub_art_num[filename], pub_id)
@@ -319,10 +333,14 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         if self.pub_art_num[filename] > self.config.get_value(ConfigConstants.MAX_FETCHABLE):
             self.logger.warning("Reached max number of articles fetchable for %s", filename)
             return "/dev/null"
-        article = next(articles)
+
+        article = next(articles, self.art_starting_index)
+        if self.art_starting_index is not None:
+            self.art_starting_index = None
+
         unique_article: str = self.generate_unique_key("", article, self.PUBLICATION_SALT)
         if articles_file.get_value(unique_article) is None:
-            articles_file.set_and_save(self.generate_unique_key("", article, self.PUBLICATION_SALT), article)
+            articles_file.set_and_save(unique_article, article)
             self.logger.info("Saved article %s to file: %s", unique_article, filename)
             self.pub_art_num[filename] += 1
         else:

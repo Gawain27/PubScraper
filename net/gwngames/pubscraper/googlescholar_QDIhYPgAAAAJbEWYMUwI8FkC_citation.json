@@ -1,0 +1,31 @@
+{
+    "__2014_A_systematic_survey": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A systematic survey of self-protecting software systems",
+            "author": [
+                "E Yuan",
+                "N Esfahani",
+                "S Malek"
+            ],
+            "pub_year": "2014",
+            "venue": "ACM Transactions on Autonomous and \u2026",
+            "abstract": "Self-protecting software systems are a class of autonomic systems capable of detecting and mitigating security threats at runtime. They are growing in importance, as the stovepipe static"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/2555611",
+        "author_id": [
+            "VjCUKzsAAAAJ",
+            "LjvdQxYAAAAJ",
+            "qrCVP0YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Yr4_oi1cy70J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Yr4_oi1cy70J&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 181,
+        "citedby_url": "/scholar?cites=13676126044506013282&as_sdt=400005&sciodt=0,14&hl=en",
+        "url_related_articles": "/scholar?q=related:Yr4_oi1cy70J:scholar.google.com/&scioq=&hl=en&as_sdt=400005&sciodt=0,14",
+        "eprint_url": "http://romisatriawahono.net/lecture/rm/survey/software%20engineering/Self%20Adaptive%20Systems/Yuan%20-%20Self-Protecting%20Software%20Systems%20-%202014.pdf"
+    }
+}

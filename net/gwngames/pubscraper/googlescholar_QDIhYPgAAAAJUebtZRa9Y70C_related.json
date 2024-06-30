@@ -1,0 +1,157 @@
+{
+    "__1996_Refinement_in_tuple": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Refinement in tuple space languages",
+            "author": [
+                "L Semini"
+            ],
+            "pub_year": "1996",
+            "venue": "NA",
+            "abstract": ""
+        },
+        "filled": false,
+        "gsrank": 1,
+        "author_id": [
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:HWtJJER21j8J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:kT7n3otZDosJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=HWtJJER21j8J&ei=tnuAZtiNLqyXy9YP3bmtyAE&json=",
+        "num_citations": 9,
+        "citedby_url": "/scholar?cites=4599994104444185373&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:HWtJJER21j8J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__2002_Uralic_languages": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Uralic languages",
+            "author": [
+                "R Austerlitz"
+            ],
+            "pub_year": "2002",
+            "venue": "The Major Languages of Eastern Europe",
+            "abstract": "The term'Uralic'refers to a language family with one large branch, Finno-Ugric, and one smaller one, Samoyedic. Each branch is further subdivided into sub-branches and these into"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.4324/9780203216149-9&type=chapterpdf",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:URyrWgs6VzkJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D400005%26sciodt%3D0,14%26cites%3D15514916046310132288%26scipsc%3D&citilm=1&update_op=library_add&info=URyrWgs6VzkJ&ei=dYKAZuWKMqyXy9YP3bmtyAE&json=",
+        "num_citations": 32,
+        "citedby_url": "/scholar?cites=4131835003575934033&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:URyrWgs6VzkJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__1999_A_refinement_calculus": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A refinement calculus for tuple spaces",
+            "author": [
+                "L Semini",
+                "C Montangero"
+            ],
+            "pub_year": "1999",
+            "venue": "Science of Computer Programming",
+            "abstract": "It is fairly accepted that the realization of complex systems must be accomplished step by step from the initial specification, through a sequence of intermediate phases, to the final"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0167642398000215",
+        "author_id": [
+            "QDIhYPgAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:ePkjgrt8gEoJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=ePkjgrt8gEoJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 17,
+        "citedby_url": "/scholar?cites=5368427900609755512&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:ePkjgrt8gEoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0167642398000215/pdf?md5=751d1d3759d15c659b6b495532c67eca&pid=1-s2.0-S0167642398000215-main.pdf"
+    },
+    "__1998_Wh-islands_in_TAG": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Wh-islands in TAG and related formalisms",
+            "author": [
+                "O Rambow",
+                "K Vijay-Shanker"
+            ],
+            "pub_year": "1998",
+            "venue": "Proceedings of the fourth \u2026",
+            "abstract": "The analysis of wh-movement given within TAG is a very convincing argument for the use of a constrained tree-rewriting formalism in syntax, since wh-movement does not require any"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://aclanthology.org/W98-0135.pdf",
+        "author_id": [
+            "AWNL69MAAAAJ",
+            "O1l6JGkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:PE4wwkfdeigJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=PE4wwkfdeigJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 3,
+        "citedby_url": "/scholar?cites=2916887008946179644&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:PE4wwkfdeigJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://aclanthology.org/W98-0135.pdf"
+    },
+    "__2005_Varieties_of_tree": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Varieties of tree languages",
+            "author": [
+                "S Salehi"
+            ],
+            "pub_year": "2005",
+            "venue": "NA",
+            "abstract": "I would like to express my sincerest gratitude to Professor Magnus Steinby for teaching me, guiding me and supervising me through these years. I have learnt from him not only as a"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "http://saeedsalehi.ir/pdf/thesis/PhDDissertation.pdf",
+        "author_id": [
+            "xI4on2oAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:r_Wf9EWVX3YJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=r_Wf9EWVX3YJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 12,
+        "citedby_url": "/scholar?cites=8529700346952414639&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:r_Wf9EWVX3YJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "http://saeedsalehi.ir/pdf/thesis/PhDDissertation.pdf"
+    },
+    "__2016_On_the_introduction": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "On the introduction of density in tuple-space coordination languages",
+            "author": [
+                "JM Jacquet",
+                "I Linden",
+                "D Darquennes"
+            ],
+            "pub_year": "2016",
+            "venue": "Science of Computer Programming",
+            "abstract": "Coordination languages have been proved very suitable for modeling and programming service-oriented applications. In particular, those based on tuple spaces offer an elegant"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0167642315003147",
+        "author_id": [
+            "6LkH8moAAAAJ",
+            "FKefW88AAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:QvDbjF9akG4J:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=QvDbjF9akG4J&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 7,
+        "citedby_url": "/scholar?cites=7966967107250024514&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:QvDbjF9akG4J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0167642315003147"
+    }
+}

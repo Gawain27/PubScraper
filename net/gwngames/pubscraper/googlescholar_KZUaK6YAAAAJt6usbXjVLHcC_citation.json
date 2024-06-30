@@ -1,0 +1,93 @@
+{
+    "__2021_Current_challenges_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Current challenges and future opportunities for XAI in machine learning-based clinical decision support systems: a systematic review",
+            "author": [
+                "AM Antoniadi",
+                "Y Du",
+                "Y Guendouz",
+                "L Wei",
+                "C Mazo"
+            ],
+            "pub_year": "2021",
+            "venue": "Applied Sciences",
+            "abstract": "Machine Learning and Artificial Intelligence (AI) more broadly have great immediate and future potential for transforming almost all aspects of medicine. However, in many"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.mdpi.com/2076-3417/11/11/5088",
+        "author_id": [
+            "",
+            "SO0UqasAAAAJ",
+            "El5eIykAAAAJ",
+            "qTD0Q9EAAAAJ",
+            "PIAOc9AAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:EOrHw2ENuVoJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:ePkjgrt8gEoJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=EOrHw2ENuVoJ&ei=gUaAZsP9EPyCy9YPqueT2AI&json=",
+        "num_citations": 362,
+        "citedby_url": "/scholar?cites=6537271047652633104&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:EOrHw2ENuVoJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.mdpi.com/2076-3417/11/11/5088/pdf"
+    },
+    "__2023_Explainable_artificial_intelligence": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable artificial intelligence (xai) for intrusion detection and mitigation in intelligent connected vehicles: A review",
+            "author": [
+                "CI Nwakanma",
+                "LAC Ahakonye",
+                "JN Njoku"
+            ],
+            "pub_year": "2023",
+            "venue": "Applied Sciences",
+            "abstract": "The potential for an intelligent transportation system (ITS) has been made possible by the growth of the Internet of things (IoT) and artificial intelligence (AI), resulting in the integration"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.mdpi.com/2076-3417/13/3/1252",
+        "author_id": [
+            "wrbB9OYAAAAJ",
+            "a8i6Pq0AAAAJ",
+            "Ag2gYzIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:h8sKShBESh4J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:njp485YtMZAJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=h8sKShBESh4J&ei=3kaAZoPHEuC16rQP2Oi78Ak&json=",
+        "num_citations": 69,
+        "citedby_url": "/scholar?cites=2182631806166813575&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:h8sKShBESh4J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.mdpi.com/2076-3417/13/3/1252/pdf"
+    },
+    "__2023_Xair_A_systematic": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Xair: A systematic metareview of explainable ai (xai) aligned to the software development process",
+            "author": [
+                "T Clement",
+                "N Kemmerzell",
+                "M Abdelaal"
+            ],
+            "pub_year": "2023",
+            "venue": "Machine Learning and \u2026",
+            "abstract": "Currently, explainability represents a major barrier that Artificial Intelligence (AI) is facing in regard to its practical implementation in various application domains. To combat the lack of"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.mdpi.com/2504-4990/5/1/6",
+        "author_id": [
+            "P6lKhmIAAAAJ",
+            "ddyCwqIAAAAJ",
+            "cmxDCFAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:PduCG9Qnoh0J:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:njp485YtMZAJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=PduCG9Qnoh0J&ei=3kaAZoPHEuC16rQP2Oi78Ak&json=",
+        "num_citations": 40,
+        "citedby_url": "/scholar?cites=2135312965275147069&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:PduCG9Qnoh0J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.mdpi.com/2504-4990/5/1/6/pdf"
+    }
+}

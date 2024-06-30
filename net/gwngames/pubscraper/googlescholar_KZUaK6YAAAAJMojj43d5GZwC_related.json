@@ -1,0 +1,172 @@
+{
+    "__2021_Principles_of_explainable": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Principles of explainable artificial intelligence",
+            "author": [
+                "R Guidotti",
+                "A Monreale",
+                "D Pedreschi"
+            ],
+            "pub_year": "2021",
+            "venue": "Explainable AI Within the \u2026",
+            "abstract": "The last decade has witnessed the rise of a black box society where obscure classification models are adopted by Artificial Intelligence systems (AI). The lack of explanations of how AI"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-030-76409-8_2",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "bA-rXeUAAAAJ",
+            "5efz6osAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Phty64RV_ZsJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:G7kIj_4DvS4J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,47&citilm=1&update_op=library_add&info=Phty64RV_ZsJ&ei=YXqAZtPAIePTy9YPncyQqAs&json=",
+        "num_citations": 28,
+        "citedby_url": "/scholar?cites=11240234274360793918&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:Phty64RV_ZsJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33"
+    },
+    "__2023_Survey_on_explainable": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Survey on explainable AI: From approaches, limitations and applications aspects",
+            "author": [
+                "W Yang",
+                "Y Wei",
+                "H Wei",
+                "Y Chen",
+                "G Huang",
+                "X Li"
+            ],
+            "pub_year": "2023",
+            "venue": "Human-Centric \u2026",
+            "abstract": "In recent years, artificial intelligence (AI) technology has been used in most if not all domains and has greatly benefited our lives. While AI can accurately extract critical features and"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/article/10.1007/s44230-023-00038-y",
+        "author_id": [
+            "4lLJBYIAAAAJ",
+            "7jsAgVoAAAAJ",
+            "",
+            "",
+            "",
+            "PCxZrwgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:wTArPc4lC6AJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=wTArPc4lC6AJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 25,
+        "citedby_url": "/scholar?cites=11532352838532018369&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:wTArPc4lC6AJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/s44230-023-00038-y.pdf"
+    },
+    "__2023_Decoding_the_black": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Decoding the black box: A comprehensive review of explainable artificial intelligence",
+            "author": [
+                "O Embarak"
+            ],
+            "pub_year": "2023",
+            "venue": "2023 9th International Conference on Information \u2026",
+            "abstract": "This review explores the current state of Explainable Artificial Intelligence (XAI). This study looks at current advances in XAI research, as well as challenges and the future. To"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/10184238/",
+        "author_id": [
+            "fB_rDNoAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Ic_kLXePitEJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=Ic_kLXePitEJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 6,
+        "citedby_url": "/scholar?cites=15099038442746859297&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:Ic_kLXePitEJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33"
+    },
+    "__2023_Explainable_AI_Foundations,": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable AI: Foundations, methodologies and applications",
+            "author": [
+                "M Mehta",
+                "V Palade",
+                "I Chatterjee"
+            ],
+            "pub_year": "2023",
+            "venue": "NA",
+            "abstract": "Artificial Intelligence (AI) has brought about a revolution in many real-world sectors and has become an integral part of our everyday lives. While AI-enabled systems are undoubtedly"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-12807-3.pdf",
+        "author_id": [
+            "lR-JoSsAAAAJ",
+            "KTXoxysAAAAJ",
+            "y1LTqCwAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:mUS9eax-afEJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=mUS9eax-afEJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 17,
+        "citedby_url": "/scholar?cites=17395574314937173145&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:mUS9eax-afEJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33"
+    },
+    "__2022_Explainable_artificial_intelligence": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable artificial intelligence: a comprehensive review",
+            "author": [
+                "D Minh",
+                "HX Wang",
+                "YF Li",
+                "TN Nguyen"
+            ],
+            "pub_year": "2022",
+            "venue": "Artificial Intelligence Review",
+            "abstract": "Thanks to the exponential growth in computing power and vast amounts of data, artificial intelligence (AI) has witnessed remarkable developments in recent years, enabling it to be"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://link.springer.com/article/10.1007/s10462-021-10088-y",
+        "author_id": [
+            "E9hoN9AAAAAJ",
+            "w5epAMEAAAAJ",
+            "l3eFjv8AAAAJ",
+            "j2SYwykAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:2ft9dCizSL0J:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=2ft9dCizSL0J&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 369,
+        "citedby_url": "/scholar?cites=13639348457826024409&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:2ft9dCizSL0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,33"
+    },
+    "__2022_A_review_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A review of taxonomies of explainable artificial intelligence (XAI) methods",
+            "author": [
+                "T Speith"
+            ],
+            "pub_year": "2022",
+            "venue": "Proceedings of the 2022 ACM conference on fairness \u2026",
+            "abstract": "The recent surge in publications related to explainable artificial intelligence (XAI) has led to an almost insurmountable wall if one wants to get started or stay up to date with XAI. For this"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3531146.3534639",
+        "author_id": [
+            "l3QOkFEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:XjYhWjfpcOcJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D10219293543844320065%26scipsc%3D&citilm=1&update_op=library_add&info=XjYhWjfpcOcJ&ei=xZGAZv24LdS-6rQP5be_yAU&json=",
+        "num_citations": 188,
+        "citedby_url": "/scholar?cites=16677085844097545822&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:XjYhWjfpcOcJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/3531146.3534639"
+    }
+}

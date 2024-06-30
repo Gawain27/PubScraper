@@ -1,0 +1,209 @@
+{
+    "__2001_A_guided_tour": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A guided tour to approximate string matching",
+            "author": [
+                "G Navarro"
+            ],
+            "pub_year": "2001",
+            "venue": "ACM computing surveys (CSUR)",
+            "abstract": "We survey the current techniques to cope with the problem of string matching that allows errors. This is becoming a more and more relevant issue for many fast growing areas such"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/375360.375365",
+        "author_id": [
+            "_fx52FkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:pdjR7xYJltwJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,49%26sciodt%3D0,49%26cites%3D3664994349544543255%26scipsc%3D&citilm=1&update_op=library_add&info=pdjR7xYJltwJ&ei=FCKAZr3tKI6By9YP9NGdoA4&json=",
+        "num_citations": 3851,
+        "citedby_url": "/scholar?cites=15894901928968181925&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:pdjR7xYJltwJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://repositorio.uchile.cl/bitstream/handle/2250/126168/Navarro_Gonzalo_Guided_tour.pdf?sequence=1"
+    },
+    "__1997_Discovery_of_frequent": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Discovery of frequent episodes in event sequences",
+            "author": [
+                "H Mannila",
+                "H Toivonen",
+                "A Inkeri Verkamo"
+            ],
+            "pub_year": "1997",
+            "venue": "Data mining and knowledge \u2026",
+            "abstract": "Sequences of events describing the behavior and actions of users or systems can be collected in several domains. An episode is a collection of events that occur relatively close"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/article/10.1023/A:1009748302351",
+        "author_id": [
+            "5uxmJmcAAAAJ",
+            "izZX-EEAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:AEJBTzDX80cJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:Q7TGaLlDY-YJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=AEJBTzDX80cJ&ei=LSKAZreMKOC16rQP2Oi78Ak&json=",
+        "num_citations": 3253,
+        "citedby_url": "/scholar?cites=5184724198521651712&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:AEJBTzDX80cJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=16458f190c3f469efb8aadd0709be8ca3c34b15c"
+    },
+    "__1992_Approximate_string-matching_with": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Approximate string-matching with q-grams and maximal matches",
+            "author": [
+                "E Ukkonen"
+            ],
+            "pub_year": "1992",
+            "venue": "Theoretical computer science",
+            "abstract": "We study approximate string-matching in connection with two string distance functions that are computable in linear time. The first function is based on the so-called q-grams. An"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/0304397592901434",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:AJfVUyLBANIJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:wKBpxV9fVicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=AJfVUyLBANIJ&ei=Rn6AZsO9CJOK6rQPsOu30AY&json=",
+        "num_citations": 902,
+        "citedby_url": "/scholar?cites=15132307101144422144&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:AJfVUyLBANIJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/0304397592901434/pdf?md5=db1d98f20e0fed3adf2c9df9bf0623c1&pid=1-s2.0-0304397592901434-main.pdf"
+    },
+    "__2000_Computational_molecular_biology": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Computational molecular biology: an algorithmic approach",
+            "author": [
+                "P Pevzner"
+            ],
+            "pub_year": "2000",
+            "venue": "NA",
+            "abstract": "In one of the first major texts in the emerging field of computational molecular biology, Pavel Pevzner covers a broad range of algorithmic and combinatorial topics and shows how they"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://books.google.com/books?hl=en&lr=&id=dpgh2UxGpacC&oi=fnd&pg=PR13&ots=7ZqbExMzwl&sig=aDgHwVTRRhcYimRJQ6l_AWQnvJw",
+        "author_id": [
+            "rfS5yTMAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Sqva_iB3QKEJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2827859745568056522%26scipsc%3D&citilm=1&update_op=library_add&info=Sqva_iB3QKEJ&ei=xH6AZq2ZMqyXy9YP3bmtyAE&json=",
+        "num_citations": 992,
+        "citedby_url": "/scholar?cites=11619418022214282058&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Sqva_iB3QKEJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "http://ndl.ethernet.edu.et/bitstream/123456789/49021/1/177.pdf"
+    },
+    "__1994_String_searching_algorithms": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "String searching algorithms",
+            "author": [
+                "GA Stephen"
+            ],
+            "pub_year": "1994",
+            "venue": "NA",
+            "abstract": "String searching is a subject of both theoretical and practical interest in computer science. This book presents a bibliographic overview of the field and an anthology of detailed"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://books.google.com/books?hl=en&lr=&id=Gs_sCgAAQBAJ&oi=fnd&pg=PR5&ots=hEAihORFGA&sig=GO4MHhpyM0KNFBCQq613wmWOT_Y",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:tzPp4ZqYaQ0J:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=tzPp4ZqYaQ0J&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 512,
+        "citedby_url": "/scholar?cites=966471386030224311&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:tzPp4ZqYaQ0J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2021_Boyer_moore_string-match": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Boyer moore string-match framework for a hybrid short message service spam filtering technique",
+            "author": [
+                "AA Ojugo",
+                "DA Oyemade"
+            ],
+            "pub_year": "2021",
+            "venue": "IAES International Journal of Artificial \u2026",
+            "abstract": "Advances in technology and the proliferation of mobile device have continued to advance the ubiquitous nature of computing alongside their many prowess and improved features it"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://www.academia.edu/download/106303291/pdf.pdf",
+        "author_id": [
+            "aEDkRagAAAAJ",
+            "y8mWicsAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:oFEb0yDfeS8J:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=oFEb0yDfeS8J&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 30,
+        "citedby_url": "/scholar?cites=3421010724038332832&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:oFEb0yDfeS8J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.academia.edu/download/106303291/pdf.pdf"
+    },
+    "__2011_Indexing_methods_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Indexing methods for approximate dictionary searching: Comparative analysis",
+            "author": [
+                "L Boytsov"
+            ],
+            "pub_year": "2011",
+            "venue": "Journal of Experimental Algorithmics (JEA)",
+            "abstract": "The primary goal of this article is to survey state-of-the-art indexing methods for approximate dictionary searching. To improve understanding of the field, we introduce a taxonomy that"
+        },
+        "filled": false,
+        "gsrank": 7,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1963190.1963191",
+        "author_id": [
+            "I79y2i4AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:cfH_mkouZPcJ:scholar.google.com/&output=cite&scirp=6&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=cfH_mkouZPcJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 155,
+        "citedby_url": "/scholar?cites=17826424123002188145&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:cfH_mkouZPcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.academia.edu/download/41379926/Indexing_methods_for_approximate_diction20160121-3800-uq4nsr.pdf"
+    },
+    "__2019_Signature-based_malware_detection": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Signature-based malware detection using approximate Boyer Moore string matching algorithm",
+            "author": [
+                "A Ojugo",
+                "AO Eboka"
+            ],
+            "pub_year": "2019",
+            "venue": "International Journal of Mathematical Sciences \u2026",
+            "abstract": "Adversaries to any system restlessly continues to sought effective, non-detectable means to aid them successful penetrate secure systems, either for fun or commercial gains. They"
+        },
+        "filled": false,
+        "gsrank": 8,
+        "pub_url": "https://mecs-press.net/ijmsc/ijmsc-v5-n3/IJMSC-V5-N3-5.pdf",
+        "author_id": [
+            "aEDkRagAAAAJ",
+            "2ixnqPUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:FyjWHXqM-OUJ:scholar.google.com/&output=cite&scirp=7&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=FyjWHXqM-OUJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 48,
+        "citedby_url": "/scholar?cites=16571149285024213015&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:FyjWHXqM-OUJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://mecs-press.net/ijmsc/ijmsc-v5-n3/IJMSC-V5-N3-5.pdf"
+    }
+}

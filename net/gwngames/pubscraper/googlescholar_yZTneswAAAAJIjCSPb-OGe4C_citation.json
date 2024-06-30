@@ -1,0 +1,178 @@
+{
+    "__2001_Survey_and_taxonomy": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Survey and taxonomy of IP address lookup algorithms",
+            "author": [
+                "M\u00c1 Ruiz-S\u00e1nchez",
+                "EW Biersack",
+                "W Dabbous"
+            ],
+            "pub_year": "2001",
+            "venue": "IEEE network",
+            "abstract": "Due to the rapid growth of traffic in the Internet, backbone links of several gigabits per second are commonly deployed. To handle gigabit-per-second traffic rates, the backbone"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/912716/",
+        "author_id": [
+            "",
+            "YMfR1SIAAAAJ",
+            "QcEtTawAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Y4UGlzWoOy4J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:ePkjgrt8gEoJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Y4UGlzWoOy4J&ei=5XmAZs_zJtqMy9YP25uj2A0&json=",
+        "num_citations": 737,
+        "citedby_url": "/scholar?cites=3331441297491133795&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Y4UGlzWoOy4J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.eurecom.fr/en/publication/658/download/ce-bierer-010301.pdf"
+    },
+    "__2004_Tree_bitmap_hardwaresoftware": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Tree bitmap: hardware/software IP lookups with incremental updates",
+            "author": [
+                "W Eatherton",
+                "G Varghese",
+                "Z Dittia"
+            ],
+            "pub_year": "2004",
+            "venue": "ACM SIGCOMM Computer \u2026",
+            "abstract": "Even with the significant focus on IP address lookup in the published literature as well as focus on this market by commercial semiconductor vendors, there is still a challenge for"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/997150.997160",
+        "author_id": [
+            "",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:brzxLEmDqE4J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D13796074347214849491%26scipsc%3D&citilm=1&update_op=library_add&info=brzxLEmDqE4J&ei=OnqAZvD-GqyXy9YP3bmtyAE&json=",
+        "num_citations": 391,
+        "citedby_url": "/scholar?cites=5667924481355660398&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:brzxLEmDqE4J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ee862146e1443ec2df3ec851e71b55ecf51a8ce4"
+    },
+    "__2005_Fast_incremental_updates": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Fast incremental updates for pipelined forwarding engines",
+            "author": [
+                "A Basu",
+                "G Narlikar"
+            ],
+            "pub_year": "2005",
+            "venue": "IEEE/ACM Transactions on Networking",
+            "abstract": "Pipelined ASIC architectures are increasingly being used in forwarding engines for high-speed IP routers. We explore optimization issues in the design of memory-efficient data"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/1458774/",
+        "author_id": [
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:GagNELT7icAJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:tbNy-DRvQ8QJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=GagNELT7icAJ&ei=gnqAZu-BEOPTy9YPncyQqAs&json=",
+        "num_citations": 169,
+        "citedby_url": "/scholar?cites=13873896877873539097&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:GagNELT7icAJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "http://cm.bell-labs.co/who/girija/papers/ton05.pdf"
+    },
+    "__2007_Compressed_data_structures": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Compressed data structures: Dictionaries and data-aware measures",
+            "author": [
+                "A Gupta",
+                "WK Hon",
+                "R Shah",
+                "JS Vitter"
+            ],
+            "pub_year": "2007",
+            "venue": "Theoretical Computer Science",
+            "abstract": "In this paper, we propose measures for compressed data structures, in which space usage is measured in a data-aware manner. In particular, we consider the fundamental dictionary"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0304397507005294",
+        "author_id": [
+            "",
+            "7bMQ4KAAAAAJ",
+            "ZpkdT2UAAAAJ",
+            "IeXW2bkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:dVZE95HBd1AJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=dVZE95HBd1AJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 104,
+        "citedby_url": "/scholar?cites=5798315877925672565&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:dVZE95HBd1AJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0304397507005294/pdf?md5=82284919f8c858fc7773f8170c3efbc4&pid=1-s2.0-S0304397507005294-main.pdf"
+    },
+    "__2018_Constant_IP_lookup": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Constant IP lookup with FIB explosion",
+            "author": [
+                "T Yang",
+                "G Xie",
+                "AX Liu",
+                "Q Fu",
+                "Y Li",
+                "X Li"
+            ],
+            "pub_year": "2018",
+            "venue": "\u2026 /ACM Transactions on \u2026",
+            "abstract": "With the fast development of Internet, the forwarding tables in backbone routers have been growing fast in size. An ideal IP lookup algorithm should achieve constant, yet small, IP"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8424420/",
+        "author_id": [
+            "zYDaX-4AAAAJ",
+            "XtTdk7sAAAAJ",
+            "qRjO51UAAAAJ",
+            "w5dCOOQAAAAJ",
+            "TRMT3Y4AAAAJ",
+            "tL9zHywAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:0CR--WckbKcJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=0CR--WckbKcJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 26,
+        "citedby_url": "/scholar?cites=12064057530804741328&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:0CR--WckbKcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://ieeexplore.ieee.org/ielaam/90/8438336/8424420-aam.pdf"
+    },
+    "__2006_Apparatus_and_method": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Apparatus and method for performing high-speed IP route lookup and managing routing/forwarding tables",
+            "author": [
+                "M Choe"
+            ],
+            "pub_year": "2006",
+            "venue": "US Patent 7,031,320",
+            "abstract": "(57) ABSTRACT A method for constructing routing/forwarding tables for an IP address lookup using a skip list. The method comprises dividing a prefix length range of an IP"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://patents.google.com/patent/US7031320B2/en",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:EhhBMyWQ2q8J:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KRDixKh3KJgJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=EhhBMyWQ2q8J&ei=bYGAZvvpPPOCy9YP1YKW-AQ&json=",
+        "num_citations": 114,
+        "citedby_url": "/scholar?cites=12671598991008405522&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:EhhBMyWQ2q8J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://patentimages.storage.googleapis.com/9e/62/bd/8a32712a83a4b4/US7031320.pdf"
+    }
+}

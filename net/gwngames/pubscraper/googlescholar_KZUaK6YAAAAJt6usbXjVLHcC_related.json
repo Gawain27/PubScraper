@@ -1,0 +1,95 @@
+{
+    "__2018_Local_rule-based_explanations": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Local rule-based explanations of black box decision systems",
+            "author": [
+                "R Guidotti",
+                "A Monreale",
+                "S Ruggieri",
+                "D Pedreschi"
+            ],
+            "pub_year": "2018",
+            "venue": "arXiv preprint arXiv \u2026",
+            "abstract": "The recent years have witnessed the rise of accurate but obscure decision systems which hide the logic of their internal decision processes to the users. The lack of explanations for"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://arxiv.org/abs/1805.10820",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "bA-rXeUAAAAJ",
+            "q41ZMpAAAAAJ",
+            "5efz6osAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Jip8Wjvw62UJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:HtJnVSedhlQJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Jip8Wjvw62UJ&ei=tHSAZsbUO_yCy9YPqueT2AI&json=",
+        "num_citations": 526,
+        "citedby_url": "/scholar?cites=7344227755069549094&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Jip8Wjvw62UJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/1805.10820"
+    },
+    "__2018_Open_the_black": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Open the black box data-driven explanation of black box decision systems",
+            "author": [
+                "D Pedreschi",
+                "F Giannotti",
+                "R Guidotti",
+                "A Monreale"
+            ],
+            "pub_year": "2018",
+            "venue": "arXiv preprint arXiv \u2026",
+            "abstract": "Black box systems for automated decision making, often based on machine learning over (big) data, map a user's features into a class or a score without exposing the reasons why"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://arxiv.org/abs/1806.09936",
+        "author_id": [
+            "5efz6osAAAAJ",
+            "PKz_a_AAAAAJ",
+            "KZUaK6YAAAAJ",
+            "bA-rXeUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:IIQVLLmEfkUJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:2jLTCKhpSr4J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=IIQVLLmEfkUJ&ei=aIeAZtrpPNqMy9YP25uj2A0&json=",
+        "num_citations": 53,
+        "citedby_url": "/scholar?cites=5007585766525994016&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:IIQVLLmEfkUJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/1806.09936"
+    },
+    "__2019_Explaining_black-box_models": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explaining black-box models using interpretable surrogates",
+            "author": [
+                "DP Kuttichira",
+                "S Gupta",
+                "C Li",
+                "S Rana"
+            ],
+            "pub_year": "2019",
+            "venue": "PRICAI 2019: Trends in \u2026",
+            "abstract": "Explaining black-box machine learning models is important for their successful applicability to many real world problems. Existing approaches to model explanation either focus on"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-030-29908-8_1",
+        "author_id": [
+            "PJJikl8AAAAJ",
+            "bXeL2t8AAAAJ",
+            "02OCjKwAAAAJ",
+            "S9PwnMYAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:wnd8gNIGf-cJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:2jLTCKhpSr4J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=wnd8gNIGf-cJ&ei=aIeAZtrpPNqMy9YP25uj2A0&json=",
+        "num_citations": 10,
+        "citedby_url": "/scholar?cites=16681059045972146114&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:wnd8gNIGf-cJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://dro.deakin.edu.au/articles/conference_contribution/Explaining_black-box_models_using_interpretable_surrogates/20738497/1/files/36970534.pdf"
+    }
+}

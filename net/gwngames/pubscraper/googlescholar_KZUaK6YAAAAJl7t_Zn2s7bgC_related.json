@@ -1,0 +1,203 @@
+{
+    "__2021_Evaluating_local_explanation": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Evaluating local explanation methods on ground truth",
+            "author": [
+                "R Guidotti"
+            ],
+            "pub_year": "2021",
+            "venue": "Artificial Intelligence",
+            "abstract": "Evaluating local explanation methods is a difficult task due to the lack of a shared and universally accepted definition of explanation. In the literature, one of the most common"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0004370220301776",
+        "author_id": [
+            "KZUaK6YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:RIsG7Pr9RJEJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D0,33%26sciodt%3D0,33%26as_ylo%3D2024%26as_yhi%3D2024%26cites%3D10318870785830319261%26scipsc%3D&citilm=1&update_op=library_add&info=RIsG7Pr9RJEJ&ei=SeF_Zpr7BLbKy9YPsbqkkAU&json=",
+        "num_citations": 84,
+        "citedby_url": "/scholar?cites=10467770688059378500&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:RIsG7Pr9RJEJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0004370220301776"
+    },
+    "__2018_Model_agnostic_supervised": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Model agnostic supervised local explanations",
+            "author": [
+                "G Plumb",
+                "D Molitor"
+            ],
+            "pub_year": "2018",
+            "venue": "Advances in neural \u2026",
+            "abstract": "Model interpretability is an increasingly important component of practical machine learning. Some of the most common forms of interpretability systems are example-based"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://proceedings.neurips.cc/paper_files/paper/2018/hash/b495ce63ede0f4efc9eec62cb947c162-Abstract.html",
+        "author_id": [
+            "_f4rfHYAAAAJ",
+            "QZfr9ugAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:nHoLBJBO4ioJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2100893988049490736%26scipsc%3D&citilm=1&update_op=library_add&info=nHoLBJBO4ioJ&ei=XH2AZrucJd2r6rQPv5O9kAY&json=",
+        "num_citations": 232,
+        "citedby_url": "/scholar?cites=3090118674779699868&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:nHoLBJBO4ioJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/b495ce63ede0f4efc9eec62cb947c162-Paper.pdf"
+    },
+    "__2021_To_trust_or": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "To trust or not to trust an explanation: using LEAF to evaluate local linear XAI methods",
+            "author": [
+                "E Amparore",
+                "A Perotti",
+                "P Bajardi"
+            ],
+            "pub_year": "2021",
+            "venue": "PeerJ Computer Science",
+            "abstract": "The main objective of eXplainable Artificial Intelligence (XAI) is to provide effective explanations for black-box classifiers. The existing literature lists many desirable properties"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://peerj.com/articles/cs-479.pdf",
+        "author_id": [
+            "Hivlp1kAAAAJ",
+            "Aef-vmEAAAAJ",
+            "K3Pt4KkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:HnqoNqM7EDQJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2100893988049490736%26scipsc%3D&citilm=1&update_op=library_add&info=HnqoNqM7EDQJ&ei=XH2AZrucJd2r6rQPv5O9kAY&json=",
+        "num_citations": 81,
+        "citedby_url": "/scholar?cites=3751564061782342174&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:HnqoNqM7EDQJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://peerj.com/articles/cs-479.pdf"
+    },
+    "__2021_Best_of_both": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Best of both worlds: local and global explanations with human-understandable concepts",
+            "author": [
+                "J Schrouff",
+                "S Baur",
+                "S Hou",
+                "D Mincu",
+                "E Loreaux"
+            ],
+            "pub_year": "2021",
+            "venue": "arXiv preprint arXiv \u2026",
+            "abstract": "Interpretability techniques aim to provide the rationale behind a model's decision, typically by explaining either an individual prediction (local explanation, eg'why is this patient"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://arxiv.org/abs/2106.08641",
+        "author_id": [
+            "2YWm2nMAAAAJ",
+            "",
+            "",
+            "1Fg7f78AAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:KFsLApJHajsJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=KFsLApJHajsJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=4281313088194173736&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:KFsLApJHajsJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/2106.08641"
+    },
+    "__2023_Benchmarking_and_survey": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Benchmarking and survey of explanation methods for black box models",
+            "author": [
+                "F Bodria",
+                "F Giannotti",
+                "R Guidotti",
+                "F Naretto"
+            ],
+            "pub_year": "2023",
+            "venue": "Data Mining and \u2026",
+            "abstract": "The rise of sophisticated black-box machine learning models in Artificial Intelligence systems has prompted the need for explanation methods that reveal how these models work"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://link.springer.com/article/10.1007/s10618-023-00933-9",
+        "author_id": [
+            "uHztM40AAAAJ",
+            "PKz_a_AAAAAJ",
+            "KZUaK6YAAAAJ",
+            "rfPD67YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:M07Mtg8U3CYJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=M07Mtg8U3CYJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 199,
+        "citedby_url": "/scholar?cites=2800135126041513523&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:M07Mtg8U3CYJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://link.springer.com/article/10.1007/s10618-023-00933-9"
+    },
+    "__2022_Framework_for_evaluating": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Framework for evaluating faithfulness of local explanations",
+            "author": [
+                "S Dasgupta",
+                "N Frost"
+            ],
+            "pub_year": "2022",
+            "venue": "\u2026 Conference on Machine \u2026",
+            "abstract": "We study the faithfulness of an explanation system to the underlying prediction model. We show that this can be captured by two properties, consistency and sufficiency, and introduce"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://proceedings.mlr.press/v162/dasgupta22a",
+        "author_id": [
+            "",
+            "dqPel4EAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Xes4tiMZOUQJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=Xes4tiMZOUQJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 38,
+        "citedby_url": "/scholar?cites=4915988109423340381&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Xes4tiMZOUQJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://proceedings.mlr.press/v162/dasgupta22a/dasgupta22a.pdf"
+    },
+    "__2018_Explanations_based_on": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explanations based on the missing: Towards contrastive explanations with pertinent negatives",
+            "author": [
+                "A Dhurandhar",
+                "PY Chen",
+                "R Luss"
+            ],
+            "pub_year": "2018",
+            "venue": "Advances in neural \u2026",
+            "abstract": "In this paper we propose a novel method that provides contrastive explanations justifying the classification of an input by a black box classifier such as a deep neural network. Given an"
+        },
+        "filled": false,
+        "gsrank": 7,
+        "pub_url": "https://proceedings.neurips.cc/paper_files/paper/2018/hash/c5ff2543b53f4cc0ad3819a36752467b-Abstract.html",
+        "author_id": [
+            "km9vIPEAAAAJ",
+            "jxwlCUUAAAAJ",
+            "lBPWZdAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:QfhgkSr5JcoJ:scholar.google.com/&output=cite&scirp=6&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=QfhgkSr5JcoJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 676,
+        "citedby_url": "/scholar?cites=14566322531022731329&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:QfhgkSr5JcoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/c5ff2543b53f4cc0ad3819a36752467b-Paper.pdf"
+    }
+}

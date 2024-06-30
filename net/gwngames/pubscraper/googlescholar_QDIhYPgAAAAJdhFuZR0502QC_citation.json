@@ -1,0 +1,143 @@
+{
+    "__2015_From_EU_projects": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "From EU projects to a family of model checkers: from Kandinsky to KandISTI",
+            "author": [
+                "MH ter Beek",
+                "S Gnesi",
+                "F Mazzanti"
+            ],
+            "pub_year": "2015",
+            "venue": "\u2026 : Essays Dedicated to Martin Wirsing on \u2026",
+            "abstract": "We describe the development of the KandISTI family of model checkers from its origins nearly two decades ago until its very recent latest addition. Most progress was made"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-319-15545-6_20",
+        "author_id": [
+            "4aDHDyoAAAAJ",
+            "vkhTk-MAAAAJ",
+            "yodDWA8AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:vSk13Uh7XTMJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D3854009446058228323%26scipsc%3D&citilm=1&update_op=library_add&info=vSk13Uh7XTMJ&ei=8uJ_ZpvMOI6By9YP9NGdoA4&json=",
+        "num_citations": 26,
+        "citedby_url": "/scholar?cites=3701250021647526333&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:vSk13Uh7XTMJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=f0bcb4321c78f4b4d857abad2e75519b0dc2bc7b"
+    },
+    "__2013_Policy_conflicts_in": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Policy conflicts in home automation",
+            "author": [
+                "C Maternaghan",
+                "KJ Turner"
+            ],
+            "pub_year": "2013",
+            "venue": "Computer Networks",
+            "abstract": "The nature of home automation is introduced. It is argued that end users should be able to define how the home system reacts to changing circumstances. Policies are employed as"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S1389128613001114",
+        "author_id": [
+            "gKvjoaQAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:iITsEaVQp08J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2827859745568056522%26scipsc%3D&citilm=1&update_op=library_add&info=iITsEaVQp08J&ei=xH6AZq2ZMqyXy9YP3bmtyAE&json=",
+        "num_citations": 28,
+        "citedby_url": "/scholar?cites=5739644920007525512&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:iITsEaVQp08J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=09b229484d8a3f48b9a0d20ef25b90bb6da11cca"
+    },
+    "__2023_Acumen_A_nalysing": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Acumen: A nalysing the Impact of Organisational C hange on U sers' Access Entitle men ts",
+            "author": [
+                "S Kwashie",
+                "W Kang",
+                "S Santhosh Kumar"
+            ],
+            "pub_year": "2023",
+            "venue": "\u2026 on Research in \u2026",
+            "abstract": "Planned organisational changes are frequent occurrences in large enterprises due to the dynamicity of employees' roles, evolution of teams, units and divisions as a result of"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-031-51482-1_21",
+        "author_id": [
+            "uqUdNnUAAAAJ",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:H5S_Lbv-odwJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2827859745568056522%26scipsc%3D&citilm=1&update_op=library_add&info=H5S_Lbv-odwJ&ei=xH6AZq2ZMqyXy9YP3bmtyAE&json=",
+        "num_citations": 0,
+        "url_related_articles": "/scholar?q=related:H5S_Lbv-odwJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2012_Detecting_service_chains": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Detecting service chains and feature interactions in sensor-driven home network services",
+            "author": [
+                "T Inada",
+                "H Igaki",
+                "K Ikegami",
+                "S Matsumoto",
+                "M Nakamura"
+            ],
+            "pub_year": "2012",
+            "venue": "Sensors",
+            "abstract": "Sensor-driven services often cause chain reactions, since one service may generate an environmental impact that automatically triggers another service. We first propose a"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://www.mdpi.com/1424-8220/12/7/8447",
+        "author_id": [
+            "",
+            "ZMlMUgEAAAAJ",
+            "",
+            "moXT4kkAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:pyaXTAlYEKwJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=pyaXTAlYEKwJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 15,
+        "citedby_url": "/scholar?cites=12398506571113899687&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:pyaXTAlYEKwJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.mdpi.com/1424-8220/12/7/8447"
+    },
+    "__2013_A_feature-oriented_modelling": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A feature-oriented modelling language and a feature-interaction taxonomy for product-line requirements",
+            "author": [
+                "P Shaker"
+            ],
+            "pub_year": "2013",
+            "venue": "NA",
+            "abstract": "Many organizations specialize in the development of families of software systems, called software product lines (SPLs), for one or more domains (eg, automotive, telephony, health"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://uwspace.uwaterloo.ca/handle/10012/8100",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:K-I7i8jC-pYJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=K-I7i8jC-pYJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 12,
+        "citedby_url": "/scholar?cites=10879222016452059691&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:K-I7i8jC-pYJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://uwspace.uwaterloo.ca/bitstream/handle/10012/8100/Shaker_Pourya.pdf?isAllowed=y&sequence=3"
+    }
+}

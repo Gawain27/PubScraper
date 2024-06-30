@@ -1,0 +1,191 @@
+{
+    "__2000_Compressed_suffix_arrays": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Compressed suffix arrays and suffix trees with applications to text indexing and string matching",
+            "author": [
+                "R Grossi",
+                "JS Vitter"
+            ],
+            "pub_year": "2000",
+            "venue": "Proceedings of the thirty-second annual ACM \u2026",
+            "abstract": "The proliferation of online text, such as on the World Wide Web and in databases, motivates the need for space-efficient index methods that support fast search. Consider a text T of n"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/335305.335351",
+        "author_id": [
+            "yZTneswAAAAJ",
+            "IeXW2bkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:asXFHPbP8moJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=asXFHPbP8moJ&ei=70KAZqegM-PTy9YPncyQqAs&json=",
+        "num_citations": 833,
+        "citedby_url": "/scholar?cites=7706450568335967594&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:asXFHPbP8moJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/335305.335351"
+    },
+    "__2005_Indexing_compressed_text": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Indexing compressed text",
+            "author": [
+                "P Ferragina",
+                "G Manzini"
+            ],
+            "pub_year": "2005",
+            "venue": "Journal of the ACM (JACM)",
+            "abstract": "We design two compressed data structures for the full-text indexing problem that support efficient substring searches using roughly the space required for storing the text in"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1082036.1082039",
+        "author_id": [
+            "3EILU3MAAAAJ",
+            "xyp_USUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:q9v3CMNUzWQJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2827859745568056522%26scipsc%3D&citilm=1&update_op=library_add&info=q9v3CMNUzWQJ&ei=uEeAZvOILPyCy9YPqueT2AI&json=",
+        "num_citations": 852,
+        "citedby_url": "/scholar?cites=7263554970664295339&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:q9v3CMNUzWQJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://web.cs.ucdavis.edu/~gusfield/cs224f11/ferragina2005.pdf"
+    },
+    "__2003_New_text_indexing": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "New text indexing functionalities of the compressed suffix arrays",
+            "author": [
+                "K Sadakane"
+            ],
+            "pub_year": "2003",
+            "venue": "Journal of Algorithms",
+            "abstract": "New text indexing functionalities of the compressed suffix arrays are proposed. The compressed suffix array proposed by Grossi and Vitter is a space-efficient data structure for"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0196677403000877",
+        "author_id": [
+            "yh2tWLIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:pk4_4fFORw4J:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:7T-Av9bwEjcJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=pk4_4fFORw4J&ei=PHaAZv_kGOPTy9YPncyQqAs&json=",
+        "num_citations": 313,
+        "citedby_url": "/scholar?cites=1028877840650555046&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:pk4_4fFORw4J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.academia.edu/download/49863652/s0196-6774_2803_2900087-720161025-5703-1d72cps.pdf"
+    },
+    "__2007_Compressed_indexes_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Compressed indexes for dynamic text collections",
+            "author": [
+                "HL Chan",
+                "WK Hon",
+                "TW Lam",
+                "K Sadakane"
+            ],
+            "pub_year": "2007",
+            "venue": "ACM Transactions on \u2026",
+            "abstract": "Let T be a string with n characters over an alphabet of constant size. A recent breakthrough on compressed indexing allows us to build an index for T in optimal space (ie, O (n) bits)"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1240233.1240244",
+        "author_id": [
+            "",
+            "7bMQ4KAAAAAJ",
+            "wgvU0B8AAAAJ",
+            "yh2tWLIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:wfjJenk1zYQJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:7T-Av9bwEjcJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=wfjJenk1zYQJ&ei=PHaAZv_kGOPTy9YPncyQqAs&json=",
+        "num_citations": 110,
+        "citedby_url": "/scholar?cites=9569363579099543745&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:wfjJenk1zYQJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.academia.edu/download/31853703/CHLS05.pdf"
+    },
+    "__2007_Compressed_text_indexes": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Compressed text indexes with fast locate",
+            "author": [
+                "R Gonz\u00e1lez",
+                "G Navarro"
+            ],
+            "pub_year": "2007",
+            "venue": "Annual Symposium on Combinatorial Pattern \u2026",
+            "abstract": "Compressed text (self-) indexes have matured up to a point where they can replace a text by a data structure that requires less space and, in addition to giving access to arbitrary text"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-73437-6_23",
+        "author_id": [
+            "",
+            "_fx52FkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:J6QcmB7xAqgJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=J6QcmB7xAqgJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 99,
+        "citedby_url": "/scholar?cites=12106503862028641319&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:J6QcmB7xAqgJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.academia.edu/download/7748296/combinatorial%20pattern%20matching,%2018%20conf.,%20cpm%202007%20(lncs4580,%20springer,%202007)(isbn%203540734368)(o)(376s).pdf#page=226"
+    },
+    "__2007_Compressed_suffix_trees": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Compressed suffix trees with full functionality",
+            "author": [
+                "K Sadakane"
+            ],
+            "pub_year": "2007",
+            "venue": "Theory of Computing Systems",
+            "abstract": "We introduce new data structures for compressed suffix trees whose size are linear in the text size. The size is measured in bits; thus they occupy only O (n log| A|) bits for a text of"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://link.springer.com/article/10.1007/s00224-006-1198-x",
+        "author_id": [
+            "yh2tWLIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:gFiC0lg3wlkJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=gFiC0lg3wlkJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 361,
+        "citedby_url": "/scholar?cites=6467792869485860992&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:gFiC0lg3wlkJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.researchgate.net/profile/Kunihiko-Sadakane/publication/2897137_Compressed_Suffix_Trees_with_Full_Functionality/links/54a14fea0cf257a636036297/Compressed-Suffix-Trees-with-Full-Functionality.pdf"
+    },
+    "__2023_Collapsing_the_hierarchy": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Collapsing the hierarchy of compressed data structures: Suffix arrays in optimal compressed space",
+            "author": [
+                "D Kempa",
+                "T Kociumaka"
+            ],
+            "pub_year": "2023",
+            "venue": "2023 IEEE 64th Annual Symposium \u2026",
+            "abstract": "The last two decades have witnessed a dramatic increase in the amount of highly repetitive datasets consisting of sequential data (strings, texts). Processing these massive amounts of"
+        },
+        "filled": false,
+        "gsrank": 7,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/10353220/",
+        "author_id": [
+            "r0Kn9IUAAAAJ",
+            "mudtARsAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:FcKevifdl-sJ:scholar.google.com/&output=cite&scirp=6&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=FcKevifdl-sJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 12,
+        "citedby_url": "/scholar?cites=16976280483167912469&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:FcKevifdl-sJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/2308.03635"
+    }
+}

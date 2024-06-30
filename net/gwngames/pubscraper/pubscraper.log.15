@@ -1,0 +1,1000 @@
+[2024-06-29 23:23:31,794 - 11160]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:05.524403 - Total: 5
+[2024-06-29 23:23:32,072 - 11160]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_597, Content: googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 23:22:44.379853 to: SCRAPER_QUEUE
+[2024-06-29 23:23:32,088 - 16208]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_597
+[2024-06-29 23:23:32,119 - 16208]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_597, Content: googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 23:22:44.379853
+[2024-06-29 23:23:32,134 - 16208]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json from: 5
+[2024-06-29 23:23:32,671 - 16208]  ScholarlyDataFetcher - INFO: Fetching article 3 - QDIhYPgAAAAJ9yKSN-GCB0IC
+[2024-06-29 23:23:32,704 - 16208]  ScholarlyDataFetcher - INFO: Saved article __1994_Axioms_for_knowledge to file: googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json
+[2024-06-29 23:23:33,060 - 16208]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_601 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:23:33,122 - 16208]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_601, Content: googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 23:23:33.060939 to: SCRAPER_QUEUE
+[2024-06-29 23:23:33,138 - 16208]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:23:33,138 - 16208]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_597 - Time: 1049.552 ms.
+[2024-06-29 23:23:37,191 - 19712]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:05.281462 - Total: 5
+[2024-06-29 23:23:37,318 - 19712]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_598, Content: googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json, Timestamp: 2024-06-29 23:22:56.748317 to: SCRAPER_QUEUE
+[2024-06-29 23:23:37,382 - 19340]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_598
+[2024-06-29 23:23:37,414 - 19340]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_598, Content: googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json, Timestamp: 2024-06-29 23:22:56.748317
+[2024-06-29 23:23:37,414 - 19340]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json from: 0
+[2024-06-29 23:23:37,827 - 19340]  ScholarlyDataFetcher - INFO: Fetching article 0 - KZUaK6YAAAAJfPk4N6BV_jEC
+[2024-06-29 23:23:37,953 - 19340]  ScholarlyDataFetcher - INFO: Saved article __2015_Interaction_prediction_in to file: googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json
+[2024-06-29 23:23:38,144 - 19340]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_602 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:23:38,225 - 19340]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_602, Content: googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json, Timestamp: 2024-06-29 23:23:38.144345 to: SCRAPER_QUEUE
+[2024-06-29 23:23:38,226 - 19340]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:23:38,226 - 19340]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_598 - Time: 843.745 ms.
+[2024-06-29 23:23:51,250 - 20184]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:14.027889 - Total: 5
+[2024-06-29 23:23:51,410 - 20184]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_652, Content: googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_citation.json, Timestamp: 2024-06-29 23:23:08.280841 to: SCRAPER_QUEUE
+[2024-06-29 23:23:51,441 - 17916]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_652
+[2024-06-29 23:23:51,472 - 17916]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_652, Content: googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_citation.json, Timestamp: 2024-06-29 23:23:08.280841
+[2024-06-29 23:23:51,488 - 17916]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_citation.json from: 2
+[2024-06-29 23:23:51,737 - 17916]  ScholarlyDataFetcher - INFO: Fetching citation 0 - QDIhYPgAAAAJZeXyd9-uunAC
+[2024-06-29 23:23:51,813 - 17916]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_citation.json
+[2024-06-29 23:23:52,203 - 17916]  root - INFO: Delaying message: getScholarlyCitations_653 of type getScholarlyCitations
+[2024-06-29 23:23:52,360 - 17916]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_653, Content: googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_citation.json, Timestamp: 2024-06-29 23:23:52.203350 to: SCRAPER_QUEUE
+[2024-06-29 23:23:52,392 - 17916]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:23:52,472 - 17916]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_652 - Time: 1031.572 ms.
+[2024-06-29 23:23:58,322 - 5424]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:07.039842 - Total: 5
+[2024-06-29 23:23:58,480 - 5424]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_524, Content: googlescholar_yZTneswAAAAJ:ufrVoPGSRksC_article, Timestamp: 2024-06-29 22:57:25.426453 to: SCRAPER_QUEUE
+[2024-06-29 23:23:58,512 - 13684]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_524
+[2024-06-29 23:23:58,544 - 13684]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_524, Content: googlescholar_yZTneswAAAAJ:ufrVoPGSRksC_article, Timestamp: 2024-06-29 22:57:25.426453
+[2024-06-29 23:23:58,544 - 13684]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJ:ufrVoPGSRksC_article from: 0
+[2024-06-29 23:23:58,940 - 13684]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:Pdu0flHUwuoJ:scholar.google.com/
+[2024-06-29 23:24:00,275 - 13684]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:24:00,307 - 13684]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:24:04,955 - 13684]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_603 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:24:05,067 - 13684]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_603, Content: googlescholar_yZTneswAAAAJufrVoPGSRksC_related.json, Timestamp: 2024-06-29 23:24:04.955597 to: SCRAPER_QUEUE
+[2024-06-29 23:24:05,099 - 13684]  ScholarlyDataFetcher - INFO: googlescholar_yZTneswAAAAJ:ufrVoPGSRksC_article
+[2024-06-29 23:24:05,258 - 13684]  ScholarlyDataFetcher - INFO: Scraping articles for googlescholar_yZTneswAAAAJ:ufrVoPGSRksC_article starting at index 0
+[2024-06-29 23:24:05,289 - 13684]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ:ufrVoPGSRksC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:24:05,320 - 13684]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_524 - Time: 6808.303 ms.
+[2024-06-29 23:24:07,238 - 20012]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:08.899605 - Total: 5
+[2024-06-29 23:24:07,411 - 20012]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_461, Content: googlescholar_QDIhYPgAAAAJ:aqlVkmm33-oC_article, Timestamp: 2024-06-29 22:34:50.857867 to: SCRAPER_QUEUE
+[2024-06-29 23:24:07,443 - 8988]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_461
+[2024-06-29 23:24:07,475 - 8988]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_461, Content: googlescholar_QDIhYPgAAAAJ:aqlVkmm33-oC_article, Timestamp: 2024-06-29 22:34:50.857867
+[2024-06-29 23:24:07,507 - 8988]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ:aqlVkmm33-oC_article from: 1
+[2024-06-29 23:24:07,935 - 8988]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:BtKyT4s11XIJ:scholar.google.com/
+[2024-06-29 23:24:09,679 - 8988]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:24:09,710 - 8988]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:24:14,531 - 8988]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_604 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:24:14,689 - 8988]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_604, Content: googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_related.json, Timestamp: 2024-06-29 23:24:14.531367 to: SCRAPER_QUEUE
+[2024-06-29 23:24:14,721 - 8988]  ScholarlyDataFetcher - INFO: googlescholar_QDIhYPgAAAAJ:aqlVkmm33-oC_article
+[2024-06-29 23:24:14,755 - 8988]  ScholarlyDataFetcher - INFO: Scraping articles for googlescholar_QDIhYPgAAAAJ:aqlVkmm33-oC_article starting at index 1
+[2024-06-29 23:24:14,756 - 8988]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:aqlVkmm33-oC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:24:14,756 - 8988]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_461 - Time: 7313.017 ms.
+[2024-06-29 23:24:18,118 - 18876]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:10.864205 - Total: 5
+[2024-06-29 23:24:18,216 - 18876]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_525, Content: googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_related.json, Timestamp: 2024-06-29 22:57:34.761490 to: SCRAPER_QUEUE
+[2024-06-29 23:24:18,329 - 6008]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_525
+[2024-06-29 23:24:18,342 - 6008]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_525, Content: googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_related.json, Timestamp: 2024-06-29 22:57:34.761490
+[2024-06-29 23:24:18,342 - 6008]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_related.json from: 3
+[2024-06-29 23:24:18,562 - 6008]  ScholarlyDataFetcher - INFO: Fetching article 1 - QDIhYPgAAAAJ4DMP91E08xMC
+[2024-06-29 23:24:18,720 - 6008]  ScholarlyDataFetcher - INFO: Saved article __2017_Ambiguity_defects_as to file: googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_related.json
+[2024-06-29 23:24:19,126 - 6008]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_605 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:24:19,213 - 6008]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_605, Content: googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_related.json, Timestamp: 2024-06-29 23:24:19.126482 to: SCRAPER_QUEUE
+[2024-06-29 23:24:19,244 - 6008]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:24:19,277 - 6008]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_525 - Time: 947.467 ms.
+[2024-06-29 23:24:32,686 - 20176]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:14.568165 - Total: 5
+[2024-06-29 23:24:32,875 - 20176]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_601, Content: googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 23:23:33.060939 to: SCRAPER_QUEUE
+[2024-06-29 23:24:32,906 - 8664]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_601
+[2024-06-29 23:24:32,954 - 8664]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_601, Content: googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 23:23:33.060939
+[2024-06-29 23:24:32,970 - 8664]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json from: 6
+[2024-06-29 23:24:33,496 - 8664]  ScholarlyDataFetcher - INFO: Fetching article 4 - QDIhYPgAAAAJ9yKSN-GCB0IC
+[2024-06-29 23:24:33,718 - 8664]  ScholarlyDataFetcher - INFO: Saved article __2003_Logic_of_involved to file: googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json
+[2024-06-29 23:24:34,131 - 8664]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_606 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:24:34,290 - 8664]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_606, Content: googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 23:24:34.131026 to: SCRAPER_QUEUE
+[2024-06-29 23:24:34,322 - 8664]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:24:34,385 - 8664]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_601 - Time: 1478.621 ms.
+[2024-06-29 23:24:42,866 - 15536]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:10.149000 - Total: 5
+[2024-06-29 23:24:43,025 - 15536]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_602, Content: googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json, Timestamp: 2024-06-29 23:23:38.144345 to: SCRAPER_QUEUE
+[2024-06-29 23:24:43,041 - 18972]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_602
+[2024-06-29 23:24:43,089 - 18972]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_602, Content: googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json, Timestamp: 2024-06-29 23:23:38.144345
+[2024-06-29 23:24:43,121 - 18972]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json from: 1
+[2024-06-29 23:24:43,696 - 18972]  ScholarlyDataFetcher - INFO: Fetching article 1 - KZUaK6YAAAAJfPk4N6BV_jEC
+[2024-06-29 23:24:43,776 - 18972]  ScholarlyDataFetcher - INFO: Saved article __2016_A_supervised_approach to file: googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json
+[2024-06-29 23:24:44,231 - 18972]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_607 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:24:44,391 - 18972]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_607, Content: googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json, Timestamp: 2024-06-29 23:24:44.231635 to: SCRAPER_QUEUE
+[2024-06-29 23:24:44,423 - 18972]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:24:44,455 - 18972]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_602 - Time: 1413.248 ms.
+[2024-06-29 23:24:57,354 - 19752]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:14.455960 - Total: 5
+[2024-06-29 23:24:57,545 - 19752]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_528, Content: googlescholar_KZUaK6YAAAAJZeXyd9-uunAC_related.json, Timestamp: 2024-06-29 22:58:04.963727 to: SCRAPER_QUEUE
+[2024-06-29 23:24:57,609 - 15488]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_528
+[2024-06-29 23:24:57,641 - 15488]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_528, Content: googlescholar_KZUaK6YAAAAJZeXyd9-uunAC_related.json, Timestamp: 2024-06-29 22:58:04.963727
+[2024-06-29 23:24:57,673 - 15488]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJZeXyd9-uunAC_related.json from: 0
+[2024-06-29 23:24:58,163 - 15488]  ScholarlyDataFetcher - INFO: Fetching article 0 - KZUaK6YAAAAJZeXyd9-uunAC
+[2024-06-29 23:24:58,387 - 15488]  ScholarlyDataFetcher - INFO: Saved article __2016_A_supervised_approach to file: googlescholar_KZUaK6YAAAAJZeXyd9-uunAC_related.json
+[2024-06-29 23:24:58,865 - 15488]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_608 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:24:59,007 - 15488]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_608, Content: googlescholar_KZUaK6YAAAAJZeXyd9-uunAC_related.json, Timestamp: 2024-06-29 23:24:58.865122 to: SCRAPER_QUEUE
+[2024-06-29 23:24:59,071 - 15488]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJZeXyd9-uunAC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:24:59,087 - 15488]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_528 - Time: 1478.077 ms.
+[2024-06-29 23:25:05,067 - 16596]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:07.681008 - Total: 5
+[2024-06-29 23:25:05,257 - 16596]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_463, Content: googlescholar_QDIhYPgAAAAJ:7PzlFSSx8tAC_article, Timestamp: 2024-06-29 22:34:53.311305 to: SCRAPER_QUEUE
+[2024-06-29 23:25:05,327 - 1504]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_463
+[2024-06-29 23:25:05,352 - 1504]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_463, Content: googlescholar_QDIhYPgAAAAJ:7PzlFSSx8tAC_article, Timestamp: 2024-06-29 22:34:53.311305
+[2024-06-29 23:25:05,384 - 1504]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ:7PzlFSSx8tAC_article from: 0
+[2024-06-29 23:25:05,826 - 1504]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:kT7n3otZDosJ:scholar.google.com/
+[2024-06-29 23:25:07,017 - 1504]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:25:07,048 - 1504]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:25:10,788 - 1504]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_609 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:25:10,900 - 1504]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_609, Content: googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_related.json, Timestamp: 2024-06-29 23:25:10.788777 to: SCRAPER_QUEUE
+[2024-06-29 23:25:10,948 - 1504]  ScholarlyDataFetcher - INFO: googlescholar_QDIhYPgAAAAJ:7PzlFSSx8tAC_article
+[2024-06-29 23:25:11,106 - 1504]  ScholarlyDataFetcher - INFO: Scraping articles for googlescholar_QDIhYPgAAAAJ:7PzlFSSx8tAC_article starting at index 0
+[2024-06-29 23:25:11,137 - 1504]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:7PzlFSSx8tAC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:25:11,169 - 1504]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_463 - Time: 5842.394 ms.
+[2024-06-29 23:25:18,023 - 15344]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:12.924135 - Total: 5
+[2024-06-29 23:25:18,214 - 15344]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_572, Content: googlescholar_yZTneswAAAAJufrVoPGSRksC_citation.json, Timestamp: 2024-06-29 22:58:15.958327 to: SCRAPER_QUEUE
+[2024-06-29 23:25:18,262 - 15852]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_572
+[2024-06-29 23:25:18,294 - 15852]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_572, Content: googlescholar_yZTneswAAAAJufrVoPGSRksC_citation.json, Timestamp: 2024-06-29 22:58:15.958327
+[2024-06-29 23:25:18,309 - 15852]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJufrVoPGSRksC_citation.json from: 0
+[2024-06-29 23:25:18,784 - 15852]  ScholarlyDataFetcher - INFO: Fetching citation 0 - yZTneswAAAAJufrVoPGSRksC
+[2024-06-29 23:25:18,989 - 15852]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_yZTneswAAAAJufrVoPGSRksC_citation.json
+[2024-06-29 23:25:19,465 - 15852]  root - INFO: Delaying message: getScholarlyCitations_654 of type getScholarlyCitations
+[2024-06-29 23:25:19,623 - 15852]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_654, Content: googlescholar_yZTneswAAAAJufrVoPGSRksC_citation.json, Timestamp: 2024-06-29 23:25:19.465252 to: SCRAPER_QUEUE
+[2024-06-29 23:25:19,671 - 15852]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJufrVoPGSRksC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:25:19,687 - 15852]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_572 - Time: 1425.189 ms.
+[2024-06-29 23:25:30,670 - 17588]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:12.615666 - Total: 5
+[2024-06-29 23:25:30,860 - 17588]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_573, Content: googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_citation.json, Timestamp: 2024-06-29 22:58:21.381824 to: SCRAPER_QUEUE
+[2024-06-29 23:25:30,924 - 9524]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_573
+[2024-06-29 23:25:30,955 - 9524]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_573, Content: googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_citation.json, Timestamp: 2024-06-29 22:58:21.381824
+[2024-06-29 23:25:30,987 - 9524]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_citation.json from: 5
+[2024-06-29 23:25:31,574 - 9524]  ScholarlyDataFetcher - INFO: Fetching citation 0 - QDIhYPgAAAAJaqlVkmm33-oC
+[2024-06-29 23:25:31,605 - 9524]  ScholarlyDataFetcher - INFO: citation: __2023_VIBE_looking_for is up to date
+[2024-06-29 23:25:32,049 - 9524]  root - INFO: Delaying message: getScholarlyCitations_655 of type getScholarlyCitations
+[2024-06-29 23:25:32,208 - 9524]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_655, Content: googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_citation.json, Timestamp: 2024-06-29 23:25:32.049003 to: SCRAPER_QUEUE
+[2024-06-29 23:25:32,240 - 9524]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:25:32,288 - 9524]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_573 - Time: 1364.353 ms.
+[2024-06-29 23:25:36,832 - 13260]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:06.130606 - Total: 5
+[2024-06-29 23:25:37,007 - 13260]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_497, Content: googlescholar_KZUaK6YAAAAJMojj43d5GZwC_citation.json, Timestamp: 2024-06-29 22:34:55.269070 to: SCRAPER_QUEUE
+[2024-06-29 23:25:37,055 - 15280]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_497
+[2024-06-29 23:25:37,087 - 15280]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_497, Content: googlescholar_KZUaK6YAAAAJMojj43d5GZwC_citation.json, Timestamp: 2024-06-29 22:34:55.269070
+[2024-06-29 23:25:37,119 - 15280]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJMojj43d5GZwC_citation.json from: 0
+[2024-06-29 23:25:37,614 - 15280]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJMojj43d5GZwC
+[2024-06-29 23:25:37,836 - 15280]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_KZUaK6YAAAAJMojj43d5GZwC_citation.json
+[2024-06-29 23:25:38,299 - 15280]  root - INFO: Delaying message: getScholarlyCitations_656 of type getScholarlyCitations
+[2024-06-29 23:25:38,458 - 15280]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_656, Content: googlescholar_KZUaK6YAAAAJMojj43d5GZwC_citation.json, Timestamp: 2024-06-29 23:25:38.299353 to: SCRAPER_QUEUE
+[2024-06-29 23:25:38,490 - 15280]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJMojj43d5GZwC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:25:38,522 - 15280]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_497 - Time: 1467.139 ms.
+[2024-06-29 23:25:48,590 - 18320]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:11.726827 - Total: 5
+[2024-06-29 23:25:48,766 - 18320]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_529, Content: googlescholar_KZUaK6YAAAAJZph67rFs4hoC_related.json, Timestamp: 2024-06-29 22:58:36.278988 to: SCRAPER_QUEUE
+[2024-06-29 23:25:48,830 - 17764]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_529
+[2024-06-29 23:25:48,846 - 17764]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_529, Content: googlescholar_KZUaK6YAAAAJZph67rFs4hoC_related.json, Timestamp: 2024-06-29 22:58:36.278988
+[2024-06-29 23:25:48,878 - 17764]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJZph67rFs4hoC_related.json from: 0
+[2024-06-29 23:25:49,356 - 17764]  ScholarlyDataFetcher - INFO: Fetching article 0 - KZUaK6YAAAAJZph67rFs4hoC
+[2024-06-29 23:25:49,578 - 17764]  ScholarlyDataFetcher - INFO: Saved article __2015_Behavioral_entropy_and to file: googlescholar_KZUaK6YAAAAJZph67rFs4hoC_related.json
+[2024-06-29 23:25:50,057 - 17764]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_610 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:25:50,216 - 17764]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_610, Content: googlescholar_KZUaK6YAAAAJZph67rFs4hoC_related.json, Timestamp: 2024-06-29 23:25:50.057076 to: SCRAPER_QUEUE
+[2024-06-29 23:25:50,248 - 17764]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJZph67rFs4hoC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:25:50,280 - 17764]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_529 - Time: 1450.164 ms.
+[2024-06-29 23:25:57,202 - 17772]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:08.579197 - Total: 5
+[2024-06-29 23:25:57,361 - 17772]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_530, Content: googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json, Timestamp: 2024-06-29 22:58:47.452110 to: SCRAPER_QUEUE
+[2024-06-29 23:25:57,425 - 17060]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_530
+[2024-06-29 23:25:57,473 - 17060]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_530, Content: googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json, Timestamp: 2024-06-29 22:58:47.452110
+[2024-06-29 23:25:57,505 - 17060]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json from: 1
+[2024-06-29 23:25:58,062 - 17060]  ScholarlyDataFetcher - INFO: Fetching article 0 - QDIhYPgAAAAJe5wmG9Sq2KIC
+[2024-06-29 23:25:58,093 - 17060]  ScholarlyDataFetcher - INFO: article: __2000_Multiple_Security_Policies is up to date
+[2024-06-29 23:25:58,537 - 17060]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_611 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:25:58,616 - 17060]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_611, Content: googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json, Timestamp: 2024-06-29 23:25:58.537907 to: SCRAPER_QUEUE
+[2024-06-29 23:25:58,648 - 17060]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:25:58,648 - 17060]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_530 - Time: 1223.144 ms.
+[2024-06-29 23:26:11,718 - 12428]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:14.484199 - Total: 5
+[2024-06-29 23:26:11,894 - 12428]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_576, Content: googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_citation.json, Timestamp: 2024-06-29 22:59:07.508981 to: SCRAPER_QUEUE
+[2024-06-29 23:26:11,957 - 18072]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_576
+[2024-06-29 23:26:12,005 - 18072]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_576, Content: googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_citation.json, Timestamp: 2024-06-29 22:59:07.508981
+[2024-06-29 23:26:12,037 - 18072]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_citation.json from: 0
+[2024-06-29 23:26:12,469 - 18072]  ScholarlyDataFetcher - INFO: Fetching citation 0 - QDIhYPgAAAAJUebtZRa9Y70C
+[2024-06-29 23:26:12,693 - 18072]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_citation.json
+[2024-06-29 23:26:13,139 - 18072]  root - INFO: Delaying message: getScholarlyCitations_657 of type getScholarlyCitations
+[2024-06-29 23:26:13,299 - 18072]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_657, Content: googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_citation.json, Timestamp: 2024-06-29 23:26:13.139189 to: SCRAPER_QUEUE
+[2024-06-29 23:26:13,330 - 18072]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:26:13,394 - 18072]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_576 - Time: 1436.424 ms.
+[2024-06-29 23:26:19,677 - 17208]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:07.926748 - Total: 5
+[2024-06-29 23:26:19,868 - 17208]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_577, Content: googlescholar_KZUaK6YAAAAJZph67rFs4hoC_citation.json, Timestamp: 2024-06-29 22:59:11.115338 to: SCRAPER_QUEUE
+[2024-06-29 23:26:19,932 - 15548]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_577
+[2024-06-29 23:26:19,964 - 15548]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_577, Content: googlescholar_KZUaK6YAAAAJZph67rFs4hoC_citation.json, Timestamp: 2024-06-29 22:59:11.115338
+[2024-06-29 23:26:19,996 - 15548]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJZph67rFs4hoC_citation.json from: 1
+[2024-06-29 23:26:20,586 - 15548]  ScholarlyDataFetcher - INFO: Fetching citation 1 - KZUaK6YAAAAJZph67rFs4hoC
+[2024-06-29 23:26:20,809 - 15548]  ScholarlyDataFetcher - INFO: Saved citation 1 to file: googlescholar_KZUaK6YAAAAJZph67rFs4hoC_citation.json
+[2024-06-29 23:26:21,287 - 15548]  root - INFO: Delaying message: getScholarlyCitations_658 of type getScholarlyCitations
+[2024-06-29 23:26:21,446 - 15548]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_658, Content: googlescholar_KZUaK6YAAAAJZph67rFs4hoC_citation.json, Timestamp: 2024-06-29 23:26:21.287723 to: SCRAPER_QUEUE
+[2024-06-29 23:26:21,478 - 15548]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJZph67rFs4hoC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:26:21,526 - 15548]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_577 - Time: 1593.765 ms.
+[2024-06-29 23:26:29,109 - 18564]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:09.400889 - Total: 5
+[2024-06-29 23:26:29,269 - 18564]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_531, Content: googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_related.json, Timestamp: 2024-06-29 22:59:31.744877 to: SCRAPER_QUEUE
+[2024-06-29 23:26:29,301 - 4196]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_531
+[2024-06-29 23:26:29,349 - 4196]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_531, Content: googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_related.json, Timestamp: 2024-06-29 22:59:31.744877
+[2024-06-29 23:26:29,381 - 4196]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_related.json from: 0
+[2024-06-29 23:26:29,875 - 4196]  ScholarlyDataFetcher - INFO: Fetching article 0 - QDIhYPgAAAAJUebtZRa9Y70C
+[2024-06-29 23:26:29,940 - 4196]  ScholarlyDataFetcher - INFO: Saved article __1996_Refinement_in_tuple to file: googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_related.json
+[2024-06-29 23:26:30,383 - 4196]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_612 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:26:30,543 - 4196]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_612, Content: googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_related.json, Timestamp: 2024-06-29 23:26:30.383905 to: SCRAPER_QUEUE
+[2024-06-29 23:26:30,575 - 4196]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:26:30,607 - 4196]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_531 - Time: 1306.014 ms.
+[2024-06-29 23:26:42,549 - 12416]  RequestState - INFO: Serving next request scholarlyPublication after waited time 0:00:13.407653 - Total: 5
+[2024-06-29 23:26:42,740 - 12416]  root - INFO: Message sent: Message Type: scholarlyPublication, Message ID: scholarlyPublication_67, Content: googlescholar_QDIhYPgAAAAJroLk4NBRz8UC_2016_Variability-based_design_of_pub.json, Timestamp: 2024-06-29 22:34:59.076940 to: SCRAPER_QUEUE
+[2024-06-29 23:26:42,804 - 4520]  root - DEBUG: Message routed for topic 'scholarlyPublication': scholarlyPublication_67
+[2024-06-29 23:26:42,836 - 4520]  ScraperQueue - INFO: Received message: Message Type: scholarlyPublication, Message ID: scholarlyPublication_67, Content: googlescholar_QDIhYPgAAAAJroLk4NBRz8UC_2016_Variability-based_design_of_pub.json, Timestamp: 2024-06-29 22:34:59.076940
+[2024-06-29 23:26:42,868 - 4520]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJroLk4NBRz8UC_2016_Variability-based_design_of_pub.json from: 0
+[2024-06-29 23:26:43,361 - 4520]  ScholarlyDataFetcher - INFO: Fetching author publication googlescholar_QDIhYPgAAAAJroLk4NBRz8UC_2016_Variability-based_design_of_pub.json
+[2024-06-29 23:26:43,409 - 4520]  scholarly - INFO: Getting https://scholar.google.com/citations?hl=en&view_op=view_citation&citation_for_view=QDIhYPgAAAAJ:roLk4NBRz8UC
+[2024-06-29 23:26:48,997 - 4520]  scholarly - DEBUG: Session proxy config is {'http://': 'http://189.240.60.164:9090', 'https://': 'http://189.240.60.164:9090'}
+[2024-06-29 23:26:49,634 - 4520]  root - INFO: Delaying message: getScholarlyCitations_659 of type getScholarlyCitations
+[2024-06-29 23:26:49,794 - 4520]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_659, Content: googlescholar_QDIhYPgAAAAJ:roLk4NBRz8UC_citation, Timestamp: 2024-06-29 23:26:49.634515 to: SCRAPER_QUEUE
+[2024-06-29 23:26:50,238 - 4520]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_613 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:26:50,398 - 4520]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_613, Content: googlescholar_QDIhYPgAAAAJ:roLk4NBRz8UC_article, Timestamp: 2024-06-29 23:26:50.238898 to: SCRAPER_QUEUE
+[2024-06-29 23:26:50,430 - 4520]  ScraperQueue - INFO: Processed message scholarlyPublication_67 of type GetScholarlyPublication
+[2024-06-29 23:26:50,494 - 4520]  root - DEBUG: Managed message for topic 'scholarlyPublication': scholarlyPublication_67 - Time: 7689.594 ms.
+[2024-06-29 23:26:54,125 - 19976]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:11.544655 - Total: 5
+[2024-06-29 23:26:54,269 - 19976]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_466, Content: googlescholar_yZTneswAAAAJRi6SYOTghG4C_related.json, Timestamp: 2024-06-29 22:35:02.483988 to: SCRAPER_QUEUE
+[2024-06-29 23:26:54,333 - 16756]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_466
+[2024-06-29 23:26:54,365 - 16756]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_466, Content: googlescholar_yZTneswAAAAJRi6SYOTghG4C_related.json, Timestamp: 2024-06-29 22:35:02.483988
+[2024-06-29 23:26:54,397 - 16756]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJRi6SYOTghG4C_related.json from: 1
+[2024-06-29 23:26:54,971 - 16756]  ScholarlyDataFetcher - INFO: Fetching article 1 - yZTneswAAAAJRi6SYOTghG4C
+[2024-06-29 23:26:55,163 - 16756]  ScholarlyDataFetcher - INFO: Saved article __2016_Put_three_and to file: googlescholar_yZTneswAAAAJRi6SYOTghG4C_related.json
+[2024-06-29 23:26:55,641 - 16756]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_614 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:26:55,817 - 16756]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_614, Content: googlescholar_yZTneswAAAAJRi6SYOTghG4C_related.json, Timestamp: 2024-06-29 23:26:55.641914 to: SCRAPER_QUEUE
+[2024-06-29 23:26:55,849 - 16756]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJRi6SYOTghG4C_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:26:55,913 - 16756]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_466 - Time: 1579.801 ms.
+[2024-06-29 23:27:04,841 - 18584]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:10.699414 - Total: 5
+[2024-06-29 23:27:04,984 - 18584]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_611, Content: googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json, Timestamp: 2024-06-29 23:25:58.537907 to: SCRAPER_QUEUE
+[2024-06-29 23:27:05,016 - 15184]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_611
+[2024-06-29 23:27:05,048 - 15184]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_611, Content: googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json, Timestamp: 2024-06-29 23:25:58.537907
+[2024-06-29 23:27:05,080 - 15184]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json from: 2
+[2024-06-29 23:27:05,687 - 15184]  ScholarlyDataFetcher - INFO: Fetching article 0 - QDIhYPgAAAAJe5wmG9Sq2KIC
+[2024-06-29 23:27:05,910 - 15184]  ScholarlyDataFetcher - INFO: Saved article __1992_The_typed_access to file: googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json
+[2024-06-29 23:27:06,389 - 15184]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_615 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:27:06,548 - 15184]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_615, Content: googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json, Timestamp: 2024-06-29 23:27:06.389296 to: SCRAPER_QUEUE
+[2024-06-29 23:27:06,580 - 15184]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:27:06,628 - 15184]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_611 - Time: 1611.811 ms.
+[2024-06-29 23:27:12,670 - 2092]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:07.796808 - Total: 5
+[2024-06-29 23:27:12,845 - 2092]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_499, Content: googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_citation, Timestamp: 2024-06-29 22:35:18.772418 to: SCRAPER_QUEUE
+[2024-06-29 23:27:12,877 - 18268]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_499
+[2024-06-29 23:27:12,909 - 18268]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_499, Content: googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_citation, Timestamp: 2024-06-29 22:35:18.772418
+[2024-06-29 23:27:12,941 - 18268]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_citation from: 0
+[2024-06-29 23:27:13,420 - 18268]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=16390648019788253148,25162256936038297
+[2024-06-29 23:27:15,445 - 18268]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:27:15,477 - 18268]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:27:18,322 - 13628]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:05.620217 - Total: 5
+[2024-06-29 23:27:18,512 - 13628]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_467, Content: googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_article, Timestamp: 2024-06-29 22:35:19.345912 to: SCRAPER_QUEUE
+[2024-06-29 23:27:18,575 - 14264]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_467
+[2024-06-29 23:27:18,607 - 14264]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_467, Content: googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_article, Timestamp: 2024-06-29 22:35:19.345912
+[2024-06-29 23:27:18,639 - 14264]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_article from: 0
+[2024-06-29 23:27:19,118 - 14264]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:3EfwWYhHd-MJ:scholar.google.com/
+[2024-06-29 23:27:20,839 - 14264]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:27:20,871 - 14264]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:27:20,951 - 18268]  root - INFO: Delaying message: getScholarlyCitations_660 of type getScholarlyCitations
+[2024-06-29 23:27:21,190 - 18268]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_660, Content: googlescholar_yZTneswAAAAJWF5omc3nYNoC_citation.json, Timestamp: 2024-06-29 23:27:20.951323 to: SCRAPER_QUEUE
+[2024-06-29 23:27:21,222 - 18268]  ScholarlyDataFetcher - INFO: googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_citation
+[2024-06-29 23:27:21,381 - 18268]  ScholarlyDataFetcher - INFO: Scraping citations for googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_citation starting at index 0
+[2024-06-29 23:27:21,413 - 18268]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_citation of type GetScholarlyPubCitations
+[2024-06-29 23:27:21,445 - 18268]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_499 - Time: 8567.523 ms.
+[2024-06-29 23:27:26,137 - 14264]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_616 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:27:26,297 - 14264]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_616, Content: googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json, Timestamp: 2024-06-29 23:27:26.137483 to: SCRAPER_QUEUE
+[2024-06-29 23:27:26,329 - 14264]  ScholarlyDataFetcher - INFO: googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_article
+[2024-06-29 23:27:26,520 - 14264]  ScholarlyDataFetcher - INFO: Scraping articles for googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_article starting at index 0
+[2024-06-29 23:27:26,552 - 14264]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:27:26,584 - 14264]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_467 - Time: 8008.867 ms.
+[2024-06-29 23:27:28,925 - 18480]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:10.571016 - Total: 5
+[2024-06-29 23:27:29,100 - 18480]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_580, Content: googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_citation, Timestamp: 2024-06-29 23:00:17.447112 to: SCRAPER_QUEUE
+[2024-06-29 23:27:29,132 - 18488]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_580
+[2024-06-29 23:27:29,164 - 18488]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_580, Content: googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_citation, Timestamp: 2024-06-29 23:00:17.447112
+[2024-06-29 23:27:29,196 - 18488]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_citation from: 0
+[2024-06-29 23:27:29,671 - 18488]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=7216525547137963425
+[2024-06-29 23:27:30,941 - 18488]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:27:30,973 - 18488]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:27:36,689 - 18488]  root - INFO: Delaying message: getScholarlyCitations_661 of type getScholarlyCitations
+[2024-06-29 23:27:36,849 - 18488]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_661, Content: googlescholar_QDIhYPgAAAAJ4TOpqqG69KYC_citation.json, Timestamp: 2024-06-29 23:27:36.689902 to: SCRAPER_QUEUE
+[2024-06-29 23:27:36,881 - 18488]  ScholarlyDataFetcher - INFO: googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_citation
+[2024-06-29 23:27:37,025 - 18488]  ScholarlyDataFetcher - INFO: Scraping citations for googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_citation starting at index 0
+[2024-06-29 23:27:37,056 - 18488]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_citation of type GetScholarlyPubCitations
+[2024-06-29 23:27:37,088 - 18488]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_580 - Time: 7956.264 ms.
+[2024-06-29 23:27:42,880 - 18664]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:13.923334 - Total: 5
+[2024-06-29 23:27:43,070 - 18664]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_534, Content: googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_article, Timestamp: 2024-06-29 23:00:18.126831 to: SCRAPER_QUEUE
+[2024-06-29 23:27:43,101 - 13956]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_534
+[2024-06-29 23:27:43,133 - 13956]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_534, Content: googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_article, Timestamp: 2024-06-29 23:00:18.126831
+[2024-06-29 23:27:43,165 - 13956]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_article from: 0
+[2024-06-29 23:27:43,659 - 13956]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:oZWwFcA_JmQJ:scholar.google.com/
+[2024-06-29 23:27:44,899 - 13956]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:27:44,931 - 13956]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:27:51,023 - 13956]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_617 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:27:51,165 - 13956]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_617, Content: googlescholar_QDIhYPgAAAAJ4TOpqqG69KYC_related.json, Timestamp: 2024-06-29 23:27:51.023089 to: SCRAPER_QUEUE
+[2024-06-29 23:27:51,197 - 13956]  ScholarlyDataFetcher - INFO: googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_article
+[2024-06-29 23:27:51,388 - 13956]  ScholarlyDataFetcher - INFO: Scraping articles for googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_article starting at index 0
+[2024-06-29 23:27:51,420 - 13956]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:27:51,450 - 13956]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_534 - Time: 8349.215 ms.
+[2024-06-29 23:27:57,640 - 15664]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:14.728142 - Total: 5
+[2024-06-29 23:27:57,783 - 15664]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_581, Content: googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_citation, Timestamp: 2024-06-29 23:00:21.358190 to: SCRAPER_QUEUE
+[2024-06-29 23:27:57,798 - 19888]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_581
+[2024-06-29 23:27:57,830 - 19888]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_581, Content: googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_citation, Timestamp: 2024-06-29 23:00:21.358190
+[2024-06-29 23:27:57,862 - 19888]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_citation from: 0
+[2024-06-29 23:27:58,356 - 19888]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=13691269065158890082
+[2024-06-29 23:28:00,190 - 19888]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:28:00,222 - 19888]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:28:06,458 - 19888]  root - INFO: Delaying message: getScholarlyCitations_662 of type getScholarlyCitations
+[2024-06-29 23:28:06,601 - 19888]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_662, Content: googlescholar_QDIhYPgAAAAJ_Qo2XoVZTnwC_citation.json, Timestamp: 2024-06-29 23:28:06.458976 to: SCRAPER_QUEUE
+[2024-06-29 23:28:06,633 - 19888]  ScholarlyDataFetcher - INFO: googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_citation
+[2024-06-29 23:28:06,824 - 19888]  ScholarlyDataFetcher - INFO: Scraping citations for googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_citation starting at index 0
+[2024-06-29 23:28:06,824 - 19888]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_citation of type GetScholarlyPubCitations
+[2024-06-29 23:28:06,824 - 19888]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_581 - Time: 9025.045 ms.
+[2024-06-29 23:28:11,884 - 656]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:14.229459 - Total: 5
+[2024-06-29 23:28:12,044 - 656]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_535, Content: googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_article, Timestamp: 2024-06-29 23:00:22.457251 to: SCRAPER_QUEUE
+[2024-06-29 23:28:12,076 - 19340]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_535
+[2024-06-29 23:28:12,156 - 19340]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_535, Content: googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_article, Timestamp: 2024-06-29 23:00:22.457251
+[2024-06-29 23:28:12,188 - 19340]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_article from: 0
+[2024-06-29 23:28:12,666 - 19340]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:YhIX4awoAb4J:scholar.google.com/
+[2024-06-29 23:28:14,622 - 19340]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:28:14,653 - 19340]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:28:22,453 - 19340]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_618 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:28:22,613 - 19340]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_618, Content: googlescholar_QDIhYPgAAAAJ_Qo2XoVZTnwC_related.json, Timestamp: 2024-06-29 23:28:22.453722 to: SCRAPER_QUEUE
+[2024-06-29 23:28:22,645 - 19340]  ScholarlyDataFetcher - INFO: googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_article
+[2024-06-29 23:28:22,804 - 19340]  ScholarlyDataFetcher - INFO: Scraping articles for googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_article starting at index 0
+[2024-06-29 23:28:22,820 - 19340]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:28:22,852 - 19340]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_535 - Time: 10776.397 ms.
+[2024-06-29 23:28:25,079 - 9720]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:13.178986 - Total: 5
+[2024-06-29 23:28:25,239 - 9720]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_616, Content: googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json, Timestamp: 2024-06-29 23:27:26.137483 to: SCRAPER_QUEUE
+[2024-06-29 23:28:25,271 - 15536]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_616
+[2024-06-29 23:28:25,335 - 15536]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_616, Content: googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json, Timestamp: 2024-06-29 23:27:26.137483
+[2024-06-29 23:28:25,366 - 15536]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json from: 0
+[2024-06-29 23:28:25,844 - 15536]  ScholarlyDataFetcher - INFO: Fetching article 0 - yZTneswAAAAJWF5omc3nYNoC
+[2024-06-29 23:28:26,068 - 15536]  ScholarlyDataFetcher - INFO: Saved article __1999_E_cient_cross-trees to file: googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json
+[2024-06-29 23:28:26,530 - 15536]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_619 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:28:26,690 - 15536]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_619, Content: googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json, Timestamp: 2024-06-29 23:28:26.530886 to: SCRAPER_QUEUE
+[2024-06-29 23:28:26,722 - 15536]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:28:26,753 - 15536]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_616 - Time: 1482.038 ms.
+[2024-06-29 23:28:36,683 - 18812]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:11.572055 - Total: 5
+[2024-06-29 23:28:36,859 - 18812]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_537, Content: googlescholar_QDIhYPgAAAAJ:hC7cP41nSMkC_article, Timestamp: 2024-06-29 23:00:41.103663 to: SCRAPER_QUEUE
+[2024-06-29 23:28:36,891 - 16864]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_537
+[2024-06-29 23:28:36,923 - 16864]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_537, Content: googlescholar_QDIhYPgAAAAJ:hC7cP41nSMkC_article, Timestamp: 2024-06-29 23:00:41.103663
+[2024-06-29 23:28:36,955 - 16864]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ:hC7cP41nSMkC_article from: 0
+[2024-06-29 23:28:37,449 - 16864]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:OsZEStmPkqAJ:scholar.google.com/
+[2024-06-29 23:28:38,678 - 16864]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:28:38,710 - 16864]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:28:43,109 - 3968]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:06.393409 - Total: 5
+[2024-06-29 23:28:43,315 - 3968]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_583, Content: googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json, Timestamp: 2024-06-29 23:00:43.937180 to: SCRAPER_QUEUE
+[2024-06-29 23:28:43,362 - 16680]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_583
+[2024-06-29 23:28:43,442 - 16680]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_583, Content: googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json, Timestamp: 2024-06-29 23:00:43.937180
+[2024-06-29 23:28:43,474 - 16680]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json from: 2
+[2024-06-29 23:28:44,064 - 16680]  ScholarlyDataFetcher - INFO: Fetching citation 2 - QDIhYPgAAAAJ7PzlFSSx8tAC
+[2024-06-29 23:28:44,335 - 16680]  ScholarlyDataFetcher - INFO: Saved citation 2 to file: googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json
+[2024-06-29 23:28:44,591 - 16864]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_620 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:28:44,878 - 16864]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_620, Content: googlescholar_QDIhYPgAAAAJhC7cP41nSMkC_related.json, Timestamp: 2024-06-29 23:28:44.591098 to: SCRAPER_QUEUE
+[2024-06-29 23:28:44,925 - 16864]  ScholarlyDataFetcher - INFO: googlescholar_QDIhYPgAAAAJ:hC7cP41nSMkC_article
+[2024-06-29 23:28:45,180 - 16680]  root - INFO: Delaying message: getScholarlyCitations_663 of type getScholarlyCitations
+[2024-06-29 23:28:45,324 - 16864]  ScholarlyDataFetcher - INFO: Scraping articles for googlescholar_QDIhYPgAAAAJ:hC7cP41nSMkC_article starting at index 0
+[2024-06-29 23:28:45,356 - 16864]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:hC7cP41nSMkC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:28:45,372 - 16864]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_537 - Time: 8480.827 ms.
+[2024-06-29 23:28:45,467 - 16680]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_663, Content: googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json, Timestamp: 2024-06-29 23:28:45.180521 to: SCRAPER_QUEUE
+[2024-06-29 23:28:45,499 - 16680]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:28:45,531 - 16680]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_583 - Time: 2169.200 ms.
+[2024-06-29 23:28:52,704 - 16096]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:09.563427 - Total: 5
+[2024-06-29 23:28:52,895 - 16096]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_538, Content: googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_related.json, Timestamp: 2024-06-29 23:01:02.168680 to: SCRAPER_QUEUE
+[2024-06-29 23:28:52,959 - 8696]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_538
+[2024-06-29 23:28:52,991 - 8696]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_538, Content: googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_related.json, Timestamp: 2024-06-29 23:01:02.168680
+[2024-06-29 23:28:53,023 - 8696]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_related.json from: 0
+[2024-06-29 23:28:53,486 - 8696]  ScholarlyDataFetcher - INFO: Fetching article 0 - QDIhYPgAAAAJbEWYMUwI8FkC
+[2024-06-29 23:28:53,709 - 8696]  ScholarlyDataFetcher - INFO: Saved article __2004_Formalizing_an_adaptive to file: googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_related.json
+[2024-06-29 23:28:54,155 - 8696]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_621 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:28:54,299 - 8696]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_621, Content: googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_related.json, Timestamp: 2024-06-29 23:28:54.155599 to: SCRAPER_QUEUE
+[2024-06-29 23:28:54,331 - 8696]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:28:54,379 - 8696]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_538 - Time: 1419.283 ms.
+[2024-06-29 23:29:02,286 - 15788]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:09.550539 - Total: 5
+[2024-06-29 23:29:02,478 - 15788]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_502, Content: googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json, Timestamp: 2024-06-29 22:36:25.548334 to: SCRAPER_QUEUE
+[2024-06-29 23:29:02,542 - 18704]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_502
+[2024-06-29 23:29:02,590 - 18704]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_502, Content: googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json, Timestamp: 2024-06-29 22:36:25.548334
+[2024-06-29 23:29:02,620 - 18704]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json from: 1
+[2024-06-29 23:29:03,211 - 18704]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJeflP2zaiRacC
+[2024-06-29 23:29:03,243 - 18704]  ScholarlyDataFetcher - INFO: citation: __2022_Counterfactual_explanations_and is up to date
+[2024-06-29 23:29:03,736 - 18704]  root - INFO: Delaying message: getScholarlyCitations_664 of type getScholarlyCitations
+[2024-06-29 23:29:03,894 - 18704]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_664, Content: googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json, Timestamp: 2024-06-29 23:29:03.736031 to: SCRAPER_QUEUE
+[2024-06-29 23:29:03,926 - 18704]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:29:03,958 - 18704]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_502 - Time: 1416.314 ms.
+[2024-06-29 23:29:09,088 - 9796]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:06.769373 - Total: 5
+[2024-06-29 23:29:09,247 - 9796]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_540, Content: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json, Timestamp: 2024-06-29 23:01:15.635093 to: SCRAPER_QUEUE
+[2024-06-29 23:29:09,279 - 3412]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_540
+[2024-06-29 23:29:09,311 - 3412]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_540, Content: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json, Timestamp: 2024-06-29 23:01:15.635093
+[2024-06-29 23:29:09,343 - 3412]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json from: 2
+[2024-06-29 23:29:09,947 - 3412]  ScholarlyDataFetcher - INFO: Fetching article 1 - QDIhYPgAAAAJULOm3_A8WrAC
+[2024-06-29 23:29:10,139 - 3412]  ScholarlyDataFetcher - INFO: Saved article __1982_New_control_structures to file: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json
+[2024-06-29 23:29:10,616 - 3412]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_622 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:29:10,759 - 3412]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_622, Content: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json, Timestamp: 2024-06-29 23:29:10.616192 to: SCRAPER_QUEUE
+[2024-06-29 23:29:10,791 - 3412]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:29:10,823 - 3412]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_540 - Time: 1544.006 ms.
+[2024-06-29 23:29:22,143 - 17088]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:13.023310 - Total: 5
+[2024-06-29 23:29:22,350 - 17088]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_619, Content: googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json, Timestamp: 2024-06-29 23:28:26.530886 to: SCRAPER_QUEUE
+[2024-06-29 23:29:22,382 - 16480]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_619
+[2024-06-29 23:29:22,430 - 16480]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_619, Content: googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json, Timestamp: 2024-06-29 23:28:26.530886
+[2024-06-29 23:29:22,462 - 16480]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json from: 1
+[2024-06-29 23:29:23,004 - 16480]  ScholarlyDataFetcher - INFO: Fetching article 1 - yZTneswAAAAJWF5omc3nYNoC
+[2024-06-29 23:29:23,194 - 16480]  ScholarlyDataFetcher - INFO: Saved article __2001_A_framework_for to file: googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json
+[2024-06-29 23:29:23,672 - 16480]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_623 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:29:23,831 - 16480]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_623, Content: googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json, Timestamp: 2024-06-29 23:29:23.672335 to: SCRAPER_QUEUE
+[2024-06-29 23:29:23,863 - 16480]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:29:23,895 - 16480]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_619 - Time: 1513.011 ms.
+[2024-06-29 23:29:33,698 - 17372]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:11.523280 - Total: 5
+[2024-06-29 23:29:33,890 - 17372]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_663, Content: googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json, Timestamp: 2024-06-29 23:28:45.180521 to: SCRAPER_QUEUE
+[2024-06-29 23:29:33,937 - 16660]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_663
+[2024-06-29 23:29:33,969 - 16660]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_663, Content: googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json, Timestamp: 2024-06-29 23:28:45.180521
+[2024-06-29 23:29:34,000 - 16660]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json from: 3
+[2024-06-29 23:29:34,575 - 16660]  ScholarlyDataFetcher - INFO: Fetching citation 3 - QDIhYPgAAAAJ7PzlFSSx8tAC
+[2024-06-29 23:29:34,766 - 16660]  ScholarlyDataFetcher - INFO: Saved citation 3 to file: googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json
+[2024-06-29 23:29:35,245 - 16660]  root - INFO: Delaying message: getScholarlyCitations_665 of type getScholarlyCitations
+[2024-06-29 23:29:35,404 - 16660]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_665, Content: googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json, Timestamp: 2024-06-29 23:29:35.245482 to: SCRAPER_QUEUE
+[2024-06-29 23:29:35,435 - 16660]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:29:35,483 - 16660]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_663 - Time: 1545.922 ms.
+[2024-06-29 23:29:40,295 - 19984]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:06.564833 - Total: 5
+[2024-06-29 23:29:40,485 - 19984]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_585, Content: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_citation.json, Timestamp: 2024-06-29 23:01:51.401246 to: SCRAPER_QUEUE
+[2024-06-29 23:29:40,549 - 20212]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_585
+[2024-06-29 23:29:40,581 - 20212]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_585, Content: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_citation.json, Timestamp: 2024-06-29 23:01:51.401246
+[2024-06-29 23:29:40,613 - 20212]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_citation.json from: 2
+[2024-06-29 23:29:41,219 - 20212]  ScholarlyDataFetcher - INFO: Fetching citation 0 - QDIhYPgAAAAJULOm3_A8WrAC
+[2024-06-29 23:29:41,443 - 20212]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_citation.json
+[2024-06-29 23:29:41,922 - 20212]  root - INFO: Delaying message: getScholarlyCitations_666 of type getScholarlyCitations
+[2024-06-29 23:29:42,080 - 20212]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_666, Content: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_citation.json, Timestamp: 2024-06-29 23:29:41.922036 to: SCRAPER_QUEUE
+[2024-06-29 23:29:42,112 - 20212]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:29:42,160 - 20212]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_585 - Time: 1610.770 ms.
+[2024-06-29 23:29:54,592 - 19224]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:14.264932 - Total: 5
+[2024-06-29 23:29:54,751 - 19224]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_542, Content: googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_related.json, Timestamp: 2024-06-29 23:02:04.491866 to: SCRAPER_QUEUE
+[2024-06-29 23:29:54,783 - 18564]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_542
+[2024-06-29 23:29:54,815 - 18564]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_542, Content: googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_related.json, Timestamp: 2024-06-29 23:02:04.491866
+[2024-06-29 23:29:54,847 - 18564]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_related.json from: 3
+[2024-06-29 23:29:55,469 - 18564]  ScholarlyDataFetcher - INFO: Fetching article 0 - KZUaK6YAAAAJ70eg2SAEIzsC
+[2024-06-29 23:29:55,501 - 18564]  ScholarlyDataFetcher - INFO: article: __2021_Explaining_black-box_algorithms is up to date
+[2024-06-29 23:29:55,980 - 18564]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_624 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:29:56,140 - 18564]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_624, Content: googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_related.json, Timestamp: 2024-06-29 23:29:55.980530 to: SCRAPER_QUEUE
+[2024-06-29 23:29:56,172 - 18564]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:29:56,219 - 18564]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_542 - Time: 1436.220 ms.
+[2024-06-29 23:30:08,871 - 17320]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:14.246963 - Total: 5
+[2024-06-29 23:30:09,062 - 17320]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_664, Content: googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json, Timestamp: 2024-06-29 23:29:03.736031 to: SCRAPER_QUEUE
+[2024-06-29 23:30:09,094 - 20112]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_664
+[2024-06-29 23:30:09,126 - 20112]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_664, Content: googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json, Timestamp: 2024-06-29 23:29:03.736031
+[2024-06-29 23:30:09,158 - 20112]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json from: 2
+[2024-06-29 23:30:09,714 - 20112]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJeflP2zaiRacC
+[2024-06-29 23:30:09,938 - 20112]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json
+[2024-06-29 23:30:10,401 - 20112]  root - INFO: Delaying message: getScholarlyCitations_667 of type getScholarlyCitations
+[2024-06-29 23:30:10,560 - 20112]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_667, Content: googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json, Timestamp: 2024-06-29 23:30:10.401039 to: SCRAPER_QUEUE
+[2024-06-29 23:30:10,592 - 20112]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:30:10,624 - 20112]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_664 - Time: 1530.010 ms.
+[2024-06-29 23:30:18,798 - 15940]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:09.895221 - Total: 5
+[2024-06-29 23:30:18,957 - 15940]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_622, Content: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json, Timestamp: 2024-06-29 23:29:10.616192 to: SCRAPER_QUEUE
+[2024-06-29 23:30:18,989 - 9228]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_622
+[2024-06-29 23:30:19,021 - 9228]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_622, Content: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json, Timestamp: 2024-06-29 23:29:10.616192
+[2024-06-29 23:30:19,053 - 9228]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json from: 3
+[2024-06-29 23:30:19,611 - 9228]  ScholarlyDataFetcher - INFO: Fetching article 2 - QDIhYPgAAAAJULOm3_A8WrAC
+[2024-06-29 23:30:19,833 - 9228]  ScholarlyDataFetcher - INFO: Saved article __1978_Whither_(wither)_control to file: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json
+[2024-06-29 23:30:20,312 - 9228]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_625 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:30:20,471 - 9228]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_625, Content: googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json, Timestamp: 2024-06-29 23:30:20.312232 to: SCRAPER_QUEUE
+[2024-06-29 23:30:20,535 - 9228]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:30:20,551 - 9228]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_622 - Time: 1561.908 ms.
+[2024-06-29 23:30:26,845 - 3880]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:08.015651 - Total: 5
+[2024-06-29 23:30:27,051 - 3880]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_586, Content: googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_citation.json, Timestamp: 2024-06-29 23:02:34.723367 to: SCRAPER_QUEUE
+[2024-06-29 23:30:27,083 - 20312]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_586
+[2024-06-29 23:30:27,115 - 20312]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_586, Content: googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_citation.json, Timestamp: 2024-06-29 23:02:34.723367
+[2024-06-29 23:30:27,145 - 20312]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_citation.json from: 2
+[2024-06-29 23:30:27,750 - 20312]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJ5Ul4iDaHHb8C
+[2024-06-29 23:30:27,970 - 20312]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_citation.json
+[2024-06-29 23:30:28,448 - 20312]  root - INFO: Delaying message: getScholarlyCitations_668 of type getScholarlyCitations
+[2024-06-29 23:30:28,608 - 20312]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_668, Content: googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_citation.json, Timestamp: 2024-06-29 23:30:28.448560 to: SCRAPER_QUEUE
+[2024-06-29 23:30:28,640 - 20312]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:30:28,671 - 20312]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_586 - Time: 1588.812 ms.
+[2024-06-29 23:30:32,569 - 15872]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:05.692343 - Total: 5
+[2024-06-29 23:30:32,760 - 15872]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_473, Content: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_related.json, Timestamp: 2024-06-29 22:38:02.272083 to: SCRAPER_QUEUE
+[2024-06-29 23:30:32,824 - 11044]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_473
+[2024-06-29 23:30:32,856 - 11044]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_473, Content: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_related.json, Timestamp: 2024-06-29 22:38:02.272083
+[2024-06-29 23:30:32,888 - 11044]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJu-x6o8ySG0sC_related.json from: 2
+[2024-06-29 23:30:33,478 - 11044]  ScholarlyDataFetcher - INFO: Fetching article 0 - yZTneswAAAAJu-x6o8ySG0sC
+[2024-06-29 23:30:33,510 - 11044]  ScholarlyDataFetcher - INFO: article: __2003_High-order_entropy-compressed_text is up to date
+[2024-06-29 23:30:33,989 - 11044]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_626 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:30:34,148 - 11044]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_626, Content: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_related.json, Timestamp: 2024-06-29 23:30:33.989303 to: SCRAPER_QUEUE
+[2024-06-29 23:30:34,180 - 11044]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJu-x6o8ySG0sC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:30:34,212 - 11044]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_473 - Time: 1388.368 ms.
+[2024-06-29 23:30:47,321 - 12448]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:14.720202 - Total: 5
+[2024-06-29 23:30:47,512 - 12448]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_508, Content: googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json, Timestamp: 2024-06-29 22:38:16.604198 to: SCRAPER_QUEUE
+[2024-06-29 23:30:47,544 - 8268]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_508
+[2024-06-29 23:30:47,576 - 8268]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_508, Content: googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json, Timestamp: 2024-06-29 22:38:16.604198
+[2024-06-29 23:30:47,608 - 8268]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json from: 2
+[2024-06-29 23:30:48,230 - 8268]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJpqnbT2bcN3wC
+[2024-06-29 23:30:48,261 - 8268]  ScholarlyDataFetcher - INFO: citation: __2022_Counterfactual_explanations_and is up to date
+[2024-06-29 23:30:48,708 - 8268]  root - INFO: Delaying message: getScholarlyCitations_669 of type getScholarlyCitations
+[2024-06-29 23:30:48,867 - 8268]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_669, Content: googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json, Timestamp: 2024-06-29 23:30:48.708478 to: SCRAPER_QUEUE
+[2024-06-29 23:30:48,898 - 8268]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:30:48,930 - 8268]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_508 - Time: 1386.343 ms.
+[2024-06-29 23:30:56,337 - 15984]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:08.984026 - Total: 5
+[2024-06-29 23:30:56,528 - 15984]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_474, Content: googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_related.json, Timestamp: 2024-06-29 22:38:28.878241 to: SCRAPER_QUEUE
+[2024-06-29 23:30:56,592 - 17708]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_474
+[2024-06-29 23:30:56,624 - 17708]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_474, Content: googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_related.json, Timestamp: 2024-06-29 22:38:28.878241
+[2024-06-29 23:30:56,656 - 17708]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_related.json from: 3
+[2024-06-29 23:30:57,246 - 17708]  ScholarlyDataFetcher - INFO: Fetching article 0 - KZUaK6YAAAAJpqnbT2bcN3wC
+[2024-06-29 23:30:57,278 - 17708]  ScholarlyDataFetcher - INFO: article: __2020_Black_box_explanation is up to date
+[2024-06-29 23:30:57,773 - 17708]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_627 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:30:57,932 - 17708]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_627, Content: googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_related.json, Timestamp: 2024-06-29 23:30:57.773264 to: SCRAPER_QUEUE
+[2024-06-29 23:30:57,964 - 17708]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:30:58,028 - 17708]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_474 - Time: 1436.160 ms.
+[2024-06-29 23:31:02,320 - 12256]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:05.951086 - Total: 5
+[2024-06-29 23:31:02,494 - 12256]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_458, Content: googlescholar_KZUaK6YAAAAJ:UxriW0iASnsC_citation, Timestamp: 2024-06-29 22:33:32.748150 to: SCRAPER_QUEUE
+[2024-06-29 23:31:02,558 - 20264]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_458
+[2024-06-29 23:31:02,590 - 20264]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_458, Content: googlescholar_KZUaK6YAAAAJ:UxriW0iASnsC_citation, Timestamp: 2024-06-29 22:33:32.748150
+[2024-06-29 23:31:02,622 - 20264]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJ:UxriW0iASnsC_citation from: 1
+[2024-06-29 23:31:03,228 - 20264]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=10709308842728334741
+[2024-06-29 23:31:05,126 - 20264]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:31:05,158 - 20264]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:31:11,387 - 20264]  root - INFO: Delaying message: getScholarlyCitations_670 of type getScholarlyCitations
+[2024-06-29 23:31:11,547 - 20264]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_670, Content: googlescholar_KZUaK6YAAAAJUxriW0iASnsC_citation.json, Timestamp: 2024-06-29 23:31:11.387487 to: SCRAPER_QUEUE
+[2024-06-29 23:31:11,578 - 20264]  ScholarlyDataFetcher - INFO: googlescholar_KZUaK6YAAAAJ:UxriW0iASnsC_citation
+[2024-06-29 23:31:11,738 - 20264]  ScholarlyDataFetcher - INFO: Scraping citations for googlescholar_KZUaK6YAAAAJ:UxriW0iASnsC_citation starting at index 1
+[2024-06-29 23:31:11,770 - 20264]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJ:UxriW0iASnsC_citation of type GetScholarlyPubCitations
+[2024-06-29 23:31:11,802 - 20264]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_458 - Time: 9243.935 ms.
+[2024-06-29 23:31:15,609 - 19684]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:13.257465 - Total: 5
+[2024-06-29 23:31:15,800 - 19684]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_546, Content: googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_related.json, Timestamp: 2024-06-29 23:03:19.341324 to: SCRAPER_QUEUE
+[2024-06-29 23:31:15,864 - 7276]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_546
+[2024-06-29 23:31:15,896 - 7276]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_546, Content: googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_related.json, Timestamp: 2024-06-29 23:03:19.341324
+[2024-06-29 23:31:15,928 - 7276]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_related.json from: 2
+[2024-06-29 23:31:16,517 - 7276]  ScholarlyDataFetcher - INFO: Fetching article 0 - KZUaK6YAAAAJWp0gIr-vW9MC
+[2024-06-29 23:31:16,707 - 7276]  ScholarlyDataFetcher - INFO: Saved article __2015_Modeling_user_activity to file: googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_related.json
+[2024-06-29 23:31:17,168 - 7276]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_628 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:31:17,325 - 7276]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_628, Content: googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_related.json, Timestamp: 2024-06-29 23:31:17.168400 to: SCRAPER_QUEUE
+[2024-06-29 23:31:17,357 - 7276]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:31:17,388 - 7276]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_546 - Time: 1524.038 ms.
+[2024-06-29 23:31:21,504 - 13288]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:05.863432 - Total: 5
+[2024-06-29 23:31:21,664 - 13288]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_590, Content: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json, Timestamp: 2024-06-29 23:03:30.142943 to: SCRAPER_QUEUE
+[2024-06-29 23:31:21,696 - 1340]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_590
+[2024-06-29 23:31:21,728 - 1340]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_590, Content: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json, Timestamp: 2024-06-29 23:03:30.142943
+[2024-06-29 23:31:21,760 - 1340]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json from: 2
+[2024-06-29 23:31:22,300 - 1340]  ScholarlyDataFetcher - INFO: Fetching citation 0 - yZTneswAAAAJu-x6o8ySG0sC
+[2024-06-29 23:31:22,524 - 1340]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json
+[2024-06-29 23:31:23,001 - 1340]  root - INFO: Delaying message: getScholarlyCitations_671 of type getScholarlyCitations
+[2024-06-29 23:31:23,145 - 1340]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_671, Content: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json, Timestamp: 2024-06-29 23:31:23.001870 to: SCRAPER_QUEUE
+[2024-06-29 23:31:23,177 - 1340]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:31:23,209 - 1340]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_590 - Time: 1512.996 ms.
+[2024-06-29 23:31:29,125 - 20416]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:07.588748 - Total: 5
+[2024-06-29 23:31:29,285 - 20416]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_591, Content: googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_citation.json, Timestamp: 2024-06-29 23:03:36.186861 to: SCRAPER_QUEUE
+[2024-06-29 23:31:29,348 - 20232]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_591
+[2024-06-29 23:31:29,380 - 20232]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_591, Content: googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_citation.json, Timestamp: 2024-06-29 23:03:36.186861
+[2024-06-29 23:31:29,412 - 20232]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_citation.json from: 5
+[2024-06-29 23:31:30,019 - 20232]  ScholarlyDataFetcher - INFO: Fetching citation 1 - KZUaK6YAAAAJ70eg2SAEIzsC
+[2024-06-29 23:31:30,241 - 20232]  ScholarlyDataFetcher - INFO: Saved citation 1 to file: googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_citation.json
+[2024-06-29 23:31:30,732 - 20232]  root - INFO: Delaying message: getScholarlyCitations_672 of type getScholarlyCitations
+[2024-06-29 23:31:30,891 - 20232]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_672, Content: googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_citation.json, Timestamp: 2024-06-29 23:31:30.732282 to: SCRAPER_QUEUE
+[2024-06-29 23:31:30,923 - 20232]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:31:30,955 - 20232]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_591 - Time: 1606.758 ms.
+[2024-06-29 23:31:34,615 - 16592]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:05.457766 - Total: 5
+[2024-06-29 23:31:34,788 - 16592]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_669, Content: googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json, Timestamp: 2024-06-29 23:30:48.708478 to: SCRAPER_QUEUE
+[2024-06-29 23:31:34,820 - 19504]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_669
+[2024-06-29 23:31:34,852 - 19504]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_669, Content: googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json, Timestamp: 2024-06-29 23:30:48.708478
+[2024-06-29 23:31:34,884 - 19504]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json from: 3
+[2024-06-29 23:31:35,473 - 19504]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJpqnbT2bcN3wC
+[2024-06-29 23:31:35,488 - 19504]  ScholarlyDataFetcher - INFO: citation: __2021_Evaluating_the_quality is up to date
+[2024-06-29 23:31:35,947 - 19504]  root - INFO: Delaying message: getScholarlyCitations_673 of type getScholarlyCitations
+[2024-06-29 23:31:36,107 - 19504]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_673, Content: googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json, Timestamp: 2024-06-29 23:31:35.947613 to: SCRAPER_QUEUE
+[2024-06-29 23:31:36,138 - 19504]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:31:36,185 - 19504]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_669 - Time: 1365.349 ms.
+[2024-06-29 23:31:41,012 - 19148]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:06.365495 - Total: 5
+[2024-06-29 23:31:41,092 - 19148]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_547, Content: googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_related.json, Timestamp: 2024-06-29 23:03:53.418127 to: SCRAPER_QUEUE
+[2024-06-29 23:31:41,155 - 13592]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_547
+[2024-06-29 23:31:41,187 - 13592]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_547, Content: googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_related.json, Timestamp: 2024-06-29 23:03:53.418127
+[2024-06-29 23:31:41,219 - 13592]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_related.json from: 2
+[2024-06-29 23:31:41,823 - 13592]  ScholarlyDataFetcher - INFO: Fetching article 1 - KZUaK6YAAAAJP5F9QuxV20EC
+[2024-06-29 23:31:42,047 - 13592]  ScholarlyDataFetcher - INFO: Saved article __2016_Concepts,_definitions_and to file: googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_related.json
+[2024-06-29 23:31:42,425 - 13592]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_629 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:31:42,584 - 13592]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_629, Content: googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_related.json, Timestamp: 2024-06-29 23:31:42.425991 to: SCRAPER_QUEUE
+[2024-06-29 23:31:42,616 - 13592]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:31:42,632 - 13592]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_547 - Time: 1477.050 ms.
+[2024-06-29 23:31:54,965 - 5224]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:13.921333 - Total: 5
+[2024-06-29 23:31:55,157 - 5224]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_593, Content: googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_citation.json, Timestamp: 2024-06-29 23:04:05.002772 to: SCRAPER_QUEUE
+[2024-06-29 23:31:55,173 - 20144]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_593
+[2024-06-29 23:31:55,205 - 20144]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_593, Content: googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_citation.json, Timestamp: 2024-06-29 23:04:05.002772
+[2024-06-29 23:31:55,221 - 20144]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_citation.json from: 2
+[2024-06-29 23:31:55,809 - 20144]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJWp0gIr-vW9MC
+[2024-06-29 23:31:56,016 - 20144]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_citation.json
+[2024-06-29 23:31:56,490 - 20144]  root - INFO: Delaying message: getScholarlyCitations_674 of type getScholarlyCitations
+[2024-06-29 23:31:56,650 - 20144]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_674, Content: googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_citation.json, Timestamp: 2024-06-29 23:31:56.490974 to: SCRAPER_QUEUE
+[2024-06-29 23:31:56,682 - 20144]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:31:56,730 - 20144]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_593 - Time: 1556.892 ms.
+[2024-06-29 23:32:03,597 - 19384]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:08.600119 - Total: 5
+[2024-06-29 23:32:03,741 - 19384]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_462, Content: googlescholar_KZUaK6YAAAAJ:9ZlFYXVOiuMC_citation, Timestamp: 2024-06-29 22:33:37.538950 to: SCRAPER_QUEUE
+[2024-06-29 23:32:03,804 - 5668]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_462
+[2024-06-29 23:32:03,836 - 5668]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_462, Content: googlescholar_KZUaK6YAAAAJ:9ZlFYXVOiuMC_citation, Timestamp: 2024-06-29 22:33:37.538950
+[2024-06-29 23:32:03,868 - 5668]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJ:9ZlFYXVOiuMC_citation from: 3
+[2024-06-29 23:32:04,474 - 5668]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=2100893988049490736
+[2024-06-29 23:32:06,132 - 5668]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:32:06,164 - 5668]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:32:13,291 - 5668]  root - INFO: Delaying message: getScholarlyCitations_675 of type getScholarlyCitations
+[2024-06-29 23:32:13,450 - 5668]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_675, Content: googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_citation.json, Timestamp: 2024-06-29 23:32:13.291307 to: SCRAPER_QUEUE
+[2024-06-29 23:32:13,482 - 5668]  ScholarlyDataFetcher - INFO: googlescholar_KZUaK6YAAAAJ:9ZlFYXVOiuMC_citation
+[2024-06-29 23:32:13,674 - 5668]  ScholarlyDataFetcher - INFO: Scraping citations for googlescholar_KZUaK6YAAAAJ:9ZlFYXVOiuMC_citation starting at index 3
+[2024-06-29 23:32:13,706 - 5668]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJ:9ZlFYXVOiuMC_citation of type GetScholarlyPubCitations
+[2024-06-29 23:32:13,738 - 5668]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_462 - Time: 9933.684 ms.
+[2024-06-29 23:32:17,453 - 18664]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:13.823585 - Total: 5
+[2024-06-29 23:32:17,612 - 18664]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_671, Content: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json, Timestamp: 2024-06-29 23:31:23.001870 to: SCRAPER_QUEUE
+[2024-06-29 23:32:17,643 - 6352]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_671
+[2024-06-29 23:32:17,675 - 6352]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_671, Content: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json, Timestamp: 2024-06-29 23:31:23.001870
+[2024-06-29 23:32:17,707 - 6352]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json from: 3
+[2024-06-29 23:32:18,296 - 6352]  ScholarlyDataFetcher - INFO: Fetching citation 1 - yZTneswAAAAJu-x6o8ySG0sC
+[2024-06-29 23:32:18,503 - 6352]  ScholarlyDataFetcher - INFO: Saved citation 1 to file: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json
+[2024-06-29 23:32:18,982 - 6352]  root - INFO: Delaying message: getScholarlyCitations_676 of type getScholarlyCitations
+[2024-06-29 23:32:19,142 - 6352]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_676, Content: googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json, Timestamp: 2024-06-29 23:32:18.982434 to: SCRAPER_QUEUE
+[2024-06-29 23:32:19,173 - 6352]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:32:19,237 - 6352]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_671 - Time: 1593.794 ms.
+[2024-06-29 23:32:28,683 - 7540]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:11.198111 - Total: 5
+[2024-06-29 23:32:28,858 - 7540]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_548, Content: googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json, Timestamp: 2024-06-29 23:04:39.631390 to: SCRAPER_QUEUE
+[2024-06-29 23:32:28,889 - 13364]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_548
+[2024-06-29 23:32:28,921 - 13364]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_548, Content: googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json, Timestamp: 2024-06-29 23:04:39.631390
+[2024-06-29 23:32:28,953 - 13364]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json from: 1
+[2024-06-29 23:32:29,543 - 13364]  ScholarlyDataFetcher - INFO: Fetching article 0 - KZUaK6YAAAAJl7t_Zn2s7bgC
+[2024-06-29 23:32:29,766 - 13364]  ScholarlyDataFetcher - INFO: Saved article __2018_Model_agnostic_supervised to file: googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json
+[2024-06-29 23:32:30,245 - 13364]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_630 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:32:30,403 - 13364]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_630, Content: googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json, Timestamp: 2024-06-29 23:32:30.245398 to: SCRAPER_QUEUE
+[2024-06-29 23:32:30,435 - 13364]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:32:30,467 - 13364]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_548 - Time: 1577.835 ms.
+[2024-06-29 23:32:40,518 - 20084]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:11.819447 - Total: 5
+[2024-06-29 23:32:40,710 - 20084]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_596, Content: googlescholar_yZTneswAAAAJd1gkVwhDpl0C_citation.json, Timestamp: 2024-06-29 23:04:47.056588 to: SCRAPER_QUEUE
+[2024-06-29 23:32:40,774 - 18260]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_596
+[2024-06-29 23:32:40,806 - 18260]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_596, Content: googlescholar_yZTneswAAAAJd1gkVwhDpl0C_citation.json, Timestamp: 2024-06-29 23:04:47.056588
+[2024-06-29 23:32:40,838 - 18260]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJd1gkVwhDpl0C_citation.json from: 1
+[2024-06-29 23:32:41,458 - 18260]  ScholarlyDataFetcher - INFO: Fetching citation 0 - yZTneswAAAAJd1gkVwhDpl0C
+[2024-06-29 23:32:41,665 - 18260]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_yZTneswAAAAJd1gkVwhDpl0C_citation.json
+[2024-06-29 23:32:42,111 - 18260]  root - INFO: Delaying message: getScholarlyCitations_677 of type getScholarlyCitations
+[2024-06-29 23:32:42,271 - 18260]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_677, Content: googlescholar_yZTneswAAAAJd1gkVwhDpl0C_citation.json, Timestamp: 2024-06-29 23:32:42.111720 to: SCRAPER_QUEUE
+[2024-06-29 23:32:42,303 - 18260]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJd1gkVwhDpl0C_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:32:42,367 - 18260]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_596 - Time: 1592.795 ms.
+[2024-06-29 23:32:47,223 - 16460]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:06.672623 - Total: 5
+[2024-06-29 23:32:47,414 - 16460]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_549, Content: googlescholar_yZTneswAAAAJd1gkVwhDpl0C_related.json, Timestamp: 2024-06-29 23:04:57.870327 to: SCRAPER_QUEUE
+[2024-06-29 23:32:47,446 - 14612]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_549
+[2024-06-29 23:32:47,493 - 14612]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_549, Content: googlescholar_yZTneswAAAAJd1gkVwhDpl0C_related.json, Timestamp: 2024-06-29 23:04:57.870327
+[2024-06-29 23:32:47,525 - 14612]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJd1gkVwhDpl0C_related.json from: 4
+[2024-06-29 23:32:48,115 - 14612]  ScholarlyDataFetcher - INFO: Fetching article 0 - yZTneswAAAAJd1gkVwhDpl0C
+[2024-06-29 23:32:48,146 - 14612]  ScholarlyDataFetcher - INFO: article: __1996_Efficient_suffix_trees is up to date
+[2024-06-29 23:32:48,609 - 14612]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_631 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:32:48,784 - 14612]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_631, Content: googlescholar_yZTneswAAAAJd1gkVwhDpl0C_related.json, Timestamp: 2024-06-29 23:32:48.609757 to: SCRAPER_QUEUE
+[2024-06-29 23:32:48,816 - 14612]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJd1gkVwhDpl0C_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:32:48,847 - 14612]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_549 - Time: 1400.254 ms.
+[2024-06-29 23:32:57,600 - 19964]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:10.345336 - Total: 5
+[2024-06-29 23:32:57,792 - 19964]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_514, Content: googlescholar_yZTneswAAAAJZHo1McVdvXMC_citation.json, Timestamp: 2024-06-29 22:40:40.543687 to: SCRAPER_QUEUE
+[2024-06-29 23:32:57,808 - 15472]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_514
+[2024-06-29 23:32:57,839 - 15472]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_514, Content: googlescholar_yZTneswAAAAJZHo1McVdvXMC_citation.json, Timestamp: 2024-06-29 22:40:40.543687
+[2024-06-29 23:32:57,870 - 15472]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJZHo1McVdvXMC_citation.json from: 1
+[2024-06-29 23:32:58,461 - 15472]  ScholarlyDataFetcher - INFO: Fetching citation 0 - yZTneswAAAAJZHo1McVdvXMC
+[2024-06-29 23:32:58,493 - 15472]  ScholarlyDataFetcher - INFO: citation: __2021_Weisfeiler_and_lehman is up to date
+[2024-06-29 23:32:58,955 - 15472]  root - INFO: Delaying message: getScholarlyCitations_678 of type getScholarlyCitations
+[2024-06-29 23:32:59,098 - 15472]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_678, Content: googlescholar_yZTneswAAAAJZHo1McVdvXMC_citation.json, Timestamp: 2024-06-29 23:32:58.955093 to: SCRAPER_QUEUE
+[2024-06-29 23:32:59,130 - 15472]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJZHo1McVdvXMC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:32:59,162 - 15472]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_514 - Time: 1354.378 ms.
+[2024-06-29 23:33:11,070 - 19904]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:13.437573 - Total: 5
+[2024-06-29 23:33:11,277 - 19904]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_515, Content: googlescholar_yZTneswAAAAJqjMakFHDy7sC_citation.json, Timestamp: 2024-06-29 22:40:45.951346 to: SCRAPER_QUEUE
+[2024-06-29 23:33:11,341 - 5912]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_515
+[2024-06-29 23:33:11,373 - 5912]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_515, Content: googlescholar_yZTneswAAAAJqjMakFHDy7sC_citation.json, Timestamp: 2024-06-29 22:40:45.951346
+[2024-06-29 23:33:11,405 - 5912]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJqjMakFHDy7sC_citation.json from: 3
+[2024-06-29 23:33:12,026 - 5912]  ScholarlyDataFetcher - INFO: Fetching citation 0 - yZTneswAAAAJqjMakFHDy7sC
+[2024-06-29 23:33:12,058 - 5912]  ScholarlyDataFetcher - INFO: citation: __2007_Algorithms_on_strings is up to date
+[2024-06-29 23:33:12,569 - 5912]  root - INFO: Delaying message: getScholarlyCitations_679 of type getScholarlyCitations
+[2024-06-29 23:33:12,728 - 5912]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_679, Content: googlescholar_yZTneswAAAAJqjMakFHDy7sC_citation.json, Timestamp: 2024-06-29 23:33:12.569193 to: SCRAPER_QUEUE
+[2024-06-29 23:33:12,760 - 5912]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJqjMakFHDy7sC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:33:12,824 - 5912]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_515 - Time: 1483.035 ms.
+[2024-06-29 23:33:16,760 - 16340]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:05.658868 - Total: 5
+[2024-06-29 23:33:16,920 - 16340]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_482, Content: googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json, Timestamp: 2024-06-29 22:41:01.024285 to: SCRAPER_QUEUE
+[2024-06-29 23:33:16,935 - 20336]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_482
+[2024-06-29 23:33:16,967 - 20336]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_482, Content: googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json, Timestamp: 2024-06-29 22:41:01.024285
+[2024-06-29 23:33:16,999 - 20336]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json from: 1
+[2024-06-29 23:33:17,621 - 20336]  ScholarlyDataFetcher - INFO: Fetching article 0 - yZTneswAAAAJZHo1McVdvXMC
+[2024-06-29 23:33:17,653 - 20336]  ScholarlyDataFetcher - INFO: article: __2013_Optimal_listing_of is up to date
+[2024-06-29 23:33:18,131 - 20336]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_632 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:33:18,290 - 20336]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_632, Content: googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json, Timestamp: 2024-06-29 23:33:18.131320 to: SCRAPER_QUEUE
+[2024-06-29 23:33:18,322 - 20336]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:33:18,354 - 20336]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_482 - Time: 1419.206 ms.
+[2024-06-29 23:33:22,451 - 20412]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:05.658374 - Total: 5
+[2024-06-29 23:33:22,642 - 20412]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_630, Content: googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json, Timestamp: 2024-06-29 23:32:30.245398 to: SCRAPER_QUEUE
+[2024-06-29 23:33:22,674 - 11548]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_630
+[2024-06-29 23:33:22,706 - 11548]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_630, Content: googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json, Timestamp: 2024-06-29 23:32:30.245398
+[2024-06-29 23:33:22,738 - 11548]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json from: 2
+[2024-06-29 23:33:23,312 - 11548]  ScholarlyDataFetcher - INFO: Fetching article 1 - KZUaK6YAAAAJl7t_Zn2s7bgC
+[2024-06-29 23:33:23,549 - 11548]  ScholarlyDataFetcher - INFO: Saved article __2021_To_trust_or to file: googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json
+[2024-06-29 23:33:24,027 - 11548]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_633 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:33:24,186 - 11548]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_633, Content: googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json, Timestamp: 2024-06-29 23:33:24.027060 to: SCRAPER_QUEUE
+[2024-06-29 23:33:24,218 - 11548]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:33:24,266 - 11548]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_630 - Time: 1591.743 ms.
+[2024-06-29 23:33:34,785 - 13088]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:12.302103 - Total: 5
+[2024-06-29 23:33:34,944 - 13088]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_598, Content: googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json, Timestamp: 2024-06-29 23:05:50.705917 to: SCRAPER_QUEUE
+[2024-06-29 23:33:35,007 - 20388]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_598
+[2024-06-29 23:33:35,039 - 20388]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_598, Content: googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json, Timestamp: 2024-06-29 23:05:50.705917
+[2024-06-29 23:33:35,071 - 20388]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json from: 2
+[2024-06-29 23:33:35,644 - 20388]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJJQOojiI6XY0C
+[2024-06-29 23:33:35,835 - 20388]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json
+[2024-06-29 23:33:36,314 - 20388]  root - INFO: Delaying message: getScholarlyCitations_680 of type getScholarlyCitations
+[2024-06-29 23:33:36,473 - 20388]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_680, Content: googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json, Timestamp: 2024-06-29 23:33:36.314203 to: SCRAPER_QUEUE
+[2024-06-29 23:33:36,505 - 20388]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:33:36,537 - 20388]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_598 - Time: 1529.910 ms.
+[2024-06-29 23:33:46,624 - 12872]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:11.807426 - Total: 5
+[2024-06-29 23:33:46,800 - 12872]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_517, Content: googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json, Timestamp: 2024-06-29 22:41:27.985017 to: SCRAPER_QUEUE
+[2024-06-29 23:33:46,863 - 2524]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_517
+[2024-06-29 23:33:46,895 - 2524]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_517, Content: googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json, Timestamp: 2024-06-29 22:41:27.985017
+[2024-06-29 23:33:46,927 - 2524]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json from: 2
+[2024-06-29 23:33:47,500 - 2524]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJp__nRnzSRKYC
+[2024-06-29 23:33:47,532 - 2524]  ScholarlyDataFetcher - INFO: citation: __2024_A_Review_on is up to date
+[2024-06-29 23:33:48,009 - 2524]  root - INFO: Delaying message: getScholarlyCitations_681 of type getScholarlyCitations
+[2024-06-29 23:33:48,168 - 2524]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_681, Content: googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json, Timestamp: 2024-06-29 23:33:48.009927 to: SCRAPER_QUEUE
+[2024-06-29 23:33:48,200 - 2524]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:33:48,232 - 2524]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_517 - Time: 1368.341 ms.
+[2024-06-29 23:33:59,163 - 3372]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:12.507062 - Total: 5
+[2024-06-29 23:33:59,355 - 3372]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_484, Content: googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 22:41:39.114468 to: SCRAPER_QUEUE
+[2024-06-29 23:33:59,418 - 14316]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_484
+[2024-06-29 23:33:59,450 - 14316]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_484, Content: googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 22:41:39.114468
+[2024-06-29 23:33:59,482 - 14316]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json from: 1
+[2024-06-29 23:34:00,072 - 14316]  ScholarlyDataFetcher - INFO: Fetching article 0 - yZTneswAAAAJ9yKSN-GCB0IC
+[2024-06-29 23:34:00,104 - 14316]  ScholarlyDataFetcher - INFO: article: __2004_When_indexing_equals is up to date
+[2024-06-29 23:34:00,598 - 14316]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_634 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:34:00,758 - 14316]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_634, Content: googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 23:34:00.598771 to: SCRAPER_QUEUE
+[2024-06-29 23:34:00,805 - 14316]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:34:00,837 - 14316]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_484 - Time: 1418.207 ms.
+[2024-06-29 23:34:13,565 - 17072]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:14.369575 - Total: 5
+[2024-06-29 23:34:13,756 - 17072]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_599, Content: googlescholar_yZTneswAAAAJu5HHmVD_uO8C_citation.json, Timestamp: 2024-06-29 23:06:26.911542 to: SCRAPER_QUEUE
+[2024-06-29 23:34:13,820 - 17596]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_599
+[2024-06-29 23:34:13,852 - 17596]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_599, Content: googlescholar_yZTneswAAAAJu5HHmVD_uO8C_citation.json, Timestamp: 2024-06-29 23:06:26.911542
+[2024-06-29 23:34:13,884 - 17596]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJu5HHmVD_uO8C_citation.json from: 7
+[2024-06-29 23:34:14,440 - 17596]  ScholarlyDataFetcher - INFO: Fetching citation 0 - yZTneswAAAAJu5HHmVD_uO8C
+[2024-06-29 23:34:14,472 - 17596]  ScholarlyDataFetcher - INFO: citation: __1999_Modern_information_retrieval is up to date
+[2024-06-29 23:34:14,902 - 17596]  root - INFO: Delaying message: getScholarlyCitations_682 of type getScholarlyCitations
+[2024-06-29 23:34:15,061 - 17596]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_682, Content: googlescholar_yZTneswAAAAJu5HHmVD_uO8C_citation.json, Timestamp: 2024-06-29 23:34:14.902105 to: SCRAPER_QUEUE
+[2024-06-29 23:34:15,093 - 17596]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJu5HHmVD_uO8C_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:34:15,157 - 17596]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_599 - Time: 1337.066 ms.
+[2024-06-29 23:34:22,903 - 7668]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:09.306847 - Total: 5
+[2024-06-29 23:34:23,079 - 7668]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_632, Content: googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json, Timestamp: 2024-06-29 23:33:18.131320 to: SCRAPER_QUEUE
+[2024-06-29 23:34:23,142 - 18616]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_632
+[2024-06-29 23:34:23,173 - 18616]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_632, Content: googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json, Timestamp: 2024-06-29 23:33:18.131320
+[2024-06-29 23:34:23,205 - 18616]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json from: 2
+[2024-06-29 23:34:23,825 - 18616]  ScholarlyDataFetcher - INFO: Fetching article 0 - yZTneswAAAAJZHo1McVdvXMC
+[2024-06-29 23:34:24,017 - 18616]  ScholarlyDataFetcher - INFO: Saved article __2014_Efficiently_Listing_Bounded to file: googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json
+[2024-06-29 23:34:24,477 - 18616]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_635 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:34:24,635 - 18616]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_635, Content: googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json, Timestamp: 2024-06-29 23:34:24.477216 to: SCRAPER_QUEUE
+[2024-06-29 23:34:24,667 - 18616]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:34:24,715 - 18616]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_632 - Time: 1573.357 ms.
+[2024-06-29 23:34:35,031 - 9864]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:12.096218 - Total: 5
+[2024-06-29 23:34:35,191 - 9864]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_556, Content: googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_related.json, Timestamp: 2024-06-29 23:06:49.992992 to: SCRAPER_QUEUE
+[2024-06-29 23:34:35,255 - 18424]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_556
+[2024-06-29 23:34:35,303 - 18424]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_556, Content: googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_related.json, Timestamp: 2024-06-29 23:06:49.992992
+[2024-06-29 23:34:35,335 - 18424]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_related.json from: 1
+[2024-06-29 23:34:35,940 - 18424]  ScholarlyDataFetcher - INFO: Fetching article 1 - KZUaK6YAAAAJ9ZlFYXVOiuMC
+[2024-06-29 23:34:36,163 - 18424]  ScholarlyDataFetcher - INFO: Saved article __2017_The_GRAAL_of to file: googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_related.json
+[2024-06-29 23:34:36,641 - 18424]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_636 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:34:36,801 - 18424]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_636, Content: googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_related.json, Timestamp: 2024-06-29 23:34:36.641687 to: SCRAPER_QUEUE
+[2024-06-29 23:34:36,833 - 18424]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:34:36,912 - 18424]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_556 - Time: 1657.568 ms.
+[2024-06-29 23:34:48,730 - 19268]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:13.666455 - Total: 5
+[2024-06-29 23:34:48,889 - 19268]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_680, Content: googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json, Timestamp: 2024-06-29 23:33:36.314203 to: SCRAPER_QUEUE
+[2024-06-29 23:34:48,953 - 19380]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_680
+[2024-06-29 23:34:49,001 - 19380]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_680, Content: googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json, Timestamp: 2024-06-29 23:33:36.314203
+[2024-06-29 23:34:49,033 - 19380]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json from: 3
+[2024-06-29 23:34:49,607 - 19380]  ScholarlyDataFetcher - INFO: Fetching citation 1 - KZUaK6YAAAAJJQOojiI6XY0C
+[2024-06-29 23:34:49,830 - 19380]  ScholarlyDataFetcher - INFO: Saved citation 1 to file: googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json
+[2024-06-29 23:34:50,325 - 19380]  root - INFO: Delaying message: getScholarlyCitations_683 of type getScholarlyCitations
+[2024-06-29 23:34:50,484 - 19380]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_683, Content: googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json, Timestamp: 2024-06-29 23:34:50.325097 to: SCRAPER_QUEUE
+[2024-06-29 23:34:50,548 - 19380]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:34:50,580 - 19380]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_680 - Time: 1626.650 ms.
+[2024-06-29 23:34:57,039 - 17488]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:08.292824 - Total: 5
+[2024-06-29 23:34:57,230 - 17488]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_681, Content: googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json, Timestamp: 2024-06-29 23:33:48.009927 to: SCRAPER_QUEUE
+[2024-06-29 23:34:57,294 - 9692]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_681
+[2024-06-29 23:34:57,342 - 9692]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_681, Content: googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json, Timestamp: 2024-06-29 23:33:48.009927
+[2024-06-29 23:34:57,374 - 9692]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json from: 3
+[2024-06-29 23:34:57,947 - 9692]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJp__nRnzSRKYC
+[2024-06-29 23:34:58,203 - 9692]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json
+[2024-06-29 23:34:58,681 - 9692]  root - INFO: Delaying message: getScholarlyCitations_684 of type getScholarlyCitations
+[2024-06-29 23:34:58,841 - 9692]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_684, Content: googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json, Timestamp: 2024-06-29 23:34:58.681750 to: SCRAPER_QUEUE
+[2024-06-29 23:34:58,873 - 9692]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:34:58,905 - 9692]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_681 - Time: 1610.693 ms.
+[2024-06-29 23:35:05,789 - 11060]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:08.718685 - Total: 5
+[2024-06-29 23:35:05,964 - 11060]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_634, Content: googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 23:34:00.598771 to: SCRAPER_QUEUE
+[2024-06-29 23:35:06,028 - 20256]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_634
+[2024-06-29 23:35:06,060 - 20256]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_634, Content: googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 23:34:00.598771
+[2024-06-29 23:35:06,091 - 20256]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json from: 2
+[2024-06-29 23:35:06,632 - 20256]  ScholarlyDataFetcher - INFO: Fetching article 0 - yZTneswAAAAJ9yKSN-GCB0IC
+[2024-06-29 23:35:06,855 - 20256]  ScholarlyDataFetcher - INFO: Saved article __2006_When_indexing_equals to file: googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json
+[2024-06-29 23:35:07,300 - 20256]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_637 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:35:07,460 - 20256]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_637, Content: googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json, Timestamp: 2024-06-29 23:35:07.300703 to: SCRAPER_QUEUE
+[2024-06-29 23:35:07,492 - 20256]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:35:07,556 - 20256]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_634 - Time: 1527.914 ms.
+[2024-06-29 23:35:16,572 - 20372]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:10.751250 - Total: 5
+[2024-06-29 23:35:16,732 - 20372]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_435, Content: googlescholar_yZTneswAAAAJ:UeHWp8X0CEIC_article, Timestamp: 2024-06-29 22:33:49.839558 to: SCRAPER_QUEUE
+[2024-06-29 23:35:16,764 - 12340]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_435
+[2024-06-29 23:35:16,796 - 12340]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_435, Content: googlescholar_yZTneswAAAAJ:UeHWp8X0CEIC_article, Timestamp: 2024-06-29 22:33:49.839558
+[2024-06-29 23:35:16,828 - 12340]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJ:UeHWp8X0CEIC_article from: 1
+[2024-06-29 23:35:17,418 - 12340]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:_PbY5aB1BEAJ:scholar.google.com/
+[2024-06-29 23:35:18,909 - 12340]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:35:18,941 - 12340]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:35:25,695 - 12340]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_638 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:35:25,839 - 12340]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_638, Content: googlescholar_yZTneswAAAAJUeHWp8X0CEIC_related.json, Timestamp: 2024-06-29 23:35:25.695541 to: SCRAPER_QUEUE
+[2024-06-29 23:35:25,871 - 12340]  ScholarlyDataFetcher - INFO: googlescholar_yZTneswAAAAJ:UeHWp8X0CEIC_article
+[2024-06-29 23:35:25,950 - 12340]  ScholarlyDataFetcher - INFO: Scraping articles for googlescholar_yZTneswAAAAJ:UeHWp8X0CEIC_article starting at index 1
+[2024-06-29 23:35:25,982 - 12340]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ:UeHWp8X0CEIC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:35:26,014 - 12340]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_435 - Time: 9250.265 ms.
+[2024-06-29 23:35:30,259 - 8252]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:13.670472 - Total: 5
+[2024-06-29 23:35:30,450 - 8252]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_601, Content: googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_citation.json, Timestamp: 2024-06-29 23:07:27.021868 to: SCRAPER_QUEUE
+[2024-06-29 23:35:30,482 - 15408]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_601
+[2024-06-29 23:35:30,514 - 15408]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_601, Content: googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_citation.json, Timestamp: 2024-06-29 23:07:27.021868
+[2024-06-29 23:35:30,545 - 15408]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_citation.json from: 2
+[2024-06-29 23:35:31,149 - 15408]  ScholarlyDataFetcher - INFO: Fetching citation 0 - QDIhYPgAAAAJ0EnyYjriUFMC
+[2024-06-29 23:35:31,181 - 15408]  ScholarlyDataFetcher - INFO: citation: __2018_Big_Data_for is up to date
+[2024-06-29 23:35:31,659 - 15408]  root - INFO: Delaying message: getScholarlyCitations_685 of type getScholarlyCitations
+[2024-06-29 23:35:31,819 - 15408]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_685, Content: googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_citation.json, Timestamp: 2024-06-29 23:35:31.659592 to: SCRAPER_QUEUE
+[2024-06-29 23:35:31,882 - 15408]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:35:31,914 - 15408]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_601 - Time: 1432.169 ms.
+[2024-06-29 23:35:43,591 - 16368]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:13.300434 - Total: 5
+[2024-06-29 23:35:43,719 - 16368]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_488, Content: googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json, Timestamp: 2024-06-29 22:42:56.064347 to: SCRAPER_QUEUE
+[2024-06-29 23:35:43,735 - 14148]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_488
+[2024-06-29 23:35:43,767 - 14148]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_488, Content: googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json, Timestamp: 2024-06-29 22:42:56.064347
+[2024-06-29 23:35:43,799 - 14148]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json from: 1
+[2024-06-29 23:35:44,404 - 14148]  ScholarlyDataFetcher - INFO: Fetching article 0 - QDIhYPgAAAAJ0EnyYjriUFMC
+[2024-06-29 23:35:44,436 - 14148]  ScholarlyDataFetcher - INFO: article: __2017_An_experience_in is up to date
+[2024-06-29 23:35:44,915 - 14148]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_639 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:35:45,074 - 14148]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_639, Content: googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json, Timestamp: 2024-06-29 23:35:44.915146 to: SCRAPER_QUEUE
+[2024-06-29 23:35:45,106 - 14148]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:35:45,138 - 14148]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_488 - Time: 1403.249 ms.
+[2024-06-29 23:35:50,535 - 5084]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:06.911518 - Total: 5
+[2024-06-29 23:35:50,710 - 5084]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_560, Content: googlescholar_QDIhYPgAAAAJZph67rFs4hoC_related.json, Timestamp: 2024-06-29 23:07:53.763023 to: SCRAPER_QUEUE
+[2024-06-29 23:35:50,774 - 4888]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_560
+[2024-06-29 23:35:50,805 - 4888]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_560, Content: googlescholar_QDIhYPgAAAAJZph67rFs4hoC_related.json, Timestamp: 2024-06-29 23:07:53.763023
+[2024-06-29 23:35:50,837 - 4888]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJZph67rFs4hoC_related.json from: 2
+[2024-06-29 23:35:51,441 - 4888]  ScholarlyDataFetcher - INFO: Fetching article 0 - QDIhYPgAAAAJZph67rFs4hoC
+[2024-06-29 23:35:51,664 - 4888]  ScholarlyDataFetcher - INFO: Saved article __2005_SOA_in_the to file: googlescholar_QDIhYPgAAAAJZph67rFs4hoC_related.json
+[2024-06-29 23:35:52,158 - 4888]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_640 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:35:52,318 - 4888]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_640, Content: googlescholar_QDIhYPgAAAAJZph67rFs4hoC_related.json, Timestamp: 2024-06-29 23:35:52.158776 to: SCRAPER_QUEUE
+[2024-06-29 23:35:52,350 - 4888]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJZph67rFs4hoC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:35:52,398 - 4888]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_560 - Time: 1623.659 ms.
+[2024-06-29 23:35:57,133 - 2804]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:06.566441 - Total: 5
+[2024-06-29 23:35:57,324 - 2804]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_437, Content: googlescholar_yZTneswAAAAJ:W7OEmFMy1HYC_article, Timestamp: 2024-06-29 22:33:53.497922 to: SCRAPER_QUEUE
+[2024-06-29 23:35:57,356 - 19468]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_437
+[2024-06-29 23:35:57,388 - 19468]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_437, Content: googlescholar_yZTneswAAAAJ:W7OEmFMy1HYC_article, Timestamp: 2024-06-29 22:33:53.497922
+[2024-06-29 23:35:57,420 - 19468]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJ:W7OEmFMy1HYC_article from: 1
+[2024-06-29 23:35:58,027 - 19468]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:wKBpxV9fVicJ:scholar.google.com/
+[2024-06-29 23:35:59,941 - 19468]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:35:59,973 - 19468]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:36:07,033 - 19468]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_641 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:36:07,191 - 19468]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_641, Content: googlescholar_yZTneswAAAAJW7OEmFMy1HYC_related.json, Timestamp: 2024-06-29 23:36:07.033001 to: SCRAPER_QUEUE
+[2024-06-29 23:36:07,223 - 19468]  ScholarlyDataFetcher - INFO: googlescholar_yZTneswAAAAJ:W7OEmFMy1HYC_article
+[2024-06-29 23:36:07,414 - 19468]  ScholarlyDataFetcher - INFO: Scraping articles for googlescholar_yZTneswAAAAJ:W7OEmFMy1HYC_article starting at index 1
+[2024-06-29 23:36:07,446 - 19468]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ:W7OEmFMy1HYC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:36:07,478 - 19468]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_437 - Time: 10121.932 ms.
+[2024-06-29 23:36:11,112 - 9560]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:13.946705 - Total: 5
+[2024-06-29 23:36:11,303 - 9560]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_561, Content: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_related.json, Timestamp: 2024-06-29 23:08:07.609956 to: SCRAPER_QUEUE
+[2024-06-29 23:36:11,367 - 19336]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_561
+[2024-06-29 23:36:11,399 - 19336]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_561, Content: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_related.json, Timestamp: 2024-06-29 23:08:07.609956
+[2024-06-29 23:36:11,415 - 19336]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_related.json from: 2
+[2024-06-29 23:36:12,005 - 19336]  ScholarlyDataFetcher - INFO: Fetching article 0 - yZTneswAAAAJ2osOgNQ5qMEC
+[2024-06-29 23:36:12,229 - 19336]  ScholarlyDataFetcher - INFO: Saved article __2014_Selection_and_sorting to file: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_related.json
+[2024-06-29 23:36:12,705 - 19336]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_642 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:36:12,865 - 19336]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_642, Content: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_related.json, Timestamp: 2024-06-29 23:36:12.705832 to: SCRAPER_QUEUE
+[2024-06-29 23:36:12,897 - 19336]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:36:12,944 - 19336]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_561 - Time: 1576.784 ms.
+[2024-06-29 23:36:24,740 - 9168]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:13.596641 - Total: 5
+[2024-06-29 23:36:24,884 - 9168]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_604, Content: googlescholar_QDIhYPgAAAAJZph67rFs4hoC_citation.json, Timestamp: 2024-06-29 23:08:20.455637 to: SCRAPER_QUEUE
+[2024-06-29 23:36:24,900 - 15636]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_604
+[2024-06-29 23:36:24,932 - 15636]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_604, Content: googlescholar_QDIhYPgAAAAJZph67rFs4hoC_citation.json, Timestamp: 2024-06-29 23:08:20.455637
+[2024-06-29 23:36:24,964 - 15636]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJZph67rFs4hoC_citation.json from: 2
+[2024-06-29 23:36:25,569 - 15636]  ScholarlyDataFetcher - INFO: Fetching citation 0 - QDIhYPgAAAAJZph67rFs4hoC
+[2024-06-29 23:36:25,808 - 15636]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_QDIhYPgAAAAJZph67rFs4hoC_citation.json
+[2024-06-29 23:36:26,254 - 15636]  root - INFO: Delaying message: getScholarlyCitations_686 of type getScholarlyCitations
+[2024-06-29 23:36:26,414 - 15636]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_686, Content: googlescholar_QDIhYPgAAAAJZph67rFs4hoC_citation.json, Timestamp: 2024-06-29 23:36:26.254601 to: SCRAPER_QUEUE
+[2024-06-29 23:36:26,446 - 15636]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJZph67rFs4hoC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:36:26,509 - 15636]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_604 - Time: 1609.696 ms.
+[2024-06-29 23:36:39,732 - 17260]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:14.959996 - Total: 5
+[2024-06-29 23:36:39,876 - 17260]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_605, Content: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json, Timestamp: 2024-06-29 23:08:28.790349 to: SCRAPER_QUEUE
+[2024-06-29 23:36:39,940 - 19076]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_605
+[2024-06-29 23:36:39,955 - 19076]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_605, Content: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json, Timestamp: 2024-06-29 23:08:28.790349
+[2024-06-29 23:36:39,955 - 19076]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json from: 2
+[2024-06-29 23:36:40,465 - 19076]  ScholarlyDataFetcher - INFO: Fetching citation 2 - yZTneswAAAAJ2osOgNQ5qMEC
+[2024-06-29 23:36:40,689 - 19076]  ScholarlyDataFetcher - INFO: Saved citation 2 to file: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json
+[2024-06-29 23:36:41,183 - 19076]  root - INFO: Delaying message: getScholarlyCitations_687 of type getScholarlyCitations
+[2024-06-29 23:36:41,343 - 19076]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_687, Content: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json, Timestamp: 2024-06-29 23:36:41.183680 to: SCRAPER_QUEUE
+[2024-06-29 23:36:41,375 - 19076]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:36:41,407 - 19076]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_605 - Time: 1467.079 ms.
+[2024-06-29 23:36:45,921 - 6700]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:06.156537 - Total: 5
+[2024-06-29 23:36:46,112 - 6700]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_639, Content: googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json, Timestamp: 2024-06-29 23:35:44.915146 to: SCRAPER_QUEUE
+[2024-06-29 23:36:46,176 - 5272]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_639
+[2024-06-29 23:36:46,208 - 5272]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_639, Content: googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json, Timestamp: 2024-06-29 23:35:44.915146
+[2024-06-29 23:36:46,240 - 5272]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json from: 2
+[2024-06-29 23:36:46,731 - 5272]  ScholarlyDataFetcher - INFO: Fetching article 0 - QDIhYPgAAAAJ0EnyYjriUFMC
+[2024-06-29 23:36:46,936 - 5272]  ScholarlyDataFetcher - INFO: Saved article __2014_Predicting_bikeshare_system to file: googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json
+[2024-06-29 23:36:47,397 - 5272]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_643 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:36:47,556 - 5272]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_643, Content: googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json, Timestamp: 2024-06-29 23:36:47.397064 to: SCRAPER_QUEUE
+[2024-06-29 23:36:47,588 - 5272]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:36:47,620 - 5272]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_639 - Time: 1444.139 ms.
+[2024-06-29 23:36:54,139 - 16912]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:08.186110 - Total: 5
+[2024-06-29 23:36:54,346 - 16912]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_606, Content: googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json, Timestamp: 2024-06-29 23:08:56.638387 to: SCRAPER_QUEUE
+[2024-06-29 23:36:54,378 - 5692]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_606
+[2024-06-29 23:36:54,410 - 5692]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_606, Content: googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json, Timestamp: 2024-06-29 23:08:56.638387
+[2024-06-29 23:36:54,441 - 5692]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json from: 1
+[2024-06-29 23:36:54,998 - 5692]  ScholarlyDataFetcher - INFO: Fetching citation 0 - yZTneswAAAAJUeHWp8X0CEIC
+[2024-06-29 23:36:55,030 - 5692]  ScholarlyDataFetcher - INFO: citation: __1997_Discovery_of_frequent is up to date
+[2024-06-29 23:36:55,508 - 5692]  root - INFO: Delaying message: getScholarlyCitations_688 of type getScholarlyCitations
+[2024-06-29 23:36:55,666 - 5692]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_688, Content: googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json, Timestamp: 2024-06-29 23:36:55.508374 to: SCRAPER_QUEUE
+[2024-06-29 23:36:55,698 - 5692]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:36:55,729 - 5692]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_606 - Time: 1351.387 ms.
+[2024-06-29 23:37:03,285 - 15944]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:09.114626 - Total: 5
+[2024-06-29 23:37:03,477 - 15944]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_607, Content: googlescholar_KZUaK6YAAAAJTQgYirikUcIC_citation.json, Timestamp: 2024-06-29 23:09:09.768277 to: SCRAPER_QUEUE
+[2024-06-29 23:37:03,524 - 8956]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_607
+[2024-06-29 23:37:03,556 - 8956]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_607, Content: googlescholar_KZUaK6YAAAAJTQgYirikUcIC_citation.json, Timestamp: 2024-06-29 23:09:09.768277
+[2024-06-29 23:37:03,588 - 8956]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJTQgYirikUcIC_citation.json from: 3
+[2024-06-29 23:37:04,208 - 8956]  ScholarlyDataFetcher - INFO: Fetching citation 1 - KZUaK6YAAAAJTQgYirikUcIC
+[2024-06-29 23:37:04,446 - 8956]  ScholarlyDataFetcher - INFO: Saved citation 1 to file: googlescholar_KZUaK6YAAAAJTQgYirikUcIC_citation.json
+[2024-06-29 23:37:04,876 - 8956]  root - INFO: Delaying message: getScholarlyCitations_689 of type getScholarlyCitations
+[2024-06-29 23:37:05,033 - 8956]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_689, Content: googlescholar_KZUaK6YAAAAJTQgYirikUcIC_citation.json, Timestamp: 2024-06-29 23:37:04.876324 to: SCRAPER_QUEUE
+[2024-06-29 23:37:05,065 - 8956]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJTQgYirikUcIC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:37:05,097 - 8956]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_607 - Time: 1572.796 ms.
+[2024-06-29 23:37:15,654 - 15668]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:12.337010 - Total: 5
+[2024-06-29 23:37:15,814 - 15668]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_608, Content: googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_citation.json, Timestamp: 2024-06-29 23:09:17.638292 to: SCRAPER_QUEUE
+[2024-06-29 23:37:15,845 - 17452]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_608
+[2024-06-29 23:37:15,877 - 17452]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_608, Content: googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_citation.json, Timestamp: 2024-06-29 23:09:17.638292
+[2024-06-29 23:37:15,909 - 17452]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_citation.json from: 3
+[2024-06-29 23:37:16,467 - 17452]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJLPZeul_q3PIC
+[2024-06-29 23:37:16,499 - 17452]  ScholarlyDataFetcher - INFO: citation: __2022_Explainability_of_artificial is up to date
+[2024-06-29 23:37:16,962 - 17452]  root - INFO: Delaying message: getScholarlyCitations_690 of type getScholarlyCitations
+[2024-06-29 23:37:17,121 - 17452]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_690, Content: googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_citation.json, Timestamp: 2024-06-29 23:37:16.962006 to: SCRAPER_QUEUE
+[2024-06-29 23:37:17,153 - 17452]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:37:17,217 - 17452]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_608 - Time: 1371.334 ms.
+[2024-06-29 23:37:22,175 - 4044]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:06.488648 - Total: 5
+[2024-06-29 23:37:22,350 - 4044]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_563, Content: googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json, Timestamp: 2024-06-29 23:09:22.850432 to: SCRAPER_QUEUE
+[2024-06-29 23:37:22,414 - 18804]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_563
+[2024-06-29 23:37:22,430 - 18804]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_563, Content: googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json, Timestamp: 2024-06-29 23:09:22.850432
+[2024-06-29 23:37:22,446 - 18804]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json from: 4
+[2024-06-29 23:37:23,050 - 18804]  ScholarlyDataFetcher - INFO: Fetching article 0 - KZUaK6YAAAAJTQgYirikUcIC
+[2024-06-29 23:37:23,274 - 18804]  ScholarlyDataFetcher - INFO: Saved article __2017_Never_drive_alone to file: googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json
+[2024-06-29 23:37:23,752 - 18804]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_644 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:37:23,896 - 18804]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_644, Content: googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json, Timestamp: 2024-06-29 23:37:23.752847 to: SCRAPER_QUEUE
+[2024-06-29 23:37:23,896 - 18804]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:37:23,896 - 18804]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_563 - Time: 1482.037 ms.
+[2024-06-29 23:37:29,540 - 3032]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:07.333390 - Total: 5
+[2024-06-29 23:37:29,699 - 3032]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_687, Content: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json, Timestamp: 2024-06-29 23:36:41.183680 to: SCRAPER_QUEUE
+[2024-06-29 23:37:29,731 - 19904]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_687
+[2024-06-29 23:37:29,763 - 19904]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_687, Content: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json, Timestamp: 2024-06-29 23:36:41.183680
+[2024-06-29 23:37:29,794 - 19904]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json from: 3
+[2024-06-29 23:37:30,331 - 19904]  ScholarlyDataFetcher - INFO: Fetching citation 3 - yZTneswAAAAJ2osOgNQ5qMEC
+[2024-06-29 23:37:30,554 - 19904]  ScholarlyDataFetcher - INFO: Saved citation 3 to file: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json
+[2024-06-29 23:37:31,049 - 19904]  root - INFO: Delaying message: getScholarlyCitations_691 of type getScholarlyCitations
+[2024-06-29 23:37:31,208 - 19904]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_691, Content: googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json, Timestamp: 2024-06-29 23:37:31.049335 to: SCRAPER_QUEUE
+[2024-06-29 23:37:31,240 - 19904]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:37:31,288 - 19904]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_687 - Time: 1556.837 ms.
+[2024-06-29 23:37:41,991 - 20060]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:12.418791 - Total: 5
+[2024-06-29 23:37:42,134 - 20060]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_492, Content: googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_related.json, Timestamp: 2024-06-29 22:45:30.849213 to: SCRAPER_QUEUE
+[2024-06-29 23:37:42,166 - 17908]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_492
+[2024-06-29 23:37:42,198 - 17908]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_492, Content: googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_related.json, Timestamp: 2024-06-29 22:45:30.849213
+[2024-06-29 23:37:42,230 - 17908]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_related.json from: 2
+[2024-06-29 23:37:42,835 - 17908]  ScholarlyDataFetcher - INFO: Fetching article 0 - KZUaK6YAAAAJZHo1McVdvXMC
+[2024-06-29 23:37:42,867 - 17908]  ScholarlyDataFetcher - INFO: article: __2019_On_the_stability is up to date
+[2024-06-29 23:37:43,346 - 17908]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_645 of type getScholarlyPubRelatedArticles
+[2024-06-29 23:37:43,521 - 17908]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_645, Content: googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_related.json, Timestamp: 2024-06-29 23:37:43.346452 to: SCRAPER_QUEUE
+[2024-06-29 23:37:43,553 - 17908]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 23:37:43,585 - 17908]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_492 - Time: 1419.205 ms.
+[2024-06-29 23:37:47,364 - 17952]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:05.373630 - Total: 5
+[2024-06-29 23:37:47,572 - 17952]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_688, Content: googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json, Timestamp: 2024-06-29 23:36:55.508374 to: SCRAPER_QUEUE
+[2024-06-29 23:37:47,635 - 2360]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_688
+[2024-06-29 23:37:47,667 - 2360]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_688, Content: googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json, Timestamp: 2024-06-29 23:36:55.508374
+[2024-06-29 23:37:47,699 - 2360]  ScraperQueue - INFO: Setting last update data for googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json from: 2
+[2024-06-29 23:37:48,305 - 2360]  ScholarlyDataFetcher - INFO: Fetching citation 0 - yZTneswAAAAJUeHWp8X0CEIC
+[2024-06-29 23:37:48,528 - 2360]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json
+[2024-06-29 23:37:49,007 - 2360]  root - INFO: Delaying message: getScholarlyCitations_692 of type getScholarlyCitations
+[2024-06-29 23:37:49,166 - 2360]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_692, Content: googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json, Timestamp: 2024-06-29 23:37:49.007314 to: SCRAPER_QUEUE
+[2024-06-29 23:37:49,198 - 2360]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:37:49,230 - 2360]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_688 - Time: 1594.736 ms.
+[2024-06-29 23:37:59,856 - 1600]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:12.459682 - Total: 5
+[2024-06-29 23:38:00,046 - 1600]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_611, Content: googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_citation.json, Timestamp: 2024-06-29 23:09:59.126881 to: SCRAPER_QUEUE
+[2024-06-29 23:38:00,110 - 15368]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_611
+[2024-06-29 23:38:00,142 - 15368]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_611, Content: googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_citation.json, Timestamp: 2024-06-29 23:09:59.126881
+[2024-06-29 23:38:00,174 - 15368]  ScraperQueue - INFO: Setting last update data for googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_citation.json from: 2
+[2024-06-29 23:38:00,779 - 15368]  ScholarlyDataFetcher - INFO: Fetching citation 1 - QDIhYPgAAAAJLkGwnXOMwfcC
+[2024-06-29 23:38:00,971 - 15368]  ScholarlyDataFetcher - INFO: Saved citation 1 to file: googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_citation.json
+[2024-06-29 23:38:01,433 - 15368]  root - INFO: Delaying message: getScholarlyCitations_693 of type getScholarlyCitations
+[2024-06-29 23:38:01,592 - 15368]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_693, Content: googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_citation.json, Timestamp: 2024-06-29 23:38:01.433087 to: SCRAPER_QUEUE
+[2024-06-29 23:38:01,624 - 15368]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 23:38:01,656 - 15368]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_611 - Time: 1545.867 ms.
+[2024-06-29 23:38:06,067 - 14332]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:06.179475 - Total: 5
+[2024-06-29 23:38:06,227 - 14332]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_473, Content: googlescholar_KZUaK6YAAAAJ:RYcK_YlVTxYC_citation, Timestamp: 2024-06-29 22:34:02.811661 to: SCRAPER_QUEUE
+[2024-06-29 23:38:06,291 - 18620]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_473
+[2024-06-29 23:38:06,323 - 18620]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_473, Content: googlescholar_KZUaK6YAAAAJ:RYcK_YlVTxYC_citation, Timestamp: 2024-06-29 22:34:02.811661
+[2024-06-29 23:38:06,354 - 18620]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJ:RYcK_YlVTxYC_citation from: 2
+[2024-06-29 23:38:06,848 - 18620]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=2827859745568056522
+[2024-06-29 23:38:08,810 - 18620]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 23:38:08,810 - 18620]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 23:38:13,444 - 18620]  root - INFO: Delaying message: getScholarlyCitations_694 of type getScholarlyCitations
+[2024-06-29 23:38:13,556 - 18620]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_694, Content: googlescholar_KZUaK6YAAAAJRYcK_YlVTxYC_citation.json, Timestamp: 2024-06-29 23:38:13.444966 to: SCRAPER_QUEUE
+[2024-06-29 23:38:13,588 - 18620]  ScholarlyDataFetcher - INFO: googlescholar_KZUaK6YAAAAJ:RYcK_YlVTxYC_citation
+[2024-06-29 23:38:13,780 - 18620]  ScholarlyDataFetcher - INFO: Scraping citations for googlescholar_KZUaK6YAAAAJ:RYcK_YlVTxYC_citation starting at index 2
+[2024-06-29 23:38:13,811 - 18620]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJ:RYcK_YlVTxYC_citation of type GetScholarlyPubCitations
+[2024-06-29 23:38:13,843 - 18620]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_473 - Time: 7552.802 ms.
+[2024-06-29 23:38:19,122 - 16512]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:13.023175 - Total: 5
+[2024-06-29 23:38:19,329 - 16512]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_644, Content: googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json, Timestamp: 2024-06-29 23:37:23.752847 to: SCRAPER_QUEUE
+[2024-06-29 23:38:19,361 - 912]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_644
+[2024-06-29 23:38:19,393 - 912]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_644, Content: googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json, Timestamp: 2024-06-29 23:37:23.752847
+[2024-06-29 23:38:19,424 - 912]  ScraperQueue - INFO: Setting last update data for googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json from: 5
+[2024-06-29 23:38:20,015 - 912]  ScholarlyDataFetcher - INFO: Fetching article 1 - KZUaK6YAAAAJTQgYirikUcIC

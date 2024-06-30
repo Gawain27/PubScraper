@@ -1,0 +1,197 @@
+{
+    "__2008_Logic-based_conflict_detection": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Logic-based conflict detection for distributed policies",
+            "author": [
+                "C Montangero",
+                "S Reiff-Marganiec"
+            ],
+            "pub_year": "2008",
+            "venue": "Fundamenta \u2026",
+            "abstract": "Policies are used to describe rules that are employed to modify (often distributed) system behaviour at runtime. Typically policies are created by many different people and there are"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://content.iospress.com/articles/fundamenta-informaticae/fi89-4-07",
+        "author_id": [
+            "",
+            "rww_13kAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Zh_d8tmHXFcJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D3854009446058228323%26scipsc%3D&citilm=1&update_op=library_add&info=Zh_d8tmHXFcJ&ei=8uJ_ZpvMOI6By9YP9NGdoA4&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=6295055749309341542&as_sdt=5,44&sciodt=0,44&hl=en",
+        "url_related_articles": "/scholar?q=related:Zh_d8tmHXFcJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,44",
+        "eprint_url": "https://figshare.le.ac.uk/articles/journal_contribution/Logic-based_Conflict_Detection_for_Distributed_Policies/10088069/1/files/18188510.pdf"
+    },
+    "__2007_Logic\u2013Based_Detection_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Logic\u2013Based Detection of Conflicts in Appel Policies",
+            "author": [
+                "C Montangero",
+                "S Reiff-Marganiec",
+                "L Semini"
+            ],
+            "pub_year": "2007",
+            "venue": "International Symposium on \u2026",
+            "abstract": "Appel is a general language for expressing policies in a variety of application domains with a clear separation between the core language and its specialisation for concrete domains"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-75698-9_17",
+        "author_id": [
+            "",
+            "rww_13kAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:kxPrG2iwzzoJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=kxPrG2iwzzoJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 32,
+        "citedby_url": "/scholar?cites=4237799735570404243&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:kxPrG2iwzzoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,10",
+        "eprint_url": "https://figshare.le.ac.uk/articles/conference_contribution/Logic_Based_Detection_of_Conflicts_in_APPEL_Policies/10088093/1/files/18188546.pdf"
+    },
+    "__2000_Detecting_temporal_conflicts": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Detecting temporal conflicts in integrated agent specifications",
+            "author": [
+                "G Davies",
+                "L Ekenberg",
+                "P Johannesson"
+            ],
+            "pub_year": "2000",
+            "venue": "Computational Conflicts: Conflict \u2026",
+            "abstract": "We present a model for the analysis of temporal conflicts in sets of autonomous agents restricted in the sense that they can be described in a first-order language. The dynamic"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-642-56980-7_6",
+        "author_id": [
+            "",
+            "H2nFUi8AAAAJ",
+            "ri02HHUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:D4YK4Q-uXXsJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=D4YK4Q-uXXsJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 8,
+        "citedby_url": "/scholar?cites=8889452622722532879&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:D4YK4Q-uXXsJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,10",
+        "eprint_url": "https://people.dsv.su.se/~pajo/papers/compconflicts.doc"
+    },
+    "__2001_Monitors_for_history-based": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Monitors for history-based policies",
+            "author": [
+                "J Chomicki",
+                "J Lobo"
+            ],
+            "pub_year": "2001",
+            "venue": "International Workshop on Policies for Distributed \u2026",
+            "abstract": "We investigate the issue of conflict detection and resolution for policies formulated as sets of event-condition-action rules. We focus on the temporal dimension of policies. In particular"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/chapter/10.1007/3-540-44569-2_4",
+        "author_id": [
+            "twwFv3QAAAAJ",
+            "OxwsZJUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:r6elWcRNIMEJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=r6elWcRNIMEJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 61,
+        "citedby_url": "/scholar?cites=13916208354287789999&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:r6elWcRNIMEJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,10",
+        "eprint_url": "https://www.academia.edu/download/105083943/10.1007-3-540-44569-2.pdf#page=66"
+    },
+    "__2005_Generic_policy_conflict": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Generic policy conflict handling using a priori models",
+            "author": [
+                "B Kempter",
+                "VA Danciu"
+            ],
+            "pub_year": "2005",
+            "venue": "\u2026 Workshop on Distributed Systems: Operations and \u2026",
+            "abstract": "The promise of policy-based management is lessened by the risk of conflicts between policies. Even with careful conception of the policies it is difficult if not impossible to avoid"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://link.springer.com/chapter/10.1007/11568285_8",
+        "author_id": [
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:HuLO1yH3yM0J:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=HuLO1yH3yM0J&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 10,
+        "citedby_url": "/scholar?cites=14828373497843999262&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:HuLO1yH3yM0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,10",
+        "eprint_url": "http://ndl.ethernet.edu.et/bitstream/123456789/20805/1/200.pdf#page=95"
+    },
+    "__2016_Decentralised_LTL_monitoring": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Decentralised LTL monitoring",
+            "author": [
+                "A Bauer",
+                "Y Falcone"
+            ],
+            "pub_year": "2016",
+            "venue": "Formal Methods in System Design",
+            "abstract": "Users wanting to monitor distributed or component-based systems often perceive them as monolithic systems which, seen from the outside, exhibit a uniform behaviour as opposed to"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://link.springer.com/article/10.1007/s10703-016-0253-8",
+        "author_id": [
+            "",
+            "LMtbUBwAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:xETwzKGKDGoJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=xETwzKGKDGoJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 83,
+        "citedby_url": "/scholar?cites=7641635095273555140&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:xETwzKGKDGoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,10",
+        "eprint_url": "https://inria.hal.science/hal-01313730/file/fmsd3-author.pdf"
+    },
+    "__2013_Monitoring_compliance_policies": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Monitoring compliance policies over incomplete and disagreeing logs",
+            "author": [
+                "D Basin",
+                "F Klaedtke",
+                "S Marinovic"
+            ],
+            "pub_year": "2013",
+            "venue": "Runtime Verification: Third \u2026",
+            "abstract": "When monitoring system behavior to check compliance against a given policy, one is sometimes confronted with incomplete knowledge about system events. In IT systems, such"
+        },
+        "filled": false,
+        "gsrank": 7,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-642-35632-2_17",
+        "author_id": [
+            "-BA-kHYAAAAJ",
+            "_6Pt3r0AAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:tYlSfbWhujgJ:scholar.google.com/&output=cite&scirp=6&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=tYlSfbWhujgJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 46,
+        "citedby_url": "/scholar?cites=4087757412655860149&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:tYlSfbWhujgJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,10",
+        "eprint_url": "http://wwwseidl.in.tum.de/~zalinescu/papers/bkmz__incomplete_logs__rv12.pdf"
+    }
+}

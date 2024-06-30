@@ -1,0 +1,48 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "IP address lookupmade fast and simple",
+        "pub_year": 1999,
+        "citation": "Algorithms-ESA\u201999: 7th Annual European Symposium Prague, Czech Republic \u2026, 1999",
+        "author": "Pierluigi Crescenzi and Leandro Dardini and Roberto Grossi",
+        "conference": "Algorithms-ESA\u201999: 7th Annual European Symposium Prague, Czech Republic, July 16\u201318, 1999 Proceedings 7",
+        "pages": "65-76",
+        "publisher": "Springer Berlin Heidelberg",
+        "abstract": "The IP address lookup problem is one of the major bottlenecks in high performance routers. Previous solutions to this problem first describe it in the general terms of longest prefix matching and, then, are experimented on real routing tables T. In this paper, we follow the opposite direction. We start out from the experimental analysis of real data and, based upon our findings, we provide a new and simple solution to the IP address lookup problem. More precisely, our solution for m-bit IP addresses is a reasonable trade-off between performing a binary search on T with O(log |T|) accesses, where |T| is the number of entries in T, and executing a single access on a table of 2m entries obtained by fully expanding T. While the previous results start out from space-efficient data structures and aim at lowering the O(log |T|) access cost, we start out from the expanded table with 2m entries and aim at compressing it \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "yZTneswAAAAJ:IjCSPb-OGe4C",
+    "num_citations": 68,
+    "citedby_url": "/scholar?hl=en&cites=9003147202368705009",
+    "cites_id": [
+        "9003147202368705009"
+    ],
+    "pub_url": "https://link.springer.com/chapter/10.1007/3-540-48481-7_7",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:8RG9Ca6a8XwJ:scholar.google.com/",
+    "cites_per_year": {
+        "2000": 2,
+        "2001": 4,
+        "2002": 4,
+        "2003": 8,
+        "2004": 6,
+        "2005": 12,
+        "2006": 3,
+        "2007": 7,
+        "2008": 3,
+        "2009": 3,
+        "2010": 3,
+        "2011": 2,
+        "2012": 1,
+        "2013": 1,
+        "2014": 0,
+        "2015": 0,
+        "2016": 0,
+        "2017": 0,
+        "2018": 2,
+        "2019": 1,
+        "2020": 2,
+        "2021": 0,
+        "2022": 1
+    }
+}

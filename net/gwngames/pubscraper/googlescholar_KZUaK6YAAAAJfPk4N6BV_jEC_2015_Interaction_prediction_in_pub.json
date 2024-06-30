@@ -1,0 +1,34 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Interaction prediction in dynamic networks exploiting community discovery",
+        "pub_year": 2015,
+        "citation": "2015 IEEE/ACM International Conference on Advances in Social Networks \u2026, 2015",
+        "author": "Giulio Rossetti and Riccardo Guidotti and Diego Pennacchioli and Dino Pedreschi and Fosca Giannotti",
+        "conference": "2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+        "pages": "553-558",
+        "publisher": "IEEE",
+        "abstract": "Due to the growing availability of online social services, interactions between people became more and more easy to establish and track. Online social human activities generate digital footprints, that describe complex, rapidly evolving, dynamic networks. In such scenario one of the most challenging task to address involves the prediction of future interactions between couples of actors. In this study, we want to leverage networks dynamics and community structure to predict which are the future interactions more likely to appear. To this extent, we propose a supervised learning approach which exploit features computed by time-aware forecasts of topological measures calculated between pair of nodes belonging to the same community. Our experiments on real dynamic networks show that the designed analytical process is able to achieve interesting results."
+    },
+    "filled": true,
+    "author_pub_id": "KZUaK6YAAAAJ:fPk4N6BV_jEC",
+    "num_citations": 26,
+    "citedby_url": "/scholar?hl=en&cites=10424947412585521918",
+    "cites_id": [
+        "10424947412585521918"
+    ],
+    "pub_url": "https://dl.acm.org/doi/abs/10.1145/2808797.2809401",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:_qJJIXDarJAJ:scholar.google.com/",
+    "cites_per_year": {
+        "2015": 1,
+        "2016": 4,
+        "2017": 5,
+        "2018": 3,
+        "2019": 4,
+        "2020": 1,
+        "2021": 2,
+        "2022": 1,
+        "2023": 5
+    }
+}

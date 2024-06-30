@@ -19,3 +19,4 @@ class ConfigConstants:
     MAX_MS_WORKTIME: Final = 'max_ms_worktime'
     MAX_IFACE_REQUESTS: Final = 'max_iface_requests'
     MAX_FETCHABLE: Final = 'max_fetchable'
+    SCRAPERAPI_KEY: Final = 'scraper_api_key'

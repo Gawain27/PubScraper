@@ -1,0 +1,107 @@
+{
+    "__2007_Web_services_choreography": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Web services choreography and orchestration in Reo and constraint automata",
+            "author": [
+                "S Meng",
+                "F Arbab"
+            ],
+            "pub_year": "2007",
+            "venue": "Proceedings of the 2007 ACM symposium on Applied \u2026",
+            "abstract": "Currently web services constitute one of the most important topics in the realm of the World Wide Web. Composition of web services lets developers create applications on top of"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1244002.1244085",
+        "author_id": [
+            "R8O-iusAAAAJ",
+            "GTW3mJ4AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:WlnIunsxh0AJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=WlnIunsxh0AJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 85,
+        "citedby_url": "/scholar?cites=4649739547767757146&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:WlnIunsxh0AJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://www.researchgate.net/profile/Farhad-Arbab/publication/221002558_Web_services_choreography_and_orchestration_in_Reo_and_constraint_automata/links/575aeba808ae414b8e467349/Web-services-choreography-and-orchestration-in-Reo-and-constraint-automata.pdf"
+    },
+    "__1991_Computer_simulation_an": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Computer simulation: an important tool in the fast-food industry",
+            "author": [
+                "AK Kharwat"
+            ],
+            "pub_year": "1991",
+            "venue": "1991 Winter Simulation Conference Proceedings.",
+            "abstract": "Service-Oriented Computing (SOC) was introduced some years ago as a paradigm that allows companies to expose their core competencies as services. Yet, we can only"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.computer.org/csdl/proceedings-article/wsc/1991/00185689/12OmNx7XH8L",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:pl8o5kldMJsJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=pl8o5kldMJsJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 42,
+        "citedby_url": "/scholar?cites=11182540446736342950&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:pl8o5kldMJsJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33"
+    },
+    "__2010_Service_composition": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Service composition",
+            "author": [
+                "G Baryannis",
+                "O Danylevych",
+                "D Karastoyanova"
+            ],
+            "pub_year": "2010",
+            "venue": "\u2026 and Solutions for the \u2026",
+            "abstract": "In the S-Cube research framework, the Service Composition and Co-ordination (SCC) layer encompasses the functions required for the aggregation of multiple services into a single"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-642-17599-2_3",
+        "author_id": [
+            "3tmGU9sAAAAJ",
+            "",
+            "9aotp4YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:6Bvr1QlmzmkJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=6Bvr1QlmzmkJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 39,
+        "citedby_url": "/scholar?cites=7624143411614522344&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:6Bvr1QlmzmkJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33"
+    },
+    "__2014_A_survey_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A survey of formalization approaches to service composition",
+            "author": [
+                "GMM Campos",
+                "NS Rosa"
+            ],
+            "pub_year": "2014",
+            "venue": "2014 IEEE International \u2026",
+            "abstract": "Service-Oriented Computing (SOC) was introduced some years ago as a paradigm that allows companies to expose their core competencies as services. Yet, we can only benefit"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/6930532/",
+        "author_id": [
+            "",
+            "KZFI9qEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Pq392vevcVsJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Pq392vevcVsJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 20,
+        "citedby_url": "/scholar?cites=6589241208885587262&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:Pq392vevcVsJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Distributed states logic",
+        "pub_year": 2002,
+        "citation": "Proceedings Ninth International Symposium on Temporal Representation and \u2026, 2002",
+        "author": "Carlo Montangero and Laura Semini",
+        "conference": "Proceedings Ninth International Symposium on Temporal Representation and Reasoning",
+        "pages": "55-57",
+        "publisher": "IEEE",
+        "abstract": "We introduce a temporal logic to reason on global applications. First, we define a modal logic for localities that embeds the local theories of each component into a theory of the distributed states of the system. We provide the logic with a sound and complete axiomatization. Then, we extend the logic with a temporal operator. The contribution is that it is possible to reason about properties that involve several components in a natural way, even in the absence of a global clock, as required in an asynchronous setting."
+    },
+    "filled": true,
+    "author_pub_id": "QDIhYPgAAAAJ:9yKSN-GCB0IC",
+    "num_citations": 16,
+    "citedby_url": "/scholar?hl=en&cites=456285895027431338",
+    "cites_id": [
+        "456285895027431338"
+    ],
+    "pub_url": "https://ieeexplore.ieee.org/abstract/document/1027474/",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:qpchoZoNVQYJ:scholar.google.com/",
+    "cites_per_year": {
+        "2003": 1,
+        "2004": 2,
+        "2005": 2,
+        "2006": 1,
+        "2007": 1,
+        "2008": 5,
+        "2009": 1,
+        "2010": 1,
+        "2011": 1,
+        "2012": 0,
+        "2013": 1
+    }
+}

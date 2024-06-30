@@ -1,0 +1,140 @@
+{
+    "__1993_Suffix_trees_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Suffix trees and their applications in string algorithms",
+            "author": [
+                "R Grossi",
+                "GF Italiano"
+            ],
+            "pub_year": "1993",
+            "venue": "Proceedings of the 1st south American \u2026",
+            "abstract": "The suffix tree is a compacted trie that stores all suffixes of a given text string. This data structure has been intensively employed in pattern matching on strings and trees, with a"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://pages.di.unipi.it/grossi/aiw/survey.pdf",
+        "author_id": [
+            "yZTneswAAAAJ",
+            "6jiwt-UAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:wKBpxV9fVicJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2834557880414871744,17332489445355614497%26scipsc%3D&citilm=1&update_op=library_add&info=wKBpxV9fVicJ&ei=0kOAZtz2CNiu6rQPotCy2AQ&json=",
+        "num_citations": 85,
+        "citedby_url": "/scholar?cites=2834557880414871744&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:wKBpxV9fVicJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://pages.di.unipi.it/grossi/aiw/survey.pdf"
+    },
+    "__1996_Suffix_trees_on": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Suffix trees on words",
+            "author": [
+                "A Andersson",
+                "NJ Larsson",
+                "K Swanson"
+            ],
+            "pub_year": "1996",
+            "venue": "\u2026 , June 10\u201312, 1996 Proceedings 7",
+            "abstract": "We discuss an intrinsic generalization of the suffix tree, designed to index a string of length n which has a natural partitioning into m multi-character substrings or words. This word suffix"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/chapter/10.1007/3-540-61258-0_9",
+        "author_id": [
+            "",
+            "8pKMsLMAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:WKZQgzAkzDQJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=WKZQgzAkzDQJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 46,
+        "citedby_url": "/scholar?cites=3804455576001357400&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:WKZQgzAkzDQJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=44dc5ec0a2a96dc5d5ecca77ae05ddef46201fec"
+    },
+    "__1999_Suffix_trees_on": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Suffix trees on words",
+            "author": [
+                "A Andersson",
+                "NJ Larsson",
+                "K Swanson"
+            ],
+            "pub_year": "1999",
+            "venue": "Algorithmica",
+            "abstract": "We discuss an intrinsic generalization of the suffix tree, designed to index a string of length n which has a natural partitioning into m multicharacter substrings or words. This word suffix"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/article/10.1007/PL00009260",
+        "author_id": [
+            "",
+            "8pKMsLMAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:OgInW-VQdyIJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=OgInW-VQdyIJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 64,
+        "citedby_url": "/scholar?cites=2483542665525133882&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:OgInW-VQdyIJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__2003_Space_efficient_linear": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Space efficient linear time construction of suffix arrays",
+            "author": [
+                "P Ko",
+                "S Aluru"
+            ],
+            "pub_year": "2003",
+            "venue": "Annual Symposium on Combinatorial Pattern Matching",
+            "abstract": "We present a linear time algorithm to sort all the suffixes of a string over a large alphabet of integers. The sorted order of suffixes of a string is also called suffix array, a data structure"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/chapter/10.1007/3-540-44888-8_15",
+        "author_id": [
+            "",
+            "YOGOScoAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Cm_HvhIv0QkJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=Cm_HvhIv0QkJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 409,
+        "citedby_url": "/scholar?cites=707398374030536458&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Cm_HvhIv0QkJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "http://alumni.cs.ucr.edu/~rakthant/cs234/03_KA_Simple%20Linear%20Work%20Suffix%20Array%20Construction.pdf"
+    },
+    "__2005_Space_efficient_linear": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Space efficient linear time construction of suffix arrays",
+            "author": [
+                "P Ko",
+                "S Aluru"
+            ],
+            "pub_year": "2005",
+            "venue": "Journal of Discrete Algorithms",
+            "abstract": "We present a linear time algorithm to sort all the suffixes of a string over a large alphabet of integers. The sorted order of suffixes of a string is also called suffix array, a data structure"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S1570866704000498",
+        "author_id": [
+            "",
+            "YOGOScoAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:yzWNAN03eFMJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=yzWNAN03eFMJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 219,
+        "citedby_url": "/scholar?cites=6014618724689851851&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:yzWNAN03eFMJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S1570866704000498"
+    }
+}

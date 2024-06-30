@@ -1,0 +1,91 @@
+{
+    "__2021_A_survey_on": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A survey on deep learning for human mobility",
+            "author": [
+                "M Luca",
+                "G Barlacchi",
+                "B Lepri"
+            ],
+            "pub_year": "2021",
+            "venue": "ACM Computing Surveys \u2026",
+            "abstract": "The study of human mobility is crucial due to its impact on several aspects of our society, such as disease spreading, urban planning, well-being, pollution, and more. The"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3485125",
+        "author_id": [
+            "wKMrZZgAAAAJ",
+            "vh3CkJ0AAAAJ",
+            "JfcopG0AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:eVGlgcqBLLIJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:7woAudLRUPYJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=eVGlgcqBLLIJ&ei=LOB_ZqiEB9qMy9YP25uj2A0&json=",
+        "num_citations": 164,
+        "citedby_url": "/scholar?cites=12838779344484913529&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:eVGlgcqBLLIJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/2012.02825"
+    },
+    "__2021_Improving_the_evidence": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Improving the evidence base: A methodological review of the quantitative climate migration literature",
+            "author": [
+                "R Hoffmann",
+                "B \u0160edov\u00e1",
+                "K Vinke"
+            ],
+            "pub_year": "2021",
+            "venue": "Global Environmental Change",
+            "abstract": "The question whether and how climatic factors influence human migration has gained both academic and public interest in the past years. Based on two meta-analyses, this paper"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0959378021001461",
+        "author_id": [
+            "I0edP_QAAAAJ",
+            "Q9pF5_gAAAAJ",
+            "UVuDbsIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:diyI-qLzd-oJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D16226379414917791851%26scipsc%3D&citilm=1&update_op=library_add&info=diyI-qLzd-oJ&ei=VkOAZufFGdqMy9YP25uj2A0&json=",
+        "num_citations": 99,
+        "citedby_url": "/scholar?cites=16895240408417184886&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:diyI-qLzd-oJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0959378021001461"
+    },
+    "__2021_A_deep_gravity": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A deep gravity model for mobility flows generation",
+            "author": [
+                "F Simini",
+                "G Barlacchi",
+                "M Luca",
+                "L Pappalardo"
+            ],
+            "pub_year": "2021",
+            "venue": "Nature communications",
+            "abstract": "The movements of individuals within and among cities influence critical aspects of our society, such as well-being, the spreading of epidemics, and the quality of the environment"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.nature.com/articles/s41467-021-26752-4",
+        "author_id": [
+            "7cf56rIAAAAJ",
+            "vh3CkJ0AAAAJ",
+            "wKMrZZgAAAAJ",
+            "88VJDhcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:xuyQPDLihLUJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D16226379414917791851%26scipsc%3D&citilm=1&update_op=library_add&info=xuyQPDLihLUJ&ei=VkOAZufFGdqMy9YP25uj2A0&json=",
+        "num_citations": 121,
+        "citedby_url": "/scholar?cites=13079827923183135942&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:xuyQPDLihLUJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.nature.com/articles/s41467-021-26752-4.pdf"
+    }
+}

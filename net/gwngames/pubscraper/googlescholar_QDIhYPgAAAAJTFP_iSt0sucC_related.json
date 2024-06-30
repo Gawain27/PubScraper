@@ -1,0 +1,143 @@
+{
+    "__2018_Requirement_engineering_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Requirement engineering of software product lines: Extracting variability using NLP",
+            "author": [
+                "A Fantechi",
+                "A Ferrari",
+                "S Gnesi"
+            ],
+            "pub_year": "2018",
+            "venue": "2018 IEEE 26th \u2026",
+            "abstract": "The engineering of software product lines begins with the identification of the possible variation points. To this aim, natural language (NL) requirement documents can be used as"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8491160/",
+        "author_id": [
+            "pCgQvJgAAAAJ",
+            "-BlCPzcAAAAJ",
+            "vkhTk-MAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:dWIQNFCMuNcJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:Phty64RV_ZsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,24&citilm=1&update_op=library_add&info=dWIQNFCMuNcJ&ei=VUaAZuqrIbqWy9YP7pCPMA&json=",
+        "num_citations": 17,
+        "citedby_url": "/scholar?cites=15544328389968028277&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:dWIQNFCMuNcJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://flore.unifi.it/bitstream/2158/1137914/1/paper.pdf"
+    },
+    "__2018_Addressing_lexical_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Addressing lexical and semantic ambiguity in natural language requirements",
+            "author": [
+                "F Zait",
+                "N Zarour"
+            ],
+            "pub_year": "2018",
+            "venue": "\u2026 Symposium on Innovation in Information and \u2026",
+            "abstract": "Ambiguity is a critical problem that rears its ugly head in many disciplines including writing, philosophy, law, and of course software engineering, especially requirements engineering"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8613726/",
+        "author_id": [
+            "W-zwFekAAAAJ",
+            "vJbT5XcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:BYkOM1g95BwJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:ePkjgrt8gEoJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=BYkOM1g95BwJ&ei=gUaAZsP9EPyCy9YPqueT2AI&json=",
+        "num_citations": 22,
+        "citedby_url": "/scholar?cites=2081856376775018757&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:BYkOM1g95BwJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://www.researchgate.net/profile/Nacer-Eddine-Zarour/publication/330477100_Addressing_Lexical_and_Semantic_Ambiguity_in_Natural_Language_Requirements/links/62f2aeeb4532247693906601/Addressing-Lexical-and-Semantic-Ambiguity-in-Natural-Language-Requirements.pdf"
+    },
+    "__2007_Disambiguating_the_documentation": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Disambiguating the documentation of variability in software product lines: A separation of concerns, formalization and automated analysis",
+            "author": [
+                "A Metzger",
+                "K Pohl",
+                "P Heymans"
+            ],
+            "pub_year": "2007",
+            "venue": "15th IEEE \u2026",
+            "abstract": "Feature diagrams are a popular means for documenting variability in software product line engineering. When examining feature diagrams in the literature and from industry, we"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/4384187/",
+        "author_id": [
+            "vwfw0lwAAAAJ",
+            "L0NCDwsAAAAJ",
+            "Gr1rdc8AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:mfwLJ5xfn2gJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=mfwLJ5xfn2gJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 324,
+        "citedby_url": "/scholar?cites=7538849425516133529&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:mfwLJ5xfn2gJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://researchrepository.ul.ie/articles/conference_contribution/Disambiguating_the_documentation_of_variability_in_software_product_lines_a_separation_of_concerns_formalization_and_automated_analysis_/19853203/1/files/35269573.pdf"
+    },
+    "__2015_Addressing_the_challenges": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Addressing the challenges of requirements ambiguity: A review of empirical literature",
+            "author": [
+                "M Bano"
+            ],
+            "pub_year": "2015",
+            "venue": "2015 IEEE Fifth International Workshop on Empirical \u2026",
+            "abstract": "Ambiguity in natural language requirements has long been recognized as an inevitable challenge in requirements engineering (RE). Various initiatives have been taken by RE"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/7431303/",
+        "author_id": [
+            "i8cxcTwAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:4w7x6eM8NDYJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=4w7x6eM8NDYJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 56,
+        "citedby_url": "/scholar?cites=3905813726417194723&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:4w7x6eM8NDYJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.researchgate.net/profile/Muneera-Bano/publication/279997528_Addressing_the_Challenges_of_Requirements_Ambiguity_A_Review_of_Empirical_Literature/links/55a26d5c08aea54aa8154990/Addressing-the-Challenges-of-Requirements-Ambiguity-A-Review-of-Empirical-Literature.pdf"
+    },
+    "__2020_Nuts_and_bolts": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Nuts and bolts of extracting variability models from natural language requirements documents",
+            "author": [
+                "E Arganese",
+                "A Fantechi",
+                "S Gnesi",
+                "L Semini"
+            ],
+            "pub_year": "2020",
+            "venue": "Integrating Research and \u2026",
+            "abstract": "Natural language (NL) requirements documents are often ambiguous, and this is considered as a source of problems in the later interpretation of requirements. Ambiguity detection tools"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-030-26574-8_10",
+        "author_id": [
+            "",
+            "pCgQvJgAAAAJ",
+            "vkhTk-MAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:NeeZr-iDBSsJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=NeeZr-iDBSsJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 6,
+        "citedby_url": "/scholar?cites=3100028953916204853&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:NeeZr-iDBSsJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://iris.cnr.it/retrieve/03153ec4-3828-450c-82c8-668091ae7bce/prod_424687-doc_160480.pdf"
+    }
+}

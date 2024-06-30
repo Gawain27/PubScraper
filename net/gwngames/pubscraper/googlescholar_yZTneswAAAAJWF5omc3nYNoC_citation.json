@@ -1,0 +1,55 @@
+{
+    "__2001_External_memory_algorithms": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "External memory algorithms and data structures: Dealing with massive data",
+            "author": [
+                "JS Vitter"
+            ],
+            "pub_year": "2001",
+            "venue": "ACM Computing surveys (CsUR)",
+            "abstract": "Data sets in large applications are often too massive to fit completely inside the computers internal memory. The resulting input/output communication (or I/O) between fast internal"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/384192.384193",
+        "author_id": [
+            "IeXW2bkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:hiU8hY7st-IJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=hiU8hY7st-IJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 908,
+        "citedby_url": "/scholar?cites=16336786270174586246&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:hiU8hY7st-IJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=88d3164e16d3440ab4079f1e4b510353d4e18d34"
+    },
+    "__2002_Spatial_databases_with": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Spatial databases: with application to GIS",
+            "author": [
+                "P Rigaux",
+                "M Scholl",
+                "A Voisard"
+            ],
+            "pub_year": "2002",
+            "venue": "NA",
+            "abstract": "\" Spatial Databases covers all of the major themes of the field--representation, query languages, computational geometry, spatial indexing--using geographic information"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://books.google.com/books?hl=en&lr=&id=o8LfhpFOnPwC&oi=fnd&pg=PR9&ots=EnJ1nWi6ZU&sig=Gh8zr3-RyBtHQW0K5jNWx4TWX-8",
+        "author_id": [
+            "",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:b-Dzi2ViYQsJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=b-Dzi2ViYQsJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 1291,
+        "citedby_url": "/scholar?cites=820044795437375599&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:b-Dzi2ViYQsJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    }
+}

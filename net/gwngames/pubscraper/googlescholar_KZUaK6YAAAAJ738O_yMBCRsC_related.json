@@ -1,0 +1,60 @@
+{
+    "__2020_Explaining_sentiment_classification": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explaining sentiment classification with synthetic exemplars and counter-exemplars",
+            "author": [
+                "O Lampridis",
+                "R Guidotti",
+                "S Ruggieri"
+            ],
+            "pub_year": "2020",
+            "venue": "International Conference on \u2026",
+            "abstract": "We present xspells, a model-agnostic local approach for explaining the decisions of a black box model for sentiment classification of short texts. The explanations provided consist of a"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-030-61527-7_24",
+        "author_id": [
+            "2cNRf9MAAAAJ",
+            "KZUaK6YAAAAJ",
+            "q41ZMpAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Mar9HOn1inoJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=Mar9HOn1inoJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=8830140400975850033&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:Mar9HOn1inoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-61527-7_24.pdf"
+    },
+    "__2018_Revisiting_the_importance": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Revisiting the importance of encoding logic rules in sentiment classification",
+            "author": [
+                "K Krishna",
+                "P Jyothi",
+                "M Iyyer"
+            ],
+            "pub_year": "2018",
+            "venue": "arXiv preprint arXiv:1808.07733",
+            "abstract": "We analyze the performance of different sentiment classification models on syntactically complex inputs like A-but-B sentences. The first contribution of this analysis addresses"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://arxiv.org/abs/1808.07733",
+        "author_id": [
+            "9g2BsMUAAAAJ",
+            "QN_uhu8AAAAJ",
+            "rBVA5tcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Lg-qDxk-5pkJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Lg-qDxk-5pkJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 16,
+        "citedby_url": "/scholar?cites=11089619409804332846&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:Lg-qDxk-5pkJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://arxiv.org/pdf/1808.07733"
+    }
+}

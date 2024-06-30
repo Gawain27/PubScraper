@@ -1,139 +1,1458 @@
 {
-    "scholarlyAuthor": 116,
-    "googlescholar_Roberto Grossi": "2024-06-28T13:07:55.160990",
-    "googlescholar_Riccardo Guidotti": "2024-06-28T13:07:57.168621",
-    "googlescholar_Laura Semini": "2024-06-28T13:08:18.617498",
-    "scholarlyPublication": 243,
-    "getScholarlyCitations": 351,
-    "getScholarlyPubRelatedArticles": 41,
-    "googlescholar_yZTneswAAAAJu-x6o8ySG0sC_2003_High-order_entropy-compressed_text.json": "2024-06-28T13:10:04.675349",
-    "googlescholar_yZTneswAAAAJ:u-x6o8ySG0sC_citation": "2024-06-28T13:10:21.031936",
-    "googlescholar_yZTneswAAAAJd1gkVwhDpl0C_1999_The_string_B-tree.json": "2024-06-28T13:24:53.119697",
-    "googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_2008_Logic-based_conflict_detection.json": "2024-06-28T13:25:34.453012",
-    "googlescholar_QDIhYPgAAAAJdhFuZR0502QC_2009_Detecting_policy_conflicts.json": "2024-06-28T13:26:10.526113",
-    "googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_2017_An_experience_in.json": "2024-06-28T13:26:12.821972",
-    "googlescholar_yZTneswAAAAJqjMakFHDy7sC_2006_Squeezing_succinct_data.json": "2024-06-28T13:27:04.562059",
-    "googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_2019_Factual_and_counterfactual.json": "2024-06-28T13:27:16.107355",
-    "googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_2007_Logic\u2013Based_Detection_of.json": "2024-06-28T13:27:52.678596",
-    "googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_2019_Meaningful_Explanations_of.json": "2024-06-28T13:28:38.648542",
-    "googlescholar_KZUaK6YAAAAJeq2jaN3J8jMC_2022_Counterfactual_explanations_and.json": "2024-06-28T13:28:49.908523",
-    "googlescholar_KZUaK6YAAAAJeflP2zaiRacC_2023_Benchmarking_and_survey.json": "2024-06-28T13:29:16.580442",
-    "googlescholar_yZTneswAAAAJZHo1McVdvXMC_2013_Optimal_listing_of.json": "2024-06-28T13:29:41.707932",
-    "googlescholar_QDIhYPgAAAAJufrVoPGSRksC_1999_Composing_Specications_for.json": "2024-06-28T13:30:20.653009",
-    "googlescholar_yZTneswAAAAJu5HHmVD_uO8C_2005_Compressed_suffix_arrays.json": "2024-06-28T13:30:47.151226",
-    "googlescholar_KZUaK6YAAAAJXD-gHx7UXLsC_2023_Explainable_Artificial_Intelligence.json": "2024-06-28T13:31:25.403988",
-    "googlescholar_QDIhYPgAAAAJZph67rFs4hoC_2009_StPowla_SOA,_policies.json": "2024-06-28T14:45:10.380367",
-    "googlescholar_QDIhYPgAAAAJ:LkGwnXOMwfcC_citation": "2024-06-28T14:48:07.140420",
-    "googlescholar_yZTneswAAAAJ:d1gkVwhDpl0C_citation": "2024-06-28T14:48:51.933082",
-    "googlescholar_yZTneswAAAAJ:qjMakFHDy7sC_citation": "2024-06-28T14:50:32.199828",
-    "googlescholar_QDIhYPgAAAAJ:KlAtU1dfN6UC_citation": "2024-06-28T14:50:40.680273",
-    "googlescholar_QDIhYPgAAAAJ:dhFuZR0502QC_citation": "2024-06-28T14:51:41.538928",
-    "googlescholar_QDIhYPgAAAAJ:Zph67rFs4hoC_citation": "2024-06-28T14:52:24.934480",
-    "googlescholar_QDIhYPgAAAAJ:0EnyYjriUFMC_citation": "2024-06-28T14:52:51.895953",
-    "googlescholar_yZTneswAAAAJ:u5HHmVD_uO8C_citation": "2024-06-28T14:53:28.066532",
-    "googlescholar_yZTneswAAAAJ:ZHo1McVdvXMC_citation": "2024-06-28T14:54:06.419792",
-    "googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_2018_A_survey_of.json": "2024-06-28T15:33:25.038678",
-    "googlescholar_KZUaK6YAAAAJ:M3NEmzRMIkIC_citation": "2024-06-28T15:34:20.847413",
-    "googlescholar_KZUaK6YAAAAJ:EUQCXRtRnyEC_citation": "2024-06-28T15:35:12.973529",
-    "googlescholar_KZUaK6YAAAAJ:eq2jaN3J8jMC_citation": "2024-06-28T15:37:02.323781",
-    "googlescholar_KZUaK6YAAAAJ:M3NEmzRMIkIC_citation.json": "2024-06-28T15:37:54.436905",
-    "googlescholar_KZUaK6YAAAAJ:XD-gHx7UXLsC_citation": "2024-06-28T15:40:08.574892",
-    "googlescholar_KZUaK6YAAAAJ:70eg2SAEIzsC_citation": "2024-06-28T15:41:46.408295",
-    "googlescholar_QDIhYPgAAAAJZph67rFs4hoC_2009_StPowla_SOA,_policies_pub.json": "2024-06-28T16:10:10.434223",
-    "googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_2017_An_experience_in_pub.json": "2024-06-28T16:10:43.080924",
-    "googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_2018_A_survey_of_pub.json": "2024-06-28T16:10:44.336566",
-    "googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_2019_Factual_and_counterfactual_pub.json": "2024-06-28T16:10:53.464159",
-    "googlescholar_yZTneswAAAAJu5HHmVD_uO8C_2005_Compressed_suffix_arrays_pub.json": "2024-06-28T16:11:32.992456",
-    "googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_2008_Logic-based_conflict_detection_pub.json": "2024-06-28T16:11:49.420614",
-    "googlescholar_QDIhYPgAAAAJdhFuZR0502QC_2009_Detecting_policy_conflicts_pub.json": "2024-06-28T16:12:21.405812",
-    "googlescholar_yZTneswAAAAJu-x6o8ySG0sC_2003_High-order_entropy-compressed_text_pub.json": "2024-06-28T16:12:30.685132",
-    "googlescholar_KZUaK6YAAAAJXD-gHx7UXLsC_2023_Explainable_Artificial_Intelligence_pub.json": "2024-06-28T16:12:36.844075",
-    "googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_2019_Meaningful_Explanations_of_pub.json": "2024-06-28T16:13:00.075988",
-    "googlescholar_yZTneswAAAAJd1gkVwhDpl0C_1999_The_string_B-tree_pub.json": "2024-06-28T16:13:05.843752",
-    "googlescholar_yZTneswAAAAJqjMakFHDy7sC_2006_Squeezing_succinct_data_pub.json": "2024-06-28T16:14:14.724047",
-    "googlescholar_KZUaK6YAAAAJeq2jaN3J8jMC_2022_Counterfactual_explanations_and_pub.json": "2024-06-28T16:14:58.796195",
-    "googlescholar_yZTneswAAAAJZHo1McVdvXMC_2013_Optimal_listing_of_pub.json": "2024-06-28T16:15:17.113214",
-    "googlescholar_QDIhYPgAAAAJ_FxGoFyzp5QC_2006_A_logical_view_pub.json": "2024-06-28T16:18:35.879533",
-    "googlescholar_QDIhYPgAAAAJWp0gIr-vW9MC_2002_Mark,_a_reasoning_pub.json": "2024-06-28T16:18:47.374201",
-    "googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_2007_Logic\u2013Based_Detection_of_pub.json": "2024-06-28T16:18:47.818013",
-    "googlescholar_QDIhYPgAAAAJufrVoPGSRksC_1999_Composing_Specications_for_pub.json": "2024-06-28T16:19:01.520619",
-    "googlescholar_QDIhYPgAAAAJTFP_iSt0sucC_2018_Requirement_engineering_of_pub.json": "2024-06-28T16:19:14.143514",
-    "googlescholar_KZUaK6YAAAAJeflP2zaiRacC_2023_Benchmarking_and_survey_pub.json": "2024-06-28T16:19:21.007194",
-    "googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_2004_When_indexing_equals_pub.json": "2024-06-28T16:19:39.939720",
-    "googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_2021_Glocalx-from_local_to_pub.json": "2024-06-28T16:19:46.626009",
-    "googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_2021_Human_migration_The_pub.json": "2024-06-28T16:19:47.756072",
-    "googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_1997_On_sorting_strings_pub.json": "2024-06-28T16:20:13.077180",
-    "googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_2017_Myway_Location_prediction_pub.json": "2024-06-28T16:20:19.704796",
-    "googlescholar_yZTneswAAAAJUeHWp8X0CEIC_1989_Simple_and_efficient_pub.json": "2024-06-28T16:20:33.365296",
-    "googlescholar_yZTneswAAAAJW7OEmFMy1HYC_1993_Suffix_trees_and_pub.json": "2024-06-28T16:20:42.229854",
-    "googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_2020_Black_box_explanation_pub.json": "2024-06-28T16:20:50.260309",
-    "googlescholar_yZTneswAAAAJY0pCki6q_DkC_2005_Bases_of_motifs_pub.json": "2024-06-28T16:21:06.187717",
-    "googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_2022_Explainable_AI_for_pub.json": "2024-06-28T16:24:11.708644",
-    "googlescholar_KZUaK6YAAAAJUxriW0iASnsC_2021_Give_more_data,_pub.json": "2024-06-28T16:24:20.015429",
-    "googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_2021_Evaluating_local_explanation_pub.json": "2024-06-28T16:24:25.791458",
-    "googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_2017_Never_drive_alone_pub.json": "2024-06-28T16:25:40.893995",
-    "googlescholar_yZTneswAAAAJJV2RwH3_ST0C_2013_On_computing_the_pub.json": "2024-06-28T16:26:32.828752",
-    "googlescholar_KZUaK6YAAAAJ:JQOojiI6XY0C_citation": "2024-06-28T16:26:41.875214",
-    "googlescholar_yZTneswAAAAJSe3iqnhoufwC_2006_When_indexing_equals_pub.json": "2024-06-28T16:26:43.901637",
-    "googlescholar_QDIhYPgAAAAJqjMakFHDy7sC_2000_Mobile_Agents_Coordination_pub.json": "2024-06-28T16:27:05.740749",
-    "googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_1999_A_refinement_calculus_pub.json": "2024-06-28T16:27:32.745770",
-    "googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_2018_Hacking_an_ambiguity_pub.json": "2024-06-28T16:27:38.097808",
-    "googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_2002_Distributed_states_logic_pub.json": "2024-06-28T16:27:48.942232",
-    "googlescholar_QDIhYPgAAAAJRGFaLdJalmkC_2021_A_spaCy-based_tool_pub.json": "2024-06-28T16:27:56.183868",
-    "googlescholar_KZUaK6YAAAAJ:UxriW0iASnsC_citation": "2024-06-28T16:28:24.471186",
-    "googlescholar_KZUaK6YAAAAJ:pqnbT2bcN3wC_citation": "2024-06-28T16:28:27.787521",
-    "googlescholar_KZUaK6YAAAAJ:l7t_Zn2s7bgC_citation": "2024-06-28T16:28:52.654730",
-    "googlescholar_KZUaK6YAAAAJ:9ZlFYXVOiuMC_citation": "2024-06-28T16:28:55.694839",
-    "googlescholar_yZTneswAAAAJ:UeHWp8X0CEIC_citation": "2024-06-28T16:29:01.934155",
-    "googlescholar_yZTneswAAAAJ:Y0pCki6q_DkC_citation": "2024-06-28T16:29:14.599038",
-    "googlescholar_yZTneswAAAAJ:W7OEmFMy1HYC_citation": "2024-06-28T16:29:15.633272",
-    "googlescholar_yZTneswAAAAJ:JV2RwH3_ST0C_citation": "2024-06-28T16:29:45.691579",
-    "googlescholar_QDIhYPgAAAAJ:8k81kl-MbHgC_citation": "2024-06-28T16:30:11.144068",
-    "googlescholar_QDIhYPgAAAAJ:qjMakFHDy7sC_citation": "2024-06-28T16:30:22.741056",
-    "googlescholar_QDIhYPgAAAAJ:4DMP91E08xMC_citation": "2024-06-28T16:30:29.633941",
-    "googlescholar_QDIhYPgAAAAJ:RGFaLdJalmkC_citation": "2024-06-28T16:30:58.927366",
-    "googlescholar_yZTneswAAAAJ:9yKSN-GCB0IC_citation": "2024-06-28T16:38:27.857960",
-    "googlescholar_yZTneswAAAAJ:2osOgNQ5qMEC_citation": "2024-06-28T16:38:39.931214",
-    "googlescholar_yZTneswAAAAJ:Se3iqnhoufwC_citation": "2024-06-28T16:40:49.429519",
-    "googlescholar_yZTneswAAAAJRi6SYOTghG4C_2018_D2K_scalable_community_pub.json": "2024-06-28T16:40:52.928269",
-    "googlescholar_yZTneswAAAAJLkGwnXOMwfcC_2007_On_the_size_pub.json": "2024-06-28T16:41:31.398886",
-    "googlescholar_yZTneswAAAAJisC4tDSrTZIC_2015_Fast_compressed_tries_pub.json": "2024-06-28T16:41:51.187996",
-    "googlescholar_yZTneswAAAAJnrtMV_XWKgEC_2016_Sublinear-space_bounded-delay_enumeration_pub.json": "2024-06-28T16:41:52.907507",
-    "googlescholar_yZTneswAAAAJIjCSPb-OGe4C_1999_IP_address_lookupmade_pub.json": "2024-06-28T16:42:33.950319",
-    "googlescholar_yZTneswAAAAJ:Ri6SYOTghG4C_citation": "2024-06-28T16:43:37.373881",
-    "googlescholar_QDIhYPgAAAAJ:ufrVoPGSRksC_citation": "2024-06-28T16:45:32.633718",
-    "googlescholar_QDIhYPgAAAAJ:_FxGoFyzp5QC_citation": "2024-06-28T16:45:38.592782",
-    "googlescholar_QDIhYPgAAAAJ:Wp0gIr-vW9MC_citation": "2024-06-28T16:45:55.116596",
-    "googlescholar_QDIhYPgAAAAJ:TFP_iSt0sucC_citation": "2024-06-28T16:47:00.573066",
-    "googlescholar_KZUaK6YAAAAJ:eflP2zaiRacC_citation": "2024-06-28T16:47:33.330470",
-    "googlescholar_KZUaK6YAAAAJ:5Ul4iDaHHb8C_citation": "2024-06-28T16:48:19.374346",
-    "googlescholar_KZUaK6YAAAAJ:P5F9QuxV20EC_citation": "2024-06-28T16:48:24.857682",
-    "googlescholar_QDIhYPgAAAAJ:9yKSN-GCB0IC_citation": "2024-06-28T16:48:47.060311",
-    "googlescholar_KZUaK6YAAAAJ:Wp0gIr-vW9MC_citation": "2024-06-28T16:49:22.157459",
-    "googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_1996_A_proposal_to_pub.json": "2024-06-28T16:50:29.484503",
-    "googlescholar_QDIhYPgAAAAJIjCSPb-OGe4C_2015_Using_a_machine_pub.json": "2024-06-28T16:50:52.233177",
-    "googlescholar_QDIhYPgAAAAJeQOLeE2rZwMC_1999_Formal_description_and_pub.json": "2024-06-28T16:51:50.764659",
-    "googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_2017_Ambiguity_defects_as_pub.json": "2024-06-28T16:52:01.366310",
-    "googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_2000_Multiple_Security_Policies_pub.json": "2024-06-28T16:52:43.493658",
-    "googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_2024_Explainable_Artificial_Intelligence_pub.json": "2024-06-28T16:52:51.156168",
-    "googlescholar_KZUaK6YAAAAJTQgYirikUcIC_2017_The_GRAAL_of_pub.json": "2024-06-28T16:53:28.790531",
-    "googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_2020_Explaining_any_time_pub.json": "2024-06-28T16:53:31.505271",
-    "googlescholar_KZUaK6YAAAAJ4OULZ7Gr8RgC_2018_Personalized_market_basket_pub.json": "2024-06-28T16:54:10.499996",
-    "googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_2019_On_the_stability_pub.json": "2024-06-28T16:54:28.456978",
-    "googlescholar_yZTneswAAAAJ:nrtMV_XWKgEC_citation": "2024-06-28T16:54:42.947231",
-    "googlescholar_yZTneswAAAAJ:LkGwnXOMwfcC_citation": "2024-06-28T16:55:19.137455",
-    "googlescholar_yZTneswAAAAJ:IjCSPb-OGe4C_citation": "2024-06-28T16:55:38.082793",
-    "googlescholar_QDIhYPgAAAAJ:IjCSPb-OGe4C_citation": "2024-06-28T16:55:56.273151",
-    "googlescholar_QDIhYPgAAAAJ:ZeXyd9-uunAC_citation": "2024-06-28T16:55:58.816350",
-    "googlescholar_KZUaK6YAAAAJ:70eg2SAEIzsC_citation.json": "2024-06-29T10:43:27.433509",
-    "googlescholar_KZUaK6YAAAAJ:eflP2zaiRacC_citation.json": "2024-06-29T10:45:43.849897",
-    "googlescholar_QDIhYPgAAAAJ:Wp0gIr-vW9MC_citation.json": "2024-06-29T10:54:22.288773",
-    "googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_citation.json": "2024-06-29T11:12:17.836287",
-    "googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_citation.json": "2024-06-29T11:13:14.895138",
-    "googlescholar_yZTneswAAAAJu5HHmVD_uO8C_citation.json": "2024-06-29T11:19:08.070230",
-    "googlescholar_yZTneswAAAAJZHo1McVdvXMC_citation.json": "2024-06-29T11:22:07.808516",
-    "googlescholar_KZUaK6YAAAAJ:M3NEmzRMIkIC_article": "2024-06-29T11:46:44.862724",
-    "googlescholar_KZUaK6YAAAAJ:M3NEmzRMIkIC_related.json": "2024-06-29T11:47:48.399092",
-    "googlescholar_KZUaK6YAAAAJ:EUQCXRtRnyEC_article": "2024-06-29T11:48:07.474315",
-    "googlescholar_KZUaK6YAAAAJ:eq2jaN3J8jMC_article": "2024-06-29T11:50:03.697109"
+    "scholarlyAuthor": 26,
+    "googlescholar_Riccardo Guidotti": [
+        "9",
+        "2024-06-29T22:33:05.104423"
+    ],
+    "googlescholar_Roberto Grossi": [
+        "9",
+        "2024-06-29T22:33:16.503940"
+    ],
+    "googlescholar_Laura Semini": [
+        "8",
+        "2024-06-29T22:33:30.088091"
+    ],
+    "getScholarlyCitations": 932,
+    "getScholarlyPubRelatedArticles": 900,
+    "googlescholar_KZUaK6YAAAAJ:M3NEmzRMIkIC_citation": [
+        "4",
+        "2024-06-29T19:00:44.454589"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:M3NEmzRMIkIC_article": [
+        "6",
+        "2024-06-29T21:07:55.662040"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:9ZlFYXVOiuMC_citation": [
+        "4",
+        "2024-06-29T23:32:03.900212"
+    ],
+    "scholarlyPublication": 68,
+    "googlescholar_yZTneswAAAAJ:Se3iqnhoufwC_citation": [
+        "4",
+        "2024-06-29T22:47:32.313618"
+    ],
+    "googlescholar_yZTneswAAAAJ:d1gkVwhDpl0C_article": [
+        "3",
+        "2024-06-29T22:39:27.553639"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:EUQCXRtRnyEC_citation": [
+        "3",
+        "2024-06-29T22:34:01.267789"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:RGFaLdJalmkC_article": [
+        "3",
+        "2024-06-29T22:55:11.470870"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:p__nRnzSRKYC_citation": [
+        "4",
+        "2024-06-29T22:41:22.576620"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:4OULZ7Gr8RgC_article": [
+        "4",
+        "2024-06-29T22:46:38.478322"
+    ],
+    "googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_citation.json": [
+        "9",
+        "2024-06-30T01:14:11.827029"
+    ],
+    "googlescholar_KZUaK6YAAAAJblknAaTinKkC_2018_Discovering_temporal_regularities_pub.json": [
+        "1",
+        "2024-06-29T18:55:24.828283"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:qjMakFHDy7sC_citation": [
+        "2",
+        "2024-06-29T22:51:49.024867"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:TQgYirikUcIC_article": [
+        "3",
+        "2024-06-29T22:42:36.680182"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:4OULZ7Gr8RgC_citation": [
+        "3",
+        "2024-06-29T22:45:59.421964"
+    ],
+    "googlescholar_KZUaK6YAAAAJRYcK_YlVTxYC_2018_Personalized_market_basket_pub.json": [
+        "1",
+        "2024-06-29T19:01:47.389525"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:Wp0gIr-vW9MC_article": [
+        "2",
+        "2024-06-29T22:48:59.294377"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:eq2jaN3J8jMC_citation": [
+        "2",
+        "2024-06-29T23:21:13.483565"
+    ],
+    "googlescholar_KZUaK6YAAAAJ4OULZ7Gr8RgC_citation.json": [
+        "11",
+        "2024-06-29T23:18:24.512419"
+    ],
+    "googlescholar_yZTneswAAAAJ:u-x6o8ySG0sC_citation": [
+        "2",
+        "2024-06-29T22:37:44.368162"
+    ],
+    "googlescholar_yZTneswAAAAJ:u-x6o8ySG0sC_article": [
+        "2",
+        "2024-06-29T22:37:56.109168"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:70eg2SAEIzsC_citation": [
+        "2",
+        "2024-06-29T22:35:50.731385"
+    ],
+    "googlescholar_yZTneswAAAAJ:u5HHmVD_uO8C_citation": [
+        "2",
+        "2024-06-29T22:38:31.646036"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:70eg2SAEIzsC_article": [
+        "3",
+        "2024-06-29T22:36:03.622964"
+    ],
+    "googlescholar_yZTneswAAAAJ:u5HHmVD_uO8C_article": [
+        "2",
+        "2024-06-29T22:38:39.412738"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:eflP2zaiRacC_citation": [
+        "2",
+        "2024-06-29T22:36:18.513147"
+    ],
+    "googlescholar_yZTneswAAAAJ:d1gkVwhDpl0C_citation": [
+        "2",
+        "2024-06-29T22:39:15.558256"
+    ],
+    "googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_related.json": [
+        "7",
+        "2024-06-30T01:07:59.978189"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:eflP2zaiRacC_article": [
+        "3",
+        "2024-06-29T22:36:28.495453"
+    ],
+    "googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json": [
+        "7",
+        "2024-06-30T01:08:58.415221"
+    ],
+    "googlescholar_yZTneswAAAAJ:qjMakFHDy7sC_citation": [
+        "2",
+        "2024-06-29T22:39:51.747257"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:5Ul4iDaHHb8C_article": [
+        "3",
+        "2024-06-29T23:01:42.615609"
+    ],
+    "googlescholar_yZTneswAAAAJ:qjMakFHDy7sC_article": [
+        "2",
+        "2024-06-29T22:40:05.205374"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:P5F9QuxV20EC_citation": [
+        "3",
+        "2024-06-29T22:37:07.674696"
+    ],
+    "googlescholar_yZTneswAAAAJ:ZHo1McVdvXMC_citation": [
+        "2",
+        "2024-06-29T22:40:33.957248"
+    ],
+    "googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_related.json": [
+        "3",
+        "2024-06-30T01:05:08.934777"
+    ],
+    "googlescholar_yZTneswAAAAJ:ZHo1McVdvXMC_article": [
+        "2",
+        "2024-06-29T22:40:54.803932"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:Wp0gIr-vW9MC_citation": [
+        "3",
+        "2024-06-29T22:37:24.435876"
+    ],
+    "googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_citation.json": [
+        "6",
+        "2024-06-30T01:07:12.735713"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:Wp0gIr-vW9MC_article": [
+        "3",
+        "2024-06-29T22:37:31.631634"
+    ],
+    "googlescholar_yZTneswAAAAJ:9yKSN-GCB0IC_article": [
+        "2",
+        "2024-06-29T22:41:34.358894"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:pqnbT2bcN3wC_citation": [
+        "3",
+        "2024-06-29T22:38:10.532041"
+    ],
+    "googlescholar_yZTneswAAAAJ:2osOgNQ5qMEC_citation": [
+        "2",
+        "2024-06-29T22:41:59.534406"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:pqnbT2bcN3wC_article": [
+        "3",
+        "2024-06-29T22:38:22.096897"
+    ],
+    "googlescholar_yZTneswAAAAJ:2osOgNQ5qMEC_article": [
+        "2",
+        "2024-06-29T22:42:28.300589"
+    ],
+    "googlescholar_yZTneswAAAAJ:UeHWp8X0CEIC_citation": [
+        "2",
+        "2024-06-29T22:43:04.877381"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:l7t_Zn2s7bgC_article": [
+        "3",
+        "2024-06-29T22:39:07.239870"
+    ],
+    "googlescholar_yZTneswAAAAJ:UeHWp8X0CEIC_article": [
+        "2",
+        "2024-06-29T23:35:16.860168"
+    ],
+    "googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_citation.json": [
+        "4",
+        "2024-06-30T01:08:39.094380"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:UxriW0iASnsC_article": [
+        "3",
+        "2024-06-29T22:39:45.803032"
+    ],
+    "googlescholar_yZTneswAAAAJ:W7OEmFMy1HYC_article": [
+        "2",
+        "2024-06-29T23:35:57.452620"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:JQOojiI6XY0C_citation": [
+        "3",
+        "2024-06-29T22:40:15.115380"
+    ],
+    "googlescholar_yZTneswAAAAJ:Y0pCki6q_DkC_citation": [
+        "1",
+        "2024-06-29T19:08:42.769702"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:JQOojiI6XY0C_article": [
+        "3",
+        "2024-06-29T22:40:23.647565"
+    ],
+    "googlescholar_yZTneswAAAAJ:Y0pCki6q_DkC_article": [
+        "2",
+        "2024-06-29T22:45:44.641356"
+    ],
+    "googlescholar_yZTneswAAAAJ:JV2RwH3_ST0C_citation": [
+        "2",
+        "2024-06-29T22:46:25.919974"
+    ],
+    "googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_related.json": [
+        "10",
+        "2024-06-30T01:12:45.470538"
+    ],
+    "googlescholar_yZTneswAAAAJY0pCki6q_DkC_related.json": [
+        "8",
+        "2024-06-30T01:17:50.798370"
+    ],
+    "googlescholar_yZTneswAAAAJ:JV2RwH3_ST0C_article": [
+        "2",
+        "2024-06-29T22:46:59.746083"
+    ],
+    "googlescholar_yZTneswAAAAJ:Se3iqnhoufwC_article": [
+        "2",
+        "2024-06-29T23:11:56.263955"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:TQgYirikUcIC_citation": [
+        "2",
+        "2024-06-29T22:42:19.680640"
+    ],
+    "googlescholar_yZTneswAAAAJ:Ri6SYOTghG4C_citation": [
+        "2",
+        "2024-06-29T22:48:20.432559"
+    ],
+    "googlescholar_yZTneswAAAAJLkGwnXOMwfcC_2007_On_the_size_pub.json": [
+        "1",
+        "2024-06-29T19:10:48.167513"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:LPZeul_q3PIC_citation": [
+        "2",
+        "2024-06-29T22:43:17.239410"
+    ],
+    "googlescholar_yZTneswAAAAJRi6SYOTghG4C_citation.json": [
+        "10",
+        "2024-06-30T00:55:46.505674"
+    ],
+    "googlescholar_yZTneswAAAAJisC4tDSrTZIC_2015_Fast_compressed_tries_pub.json": [
+        "1",
+        "2024-06-29T19:11:15.713441"
+    ],
+    "googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_citation.json": [
+        "7",
+        "2024-06-30T01:14:58.132361"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:ZHo1McVdvXMC_citation": [
+        "3",
+        "2024-06-29T22:44:42.885049"
+    ],
+    "googlescholar_yZTneswAAAAJ:LkGwnXOMwfcC_article": [
+        "2",
+        "2024-06-29T23:14:21.425111"
+    ],
+    "googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_citation.json": [
+        "9",
+        "2024-06-30T00:52:50.666865"
+    ],
+    "googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_related.json": [
+        "4",
+        "2024-06-29T23:38:35.004819"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:Zph67rFs4hoC_article": [
+        "2",
+        "2024-06-29T22:42:10.524099"
+    ],
+    "googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_citation.json": [
+        "10",
+        "2024-06-30T00:56:10.716945"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:0EnyYjriUFMC_citation": [
+        "2",
+        "2024-06-29T23:07:19.729948"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:0EnyYjriUFMC_article": [
+        "2",
+        "2024-06-29T22:42:51.019836"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:qxL8FJ1GzNcC_citation": [
+        "3",
+        "2024-06-29T22:48:14.827070"
+    ],
+    "googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_citation.json": [
+        "7",
+        "2024-06-30T01:14:05.167252"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:qxL8FJ1GzNcC_article": [
+        "2",
+        "2024-06-29T22:48:38.577023"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:XD-gHx7UXLsC_citation": [
+        "2",
+        "2024-06-29T22:51:57.726162"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:LkGwnXOMwfcC_article": [
+        "2",
+        "2024-06-29T22:44:16.243280"
+    ],
+    "googlescholar_KZUaK6YAAAAJXD-gHx7UXLsC_citation.json": [
+        "6",
+        "2024-06-30T00:55:40.340078"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:KlAtU1dfN6UC_citation": [
+        "2",
+        "2024-06-29T22:44:57.656650"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:e5wmG9Sq2KIC_article": [
+        "2",
+        "2024-06-29T23:40:38.875880"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:KlAtU1dfN6UC_article": [
+        "2",
+        "2024-06-29T22:45:33.361729"
+    ],
+    "googlescholar_KZUaK6YAAAAJe5wmG9Sq2KIC_related.json": [
+        "6",
+        "2024-06-30T01:19:25.830168"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:dhFuZR0502QC_citation": [
+        "2",
+        "2024-06-29T22:46:11.298550"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:dhFuZR0502QC_article": [
+        "1",
+        "2024-06-29T19:15:18.294424"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:blknAaTinKkC_article": [
+        "2",
+        "2024-06-29T22:52:20.045687"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:ufrVoPGSRksC_citation": [
+        "2",
+        "2024-06-29T22:47:23.425124"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:ufrVoPGSRksC_article": [
+        "2",
+        "2024-06-29T22:47:50.363176"
+    ],
+    "googlescholar_KZUaK6YAAAAJMojj43d5GZwC_2021_Principles_of_explainable_pub.json": [
+        "1",
+        "2024-06-29T19:16:05.455465"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:Wp0gIr-vW9MC_citation": [
+        "2",
+        "2024-06-29T23:12:24.764457"
+    ],
+    "googlescholar_QDIhYPgAAAAJWp0gIr-vW9MC_citation.json": [
+        "8",
+        "2024-06-30T01:19:06.024008"
+    ],
+    "googlescholar_KZUaK6YAAAAJt6usbXjVLHcC_2021_Local_rule-based_explanations_pub.json": [
+        "1",
+        "2024-06-29T19:16:45.721889"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:dfsIfKJdRG4C_citation": [
+        "2",
+        "2024-06-29T22:52:46.015122"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:_FxGoFyzp5QC_article": [
+        "2",
+        "2024-06-29T22:49:45.137046"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:TFP_iSt0sucC_citation": [
+        "2",
+        "2024-06-29T23:14:58.781721"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:XD-gHx7UXLsC_article": [
+        "2",
+        "2024-06-29T23:19:22.954034"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:TFP_iSt0sucC_article": [
+        "2",
+        "2024-06-29T23:15:22.583158"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:qjMakFHDy7sC_article": [
+        "2",
+        "2024-06-29T22:52:33.014726"
+    ],
+    "googlescholar_QDIhYPgAAAAJqjMakFHDy7sC_citation.json": [
+        "7",
+        "2024-06-30T00:14:14.570977"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:8k81kl-MbHgC_citation": [
+        "3",
+        "2024-06-29T22:53:00.064553"
+    ],
+    "googlescholar_QDIhYPgAAAAJqjMakFHDy7sC_related.json": [
+        "7",
+        "2024-06-30T00:13:53.513781"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:9yKSN-GCB0IC_citation": [
+        "2",
+        "2024-06-29T22:53:44.849800"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:t6usbXjVLHcC_citation": [
+        "2",
+        "2024-06-29T23:18:43.881077"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:9yKSN-GCB0IC_article": [
+        "2",
+        "2024-06-29T22:54:12.630546"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:RGFaLdJalmkC_citation": [
+        "2",
+        "2024-06-29T22:54:35.343143"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:4DMP91E08xMC_citation": [
+        "2",
+        "2024-06-29T22:55:34.116441"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:4DMP91E08xMC_article": [
+        "3",
+        "2024-06-29T22:56:00.100957"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:ZeXyd9-uunAC_citation": [
+        "2",
+        "2024-06-29T22:56:43.536809"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:IjCSPb-OGe4C_citation": [
+        "2",
+        "2024-06-29T23:22:57.660514"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:IjCSPb-OGe4C_article": [
+        "2",
+        "2024-06-29T22:35:20.253552"
+    ],
+    "googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json": [
+        "8",
+        "2024-06-30T01:15:24.217534"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:eQOLeE2rZwMC_citation": [
+        "2",
+        "2024-06-29T22:35:32.594144"
+    ],
+    "googlescholar_QDIhYPgAAAAJIjCSPb-OGe4C_related.json": [
+        "10",
+        "2024-06-30T01:08:52.217289"
+    ],
+    "googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_2017_Ambiguity_defects_as_pub.json": [
+        "1",
+        "2024-06-29T19:20:21.138695"
+    ],
+    "googlescholar_QDIhYPgAAAAJeQOLeE2rZwMC_citation.json": [
+        "6",
+        "2024-06-30T01:07:20.642595"
+    ],
+    "googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_2000_Multiple_Security_Policies_pub.json": [
+        "1",
+        "2024-06-29T19:20:36.519093"
+    ],
+    "googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_1993_Control_Specification_in_pub.json": [
+        "1",
+        "2024-06-29T19:20:54.052956"
+    ],
+    "googlescholar_KZUaK6YAAAAJeq2jaN3J8jMC_citation.json": [
+        "3",
+        "2024-06-30T00:57:27.396013"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:ULOm3_A8WrAC_citation": [
+        "2",
+        "2024-06-29T22:35:42.171652"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:e5wmG9Sq2KIC_citation": [
+        "2",
+        "2024-06-30T01:00:24.455106"
+    ],
+    "googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json": [
+        "8",
+        "2024-06-30T01:11:16.127977"
+    ],
+    "googlescholar_yZTneswAAAAJu-x6o8ySG0sC_related.json": [
+        "7",
+        "2024-06-30T01:09:27.699688"
+    ],
+    "googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_citation.json": [
+        "9",
+        "2024-06-30T01:09:36.644821"
+    ],
+    "googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_citation.json": [
+        "2",
+        "2024-06-29T19:43:54.914951"
+    ],
+    "googlescholar_yZTneswAAAAJu5HHmVD_uO8C_citation.json": [
+        "12",
+        "2024-06-30T01:12:58.270357"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:RYcK_YlVTxYC_article": [
+        "3",
+        "2024-06-30T00:05:56.259989"
+    ],
+    "googlescholar_yZTneswAAAAJu5HHmVD_uO8C_related.json": [
+        "9",
+        "2024-06-30T01:12:00.330283"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:5Ul4iDaHHb8C_citation": [
+        "3",
+        "2024-06-29T22:36:41.771951"
+    ],
+    "googlescholar_KZUaK6YAAAAJeflP2zaiRacC_related.json": [
+        "5",
+        "2024-06-30T00:39:57.516184"
+    ],
+    "googlescholar_yZTneswAAAAJd1gkVwhDpl0C_related.json": [
+        "8",
+        "2024-06-30T01:10:58.329067"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:P5F9QuxV20EC_article": [
+        "3",
+        "2024-06-29T22:37:15.942587"
+    ],
+    "googlescholar_yZTneswAAAAJqjMakFHDy7sC_citation.json": [
+        "6",
+        "2024-06-30T01:10:29.316972"
+    ],
+    "googlescholar_yZTneswAAAAJqjMakFHDy7sC_related.json": [
+        "5",
+        "2024-06-30T00:43:51.576808"
+    ],
+    "googlescholar_yZTneswAAAAJ:9yKSN-GCB0IC_citation": [
+        "2",
+        "2024-06-29T22:41:10.087690"
+    ],
+    "googlescholar_yZTneswAAAAJZHo1McVdvXMC_citation.json": [
+        "6",
+        "2024-06-30T01:11:54.318359"
+    ],
+    "googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json": [
+        "4",
+        "2024-06-30T00:44:01.983033"
+    ],
+    "googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_citation.json": [
+        "5",
+        "2024-06-30T01:11:42.733339"
+    ],
+    "googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_related.json": [
+        "5",
+        "2024-06-30T01:08:28.873711"
+    ],
+    "googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json": [
+        "5",
+        "2024-06-30T00:45:45.053959"
+    ],
+    "googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json": [
+        "7",
+        "2024-06-30T01:09:49.424724"
+    ],
+    "googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_related.json": [
+        "6",
+        "2024-06-30T01:08:05.897388"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:UxriW0iASnsC_citation": [
+        "2",
+        "2024-06-29T23:31:02.654212"
+    ],
+    "googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_related.json": [
+        "5",
+        "2024-06-30T01:13:07.829847"
+    ],
+    "googlescholar_yZTneswAAAAJ:W7OEmFMy1HYC_citation": [
+        "2",
+        "2024-06-29T22:44:03.349747"
+    ],
+    "googlescholar_KZUaK6YAAAAJUxriW0iASnsC_citation.json": [
+        "4",
+        "2024-06-30T01:09:11.642898"
+    ],
+    "googlescholar_yZTneswAAAAJUeHWp8X0CEIC_related.json": [
+        "3",
+        "2024-06-30T01:12:18.937844"
+    ],
+    "googlescholar_KZUaK6YAAAAJUxriW0iASnsC_related.json": [
+        "6",
+        "2024-06-30T01:11:22.441096"
+    ],
+    "googlescholar_yZTneswAAAAJW7OEmFMy1HYC_related.json": [
+        "6",
+        "2024-06-30T01:15:47.472421"
+    ],
+    "googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json": [
+        "5",
+        "2024-06-30T00:44:24.775115"
+    ],
+    "googlescholar_yZTneswAAAAJY0pCki6q_DkC_citation.json": [
+        "6",
+        "2024-06-30T00:56:56.972261"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:9ZlFYXVOiuMC_article": [
+        "3",
+        "2024-06-29T22:41:03.813041"
+    ],
+    "googlescholar_yZTneswAAAAJJV2RwH3_ST0C_citation.json": [
+        "6",
+        "2024-06-30T01:17:26.258990"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:p__nRnzSRKYC_article": [
+        "3",
+        "2024-06-29T22:41:52.749496"
+    ],
+    "googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_related.json": [
+        "9",
+        "2024-06-30T01:17:20.967141"
+    ],
+    "googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json": [
+        "9",
+        "2024-06-30T01:14:20.666962"
+    ],
+    "googlescholar_yZTneswAAAAJSe3iqnhoufwC_citation.json": [
+        "6",
+        "2024-06-30T01:18:31.041899"
+    ],
+    "googlescholar_yZTneswAAAAJ:Ri6SYOTghG4C_article": [
+        "1",
+        "2024-06-29T19:29:42.288512"
+    ],
+    "googlescholar_yZTneswAAAAJSe3iqnhoufwC_related.json": [
+        "4",
+        "2024-06-30T00:50:55.032413"
+    ],
+    "googlescholar_KZUaK6YAAAAJTQgYirikUcIC_citation.json": [
+        "7",
+        "2024-06-30T00:48:24.200018"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:LPZeul_q3PIC_article": [
+        "2",
+        "2024-06-29T21:13:42.655799"
+    ],
+    "googlescholar_yZTneswAAAAJnrtMV_XWKgEC_2016_Sublinear-space_bounded-delay_enumeration_pub.json": [
+        "1",
+        "2024-06-29T19:30:33.506609"
+    ],
+    "googlescholar_yZTneswAAAAJIjCSPb-OGe4C_1999_IP_address_lookupmade_pub.json": [
+        "1",
+        "2024-06-29T19:30:56.486066"
+    ],
+    "googlescholar_yZTneswAAAAJzYLM7Y9cAGgC_1995_A_fully-dynamic_data_pub.json": [
+        "1",
+        "2024-06-29T19:31:17.106901"
+    ],
+    "googlescholar_yZTneswAAAAJ:IjCSPb-OGe4C_citation": [
+        "2",
+        "2024-06-29T22:53:10.819792"
+    ],
+    "googlescholar_yZTneswAAAAJ:isC4tDSrTZIC_article": [
+        "2",
+        "2024-06-29T22:51:20.854968"
+    ],
+    "googlescholar_yZTneswAAAAJLkGwnXOMwfcC_related.json": [
+        "6",
+        "2024-06-30T00:55:03.673525"
+    ],
+    "googlescholar_yZTneswAAAAJ:nrtMV_XWKgEC_citation": [
+        "2",
+        "2024-06-29T23:15:59.301019"
+    ],
+    "googlescholar_yZTneswAAAAJ:nrtMV_XWKgEC_article": [
+        "1",
+        "2024-06-29T19:32:12.781822"
+    ],
+    "googlescholar_KZUaK6YAAAAJ4OULZ7Gr8RgC_related.json": [
+        "6",
+        "2024-06-30T01:17:00.837957"
+    ],
+    "googlescholar_QDIhYPgAAAAJZph67rFs4hoC_related.json": [
+        "5",
+        "2024-06-30T01:12:52.848276"
+    ],
+    "googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json": [
+        "8",
+        "2024-06-30T01:16:23.492794"
+    ],
+    "googlescholar_KZUaK6YAAAAJqxL8FJ1GzNcC_citation.json": [
+        "3",
+        "2024-06-30T01:16:48.369299"
+    ],
+    "googlescholar_KZUaK6YAAAAJqxL8FJ1GzNcC_related.json": [
+        "6",
+        "2024-06-30T00:12:13.839318"
+    ],
+    "googlescholar_yZTneswAAAAJ:zYLM7Y9cAGgC_article": [
+        "2",
+        "2024-06-29T22:54:19.522219"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:e5wmG9Sq2KIC_citation": [
+        "2",
+        "2024-06-29T23:13:38.659822"
+    ],
+    "googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_related.json": [
+        "5",
+        "2024-06-30T01:14:34.678054"
+    ],
+    "googlescholar_KZUaK6YAAAAJe5wmG9Sq2KIC_citation.json": [
+        "2",
+        "2024-06-30T01:16:40.816496"
+    ],
+    "googlescholar_KZUaK6YAAAAJt7zJ5fGR-2UC_2018_Guidotti_R.,_Monreale_pub.json": [
+        "1",
+        "2024-06-29T19:34:32.802455"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:blknAaTinKkC_citation": [
+        "2",
+        "2024-06-29T23:15:36.328451"
+    ],
+    "googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_related.json": [
+        "9",
+        "2024-06-30T01:19:14.949218"
+    ],
+    "googlescholar_QDIhYPgAAAAJdhFuZR0502QC_citation.json": [
+        "6",
+        "2024-06-30T01:17:40.722315"
+    ],
+    "googlescholar_QDIhYPgAAAAJdhFuZR0502QC_related.json": [
+        "6",
+        "2024-06-30T01:17:58.759373"
+    ],
+    "googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_related.json": [
+        "5",
+        "2024-06-30T00:54:20.224104"
+    ],
+    "googlescholar_KZUaK6YAAAAJblknAaTinKkC_related.json": [
+        "3",
+        "2024-06-30T00:53:57.876781"
+    ],
+    "googlescholar_QDIhYPgAAAAJufrVoPGSRksC_citation.json": [
+        "6",
+        "2024-06-30T01:18:43.012694"
+    ],
+    "googlescholar_QDIhYPgAAAAJufrVoPGSRksC_related.json": [
+        "4",
+        "2024-06-29T23:41:02.324177"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:t7zJ5fGR-2UC_citation": [
+        "2",
+        "2024-06-29T23:14:48.490242"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:_FxGoFyzp5QC_citation": [
+        "2",
+        "2024-06-29T23:13:27.792799"
+    ],
+    "googlescholar_QDIhYPgAAAAJ_FxGoFyzp5QC_related.json": [
+        "4",
+        "2024-06-30T01:18:09.751703"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:Mojj43d5GZwC_citation": [
+        "1",
+        "2024-06-29T19:37:06.948704"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:Mojj43d5GZwC_article": [
+        "2",
+        "2024-06-29T22:54:07.282846"
+    ],
+    "googlescholar_QDIhYPgAAAAJTFP_iSt0sucC_citation.json": [
+        "3",
+        "2024-06-30T00:10:59.402709"
+    ],
+    "googlescholar_QDIhYPgAAAAJTFP_iSt0sucC_related.json": [
+        "7",
+        "2024-06-30T00:55:56.751290"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:8k81kl-MbHgC_article": [
+        "2",
+        "2024-06-29T23:17:20.052550"
+    ],
+    "googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_citation.json": [
+        "9",
+        "2024-06-30T00:57:54.052577"
+    ],
+    "googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_citation.json": [
+        "9",
+        "2024-06-30T00:18:30.570003"
+    ],
+    "googlescholar_KZUaK6YAAAAJt6usbXjVLHcC_citation.json": [
+        "6",
+        "2024-06-30T00:57:08.576339"
+    ],
+    "googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json": [
+        "9",
+        "2024-06-30T00:20:35.198798"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:ZeXyd9-uunAC_article": [
+        "1",
+        "2024-06-29T19:39:33.714916"
+    ],
+    "googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_citation.json": [
+        "3",
+        "2024-06-30T00:58:26.509331"
+    ],
+    "googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_related.json": [
+        "7",
+        "2024-06-30T01:02:41.132110"
+    ],
+    "googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_citation.json": [
+        "6",
+        "2024-06-30T01:02:09.892387"
+    ],
+    "googlescholar_QDIhYPgAAAAJIjCSPb-OGe4C_citation.json": [
+        "5",
+        "2024-06-30T01:01:27.385345"
+    ],
+    "googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_1996_Refining_by_architectural_pub.json": [
+        "1",
+        "2024-06-29T19:40:53.954234"
+    ],
+    "googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_1996_Refinement_in_tuple_pub.json": [
+        "1",
+        "2024-06-29T19:41:02.172669"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:eq2jaN3J8jMC_article": [
+        "3",
+        "2024-06-29T22:57:48.334197"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:aqlVkmm33-oC_citation": [
+        "2",
+        "2024-06-29T22:58:14.278818"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:aqlVkmm33-oC_article": [
+        "2",
+        "2024-06-29T23:24:07.539210"
+    ],
+    "googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_citation.json": [
+        "9",
+        "2024-06-30T01:03:31.762037"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:7PzlFSSx8tAC_citation": [
+        "2",
+        "2024-06-29T22:58:46.671199"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:ULOm3_A8WrAC_article": [
+        "2",
+        "2024-06-29T22:59:32.477917"
+    ],
+    "googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_citation.json": [
+        "6",
+        "2024-06-30T01:07:51.974536"
+    ],
+    "googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json": [
+        "7",
+        "2024-06-30T01:08:15.784645"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:RYcK_YlVTxYC_citation": [
+        "3",
+        "2024-06-29T23:38:06.386840"
+    ],
+    "googlescholar_KZUaK6YAAAAJRYcK_YlVTxYC_related.json": [
+        "5",
+        "2024-06-30T01:15:34.603833"
+    ],
+    "googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_citation.json": [
+        "7",
+        "2024-06-30T01:09:17.676820"
+    ],
+    "googlescholar_yZTneswAAAAJ:IjCSPb-OGe4C_article": [
+        "2",
+        "2024-06-29T22:53:39.563723"
+    ],
+    "googlescholar_yZTneswAAAAJTyk-4Ss8FVUC_1996_Fast_string_searching_pub.json": [
+        "1",
+        "2024-06-29T21:08:56.874032"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:e5wmG9Sq2KIC_article": [
+        "2",
+        "2024-06-29T22:58:36.819543"
+    ],
+    "googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json": [
+        "6",
+        "2024-06-30T01:05:30.611812"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:l7t_Zn2s7bgC_citation": [
+        "2",
+        "2024-06-29T22:38:54.505087"
+    ],
+    "googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_citation.json": [
+        "5",
+        "2024-06-30T01:10:14.690069"
+    ],
+    "googlescholar_yZTneswAAAAJRi6SYOTghG4C_related.json": [
+        "5",
+        "2024-06-30T01:05:20.824983"
+    ],
+    "googlescholar_yZTneswAAAAJWF5omc3nYNoC_1999_Efficient_cross-tree_for_pub.json": [
+        "1",
+        "2024-06-29T22:35:12.081286"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:Zph67rFs4hoC_citation": [
+        "1",
+        "2024-06-29T22:41:45.759133"
+    ],
+    "googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json": [
+        "5",
+        "2024-06-30T01:13:42.367199"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:LkGwnXOMwfcC_citation": [
+        "1",
+        "2024-06-29T22:43:22.986071"
+    ],
+    "googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_citation.json": [
+        "6",
+        "2024-06-30T01:16:00.391913"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:ZHo1McVdvXMC_article": [
+        "1",
+        "2024-06-29T22:45:25.526134"
+    ],
+    "googlescholar_yZTneswAAAAJ:LkGwnXOMwfcC_citation": [
+        "1",
+        "2024-06-29T22:49:20.309468"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:EUQCXRtRnyEC_article": [
+        "1",
+        "2024-06-29T22:50:12.496323"
+    ],
+    "googlescholar_yZTneswAAAAJ:isC4tDSrTZIC_citation": [
+        "1",
+        "2024-06-29T22:50:46.929796"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:t7zJ5fGR-2UC_article": [
+        "1",
+        "2024-06-29T22:50:59.855014"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:dfsIfKJdRG4C_article": [
+        "1",
+        "2024-06-29T22:53:18.675839"
+    ],
+    "googlescholar_KZUaK6YAAAAJdfsIfKJdRG4C_related.json": [
+        "4",
+        "2024-06-30T00:56:41.139418"
+    ],
+    "googlescholar_yZTneswAAAAJ:Tyk-4Ss8FVUC_citation": [
+        "1",
+        "2024-06-29T22:54:45.563445"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:t6usbXjVLHcC_article": [
+        "1",
+        "2024-06-29T22:55:00.246434"
+    ],
+    "googlescholar_KZUaK6YAAAAJ738O_yMBCRsC_2020_Explaining_sentiment_classification_pub.json": [
+        "1",
+        "2024-06-29T22:55:24.215412"
+    ],
+    "googlescholar_KZUaK6YAAAAJt6usbXjVLHcC_related.json": [
+        "3",
+        "2024-06-30T00:16:01.668115"
+    ],
+    "googlescholar_KZUaK6YAAAAJg5m5HwL7SMYC_2020_Explaining_multi-label_black-box_pub.json": [
+        "1",
+        "2024-06-29T22:55:53.613306"
+    ],
+    "googlescholar_yZTneswAAAAJoi2SiIJ9l4AC_2019_On_the_complexity_pub.json": [
+        "1",
+        "2024-06-29T22:56:14.575253"
+    ],
+    "googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_2015_Interaction_prediction_in_pub.json": [
+        "1",
+        "2024-06-29T22:56:24.554115"
+    ],
+    "googlescholar_KZUaK6YAAAAJZeXyd9-uunAC_2016_A_supervised_approach_pub.json": [
+        "1",
+        "2024-06-29T22:56:59.367631"
+    ],
+    "googlescholar_yZTneswAAAAJ:oi2SiIJ9l4AC_article": [
+        "1",
+        "2024-06-29T22:57:10.001196"
+    ],
+    "googlescholar_yZTneswAAAAJufrVoPGSRksC_1996_On_the_construction_pub.json": [
+        "1",
+        "2024-06-29T22:57:15.386302"
+    ],
+    "googlescholar_KZUaK6YAAAAJZph67rFs4hoC_2015_Behavioral_entropy_and_pub.json": [
+        "1",
+        "2024-06-29T22:57:28.356618"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:ZeXyd9-uunAC_article": [
+        "1",
+        "2024-06-29T22:57:58.189842"
+    ],
+    "googlescholar_yZTneswAAAAJ:ufrVoPGSRksC_citation": [
+        "1",
+        "2024-06-29T22:58:07.416170"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:Zph67rFs4hoC_citation": [
+        "1",
+        "2024-06-29T22:58:20.665740"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:Zph67rFs4hoC_article": [
+        "1",
+        "2024-06-29T22:58:30.165338"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:UebtZRa9Y70C_citation": [
+        "1",
+        "2024-06-29T22:58:59.062568"
+    ],
+    "googlescholar_KZUaK6YAAAAJZph67rFs4hoC_citation.json": [
+        "5",
+        "2024-06-30T01:04:40.674742"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:UebtZRa9Y70C_article": [
+        "1",
+        "2024-06-29T22:59:24.884058"
+    ],
+    "googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json": [
+        "7",
+        "2024-06-30T01:07:38.526826"
+    ],
+    "googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_2004_Formalizing_an_adaptive_pub.json": [
+        "1",
+        "2024-06-29T22:59:55.331460"
+    ],
+    "googlescholar_QDIhYPgAAAAJ4TOpqqG69KYC_1996_Applying_refinement_calculi_pub.json": [
+        "1",
+        "2024-06-29T23:00:07.843338"
+    ],
+    "googlescholar_QDIhYPgAAAAJ_Qo2XoVZTnwC_1993_Fairness_in_Logic_pub.json": [
+        "1",
+        "2024-06-29T23:00:14.601721"
+    ],
+    "googlescholar_QDIhYPgAAAAJhC7cP41nSMkC_2004_Logic_Based_Coordination_pub.json": [
+        "1",
+        "2024-06-29T23:00:31.913218"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:bEWYMUwI8FkC_article": [
+        "1",
+        "2024-06-29T23:00:53.809498"
+    ],
+    "googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_related.json": [
+        "8",
+        "2024-06-30T01:11:27.714993"
+    ],
+    "googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_citation.json": [
+        "6",
+        "2024-06-30T01:10:07.270849"
+    ],
+    "googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json": [
+        "8",
+        "2024-06-30T00:46:49.426557"
+    ],
+    "googlescholar_yZTneswAAAAJd1gkVwhDpl0C_citation.json": [
+        "4",
+        "2024-06-30T01:10:01.669773"
+    ],
+    "googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_related.json": [
+        "5",
+        "2024-06-30T01:12:32.814298"
+    ],
+    "googlescholar_QDIhYPgAAAAJZph67rFs4hoC_citation.json": [
+        "5",
+        "2024-06-30T01:13:22.943023"
+    ],
+    "googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_related.json": [
+        "5",
+        "2024-06-30T01:13:31.366498"
+    ],
+    "googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json": [
+        "9",
+        "2024-06-30T00:52:25.042349"
+    ],
+    "googlescholar_yZTneswAAAAJW7OEmFMy1HYC_citation.json": [
+        "7",
+        "2024-06-29T23:15:51.688376"
+    ],
+    "googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_citation.json": [
+        "5",
+        "2024-06-30T01:16:09.166048"
+    ],
+    "googlescholar_yZTneswAAAAJJV2RwH3_ST0C_related.json": [
+        "7",
+        "2024-06-30T00:53:35.699580"
+    ],
+    "googlescholar_QDIhYPgAAAAJWp0gIr-vW9MC_related.json": [
+        "4",
+        "2024-06-30T00:53:18.692527"
+    ],
+    "googlescholar_yZTneswAAAAJisC4tDSrTZIC_related.json": [
+        "4",
+        "2024-06-30T00:55:18.011241"
+    ],
+    "googlescholar_yZTneswAAAAJIjCSPb-OGe4C_citation.json": [
+        "7",
+        "2024-06-30T00:59:37.846742"
+    ],
+    "googlescholar_yZTneswAAAAJ:zYLM7Y9cAGgC_citation": [
+        "1",
+        "2024-06-29T23:18:14.086867"
+    ],
+    "googlescholar_yZTneswAAAAJzYLM7Y9cAGgC_related.json": [
+        "7",
+        "2024-06-30T01:00:03.917026"
+    ],
+    "googlescholar_KZUaK6YAAAAJMojj43d5GZwC_related.json": [
+        "6",
+        "2024-06-30T00:59:29.509436"
+    ],
+    "googlescholar_yZTneswAAAAJIjCSPb-OGe4C_related.json": [
+        "3",
+        "2024-06-29T23:48:13.298828"
+    ],
+    "googlescholar_yZTneswAAAAJ:Tyk-4Ss8FVUC_article": [
+        "1",
+        "2024-06-29T23:19:55.919586"
+    ],
+    "googlescholar_yZTneswAAAAJ0EnyYjriUFMC_2008_On_searching_compressed_pub.json": [
+        "1",
+        "2024-06-29T23:20:31.482488"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:738O_yMBCRsC_citation": [
+        "1",
+        "2024-06-29T23:21:26.039989"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:738O_yMBCRsC_article": [
+        "1",
+        "2024-06-29T23:21:33.570852"
+    ],
+    "googlescholar_yZTneswAAAAJ9ZlFYXVOiuMC_2009_More_haste,_less_pub.json": [
+        "1",
+        "2024-06-29T23:21:58.682806"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:g5m5HwL7SMYC_citation": [
+        "1",
+        "2024-06-29T23:22:07.883720"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:g5m5HwL7SMYC_article": [
+        "1",
+        "2024-06-29T23:22:17.382322"
+    ],
+    "googlescholar_yZTneswAAAAJ:oi2SiIJ9l4AC_citation": [
+        "1",
+        "2024-06-29T23:22:25.145560"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:fPk4N6BV_jEC_article": [
+        "1",
+        "2024-06-29T23:22:50.787389"
+    ],
+    "googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_related.json": [
+        "5",
+        "2024-06-30T01:02:21.241167"
+    ],
+    "googlescholar_yZTneswAAAAJnrtMV_XWKgEC_related.json": [
+        "3",
+        "2024-06-30T01:01:01.647650"
+    ],
+    "googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json": [
+        "6",
+        "2024-06-30T01:03:45.777586"
+    ],
+    "googlescholar_yZTneswAAAAJ:ufrVoPGSRksC_article": [
+        "1",
+        "2024-06-29T23:23:58.576150"
+    ],
+    "googlescholar_KZUaK6YAAAAJZeXyd9-uunAC_related.json": [
+        "4",
+        "2024-06-30T01:02:59.929420"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:7PzlFSSx8tAC_article": [
+        "1",
+        "2024-06-29T23:25:05.415128"
+    ],
+    "googlescholar_yZTneswAAAAJufrVoPGSRksC_citation.json": [
+        "5",
+        "2024-06-30T01:04:27.495095"
+    ],
+    "googlescholar_KZUaK6YAAAAJMojj43d5GZwC_citation.json": [
+        "3",
+        "2024-06-30T01:02:50.587895"
+    ],
+    "googlescholar_KZUaK6YAAAAJZph67rFs4hoC_related.json": [
+        "4",
+        "2024-06-30T01:04:00.628937"
+    ],
+    "googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_citation.json": [
+        "6",
+        "2024-06-30T01:05:50.454674"
+    ],
+    "googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_related.json": [
+        "6",
+        "2024-06-30T01:06:27.760914"
+    ],
+    "googlescholar_QDIhYPgAAAAJroLk4NBRz8UC_2016_Variability-based_design_of_pub.json": [
+        "1",
+        "2024-06-29T23:26:42.900435"
+    ],
+    "googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_citation": [
+        "1",
+        "2024-06-29T23:27:12.973253"
+    ],
+    "googlescholar_yZTneswAAAAJ:WF5omc3nYNoC_article": [
+        "1",
+        "2024-06-29T23:27:18.671261"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_citation": [
+        "1",
+        "2024-06-29T23:27:29.228315"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:4TOpqqG69KYC_article": [
+        "1",
+        "2024-06-29T23:27:43.197501"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_citation": [
+        "1",
+        "2024-06-29T23:27:57.894725"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:_Qo2XoVZTnwC_article": [
+        "1",
+        "2024-06-29T23:28:12.219927"
+    ],
+    "googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json": [
+        "5",
+        "2024-06-30T01:07:27.670856"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:hC7cP41nSMkC_article": [
+        "1",
+        "2024-06-29T23:28:36.986926"
+    ],
+    "googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_related.json": [
+        "4",
+        "2024-06-30T01:07:05.789834"
+    ],
+    "googlescholar_QDIhYPgAAAAJ_FxGoFyzp5QC_citation.json": [
+        "4",
+        "2024-06-30T00:53:03.957072"
+    ],
+    "googlescholar_yZTneswAAAAJLkGwnXOMwfcC_citation.json": [
+        "3",
+        "2024-06-30T01:18:57.108775"
+    ],
+    "googlescholar_KZUaK6YAAAAJt7zJ5fGR-2UC_citation.json": [
+        "3",
+        "2024-06-30T00:11:32.607643"
+    ],
+    "googlescholar_yZTneswAAAAJisC4tDSrTZIC_citation.json": [
+        "4",
+        "2024-06-30T00:54:51.235921"
+    ],
+    "googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_related.json": [
+        "4",
+        "2024-06-30T00:55:29.284589"
+    ],
+    "googlescholar_KZUaK6YAAAAJblknAaTinKkC_citation.json": [
+        "2",
+        "2024-06-30T00:11:49.048909"
+    ],
+    "googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_related.json": [
+        "2",
+        "2024-06-30T00:55:24.158999"
+    ],
+    "googlescholar_yZTneswAAAAJzYLM7Y9cAGgC_citation.json": [
+        "3",
+        "2024-06-30T00:56:50.398792"
+    ],
+    "googlescholar_QDIhYPgAAAAJRGFaLdJalmkC_citation.json": [
+        "2",
+        "2024-06-30T00:56:35.247603"
+    ],
+    "googlescholar_yZTneswAAAAJTyk-4Ss8FVUC_citation.json": [
+        "5",
+        "2024-06-30T00:58:57.271302"
+    ],
+    "googlescholar_KZUaK6YAAAAJXD-gHx7UXLsC_related.json": [
+        "5",
+        "2024-06-30T00:59:19.737874"
+    ],
+    "googlescholar_QDIhYPgAAAAJRGFaLdJalmkC_related.json": [
+        "5",
+        "2024-06-30T00:59:51.726624"
+    ],
+    "googlescholar_KZUaK6YAAAAJ738O_yMBCRsC_citation.json": [
+        "4",
+        "2024-06-30T01:00:41.694007"
+    ],
+    "googlescholar_KZUaK6YAAAAJ738O_yMBCRsC_related.json": [
+        "2",
+        "2024-06-30T00:58:48.865248"
+    ],
+    "googlescholar_yZTneswAAAAJ:9ZlFYXVOiuMC_citation": [
+        "1",
+        "2024-06-29T23:49:18.317852"
+    ],
+    "googlescholar_KZUaK6YAAAAJg5m5HwL7SMYC_related.json": [
+        "3",
+        "2024-06-30T01:00:51.508762"
+    ],
+    "googlescholar_yZTneswAAAAJoi2SiIJ9l4AC_citation.json": [
+        "4",
+        "2024-06-30T01:01:48.928999"
+    ],
+    "googlescholar_yZTneswAAAAJ9ZlFYXVOiuMC_related.json": [
+        "4",
+        "2024-06-30T01:01:57.534065"
+    ],
+    "googlescholar_yZTneswAAAAJoi2SiIJ9l4AC_related.json": [
+        "2",
+        "2024-06-29T23:51:28.546155"
+    ],
+    "googlescholar_yZTneswAAAAJufrVoPGSRksC_related.json": [
+        "2",
+        "2024-06-30T00:19:55.112990"
+    ],
+    "googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_related.json": [
+        "4",
+        "2024-06-30T01:03:08.342922"
+    ],
+    "googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_related.json": [
+        "2",
+        "2024-06-30T01:02:26.819304"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:bEWYMUwI8FkC_citation": [
+        "1",
+        "2024-06-29T23:53:50.523018"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:roLk4NBRz8UC_citation": [
+        "1",
+        "2024-06-29T23:54:26.012941"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:hC7cP41nSMkC_citation": [
+        "1",
+        "2024-06-29T23:55:08.412706"
+    ],
+    "googlescholar_QDIhYPgAAAAJ4TOpqqG69KYC_citation.json": [
+        "4",
+        "2024-06-30T01:06:51.696907"
+    ],
+    "googlescholar_QDIhYPgAAAAJ4TOpqqG69KYC_related.json": [
+        "4",
+        "2024-06-30T01:07:00.543278"
+    ],
+    "googlescholar_QDIhYPgAAAAJ_Qo2XoVZTnwC_citation.json": [
+        "3",
+        "2024-06-30T01:06:21.463753"
+    ],
+    "googlescholar_QDIhYPgAAAAJ_Qo2XoVZTnwC_related.json": [
+        "2",
+        "2024-06-30T01:05:36.590823"
+    ],
+    "googlescholar_QDIhYPgAAAAJhC7cP41nSMkC_related.json": [
+        "2",
+        "2024-06-30T01:06:08.743767"
+    ],
+    "googlescholar_KZUaK6YAAAAJRYcK_YlVTxYC_citation.json": [
+        "2",
+        "2024-06-30T01:15:11.576300"
+    ],
+    "googlescholar_KZUaK6YAAAAJt7zJ5fGR-2UC_related.json": [
+        "1",
+        "2024-06-30T00:10:32.291411"
+    ],
+    "googlescholar_yZTneswAAAAJnrtMV_XWKgEC_citation.json": [
+        "3",
+        "2024-06-30T00:54:38.230612"
+    ],
+    "googlescholar_KZUaK6YAAAAJdfsIfKJdRG4C_citation.json": [
+        "2",
+        "2024-06-30T00:54:29.599667"
+    ],
+    "googlescholar_yZTneswAAAAJ:0EnyYjriUFMC_citation": [
+        "1",
+        "2024-06-30T00:14:48.134227"
+    ],
+    "googlescholar_yZTneswAAAAJ:0EnyYjriUFMC_article": [
+        "1",
+        "2024-06-30T00:14:58.279124"
+    ],
+    "googlescholar_yZTneswAAAAJ0EnyYjriUFMC_related.json": [
+        "2",
+        "2024-06-30T00:58:16.268171"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:fPk4N6BV_jEC_citation": [
+        "1",
+        "2024-06-30T00:16:15.324520"
+    ],
+    "googlescholar_KZUaK6YAAAAJg5m5HwL7SMYC_citation.json": [
+        "1",
+        "2024-06-30T00:16:56.561735"
+    ],
+    "googlescholar_yZTneswAAAAJ9ZlFYXVOiuMC_citation.json": [
+        "2",
+        "2024-06-30T01:00:10.388720"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:eQOLeE2rZwMC_article": [
+        "1",
+        "2024-06-30T00:17:44.908171"
+    ],
+    "googlescholar_KZUaK6YAAAAJeq2jaN3J8jMC_related.json": [
+        "3",
+        "2024-06-30T01:02:04.041688"
+    ],
+    "googlescholar_QDIhYPgAAAAJ:roLk4NBRz8UC_article": [
+        "1",
+        "2024-06-30T00:36:18.530039"
+    ],
+    "googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_citation.json": [
+        "1",
+        "2024-06-30T00:36:29.508637"
+    ],
+    "googlescholar_yZTneswAAAAJWF5omc3nYNoC_citation.json": [
+        "2",
+        "2024-06-30T01:05:01.855708"
+    ],
+    "googlescholar_QDIhYPgAAAAJroLk4NBRz8UC_citation.json": [
+        "3",
+        "2024-06-30T01:06:03.576585"
+    ],
+    "googlescholar_yZTneswAAAAJTyk-4Ss8FVUC_related.json": [
+        "2",
+        "2024-06-30T00:57:02.628244"
+    ],
+    "googlescholar_yZTneswAAAAJ0EnyYjriUFMC_citation.json": [
+        "1",
+        "2024-06-30T00:57:40.890433"
+    ],
+    "googlescholar_KZUaK6YAAAAJ:ZeXyd9-uunAC_citation": [
+        "1",
+        "2024-06-30T00:59:12.141654"
+    ],
+    "googlescholar_QDIhYPgAAAAJeQOLeE2rZwMC_related.json": [
+        "2",
+        "2024-06-30T01:01:14.495196"
+    ],
+    "googlescholar_QDIhYPgAAAAJroLk4NBRz8UC_related.json": [
+        "1",
+        "2024-06-30T01:04:12.824325"
+    ],
+    "googlescholar_QDIhYPgAAAAJhC7cP41nSMkC_citation.json": [
+        "1",
+        "2024-06-30T01:04:49.894116"
+    ]
 }

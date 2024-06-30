@@ -1,0 +1,54 @@
+{
+    "__NA_Fairness_in_Logic": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Fairness in Logic Languages based on Shared Dataspace.",
+            "author": [
+                "M Gaspari",
+                "L Semini"
+            ],
+            "venue": "NA",
+            "pub_year": "NA",
+            "abstract": ""
+        },
+        "filled": false,
+        "gsrank": 1,
+        "author_id": [
+            "gWTGGwMAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:YhIX4awoAb4J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=YhIX4awoAb4J&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 8,
+        "citedby_url": "/scholar?cites=13691269065158890082&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:YhIX4awoAb4J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__1995_Deducing_fairness_properties": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Deducing fairness properties in UNITY logic\u2014a new completeness result",
+            "author": [
+                "YK Tsay",
+                "RL Bagrodia"
+            ],
+            "pub_year": "1995",
+            "venue": "ACM Transactions on Programming Languages \u2026",
+            "abstract": "We explore the use of UNITY logic in specifying and verifying fairness properties of UNITY and UNITY-like programs whose semantics can be modeled by weakly fair transition"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/200994.200997",
+        "author_id": [
+            "q2OuElMAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:PxH1Yuyi-7QJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=PxH1Yuyi-7QJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 7,
+        "citedby_url": "/scholar?cites=13041196282137612607&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:PxH1Yuyi-7QJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/200994.200997"
+    }
+}

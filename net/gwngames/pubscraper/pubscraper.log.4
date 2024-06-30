@@ -1,0 +1,1002 @@
+[2024-06-29 17:06:38,350 - 7644]  root - DEBUG: Message routed for topic 'scholarlyPublication': scholarlyPublication_263
+[2024-06-29 17:06:38,541 - 7644]  ScraperQueue - INFO: Received message: Message Type: scholarlyPublication, Message ID: scholarlyPublication_263, Content: googlescholar_KZUaK6YAAAAJ4OULZ7Gr8RgC_2018_Personalized_market_basket_pub.json, Timestamp: 2024-06-29 16:55:40.907479
+[2024-06-29 17:06:38,701 - 7644]  ScholarlyDataFetcher - INFO: Fetching author publication googlescholar_KZUaK6YAAAAJ4OULZ7Gr8RgC_2018_Personalized_market_basket_pub.json
+[2024-06-29 17:06:38,749 - 7644]  scholarly - INFO: Getting https://scholar.google.com/citations?hl=en&view_op=view_citation&citation_for_view=KZUaK6YAAAAJ:4OULZ7Gr8RgC
+[2024-06-29 17:06:40,116 - 7644]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:06:40,147 - 7644]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:06:40,179 - 7644]  scholarly - INFO: Try #1 failed. Switching proxy.
+[2024-06-29 17:06:40,623 - 7644]  scholarly - INFO: Proxy works! IP address: 81.56.219.58
+[2024-06-29 17:06:41,069 - 7644]  scholarly - INFO: Proxy works! IP address: 81.56.219.58
+[2024-06-29 17:06:45,961 - 7644]  scholarly - DEBUG: Session proxy config is {'http://': 'http://35.185.196.38:3128', 'https://': 'http://35.185.196.38:3128'}
+[2024-06-29 17:06:46,567 - 7644]  root - INFO: Delaying message: getScholarlyCitations_525 of type getScholarlyCitations
+[2024-06-29 17:06:46,726 - 7644]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_525, Content: googlescholar_KZUaK6YAAAAJ:4OULZ7Gr8RgC_citation, Timestamp: 2024-06-29 17:06:46.567299 to: SCRAPER_QUEUE
+[2024-06-29 17:06:47,140 - 7644]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_209 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:06:47,300 - 7644]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_209, Content: googlescholar_KZUaK6YAAAAJ:4OULZ7Gr8RgC_article, Timestamp: 2024-06-29 17:06:47.140793 to: SCRAPER_QUEUE
+[2024-06-29 17:06:47,332 - 7644]  ScraperQueue - INFO: Processed message scholarlyPublication_263 of type GetScholarlyPublication
+[2024-06-29 17:06:47,380 - 7644]  root - DEBUG: Managed message for topic 'scholarlyPublication': scholarlyPublication_263 - Time: 9029.934 ms.
+[2024-06-29 17:06:48,733 - 15712]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:10.621678 - Total: 5
+[2024-06-29 17:06:48,908 - 15712]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_160, Content: googlescholar_QDIhYPgAAAAJ:KlAtU1dfN6UC_article, Timestamp: 2024-06-29 16:55:41.820039 to: SCRAPER_QUEUE
+[2024-06-29 17:06:48,939 - 15660]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_160
+[2024-06-29 17:06:48,971 - 15660]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_160, Content: googlescholar_QDIhYPgAAAAJ:KlAtU1dfN6UC_article, Timestamp: 2024-06-29 16:55:41.820039
+[2024-06-29 17:06:49,257 - 15660]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:Zh_d8tmHXFcJ:scholar.google.com/
+[2024-06-29 17:06:56,040 - 15660]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_210 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:06:56,199 - 15660]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_210, Content: googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_related.json, Timestamp: 2024-06-29 17:06:56.040019 to: SCRAPER_QUEUE
+[2024-06-29 17:06:56,231 - 15660]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:KlAtU1dfN6UC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 17:06:56,279 - 15660]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_160 - Time: 7339.398 ms.
+[2024-06-29 17:06:58,448 - 11272]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:09.683129 - Total: 5
+[2024-06-29 17:06:58,608 - 11272]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_523, Content: googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_citation.json, Timestamp: 2024-06-29 17:06:35.660413 to: SCRAPER_QUEUE
+[2024-06-29 17:06:58,640 - 8876]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_523
+[2024-06-29 17:06:58,719 - 8876]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_523, Content: googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_citation.json, Timestamp: 2024-06-29 17:06:35.660413
+[2024-06-29 17:06:59,007 - 8876]  ScholarlyDataFetcher - INFO: Fetching citation 0 - QDIhYPgAAAAJKlAtU1dfN6UC
+[2024-06-29 17:06:59,038 - 8876]  ScholarlyDataFetcher - INFO: citation: __2013_Dynamic_access_control is up to date
+[2024-06-29 17:06:59,437 - 8876]  root - INFO: Delaying message: getScholarlyCitations_526 of type getScholarlyCitations
+[2024-06-29 17:06:59,597 - 8876]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_526, Content: googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_citation.json, Timestamp: 2024-06-29 17:06:59.437933 to: SCRAPER_QUEUE
+[2024-06-29 17:06:59,629 - 8876]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 17:06:59,693 - 8876]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_523 - Time: 1053.184 ms.
+[2024-06-29 17:07:10,740 - 9264]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:12.260215 - Total: 5
+[2024-06-29 17:07:10,916 - 9264]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_524, Content: googlescholar_yZTneswAAAAJ:Ri6SYOTghG4C_citation, Timestamp: 2024-06-29 17:06:36.249835 to: SCRAPER_QUEUE
+[2024-06-29 17:07:10,948 - 17848]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_524
+[2024-06-29 17:07:10,980 - 17848]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_524, Content: googlescholar_yZTneswAAAAJ:Ri6SYOTghG4C_citation, Timestamp: 2024-06-29 17:06:36.249835
+[2024-06-29 17:07:11,155 - 17848]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=17754682949544446458,12346848240651606248
+[2024-06-29 17:07:16,504 - 17848]  root - INFO: Delaying message: getScholarlyCitations_527 of type getScholarlyCitations
+[2024-06-29 17:07:16,646 - 17848]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_527, Content: googlescholar_yZTneswAAAAJRi6SYOTghG4C_citation.json, Timestamp: 2024-06-29 17:07:16.504296 to: SCRAPER_QUEUE
+[2024-06-29 17:07:16,678 - 17848]  ScraperQueue - INFO: Processed message googlescholar_yZTneswAAAAJ:Ri6SYOTghG4C_citation of type GetScholarlyPubCitations
+[2024-06-29 17:07:16,710 - 17848]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_524 - Time: 5762.590 ms.
+[2024-06-29 17:07:21,797 - 6312]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:11.024519 - Total: 5
+[2024-06-29 17:07:22,019 - 6312]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_477, Content: googlescholar_QDIhYPgAAAAJ:dhFuZR0502QC_citation, Timestamp: 2024-06-29 16:55:42.797425 to: SCRAPER_QUEUE
+[2024-06-29 17:07:22,083 - 932]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_477
+[2024-06-29 17:07:22,115 - 932]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_477, Content: googlescholar_QDIhYPgAAAAJ:dhFuZR0502QC_citation, Timestamp: 2024-06-29 16:55:42.797425
+[2024-06-29 17:07:22,353 - 932]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=9809733882696981625
+[2024-06-29 17:07:26,477 - 932]  root - INFO: Delaying message: getScholarlyCitations_528 of type getScholarlyCitations
+[2024-06-29 17:07:26,621 - 932]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_528, Content: googlescholar_QDIhYPgAAAAJdhFuZR0502QC_citation.json, Timestamp: 2024-06-29 17:07:26.477653 to: SCRAPER_QUEUE
+[2024-06-29 17:07:26,653 - 932]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:dhFuZR0502QC_citation of type GetScholarlyPubCitations
+[2024-06-29 17:07:26,685 - 932]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_477 - Time: 4601.721 ms.
+[2024-06-29 17:07:27,834 - 9852]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:06.005044 - Total: 5
+[2024-06-29 17:07:28,025 - 9852]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_476, Content: googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_citation.json, Timestamp: 2024-06-29 16:55:42.683729 to: SCRAPER_QUEUE
+[2024-06-29 17:07:28,089 - 16908]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_476
+[2024-06-29 17:07:28,120 - 16908]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_476, Content: googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_citation.json, Timestamp: 2024-06-29 16:55:42.683729
+[2024-06-29 17:07:28,391 - 16908]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJM3NEmzRMIkIC
+[2024-06-29 17:07:28,423 - 16908]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=10318870785830319261&as_ylo=2024&as_yhi=2024&as_vis=0&as_sdt=0,33
+[2024-06-29 17:07:38,373 - 12416]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:10.507608 - Total: 5
+[2024-06-29 17:07:38,563 - 12416]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_161, Content: googlescholar_QDIhYPgAAAAJ:dhFuZR0502QC_article, Timestamp: 2024-06-29 16:55:43.584380 to: SCRAPER_QUEUE
+[2024-06-29 17:07:38,595 - 14332]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_161
+[2024-06-29 17:07:38,690 - 14332]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_161, Content: googlescholar_QDIhYPgAAAAJ:dhFuZR0502QC_article, Timestamp: 2024-06-29 16:55:43.584380
+[2024-06-29 17:07:38,976 - 14332]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:eVxE-_0sI4gJ:scholar.google.com/
+[2024-06-29 17:07:39,465 - 16908]  ScholarlyDataFetcher - INFO: citation: __2024_Going_beyond_xai is up to date
+[2024-06-29 17:07:39,884 - 16908]  root - INFO: Delaying message: getScholarlyCitations_529 of type getScholarlyCitations
+[2024-06-29 17:07:40,044 - 16908]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_529, Content: googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_citation.json, Timestamp: 2024-06-29 17:07:39.884665 to: SCRAPER_QUEUE
+[2024-06-29 17:07:40,076 - 16908]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 17:07:40,139 - 16908]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_476 - Time: 12050.564 ms.
+[2024-06-29 17:07:48,264 - 13376]  RequestState - INFO: Serving next request scholarlyPublication after waited time 0:00:09.858691 - Total: 5
+[2024-06-29 17:07:48,280 - 14332]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_211 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:07:48,455 - 13376]  root - INFO: Message sent: Message Type: scholarlyPublication, Message ID: scholarlyPublication_266, Content: googlescholar_KZUaK6YAAAAJe5wmG9Sq2KIC_2017_Clustering_individual_transactional_pub.json, Timestamp: 2024-06-29 16:55:43.822770 to: SCRAPER_QUEUE
+[2024-06-29 17:07:48,487 - 656]  root - DEBUG: Message routed for topic 'scholarlyPublication': scholarlyPublication_266
+[2024-06-29 17:07:48,519 - 656]  ScraperQueue - INFO: Received message: Message Type: scholarlyPublication, Message ID: scholarlyPublication_266, Content: googlescholar_KZUaK6YAAAAJe5wmG9Sq2KIC_2017_Clustering_individual_transactional_pub.json, Timestamp: 2024-06-29 16:55:43.822770
+[2024-06-29 17:07:48,551 - 656]  ScraperQueue - INFO: Setting last update date from: None
+[2024-06-29 17:07:48,615 - 14332]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_211, Content: googlescholar_QDIhYPgAAAAJdhFuZR0502QC_related.json, Timestamp: 2024-06-29 17:07:48.280215 to: SCRAPER_QUEUE
+[2024-06-29 17:07:48,647 - 14332]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:dhFuZR0502QC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 17:07:48,695 - 14332]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_161 - Time: 10100.074 ms.
+[2024-06-29 17:07:49,014 - 656]  ScholarlyDataFetcher - INFO: Fetching author publication googlescholar_KZUaK6YAAAAJe5wmG9Sq2KIC_2017_Clustering_individual_transactional_pub.json
+[2024-06-29 17:07:49,062 - 656]  scholarly - INFO: Getting https://scholar.google.com/citations?hl=en&view_op=view_citation&citation_for_view=KZUaK6YAAAAJ:e5wmG9Sq2KIC
+[2024-06-29 17:07:50,625 - 656]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:07:50,657 - 656]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:07:50,688 - 656]  scholarly - INFO: Try #1 failed. Switching proxy.
+[2024-06-29 17:07:51,183 - 656]  scholarly - INFO: Proxy works! IP address: 81.56.219.58
+[2024-06-29 17:07:51,613 - 656]  scholarly - INFO: Proxy works! IP address: 81.56.219.58
+[2024-06-29 17:07:59,353 - 656]  scholarly - INFO: Timeout Exception ConnectTimeout while fetching page: ('timed out',)
+[2024-06-29 17:07:59,385 - 656]  scholarly - INFO: Increasing timeout and retrying within same session.
+[2024-06-29 17:08:00,343 - 8892]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:12.047026 - Total: 5
+[2024-06-29 17:08:00,534 - 8892]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_162, Content: googlescholar_QDIhYPgAAAAJ:ufrVoPGSRksC_article, Timestamp: 2024-06-29 16:55:44.934797 to: SCRAPER_QUEUE
+[2024-06-29 17:08:00,598 - 15840]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_162
+[2024-06-29 17:08:00,630 - 15840]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_162, Content: googlescholar_QDIhYPgAAAAJ:ufrVoPGSRksC_article, Timestamp: 2024-06-29 16:55:44.934797
+[2024-06-29 17:08:00,805 - 15840]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:Y_pM-SsxfDUJ:scholar.google.com/
+[2024-06-29 17:08:06,643 - 15840]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_212 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:08:06,803 - 15840]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_212, Content: googlescholar_QDIhYPgAAAAJufrVoPGSRksC_related.json, Timestamp: 2024-06-29 17:08:06.643749 to: SCRAPER_QUEUE
+[2024-06-29 17:08:06,835 - 15840]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:ufrVoPGSRksC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 17:08:06,899 - 15840]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_162 - Time: 6300.551 ms.
+[2024-06-29 17:08:08,983 - 17796]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:08.608408 - Total: 5
+[2024-06-29 17:08:09,158 - 17796]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_479, Content: googlescholar_QDIhYPgAAAAJ:Wp0gIr-vW9MC_citation, Timestamp: 2024-06-29 16:55:45.662850 to: SCRAPER_QUEUE
+[2024-06-29 17:08:09,221 - 7900]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_479
+[2024-06-29 17:08:09,269 - 7900]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_479, Content: googlescholar_QDIhYPgAAAAJ:Wp0gIr-vW9MC_citation, Timestamp: 2024-06-29 16:55:45.662850
+[2024-06-29 17:08:09,442 - 7900]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=8325269635058768317
+[2024-06-29 17:08:15,368 - 7900]  root - INFO: Delaying message: getScholarlyCitations_530 of type getScholarlyCitations
+[2024-06-29 17:08:15,528 - 7900]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_530, Content: googlescholar_QDIhYPgAAAAJWp0gIr-vW9MC_citation.json, Timestamp: 2024-06-29 17:08:15.368885 to: SCRAPER_QUEUE
+[2024-06-29 17:08:15,560 - 7900]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:Wp0gIr-vW9MC_citation of type GetScholarlyPubCitations
+[2024-06-29 17:08:15,592 - 7900]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_479 - Time: 6370.404 ms.
+[2024-06-29 17:08:19,967 - 13244]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:10.952151 - Total: 5
+[2024-06-29 17:08:20,159 - 13244]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_480, Content: googlescholar_QDIhYPgAAAAJ:_FxGoFyzp5QC_citation, Timestamp: 2024-06-29 16:55:47.031191 to: SCRAPER_QUEUE
+[2024-06-29 17:08:20,191 - 17760]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_480
+[2024-06-29 17:08:20,222 - 17760]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_480, Content: googlescholar_QDIhYPgAAAAJ:_FxGoFyzp5QC_citation, Timestamp: 2024-06-29 16:55:47.031191
+[2024-06-29 17:08:20,398 - 17760]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=4191372574977431423
+[2024-06-29 17:08:22,104 - 656]  scholarly - INFO: Timeout Exception ConnectTimeout while fetching page: ("[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato",)
+[2024-06-29 17:08:22,151 - 656]  scholarly - INFO: Increasing timeout and retrying within same session.
+[2024-06-29 17:08:24,889 - 17760]  root - INFO: Delaying message: getScholarlyCitations_531 of type getScholarlyCitations
+[2024-06-29 17:08:25,001 - 17760]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_531, Content: googlescholar_QDIhYPgAAAAJ_FxGoFyzp5QC_citation.json, Timestamp: 2024-06-29 17:08:24.889584 to: SCRAPER_QUEUE
+[2024-06-29 17:08:25,033 - 17760]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:_FxGoFyzp5QC_citation of type GetScholarlyPubCitations
+[2024-06-29 17:08:25,065 - 17760]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_480 - Time: 4874.099 ms.
+[2024-06-29 17:08:26,193 - 18212]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:06.193689 - Total: 5
+[2024-06-29 17:08:26,352 - 18212]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_164, Content: googlescholar_QDIhYPgAAAAJ:_FxGoFyzp5QC_article, Timestamp: 2024-06-29 16:55:47.651532 to: SCRAPER_QUEUE
+[2024-06-29 17:08:26,384 - 2132]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_164
+[2024-06-29 17:08:26,416 - 2132]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_164, Content: googlescholar_QDIhYPgAAAAJ:_FxGoFyzp5QC_article, Timestamp: 2024-06-29 16:55:47.651532
+[2024-06-29 17:08:26,591 - 2132]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:fxfYbCa_KjoJ:scholar.google.com/
+[2024-06-29 17:08:31,684 - 2132]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_213 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:08:31,828 - 2132]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_213, Content: googlescholar_QDIhYPgAAAAJ_FxGoFyzp5QC_related.json, Timestamp: 2024-06-29 17:08:31.684546 to: SCRAPER_QUEUE
+[2024-06-29 17:08:31,860 - 2132]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:_FxGoFyzp5QC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 17:08:31,923 - 2132]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_164 - Time: 5539.227 ms.
+[2024-06-29 17:08:40,986 - 13112]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:14.761206 - Total: 5
+[2024-06-29 17:08:41,177 - 13112]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_137, Content: googlescholar_KZUaK6YAAAAJ:EUQCXRtRnyEC_article, Timestamp: 2024-06-29 16:55:03.683373 to: SCRAPER_QUEUE
+[2024-06-29 17:08:41,241 - 16256]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_137
+[2024-06-29 17:08:41,289 - 16256]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_137, Content: googlescholar_KZUaK6YAAAAJ:EUQCXRtRnyEC_article, Timestamp: 2024-06-29 16:55:03.683373
+[2024-06-29 17:08:41,544 - 16256]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:Jip8Wjvw62UJ:scholar.google.com/
+[2024-06-29 17:08:44,904 - 656]  scholarly - INFO: Timeout Exception ConnectTimeout while fetching page: ("[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato",)
+[2024-06-29 17:08:44,936 - 656]  scholarly - INFO: Increasing timeout and retrying within same session.
+[2024-06-29 17:08:52,215 - 16256]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_214 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:08:52,374 - 16256]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_214, Content: googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_related.json, Timestamp: 2024-06-29 17:08:52.215340 to: SCRAPER_QUEUE
+[2024-06-29 17:08:52,406 - 16256]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJ:EUQCXRtRnyEC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 17:08:52,454 - 16256]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_137 - Time: 11213.071 ms.
+[2024-06-29 17:08:52,884 - 15480]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:11.866324 - Total: 5
+[2024-06-29 17:08:53,060 - 15480]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_165, Content: googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_related.json, Timestamp: 2024-06-29 16:55:48.476326 to: SCRAPER_QUEUE
+[2024-06-29 17:08:53,091 - 3468]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_165
+[2024-06-29 17:08:53,107 - 3468]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_165, Content: googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_related.json, Timestamp: 2024-06-29 16:55:48.476326
+[2024-06-29 17:08:53,395 - 3468]  ScholarlyDataFetcher - INFO: Fetching article 0 - KZUaK6YAAAAJM3NEmzRMIkIC
+[2024-06-29 17:08:53,427 - 3468]  ScholarlyDataFetcher - INFO: article: __2018_A_survey_of is up to date
+[2024-06-29 17:08:53,790 - 3468]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_215 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:08:53,948 - 3468]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_215, Content: googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_related.json, Timestamp: 2024-06-29 17:08:53.790154 to: SCRAPER_QUEUE
+[2024-06-29 17:08:53,980 - 3468]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_related.json of type GetScholarlyPubRelatedArticles
+[2024-06-29 17:08:54,028 - 3468]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_165 - Time: 936.558 ms.
+[2024-06-29 17:08:59,208 - 3560]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:06.291608 - Total: 5
+[2024-06-29 17:08:59,397 - 3560]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_166, Content: googlescholar_QDIhYPgAAAAJ:TFP_iSt0sucC_article, Timestamp: 2024-06-29 16:55:49.620267 to: SCRAPER_QUEUE
+[2024-06-29 17:08:59,429 - 6156]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_166
+[2024-06-29 17:08:59,461 - 6156]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_166, Content: googlescholar_QDIhYPgAAAAJ:TFP_iSt0sucC_article, Timestamp: 2024-06-29 16:55:49.620267
+[2024-06-29 17:08:59,493 - 6156]  ScraperQueue - INFO: Setting last update date from: None
+[2024-06-29 17:08:59,892 - 6156]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:dWIQNFCMuNcJ:scholar.google.com/
+[2024-06-29 17:09:04,030 - 6156]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_216 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:09:04,190 - 6156]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_216, Content: googlescholar_QDIhYPgAAAAJTFP_iSt0sucC_related.json, Timestamp: 2024-06-29 17:09:04.030553 to: SCRAPER_QUEUE
+[2024-06-29 17:09:04,222 - 6156]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:TFP_iSt0sucC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 17:09:04,269 - 6156]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_166 - Time: 4840.430 ms.
+[2024-06-29 17:09:07,340 - 8808]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:08.100713 - Total: 5
+[2024-06-29 17:09:07,532 - 8808]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_482, Content: googlescholar_QDIhYPgAAAAJ:qjMakFHDy7sC_citation, Timestamp: 2024-06-29 16:55:50.338347 to: SCRAPER_QUEUE
+[2024-06-29 17:09:07,548 - 656]  scholarly - INFO: Timeout Exception ConnectTimeout while fetching page: ("[WinError 10060] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato",)
+[2024-06-29 17:09:07,612 - 656]  scholarly - INFO: Giving up this session.
+[2024-06-29 17:09:07,643 - 656]  scholarly - INFO: Try #2 failed. Switching proxy.
+[2024-06-29 17:09:07,659 - 1252]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_482
+[2024-06-29 17:09:07,691 - 1252]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_482, Content: googlescholar_QDIhYPgAAAAJ:qjMakFHDy7sC_citation, Timestamp: 2024-06-29 16:55:50.338347
+[2024-06-29 17:09:07,914 - 1252]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=1139997024305818716
+[2024-06-29 17:09:08,089 - 656]  scholarly - INFO: Proxy works! IP address: 81.56.219.58
+[2024-06-29 17:09:08,551 - 656]  scholarly - INFO: Proxy works! IP address: 81.56.219.58
+[2024-06-29 17:09:12,543 - 1252]  root - INFO: Delaying message: getScholarlyCitations_532 of type getScholarlyCitations
+[2024-06-29 17:09:12,703 - 1252]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_532, Content: googlescholar_QDIhYPgAAAAJqjMakFHDy7sC_citation.json, Timestamp: 2024-06-29 17:09:12.543861 to: SCRAPER_QUEUE
+[2024-06-29 17:09:12,735 - 1252]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:qjMakFHDy7sC_citation of type GetScholarlyPubCitations
+[2024-06-29 17:09:12,782 - 1252]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_482 - Time: 5122.358 ms.
+[2024-06-29 17:09:16,076 - 656]  scholarly - INFO: Timeout Exception ConnectTimeout while fetching page: ('timed out',)
+[2024-06-29 17:09:16,108 - 656]  scholarly - INFO: Increasing timeout and retrying within same session.
+[2024-06-29 17:09:19,041 - 17504]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:11.669148 - Total: 5
+[2024-06-29 17:09:19,233 - 17504]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_167, Content: googlescholar_QDIhYPgAAAAJ:qjMakFHDy7sC_article, Timestamp: 2024-06-29 16:55:50.927771 to: SCRAPER_QUEUE
+[2024-06-29 17:09:19,265 - 17404]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_167
+[2024-06-29 17:09:19,313 - 17404]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_167, Content: googlescholar_QDIhYPgAAAAJ:qjMakFHDy7sC_article, Timestamp: 2024-06-29 16:55:50.927771
+[2024-06-29 17:09:19,345 - 17404]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:XCzA7kAV0g8J:scholar.google.com/
+[2024-06-29 17:09:20,996 - 656]  scholarly - INFO: Exception ConnectError while fetching page: ('[WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione',)
+[2024-06-29 17:09:21,028 - 656]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:09:21,060 - 656]  scholarly - INFO: Try #3 failed. Switching proxy.
+[2024-06-29 17:09:21,760 - 656]  scholarly - INFO: Proxy works! IP address: 81.56.219.58
+[2024-06-29 17:09:22,207 - 656]  scholarly - INFO: Proxy works! IP address: 81.56.219.58
+[2024-06-29 17:09:24,192 - 16188]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:05.118401 - Total: 5
+[2024-06-29 17:09:24,479 - 17404]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_217 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:09:24,622 - 16188]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_483, Content: googlescholar_QDIhYPgAAAAJ:8k81kl-MbHgC_citation, Timestamp: 2024-06-29 16:55:51.660811 to: SCRAPER_QUEUE
+[2024-06-29 17:09:24,654 - 1208]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_483
+[2024-06-29 17:09:24,829 - 17404]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_217, Content: googlescholar_QDIhYPgAAAAJqjMakFHDy7sC_related.json, Timestamp: 2024-06-29 17:09:24.479339 to: SCRAPER_QUEUE
+[2024-06-29 17:09:24,845 - 1208]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_483, Content: googlescholar_QDIhYPgAAAAJ:8k81kl-MbHgC_citation, Timestamp: 2024-06-29 16:55:51.660811
+[2024-06-29 17:09:24,861 - 17404]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:qjMakFHDy7sC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 17:09:24,941 - 17404]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_167 - Time: 5675.945 ms.
+[2024-06-29 17:09:25,068 - 1208]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=5368427900609755512
+[2024-06-29 17:09:25,483 - 656]  scholarly - INFO: Exception RemoteProtocolError while fetching page: ('Server disconnected without sending a response.',)
+[2024-06-29 17:09:25,499 - 656]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:09:25,531 - 656]  scholarly - INFO: Try #4 failed. Switching proxy.
+[2024-06-29 17:09:25,977 - 656]  scholarly - INFO: Proxy works! IP address: 81.56.219.58
+[2024-06-29 17:09:26,438 - 656]  scholarly - INFO: Proxy works! IP address: 81.56.219.58
+[2024-06-29 17:09:30,873 - 1208]  root - INFO: Delaying message: getScholarlyCitations_533 of type getScholarlyCitations
+[2024-06-29 17:09:31,032 - 1208]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_533, Content: googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_citation.json, Timestamp: 2024-06-29 17:09:30.873390 to: SCRAPER_QUEUE
+[2024-06-29 17:09:31,064 - 1208]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:8k81kl-MbHgC_citation of type GetScholarlyPubCitations
+[2024-06-29 17:09:31,128 - 1208]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_483 - Time: 6473.866 ms.
+[2024-06-29 17:09:33,705 - 656]  scholarly - INFO: Timeout Exception ReadTimeout while fetching page: ('timed out',)
+[2024-06-29 17:09:33,736 - 656]  scholarly - INFO: Increasing timeout and retrying within same session.
+[2024-06-29 17:09:34,245 - 18016]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:10.021565 - Total: 5
+[2024-06-29 17:09:34,420 - 18016]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_168, Content: googlescholar_QDIhYPgAAAAJ:8k81kl-MbHgC_article, Timestamp: 2024-06-29 16:55:52.199370 to: SCRAPER_QUEUE
+[2024-06-29 17:09:34,452 - 16540]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_168
+[2024-06-29 17:09:34,483 - 16540]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_168, Content: googlescholar_QDIhYPgAAAAJ:8k81kl-MbHgC_article, Timestamp: 2024-06-29 16:55:52.199370
+[2024-06-29 17:09:34,770 - 16540]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:ePkjgrt8gEoJ:scholar.google.com/
+[2024-06-29 17:09:39,311 - 16540]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_218 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:09:39,470 - 16540]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_218, Content: googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_related.json, Timestamp: 2024-06-29 17:09:39.311069 to: SCRAPER_QUEUE
+[2024-06-29 17:09:39,534 - 16540]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:8k81kl-MbHgC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 17:09:39,598 - 16540]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_168 - Time: 5146.293 ms.
+[2024-06-29 17:09:48,117 - 16104]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:13.856003 - Total: 5
+[2024-06-29 17:09:48,277 - 16104]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_484, Content: googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_citation.json, Timestamp: 2024-06-29 16:55:52.995242 to: SCRAPER_QUEUE
+[2024-06-29 17:09:48,309 - 11808]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_484
+[2024-06-29 17:09:48,388 - 11808]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_484, Content: googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_citation.json, Timestamp: 2024-06-29 16:55:52.995242
+[2024-06-29 17:09:48,419 - 11808]  ScraperQueue - INFO: Setting last update date from: None
+[2024-06-29 17:09:48,849 - 11808]  ScholarlyDataFetcher - INFO: Fetching citation 0 - KZUaK6YAAAAJEUQCXRtRnyEC
+[2024-06-29 17:09:49,057 - 11808]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_citation.json
+[2024-06-29 17:09:49,469 - 11808]  root - INFO: Delaying message: getScholarlyCitations_534 of type getScholarlyCitations
+[2024-06-29 17:09:49,613 - 11808]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_534, Content: googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_citation.json, Timestamp: 2024-06-29 17:09:49.469981 to: SCRAPER_QUEUE
+[2024-06-29 17:09:49,645 - 11808]  ScraperQueue - INFO: Processed message googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 17:09:49,677 - 11808]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_484 - Time: 1368.367 ms.
+[2024-06-29 17:09:54,189 - 4196]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:06.039927 - Total: 5
+[2024-06-29 17:09:54,346 - 4196]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_533, Content: googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_citation.json, Timestamp: 2024-06-29 17:09:30.873390 to: SCRAPER_QUEUE
+[2024-06-29 17:09:54,378 - 16636]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_533
+[2024-06-29 17:09:54,426 - 16636]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_533, Content: googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_citation.json, Timestamp: 2024-06-29 17:09:30.873390
+[2024-06-29 17:09:54,458 - 16636]  ScraperQueue - INFO: Setting last update date from: None
+[2024-06-29 17:09:54,919 - 16636]  ScholarlyDataFetcher - INFO: Fetching citation 0 - QDIhYPgAAAAJ8k81kl-MbHgC
+[2024-06-29 17:09:55,142 - 16636]  ScholarlyDataFetcher - INFO: Saved citation 0 to file: googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_citation.json
+[2024-06-29 17:09:55,537 - 16636]  root - INFO: Delaying message: getScholarlyCitations_535 of type getScholarlyCitations
+[2024-06-29 17:09:55,696 - 16636]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_535, Content: googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_citation.json, Timestamp: 2024-06-29 17:09:55.537837 to: SCRAPER_QUEUE
+[2024-06-29 17:09:55,728 - 16636]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_citation.json of type GetScholarlyPubCitations
+[2024-06-29 17:09:55,791 - 16636]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_533 - Time: 1412.335 ms.
+[2024-06-29 17:10:05,091 - 17428]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:10.870695 - Total: 5
+[2024-06-29 17:10:05,235 - 17428]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_169, Content: googlescholar_QDIhYPgAAAAJ:RGFaLdJalmkC_article, Timestamp: 2024-06-29 16:55:54.697690 to: SCRAPER_QUEUE
+[2024-06-29 17:10:05,299 - 18052]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_169
+[2024-06-29 17:10:05,331 - 18052]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_169, Content: googlescholar_QDIhYPgAAAAJ:RGFaLdJalmkC_article, Timestamp: 2024-06-29 16:55:54.697690
+[2024-06-29 17:10:05,505 - 18052]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:HtJnVSedhlQJ:scholar.google.com/
+[2024-06-29 17:10:10,064 - 18052]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_219 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:10:10,222 - 18052]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_219, Content: googlescholar_QDIhYPgAAAAJRGFaLdJalmkC_related.json, Timestamp: 2024-06-29 17:10:10.064747 to: SCRAPER_QUEUE
+[2024-06-29 17:10:10,238 - 18052]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:RGFaLdJalmkC_article of type GetScholarlyPubRelatedArticles
+[2024-06-29 17:10:10,270 - 18052]  root - DEBUG: Managed message for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_169 - Time: 4970.803 ms.
+[2024-06-29 17:10:18,327 - 13660]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:13.219360 - Total: 5
+[2024-06-29 17:10:18,516 - 13660]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_485, Content: googlescholar_QDIhYPgAAAAJ:4DMP91E08xMC_citation, Timestamp: 2024-06-29 16:55:55.429732 to: SCRAPER_QUEUE
+[2024-06-29 17:10:18,580 - 14620]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_485
+[2024-06-29 17:10:18,612 - 14620]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_485, Content: googlescholar_QDIhYPgAAAAJ:4DMP91E08xMC_citation, Timestamp: 2024-06-29 16:55:55.429732
+[2024-06-29 17:10:18,785 - 14620]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=8280926439603086330
+[2024-06-29 17:10:25,613 - 14620]  root - INFO: Delaying message: getScholarlyCitations_536 of type getScholarlyCitations
+[2024-06-29 17:10:25,770 - 14620]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_536, Content: googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_citation.json, Timestamp: 2024-06-29 17:10:25.613857 to: SCRAPER_QUEUE
+[2024-06-29 17:10:25,802 - 14620]  ScraperQueue - INFO: Processed message googlescholar_QDIhYPgAAAAJ:4DMP91E08xMC_citation of type GetScholarlyPubCitations
+[2024-06-29 17:10:25,818 - 14620]  root - DEBUG: Managed message for topic 'getScholarlyCitations': getScholarlyCitations_485 - Time: 7237.703 ms.
+[2024-06-29 17:10:32,493 - 16208]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:14.134750 - Total: 5
+[2024-06-29 17:10:32,685 - 16208]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_170, Content: googlescholar_QDIhYPgAAAAJ:4DMP91E08xMC_article, Timestamp: 2024-06-29 16:55:55.971284 to: SCRAPER_QUEUE
+[2024-06-29 17:10:32,749 - 18164]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_170
+[2024-06-29 17:10:32,781 - 18164]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_170, Content: googlescholar_QDIhYPgAAAAJ:4DMP91E08xMC_article, Timestamp: 2024-06-29 16:55:55.971284
+[2024-06-29 17:10:33,051 - 18164]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:-qOu-7jC63IJ:scholar.google.com/
+[2024-06-29 17:10:36,838 - 18164]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:10:36,870 - 18164]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:10:36,902 - 18164]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:10:38,494 - 18164]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:10:38,510 - 18164]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:41,071 - 656]  scholarly - INFO: Timeout Exception ReadTimeout while fetching page: ('timed out',)
+[2024-06-29 17:10:41,087 - 656]  scholarly - INFO: Increasing timeout and retrying within same session.
+[2024-06-29 17:10:42,519 - 18164]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:10:42,535 - 18164]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:10:43,948 - 18164]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:10:43,979 - 18164]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:47,223 - 17068]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:14.698030 - Total: 5
+[2024-06-29 17:10:47,415 - 17068]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_486, Content: googlescholar_QDIhYPgAAAAJ:ZeXyd9-uunAC_citation, Timestamp: 2024-06-29 16:55:56.656452 to: SCRAPER_QUEUE
+[2024-06-29 17:10:47,447 - 16512]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_486
+[2024-06-29 17:10:47,479 - 16512]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_486, Content: googlescholar_QDIhYPgAAAAJ:ZeXyd9-uunAC_citation, Timestamp: 2024-06-29 16:55:56.656452
+[2024-06-29 17:10:47,670 - 16512]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=10390135941673532062
+[2024-06-29 17:10:48,034 - 18164]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:10:48,066 - 18164]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:10:48,623 - 656]  scholarly - DEBUG: Session proxy config is {'http://': 'http://194.4.57.152:3128', 'https://': 'http://194.4.57.152:3128'}
+[2024-06-29 17:10:49,164 - 16512]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:10:49,196 - 16512]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:49,196 - 656]  root - INFO: Delaying message: getScholarlyCitations_537 of type getScholarlyCitations
+[2024-06-29 17:10:49,420 - 656]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_537, Content: googlescholar_KZUaK6YAAAAJ:e5wmG9Sq2KIC_citation, Timestamp: 2024-06-29 17:10:49.196727 to: SCRAPER_QUEUE
+[2024-06-29 17:10:49,850 - 656]  root - INFO: Delaying message: getScholarlyPubRelatedArticles_220 of type getScholarlyPubRelatedArticles
+[2024-06-29 17:10:50,009 - 656]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_220, Content: googlescholar_KZUaK6YAAAAJ:e5wmG9Sq2KIC_article, Timestamp: 2024-06-29 17:10:49.850977 to: SCRAPER_QUEUE
+[2024-06-29 17:10:50,041 - 656]  ScraperQueue - INFO: Processed message scholarlyPublication_266 of type GetScholarlyPublication
+[2024-06-29 17:10:50,073 - 656]  root - DEBUG: Managed message for topic 'scholarlyPublication': scholarlyPublication_266 - Time: 181585.776 ms.
+[2024-06-29 17:10:50,105 - 18164]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:10:50,121 - 18164]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:50,836 - 16512]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:10:50,868 - 16512]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:51,966 - 18164]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:10:51,998 - 18164]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:52,602 - 16512]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:10:52,634 - 16512]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:53,598 - 18164]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:10:53,628 - 18164]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:53,628 - 15356]  RequestState - INFO: Serving next request getScholarlyPubRelatedArticles after waited time 0:00:06.372638 - Total: 5
+[2024-06-29 17:10:53,849 - 15356]  root - INFO: Message sent: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_171, Content: googlescholar_QDIhYPgAAAAJ:ZeXyd9-uunAC_article, Timestamp: 2024-06-29 16:55:57.212964 to: SCRAPER_QUEUE
+[2024-06-29 17:10:53,913 - 8384]  root - DEBUG: Message routed for topic 'getScholarlyPubRelatedArticles': getScholarlyPubRelatedArticles_171
+[2024-06-29 17:10:53,961 - 8384]  ScraperQueue - INFO: Received message: Message Type: getScholarlyPubRelatedArticles, Message ID: getScholarlyPubRelatedArticles_171, Content: googlescholar_QDIhYPgAAAAJ:ZeXyd9-uunAC_article, Timestamp: 2024-06-29 16:55:57.212964
+[2024-06-29 17:10:53,993 - 8384]  ScraperQueue - INFO: Setting last update date from: None
+[2024-06-29 17:10:54,025 - 16512]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:10:54,072 - 16512]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:54,482 - 8384]  scholarly - INFO: Getting https://scholar.google.com/scholar?oi=bibs&hl=en&q=related:njp485YtMZAJ:scholar.google.com/
+[2024-06-29 17:10:55,879 - 8384]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:10:55,911 - 8384]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:55,975 - 16512]  scholarly - INFO: Exception ReadError while fetching page: ('[WinError 10038] Tentativo di operazione su un elemento diverso dal socket',)
+[2024-06-29 17:10:56,007 - 16512]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:10:59,388 - 16436]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:05.681227 - Total: 5
+[2024-06-29 17:10:59,530 - 16436]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_487, Content: googlescholar_QDIhYPgAAAAJ:IjCSPb-OGe4C_citation, Timestamp: 2024-06-29 16:55:57.915086 to: SCRAPER_QUEUE
+[2024-06-29 17:10:59,593 - 17020]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_487
+[2024-06-29 17:10:59,625 - 17020]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_487, Content: googlescholar_QDIhYPgAAAAJ:IjCSPb-OGe4C_citation, Timestamp: 2024-06-29 16:55:57.915086
+[2024-06-29 17:10:59,800 - 17020]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=2077600067643409503
+[2024-06-29 17:10:59,895 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:10:59,927 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:00,992 - 17020]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:11:01,024 - 17020]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:11:03,486 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:03,518 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:03,581 - 17020]  scholarly - INFO: Exception RemoteProtocolError while fetching page: ('Server disconnected without sending a response.',)
+[2024-06-29 17:11:03,597 - 17020]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:11:06,232 - 5180]  RequestState - INFO: Serving next request getScholarlyCitations after waited time 0:00:06.829064 - Total: 5
+[2024-06-29 17:11:06,376 - 5180]  root - INFO: Message sent: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_488, Content: googlescholar_QDIhYPgAAAAJ:eQOLeE2rZwMC_citation, Timestamp: 2024-06-29 16:55:59.189678 to: SCRAPER_QUEUE
+[2024-06-29 17:11:06,408 - 16928]  root - DEBUG: Message routed for topic 'getScholarlyCitations': getScholarlyCitations_488
+[2024-06-29 17:11:06,486 - 16928]  ScraperQueue - INFO: Received message: Message Type: getScholarlyCitations, Message ID: getScholarlyCitations_488, Content: googlescholar_QDIhYPgAAAAJ:eQOLeE2rZwMC_citation, Timestamp: 2024-06-29 16:55:59.189678
+[2024-06-29 17:11:06,661 - 16928]  scholarly - INFO: Getting https://scholar.google.com/scholar?hl=en&cites=3103110453623372808
+[2024-06-29 17:11:06,773 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:06,805 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:08,270 - 16928]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:11:08,302 - 16928]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:11:10,132 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:10,163 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:11,547 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:11,579 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:11,930 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:11,961 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:13,580 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:13,612 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:14,026 - 16928]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:11:14,058 - 16928]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:11:14,679 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:14,711 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:15,856 - 16928]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:11:15,888 - 16928]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:11:16,667 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:16,698 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:17,793 - 16928]  scholarly - INFO: Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+[2024-06-29 17:11:17,824 - 16928]  scholarly - INFO: Retrying with a new session.
+[2024-06-29 17:11:17,920 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:17,936 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:19,480 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:19,512 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:20,845 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:20,876 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:22,283 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:22,314 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:22,967 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:23,014 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:25,428 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:25,460 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:26,014 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:26,046 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:26,364 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:26,396 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:28,776 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:28,808 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:29,060 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:29,092 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:29,329 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:29,376 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:31,847 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:31,879 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:32,419 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:32,450 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:32,623 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:32,654 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:32,686 - 16928]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:11:34,671 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:34,703 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:35,732 - 8384]  scholarly - INFO: Response code 499.
+                                    Retrying...
+[2024-06-29 17:11:35,876 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:35,922 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:37,999 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:38,030 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:38,849 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:38,880 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:39,658 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:39,689 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:41,232 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:41,264 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:41,691 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:41,723 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:42,785 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:42,817 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:43,991 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:44,023 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:45,040 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:45,072 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:45,785 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:45,817 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:46,975 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:47,007 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:47,850 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:47,882 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:48,612 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:48,660 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:49,772 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:49,803 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:51,043 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:51,075 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:51,377 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:51,408 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:52,436 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:52,468 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:54,325 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:54,357 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:54,848 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:54,880 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:55,246 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:55,277 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:57,929 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:57,929 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:57,977 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:58,025 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:11:58,105 - 16928]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:11:58,599 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:11:58,630 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:01,036 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:01,052 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:01,068 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:01,068 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:01,132 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:01,482 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:01,498 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:04,123 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:04,155 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:04,155 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:04,202 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:04,250 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:04,376 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:04,392 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:06,909 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:06,941 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:07,146 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:07,178 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:07,209 - 16928]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:07,557 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:07,589 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:09,692 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:09,724 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:10,203 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:10,235 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:11,143 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:11,175 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:12,941 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:12,973 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:13,228 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:13,260 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:14,613 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:14,644 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:16,378 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:16,410 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:16,442 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:16,473 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:16,503 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:17,459 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:17,491 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:20,042 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:20,074 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:20,090 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:20,138 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:20,202 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:20,218 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:20,234 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:20,267 - 16928]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:23,101 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:23,117 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:23,404 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:23,419 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:23,515 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:23,563 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:23,595 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:26,253 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:26,285 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:26,571 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:26,603 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:26,873 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:26,905 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:29,438 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:29,469 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:29,788 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:29,820 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:30,680 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:30,712 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:32,465 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:32,481 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:32,528 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:32,560 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:32,592 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:33,741 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:33,773 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:35,602 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:35,650 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:35,698 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:35,714 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:35,730 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:37,098 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:37,130 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:38,610 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:38,642 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:39,152 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:39,183 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:40,117 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:40,148 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:42,139 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:42,170 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:42,442 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:42,474 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:42,888 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:42,904 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:45,487 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:45,487 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:45,535 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:45,583 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:45,645 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:46,185 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:46,216 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:49,466 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:49,498 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:49,929 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:49,961 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:50,264 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:50,296 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:53,049 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:53,081 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:53,207 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:53,207 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:53,207 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:54,004 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:54,036 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:56,457 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:56,489 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:56,663 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:56,695 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:56,727 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:56,903 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:56,935 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:12:56,965 - 16928]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:12:59,189 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:12:59,221 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:00,112 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:00,112 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:00,160 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:00,208 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:00,302 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:13:01,959 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:01,991 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:03,104 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:03,135 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:03,580 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:03,612 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:05,154 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:05,185 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:05,963 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:05,995 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:06,170 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:06,203 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:08,556 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:08,588 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:09,194 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:09,226 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:09,432 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:09,463 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:11,784 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:11,816 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:12,564 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:12,596 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:13,184 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:13,214 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:14,658 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:14,690 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:15,736 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:15,768 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:15,925 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:15,957 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:15,957 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:13:17,511 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:17,543 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:18,546 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:18,578 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:18,830 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:18,878 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:20,146 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:20,178 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:21,862 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:21,894 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:22,101 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:22,133 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:22,165 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:13:22,862 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:22,894 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:24,446 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:24,478 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:25,430 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:25,462 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:26,082 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:26,113 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:27,552 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:27,584 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:28,930 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:28,962 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:29,166 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:29,214 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:30,437 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:30,437 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:31,962 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:32,010 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:32,010 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:32,057 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:32,120 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:13:33,612 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:33,628 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:34,722 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:34,754 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:34,850 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:34,866 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:34,882 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:13:37,282 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:37,314 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:37,648 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:37,680 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:37,935 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:37,967 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:40,794 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:40,826 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:40,953 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:41,000 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:41,015 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:13:43,518 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:43,550 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:43,550 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:43,614 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:43,678 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:13:44,410 - 16928]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:44,440 - 16928]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:46,336 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:46,368 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:46,984 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:47,016 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:47,332 - 16928]  scholarly - INFO: Response code 499.
+                                    Retrying...
+[2024-06-29 17:13:49,627 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:49,658 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:51,253 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:51,253 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:52,536 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:52,568 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:54,521 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:54,552 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:57,201 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:57,233 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:57,377 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:13:57,409 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:13:57,441 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:14:00,601 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:00,633 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:01,394 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:01,426 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:03,597 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:03,629 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:04,599 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:04,629 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:06,699 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:06,730 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:08,035 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:08,066 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:10,108 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:10,140 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:11,284 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:11,316 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:13,705 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:13,737 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:14,437 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:14,469 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:17,276 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:17,308 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:18,042 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:18,074 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:20,448 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:20,448 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:21,467 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:21,499 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:23,139 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:23,171 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:24,877 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:24,892 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:26,164 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:26,195 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:27,660 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:27,692 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:30,036 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:30,067 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:30,242 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:30,274 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:30,306 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:14:33,317 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:33,349 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:33,443 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:33,475 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:33,491 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:14:36,358 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:36,390 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:37,026 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:37,058 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:39,064 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:39,096 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:40,465 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:40,497 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:42,439 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:42,471 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:43,186 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:43,218 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:45,350 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:45,382 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:46,100 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:46,132 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:48,793 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:48,825 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:49,238 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:49,270 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:51,577 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:51,609 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:52,992 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:53,024 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:54,170 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:54,202 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:55,762 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:55,794 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:57,211 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:57,211 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:14:59,378 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:14:59,410 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:00,120 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:00,152 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:03,149 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:03,149 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:03,197 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:03,229 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:03,309 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:15:06,192 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:06,224 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:06,686 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:06,718 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:09,472 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:09,504 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:10,300 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:10,332 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:13,136 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:13,167 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:13,325 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:13,373 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:13,405 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:15:16,112 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:16,144 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:16,876 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:16,908 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:19,058 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:19,090 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:20,155 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:20,187 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:22,304 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:22,336 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:23,976 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:24,008 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:25,966 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:25,998 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:26,791 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:26,823 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:29,993 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:30,025 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:30,105 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:30,137 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:30,152 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:15:33,349 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:33,349 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:33,651 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:33,683 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:36,455 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:36,487 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:36,503 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:36,535 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:36,551 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:15:39,353 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:39,385 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:40,628 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:40,660 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:42,206 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:42,237 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:43,512 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:43,544 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:45,863 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:45,879 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:47,122 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:47,153 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:48,636 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:48,667 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:50,118 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:50,150 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:51,821 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:51,837 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:53,144 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:53,176 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:54,833 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:54,865 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:56,955 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:56,986 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:15:57,877 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:15:57,909 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:00,567 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:00,598 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:02,635 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:02,666 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:04,082 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:04,114 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:06,221 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:06,253 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:07,505 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:07,537 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:09,651 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:09,683 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:10,588 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:10,619 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:12,941 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:12,973 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:13,723 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:13,754 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:16,519 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:16,551 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:16,982 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:17,014 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:21,384 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:21,400 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:22,612 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:22,644 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:24,570 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:24,601 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:25,553 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:25,585 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:27,298 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:27,330 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:28,539 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:28,571 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:30,892 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:30,924 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:31,384 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:31,415 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:34,472 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:34,488 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:34,504 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:34,504 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:34,600 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:16:37,405 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:37,437 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:37,452 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:37,500 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:37,532 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:16:40,253 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:40,285 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:40,619 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:40,651 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:43,275 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:43,306 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:44,182 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:44,198 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:47,191 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:47,223 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:47,590 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:47,622 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:50,601 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:50,617 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:50,633 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:50,680 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:50,743 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:16:54,232 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:54,232 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:54,232 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:54,279 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:54,359 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:16:57,191 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:57,222 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:57,410 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:16:57,442 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:16:57,457 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:17:00,303 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:00,335 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:00,638 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:00,669 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:03,552 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:03,552 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:03,600 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:03,648 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:03,728 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:17:06,418 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:06,450 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:07,008 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:07,040 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:10,150 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:10,182 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:10,310 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:10,326 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:10,342 - 8384]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:17:13,306 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:13,338 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:13,481 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:13,497 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:13,528 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:17:16,318 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:16,350 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:16,445 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:16,461 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:16,509 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:17:19,107 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:19,138 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:20,030 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:20,061 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:23,035 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:23,066 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:23,354 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:23,354 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:26,568 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:26,600 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:26,712 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:26,760 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:26,792 - 17020]  scholarly - INFO: Retrying immediately with another session.
+[2024-06-29 17:17:29,290 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:29,322 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:30,165 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:30,197 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:32,133 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:32,164 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:33,703 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:33,735 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:35,073 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:35,105 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:37,207 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:37,239 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:38,306 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:38,338 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:41,111 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:41,142 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:41,813 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:41,845 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:44,233 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:44,265 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:45,428 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:45,460 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:47,292 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:47,324 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:48,121 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:48,153 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:50,783 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:50,815 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:51,611 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:51,642 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:53,457 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:53,488 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:55,259 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:55,291 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:56,961 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:56,993 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:58,408 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:58,440 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:17:59,617 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:17:59,649 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:01,685 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:01,716 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:02,626 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:02,658 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:04,777 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:04,809 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:07,550 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:07,582 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:09,031 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:09,063 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:10,273 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:10,288 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:12,374 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:12,406 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:13,377 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:13,409 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:15,303 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:15,303 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:16,259 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:16,290 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:18,170 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:18,201 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:19,191 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:19,223 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:20,942 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:20,974 - 8384]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:22,074 - 17020]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:22,106 - 17020]  scholarly - INFO: No other connections possible.
+[2024-06-29 17:18:23,763 - 8384]  scholarly - INFO: Got an access denied error (403).
+[2024-06-29 17:18:23,795 - 8384]  scholarly - INFO: No other connections possible.

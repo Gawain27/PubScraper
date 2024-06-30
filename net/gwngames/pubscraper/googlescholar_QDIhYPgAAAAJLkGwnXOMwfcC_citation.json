@@ -1,0 +1,176 @@
+{
+    "__2011_Policy_based_management": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Policy based management for security in cloud computing",
+            "author": [
+                "A Waller",
+                "I Sandy",
+                "E Power",
+                "E Aivaloglou"
+            ],
+            "pub_year": "2011",
+            "venue": "Secure and Trust \u2026",
+            "abstract": "Cloud computing is one of the biggest trends in information technology, with individuals, companies and even governments moving towards their use to save costs and increase"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-642-22365-5_16",
+        "author_id": [
+            "",
+            "",
+            "H82PWn8AAAAJ",
+            "8PDy_s4AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:PkaphvtojiEJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:7EbYBu-ew0gJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=PkaphvtojiEJ&ei=tuJ_ZrXPN-C16rQP2Oi78Ak&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=2417985479449855550&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:PkaphvtojiEJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://repository.wit.ie/1679/1/PBM%20in%20Clouds%20Final%20Submitted.pdf"
+    },
+    "__2009_StPowla_SOA,_policies": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "StPowla: SOA, policies and workflows",
+            "author": [
+                "S Gorton",
+                "C Montangero",
+                "S Reiff-Marganiec"
+            ],
+            "pub_year": "2009",
+            "venue": "\u2026 Computing-ICSOC 2007 \u2026",
+            "abstract": "We introduce StPowla, a workflow based approach to business process modelling that integrates a simple graphical notation, to ease the presentation of the core business"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-93851-4_35",
+        "author_id": [
+            "",
+            "",
+            "rww_13kAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:F5RqZPGs3DIJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D4837770577810473927%26scipsc%3D&citilm=1&update_op=library_add&info=F5RqZPGs3DIJ&ei=jneAZofqJp--6rQPk_yx2A4&json=",
+        "num_citations": 51,
+        "citedby_url": "/scholar?cites=3664994349544543255&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:F5RqZPGs3DIJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://figshare.le.ac.uk/articles/conference_contribution/StPowla_SOA_Policies_and_Workflows/10087667/1/files/18187913.pdf"
+    },
+    "__2009_Detecting_policy_conflicts": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Detecting policy conflicts by model checking UML state machines",
+            "author": [
+                "MH Ter Beek",
+                "S Gnesi",
+                "C Montangero"
+            ],
+            "pub_year": "2009",
+            "venue": "Feature Interactions in \u2026",
+            "abstract": "Policies are convenient means to modify system behaviour at run-time. Nowadays, policies are created in great numbers by different actors, ranging from system administrators to lay"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ebooks.iospress.nl/doi/10.3233/978-1-60750-014-8-59",
+        "author_id": [
+            "4aDHDyoAAAAJ",
+            "vkhTk-MAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:eVxE-_0sI4gJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:wKBpxV9fVicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=eVxE-_0sI4gJ&ei=Rn6AZsO9CJOK6rQPsOu30AY&json=",
+        "num_citations": 25,
+        "citedby_url": "/scholar?cites=9809733882696981625&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:eVxE-_0sI4gJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=d4d0df2e062f0102eeaa8701c3708837f7b09ef1"
+    },
+    "__2008_Distributed_behavioural_adaptation": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Distributed behavioural adaptation for the automatic composition of semantic services",
+            "author": [
+                "T Melliti",
+                "P Poizat",
+                "S Ben Mokhtar"
+            ],
+            "pub_year": "2008",
+            "venue": "International Conference on \u2026",
+            "abstract": "Services are developed separately and without knowledge of all possible use contexts. They often mismatch or do not correspond exactly to the end-user needs, making direct"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-78743-3_12",
+        "author_id": [
+            "9PE87dQAAAAJ",
+            "D31qw90AAAAJ",
+            "QBpJIDgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:qFkSNN5EfTIJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=qFkSNN5EfTIJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 37,
+        "citedby_url": "/scholar?cites=3638139795132275112&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:qFkSNN5EfTIJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://hal.science/hal-00340490/file/fase08.pdf"
+    },
+    "__2008_Conflict_detection_in": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Conflict detection in call control using first-order logic model checking",
+            "author": [
+                "AF Layouni",
+                "L Logrippo",
+                "KJ Turner"
+            ],
+            "pub_year": "2008",
+            "venue": "Proceedings of the \u2026",
+            "abstract": "Feature interaction detection methods, whether online or offline, depend on previous knowledge of conflicts between the actions executed by the features. This knowledge is"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://books.google.com/books?hl=en&lr=&id=DiOr9P2oA6YC&oi=fnd&pg=PA66&ots=wNTHYoFdk2&sig=OEkS2PYymJHqFx7zlk42qGlt3RM",
+        "author_id": [
+            "",
+            "T4Gt7h4AAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:RG-TENNs4Z4J:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=RG-TENNs4Z4J&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 33,
+        "citedby_url": "/scholar?cites=11448551381524508484&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:RG-TENNs4Z4J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://dspace.stir.ac.uk/bitstream/1893/548/1/conf-det.pdf"
+    },
+    "__2008_Policy_conflict_filtering": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Policy conflict filtering for call control",
+            "author": [
+                "GA Campbell",
+                "KJ Turner"
+            ],
+            "pub_year": "2008",
+            "venue": "Proc. 9th Int. Conf. on Feature \u2026",
+            "abstract": "Policies exhibit conflicts much as features exhibit interaction. Since policies are defined by end users, the combinatorial problems involved in detecting conflicts are substantially worse"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://books.google.com/books?hl=en&lr=&id=DiOr9P2oA6YC&oi=fnd&pg=PA83&ots=wNTHYoFdk2&sig=ThtQe291XeoeSTI5bDnKyF_HbdE",
+        "author_id": [
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:JUkVH4GRVwwJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=JUkVH4GRVwwJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 22,
+        "citedby_url": "/scholar?cites=889339435187259685&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:JUkVH4GRVwwJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://dspace.stir.ac.uk/bitstream/1893/537/1/pol-filt.pdf"
+    }
+}

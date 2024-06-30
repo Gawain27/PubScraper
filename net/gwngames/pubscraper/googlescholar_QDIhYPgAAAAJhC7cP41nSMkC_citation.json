@@ -1,0 +1,29 @@
+{
+    "__2008_Logic-based_conflict_detection": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Logic-based conflict detection for distributed policies",
+            "author": [
+                "C Montangero",
+                "S Reiff-Marganiec"
+            ],
+            "pub_year": "2008",
+            "venue": "Fundamenta \u2026",
+            "abstract": "Policies are used to describe rules that are employed to modify (often distributed) system behaviour at runtime. Typically policies are created by many different people and there are"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://content.iospress.com/articles/fundamenta-informaticae/fi89-4-07",
+        "author_id": [
+            "",
+            "rww_13kAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Zh_d8tmHXFcJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=Zh_d8tmHXFcJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=6295055749309341542&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:Zh_d8tmHXFcJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://figshare.le.ac.uk/articles/journal_contribution/Logic-based_Conflict_Detection_for_Distributed_Policies/10088069/1/files/18188510.pdf"
+    }
+}

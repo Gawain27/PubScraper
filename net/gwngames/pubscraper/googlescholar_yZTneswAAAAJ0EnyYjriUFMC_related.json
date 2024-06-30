@@ -1,0 +1,64 @@
+{
+    "__2008_On_searching_compressed": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "On searching compressed string collections cache-obliviously",
+            "author": [
+                "P Ferragina",
+                "R Grossi",
+                "A Gupta",
+                "R Shah"
+            ],
+            "pub_year": "2008",
+            "venue": "Proceedings of the twenty \u2026",
+            "abstract": "Current data structures for searching large string collections either fail to achieve minimum space or cause too many cache misses. In this paper we discuss some edge linearizations"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1376916.1376943",
+        "author_id": [
+            "",
+            "yZTneswAAAAJ",
+            "",
+            "ZpkdT2UAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:2jLTCKhpSr4J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:2jLTCKhpSr4J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=2jLTCKhpSr4J&ei=aIeAZtrpPNqMy9YP25uj2A0&json=",
+        "num_citations": 58,
+        "citedby_url": "/scholar?cites=13711888185906377434&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:2jLTCKhpSr4J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "http://www.ittc.ku.edu/~jsv/Papers/FGG08.SearchingCompressed.pdf"
+    },
+    "__2024_CoCo-trie_Data-aware_compression": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "CoCo-trie: Data-aware compression and indexing of strings",
+            "author": [
+                "A Boffa",
+                "P Ferragina",
+                "F Tosoni",
+                "G Vinciguerra"
+            ],
+            "pub_year": "2024",
+            "venue": "Information Systems",
+            "abstract": "We address the problem of compressing and indexing a sorted dictionary of strings to support efficient lookups and more sophisticated operations, such as prefix, predecessor"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0306437923001527",
+        "author_id": [
+            "ltO2MbQAAAAJ",
+            "3EILU3MAAAAJ",
+            "8-0w_KAAAAAJ",
+            "qyA6i4sAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:_RoOeMOVnvYJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=_RoOeMOVnvYJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 1,
+        "citedby_url": "/scholar?cites=17770805846415907581&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:_RoOeMOVnvYJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0306437923001527"
+    }
+}

@@ -1,0 +1,167 @@
+{
+    "__2020_Big_trajectory_data": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Big trajectory data mining: A survey of methods, applications, and services",
+            "author": [
+                "D Wang",
+                "T Miwa",
+                "T Morikawa"
+            ],
+            "pub_year": "2020",
+            "venue": "Sensors",
+            "abstract": "The increasingly wide usage of smart infrastructure and location-aware terminals has helped increase the availability of trajectory data with rich spatiotemporal information. The"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.mdpi.com/1424-8220/20/16/4571",
+        "author_id": [
+            "nN47akkAAAAJ",
+            "2jzHmzYAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:TQghmx2jo14J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:ODML4AJBfV0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=TQghmx2jo14J&ei=f9t_ZqHZE9qK6rQPloi72Ao&json=",
+        "num_citations": 53,
+        "citedby_url": "/scholar?cites=6819473608321075277&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:TQghmx2jo14J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.mdpi.com/1424-8220/20/16/4571/pdf"
+    },
+    "__2018_HST-LSTM_A_hierarchical": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "HST-LSTM: A hierarchical spatial-temporal long-short term memory network for location prediction.",
+            "author": [
+                "D Kong",
+                "F Wu"
+            ],
+            "pub_year": "2018",
+            "venue": "Ijcai",
+            "abstract": "The widely use of positioning technology has made mining the movements of people feasible and plenty of trajectory data have been accumulated. How to efficiently leverage"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.ijcai.org/proceedings/2018/0324.pdf",
+        "author_id": [
+            "CwTvzU4AAAAJ",
+            "XJLn4MYAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:btmhzMCDyQ0J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D0,33%26sciodt%3D0,33%26as_ylo%3D2024%26as_yhi%3D2024%26cites%3D10318870785830319261%26scipsc%3D&citilm=1&update_op=library_add&info=btmhzMCDyQ0J&ei=SeF_Zpr7BLbKy9YPsbqkkAU&json=",
+        "num_citations": 252,
+        "citedby_url": "/scholar?cites=993470056902023534&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:btmhzMCDyQ0J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.ijcai.org/proceedings/2018/0324.pdf"
+    },
+    "__2023_An_efficient_LSTM": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "An efficient LSTM neural network-based framework for vessel location forecasting",
+            "author": [
+                "E Chondrodima",
+                "N Pelekis",
+                "A Pikrakis"
+            ],
+            "pub_year": "2023",
+            "venue": "IEEE Transactions \u2026",
+            "abstract": "Forecasting vessel locations is of major importance in the maritime domain, with applications in safety, logistics, etc. Nowadays, vessel tracking has become possible largely"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/10073952/",
+        "author_id": [
+            "EEjEftQAAAAJ",
+            "iphQ2EkAAAAJ",
+            "hPZSYsgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Gg8McoQ8PWQJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D10709308842728334741%26scipsc%3D&citilm=1&update_op=library_add&info=Gg8McoQ8PWQJ&ei=Hn2AZpuZL7bKy9YPsbqkkAU&json=",
+        "num_citations": 13,
+        "citedby_url": "/scholar?cites=7222995916918886170&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Gg8McoQ8PWQJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2020_NexT_A_framework": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "NexT: A framework for next-place prediction on location based social networks",
+            "author": [
+                "C Comito"
+            ],
+            "pub_year": "2020",
+            "venue": "Knowledge-Based Systems",
+            "abstract": "The extensive use of location-based social networks (LBSNs) allows for the collection of huge amount of geo-tagged data about people activities and costumes within urban context"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S095070512030424X",
+        "author_id": [
+            "IcgxFuIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:KZtR5Kgr7xcJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=KZtR5Kgr7xcJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 45,
+        "citedby_url": "/scholar?cites=1724645186691242793&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:KZtR5Kgr7xcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2018_A_personalised_travel": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A personalised travel recommender system utilising social network profile and accurate GPS data",
+            "author": [
+                "R Logesh",
+                "V Subramaniyaswamy"
+            ],
+            "pub_year": "2018",
+            "venue": "Electronic \u2026",
+            "abstract": "Recent developments in internet technologies have created a massive demand for online services with the rapidly growing users. Travel recommender systems have been embraced"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://www.inderscienceonline.com/doi/abs/10.1504/EG.2018.089538",
+        "author_id": [
+            "IPNVzqwAAAAJ",
+            "bIUUDOYAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Si_MowkvBOcJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Si_MowkvBOcJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 87,
+        "citedby_url": "/scholar?cites=16646481841117474634&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Si_MowkvBOcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2021_Data_science_a": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Data science: a game changer for science and innovation",
+            "author": [
+                "V Grossi",
+                "F Giannotti",
+                "D Pedreschi",
+                "P Manghi"
+            ],
+            "pub_year": "2021",
+            "venue": "International Journal of \u2026",
+            "abstract": "This paper shows data science's potential for disruptive innovation in science, industry, policy, and people's lives. We present how data science impacts science and society at"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://link.springer.com/article/10.1007/s41060-020-00240-2",
+        "author_id": [
+            "",
+            "PKz_a_AAAAAJ",
+            "5efz6osAAAAJ",
+            "AqCClbcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:RHgbmhJfLOYJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=RHgbmhJfLOYJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 31,
+        "citedby_url": "/scholar?cites=16585736061198235716&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:RHgbmhJfLOYJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://link.springer.com/article/10.1007/s41060-020-00240-2"
+    }
+}

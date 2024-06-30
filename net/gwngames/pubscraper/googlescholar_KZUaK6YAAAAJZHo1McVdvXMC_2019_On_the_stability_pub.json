@@ -1,0 +1,32 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "On the stability of interpretable models",
+        "pub_year": 2019,
+        "citation": "2019 International joint conference on neural networks (IJCNN), 1-8, 2019",
+        "author": "Riccardo Guidotti and Salvatore Ruggieri",
+        "conference": "2019 International joint conference on neural networks (IJCNN)",
+        "pages": "1-8",
+        "publisher": "IEEE",
+        "abstract": "Interpretable classification models are built with the purpose of providing a comprehensible description of the decision logic to an external oversight agent. When considered in isolation, a decision tree, a set of classification rules, or a linear model, are widely recognized as human-interpretable. However, such models are generated as part of a larger analytical process. Bias in data collection and preparation, or in model's construction may severely affect the accountability of the design process. We conduct an experimental study of the stability of interpretable models with respect to feature selection, instance selection, and model selection. Our conclusions should raise awareness and attention of the scientific community on the need of a stability impact assessment of interpretable models."
+    },
+    "filled": true,
+    "author_pub_id": "KZUaK6YAAAAJ:ZHo1McVdvXMC",
+    "num_citations": 44,
+    "citedby_url": "/scholar?hl=en&cites=17113119510525787450,8626532627296206681",
+    "cites_id": [
+        "17113119510525787450",
+        "8626532627296206681"
+    ],
+    "pub_url": "https://ieeexplore.ieee.org/abstract/document/8852158/",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:Oj2yj4YDfu0J:scholar.google.com/",
+    "cites_per_year": {
+        "2019": 1,
+        "2020": 6,
+        "2021": 11,
+        "2022": 11,
+        "2023": 7,
+        "2024": 8
+    }
+}

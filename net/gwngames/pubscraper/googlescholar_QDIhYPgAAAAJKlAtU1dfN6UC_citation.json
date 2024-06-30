@@ -1,0 +1,149 @@
+{
+    "__2013_Dynamic_access_control": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Dynamic access control policies: Specification and verification",
+            "author": [
+                "H Janicke",
+                "A Cau",
+                "F Siewe",
+                "H Zedan"
+            ],
+            "pub_year": "2013",
+            "venue": "The Computer Journal",
+            "abstract": "Security requirements deal with the protection of assets against unauthorized access (disclosure or modification) and their availability to authorized users. Temporal constraints of"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://academic.oup.com/comjnl/article-abstract/56/4/440/350446",
+        "author_id": [
+            "ANaTLnUAAAAJ",
+            "A4N0O4cAAAAJ",
+            "iQVr8zYAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:MlIgmXb7_jIJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:eVxE-_0sI4gJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=MlIgmXb7_jIJ&ei=9Nx_ZqT9JbqWy9YP7pCPMA&json=",
+        "num_citations": 42,
+        "citedby_url": "/scholar?cites=3674650832774648370&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:MlIgmXb7_jIJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9d4e8a52f744e8dccd13b3db245cc759552182bc"
+    },
+    "__2009_Detecting_policy_conflicts": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Detecting policy conflicts by model checking UML state machines",
+            "author": [
+                "MH Ter Beek",
+                "S Gnesi",
+                "C Montangero"
+            ],
+            "pub_year": "2009",
+            "venue": "Feature Interactions in \u2026",
+            "abstract": "Policies are convenient means to modify system behaviour at run-time. Nowadays, policies are created in great numbers by different actors, ranging from system administrators to lay"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://ebooks.iospress.nl/doi/10.3233/978-1-60750-014-8-59",
+        "author_id": [
+            "4aDHDyoAAAAJ",
+            "vkhTk-MAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:eVxE-_0sI4gJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=eVxE-_0sI4gJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 25,
+        "citedby_url": "/scholar?cites=9809733882696981625&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:eVxE-_0sI4gJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=d4d0df2e062f0102eeaa8701c3708837f7b09ef1"
+    },
+    "__2017_Optimizing_feature_interaction": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Optimizing feature interaction detection",
+            "author": [
+                "A Fantechi",
+                "S Gnesi",
+                "L Semini"
+            ],
+            "pub_year": "2017",
+            "venue": "\u2026 Workshop on Formal Methods for Industrial \u2026",
+            "abstract": "The feature interaction problem has been recognized as a general problem of software engineering. The problem appears when a combination of features interacts generating a"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-319-67113-0_13",
+        "author_id": [
+            "pCgQvJgAAAAJ",
+            "vkhTk-MAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:DvwH5ySyxJsJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=DvwH5ySyxJsJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 6,
+        "citedby_url": "/scholar?cites=11224292042878745614&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:DvwH5ySyxJsJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://iris.cnr.it/retrieve/0c9f4d3a-b056-4f8c-acc6-36398545f422/prod_384024-doc_160477.pdf"
+    },
+    "__2018_Efficiently_characterizing_the": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Efficiently characterizing the undefined requests of a rule-based system",
+            "author": [
+                "Z Cheng",
+                "JC Royer",
+                "M Tisi"
+            ],
+            "pub_year": "2018",
+            "venue": "International Conference on Integrated \u2026",
+            "abstract": "Rule-based systems are used to define complex policies in several contexts, because of the flexibility and modularity they provide. This is especially critical for security systems, which"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-319-98938-9_5",
+        "author_id": [
+            "",
+            "2UPanl4zYrgC",
+            "5-tRnxkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:aa1iht6sOccJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=aa1iht6sOccJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 4,
+        "citedby_url": "/scholar?cites=14355695358957497705&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:aa1iht6sOccJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://inria.hal.science/hal-01828305/file/main.pdf"
+    },
+    "__2019_Removing_problems_in": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Removing problems in rule-based policies",
+            "author": [
+                "Z Cheng",
+                "JC Royer",
+                "M Tisi"
+            ],
+            "pub_year": "2019",
+            "venue": "ICT Systems Security and Privacy Protection \u2026",
+            "abstract": "Analyzing and fixing problems of complex rule-based policies, like inconsistencies and conflicts, is a well-known topic in security. In this paper, by leveraging previous work on"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-030-22312-0_9",
+        "author_id": [
+            "",
+            "2UPanl4zYrgC",
+            "5-tRnxkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:wDKnzgaHZdcJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=wDKnzgaHZdcJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 3,
+        "citedby_url": "/scholar?cites=15520960154108900032&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:wDKnzgaHZdcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://hal.science/hal-02169342/file/main.pdf"
+    }
+}

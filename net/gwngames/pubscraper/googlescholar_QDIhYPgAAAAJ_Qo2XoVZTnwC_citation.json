@@ -1,0 +1,83 @@
+{
+    "__1999_A_refinement_calculus": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A refinement calculus for tuple spaces",
+            "author": [
+                "L Semini",
+                "C Montangero"
+            ],
+            "pub_year": "1999",
+            "venue": "Science of Computer Programming",
+            "abstract": "It is fairly accepted that the realization of complex systems must be accomplished step by step from the initial specification, through a sequence of intermediate phases, to the final"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0167642398000215",
+        "author_id": [
+            "QDIhYPgAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:ePkjgrt8gEoJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=ePkjgrt8gEoJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 17,
+        "citedby_url": "/scholar?cites=5368427900609755512&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:ePkjgrt8gEoJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0167642398000215/pdf?md5=751d1d3759d15c659b6b495532c67eca&pid=1-s2.0-S0167642398000215-main.pdf"
+    },
+    "__1996_A_proposal_to": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A proposal to merge multiple tuple spaces, object orientation, and logic programming",
+            "author": [
+                "V Ambriola",
+                "GA Cignoni",
+                "L Semini"
+            ],
+            "pub_year": "1996",
+            "venue": "Computer languages",
+            "abstract": "We define a new language that naturally satisfies the requirements of concurrency support, modularity, and declarativity. Although some classes of existing languages already cover a"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0096055196000082",
+        "author_id": [
+            "FyFvm2MAAAAJ",
+            "",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:njp485YtMZAJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=njp485YtMZAJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 14,
+        "citedby_url": "/scholar?cites=10390135941673532062&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:njp485YtMZAJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.academia.edu/download/49281703/A_proposal_to_merge_Multiple_Tuple_Space20161001-29127-1fdxzxk.pdf"
+    },
+    "__1997_Process-based_parallel_logic": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Process-based parallel logic programming: A survey of the basic issues",
+            "author": [
+                "K De Bosschere"
+            ],
+            "pub_year": "1997",
+            "venue": "Journal of Systems and Software",
+            "abstract": "In the last decade several parallel logic programming languages based on the explicit creation of processes and on explicit interprocess communication have been developed"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0164121296001641",
+        "author_id": [
+            "ng5JwhIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:IYbQTuEOIkcJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=IYbQTuEOIkcJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 9,
+        "citedby_url": "/scholar?cites=5125675686753764897&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:IYbQTuEOIkcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b8112182a5a98fe9b8d3b3a8f269d1690de41300"
+    }
+}

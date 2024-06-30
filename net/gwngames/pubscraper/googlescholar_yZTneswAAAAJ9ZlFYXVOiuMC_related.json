@@ -1,0 +1,111 @@
+{
+    "__2009_More_haste,_less": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "More haste, less waste: Lowering the redundancy in fully indexable dictionaries",
+            "author": [
+                "R Grossi",
+                "A Orlandi",
+                "R Raman",
+                "SS Rao"
+            ],
+            "pub_year": "2009",
+            "venue": "arXiv preprint arXiv:0902.2648",
+            "abstract": "We consider the problem of representing, in a compressed format, a bit-vector $ S $ of $ m $ bits with $ n $ 1s, supporting the following operations, where $ b\\in\\{0, 1\\} $: $ rank_b (S, i)"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://arxiv.org/abs/0902.2648",
+        "author_id": [
+            "yZTneswAAAAJ",
+            "gxWk5wYAAAAJ",
+            "DJGy8xUAAAAJ",
+            "ZFDS3bEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:KRDixKh3KJgJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KRDixKh3KJgJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=KRDixKh3KJgJ&ei=bYGAZvvpPPOCy9YP1YKW-AQ&json=",
+        "num_citations": 52,
+        "citedby_url": "/scholar?cites=10964144859574833193&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:KRDixKh3KJgJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/0902.2648"
+    },
+    "__2007_Succinct_indexable_dictionaries": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Succinct indexable dictionaries with applications to encoding k-ary trees, prefix sums and multisets",
+            "author": [
+                "R Raman",
+                "V Raman",
+                "SR Satti"
+            ],
+            "pub_year": "2007",
+            "venue": "ACM Transactions on Algorithms (TALG)",
+            "abstract": "We consider the indexable dictionary problem, which consists of storing a set S\u2286{0,, m\u2212 1} for some integer m while supporting the operations of rank (x), which returns the number"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1290672.1290680",
+        "author_id": [
+            "DJGy8xUAAAAJ",
+            "RM5K69IAAAAJ",
+            "ZFDS3bEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:F8IVk3nrSkMJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KRDixKh3KJgJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=F8IVk3nrSkMJ&ei=bYGAZvvpPPOCy9YP1YKW-AQ&json=",
+        "num_citations": 937,
+        "citedby_url": "/scholar?cites=4848946856209007127&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:F8IVk3nrSkMJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/0705.0552"
+    },
+    "__2009_Bit-probe_lower_bounds": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Bit-probe lower bounds for succinct data structures",
+            "author": [
+                "E Viola"
+            ],
+            "pub_year": "2009",
+            "venue": "Proceedings of the forty-first annual ACM symposium \u2026",
+            "abstract": "We prove lower bounds on the redundancy necessary to represent a set S of objects using a number of bits close to the information-theoretic minimum log2| S|, while answering various"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1536414.1536480",
+        "author_id": [
+            "MA8PTRUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Yc6wPsz6LpoJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:CLwFP4R2ECsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Yc6wPsz6LpoJ&ei=EYiAZo_qFuC16rQP2Oi78Ak&json=",
+        "num_citations": 37,
+        "citedby_url": "/scholar?cites=11110093085901639265&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Yc6wPsz6LpoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=bd39b557bbca4b47d06d6676450c68984e695e6b"
+    },
+    "__2000_A_trade-off_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A trade-off for worst-case efficient dictionaries",
+            "author": [
+                "R Pagh"
+            ],
+            "pub_year": "2000",
+            "venue": "Nordic Journal of Computing",
+            "abstract": "We consider dynamic dictionaries over the universe U={0, 1} w on a unit-cost RAM with word size w and a standard instruction set, and present a linear space deterministic dictionary"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://dl.acm.org/doi/abs/10.5555/642992.642994",
+        "author_id": [
+            "VO4oS8UAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:hJoImFY0OjkJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=hJoImFY0OjkJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 16,
+        "citedby_url": "/scholar?cites=4123665955333642884&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:hJoImFY0OjkJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "__2015_Searching_for_repetitions": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Searching for repetitions in biological networks: methods, resources and tools",
+            "author": [
+                "S Panni",
+                "SE Rombo"
+            ],
+            "pub_year": "2015",
+            "venue": "Briefings in bioinformatics",
+            "abstract": "We present here a compact overview of the data, models and methods proposed for the analysis of biological networks based on the search for significant repetitions. In particular"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://academic.oup.com/bib/article-abstract/16/1/118/240476",
+        "author_id": [
+            "hOGzkN0AAAAJ",
+            "9Lh2DnAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:DHF3mN8cgbQJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D2100893988049490736%26scipsc%3D&citilm=1&update_op=library_add&info=DHF3mN8cgbQJ&ei=FkSAZorUDqjAy9YP8seP4Ac&json=",
+        "num_citations": 30,
+        "citedby_url": "/scholar?cites=13006708945483952396&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:DHF3mN8cgbQJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://academic.oup.com/bib/article-pdf/16/1/118/5036546/bbt084.pdf"
+    },
+    "__2012_A_sat-based_approach": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A sat-based approach for discovering frequent, closed and maximal patterns in a sequence",
+            "author": [
+                "E Coquery",
+                "S Jabbour",
+                "L Sais",
+                "Y Salhi"
+            ],
+            "pub_year": "2012",
+            "venue": "ECAI 2012",
+            "abstract": "In this paper we propose a satisfiability-based approach for enumerating all frequent, closed and maximal patterns with wildcards in a given sequence. In this context, since frequency is"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://ebooks.iospress.nl/doi/10.3233/978-1-61499-098-7-258",
+        "author_id": [
+            "",
+            "",
+            "kY9aNikAAAAJ",
+            "EzdJ-fMAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:g-RxEVQsZzYJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D11565581477294206034%26scipsc%3D&citilm=1&update_op=library_add&info=g-RxEVQsZzYJ&ei=HHqAZrrOJeC16rQP2Oi78Ak&json=",
+        "num_citations": 62,
+        "citedby_url": "/scholar?cites=3920150740230857859&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:g-RxEVQsZzYJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://ebooks.iospress.nl/pdf/doi/10.3233/978-1-61499-098-7-258"
+    },
+    "__2007_Pattern_discovery_in": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Pattern discovery in bioinformatics: theory & algorithms",
+            "author": [
+                "L Parida"
+            ],
+            "pub_year": "2007",
+            "venue": "NA",
+            "abstract": "The computational methods of bioinformatics are being used more and more to process the large volume of current biological data. Promoting an understanding of the underlying"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.taylorfrancis.com/books/mono/10.1201/9781420010732/pattern-discovery-bioinformatics-laxmi-parida",
+        "author_id": [
+            "nb5PGQEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:i1dBthufWisJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=i1dBthufWisJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 79,
+        "citedby_url": "/scholar?cites=3123984232905529227&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:i1dBthufWisJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2013_Pattern_matching_with": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Pattern matching with wildcards and gap-length constraints based on a centrality-degree graph",
+            "author": [
+                "D Guo",
+                "X Hu",
+                "F Xie",
+                "X Wu"
+            ],
+            "pub_year": "2013",
+            "venue": "Applied intelligence",
+            "abstract": "Pattern matching with wildcards is a challenging topic in many domains, such as bioinformatics and information retrieval. This paper focuses on the problem with gap-length"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/article/10.1007/s10489-012-0394-4",
+        "author_id": [
+            "DsEONuMAAAAJ",
+            "",
+            "",
+            "X8sHmqIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:7BSmUA3j2uQJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=7BSmUA3j2uQJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 42,
+        "citedby_url": "/scholar?cites=16490742631897634028&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:7BSmUA3j2uQJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2022_Simd-matcher_A_simd-based": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Simd-matcher: A simd-based arbitrary matching framework",
+            "author": [
+                "P Wang",
+                "F Wen",
+                "PV Gratz",
+                "A Sprintson"
+            ],
+            "pub_year": "2022",
+            "venue": "ACM Transactions on \u2026",
+            "abstract": "Packet classification methods rely upon matching packet content/header against pre-defined rules, which are generated by network applications and their configurations. With the rapid"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3514246",
+        "author_id": [
+            "",
+            "v2CLq4QAAAAJ",
+            "O9teRZsAAAAJ",
+            "PNZn3loAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:fLVGzw49X4wJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=fLVGzw49X4wJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 5,
+        "citedby_url": "/scholar?cites=10114870421913777532&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:fLVGzw49X4wJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/3514246"
+    }
+}

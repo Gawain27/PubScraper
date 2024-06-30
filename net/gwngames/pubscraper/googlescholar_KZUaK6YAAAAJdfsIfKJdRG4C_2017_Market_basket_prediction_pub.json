@@ -1,0 +1,32 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Market basket prediction using user-centric temporal annotated recurring sequences",
+        "pub_year": 2017,
+        "citation": "2017 IEEE International Conference on Data Mining (ICDM), 895-900, 2017",
+        "author": "Riccardo Guidotti and Giulio Rossetti and Luca Pappalardo and Fosca Giannotti and Dino Pedreschi",
+        "conference": "2017 IEEE International Conference on Data Mining (ICDM)",
+        "pages": "895-900",
+        "publisher": "IEEE",
+        "abstract": "Nowadays, a hot challenge for supermarket chains is to offer personalized services to their customers. Market basket prediction, i.e., supplying the customer a shopping list for the next purchase according to her current needs, is one of these services. Current approaches are not capable of capturing at the same time the different factors influencing the customer's decision process: co-occurrence, sequentuality, periodicity and recurrency of the purchased items. To this aim, we define a pattern named Temporal Annotated Recurring Sequence (TARS). We define the method to extract TARS and develop a predictor for next basket named TBP (TARS Based Predictor) that, on top of TARS, is able to understand the level of the customer's stocks and recommend the set of most necessary items. A deep experimentation shows that TARS can explain the customers' purchase behavior, and that TBP outperforms the state-of \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "KZUaK6YAAAAJ:dfsIfKJdRG4C",
+    "num_citations": 30,
+    "citedby_url": "/scholar?hl=en&cites=13951519366656090081",
+    "cites_id": [
+        "13951519366656090081"
+    ],
+    "pub_url": "https://ieeexplore.ieee.org/abstract/document/8215574/",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:4d-EFvLAncEJ:scholar.google.com/",
+    "cites_per_year": {
+        "2018": 2,
+        "2019": 8,
+        "2020": 6,
+        "2021": 4,
+        "2022": 5,
+        "2023": 4,
+        "2024": 1
+    }
+}

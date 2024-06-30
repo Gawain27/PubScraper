@@ -1,0 +1,116 @@
+{
+    "__2009_StPowla_SOA,_policies": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "StPowla: SOA, policies and workflows",
+            "author": [
+                "S Gorton",
+                "C Montangero",
+                "S Reiff-Marganiec"
+            ],
+            "pub_year": "2009",
+            "venue": "\u2026 Computing-ICSOC 2007 \u2026",
+            "abstract": "We introduce StPowla, a workflow based approach to business process modelling that integrates a simple graphical notation, to ease the presentation of the core business"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-93851-4_35",
+        "author_id": [
+            "",
+            "",
+            "rww_13kAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:F5RqZPGs3DIJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:UqyuoaXGuwIJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=F5RqZPGs3DIJ&ei=JEWAZpOIM_yCy9YPqueT2AI&json=",
+        "num_citations": 51,
+        "citedby_url": "/scholar?cites=3664994349544543255&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:F5RqZPGs3DIJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://figshare.le.ac.uk/articles/conference_contribution/StPowla_SOA_Policies_and_Workflows/10087667/1/files/18187913.pdf"
+    },
+    "__2005_SOA_in_the": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "SOA in the real world\u2013Experiences",
+            "author": [
+                "M Acharya",
+                "A Kulkarni",
+                "R Kuppili",
+                "R Mani"
+            ],
+            "pub_year": "2005",
+            "venue": "\u2026 Conference on Service \u2026",
+            "abstract": "We discuss our experiences in building a real-world, mission-critical enterprise business application on a service-oriented architecture for a leading consumer lending company. The"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/chapter/10.1007/11596141_33",
+        "author_id": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Lh9eT35k_CwJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:_PbY5aB1BEAJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Lh9eT35k_CwJ&ei=HX6AZsCNBuPTy9YPncyQqAs&json=",
+        "num_citations": 42,
+        "citedby_url": "/scholar?cites=3241576325460139822&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Lh9eT35k_CwJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.academia.edu/download/89834317/10.1007_2F11596141_33.pdf"
+    },
+    "__2006_A_business-aware_web": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A business-aware web services transaction model",
+            "author": [
+                "MP Papazoglou",
+                "B Kratz"
+            ],
+            "pub_year": "2006",
+            "venue": "Service-Oriented Computing\u2013ICSOC 2006: 4th \u2026",
+            "abstract": "Advanced business applications typically involve well-defined standard business functions such as payment processing, shipping and tracking, managing market risk and so on, which"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/chapter/10.1007/11948148_29",
+        "author_id": [
+            "JdHlU2EAAAAJ",
+            "DCOThZYAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:0nPdsgm3S3MJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=0nPdsgm3S3MJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 55,
+        "citedby_url": "/scholar?cites=8307935189898458066&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:0nPdsgm3S3MJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://research.tilburguniversity.edu/files/795769/papazogloump-2006-116.pdf"
+    },
+    "__2011_Transforming_dynamic_behavior": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Transforming dynamic behavior specifications from activity diagrams to BPEL",
+            "author": [
+                "NMF Mustafa",
+                "GV Bochmann"
+            ],
+            "pub_year": "2011",
+            "venue": "Proceedings of 2011 IEEE 6th \u2026",
+            "abstract": "The Service-Oriented Architecture (SOA) provided by the Web Services standards supports Model-Driven Development, it allows global business process models described in the"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/6139121/",
+        "author_id": [
+            "ILBaaPkAAAAJ",
+            "nTTn0TIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:VeripYRVdgUJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=VeripYRVdgUJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 11,
+        "citedby_url": "/scholar?cites=393596045648652885&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:VeripYRVdgUJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.academia.edu/download/99099334/2011_20-_20Transforming_20dynamic_20behavior_20specifications_20from_20Activity_20Diagrams_20to_20BPEL.pdf"
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "__1996_A_proposal_to": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A proposal to merge multiple tuple spaces, object orientation, and logic programming",
+            "author": [
+                "V Ambriola",
+                "GA Cignoni",
+                "L Semini"
+            ],
+            "pub_year": "1996",
+            "venue": "Computer languages",
+            "abstract": "We define a new language that naturally satisfies the requirements of concurrency support, modularity, and declarativity. Although some classes of existing languages already cover a"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0096055196000082",
+        "author_id": [
+            "FyFvm2MAAAAJ",
+            "",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:njp485YtMZAJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2077600067643409503%26scipsc%3D&citilm=1&update_op=library_add&info=njp485YtMZAJ&ei=O3uAZtPCB43A6rQPtueGyA4&json=",
+        "num_citations": 14,
+        "citedby_url": "/scholar?cites=10390135941673532062&as_sdt=5,44&sciodt=0,44&hl=en",
+        "url_related_articles": "/scholar?q=related:njp485YtMZAJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,44",
+        "eprint_url": "https://www.academia.edu/download/49281703/A_proposal_to_merge_Multiple_Tuple_Space20161001-29127-1fdxzxk.pdf"
+    },
+    "__1994_A_Proposal_to": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A Proposal to Merge Object Orientation, Logic Programming, and Multiple Tuple Spaces.",
+            "author": [
+                "V Ambriola",
+                "GA Cignoni",
+                "L Semini"
+            ],
+            "pub_year": "1994",
+            "venue": "ICLP Workshop: Process-Based \u2026",
+            "abstract": "We propose to merge in a new programming paradigm object orientation, logic programming, and multiple tuple spaces. The object oriented model supplies a well de ned"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=507f2da7fe6b06177c49fadca3079c8cd7752464",
+        "author_id": [
+            "FyFvm2MAAAAJ",
+            "",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Ft2WMQ-syTEJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KRDixKh3KJgJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Ft2WMQ-syTEJ&ei=bYGAZvvpPPOCy9YP1YKW-AQ&json=",
+        "num_citations": 6,
+        "citedby_url": "/scholar?cites=3587587759433768214&as_sdt=5,44&sciodt=0,44&hl=en",
+        "url_related_articles": "/scholar?q=related:Ft2WMQ-syTEJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,44",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=507f2da7fe6b06177c49fadca3079c8cd7752464"
+    },
+    "__1996_Enhancing_coordination_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Enhancing coordination and modularity mechanisms for a language with objects-as-multisets",
+            "author": [
+                "S Castellani",
+                "P Ciancarini"
+            ],
+            "pub_year": "1996",
+            "venue": "International Conference on Coordination \u2026",
+            "abstract": "We introduce COOLL, a programming language combining the concepts of multiple tuple spaces and objects-as-multisets. COOLL extends Linear Objects (LO), an object oriented"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/chapter/10.1007/3-540-61052-9_41",
+        "author_id": [
+            "",
+            "71mmi78AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:wOiQngshXIYJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:CLwFP4R2ECsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=wOiQngshXIYJ&ei=EYiAZo_qFuC16rQP2Oi78Ak&json=",
+        "num_citations": 32,
+        "citedby_url": "/scholar?cites=9681649632728377536&as_sdt=5,44&sciodt=0,44&hl=en",
+        "url_related_articles": "/scholar?q=related:wOiQngshXIYJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,44"
+    },
+    "__1991_Linear_objects_Logical": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Linear objects: Logical processes with built-in inheritance",
+            "author": [
+                "JM Andreoli",
+                "R Pareschi"
+            ],
+            "pub_year": "1991",
+            "venue": "New Generation Computing",
+            "abstract": "We present a new framework for amalgamating two successful programming paradigms: logic programming and object-oriented programming. From the former, we keep the"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/article/10.1007/BF03037173",
+        "author_id": [
+            "shjlrvEAAAAJ",
+            "4LGMlCEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:ilS0oFP9Q80J:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=ilS0oFP9Q80J&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 472,
+        "citedby_url": "/scholar?cites=14790944136835126410&as_sdt=5,44&sciodt=0,44&hl=en",
+        "url_related_articles": "/scholar?q=related:ilS0oFP9Q80J:scholar.google.com/&scioq=&hl=en&as_sdt=0,44",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8544f8a747d6c4816f63dda1d22d30818fdc39bb"
+    },
+    "__1993_Logic_programming_languages": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Logic programming languages: constraints, functions, and objects",
+            "author": [
+                "KR Apt",
+                "J Rutten"
+            ],
+            "pub_year": "1993",
+            "venue": "NA",
+            "abstract": "This collection of current research on logic programming languages presents results from a three-year, ESPRIT-funded effort to explore the integration of the foundational issues of"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://philpapers.org/rec/APTLPL",
+        "author_id": [
+            "80M1xD0AAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:ZxvTRiUIHtYJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=ZxvTRiUIHtYJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 8,
+        "citedby_url": "/scholar?cites=15428778329612950375&as_sdt=5,44&sciodt=0,44&hl=en",
+        "url_related_articles": "/scholar?q=related:ZxvTRiUIHtYJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,44"
+    }
+}

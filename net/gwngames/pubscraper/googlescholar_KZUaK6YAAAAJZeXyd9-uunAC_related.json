@@ -1,0 +1,122 @@
+{
+    "__2016_A_supervised_approach": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A supervised approach for intra-/inter-community interaction prediction in dynamic social networks",
+            "author": [
+                "G Rossetti",
+                "R Guidotti",
+                "I Miliou",
+                "D Pedreschi"
+            ],
+            "pub_year": "2016",
+            "venue": "Social Network Analysis \u2026",
+            "abstract": "Due to the growing availability of Internet services in the last decade, the interactions between people became more and more easy to establish. For example, we can have an"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/article/10.1007/s13278-016-0397-y",
+        "author_id": [
+            "Eug48ewAAAAJ",
+            "KZUaK6YAAAAJ",
+            "aNRGHYoAAAAJ",
+            "5efz6osAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:QZNIgFU50o0J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:BtKyT4s11XIJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=QZNIgFU50o0J&ei=fXuAZu70OPOCy9YP1YKW-AQ&json=",
+        "num_citations": 24,
+        "citedby_url": "/scholar?cites=10219293543844320065&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:QZNIgFU50o0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/s13278-016-0397-y.pdf"
+    },
+    "__2015_Interaction_prediction_in": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Interaction prediction in dynamic networks exploiting community discovery",
+            "author": [
+                "G Rossetti",
+                "R Guidotti",
+                "D Pennacchioli"
+            ],
+            "pub_year": "2015",
+            "venue": "Proceedings of the \u2026",
+            "abstract": "Due to the growing availability of online social services, interactions between people became more and more easy to establish and track. Online social human activities generate"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/2808797.2809401",
+        "author_id": [
+            "Eug48ewAAAAJ",
+            "KZUaK6YAAAAJ",
+            "vzJRakUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:_qJJIXDarJAJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KRDixKh3KJgJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=_qJJIXDarJAJ&ei=bYGAZvvpPPOCy9YP1YKW-AQ&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=10424947412585521918&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:_qJJIXDarJAJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.researchgate.net/profile/Giulio-Rossetti/publication/281319799_Interaction_Prediction_in_Dynamic_Networks_exploiting_Community_Discovery/links/55e1b16608ae2fac471e920a/Interaction-Prediction-in-Dynamic-Networks-exploiting-Community-Discovery.pdf"
+    },
+    "__2009_Towards_time-aware_link": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Towards time-aware link prediction in evolving social networks",
+            "author": [
+                "T Tylenda",
+                "R Angelova",
+                "S Bedathur"
+            ],
+            "pub_year": "2009",
+            "venue": "\u2026 of the 3rd workshop on social \u2026",
+            "abstract": "Prediction of links-both new as well as recurring-in a social network representing interactions between individuals is an important problem. In the recent years, there is"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1731011.1731020",
+        "author_id": [
+            "",
+            "",
+            "ngfF2oAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:qM26TyrsVLIJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:CLwFP4R2ECsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=qM26TyrsVLIJ&ei=EYiAZo_qFuC16rQP2Oi78Ak&json=",
+        "num_citations": 301,
+        "citedby_url": "/scholar?cites=12850155303265291688&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:qM26TyrsVLIJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=52b1c8f29655c3cc71bf8153496554b586598bc0"
+    },
+    "__2016_Scalable_temporal_latent": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Scalable temporal latent space inference for link prediction in dynamic social networks",
+            "author": [
+                "L Zhu",
+                "D Guo",
+                "J Yin",
+                "G Ver Steeg"
+            ],
+            "pub_year": "2016",
+            "venue": "IEEE Transactions on \u2026",
+            "abstract": "We propose a temporal latent space model for link prediction in dynamic social networks, where the goal is to predict links over time based on a sequence of previous graph"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/7511675/",
+        "author_id": [
+            "jfrMFesAAAAJ",
+            "GnvY4KcAAAAJ",
+            "",
+            "goLucoIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:dU6fHjzZ5bwJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=dU6fHjzZ5bwJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 285,
+        "citedby_url": "/scholar?cites=13611524301032214133&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:dU6fHjzZ5bwJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.academia.edu/download/47952350/link_prediction_TKDE_06_26.pdf"
+    }
+}

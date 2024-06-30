@@ -1,0 +1,145 @@
+{
+    "__1999_The_string_B-tree": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "The string B-tree: A new data structure for string search in external memory and its applications",
+            "author": [
+                "P Ferragina",
+                "R Grossi"
+            ],
+            "pub_year": "1999",
+            "venue": "Journal of the ACM (JACM)",
+            "abstract": "We introduce a new text-indexing data structure, the String B-Tree, that can be seen as a link between some traditional external-memory and string-matching data structures. In a short"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/301970.301973",
+        "author_id": [
+            "3EILU3MAAAAJ",
+            "yZTneswAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:eXBsiYFJCDwJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,43%26sciodt%3D0,43%26cites%3D3968499026793349101%26scipsc%3D&citilm=1&update_op=library_add&info=eXBsiYFJCDwJ&ei=_0KAZvDgGfOCy9YP1YKW-AQ&json=",
+        "num_citations": 462,
+        "citedby_url": "/scholar?cites=4325788262794555513&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:eXBsiYFJCDwJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/301970.301973"
+    },
+    "__1996_Efficient_suffix_trees": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Efficient suffix trees on secondary storage",
+            "author": [
+                "DR Clark",
+                "JI Munro"
+            ],
+            "pub_year": "1996",
+            "venue": "Proceedings of the seventh annual ACM \u2026",
+            "abstract": "We present a new representation for suffix trees, a data structure used in full text searching, that uses little more storage than the lg n bits per index point required to store the list of"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://users.cs.utah.edu/~pandey/courses/cs6968/spring23/papers/suffixtree.pdf",
+        "author_id": [
+            "",
+            "O55rM6QAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Y0KyU4mBXDAJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2827859745568056522%26scipsc%3D&citilm=1&update_op=library_add&info=Y0KyU4mBXDAJ&ei=uEeAZvOILPyCy9YPqueT2AI&json=",
+        "num_citations": 318,
+        "citedby_url": "/scholar?cites=3484802638492615267&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Y0KyU4mBXDAJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://users.cs.utah.edu/~pandey/courses/cs6968/spring23/papers/suffixtree.pdf"
+    },
+    "__2002_Burst_tries_a": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Burst tries: a fast, efficient data structure for string keys",
+            "author": [
+                "S Heinz",
+                "J Zobel",
+                "HE Williams"
+            ],
+            "pub_year": "2002",
+            "venue": "ACM Transactions on Information \u2026",
+            "abstract": "Many applications depend on efficient management of large sets of distinct strings in memory. For example, during index construction for text databases a record is held for each"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/506309.506312",
+        "author_id": [
+            "",
+            "uEHvqE8AAAAJ",
+            "WcW-GYsAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:5LY5ksQMjr4J:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2827859745568056522%26scipsc%3D&citilm=1&update_op=library_add&info=5LY5ksQMjr4J&ei=uEeAZvOILPyCy9YPqueT2AI&json=",
+        "num_citations": 236,
+        "citedby_url": "/scholar?cites=13730926352305600228&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:5LY5ksQMjr4J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1627704c73fab3573bc38ab99f158822b02464b6"
+    },
+    "__2003_Efficient_implementation_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Efficient implementation of lazy suffix trees",
+            "author": [
+                "R Giegerich",
+                "S Kurtz",
+                "J Stoye"
+            ],
+            "pub_year": "2003",
+            "venue": "Software: Practice and \u2026",
+            "abstract": "We present an efficient implementation of a write\u2010only top\u2010down construction for suffix trees. Our implementation is based on a new, space\u2010efficient representation of suffix trees that"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.535",
+        "author_id": [
+            "XN4KELEAAAAJ",
+            "x9p5GIwAAAAJ",
+            "_dmbTJkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Ug92a2m64nMJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Ug92a2m64nMJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 132,
+        "citedby_url": "/scholar?cites=8350441621035552594&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Ug92a2m64nMJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://core.ac.uk/download/pdf/15988457.pdf"
+    },
+    "__1987_Complete_inverted_files": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Complete inverted files for efficient text retrieval and analysis",
+            "author": [
+                "A Blumer",
+                "J Blumer",
+                "D Haussler",
+                "R McConnell"
+            ],
+            "pub_year": "1987",
+            "venue": "Journal of the ACM \u2026",
+            "abstract": "Given a finite set of texts S={w 1,, wk} over some fixed finite alphabet \u03a3, a complete inverted file for S is an abstract data type that provides the functions find (w), which returns"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/28869.28873",
+        "author_id": [
+            "4esyQS4AAAAJ",
+            "",
+            "S2OjOvYAAAAJ",
+            "JXsWja0AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:6--o-XcdjtMJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=6--o-XcdjtMJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 333,
+        "citedby_url": "/scholar?cites=15244154189822619627&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:6--o-XcdjtMJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/28869.28873"
+    }
+}

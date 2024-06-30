@@ -1,0 +1,139 @@
+{
+    "__2011_Representing_humans_in": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Representing humans in system security models: An actor-network approach.",
+            "author": [
+                "W Pieters"
+            ],
+            "pub_year": "2011",
+            "venue": "J. Wirel. Mob. Networks Ubiquitous Comput \u2026",
+            "abstract": "System models to assess the vulnerability of information systems to security threats typically represent a physical infrastructure (buildings) and a digital infrastructure (computers"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "http://jowua.com/wp-content/uploads/2022/12/jowua-v2n1-5.pdf",
+        "author_id": [
+            "S2bDW9cAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:EWQOZMEjBYwJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D1139997024305818716%26scipsc%3D&citilm=1&update_op=library_add&info=EWQOZMEjBYwJ&ei=rkGAZtvEA-C16rQP2Oi78Ak&json=",
+        "num_citations": 67,
+        "citedby_url": "/scholar?cites=10089509853707789329&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:EWQOZMEjBYwJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "http://jowua.com/wp-content/uploads/2022/12/jowua-v2n1-5.pdf"
+    },
+    "__2001_A_LTS_semantics": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A LTS semantics of ambients via graph synchronization with mobility",
+            "author": [
+                "A Restivo",
+                "SR Della Rocca",
+                "L Roversi"
+            ],
+            "pub_year": "2001",
+            "venue": "\u2026 Computer Science: 7th \u2026",
+            "abstract": "We present a simple labelled transition system semantics of Cardelli and Gordon's Ambient calculus. We exploit a general and flexible model based on (hyper) graphs, where graph"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/chapter/10.1007/3-540-45446-2_1",
+        "author_id": [
+            "QkUS2AwAAAAJ",
+            "",
+            "QLt2u3EAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:tNMInBv-QgQJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:ePkjgrt8gEoJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=tNMInBv-QgQJ&ei=gUaAZsP9EPyCy9YPqueT2AI&json=",
+        "num_citations": 61,
+        "citedby_url": "/scholar?cites=307087119150011316&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:tNMInBv-QgQJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "http://ndl.ethernet.edu.et/bitstream/123456789/40122/1/Antonio%20Restivo_2001.pdf#page=12"
+    },
+    "__2002_Mark,_a_reasoning": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Mark, a reasoning kit for mobility",
+            "author": [
+                "G Ferrari",
+                "C Montangero",
+                "L Semini"
+            ],
+            "pub_year": "2002",
+            "venue": "Automated Software \u2026",
+            "abstract": "The experience gained to date in the development of network applications has shown the difficulties of using traditional software technologies: reasoning about network applications"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/article/10.1023/A:1014530313153",
+        "author_id": [
+            "",
+            "",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:vRkGuZ9MiXMJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=vRkGuZ9MiXMJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 21,
+        "citedby_url": "/scholar?cites=8325269635058768317&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:vRkGuZ9MiXMJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.academia.edu/download/68005997/a_3A101453031315320210711-23410-1miidr6.pdf"
+    },
+    "__2010_Ankh_Information_threat": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Ankh: Information threat analysis with actor-network hypergraphs",
+            "author": [
+                "W Pieters"
+            ],
+            "pub_year": "2010",
+            "venue": "University of Twente, Enschede, The Netherlands \u2026",
+            "abstract": "Traditional information security modelling approaches often focus on containment of assets within boundaries. Due to what is called de-perimeterisation, such boundaries, for example"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://ris.utwente.nl/ws/files/5096552/ANKH-submission.pdf",
+        "author_id": [
+            "S2bDW9cAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:xbQWYBuxoBoJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=xbQWYBuxoBoJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 6,
+        "citedby_url": "/scholar?cites=1918728172394165445&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:xbQWYBuxoBoJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://ris.utwente.nl/ws/files/5096552/ANKH-submission.pdf"
+    },
+    "__2003_Decentralised_coordination_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Decentralised coordination for software process enactment",
+            "author": [
+                "J Yan",
+                "Y Yang",
+                "GK Raikundalia"
+            ],
+            "pub_year": "2003",
+            "venue": "\u2026 2003, Helsinki, Finland, September 1-2 \u2026",
+            "abstract": "Software process enactment mainly involves coordination of relevant team members to enact various tasks, which is supported by a centralised client/server architecture"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-45189-1_13",
+        "author_id": [
+            "DKd13DEAAAAJ",
+            "YTDQzfsAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:oCliNzeFgiUJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=oCliNzeFgiUJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 9,
+        "citedby_url": "/scholar?cites=2702869198574594464&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:oCliNzeFgiUJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.researchgate.net/profile/Gitesh-Raikundalia/publication/221546954_Decentralised_Coordination_for_Software_Process_Enactment/links/0912f50adc4ca09d49000000/Decentralised-Coordination-for-Software-Process-Enactment.pdf"
+    }
+}

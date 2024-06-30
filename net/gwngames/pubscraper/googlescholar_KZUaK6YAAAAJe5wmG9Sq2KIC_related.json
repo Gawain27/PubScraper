@@ -1,0 +1,117 @@
+{
+    "__2017_Clustering_individual_transactional": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Clustering individual transactional data for masses of users",
+            "author": [
+                "R Guidotti",
+                "A Monreale",
+                "M Nanni",
+                "F Giannotti"
+            ],
+            "pub_year": "2017",
+            "venue": "Proceedings of the 23rd \u2026",
+            "abstract": "Mining a large number of datasets recording human activities for making sense of individual data is the key enabler of a new wave of personalized knowledge-based services. In this"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3097983.3098034",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "bA-rXeUAAAAJ",
+            "DLastegAAAAJ",
+            "PKz_a_AAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:lokbLJjlXbMJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:Zh_d8tmHXFcJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,10&citilm=1&update_op=library_add&info=lokbLJjlXbMJ&ei=AkGAZvefNbbKy9YPsbqkkAU&json=",
+        "num_citations": 33,
+        "citedby_url": "/scholar?cites=12924738947360983446&as_sdt=400005&sciodt=0,14&hl=en",
+        "url_related_articles": "/scholar?q=related:lokbLJjlXbMJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,14",
+        "eprint_url": "https://arpi.unipi.it/bitstream/11568/888327/5/KDD2017_manuscript.pdf"
+    },
+    "__2002_CLOPE_a_fast": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "CLOPE: a fast and effective clustering algorithm for transactional data",
+            "author": [
+                "Y Yang",
+                "X Guan",
+                "J You"
+            ],
+            "pub_year": "2002",
+            "venue": "Proceedings of the eighth ACM SIGKDD \u2026",
+            "abstract": "This paper studies the problem of categorical data clustering, especially for transactional data characterized by high dimensionality and large volume. Starting from a heuristic"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/775047.775149",
+        "author_id": [
+            "",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:L0fE52NV0xsJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D9809733882696981625%26scipsc%3D&citilm=1&update_op=library_add&info=L0fE52NV0xsJ&ei=FkGAZoa0GpWx6rQPnaGcgAg&json=",
+        "num_citations": 325,
+        "citedby_url": "/scholar?cites=2005040146688526127&as_sdt=400005&sciodt=0,14&hl=en",
+        "url_related_articles": "/scholar?q=related:L0fE52NV0xsJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,14",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=09edbe78da07c3ca646129673e895fe19d55f4d1"
+    },
+    "__2010_Scale_a_scalable": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Scale: a scalable framework for efficiently clustering transactional data",
+            "author": [
+                "H Yan",
+                "K Chen",
+                "L Liu",
+                "Z Yi"
+            ],
+            "pub_year": "2010",
+            "venue": "Data mining and knowledge Discovery",
+            "abstract": "This paper presents SCALE, a fully automated transactional clustering framework. The SCALE design highlights three unique features. First, we introduce the concept of Weighted"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/article/10.1007/s10618-009-0134-5",
+        "author_id": [
+            "",
+            "9QWbxbYAAAAJ",
+            "VIwtdckAAAAJ",
+            "RaqG37kAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:xPVGOjtlZ_AJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=xPVGOjtlZ_AJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 17,
+        "citedby_url": "/scholar?cites=17322925796759107012&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:xPVGOjtlZ_AJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://corescholar.libraries.wright.edu/cgi/viewcontent.cgi?article=1090&context=knoesis"
+    },
+    "__2011_A_practical_approach": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A practical approach for clustering transaction data",
+            "author": [
+                "M Bouguessa"
+            ],
+            "pub_year": "2011",
+            "venue": "Machine Learning and Data Mining in Pattern \u2026",
+            "abstract": "In this paper we consider the problem of clustering transaction data. Most of existing transactional clustering algorithms encounter difficulties in the presence of overlapping"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-642-23199-5_20",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:8bgDXpM7QXoJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=8bgDXpM7QXoJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 17,
+        "citedby_url": "/scholar?cites=8809387850236934385&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:8bgDXpM7QXoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33"
+    }
+}

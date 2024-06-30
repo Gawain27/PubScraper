@@ -1,0 +1,30 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Explaining multi-label black-box classifiers for health applications",
+        "pub_year": 2020,
+        "citation": "Precision Health and Medicine: A Digital Revolution in Healthcare, 97-110, 2020",
+        "author": "Cecilia Panigutti and Riccardo Guidotti and Anna Monreale and Dino Pedreschi",
+        "journal": "Precision Health and Medicine: A Digital Revolution in Healthcare",
+        "pages": "97-110",
+        "publisher": "Springer International Publishing",
+        "abstract": "Today the state-of-the-art performance in classification is achieved by the so-called \u201cblack boxes\u201d, i.e. decision-making systems whose internal logic is obscure. Such models could revolutionize the health-care system, however their deployment in real-world diagnosis decision support systems is subject to several risks and limitations due to the lack of transparency. The typical classification problem in health-care requires a multi-label approach since the possible labels are not mutually exclusive, e.g. diagnoses. We propose MARLENA, a model-agnostic method which explains multi-label black box decisions. MARLENA explains an individual decision in three steps. First, it generates a synthetic neighborhood around the instance to be explained using a strategy suitable for multi-label decisions. It then learns a decision tree on such neighborhood and finally derives from it a decision rule that explains the \u2026"
+    },
+    "filled": true,
+    "author_pub_id": "KZUaK6YAAAAJ:g5m5HwL7SMYC",
+    "num_citations": 27,
+    "citedby_url": "/scholar?hl=en&cites=17147057186682530626",
+    "cites_id": [
+        "17147057186682530626"
+    ],
+    "pub_url": "https://link.springer.com/chapter/10.1007/978-3-030-24409-5_9",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:QmuFi6mV9u0J:scholar.google.com/",
+    "cites_per_year": {
+        "2020": 6,
+        "2021": 3,
+        "2022": 9,
+        "2023": 7,
+        "2024": 2
+    }
+}

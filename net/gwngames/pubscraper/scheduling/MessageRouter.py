@@ -69,7 +69,6 @@ class MessageRouter:
                 self.route_message(message, message_queue)
             else:
                 logging.warning(f"Ignoring message of unknown type: {type(message)}")
-            self.incoming_queue.task_done()
 
     def route_message(self, message: AbstractMessage, message_type: Any):
         """

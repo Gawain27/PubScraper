@@ -1,0 +1,112 @@
+{
+    "__1999_Managing_standards_compliance": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Managing standards compliance",
+            "author": [
+                "W Emmerich",
+                "A Finkelstein"
+            ],
+            "pub_year": "1999",
+            "venue": "IEEE Transactions \u2026",
+            "abstract": "Software engineering standards determine practices that\" compliant\" software processes shall follow. Standards generally define practices in terms of constraints that must hold for"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/824413/",
+        "author_id": [
+            "ZgDFblUAAAAJ",
+            "n8xuCVkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:ZKptqKjeHAYJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=ZKptqKjeHAYJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 107,
+        "citedby_url": "/scholar?cites=440471679537097316&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:ZKptqKjeHAYJ:scholar.google.com/&scioq=&hl=en&as_sdt=40005&sciodt=0,10",
+        "eprint_url": "https://discovery.ucl.ac.uk/id/eprint/934/1/managing_standards_compliance.pdf"
+    },
+    "__1997_Standards_compliant_software": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Standards compliant software development",
+            "author": [
+                "W Emmerich",
+                "A Finkelstein",
+                "C Montangero",
+                "R Stevens"
+            ],
+            "pub_year": "1997",
+            "venue": "NA",
+            "abstract": "Software engineering standards determine practices thatcompliant'software processes shall follow. Standards generally define practices in terms of constraints that must hold for"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://openaccess.city.ac.uk/id/eprint/26465/",
+        "author_id": [
+            "ZgDFblUAAAAJ",
+            "n8xuCVkAAAAJ",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:DFOPAXyFgeYJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=DFOPAXyFgeYJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 22,
+        "citedby_url": "/scholar?cites=16609703668367708940&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:DFOPAXyFgeYJ:scholar.google.com/&scioq=&hl=en&as_sdt=40005&sciodt=0,10",
+        "eprint_url": "https://openaccess.city.ac.uk/id/eprint/26465/1/standard.pdf"
+    },
+    "__1999_A_refinement_calculus": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A refinement calculus for tuple spaces",
+            "author": [
+                "L Semini",
+                "C Montangero"
+            ],
+            "pub_year": "1999",
+            "venue": "Science of Computer Programming",
+            "abstract": "It is fairly accepted that the realization of complex systems must be accomplished step by step from the initial specification, through a sequence of intermediate phases, to the final"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0167642398000215",
+        "author_id": [
+            "QDIhYPgAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:ePkjgrt8gEoJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=ePkjgrt8gEoJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 17,
+        "citedby_url": "/scholar?cites=5368427900609755512&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:ePkjgrt8gEoJ:scholar.google.com/&scioq=&hl=en&as_sdt=40005&sciodt=0,10",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S0167642398000215/pdf?md5=751d1d3759d15c659b6b495532c67eca&pid=1-s2.0-S0167642398000215-main.pdf"
+    },
+    "__1998_A_case_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A case for refinement calculi in software architecture design.",
+            "author": [
+                "C Montangero"
+            ],
+            "pub_year": "1998",
+            "venue": "ROSATEA, Int. Workshop on the Role of Software \u2026",
+            "abstract": "A case for refinement calculi in software architecture design. Page 1 A case for refinement  calculi in software architecture design. C. Montangero Dept. of Informatics - University of Pisa"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://www.researchgate.net/profile/Carlo-Montangero/publication/228931437_A_Case_for_Refinement_Calculi_in_Software_Architecture_Design/links/00b49532db19458225000000/A-Case-for-Refinement-Calculi-in-Software-Architecture-Design.pdf",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:crZgPwhuTcEJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=crZgPwhuTcEJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 2,
+        "citedby_url": "/scholar?cites=13928910204228908658&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:crZgPwhuTcEJ:scholar.google.com/&scioq=&hl=en&as_sdt=40005&sciodt=0,10",
+        "eprint_url": "https://www.researchgate.net/profile/Carlo-Montangero/publication/228931437_A_Case_for_Refinement_Calculi_in_Software_Architecture_Design/links/00b49532db19458225000000/A-Case-for-Refinement-Calculi-in-Software-Architecture-Design.pdf"
+    }
+}

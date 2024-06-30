@@ -1,0 +1,83 @@
+{
+    "__2022_Counterfactual_explanations_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Counterfactual explanations and how to find them: literature review and benchmarking",
+            "author": [
+                "R Guidotti"
+            ],
+            "pub_year": "2022",
+            "venue": "Data Mining and Knowledge Discovery",
+            "abstract": "Interpretable machine learning aims at unveiling the reasons behind predictions returned by uninterpretable classifiers. One of the most valuable types of explanation consists of"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/article/10.1007/s10618-022-00831-6",
+        "author_id": [
+            "KZUaK6YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:9v7Lcuh59coJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:7woAudLRUPYJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=9v7Lcuh59coJ&ei=LOB_ZqiEB9qMy9YP25uj2A0&json=",
+        "num_citations": 277,
+        "citedby_url": "/scholar?cites=14624729404220899062&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:9v7Lcuh59coJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/s10618-022-00831-6.pdf"
+    },
+    "__2020_Counterfactual_explanations_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Counterfactual explanations for machine learning: A review",
+            "author": [
+                "S Verma",
+                "J Dickerson",
+                "K Hines"
+            ],
+            "pub_year": "2020",
+            "venue": "arXiv preprint arXiv \u2026",
+            "abstract": "Machine learning plays a role in many deployed decision systems, often in ways that are difficult or impossible to understand by human stakeholders. Explaining, in a human"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://ml-retrospectives.github.io/neurips2020/camera_ready/5.pdf",
+        "author_id": [
+            "MMBSSXgAAAAJ",
+            "QgDpfCQAAAAJ",
+            "SB1GxpoAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:66uKo4EbV8MJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:CLwFP4R2ECsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=66uKo4EbV8MJ&ei=EYiAZo_qFuC16rQP2Oi78Ak&json=",
+        "num_citations": 470,
+        "citedby_url": "/scholar?cites=14075749403978279915&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:66uKo4EbV8MJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://ml-retrospectives.github.io/neurips2020/camera_ready/5.pdf"
+    },
+    "__2021_A_framework_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A framework and benchmarking study for counterfactual generating methods on tabular data",
+            "author": [
+                "RMB de Oliveira",
+                "D Martens"
+            ],
+            "pub_year": "2021",
+            "venue": "Applied Sciences",
+            "abstract": "Counterfactual explanations are viewed as an effective way to explain machine learning predictions. This interest is reflected by a relatively young literature with already dozens of"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.mdpi.com/2076-3417/11/16/7274",
+        "author_id": [
+            "h6W-VW4AAAAJ",
+            "gbce1doAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:OyW5y0zIdA0J:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=OyW5y0zIdA0J&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 38,
+        "citedby_url": "/scholar?cites=969620051952477499&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:OyW5y0zIdA0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.mdpi.com/2076-3417/11/16/7274/pdf"
+    }
+}

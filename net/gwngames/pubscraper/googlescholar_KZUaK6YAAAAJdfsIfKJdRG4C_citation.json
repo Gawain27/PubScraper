@@ -1,0 +1,64 @@
+{
+    "__2021_A_survey_on": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A survey on session-based recommender systems",
+            "author": [
+                "S Wang",
+                "L Cao",
+                "Y Wang",
+                "QZ Sheng",
+                "MA Orgun"
+            ],
+            "pub_year": "2021",
+            "venue": "ACM Computing \u2026",
+            "abstract": "Recommender systems (RSs) have been playing an increasingly important role for informed consumption, services, and decision-making in the overloaded information era and digitized"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3465401",
+        "author_id": [
+            "BQ0mBRIAAAAJ",
+            "cDs3DM8AAAAJ",
+            "3h6_oVEAAAAJ",
+            "lwy2C5YAAAAJ",
+            "FpZlwKUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:LoBFWbczq3UJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=LoBFWbczq3UJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 533,
+        "citedby_url": "/scholar?cites=8478927586024849454&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:LoBFWbczq3UJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/1902.04864"
+    },
+    "__2020_Doctor_XAI_an": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Doctor XAI: an ontology-based approach to black-box sequential data classification explanations",
+            "author": [
+                "C Panigutti",
+                "A Perotti",
+                "D Pedreschi"
+            ],
+            "pub_year": "2020",
+            "venue": "\u2026 of the 2020 conference on fairness \u2026",
+            "abstract": "Several recent advancements in Machine Learning involve blackbox models: algorithms that do not provide human-understandable explanations in support of their decisions. This"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3351095.3372855",
+        "author_id": [
+            "5ILF8RgAAAAJ",
+            "Aef-vmEAAAAJ",
+            "5efz6osAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:W9BXQWNQBzgJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=W9BXQWNQBzgJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 193,
+        "citedby_url": "/scholar?cites=4037283978189197403&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:W9BXQWNQBzgJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/3351095.3372855"
+    }
+}

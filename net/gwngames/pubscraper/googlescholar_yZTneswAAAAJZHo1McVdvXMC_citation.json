@@ -29,5 +29,119 @@
         "citedby_url": "/scholar?cites=10604779220263542295&as_sdt=2005&sciodt=0,5&hl=en",
         "url_related_articles": "/scholar?q=related:F55AqYO-K5MJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
         "eprint_url": "https://proceedings.neurips.cc/paper/2021/file/157792e4abb490f99dbd738483e0d2d4-Paper.pdf"
+    },
+    "__2023_Stronger_3-sum_lower": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Stronger 3-sum lower bounds for approximate distance oracles via additive combinatorics",
+            "author": [
+                "A Abboud",
+                "K Bringmann",
+                "N Fischer"
+            ],
+            "pub_year": "2023",
+            "venue": "Proceedings of the 55th Annual \u2026",
+            "abstract": "The \u201cshort cycle removal\u201d technique was recently introduced by Abboud, Bringmann, Khoury and Zamir (STOC'22) to prove fine-grained hardness of approximation. Its main technical"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3564246.3585240",
+        "author_id": [
+            "LDttuSAAAAAJ",
+            "DhfyBy0AAAAJ",
+            "hRy7FooAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:6bSz5Zu9MzsJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=6bSz5Zu9MzsJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 24,
+        "citedby_url": "/scholar?cites=4265961749321331945&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:6bSz5Zu9MzsJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/3564246.3585240"
+    },
+    "__2022_Hardness_of_approximation": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Hardness of approximation in P via short cycle removal: cycle detection, distance oracles, and beyond",
+            "author": [
+                "A Abboud",
+                "K Bringmann",
+                "S Khoury"
+            ],
+            "pub_year": "2022",
+            "venue": "Proceedings of the 54th \u2026",
+            "abstract": "We present a new technique for efficiently removing almost all short cycles in a graph without unintentionally removing its triangles. Consequently, triangle finding problems do"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3519935.3520066",
+        "author_id": [
+            "LDttuSAAAAAJ",
+            "DhfyBy0AAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:bpxnBp6QH8EJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=bpxnBp6QH8EJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=13916000381984808046&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:bpxnBp6QH8EJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://arxiv.org/pdf/2204.10465"
+    },
+    "__2018_Measuring_partial_balance": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Measuring partial balance in signed networks",
+            "author": [
+                "S Aref",
+                "MC Wilson"
+            ],
+            "pub_year": "2018",
+            "venue": "Journal of Complex Networks",
+            "abstract": "Is the enemy of an enemy necessarily a friend? If not, to what extent does this tend to hold? Such questions were formulated in terms of signed (social) networks and necessary and"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://academic.oup.com/comnet/article-abstract/6/4/566/4259148",
+        "author_id": [
+            "ZvfXixkAAAAJ",
+            "yVByLBsAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:0l4J8JFgQIcJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=0l4J8JFgQIcJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 72,
+        "citedby_url": "/scholar?cites=9745895773543423698&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:0l4J8JFgQIcJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://arxiv.org/pdf/1509.04037"
+    },
+    "__2024_Listing_6-cycles": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Listing 6-cycles",
+            "author": [
+                "C Jin",
+                "VV Williams",
+                "R Zhou"
+            ],
+            "pub_year": "2024",
+            "venue": "2024 Symposium on Simplicity in Algorithms \u2026",
+            "abstract": "Listing copies of small subgraphs (such as triangles, 4-cycles, small cliques) in the input graph is an important and well-studied problem in algorithmic graph theory. In this paper, we"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611977936.3",
+        "author_id": [
+            "BLLJqTgAAAAJ",
+            "Wph6P_IAAAAJ",
+            "ILT2Tx8AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:1oLHCf17ZHEJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=1oLHCf17ZHEJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 4,
+        "citedby_url": "/scholar?cites=8170791950677934806&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:1oLHCf17ZHEJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://epubs.siam.org/doi/pdf/10.1137/1.9781611977936.3"
     }
 }

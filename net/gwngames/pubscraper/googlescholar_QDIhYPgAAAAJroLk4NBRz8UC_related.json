@@ -1,0 +1,33 @@
+{
+    "__2016_Variability-based_design_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Variability-based design of services for smart transportation systems",
+            "author": [
+                "MH ter Beek",
+                "A Fantechi",
+                "S Gnesi",
+                "L Semini"
+            ],
+            "pub_year": "2016",
+            "venue": "International Symposium on \u2026",
+            "abstract": "A smart transportation system can be seen as an aggregate of transportation opportunities and services, accompanied by advanced management services that make the access to the"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-319-47169-3_38",
+        "author_id": [
+            "4aDHDyoAAAAJ",
+            "pCgQvJgAAAAJ",
+            "vkhTk-MAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:LQgVvaxp8z0J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=LQgVvaxp8z0J&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 7,
+        "citedby_url": "/scholar?cites=4464027846281857069&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:LQgVvaxp8z0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://openportal.isti.cnr.it/data/2016/359173/2016_359173.postprint.pdf"
+    }
+}

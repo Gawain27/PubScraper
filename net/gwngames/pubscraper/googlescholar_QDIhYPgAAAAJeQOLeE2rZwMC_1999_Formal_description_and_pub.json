@@ -1,0 +1,47 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Formal description and validation for an integrity policy supporting multiple levels of criticality",
+        "pub_year": 1999,
+        "citation": "Dependable Computing for Critical Applications 7, 129-146, 1999",
+        "author": "Alessandro Fantechi and S Gnesi and Laura Semini",
+        "conference": "Dependable Computing for Critical Applications 7",
+        "pages": "129-146",
+        "publisher": "IEEE",
+        "abstract": "Formal methods are increasingly used to validate the design of software and hardware components of safety critical systems. In particular, formal validation is needed for those mechanisms which support the overall dependability of the systems. Inside the GUARDS project, a novel integrity mechanism has been proposed to implement the Multiple Levels of Criticality model within an object-oriented framework. We present the application of model checking techniques to the formal validation of this integrity level mechanism."
+    },
+    "filled": true,
+    "author_pub_id": "QDIhYPgAAAAJ:eQOLeE2rZwMC",
+    "num_citations": 12,
+    "citedby_url": "/scholar?hl=en&cites=3103110453623372808",
+    "cites_id": [
+        "3103110453623372808"
+    ],
+    "pub_url": "https://ieeexplore.ieee.org/abstract/document/814293/",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:CLwFP4R2ECsJ:scholar.google.com/",
+    "cites_per_year": {
+        "1998": 1,
+        "1999": 3,
+        "2000": 1,
+        "2001": 1,
+        "2002": 1,
+        "2003": 1,
+        "2004": 0,
+        "2005": 1,
+        "2006": 1,
+        "2007": 0,
+        "2008": 0,
+        "2009": 0,
+        "2010": 0,
+        "2011": 0,
+        "2012": 0,
+        "2013": 0,
+        "2014": 0,
+        "2015": 0,
+        "2016": 0,
+        "2017": 0,
+        "2018": 0,
+        "2019": 1
+    }
+}

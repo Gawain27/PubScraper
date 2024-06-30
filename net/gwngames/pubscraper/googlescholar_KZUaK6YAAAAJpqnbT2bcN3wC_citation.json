@@ -1,0 +1,155 @@
+{
+    "__2022_Counterfactual_explanations_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Counterfactual explanations and how to find them: literature review and benchmarking",
+            "author": [
+                "R Guidotti"
+            ],
+            "pub_year": "2022",
+            "venue": "Data Mining and Knowledge Discovery",
+            "abstract": "Interpretable machine learning aims at unveiling the reasons behind predictions returned by uninterpretable classifiers. One of the most valuable types of explanation consists of"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/article/10.1007/s10618-022-00831-6",
+        "author_id": [
+            "KZUaK6YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:9v7Lcuh59coJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:RIsG7Pr9RJEJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=9v7Lcuh59coJ&ei=m9t_ZrmDA7qWy9YP7pCPMA&json=",
+        "num_citations": 277,
+        "citedby_url": "/scholar?cites=14624729404220899062&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:9v7Lcuh59coJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/s10618-022-00831-6.pdf"
+    },
+    "__2021_Evaluating_the_quality": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Evaluating the quality of machine learning explanations: A survey on methods and metrics",
+            "author": [
+                "J Zhou",
+                "AH Gandomi",
+                "F Chen",
+                "A Holzinger"
+            ],
+            "pub_year": "2021",
+            "venue": "Electronics",
+            "abstract": "The most successful Machine Learning (ML) systems remain complex black boxes to end-users, and even experts are often unable to understand the rationale behind their decisions"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.mdpi.com/2079-9292/10/5/593",
+        "author_id": [
+            "xJCM8XQAAAAJ",
+            "VMf3wfMAAAAJ",
+            "EMVGAKgAAAAJ",
+            "BTBd5V4AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:9mJST3QzCgMJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D0,33%26sciodt%3D0,33%26as_ylo%3D2024%26as_yhi%3D2024%26cites%3D10318870785830319261%26scipsc%3D&citilm=1&update_op=library_add&info=9mJST3QzCgMJ&ei=SeF_Zpr7BLbKy9YPsbqkkAU&json=",
+        "num_citations": 448,
+        "citedby_url": "/scholar?cites=219044106520912630&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:9mJST3QzCgMJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.mdpi.com/2079-9292/10/5/593/pdf"
+    },
+    "__2022_A_survey_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A survey of algorithmic recourse: contrastive explanations and consequential recommendations",
+            "author": [
+                "AH Karimi",
+                "G Barthe",
+                "B Sch\u00f6lkopf",
+                "I Valera"
+            ],
+            "pub_year": "2022",
+            "venue": "ACM Computing Surveys",
+            "abstract": "Machine learning is increasingly used to inform decision making in sensitive situations where decisions have consequential effects on individuals' lives. In these settings, in"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3527848",
+        "author_id": [
+            "umI56k0AAAAJ",
+            "kAkmfWEAAAAJ",
+            "DZ-fHPgAAAAJ",
+            "cpdQqpsAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:uQWIdrj7UGcJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=uQWIdrj7UGcJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 134,
+        "citedby_url": "/scholar?cites=7444726953724609977&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:uQWIdrj7UGcJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/3527848"
+    },
+    "__2022_Interpretable_deep_learning": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Interpretable deep learning: Interpretation, interpretability, trustworthiness, and beyond",
+            "author": [
+                "X Li",
+                "H Xiong",
+                "X Li",
+                "X Wu",
+                "X Zhang",
+                "J Liu",
+                "J Bian"
+            ],
+            "pub_year": "2022",
+            "venue": "\u2026 and Information Systems",
+            "abstract": "Deep neural networks have been well-known for their superb handling of various machine learning and artificial intelligence tasks. However, due to their over-parameterized black-box"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/article/10.1007/s10115-022-01756-8",
+        "author_id": [
+            "giQLiacAAAAJ",
+            "f_Kcie0AAAAJ",
+            "f9V0NZkAAAAJ",
+            "",
+            "5W6oMEIAAAAJ",
+            "C16EBHUAAAAJ",
+            "Mf0bWl4AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:UY1dmJnOlTwJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=UY1dmJnOlTwJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 255,
+        "citedby_url": "/scholar?cites=4365622572887149905&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:UY1dmJnOlTwJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/2103.10689"
+    },
+    "__2021_Neural_prototype_trees": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Neural prototype trees for interpretable fine-grained image recognition",
+            "author": [
+                "M Nauta",
+                "R Van Bree",
+                "C Seifert"
+            ],
+            "pub_year": "2021",
+            "venue": "Proceedings of the IEEE \u2026",
+            "abstract": "Prototype-based methods use interpretable representations to address the black-box nature of deep learning models, in contrast to post-hoc explanation methods that only approximate"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Nauta_Neural_Prototype_Trees_for_Interpretable_Fine-Grained_Image_Recognition_CVPR_2021_paper.html?ref=https://githubhelp.com",
+        "author_id": [
+            "gWqiSl0AAAAJ",
+            "RTzV1IsAAAAJ",
+            "aK6ZccUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:2cA_LlTRwM4J:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=2cA_LlTRwM4J&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 226,
+        "citedby_url": "/scholar?cites=14898137726824988889&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:2cA_LlTRwM4J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Nauta_Neural_Prototype_Trees_for_Interpretable_Fine-Grained_Image_Recognition_CVPR_2021_paper.pdf"
+    }
+}

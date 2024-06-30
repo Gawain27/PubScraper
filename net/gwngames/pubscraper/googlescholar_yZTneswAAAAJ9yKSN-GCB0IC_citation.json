@@ -1,0 +1,108 @@
+{
+    "__2007_Compressed_full-text_indexes": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Compressed full-text indexes",
+            "author": [
+                "G Navarro",
+                "V M\u00e4kinen"
+            ],
+            "pub_year": "2007",
+            "venue": "ACM Computing Surveys (CSUR)",
+            "abstract": "Full-text indexes provide fast substring search over large text collections. A serious problem of these indexes has traditionally been their space consumption. A recent trend is to develop"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1216370.1216372",
+        "author_id": [
+            "_fx52FkAAAAJ",
+            "jGsexkoAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:dMieo0dJzX0J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D16226379414917791851%26scipsc%3D&citilm=1&update_op=library_add&info=dMieo0dJzX0J&ei=VkOAZufFGdqMy9YP25uj2A0&json=",
+        "num_citations": 870,
+        "citedby_url": "/scholar?cites=9064982197003274356&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:dMieo0dJzX0J:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://repositorio.uchile.cl/bitstream/handle/2250/125009/Navarro_Gonzalo-%20suc.pdf?sequence=1"
+    },
+    "__2005_Indexing_compressed_text": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Indexing compressed text",
+            "author": [
+                "P Ferragina",
+                "G Manzini"
+            ],
+            "pub_year": "2005",
+            "venue": "Journal of the ACM (JACM)",
+            "abstract": "We design two compressed data structures for the full-text indexing problem that support efficient substring searches using roughly the space required for storing the text in"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1082036.1082039",
+        "author_id": [
+            "3EILU3MAAAAJ",
+            "xyp_USUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:q9v3CMNUzWQJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=q9v3CMNUzWQJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 852,
+        "citedby_url": "/scholar?cites=7263554970664295339&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:q9v3CMNUzWQJ:scholar.google.com/&scioq=&hl=en&as_sdt=40005&sciodt=0,10",
+        "eprint_url": "https://web.cs.ucdavis.edu/~gusfield/cs224f11/ferragina2005.pdf"
+    },
+    "__2014_Wavelet_trees_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Wavelet trees for all",
+            "author": [
+                "G Navarro"
+            ],
+            "pub_year": "2014",
+            "venue": "Journal of Discrete Algorithms",
+            "abstract": "The wavelet tree is a versatile data structure that serves a number of purposes, from string processing to computational geometry. It can be regarded as a device that represents a"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S1570866713000610",
+        "author_id": [
+            "_fx52FkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:tDjQigRkw1IJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=tDjQigRkw1IJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 265,
+        "citedby_url": "/scholar?cites=5963720302240217268&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:tDjQigRkw1IJ:scholar.google.com/&scioq=&hl=en&as_sdt=40005&sciodt=0,10",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S1570866713000610"
+    },
+    "__2007_Practical_entropy-compressed_rankselect": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Practical entropy-compressed rank/select dictionary",
+            "author": [
+                "D Okanohara",
+                "K Sadakane"
+            ],
+            "pub_year": "2007",
+            "venue": "2007 Proceedings of the Ninth Workshop on \u2026",
+            "abstract": "Rank/Select dictionaries are data structures for an ordered set S\u2282{0, 1,, n\u2212 1} to compute runk (x, S)(the number of elements in S that are no greater than x), and select (i, S)(the i-th"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611972870.6",
+        "author_id": [
+            "14n6Z6IAAAAJ",
+            "yh2tWLIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:0qM1t9VXTocJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=0qM1t9VXTocJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 384,
+        "citedby_url": "/scholar?cites=9749826818717098962&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:0qM1t9VXTocJ:scholar.google.com/&scioq=&hl=en&as_sdt=40005&sciodt=0,10",
+        "eprint_url": "https://epubs.siam.org/doi/pdf/10.1137/1.9781611972870.6"
+    }
+}

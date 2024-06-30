@@ -1,0 +1,116 @@
+{
+    "__2007_Logic\u2013Based_Detection_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Logic\u2013Based Detection of Conflicts in Appel Policies",
+            "author": [
+                "C Montangero",
+                "S Reiff-Marganiec",
+                "L Semini"
+            ],
+            "pub_year": "2007",
+            "venue": "International Symposium on \u2026",
+            "abstract": "Appel is a general language for expressing policies in a variety of application domains with a clear separation between the core language and its specialisation for concrete domains"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-75698-9_17",
+        "author_id": [
+            "",
+            "rww_13kAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:kxPrG2iwzzoJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D12924738947360983446%26scipsc%3D&citilm=1&update_op=library_add&info=kxPrG2iwzzoJ&ei=iUWAZr_FFtqMy9YP25uj2A0&json=",
+        "num_citations": 32,
+        "citedby_url": "/scholar?cites=4237799735570404243&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:kxPrG2iwzzoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://figshare.le.ac.uk/articles/conference_contribution/Logic_Based_Detection_of_Conflicts_in_APPEL_Policies/10088093/1/files/18188546.pdf"
+    },
+    "__2008_Logic-based_conflict_detection": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Logic-based conflict detection for distributed policies",
+            "author": [
+                "C Montangero",
+                "S Reiff-Marganiec"
+            ],
+            "pub_year": "2008",
+            "venue": "Fundamenta \u2026",
+            "abstract": "Policies are used to describe rules that are employed to modify (often distributed) system behaviour at runtime. Typically policies are created by many different people and there are"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://content.iospress.com/articles/fundamenta-informaticae/fi89-4-07",
+        "author_id": [
+            "",
+            "rww_13kAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Zh_d8tmHXFcJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=Zh_d8tmHXFcJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=6295055749309341542&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Zh_d8tmHXFcJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://figshare.le.ac.uk/articles/journal_contribution/Logic-based_Conflict_Detection_for_Distributed_Policies/10088069/1/files/18188510.pdf"
+    },
+    "__2003_Using_event_calculus": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Using event calculus to formalise policy specification and analysis",
+            "author": [
+                "AK Bandara",
+                "EC Lupu",
+                "A Russo"
+            ],
+            "pub_year": "2003",
+            "venue": "Proceedings POLICY 2003 \u2026",
+            "abstract": "As the interest in using policy-based approaches for systems management grows, it is becoming increasingly important to develop methods for performing analysis and refinement"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/1206955/",
+        "author_id": [
+            "eYWisq0AAAAJ",
+            "e23mVyoAAAAJ",
+            "_6zceo4AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:np_vhYPl6JkJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=np_vhYPl6JkJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 281,
+        "citedby_url": "/scholar?cites=11090366435450396574&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:np_vhYPl6JkJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://oro.open.ac.uk/6893/01/01206955.pdf"
+    },
+    "__1995_Automatic_Detection_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Automatic Detection of Feature Interactions in Temporal Logic.",
+            "author": [
+                "J Blom",
+                "RN Bol",
+                "L Kempe"
+            ],
+            "pub_year": "1995",
+            "venue": "FIW",
+            "abstract": "We present a uniform framework for the speci cation of telephone systems in linear-time temporal logic MP92, Lam91]. This logic can be used to specify high-level properties (cf"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://www.researchgate.net/profile/Johan-Blom-3/publication/220956136_Automatic_Detection_of_Feature_Interactions_in_Temporal_Logic/links/54738efa0cf2778985abb6e8/Automatic-Detection-of-Feature-Interactions-in-Temporal-Logic.pdf",
+        "author_id": [
+            "yyw4ghIAAAAJ",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:ZtRDzxIR400J:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=ZtRDzxIR400J&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 80,
+        "citedby_url": "/scholar?cites=5612348333118182502&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:ZtRDzxIR400J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.researchgate.net/profile/Johan-Blom-3/publication/220956136_Automatic_Detection_of_Feature_Interactions_in_Temporal_Logic/links/54738efa0cf2778985abb6e8/Automatic-Detection-of-Feature-Interactions-in-Temporal-Logic.pdf"
+    }
+}

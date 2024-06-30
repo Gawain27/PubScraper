@@ -1,0 +1,86 @@
+{
+    "__2021_A_systematic_literature": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A systematic literature review of ride-sharing platforms, user factors and barriers",
+            "author": [
+                "L Mitropoulos",
+                "A Kortsari",
+                "G Ayfantopoulou"
+            ],
+            "pub_year": "2021",
+            "venue": "European Transport Research \u2026",
+            "abstract": "Aim Ride-sharing is an innovative on-demand transport service that aims to promote sustainable transport, reduce car utilization, increase vehicle occupancy and public"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/article/10.1186/s12544-021-00522-1",
+        "author_id": [
+            "GYpAjpsAAAAJ",
+            "O97ZPcoAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Ur2rzMv7s80J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:Q7TGaLlDY-YJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Ur2rzMv7s80J&ei=ylyAZq-SFqjAy9YP8seP4Ac&json=",
+        "num_citations": 63,
+        "citedby_url": "/scholar?cites=14822467651337174354&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:Ur2rzMv7s80J:scholar.google.com/&scioq=&hl=en&as_sdt=40005&sciodt=0,10",
+        "eprint_url": "https://link.springer.com/article/10.1186/s12544-021-00522-1"
+    },
+    "__2018_Sustainability_and_shared": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Sustainability and shared mobility models",
+            "author": [
+                "G Santos"
+            ],
+            "pub_year": "2018",
+            "venue": "Sustainability",
+            "abstract": "Shared mobility or mobility in the sharing economy is characterised by the sharing of a vehicle instead of ownership, and the use of technology to connect users and providers"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.mdpi.com/2071-1050/10/9/3194",
+        "author_id": [
+            "swjEZR0AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:YOMIXlvqkCgJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D17113119510525787450,8626532627296206681%26scipsc%3D&citilm=1&update_op=library_add&info=YOMIXlvqkCgJ&ei=9lyAZp_PGayXy9YP3bmtyAE&json=",
+        "num_citations": 135,
+        "citedby_url": "/scholar?cites=2923093836304016224&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:YOMIXlvqkCgJ:scholar.google.com/&scioq=&hl=en&as_sdt=40005&sciodt=0,10",
+        "eprint_url": "https://www.mdpi.com/2071-1050/10/9/3194"
+    },
+    "__2022_Carpooling_in_connected": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Carpooling in connected and autonomous vehicles: current solutions and future directions",
+            "author": [
+                "F Zafar",
+                "HA Khattak",
+                "M Aloqaily",
+                "R Hussain"
+            ],
+            "pub_year": "2022",
+            "venue": "ACM Computing Surveys \u2026",
+            "abstract": "Owing to the advancements in communication and computation technologies, the dream of commercialized connected and autonomous cars is becoming a reality. However, among"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3501295",
+        "author_id": [
+            "l3KfxEIAAAAJ",
+            "dyEt0FUAAAAJ",
+            "AuAQVVEAAAAJ",
+            "1LjRFakAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:KoyELzZe-5EJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=KoyELzZe-5EJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 34,
+        "citedby_url": "/scholar?cites=10519104941472386090&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:KoyELzZe-5EJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    }
+}

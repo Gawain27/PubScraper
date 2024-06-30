@@ -1,0 +1,113 @@
+{
+    "__2015_Behavioral_entropy_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Behavioral entropy and profitability in retail",
+            "author": [
+                "R Guidotti",
+                "M Coscia",
+                "D Pedreschi"
+            ],
+            "pub_year": "2015",
+            "venue": "\u2026 Conference on Data \u2026",
+            "abstract": "Human behavior is predictable in principle: people are systematic in their everyday choices. This predictability can be used to plan events and infrastructure, both for the public good and"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/7344821/",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "3p_bhfUAAAAJ",
+            "5efz6osAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:jYQCMvYPsasJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:kT7n3otZDosJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=jYQCMvYPsasJ&ei=tnuAZtiNLqyXy9YP3bmtyAE&json=",
+        "num_citations": 24,
+        "citedby_url": "/scholar?cites=12371687201438860429&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:jYQCMvYPsasJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "http://www.michelecoscia.com/wp-content/uploads/2015/08/dsaa15.pdf"
+    },
+    "__2017_The_paradox_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "The paradox of the shopping mall: Costumers flows and market efficiency",
+            "author": [
+                "M Marchiori"
+            ],
+            "pub_year": "2017",
+            "venue": "2017 IEEE 19th International Conference on High \u2026",
+            "abstract": "The Shopping Mall is in many countries a focus point for the lives of the people. It is the place where people go and shop, and in a certain sense it has become the modern"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8291955/",
+        "author_id": [
+            "HzuV4ncAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:XIQDQmNBUkYJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KRDixKh3KJgJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=XIQDQmNBUkYJ&ei=bYGAZvvpPPOCy9YP1YKW-AQ&json=",
+        "num_citations": 10,
+        "citedby_url": "/scholar?cites=5067184425310323804&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:XIQDQmNBUkYJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__2022_Using_entropy_measures": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Using entropy measures for monitoring the evolution of activity patterns",
+            "author": [
+                "Y Huang",
+                "Y Zhao",
+                "H Haddadi"
+            ],
+            "pub_year": "2022",
+            "venue": "2022 IEEE 8th World \u2026",
+            "abstract": "In this work, we apply information theory inspired methods to quantify changes in daily activity patterns. We use in-home movement monitoring data and show how they can help"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/10152050/",
+        "author_id": [
+            "HxUkbHkAAAAJ",
+            "Al1xMi4AAAAJ",
+            "gkA7zvoAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:UWZKN2KV6x8J:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:CLwFP4R2ECsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=UWZKN2KV6x8J&ei=EYiAZo_qFuC16rQP2Oi78Ak&json=",
+        "num_citations": 2,
+        "citedby_url": "/scholar?cites=2300096283769726545&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:UWZKN2KV6x8J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://eprints.whiterose.ac.uk/200235/1/2210.01736v2.pdf"
+    },
+    "__2013_Explaining_the_product": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explaining the product range effect in purchase data",
+            "author": [
+                "D Pennacchioli",
+                "M Coscia",
+                "S Rinzivillo"
+            ],
+            "pub_year": "2013",
+            "venue": "\u2026 conference on big \u2026",
+            "abstract": "In our market society, buyers are considered rational entities, driven by two utility functions: i) the amount of money spent, a universal quantity to be minimized; and ii) the individual"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/6691634/",
+        "author_id": [
+            "vzJRakUAAAAJ",
+            "3p_bhfUAAAAJ",
+            "SEJQSaAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:MWrojZTez2UJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=MWrojZTez2UJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 24,
+        "citedby_url": "/scholar?cites=7336327047627172401&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:MWrojZTez2UJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9b886743dd7a138fbff7a5b2bc4e2a75fc951a34"
+    }
+}

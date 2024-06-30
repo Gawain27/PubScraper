@@ -1,0 +1,85 @@
+{
+    "__1999_IP_address_lookupmade": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "IP address lookupmade fast and simple",
+            "author": [
+                "P Crescenzi",
+                "L Dardini",
+                "R Grossi"
+            ],
+            "pub_year": "1999",
+            "venue": "\u2026 Prague, Czech Republic, July 16\u201318 \u2026",
+            "abstract": "The IP address lookup problem is one of the major bottlenecks in high performance routers. Previous solutions to this problem first describe it in the general terms of longest prefix"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/3-540-48481-7_7",
+        "author_id": [
+            "AXhF-boAAAAJ",
+            "",
+            "yZTneswAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:8RG9Ca6a8XwJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:G7kIj_4DvS4J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,47&citilm=1&update_op=library_add&info=8RG9Ca6a8XwJ&ei=YXqAZtPAIePTy9YPncyQqAs&json=",
+        "num_citations": 68,
+        "citedby_url": "/scholar?cites=9003147202368705009&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:8RG9Ca6a8XwJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "http://eprints.adm.unipi.it/2004/1/TR-99-01.ps.gz"
+    },
+    "__2000_Fast_and_scalable": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Fast and scalable schemes for the IP address lookup problem",
+            "author": [
+                "N Yazdani",
+                "PS Min"
+            ],
+            "pub_year": "2000",
+            "venue": "ATM 2000. Proceedings of the IEEE \u2026",
+            "abstract": "Routers forward a packet based on the packet destination address. To do this, they must find the longest matching prefix with the packet destination address in the IP lookup tables"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/856650/",
+        "author_id": [
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:-XqzGLUGMVkJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:tbNy-DRvQ8QJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=-XqzGLUGMVkJ&ei=gnqAZu-BEOPTy9YPncyQqAs&json=",
+        "num_citations": 114,
+        "citedby_url": "/scholar?cites=6426925518107671289&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:-XqzGLUGMVkJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://scholar.archive.org/work/pfqyyxjokjgi5hysg4fh4ug654/access/wayback/http://ece.ut.ac.ir/Classpages/F86/ECE571/Papers/atm-lookup.pdf"
+    },
+    "__1999_IP_lookups_using": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "IP lookups using multiway and multicolumn search",
+            "author": [
+                "B Lampson",
+                "V Srinivasan"
+            ],
+            "pub_year": "1999",
+            "venue": "IEEE/ACM transactions \u2026",
+            "abstract": "IP address lookup is becoming critical because of increasing routing table sizes, speed, and traffic in the Internet. Given a set S of prefixes and an IP address D, the IP address lookup"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/779199/",
+        "author_id": [
+            "9eyvm28AAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:6f6iVnA_C0QJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=6f6iVnA_C0QJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 627,
+        "citedby_url": "/scholar?cites=4903082371045326569&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:6f6iVnA_C0QJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/1998/05/61-IPLookup.pdf"
+    }
+}

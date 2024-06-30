@@ -1,0 +1,143 @@
+{
+    "__2009_Detecting_policy_conflicts": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Detecting policy conflicts by model checking UML state machines",
+            "author": [
+                "MH Ter Beek",
+                "S Gnesi",
+                "C Montangero"
+            ],
+            "pub_year": "2009",
+            "venue": "Feature Interactions in \u2026",
+            "abstract": "Policies are convenient means to modify system behaviour at run-time. Nowadays, policies are created in great numbers by different actors, ranging from system administrators to lay"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://ebooks.iospress.nl/doi/10.3233/978-1-60750-014-8-59",
+        "author_id": [
+            "4aDHDyoAAAAJ",
+            "vkhTk-MAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:eVxE-_0sI4gJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D3854009446058228323%26scipsc%3D&citilm=1&update_op=library_add&info=eVxE-_0sI4gJ&ei=8uJ_ZpvMOI6By9YP9NGdoA4&json=",
+        "num_citations": 25,
+        "citedby_url": "/scholar?cites=9809733882696981625&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:eVxE-_0sI4gJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=d4d0df2e062f0102eeaa8701c3708837f7b09ef1"
+    },
+    "__2006_Model_checking_dynamic": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Model checking dynamic and hierarchical UML state machines",
+            "author": [
+                "T Jussila",
+                "J Dubrovin",
+                "T Junttila",
+                "T Latvala"
+            ],
+            "pub_year": "2006",
+            "venue": "Proc. MoDeV2a: Model \u2026",
+            "abstract": "This paper presents a technique to model check UML specifications by translating UML models to the model checker SPIN. Our models consist of active UML classes, whose"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b9d89b4a182ad0d2ad27151c694388eb5f1a59ef#page=99",
+        "author_id": [
+            "",
+            "",
+            "j5RaRv4AAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:CpEAHFNvym8J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D8325269635058768317%26scipsc%3D&citilm=1&update_op=library_add&info=CpEAHFNvym8J&ei=v3iAZsinLvyCy9YPqueT2AI&json=",
+        "num_citations": 91,
+        "citedby_url": "/scholar?cites=8055373286248321290&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:CpEAHFNvym8J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b9d89b4a182ad0d2ad27151c694388eb5f1a59ef#page=99"
+    },
+    "__2003_Automated_property_verification": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Automated property verification in UML models",
+            "author": [
+                "A Toval",
+                "J S\u00e1ez",
+                "F Maestre"
+            ],
+            "pub_year": "2003",
+            "venue": "Proceedings of the 3rd Automated Verification \u2026",
+            "abstract": "This paper describes the design and implementation of a framework for automated property verification in UML models. The framework consists of a property manager interface, which"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=edbe9550a1c2c4809a992a0f34d83ee740888d79",
+        "author_id": [
+            "B1NDd14AAAAJ",
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:WcSukdzpM6gJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=WcSukdzpM6gJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 7,
+        "citedby_url": "/scholar?cites=12120288155730363481&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:WcSukdzpM6gJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=edbe9550a1c2c4809a992a0f34d83ee740888d79"
+    },
+    "__2000_Semantics_of_UML": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Semantics of UML Statecharts in PVS",
+            "author": [
+                "DB Aredo"
+            ],
+            "pub_year": "2000",
+            "venue": "Proc. of the 12th Nordic Workshop on Programming \u2026",
+            "abstract": "In this paper, we propose formal semantic definition for UML statecharts in the PVS specification language. Based on the semantic definitions, we develop a general framework"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://publ.nr.no/sci2003_final.pdf",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Odi78_atRBIJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=Odi78_atRBIJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 24,
+        "citedby_url": "/scholar?cites=1316368267261761593&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Odi78_atRBIJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://publ.nr.no/sci2003_final.pdf"
+    },
+    "__2003_Visual_specifications_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Visual specifications of policies and their verification",
+            "author": [
+                "M Koch",
+                "F Parisi-Presicce"
+            ],
+            "pub_year": "2003",
+            "venue": "International Conference on Fundamental \u2026",
+            "abstract": "The specification of policies is a crucial aspect in the development of complex systems, since policies control the system's behavior. In order to predict a possibly incorrect behavior"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://link.springer.com/chapter/10.1007/3-540-36578-8_20",
+        "author_id": [
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:C0TjLwn2NPAJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=C0TjLwn2NPAJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 32,
+        "citedby_url": "/scholar?cites=17308729787210220555&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:C0TjLwn2NPAJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.researchgate.net/profile/Francesco-Parisi-Presicce/publication/221115246_Visual_Specifications_of_Policies_and_Their_Verification/links/5728ae8108aef7c7e2c0be7b/Visual-Specifications-of-Policies-and-Their-Verification.pdf"
+    }
+}

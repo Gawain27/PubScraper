@@ -1,0 +1,160 @@
+{
+    "__2024_Explainable_Artificial_Intelligence": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions",
+            "author": [
+                "L Longo",
+                "M Brcic",
+                "F Cabitza",
+                "J Choi",
+                "R Confalonieri"
+            ],
+            "pub_year": "2024",
+            "venue": "Information \u2026",
+            "abstract": "Understanding black box models has become paramount as systems based on opaque Artificial Intelligence (AI) continue to flourish in diverse real-world applications. In response"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S1566253524000794",
+        "author_id": [
+            "oBqRuY8AAAAJ",
+            "rTdMHv8AAAAJ",
+            "ouFj7GQAAAAJ",
+            "RqMLVzUAAAAJ",
+            "zZPB9jUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Q7TGaLlDY-YJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D4837770577810473927%26scipsc%3D&citilm=1&update_op=library_add&info=Q7TGaLlDY-YJ&ei=jneAZofqJp--6rQPk_yx2A4&json=",
+        "num_citations": 50,
+        "citedby_url": "/scholar?cites=16601187115023643715&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Q7TGaLlDY-YJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S1566253524000794"
+    },
+    "__2020_Explainable_Artificial_Intelligence": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+            "author": [
+                "AB Arrieta",
+                "N D\u00edaz-Rodr\u00edguez",
+                "J Del Ser",
+                "A Bennetot"
+            ],
+            "pub_year": "2020",
+            "venue": "Information fusion",
+            "abstract": "In the last few years, Artificial Intelligence (AI) has achieved a notable momentum that, if harnessed appropriately, may deliver the best of expectations over many application sectors"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S1566253519308103",
+        "author_id": [
+            "zLmTiHkAAAAJ",
+            "aia6ZgYAAAAJ",
+            "p_wY0zUAAAAJ",
+            "Wo4dfcgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:-pzy9CQ3YAQJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D4837770577810473927%26scipsc%3D&citilm=1&update_op=library_add&info=-pzy9CQ3YAQJ&ei=jneAZofqJp--6rQPk_yx2A4&json=",
+        "num_citations": 7099,
+        "citedby_url": "/scholar?cites=315312605783825658&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:-pzy9CQ3YAQJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/1910.10045"
+    },
+    "__2022_Explainable_artificial_intelligence": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainable artificial intelligence: a comprehensive review",
+            "author": [
+                "D Minh",
+                "HX Wang",
+                "YF Li",
+                "TN Nguyen"
+            ],
+            "pub_year": "2022",
+            "venue": "Artificial Intelligence Review",
+            "abstract": "Thanks to the exponential growth in computing power and vast amounts of data, artificial intelligence (AI) has witnessed remarkable developments in recent years, enabling it to be"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/article/10.1007/s10462-021-10088-y",
+        "author_id": [
+            "E9hoN9AAAAAJ",
+            "w5epAMEAAAAJ",
+            "l3eFjv8AAAAJ",
+            "j2SYwykAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:2ft9dCizSL0J:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=2ft9dCizSL0J&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 369,
+        "citedby_url": "/scholar?cites=13639348457826024409&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:2ft9dCizSL0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__2024_Interpreting_black-box_models": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Interpreting black-box models: a review on explainable artificial intelligence",
+            "author": [
+                "V Hassija",
+                "V Chamola",
+                "A Mahapatra",
+                "A Singal"
+            ],
+            "pub_year": "2024",
+            "venue": "Cognitive \u2026",
+            "abstract": "Recent years have seen a tremendous growth in Artificial Intelligence (AI)-based methodological development in a broad range of domains. In this rapidly evolving field"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/article/10.1007/s12559-023-10179-8",
+        "author_id": [
+            "x4RT1ukAAAAJ",
+            "pL5TogoAAAAJ",
+            "",
+            "rN13vuoAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:251PR4dsonsJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=251PR4dsonsJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 123,
+        "citedby_url": "/scholar?cites=8908802341165047259&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:251PR4dsonsJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://link.springer.com/article/10.1007/s12559-023-10179-8"
+    },
+    "__2021_What_do_we": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "What do we want from Explainable Artificial Intelligence (XAI)?\u2013A stakeholder perspective on XAI and a conceptual model guiding interdisciplinary XAI research",
+            "author": [
+                "M Langer",
+                "D Oster",
+                "T Speith",
+                "H Hermanns",
+                "L K\u00e4stner"
+            ],
+            "pub_year": "2021",
+            "venue": "Artificial Intelligence",
+            "abstract": "Previous research in Explainable Artificial Intelligence (XAI) suggests that a main aim of explainability approaches is to satisfy specific interests, goals, expectations, needs"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0004370221000242",
+        "author_id": [
+            "rA3QS8EAAAAJ",
+            "",
+            "l3QOkFEAAAAJ",
+            "lWMIeCAAAAAJ",
+            "HoOWtRgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:gEAub7NbKI8J:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=gEAub7NbKI8J&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 414,
+        "citedby_url": "/scholar?cites=10315595772714696832&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:gEAub7NbKI8J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/2102.07817"
+    }
+}

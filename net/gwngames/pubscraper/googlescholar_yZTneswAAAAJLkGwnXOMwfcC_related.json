@@ -1,0 +1,145 @@
+{
+    "__2007_On_the_size": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "On the size of succinct indices",
+            "author": [
+                "A Golynski",
+                "R Grossi",
+                "A Gupta",
+                "R Raman"
+            ],
+            "pub_year": "2007",
+            "venue": "Algorithms\u2013ESA 2007 \u2026",
+            "abstract": "A succinct data structure occupies an amount of space that is close to the information-theoretic minimum plus an additional term. The latter is not necessarily a lower-order term"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-75520-3_34",
+        "author_id": [
+            "FhLLE-MAAAAJ",
+            "yZTneswAAAAJ",
+            "",
+            "DJGy8xUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:pdn2z_u5A8gJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:Szhg1CR2j0gJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=pdn2z_u5A8gJ&ei=AkWAZoeaKdS-6rQP5be_yAU&json=",
+        "num_citations": 72,
+        "citedby_url": "/scholar?cites=14412567723692710309&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:pdn2z_u5A8gJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.academia.edu/download/98755203/978-3-540-75520-3_34.pdf"
+    },
+    "__2006_Squeezing_succinct_data": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Squeezing succinct data structures into entropy bounds",
+            "author": [
+                "K Sadakane",
+                "R Grossi"
+            ],
+            "pub_year": "2006",
+            "venue": "Proceedings of the seventeenth \u2026",
+            "abstract": "Consider a sequence S of n symbols drawn from an alphabet A={1, 2,..., \u03c3}, stored as a binary string of n log \u03c3 bits. A succinct data structure on S supports a given set of primitive"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://eiche.theoinf.tu-ilmenau.de/person/md-doku/Artikel/SODA2006/p1230-sadakane.pdf",
+        "author_id": [
+            "yh2tWLIAAAAJ",
+            "yZTneswAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:icpIUtI8zZAJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=icpIUtI8zZAJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 156,
+        "citedby_url": "/scholar?cites=10434062785708608137&as_sdt=5,44&sciodt=0,44&hl=en",
+        "url_related_articles": "/scholar?q=related:icpIUtI8zZAJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,44",
+        "eprint_url": "https://eiche.theoinf.tu-ilmenau.de/person/md-doku/Artikel/SODA2006/p1230-sadakane.pdf"
+    },
+    "__2008_On_the_redundancy": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "On the redundancy of succinct data structures",
+            "author": [
+                "A Golynski",
+                "R Raman",
+                "SS Rao"
+            ],
+            "pub_year": "2008",
+            "venue": "Scandinavian Workshop on Algorithm \u2026",
+            "abstract": "The redundancy of a succinct data structure is the difference between the space it uses and the appropriate information-theoretic lower bound. We consider the problem of representing"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-540-69903-3_15",
+        "author_id": [
+            "FhLLE-MAAAAJ",
+            "DJGy8xUAAAAJ",
+            "ZFDS3bEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:PIp-6XvDaqgJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:yuQ1uXSTPicJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,44&citilm=1&update_op=library_add&info=PIp-6XvDaqgJ&ei=SoWAZq6GKdS-6rQP5be_yAU&json=",
+        "num_citations": 44,
+        "citedby_url": "/scholar?cites=12135727082869000764&as_sdt=5,44&sciodt=0,44&hl=en",
+        "url_related_articles": "/scholar?q=related:PIp-6XvDaqgJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,44",
+        "eprint_url": "http://ndl.ethernet.edu.et/bitstream/123456789/77777/1/135.pdf#page=158"
+    },
+    "__2009_Bit-probe_lower_bounds": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Bit-probe lower bounds for succinct data structures",
+            "author": [
+                "E Viola"
+            ],
+            "pub_year": "2009",
+            "venue": "Proceedings of the forty-first annual ACM symposium \u2026",
+            "abstract": "We prove lower bounds on the redundancy necessary to represent a set S of objects using a number of bits close to the information-theoretic minimum log2| S|, while answering various"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1536414.1536480",
+        "author_id": [
+            "MA8PTRUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Yc6wPsz6LpoJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=Yc6wPsz6LpoJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 37,
+        "citedby_url": "/scholar?cites=11110093085901639265&as_sdt=5,44&sciodt=0,44&hl=en",
+        "url_related_articles": "/scholar?q=related:Yc6wPsz6LpoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,44",
+        "eprint_url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=bd39b557bbca4b47d06d6676450c68984e695e6b"
+    },
+    "__2014_From_theory_to": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "From theory to practice: Plug and play with succinct data structures",
+            "author": [
+                "S Gog",
+                "T Beller",
+                "A Moffat",
+                "M Petri"
+            ],
+            "pub_year": "2014",
+            "venue": "\u2026 Copenhagen, Denmark, June 29\u2013July 1 \u2026",
+            "abstract": "Engineering efficient implementations of compact and succinct structures is time-consuming and challenging, since there is no standard library of easy-to-use, highly optimized, and"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-319-07959-2_28",
+        "author_id": [
+            "8S-_WoUAAAAJ",
+            "",
+            "r3xSME0AAAAJ",
+            "tr6O2WwAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:iYIxWJV-_V0J:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=iYIxWJV-_V0J&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 463,
+        "citedby_url": "/scholar?cites=6772708594529960585&as_sdt=5,44&sciodt=0,44&hl=en",
+        "url_related_articles": "/scholar?q=related:iYIxWJV-_V0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,44",
+        "eprint_url": "https://arxiv.org/pdf/1311.1249"
+    }
+}

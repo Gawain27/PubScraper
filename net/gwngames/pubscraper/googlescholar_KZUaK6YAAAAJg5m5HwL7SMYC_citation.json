@@ -1,0 +1,30 @@
+{
+    "__2022_Interpretability_in_the": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Interpretability in the medical field: A systematic mapping and review study",
+            "author": [
+                "H Hakkoum",
+                "I Abnane",
+                "A Idri"
+            ],
+            "pub_year": "2022",
+            "venue": "Applied Soft Computing",
+            "abstract": "Context: Recently, the machine learning (ML) field has been rapidly growing, mainly owing to the availability of historical datasets and advanced computational power. This growth is"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S1568494621011522",
+        "author_id": [
+            "3CC2gL8AAAAJ",
+            "3aNZRxYAAAAJ",
+            "XPGHiPsAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:sffvTCr_vkMJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D10424947412585521918%26scipsc%3D&citilm=1&update_op=library_add&info=sffvTCr_vkMJ&ei=toeAZvL9LePTy9YPncyQqAs&json=",
+        "num_citations": 39,
+        "citedby_url": "/scholar?cites=4881619603260700593&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:sffvTCr_vkMJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33"
+    }
+}

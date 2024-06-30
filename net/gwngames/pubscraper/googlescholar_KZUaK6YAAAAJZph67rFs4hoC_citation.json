@@ -1,0 +1,147 @@
+{
+    "__2021_Human_migration_The": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Human migration: The big data perspective",
+            "author": [
+                "A S\u00eerbu",
+                "G Andrienko",
+                "N Andrienko",
+                "C Boldrini"
+            ],
+            "pub_year": "2021",
+            "venue": "International Journal of \u2026",
+            "abstract": "How can big data help to understand the migration phenomenon? In this paper, we try to answer this question through an analysis of various phases of migration, comparing"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/article/10.1007/s41060-020-00213-5",
+        "author_id": [
+            "o-G11bQAAAAJ",
+            "R370BREAAAAJ",
+            "t8LK29QAAAAJ",
+            "rCrzxbsAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Frmk-wAUaDYJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D4599994104444185373%26scipsc%3D&citilm=1&update_op=library_add&info=Frmk-wAUaDYJ&ei=mnWAZsqCOrbKy9YPsbqkkAU&json=",
+        "num_citations": 108,
+        "citedby_url": "/scholar?cites=3920405470080448790&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Frmk-wAUaDYJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/s41060-020-00213-5.pdf"
+    },
+    "__2021_Improved_customer_lifetime": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Improved customer lifetime value prediction with sequence-to-sequence learning and feature-based models",
+            "author": [
+                "J Bauer",
+                "D Jannach"
+            ],
+            "pub_year": "2021",
+            "venue": "ACM Transactions on Knowledge Discovery from \u2026",
+            "abstract": "The prediction of the Customer Lifetime Value (CLV) is an important asset for tool-supported marketing by customer relationship managers. Since standard methods based on purchase"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3441444",
+        "author_id": [
+            "",
+            "FY3AIUsAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:WE0ES4J_hxwJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:kT7n3otZDosJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=WE0ES4J_hxwJ&ei=tnuAZtiNLqyXy9YP3bmtyAE&json=",
+        "num_citations": 29,
+        "citedby_url": "/scholar?cites=2055751952498969944&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:WE0ES4J_hxwJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://web-ainf.aau.at/pub/jannach/files/Journal_TKDD_2021.pdf"
+    },
+    "__2018_Personalized_market_basket": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Personalized market basket prediction with temporal annotated recurring sequences",
+            "author": [
+                "R Guidotti",
+                "G Rossetti",
+                "L Pappalardo"
+            ],
+            "pub_year": "2018",
+            "venue": "\u2026 on Knowledge and \u2026",
+            "abstract": "Nowadays, a hot challenge for supermarket chains is to offer personalized services to their customers. Market basket prediction, ie, supplying the customer a shopping list for the next"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8477157/",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "Eug48ewAAAAJ",
+            "88VJDhcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:yuQ1uXSTPicJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D400005%26sciodt%3D0,14%26cites%3D15514916046310132288%26scipsc%3D&citilm=1&update_op=library_add&info=yuQ1uXSTPicJ&ei=dYKAZuWKMqyXy9YP3bmtyAE&json=",
+        "num_citations": 38,
+        "citedby_url": "/scholar?cites=2827859745568056522&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:yuQ1uXSTPicJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://ieeexplore.ieee.org/iel7/69/4358933/08477157.pdf"
+    },
+    "__2018_Exploring_the_\u201cblack": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Exploring the \u201cblack box\u201d of thermal adaptation using information entropy",
+            "author": [
+                "S Jing",
+                "B Li",
+                "R Yao"
+            ],
+            "pub_year": "2018",
+            "venue": "Building and Environment",
+            "abstract": "Thermal adaptation has been well interpreted well by behavioral, physiological, and psychological factors, but the mechanism and interaction between the three factors remain"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0360132318305961",
+        "author_id": [
+            "jTWPwYAAAAAJ",
+            "",
+            "gRTm_6gAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:_V63QSTP_wsJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=_V63QSTP_wsJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 31,
+        "citedby_url": "/scholar?cites=864637408106733309&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:_V63QSTP_wsJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://centaur.reading.ac.uk/79574/3/%E2%80%9Cblack%20box%E2%80%9D%20paper%20CentAUR.pdf"
+    },
+    "__2018_Discovering_temporal_regularities": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Discovering temporal regularities in retail customers' shopping behavior",
+            "author": [
+                "R Guidotti",
+                "L Gabrielli",
+                "A Monreale"
+            ],
+            "pub_year": "2018",
+            "venue": "EPJ Data \u2026",
+            "abstract": "In this paper we investigate the regularities characterizing the temporal purchasing behavior of the customers of a retail market chain. Most of the literature studying purchasing behavior"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-018-0133-0",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "J0-jEAMAAAAJ",
+            "bA-rXeUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:mEC39Rx69AEJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=mEC39Rx69AEJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 30,
+        "citedby_url": "/scholar?cites=140871753155428504&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:mEC39Rx69AEJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-018-0133-0"
+    }
+}

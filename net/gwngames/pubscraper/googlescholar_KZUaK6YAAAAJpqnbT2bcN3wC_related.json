@@ -1,0 +1,91 @@
+{
+    "__2020_Black_box_explanation": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Black box explanation by learning image exemplars in the latent feature space",
+            "author": [
+                "R Guidotti",
+                "A Monreale",
+                "S Matwin"
+            ],
+            "pub_year": "2020",
+            "venue": "Machine Learning and \u2026",
+            "abstract": "We present an approach to explain the decisions of black box models for image classification. While using the black box to label images, our explanation method exploits"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-030-46150-8_12",
+        "author_id": [
+            "KZUaK6YAAAAJ",
+            "bA-rXeUAAAAJ",
+            "rCoJeuYAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:ODML4AJBfV0J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D0,33%26sciodt%3D0,33%26as_ylo%3D2024%26as_yhi%3D2024%26cites%3D10318870785830319261%26scipsc%3D&citilm=1&update_op=library_add&info=ODML4AJBfV0J&ei=SeF_Zpr7BLbKy9YPsbqkkAU&json=",
+        "num_citations": 89,
+        "citedby_url": "/scholar?cites=6736612098220700472&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:ODML4AJBfV0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/2002.03746"
+    },
+    "__2021_Leveraging_latent_features": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Leveraging latent features for local explanations",
+            "author": [
+                "R Luss",
+                "PY Chen",
+                "A Dhurandhar",
+                "P Sattigeri"
+            ],
+            "pub_year": "2021",
+            "venue": "Proceedings of the 27th \u2026",
+            "abstract": "As the application of deep neural networks proliferates in numerous areas such as medical imaging, video surveillance, and self driving cars, the need for explaining the decisions of"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3447548.3467265",
+        "author_id": [
+            "lBPWZdAAAAAJ",
+            "jxwlCUUAAAAJ",
+            "km9vIPEAAAAJ",
+            "m-s38ikAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:SBpEpc_h0o0J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D10709308842728334741%26scipsc%3D&citilm=1&update_op=library_add&info=SBpEpc_h0o0J&ei=wUOAZuv5Mo6By9YP9NGdoA4&json=",
+        "num_citations": 34,
+        "citedby_url": "/scholar?cites=10219478786404260424&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:SBpEpc_h0o0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://arxiv.org/pdf/1905.12698"
+    },
+    "__2018_Explanations_based_on": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explanations based on the missing: Towards contrastive explanations with pertinent negatives",
+            "author": [
+                "A Dhurandhar",
+                "PY Chen",
+                "R Luss"
+            ],
+            "pub_year": "2018",
+            "venue": "Advances in neural \u2026",
+            "abstract": "In this paper we propose a novel method that provides contrastive explanations justifying the classification of an input by a black box classifier such as a deep neural network. Given an"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://proceedings.neurips.cc/paper_files/paper/2018/hash/c5ff2543b53f4cc0ad3819a36752467b-Abstract.html",
+        "author_id": [
+            "km9vIPEAAAAJ",
+            "jxwlCUUAAAAJ",
+            "lBPWZdAAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:QfhgkSr5JcoJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2834557880414871744,17332489445355614497%26scipsc%3D&citilm=1&update_op=library_add&info=QfhgkSr5JcoJ&ei=0kOAZtz2CNiu6rQPotCy2AQ&json=",
+        "num_citations": 676,
+        "citedby_url": "/scholar?cites=14566322531022731329&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:QfhgkSr5JcoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/c5ff2543b53f4cc0ad3819a36752467b-Paper.pdf"
+    }
+}

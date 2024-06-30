@@ -1,0 +1,117 @@
+{
+    "__2022_Counterfactual_explanations_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Counterfactual explanations and how to find them: literature review and benchmarking",
+            "author": [
+                "R Guidotti"
+            ],
+            "pub_year": "2022",
+            "venue": "Data Mining and Knowledge Discovery",
+            "abstract": "Interpretable machine learning aims at unveiling the reasons behind predictions returned by uninterpretable classifiers. One of the most valuable types of explanation consists of"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/article/10.1007/s10618-022-00831-6",
+        "author_id": [
+            "KZUaK6YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:9v7Lcuh59coJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:lokbLJjlXbMJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=9v7Lcuh59coJ&ei=YX-AZtqmDY6By9YP9NGdoA4&json=",
+        "num_citations": 277,
+        "citedby_url": "/scholar?cites=14624729404220899062&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:9v7Lcuh59coJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/s10618-022-00831-6.pdf"
+    },
+    "__2022_Explainability_of_artificial": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explainability of artificial intelligence methods, applications and challenges: A comprehensive survey",
+            "author": [
+                "W Ding",
+                "M Abdel-Basset",
+                "H Hawash",
+                "AM Ali"
+            ],
+            "pub_year": "2022",
+            "venue": "Information Sciences",
+            "abstract": "The continuous advancement of Artificial Intelligence (AI) has been revolutionizing the strategy of decision-making in different life domains. Regardless of this achievement, AI"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S002002552201132X",
+        "author_id": [
+            "",
+            "3ekg8rQAAAAJ",
+            "J7xtf9AAAAAJ",
+            "Rl4dxUcAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:u1upybdMWtUJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KRDixKh3KJgJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=u1upybdMWtUJ&ei=bYGAZvvpPPOCy9YP1YKW-AQ&json=",
+        "num_citations": 75,
+        "citedby_url": "/scholar?cites=15373684630228655035&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:u1upybdMWtUJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33"
+    },
+    "__2023_Benchmarking_and_survey": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Benchmarking and survey of explanation methods for black box models",
+            "author": [
+                "F Bodria",
+                "F Giannotti",
+                "R Guidotti",
+                "F Naretto"
+            ],
+            "pub_year": "2023",
+            "venue": "Data Mining and \u2026",
+            "abstract": "The rise of sophisticated black-box machine learning models in Artificial Intelligence systems has prompted the need for explanation methods that reveal how these models work"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/article/10.1007/s10618-023-00933-9",
+        "author_id": [
+            "uHztM40AAAAJ",
+            "PKz_a_AAAAAJ",
+            "KZUaK6YAAAAJ",
+            "rfPD67YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:M07Mtg8U3CYJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:CLwFP4R2ECsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=M07Mtg8U3CYJ&ei=EYiAZo_qFuC16rQP2Oi78Ak&json=",
+        "num_citations": 199,
+        "citedby_url": "/scholar?cites=2800135126041513523&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:M07Mtg8U3CYJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/s10618-023-00933-9.pdf"
+    },
+    "__2024_A_survey_on": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A survey on graph counterfactual explanations: definitions, methods, evaluation, and research challenges",
+            "author": [
+                "MA Prado-Romero",
+                "B Prenkaj",
+                "G Stilo"
+            ],
+            "pub_year": "2024",
+            "venue": "ACM Computing \u2026",
+            "abstract": "Graph Neural Networks (GNNs) perform well in community detection and molecule classification. Counterfactual Explanations (CE) provide counter-examples to overcome the"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3618105",
+        "author_id": [
+            "NPie5kEAAAAJ",
+            "JIidltYAAAAJ",
+            "uTyaicMAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:lCGa6rSZpzYJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=lCGa6rSZpzYJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 26,
+        "citedby_url": "/scholar?cites=3938285401467920788&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:lCGa6rSZpzYJ:scholar.google.com/&scioq=&hl=en&as_sdt=5,33&sciodt=0,33",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/3618105"
+    }
+}

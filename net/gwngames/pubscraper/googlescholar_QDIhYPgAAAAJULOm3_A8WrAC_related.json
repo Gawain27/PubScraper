@@ -1,0 +1,177 @@
+{
+    "__1993_Control_Specification_in": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Control Specification in Tuple Space Based Languages",
+            "author": [
+                "V Ambriola",
+                "L Semini"
+            ],
+            "pub_year": "1993",
+            "venue": "Technical \u2026",
+            "abstract": ""
+        },
+        "filled": false,
+        "gsrank": 1,
+        "author_id": [
+            "",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:KtrzrVE7bV4J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KtrzrVE7bV4J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=KtrzrVE7bV4J&ei=h0eAZqrSI46By9YP9NGdoA4&json=",
+        "num_citations": 9,
+        "citedby_url": "/scholar?cites=6804159834023516714&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:KtrzrVE7bV4J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__1991_Customization_of_first-class": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Customization of first-class tuple-spaces in a higher-order language",
+            "author": [
+                "S Jagannathan"
+            ],
+            "pub_year": "1991",
+            "venue": "Parle'91 Parallel Architectures and Languages Europe \u2026",
+            "abstract": "A distributed data structure is an object which permits many producers to augment or modify its contents, and many consumers simultaneously to access its component elements"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-662-25209-3_42",
+        "author_id": [
+            "TV7PlNUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:c_33xA00pz8J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:QMpSTPENUNcJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=c_33xA00pz8J&ei=DXaAZoHIF6yXy9YP3bmtyAE&json=",
+        "num_citations": 29,
+        "citedby_url": "/scholar?cites=4586691979243945331&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:c_33xA00pz8J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.researchgate.net/profile/Suresh-Jagannathan/publication/2514347_Customization_of_First-Class_Tuple-Spaces_in_a_Higher-Order_Language/links/544e33130cf29473161a41b0/Customization-of-First-Class-Tuple-Spaces-in-a-Higher-Order-Language.pdf"
+    },
+    "__1982_New_control_structures": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "New control structures in APL?",
+            "author": [
+                "FHD van Batenburg"
+            ],
+            "pub_year": "1982",
+            "venue": "ACM SIGAPL APL Quote Quad",
+            "abstract": "A recurring subject of new proposals is implementation of the control structures seen in conventional languages:---statement grouping---conditional execution, simple (IF-statement)"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/586713.586717",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:vOCv_nBECHQJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:OsZEStmPkqAJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=vOCv_nBECHQJ&ei=i3yAZpPnK6jAy9YP8seP4Ac&json=",
+        "num_citations": 5,
+        "citedby_url": "/scholar?cites=8361007960313290940&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:vOCv_nBECHQJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/586713.586717"
+    },
+    "__1978_Whither_(wither)_control": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Whither (wither?) control structures?",
+            "author": [
+                "C Wiedmann"
+            ],
+            "pub_year": "1978",
+            "venue": "ACM SIGAPL APL Quote Quad",
+            "abstract": "The following paper,\" Special Control Structures for APL\" by AP Reeves and J. Besemer, is one of several that have proposed extensions of APL to provide control structures. As"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://dl.acm.org/doi/pdf/10.1145/586050.586055",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:m6JXLlJp4SMJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:OsZEStmPkqAJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=m6JXLlJp4SMJ&ei=i3yAZpPnK6jAy9YP8seP4Ac&json=",
+        "num_citations": 8,
+        "citedby_url": "/scholar?cites=2585463462773105307&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:m6JXLlJp4SMJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__1979_The_Data_Module,": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "The Data Module, the missing link in high level Control Languages",
+            "author": [
+                "MC Crowley-Milling"
+            ],
+            "pub_year": "1979",
+            "venue": "Trends in on-line computer control systems. 3rd \u2026",
+            "abstract": "[en] In order to be able to use the full power and simplicity of a high level language for writing plant control programs, it must be possible to use the plant variables in the same"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://inis.iaea.org/search/search.aspx?orig_q=RN:10494758",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:ZKGIxLFIwKsJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=ZKGIxLFIwKsJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 7,
+        "citedby_url": "/scholar?cites=12375971704357822820&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:ZKGIxLFIwKsJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__1969_Property_grammars_and": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Property grammars and table machines",
+            "author": [
+                "RE Stearns",
+                "PM Lewis"
+            ],
+            "pub_year": "1969",
+            "venue": "Information and Control",
+            "abstract": "A method is given for generalizing context free grammars to include infinite terminal sets. The new grammar has many of the properties of context free grammars (eg membership is"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S001999586990312X",
+        "author_id": [
+            "",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:izz-CM47olUJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D11570468556084921914%26scipsc%3D&citilm=1&update_op=library_add&info=izz-CM47olUJ&ei=woKAZurfOtqK6rQPloi72Ao&json=",
+        "num_citations": 45,
+        "citedby_url": "/scholar?cites=6170560195551181963&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:izz-CM47olUJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S001999586990312X/pdf?md5=9ecc337554d8e6f138846d604f7b2bd0&pid=1-s2.0-S001999586990312X-main.pdf&_valck=1"
+    },
+    "__1972_A_survey_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "A survey of control structures in programming languages",
+            "author": [
+                "DA Fisher"
+            ],
+            "pub_year": "1972",
+            "venue": "ACM SIGPLAN Notices",
+            "abstract": "The control structure of programming languages and their development are examined. Languages studied range from machine and assembly languages to procedure and"
+        },
+        "filled": false,
+        "gsrank": 7,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/987361.987363",
+        "author_id": [
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:WLb4xQpxNQEJ:scholar.google.com/&output=cite&scirp=6&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=WLb4xQpxNQEJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 8,
+        "citedby_url": "/scholar?cites=87100058888615512&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:WLb4xQpxNQEJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://dl.acm.org/doi/pdf/10.1145/987361.987363"
+    }
+}

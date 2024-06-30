@@ -1,0 +1,45 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "When indexing equals compression: Experiments with compressing suffix arrays and applications",
+        "pub_year": 2006,
+        "citation": "ACM Transactions on Algorithms (TALG) 2 (4), 611-639, 2006",
+        "author": "Luca Foschini and Roberto Grossi and Ankur Gupta and Jeffrey Scott Vitter",
+        "journal": "ACM Transactions on Algorithms (TALG)",
+        "volume": "2",
+        "number": "4",
+        "pages": "611-639",
+        "publisher": "ACM",
+        "abstract": "We report on a new experimental analysis of high-order entropy-compressed suffix arrays, which retains the theoretical performance of previous work and represents an improvement in practice. Our experiments indicate that the resulting text index offers state-of-the-art compression. In particular, we require roughly 20% of the original text size---without requiring a separate instance of the text. We can additionally use a simple notion to encode and decode block-sorting transforms (such as the Burrows--Wheeler transform), achieving a compression ratio comparable to that of bzip2. We also provide a compressed representation of suffix trees (and their associated text) in a total space that is comparable to that of the text alone compressed with gzip."
+    },
+    "filled": true,
+    "author_pub_id": "yZTneswAAAAJ:Se3iqnhoufwC",
+    "num_citations": 78,
+    "citedby_url": "/scholar?hl=en&cites=17748916834444249839",
+    "cites_id": [
+        "17748916834444249839"
+    ],
+    "pub_url": "https://dl.acm.org/doi/abs/10.1145/1198513.1198521",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:7woAudLRUPYJ:scholar.google.com/",
+    "cites_per_year": {
+        "2007": 3,
+        "2008": 5,
+        "2009": 8,
+        "2010": 3,
+        "2011": 6,
+        "2012": 7,
+        "2013": 4,
+        "2014": 6,
+        "2015": 3,
+        "2016": 5,
+        "2017": 2,
+        "2018": 4,
+        "2019": 2,
+        "2020": 4,
+        "2021": 6,
+        "2022": 5,
+        "2023": 2,
+        "2024": 2
+    }
+}

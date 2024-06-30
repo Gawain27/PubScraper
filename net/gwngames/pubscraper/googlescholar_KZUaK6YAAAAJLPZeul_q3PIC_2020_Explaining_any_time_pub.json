@@ -1,0 +1,29 @@
+{
+    "container_type": "Publication",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "bib": {
+        "title": "Explaining any time series classifier",
+        "pub_year": 2020,
+        "citation": "2020 IEEE second international conference on cognitive machine intelligence \u2026, 2020",
+        "author": "Riccardo Guidotti and Anna Monreale and Francesco Spinnato and Dino Pedreschi and Fosca Giannotti",
+        "conference": "2020 IEEE second international conference on cognitive machine intelligence (CogMI)",
+        "pages": "167-176",
+        "publisher": "IEEE",
+        "abstract": "We present a method to explain the decisions of black box models for time series classification. The explanation consists of factual and counterfactual shapelet-based rules revealing the reasons for the classification, and of a set of exemplars and counter-exemplars highlighting similarities and differences with the time series under analysis. The proposed method first generates exemplar and counter-exemplar time series in the latent feature space and learns a local latent decision tree classifier. Then, it selects and decodes those respecting the decision rules explaining the decision. Finally, it learns on them a shapelet-tree that reveals the parts of the time series that must, and must not, be contained for getting the returned outcome from the black box. A wide experimentation shows that the proposed method provides faithful, meaningful and interpretable explanations."
+    },
+    "filled": true,
+    "author_pub_id": "KZUaK6YAAAAJ:LPZeul_q3PIC",
+    "num_citations": 45,
+    "citedby_url": "/scholar?hl=en&cites=5243209140638598892",
+    "cites_id": [
+        "5243209140638598892"
+    ],
+    "pub_url": "https://ieeexplore.ieee.org/abstract/document/9319285/",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:7EbYBu-ew0gJ:scholar.google.com/",
+    "cites_per_year": {
+        "2021": 4,
+        "2022": 12,
+        "2023": 19,
+        "2024": 10
+    }
+}

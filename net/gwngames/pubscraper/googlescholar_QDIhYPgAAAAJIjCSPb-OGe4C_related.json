@@ -1,0 +1,201 @@
+{
+    "__2015_Using_a_machine": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Using a machine learning approach to implement and evaluate product line features",
+            "author": [
+                "D Bacciu",
+                "S Gnesi",
+                "L Semini"
+            ],
+            "pub_year": "2015",
+            "venue": "arXiv preprint arXiv:1508.03906",
+            "abstract": "Bike-sharing systems are a means of smart transportation in urban environments with the benefit of a positive impact on urban mobility. In this paper we are interested in studying and"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://arxiv.org/abs/1508.03906",
+        "author_id": [
+            "1d5n2WkAAAAJ",
+            "vkhTk-MAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:X4Q2AUEe1RwJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D3103110453623372808%26scipsc%3D&citilm=1&update_op=library_add&info=X4Q2AUEe1RwJ&ei=SEKAZoyYDbqWy9YP7pCPMA&json=",
+        "num_citations": 13,
+        "citedby_url": "/scholar?cites=2077600067643409503&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:X4Q2AUEe1RwJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arxiv.org/pdf/1508.03906"
+    },
+    "__2014_Predicting_bikeshare_system": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Predicting bikeshare system usage up to one day ahead",
+            "author": [
+                "R Giot",
+                "R Cherrier"
+            ],
+            "pub_year": "2014",
+            "venue": "2014 IEEE symposium on Computational \u2026",
+            "abstract": "Bike sharing systems are present in several modern cities. They provide citizens with an alternative and ecological mode of transportation, allowing them to avoid the use of personal"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/7009473/",
+        "author_id": [
+            "bwwARrQAAAAJ",
+            ""
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:2ITcs7ZxvhYJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D3103110453623372808%26scipsc%3D&citilm=1&update_op=library_add&info=2ITcs7ZxvhYJ&ei=SEKAZoyYDbqWy9YP7pCPMA&json=",
+        "num_citations": 84,
+        "citedby_url": "/scholar?cites=1638872343924999384&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:2ITcs7ZxvhYJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://hal.science/hal-01065983/document"
+    },
+    "__2017_Real-time_usage_forecasting": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Real-time usage forecasting for bike-sharing systems: A study on random forest and convolutional neural network applicability",
+            "author": [
+                "S Ruffieux",
+                "N Spycher",
+                "E Mugellini"
+            ],
+            "pub_year": "2017",
+            "venue": "2017 intelligent \u2026",
+            "abstract": "In this paper, we present a system that has been developed to facilitate the collection and use of Bike-Sharing Systems data for research, notably to develop and compare bike usage"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/8324359/",
+        "author_id": [
+            "uWAPGfMAAAAJ",
+            "gS_Rs6IAAAAJ",
+            "ZL3WQEMAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:zYC5YkzEoMIJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D3103110453623372808%26scipsc%3D&citilm=1&update_op=library_add&info=zYC5YkzEoMIJ&ei=SEKAZoyYDbqWy9YP7pCPMA&json=",
+        "num_citations": 20,
+        "citedby_url": "/scholar?cites=14024425071984607437&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:zYC5YkzEoMIJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__2015_User-based_solutions_for": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "User-based solutions for increasing level of service in bike-sharing transportation systems",
+            "author": [
+                "J Raimbault"
+            ],
+            "pub_year": "2015",
+            "venue": "\u2026 Systems Design & Management: Proceedings of the \u2026",
+            "abstract": "Bike-sharing transportation systems have been well studied from a top-down viewpoint, either for an optimal conception of the system, or for a better statistical understanding of their"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-319-11617-4_3",
+        "author_id": [
+            "zoioGw4AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:YD9Y6pU8G34J:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=YD9Y6pU8G34J&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 5,
+        "citedby_url": "/scholar?cites=9086923287729553248&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:YD9Y6pU8G34J:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://arxiv.org/pdf/1605.08883"
+    },
+    "__2017_An_experience_in": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "An experience in using machine learning for short-term predictions in smart transportation systems",
+            "author": [
+                "D Bacciu",
+                "A Carta",
+                "S Gnesi",
+                "L Semini"
+            ],
+            "pub_year": "2017",
+            "venue": "\u2026 of Logical and Algebraic Methods in \u2026",
+            "abstract": "Bike-sharing systems (BSS) are a means of smart transportation with the benefit of a positive impact on urban mobility. To improve the satisfaction of a user of a BSS, it is useful to inform"
+        },
+        "filled": false,
+        "gsrank": 5,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S2352220816301584",
+        "author_id": [
+            "1d5n2WkAAAAJ",
+            "G-1jrFoAAAAJ",
+            "vkhTk-MAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:x8M6e7U2I0MJ:scholar.google.com/&output=cite&scirp=4&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=x8M6e7U2I0MJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 41,
+        "citedby_url": "/scholar?cites=4837770577810473927&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:x8M6e7U2I0MJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S2352220816301584"
+    },
+    "__2020_Development_of_a": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Development of a station-level demand prediction and visualization tool to support bike-sharing systems' operators",
+            "author": [
+                "N Boufidis",
+                "A Nikiforiadis",
+                "K Chrysostomou"
+            ],
+            "pub_year": "2020",
+            "venue": "Transportation Research \u2026",
+            "abstract": "Bike-sharing systems operate in a number of cities around the world, aiming to promote sustainable urban mobility. Successful management of these systems is to a large extent"
+        },
+        "filled": false,
+        "gsrank": 6,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S2352146520302593",
+        "author_id": [
+            "",
+            "6NMNCCgAAAAJ",
+            "sRSidwUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:kQnYq9S-PmYJ:scholar.google.com/&output=cite&scirp=5&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=kQnYq9S-PmYJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 43,
+        "citedby_url": "/scholar?cites=7367535861050116497&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:kQnYq9S-PmYJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S2352146520302593/pdf?md5=19b3e3f28e04eb2a290e176945901f60&pid=1-s2.0-S2352146520302593-main.pdf"
+    },
+    "__2019_User_satisfaction_based": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "User satisfaction based model for resource allocation in bike-sharing systems",
+            "author": [
+                "L Caggiani",
+                "R Camporeale",
+                "M Marinelli",
+                "M Ottomanelli"
+            ],
+            "pub_year": "2019",
+            "venue": "Transport Policy",
+            "abstract": "Over the past decade, the number of ongoing bike-sharing programs has remarkably risen. In this framework, operators need appropriate methodologies to support them in optimizing"
+        },
+        "filled": false,
+        "gsrank": 7,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0967070X17305322",
+        "author_id": [
+            "",
+            "fmWFobgAAAAJ",
+            "TLjEdbcAAAAJ",
+            "2-fBvN0AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Ui2NpPfJs9sJ:scholar.google.com/&output=cite&scirp=6&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=Ui2NpPfJs9sJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 79,
+        "citedby_url": "/scholar?cites=15831219180592246098&as_sdt=5,33&sciodt=0,33&hl=en",
+        "url_related_articles": "/scholar?q=related:Ui2NpPfJs9sJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,33"
+    }
+}

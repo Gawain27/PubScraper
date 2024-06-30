@@ -1,0 +1,131 @@
+{
+    "__2017_Myway_Location_prediction": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Myway: Location prediction via mobility profiling",
+            "author": [
+                "R Trasarti",
+                "R Guidotti",
+                "A Monreale",
+                "F Giannotti"
+            ],
+            "pub_year": "2017",
+            "venue": "Information Systems",
+            "abstract": "Forecasting the future positions of mobile users is a valuable task allowing us to operate efficiently a myriad of different applications which need this type of information. We propose"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0306437915001945",
+        "author_id": [
+            "WG8fyRAAAAAJ",
+            "KZUaK6YAAAAJ",
+            "bA-rXeUAAAAJ",
+            "PKz_a_AAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:bfCYBBZ32yYJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D10467770688059378500%26scipsc%3D&citilm=1&update_op=library_add&info=bfCYBBZ32yYJ&ei=JOF_Zoj3O9S-6rQP5be_yAU&json=",
+        "num_citations": 107,
+        "citedby_url": "/scholar?cites=2799962529791012973&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:bfCYBBZ32yYJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arpi.unipi.it/bitstream/11568/814810/2/2014-SI-MUD.pdf"
+    },
+    "__2015_Modeling_user_activity": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Modeling user activity patterns for next-place prediction",
+            "author": [
+                "C Yu",
+                "Y Liu",
+                "D Yao",
+                "LT Yang",
+                "H Jin"
+            ],
+            "pub_year": "2015",
+            "venue": "IEEE Systems \u2026",
+            "abstract": "Location has played a very important role in pervasive computing systems. Beyond the current location, knowing an individual's next location in advance can also enable many"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://ieeexplore.ieee.org/abstract/document/7150318/",
+        "author_id": [
+            "kIfNRN4AAAAJ",
+            "",
+            "SFBHGr0AAAAJ",
+            "a39Yz5cAAAAJ",
+            "o02W0aEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:qUoYMu16kHEJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D10709308842728334741%26scipsc%3D&citilm=1&update_op=library_add&info=qUoYMu16kHEJ&ei=Hn2AZpuZL7bKy9YPsbqkkAU&json=",
+        "num_citations": 54,
+        "citedby_url": "/scholar?cites=8183175682098481833&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:qUoYMu16kHEJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,10"
+    },
+    "__2015_Regularity_and_conformity": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Regularity and conformity: Location prediction using heterogeneous mobility data",
+            "author": [
+                "Y Wang",
+                "NJ Yuan",
+                "D Lian",
+                "L Xu",
+                "X Xie"
+            ],
+            "pub_year": "2015",
+            "venue": "Proceedings of the 21th \u2026",
+            "abstract": "Mobility prediction enables appealing proactive experiences for location-aware services and offers essential intelligence to business and governments. Recent studies suggest that"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/2783258.2783350",
+        "author_id": [
+            "Yy10PMcAAAAJ",
+            "B-d1EHAAAAAJ",
+            "QW0ad4sAAAAJ",
+            "MsuY1TsAAAAJ",
+            "5EQfAFIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:adOhgy3Z6GIJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=adOhgy3Z6GIJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 187,
+        "citedby_url": "/scholar?cites=7127185199818986345&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:adOhgy3Z6GIJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,10",
+        "eprint_url": "http://staff.ustc.edu.cn/~cheneh/paper_pdf/2015/Yingzi-Wang-KDD.pdf"
+    },
+    "__2018_What_will_you": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "What will you do for the rest of the day? An approach to continuous trajectory prediction",
+            "author": [
+                "A Sadri",
+                "FD Salim",
+                "Y Ren",
+                "W Shao",
+                "JC Krumm"
+            ],
+            "pub_year": "2018",
+            "venue": "Proceedings of the \u2026",
+            "abstract": "Understanding and predicting human mobility is vital to a large number of applications, ranging from recommendations to safety and urban service planning. In some travel"
+        },
+        "filled": false,
+        "gsrank": 4,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/3287064",
+        "author_id": [
+            "",
+            "Yz35RSYAAAAJ",
+            "ZZl7bW8AAAAJ",
+            "sdthjnoAAAAJ",
+            "qWGk7FUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:8b2v2elAo1wJ:scholar.google.com/&output=cite&scirp=3&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=8b2v2elAo1wJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 45,
+        "citedby_url": "/scholar?cites=6675250445816937969&as_sdt=40005&sciodt=0,10&hl=en",
+        "url_related_articles": "/scholar?q=related:8b2v2elAo1wJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,10",
+        "eprint_url": "https://www.repository.cam.ac.uk/bitstreams/fc96cb6d-1b2b-46af-a12e-5407d6963a51/download"
+    }
+}

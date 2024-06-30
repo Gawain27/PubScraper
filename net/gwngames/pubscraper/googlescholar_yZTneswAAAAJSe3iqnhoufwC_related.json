@@ -1,0 +1,87 @@
+{
+    "__2006_When_indexing_equals": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "When indexing equals compression: Experiments with compressing suffix arrays and applications",
+            "author": [
+                "L Foschini",
+                "R Grossi",
+                "A Gupta",
+                "JS Vitter"
+            ],
+            "pub_year": "2006",
+            "venue": "ACM Transactions on \u2026",
+            "abstract": "We report on a new experimental analysis of high-order entropy-compressed suffix arrays, which retains the theoretical performance of previous work and represents an improvement"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://dl.acm.org/doi/abs/10.1145/1198513.1198521",
+        "author_id": [
+            "LNtKWuIAAAAJ",
+            "yZTneswAAAAJ",
+            "",
+            "IeXW2bkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:7woAudLRUPYJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:-glIAxNOZfYJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,33&citilm=1&update_op=library_add&info=7woAudLRUPYJ&ei=i0SAZtCNLePTy9YPncyQqAs&json=",
+        "num_citations": 78,
+        "citedby_url": "/scholar?cites=17748916834444249839&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:7woAudLRUPYJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.academia.edu/download/47682328/FGGV06.TextindexingExperimentsJournal.pdf"
+    },
+    "__2004_When_indexing_equals": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "When indexing equals compression: experiments with compressing suffix arrays and applications.",
+            "author": [
+                "R Grossi",
+                "A Gupta",
+                "JS Vitter"
+            ],
+            "pub_year": "2004",
+            "venue": "SODA",
+            "abstract": "We report on a new and improved version of high-order entropy-compressed suffix arrays, which has theoretical performance guarantees similar to those in our earlier work [16], yet"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://pages.di.unipi.it/grossi/PAPERS/soda04.pdf",
+        "author_id": [
+            "yZTneswAAAAJ",
+            "",
+            "IeXW2bkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:a8DiWBuuL-EJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=a8DiWBuuL-EJ&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 114,
+        "citedby_url": "/scholar?cites=16226379414917791851&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:a8DiWBuuL-EJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://pages.di.unipi.it/grossi/PAPERS/soda04.pdf"
+    },
+    "__2003_New_text_indexing": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "New text indexing functionalities of the compressed suffix arrays",
+            "author": [
+                "K Sadakane"
+            ],
+            "pub_year": "2003",
+            "venue": "Journal of Algorithms",
+            "abstract": "New text indexing functionalities of the compressed suffix arrays are proposed. The compressed suffix array proposed by Grossi and Vitter is a space-efficient data structure for"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S0196677403000877",
+        "author_id": [
+            "yh2tWLIAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:pk4_4fFORw4J:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:LQgVvaxp8z0J:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=pk4_4fFORw4J&ei=aYyAZtHKG7qWy9YP7pCPMA&json=",
+        "num_citations": 313,
+        "citedby_url": "/scholar?cites=1028877840650555046&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:pk4_4fFORw4J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.academia.edu/download/49863652/s0196-6774_2803_2900087-720161025-5703-1d72cps.pdf"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "__2020_Explaining_multi-label_black-box": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Explaining multi-label black-box classifiers for health applications",
+            "author": [
+                "C Panigutti",
+                "R Guidotti",
+                "A Monreale"
+            ],
+            "pub_year": "2020",
+            "venue": "Precision Health and \u2026",
+            "abstract": "Today the state-of-the-art performance in classification is achieved by the so-called \u201cblack boxes\u201d, ie decision-making systems whose internal logic is obscure. Such models could"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://link.springer.com/chapter/10.1007/978-3-030-24409-5_9",
+        "author_id": [
+            "5ILF8RgAAAAJ",
+            "KZUaK6YAAAAJ",
+            "bA-rXeUAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:QmuFi6mV9u0J:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KRDixKh3KJgJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=QmuFi6mV9u0J&ei=bYGAZvvpPPOCy9YP1YKW-AQ&json=",
+        "num_citations": 27,
+        "citedby_url": "/scholar?cites=17147057186682530626&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:QmuFi6mV9u0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://arpi.unipi.it/bitstream/11568/1023230/2/w3phiai2019marlena.pdf"
+    },
+    "__2017_Deep_learning_architectures": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Deep learning architectures for multi-label classification of intelligent health risk prediction",
+            "author": [
+                "A Maxwell",
+                "R Li",
+                "B Yang",
+                "H Weng",
+                "A Ou",
+                "H Hong"
+            ],
+            "pub_year": "2017",
+            "venue": "BMC \u2026",
+            "abstract": "Background Multi-label classification of data remains to be a challenging problem. Because of the complexity of the data, it is sometimes difficult to infer information about classes that"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/article/10.1186/s12859-017-1898-z",
+        "author_id": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "JAHZ93wAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:kLPjfkY24s4J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:CLwFP4R2ECsJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=kLPjfkY24s4J&ei=EYiAZo_qFuC16rQP2Oi78Ak&json=",
+        "num_citations": 158,
+        "citedby_url": "/scholar?cites=14907537392954225552&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:kLPjfkY24s4J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1186/s12859-017-1898-z.pdf"
+    },
+    "__2018_Decision_support_system": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Decision support system for medical diagnosis utilizing imbalanced clinical data",
+            "author": [
+                "H Han",
+                "M Huang",
+                "Y Zhang",
+                "J Liu"
+            ],
+            "pub_year": "2018",
+            "venue": "Applied Sciences",
+            "abstract": "The clinical decision support system provides an automatic diagnosis of human diseases using machine learning techniques to analyze features of patients and classify patients"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://www.mdpi.com/2076-3417/8/9/1597",
+        "author_id": [
+            "",
+            "",
+            "",
+            "mJE7sAEAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:Clm62DUMwJkJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=Clm62DUMwJkJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 10,
+        "citedby_url": "/scholar?cites=11078868508740311306&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:Clm62DUMwJkJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.mdpi.com/2076-3417/8/9/1597/pdf"
+    }
+}

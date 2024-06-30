@@ -1,0 +1,90 @@
+{
+    "__2016_Sublinear-space_bounded-delay_enumeration": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Sublinear-space bounded-delay enumeration for massive network analytics: Maximal cliques",
+            "author": [
+                "A Conte",
+                "R Grossi",
+                "A Marino"
+            ],
+            "pub_year": "2016",
+            "venue": "\u2026 Colloquium on Automata \u2026",
+            "abstract": "Due to the sheer size of real-world networks, delay and space become quite relevant measures for the cost of enumeration in network analytics. This paper presents efficient"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://inria.hal.science/hal-01388461/",
+        "author_id": [
+            "O9LNIuQAAAAJ",
+            "yZTneswAAAAJ",
+            "FUKaLzkAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:UqyuoaXGuwIJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D2005%26sciodt%3D0,5%26cites%3D2077600067643409503%26scipsc%3D&citilm=1&update_op=library_add&info=UqyuoaXGuwIJ&ei=O3uAZtPCB43A6rQPtueGyA4&json=",
+        "num_citations": 70,
+        "citedby_url": "/scholar?cites=196969423405231186&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:UqyuoaXGuwIJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://inria.hal.science/hal-01388461/file/LIPIcs-ICALP-2016-148.pdf"
+    },
+    "__2020_Sublinear-space_and_bounded-delay": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Sublinear-space and bounded-delay algorithms for maximal clique enumeration in graphs",
+            "author": [
+                "A Conte",
+                "R Grossi",
+                "A Marino",
+                "L Versari"
+            ],
+            "pub_year": "2020",
+            "venue": "Algorithmica",
+            "abstract": "Due to the sheer size of real-world networks, delay and space have become quite relevant measures of the cost of enumerating patterns for network analytics. This paper presents"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://link.springer.com/article/10.1007/s00453-019-00656-8",
+        "author_id": [
+            "O9LNIuQAAAAJ",
+            "yZTneswAAAAJ",
+            "FUKaLzkAAAAJ",
+            "9WbCC3MAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:BYosxMTxnE0J:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:KRDixKh3KJgJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=BYosxMTxnE0J&ei=bYGAZvvpPPOCy9YP1YKW-AQ&json=",
+        "num_citations": 19,
+        "citedby_url": "/scholar?cites=5592610664694450693&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:BYosxMTxnE0J:scholar.google.com/&scioq=&hl=en&as_sdt=0,5"
+    },
+    "__2013_Fast_maximal_cliques": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Fast maximal cliques enumeration in sparse graphs",
+            "author": [
+                "L Chang",
+                "JX Yu",
+                "L Qin"
+            ],
+            "pub_year": "2013",
+            "venue": "Algorithmica",
+            "abstract": "In this paper, we consider the problem of generating all maximal cliques in a sparse graph in polynomial delay. Given a graph G=(V, E) with n vertices and m edges, the latest and fastest"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/article/10.1007/s00453-012-9632-8",
+        "author_id": [
+            "SWYX6pgAAAAJ",
+            "iHevumsAAAAJ",
+            "DQHL47oAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:VOcaQcLltfoJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=VOcaQcLltfoJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 80,
+        "citedby_url": "/scholar?cites=18065598102745311060&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:VOcaQcLltfoJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5",
+        "eprint_url": "https://www.researchgate.net/profile/Lu-Qin-4/publication/257428613_Fast_Maximal_Cliques_Enumeration_in_Sparse_Graphs/links/542bacc20cf277d58e8a2230/Fast-Maximal-Cliques-Enumeration-in-Sparse-Graphs.pdf"
+    }
+}

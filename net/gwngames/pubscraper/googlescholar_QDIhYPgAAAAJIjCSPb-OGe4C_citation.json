@@ -1,0 +1,89 @@
+{
+    "__2017_An_experience_in": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "An experience in using machine learning for short-term predictions in smart transportation systems",
+            "author": [
+                "D Bacciu",
+                "A Carta",
+                "S Gnesi",
+                "L Semini"
+            ],
+            "pub_year": "2017",
+            "venue": "\u2026 of Logical and Algebraic Methods in \u2026",
+            "abstract": "Bike-sharing systems (BSS) are a means of smart transportation with the benefit of a positive impact on urban mobility. To improve the satisfaction of a user of a BSS, it is useful to inform"
+        },
+        "filled": false,
+        "gsrank": 1,
+        "pub_url": "https://www.sciencedirect.com/science/article/pii/S2352220816301584",
+        "author_id": [
+            "1d5n2WkAAAAJ",
+            "G-1jrFoAAAAJ",
+            "vkhTk-MAAAAJ",
+            "QDIhYPgAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:x8M6e7U2I0MJ:scholar.google.com/&output=cite&scirp=0&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:njp485YtMZAJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=x8M6e7U2I0MJ&ei=3kaAZoPHEuC16rQP2Oi78Ak&json=",
+        "num_citations": 41,
+        "citedby_url": "/scholar?cites=4837770577810473927&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:x8M6e7U2I0MJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://www.sciencedirect.com/science/article/pii/S2352220816301584"
+    },
+    "__2016_Leveraging_Applications_of": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "Leveraging Applications of Formal Methods, Verification and Validation: Discussion, Dissemination, Applications: 7th International Symposium, ISoLA 2016 \u2026",
+            "author": [
+                "T Margaria",
+                "B Steffen"
+            ],
+            "pub_year": "2016",
+            "venue": "NA",
+            "abstract": "The two-volume set LNCS 9952 and LNCS 9953 constitutes the refereed proceedings of the 7th International Symposium on Leveraging Applications of Formal Methods, Verification"
+        },
+        "filled": false,
+        "gsrank": 2,
+        "pub_url": "https://books.google.com/books?hl=en&lr=&id=9-IyDQAAQBAJ&oi=fnd&pg=PR5&ots=sy739Br1bm&sig=PAIvgDLc6RlNADxL9gCPPOo_PTM",
+        "author_id": [
+            "AoTMbz4AAAAJ",
+            "YFGsf1YAAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:O3hVFGbfXcIJ:scholar.google.com/&output=cite&scirp=1&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fq%3Drelated:njp485YtMZAJ:scholar.google.com/%26hl%3Den%26as_sdt%3D0,5&citilm=1&update_op=library_add&info=O3hVFGbfXcIJ&ei=3kaAZoPHEuC16rQP2Oi78Ak&json=",
+        "num_citations": 23,
+        "citedby_url": "/scholar?cites=14005596045712914491&as_sdt=2005&sciodt=0,5&hl=en",
+        "url_related_articles": "/scholar?q=related:O3hVFGbfXcIJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5"
+    },
+    "__2024_VaryMinions_leveraging_RNNs": {
+        "container_type": "Publication",
+        "source": "PUBLICATION_SEARCH_SNIPPET",
+        "bib": {
+            "title": "VaryMinions: leveraging RNNs to identify variants in variability-intensive systems' logs",
+            "author": [
+                "S Fortz",
+                "P Temple",
+                "X Devroey",
+                "P Heymans"
+            ],
+            "pub_year": "2024",
+            "venue": "Empirical Software \u2026",
+            "abstract": "From business processes to course management, variability-intensive software systems (VIS) are now ubiquitous. One can configure these systems' behaviour by activating options"
+        },
+        "filled": false,
+        "gsrank": 3,
+        "pub_url": "https://link.springer.com/article/10.1007/s10664-024-10473-5",
+        "author_id": [
+            "cfV6X6kAAAAJ",
+            "2b5VarUAAAAJ",
+            "GTaILJgAAAAJ",
+            "Gr1rdc8AAAAJ"
+        ],
+        "url_scholarbib": "/scholar?hl=en&q=info:v8-WYiQBTpAJ:scholar.google.com/&output=cite&scirp=2&hl=en",
+        "url_add_sclib": "/citations?hl=en&xsrf=&continue=/scholar%3Fhl%3Den%26as_sdt%3D5,33%26sciodt%3D0,33%26cites%3D13231517256112329172%26scipsc%3D&citilm=1&update_op=library_add&info=v8-WYiQBTpAJ&ei=DpKAZuGaL6yXy9YP3bmtyAE&json=",
+        "num_citations": 0,
+        "url_related_articles": "/scholar?q=related:v8-WYiQBTpAJ:scholar.google.com/&scioq=&hl=en&as_sdt=2005&sciodt=0,5",
+        "eprint_url": "https://link.springer.com/content/pdf/10.1007/s10664-024-10473-5.pdf"
+    }
+}
