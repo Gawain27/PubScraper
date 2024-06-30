@@ -9,11 +9,11 @@
     "keepdown_time": 1000,
     "authors_ref": "https://di.unipi.it/persone/",
     "root_authors": "",
-    "min_wait_time": 5,
-    "max_wait_time": 15,
-    "max_ms_worktime": 10000,
+    "min_wait_time": 15,
+    "max_wait_time": 30,
+    "max_ms_worktime": 3600,
     "max_iface_requests": 5,
     "delay_threshold": 50,
     "max_fetchable": 5,
-    "scraper_api_key": "53c9fca4ac995eb234da954b21f675fb"
+    "scraper_api_key": "5c00977ee888fdb3dd564ce402e68069"
 }

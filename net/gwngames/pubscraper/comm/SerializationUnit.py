@@ -1,15 +1,18 @@
 import gzip
 import json
 import logging
+import os
 import pickle
 from typing import Any
 
 from net.gwngames.pubscraper.comm.entity.EntityBase import EntityBase
+from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.comm.PackageEntity import PackageEntity
 from net.gwngames.pubscraper.msg.comm.SerializeEntity import SerializeEntity
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
 logger = logging.getLogger(__name__)
 
@@ -35,7 +38,12 @@ class SerializationUnit:
         self.entity_cid = None
 
     def execute(self, msg: SerializeEntity):
-        self.load_data(msg.entity_loc)
+        entity_file = JsonReader(msg.entity_loc, msg.entity_loc.split(',')[0])
+
+        cid = entity_file.get_value(JsonConstants.TAG_ENTITY_CID)
+        if cid is None:
+            raise Exception("Cid found none for message %s", msg.content)
+
         entity_instance = self.find_entity_instance()
 
         if entity_instance:
@@ -49,24 +57,7 @@ class SerializationUnit:
             MessageRouter.get_instance().send_message(entity_package_req,
                                                       PriorityConstants.ENTITY_PACKAGE_REQ)
         else:
-            logger.error("Failed to find or instantiate entity instance.")
-
-    def load_data(self, file_path: str):
-        try:
-            with open(file_path, 'r') as f:
-                self.data = json.load(f)
-                self.entity_cid = self.data.get("entity_cid")
-                if self.entity_cid is None:
-                    raise ValueError("No 'entity_cid' found in the JSON.")
-                self.entity_data = self.data.get("entity")
-                if self.entity_data is None:
-                    raise ValueError("No 'entity' found in the JSON.")
-        except FileNotFoundError:
-            logger.error(f"Error: File '{file_path}' not found.")
-        except json.JSONDecodeError:
-            logger.error(f"Error: Invalid JSON format in file '{file_path}'.")
-        except ValueError as e:
-            logger.error(str(e))
+            logger.error("Failed to find or instantiate entity instance %s", msg.content)
 
     def find_entity_instance(self):
         try:

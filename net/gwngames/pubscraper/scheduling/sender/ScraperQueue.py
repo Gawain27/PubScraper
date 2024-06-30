@@ -48,7 +48,7 @@ class ScraperQueue(AsyncQueue):
             raise Exception("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
 
         return
-        if scraped_info_file == "/dev/null":
+        if scraped_info_file == JsonReader.DEV_NULL:
             return
         json_serialize_req = SerializeJSONData(msg.content, scraped_info_file)
         self.logger.info("Sending message %s for %s of type %s", json_serialize_req.message_id,

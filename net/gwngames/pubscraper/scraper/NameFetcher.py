@@ -39,7 +39,7 @@ class NameFetcher:
                     if NameFetcher.is_person_name(obj[key]):
                         names.append(obj[key])
             except json.JSONDecodeError:
-                print(f"Invalid JSON: {item}")
+                continue #  Not a useful info
         return names
 
     # Function to recursively search and extract JSON-like objects from BeautifulSoup element

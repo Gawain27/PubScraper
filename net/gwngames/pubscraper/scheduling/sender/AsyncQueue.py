@@ -18,7 +18,7 @@ class AsyncQueue(queue.Queue):
         super().__init__(maxsize)
         self.logger = logging.getLogger(self.register_me().__name__)
         self.logger.setLevel(LoggingConstants.ASYNC_QUEUE)
-        self.message_stats = JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME, self.register_me().__name__)
+        self.message_stats = JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME, parent=self.register_me().__name__)
         self.register_queue()
 
     def process_message(self, router: MessageRouter, msg: AbstractMessage):
@@ -30,13 +30,24 @@ class AsyncQueue(queue.Queue):
         This method is used to process a message by invoking the `on_message` method and removing the message from
         the routing threads list in the provided `router` object.
         """
+        exception_caught = False
         if msg.delayed:
             router.send_delayed(msg)
             return
         start_time: float = time.time()
         logging.debug(f"Message routed for topic '{msg.message_type}': {msg.message_id}")
 
-        self.on_message(msg)  # TODO implement exception catching for logging of errors
+        try:
+            self.on_message(msg)  # TODO implement exception catching for logging of errors + retry mech
+        except Exception as e:
+            exception_caught = True
+            if isinstance(e, StopIteration):
+                logging.error("Reached end of iteration for %s - %s", msg.message_type, msg.message_id)
+            else:
+                raise e
+
+        if exception_caught:
+            msg.prepare_for_retry()
 
         elapsed_time: float = (time.time() - start_time) * 1000
         logging.debug(

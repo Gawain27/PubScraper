@@ -1,15 +1,10 @@
 import logging
 import os
 import sys
-import time
 
-import scholarly
-from fp.fp import FreeProxy
-from scholarly import ProxyGenerator
-
+from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.LogFileHandler import LogFileHandler
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
-from net.gwngames.pubscraper.scraper.NameFetcher import NameFetcher
 from net.gwngames.pubscraper.scraper.WebScraper import WebScraper
 from net.gwngames.pubscraper.utils.ClassRegisterer import QueueRegisterer
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
@@ -22,12 +17,18 @@ class ExcludeFilter(logging.Filter):
 
 
 if __name__ == '__main__':
+    # Initialize context
+    ctx: Context = Context()
+    ctx.set_current_dir(os.getcwd())
+
+    # Initialize files for caching
     conf_reader = JsonReader(JsonReader.CONFIG_FILE_NAME)
+    message_stats = JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME)
 
     max_logfile_lines: int = conf_reader.get_value(ConfigConstants.MAX_LOGFILE_LINES)
 
     # Create a LogFileHandler for writing logs to a file
-    log_file_handler = LogFileHandler(filename=ConfigConstants.LOG_FILENAME, max_lines=max_logfile_lines)
+    log_file_handler = LogFileHandler(filename=ConfigConstants.LOG_FILENAME, max_lines=max_logfile_lines, encoding='utf-8')
 
     console_handler = logging.StreamHandler(sys.stdout)
 

@@ -4,27 +4,64 @@ import os
 import threading
 from typing import Final, Any, Set
 
+from net.gwngames.pubscraper.Context import Context
+
 
 class JsonReader:
     """
     A class for reading and getting values from a json file.
 
+    NOTE: If you use JsonReader.BASE_DIR, the directory of the active script file will be cached
+
+
     :param file: The path to the json file.
+    :param directory: The local directory where the file is located.
     """
+    DEV_NULL: Final = '/dev/null'
     CONFIG_FILE_NAME: Final = 'config.json'
     MESSAGE_STAT_FILE_NAME: Final = 'message_stats.json'
-    _locks = {}  # Class-level dictionary to hold locks for each file
 
-    def __init__(self, file: str, parent: str = None):
-        self.file = file
-        self.data: dict = {}
+    ctx = Context()
+    _locks = {}  # Class-level dictionary to hold locks for each file
+    _directories: dict = {}  # Class-level dictionary to cache directories upon first use
+
+    def __init__(self, file: str, directory: str = None, parent: str = None):
         self.logger = logging.getLogger("file_" + file) if parent is None else logging.getLogger(parent + "_" + file)
         self.logger.setLevel(logging.DEBUG)  # Set the logging level to DEBUG
 
-        # Initialize lock for this file if not already present
-        if file not in JsonReader._locks:
-            JsonReader._locks[file] = threading.Lock()
-        self.lock = JsonReader._locks[file]
+        if directory is None:
+            directory = JsonReader.ctx.get_current_dir()
+        if directory != JsonReader.ctx.get_current_dir():
+            directory = JsonReader.ctx.build_path(directory)
+        self.directory = directory
+        self.data: dict = {}
+
+        if file == JsonReader.DEV_NULL:
+            # void call
+            return
+
+        self.file = os.path.join(directory, file)
+
+        # Step 1: Check if directory is cached
+        existing_dir = JsonReader._directories.get(self.directory)
+        if existing_dir is not None:
+            self.file = os.path.join(existing_dir, self.file)
+            self.directory = existing_dir
+        else:
+            JsonReader._directories[self.directory] = self.directory
+            self.logger.info("Cached directory %s", self.directory)
+
+        # Step 2: Initialize lock for this file if not already present
+        if self.file not in JsonReader._locks:
+            JsonReader._locks[self.file] = threading.Lock()
+        self.lock = JsonReader._locks[self.file]
+
+        # Step 3: Create the directory if it doesn't exist
+        if not os.path.exists(self.directory):
+            os.makedirs(self.directory)
+            self.logger.info(f"Created directory '{self.directory}'.")
+
+        # Step 4: create or open file
         self.load_file()
 
     def load_file(self, create: bool = False):
@@ -167,6 +204,9 @@ class JsonReader:
             self.save_changes()
 
     def is_empty(self):
+        if self.data is None:
+            self.data = {}
+            return True
         return self.data.items().__len__() == 0
 
     def is_outdated(self):

@@ -1,0 +1,1694 @@
+{
+    "container_type": "Author",
+    "filled": [
+        "basics",
+        "indices",
+        "counts",
+        "coauthors",
+        "publications",
+        "public_access"
+    ],
+    "source": "SEARCH_AUTHOR_SNIPPETS",
+    "scholar_id": "o-G11bQAAAAJ",
+    "url_picture": "https://scholar.google.com/citations?view_op=medium_photo&user=o-G11bQAAAAJ",
+    "name": "Alina S\u00eerbu",
+    "affiliation": "Computer Science Department, University of Pisa, Italy",
+    "email_domain": "@unipi.it",
+    "interests": [
+        "computational biology",
+        "complex systems",
+        "machine learning",
+        "social network analysis",
+        "migration"
+    ],
+    "citedby": 3400,
+    "organization": 10975463302590740180,
+    "citedby5y": 1988,
+    "hindex": 21,
+    "hindex5y": 18,
+    "i10index": 33,
+    "i10index5y": 29,
+    "cites_per_year": {
+        "2011": 21,
+        "2012": 25,
+        "2013": 132,
+        "2014": 206,
+        "2015": 224,
+        "2016": 243,
+        "2017": 259,
+        "2018": 278,
+        "2019": 303,
+        "2020": 330,
+        "2021": 398,
+        "2022": 388,
+        "2023": 365,
+        "2024": 201
+    },
+    "coauthors": [
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "3qdaPdoAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "francesca tria",
+            "affiliation": "Sapienza University of Rome"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "Ry_acPEAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Vito DP Servedio",
+            "affiliation": "Complexity Science Hub Vienna"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "GrDAbaEAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Vittorio Loreto",
+            "affiliation": "Professor of Physics, Sapienza University of Rome"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "PKz_a_AAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Fosca Giannotti",
+            "affiliation": "professor at Scuola Normale Superiore di Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "r3bG1AUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Ozalp Babaoglu",
+            "affiliation": "Professor of Computer Science, University of Bologna"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "VwafmG0AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Martin Crane",
+            "affiliation": "School of Computing, Dublin City University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "5efz6osAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Dino Pedreschi",
+            "affiliation": "Professor of Computer Science, University of Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "Ootl1HQAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Heather Ruskin",
+            "affiliation": "Dublin City University Professor Emeritus Computational Science"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "Eug48ewAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Giulio Rossetti",
+            "affiliation": "Senior Researcher @ CNR-ISTI"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "GoJhu1YAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Laura Pollacci",
+            "affiliation": "University of Pisa, Pisa, Italy"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "Dw4wqh4AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Pietro Gravino",
+            "affiliation": "Sony Computer Science Laboratories - Paris"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "uQJxmVUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Saverio Caminiti",
+            "affiliation": "Sapienza University of Rome"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "uMc-BS0AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Zeynep Kiziltan",
+            "affiliation": "Alma Mater - Universit\u00e0 di Bologna"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "KVaEpnkAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Janos Kertesz",
+            "affiliation": "Central European University, Vienna"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "eWTzXFAAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Andreas Hotho",
+            "affiliation": "University of W\u00fcrzburg"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "qjJo2FkAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "CORRADO PRIAMI",
+            "affiliation": "Universit\u00e0 di Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "jNDzmk79sssC",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Andrea Borghesi",
+            "affiliation": "Universitiy of Bologna"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "88VJDhcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Luca Pappalardo",
+            "affiliation": "Senior Researcher at ISTI-CNR, Associate professor at Scuola Normale Superiore di Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "u4LT2EYAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Cristina Ioana Muntean",
+            "affiliation": "HPC Lab, ISTI-CNR, Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "zSIAZy4AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Simone Bertoli",
+            "affiliation": "Universit\u00e9 Clermont Auvergne, CNRS, IRD, CERDI"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "MwmLLv4AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Alessio Netti",
+            "affiliation": "HPC/AI Research Engineer, DeepL"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "vcM6_ekAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Muki Haklay",
+            "affiliation": "Professor of Geographical Information Science, UCL"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "tHMlqIcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Pierluigi Contucci",
+            "affiliation": "Professor of Mathematical Physics, Alma Mater Studiorum - University of Bologna"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "gG52qxgAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Letizia Milli",
+            "affiliation": "University of Pisa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "SEJQSaAAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Salvatore Rinzivillo",
+            "affiliation": "KDDLab, ISTI, CNR"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "vt9PdNsAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Andrea Bartolini",
+            "affiliation": "Associate Professor, University of Bologna"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "PqIX0TwAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Gerd Stumme",
+            "affiliation": "Professor f\u00fcr Informatik, Universit\u00e4t Kassel & L3S Research Center"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "BrwIoeIAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Cristian Galleguillos",
+            "affiliation": "PhD Student, Pontificia Universidad Cat\u00f3lica de Valpara\u00edso"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "Os3ShZsAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Dennis Olivetti",
+            "affiliation": "Gran Sasso Science Institute"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "G04_86AAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Alkida Balliu",
+            "affiliation": "Gran Sasso Science Institute"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "3yDZBKsAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Grainne Kerr",
+            "affiliation": "Researcher, Deutschen Krebsforschungszentrum"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "PAQZwJEAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Joris Van den Bossche",
+            "affiliation": "Inria / Universit\u00e9 Paris-Saclay Center for Data Science"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "gUnKpJUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Moreno Marzolla",
+            "affiliation": "Universit\u00e0 di Bologna"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "cLRxLiwAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Andrea OMICINI",
+            "affiliation": "Department of Computer Science & Engineering, Alma Mater Studiorum-Universit\u00e0 di \u2026"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "0CLlt5oAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Danilo Pianini",
+            "affiliation": "Senior assistant professor (fixed-term), Alma Mater Studiorum Universit\u00e0 di Bologna"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "n99pDOAAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Martin Becker",
+            "affiliation": "University of Rostock"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "-iWALUsAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "De Baets Bernard",
+            "affiliation": "Ghent University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "JSQOEeMAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Thomas Bridi",
+            "affiliation": "University of Bologna"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "k8nSlL4AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Federico Ricci-Tersenghi",
+            "affiliation": "Professor of Theoretical Physics, \"La Sapienza\" University, Roma"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "7cf56rIAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Filippo Simini",
+            "affiliation": "Argonne National Laboratory"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "bdoG6ScAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Claudio Lucchese",
+            "affiliation": "Full Professor, Ca' Foscari University of Venice"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "EFcClQ8AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Paolo Cintia",
+            "affiliation": "Kode Solutions"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "hONjAyEAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Caglar Ozden",
+            "affiliation": "Lead Economist, The World Bank"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "zYVT4kAAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Tuba Bircan",
+            "affiliation": "Vrije Universiteit Brussel, Interface Demography, Dept. of Sociology"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "RMGLGOAAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Sabin Buraga",
+            "affiliation": "Prof., Alexandru Ioan Cuza University of Iasi, Faculty of Computer Science"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "PSxBcWwAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Martin Atzmueller",
+            "affiliation": "Professor - Osnabr\u00fcck University & Scientific Director - German Research Center for AI \u2026"
+        }
+    ],
+    "publications": [
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Wisdom of crowds for robust gene network inference (As part of the DREAM5 consortium)",
+                "pub_year": "2012",
+                "citation": "Nature Methods, 2012"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:IjCSPb-OGe4C",
+            "num_citations": 1790,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12728558948013552670",
+            "cites_id": [
+                "12728558948013552670"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Opinion Dynamics: Models, Extensions and External Effects",
+                "pub_year": "2017",
+                "citation": "Participatory Sensing, Opinions and Collective Awareness, 363-401, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:_kc_bZDykSQC",
+            "num_citations": 281,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9052345398155733582",
+            "cites_id": [
+                "9052345398155733582"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "RNA-Seq vs Dual-and Single-Channel Microarray Data: Sensitivity Analysis for Differential Expression and Clustering",
+                "pub_year": "2012",
+                "citation": "PLOS ONE 7 (12), e50986, 2012"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:Tyk-4Ss8FVUC",
+            "num_citations": 127,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4981479106897562349",
+            "cites_id": [
+                "4981479106897562349"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Algorithmic bias amplifies opinion fragmentation and polarization: A bounded confidence model",
+                "pub_year": "2019",
+                "citation": "PloS one 14 (3), e0213246, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:iH-uZ7U-co4C",
+            "num_citations": 121,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13895613860945705426",
+            "cites_id": [
+                "13895613860945705426"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Human migration: the big data perspective",
+                "pub_year": "2020",
+                "citation": "International Journal of Data Science and Analytics, 1-20, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:blknAaTinKkC",
+            "num_citations": 109,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3920405470080448790,5334823720569186542",
+            "cites_id": [
+                "3920405470080448790",
+                "5334823720569186542"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Awareness and learning in participatory noise sensing",
+                "pub_year": "2013",
+                "citation": "PloS one 8 (12), e81638, 2013"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:W7OEmFMy1HYC",
+            "num_citations": 103,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14397482371744891760,18430935543774786011,5439336352492892374",
+            "cites_id": [
+                "14397482371744891760",
+                "18430935543774786011",
+                "5439336352492892374"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Comparison of evolutionary algorithms in gene regulatory network model inference",
+                "pub_year": "2010",
+                "citation": "BMC bioinformatics 11 (1), 59, 2010"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:u5HHmVD_uO8C",
+            "num_citations": 100,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12027437396514936317",
+            "cites_id": [
+                "12027437396514936317"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "NDlib: a python library to model and analyze diffusion processes over complex networks",
+                "pub_year": "2018",
+                "citation": "International Journal of Data Science and Analytics 5 (1), 61-79, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:Wp0gIr-vW9MC",
+            "num_citations": 87,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11046469400578661856",
+            "cites_id": [
+                "11046469400578661856"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Opinion dynamics with disagreement and modulated information",
+                "pub_year": "2013",
+                "citation": "Journal of Statistical Physics, 1-20, 2013"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:zYLM7Y9cAGgC",
+            "num_citations": 61,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8473642430415843165",
+            "cites_id": [
+                "8473642430415843165"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Participatory Patterns in an International Air Quality Monitoring Initiative",
+                "pub_year": "2015",
+                "citation": "PLoS ONE 10 (2), e0136763, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:kNdYIx-mwKoC",
+            "num_citations": 41,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7416738465786988353",
+            "cites_id": [
+                "7416738465786988353"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Power Consumption Modeling and Prediction in a Hybrid CPU-GPU-MIC Supercomputer",
+                "pub_year": "2016",
+                "citation": "European Conference on Parallel Processing, 117-130, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:qxL8FJ1GzNcC",
+            "num_citations": 33,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5473254336273473785,3247262886008194539",
+            "cites_id": [
+                "5473254336273473785",
+                "3247262886008194539"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Cross-platform microarray data normalisation for regulatory network inference",
+                "pub_year": "2010",
+                "citation": "PLoS One 5 (11), e13822, 2010"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:u-x6o8ySG0sC",
+            "num_citations": 32,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6902929071136744938",
+            "cites_id": [
+                "6902929071136744938"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Towards Data-Driven Autonomics in Data Centers",
+                "pub_year": "2015",
+                "citation": "IEEE  International Conference on Cloud and Autonomic Computing, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:5nxA0vEk-isC",
+            "num_citations": 29,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7401695350709285110",
+            "cites_id": [
+                "7401695350709285110"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Public Dataset of 24-h Multi-Levels Psycho-Physiological Responses in Young Healthy Adults",
+                "pub_year": "2020",
+                "citation": "Data 5 (4), 91, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:BqipwSGYUEgC",
+            "num_citations": 28,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4039418312885886571",
+            "cites_id": [
+                "4039418312885886571"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Data-driven job dispatching in HPC systems",
+                "pub_year": "2017",
+                "citation": "International Workshop on Machine Learning, Optimization, and Big Data, 449-461, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:aqlVkmm33-oC",
+            "num_citations": 28,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1977630475607753202",
+            "cites_id": [
+                "1977630475607753202"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A machine learning approach to online fault classification in HPC systems",
+                "pub_year": "2020",
+                "citation": "Future Generation Computer Systems 110, 1009-1022, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:JV2RwH3_ST0C",
+            "num_citations": 27,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=780211130101454891",
+            "cites_id": [
+                "780211130101454891"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Digital footprints of international migration on twitter",
+                "pub_year": "2020",
+                "citation": "Advances in Intelligent Data Analysis XVIII: 18th International Symposium on \u2026, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:hMod-77fHWUC",
+            "num_citations": 24,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3546685637766982790",
+            "cites_id": [
+                "3546685637766982790"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Towards operator-less data centers through data-driven, predictive, proactive autonomics",
+                "pub_year": "2016",
+                "citation": "Cluster Computing 19 (2), 865-878, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:Zph67rFs4hoC",
+            "num_citations": 24,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15721671436310131079",
+            "cites_id": [
+                "15721671436310131079"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Multilevel Monitoring of Activity and Sleep in Healthy People",
+                "pub_year": "2020",
+                "citation": "PhysioNet, 2020"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:35N4QoGY0k4C",
+            "num_citations": 21,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11331185833269239693",
+            "cites_id": [
+                "11331185833269239693"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Prediction of next career moves from scientific profiles",
+                "pub_year": "2018",
+                "citation": "arXiv preprint arXiv:1802.04830, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:qUcmZB5y_30C",
+            "num_citations": 21,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7494027310193081707",
+            "cites_id": [
+                "7494027310193081707"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Cohesion, consensus and extreme information in opinion dynamics",
+                "pub_year": "2013",
+                "citation": "Advances in Complex Systems 16 (06), 1350035, 2013"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:Y0pCki6q_DkC",
+            "num_citations": 21,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12455096192387322843",
+            "cites_id": [
+                "12455096192387322843"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "FINJ: A fault injection tool for HPC systems",
+                "pub_year": "2019",
+                "citation": "Euro-Par 2018: Parallel Processing Workshops: Euro-Par 2018 International \u2026, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:TQgYirikUcIC",
+            "num_citations": 20,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11575398251185776910",
+            "cites_id": [
+                "11575398251185776910"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Sentiment spreading: an epidemic model for lexicon-based sentiment analysis on twitter",
+                "pub_year": "2017",
+                "citation": "AI* IA 2017 Advances in Artificial Intelligence: XVIth International \u2026, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:4DMP91E08xMC",
+            "num_citations": 18,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6532626406905319880",
+            "cites_id": [
+                "6532626406905319880"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Ndlib: Studying network diffusion dynamics",
+                "pub_year": "2017",
+                "citation": "2017 IEEE International Conference on Data Science and Advanced Analytics \u2026, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:ZeXyd9-uunAC",
+            "num_citations": 17,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6305027053709424497",
+            "cites_id": [
+                "6305027053709424497"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Big Data Analyzer for Large Trace Logs",
+                "pub_year": "2015",
+                "citation": "Computing, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:3fE2CSJIrl8C",
+            "num_citations": 17,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=715058627845139375",
+            "cites_id": [
+                "715058627845139375"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Stages of Gene Regulatory Network Inference: the Evolutionary Algorithm Role",
+                "pub_year": "2011",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:qjMakFHDy7sC",
+            "num_citations": 17,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13928691863509135810",
+            "cites_id": [
+                "13928691863509135810"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Integration of Syrian refugees: insights from D4R, media events and housing market data",
+                "pub_year": "2019",
+                "citation": "Guide to Mobile Data Analytics in Refugee Scenarios: The'Data for Refugees \u2026, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:M3NEmzRMIkIC",
+            "num_citations": 15,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17811667781436611526",
+            "cites_id": [
+                "17811667781436611526"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Holistic Approach to Log Data Analysis in High-Performance Computing Systems: The Case of IBM Blue Gene/Q",
+                "pub_year": "2015",
+                "citation": "Euro-Par 2015: parallel Processing Workshops, LNCS 9523, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:MXK_kJrjxJIC",
+            "num_citations": 15,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16203511608282945901,6575568008043814367,16857733043828802678",
+            "cites_id": [
+                "16203511608282945901",
+                "6575568008043814367",
+                "16857733043828802678"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Origin and destination attachment: study of cultural integration on Twitter",
+                "pub_year": "2022",
+                "citation": "EPJ Data Science 11 (1), 55, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:M05iB0D1s5AC",
+            "num_citations": 13,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13121214271614613176,15642839247854829281",
+            "cites_id": [
+                "13121214271614613176",
+                "15642839247854829281"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Online Fault Classification in HPC Systems through Machine Learning",
+                "pub_year": "2019",
+                "citation": "European Conference on Parallel Processing, 3-16, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:e5wmG9Sq2KIC",
+            "num_citations": 11,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4626374843660920745",
+            "cites_id": [
+                "4626374843660920745"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Egalitarianism in the rank aggregation problem: a new dimension for democracy",
+                "pub_year": "2016",
+                "citation": "Quality & Quantity 50 (3), 1185-1200, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:UebtZRa9Y70C",
+            "num_citations": 11,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8145864249391641802,12813268203518843206,7428696898920231341",
+            "cites_id": [
+                "8145864249391641802",
+                "12813268203518843206",
+                "7428696898920231341"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "The Future of Digital Democracy",
+                "pub_year": "2019",
+                "citation": "An Interdisciplinary Approach. Cham: Springer, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:bEWYMUwI8FkC",
+            "num_citations": 10,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15961873616082508273,12802713520357089048",
+            "cites_id": [
+                "15961873616082508273",
+                "12802713520357089048"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Heterogeneity-aware Resource Allocation in HPC Systems",
+                "pub_year": "2018",
+                "citation": "International Conference on High Performance Computing, 3-21, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:-f6ydRqryjwC",
+            "num_citations": 10,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10461995005857783261",
+            "cites_id": [
+                "10461995005857783261"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Integrating heterogeneous gene expression data for gene regulatory network modelling",
+                "pub_year": "2012",
+                "citation": "Theory in Biosciences 131 (2), 95-102, 2012"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:9yKSN-GCB0IC",
+            "num_citations": 9,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=629515211066367966",
+            "cites_id": [
+                "629515211066367966"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Early outcome detection for COVID-19 patients",
+                "pub_year": "2021",
+                "citation": "Scientific Reports 11 (1), 18464, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:vV6vV6tmYwMC",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6325647359393993010",
+            "cites_id": [
+                "6325647359393993010"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A data\u2010driven approach to modeling power consumption for a hybrid supercomputer",
+                "pub_year": "2018",
+                "citation": "Concurrency and Computation: Practice and Experience, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:mVmsd5A6BfQC",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4511861687262143335",
+            "cites_id": [
+                "4511861687262143335"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Predicting system-level power for a hybrid supercomputer",
+                "pub_year": "2016",
+                "citation": "High Performance Computing & Simulation (HPCS), 2016 International \u2026, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:M3ejUd6NZC8C",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15943324572224589895",
+            "cites_id": [
+                "15943324572224589895"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "XTribe: a web-based social computation platform",
+                "pub_year": "2013",
+                "citation": "Cloud and Green Computing (CGC), 2013 Third International Conference on, 397-403, 2013"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:YsMSGLbcyi4C",
+            "num_citations": 8,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1358345276393111491",
+            "cites_id": [
+                "1358345276393111491"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Mass Media Impact on Opinion Evolution in Biased Digital Environments: a Bounded Confidence Model",
+                "pub_year": "2023",
+                "citation": "Scientific reports 13, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:HoB7MX3m0LUC",
+            "num_citations": 7,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13804775864737200315",
+            "cites_id": [
+                "13804775864737200315"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A new platform for Human Computation and its application to the analysis of driving behaviour in response to traffic information",
+                "pub_year": "2014",
+                "citation": "CCS14 Proceedings in Human Computation, 2014"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:NMxIlDl6LWMC",
+            "num_citations": 7,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14986945773739144398",
+            "cites_id": [
+                "14986945773739144398"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "BiDAl: Big Data Analyzer for Cluster Traces",
+                "pub_year": "2014",
+                "citation": "Informatika (BigSys workshop) 232, 1781-1795, 2014"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:ufrVoPGSRksC",
+            "num_citations": 7,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10722174694977678403",
+            "cites_id": [
+                "10722174694977678403"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Constraint Programming-based Job Dispatching for Modern HPC Applications",
+                "pub_year": "2019",
+                "citation": "CP2019, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:maZDTaKrznsC",
+            "num_citations": 6,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2182630965958671689",
+            "cites_id": [
+                "2182630965958671689"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Data Integration for Microarrays: Enhanced Inference for Gene Regulatory Networks",
+                "pub_year": "2015",
+                "citation": "Microarrays 4 (2), 255-269, 2015"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:0EnyYjriUFMC",
+            "num_citations": 6,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11343107379250521625",
+            "cites_id": [
+                "11343107379250521625"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Cognified Distributed Computing",
+                "pub_year": "2018",
+                "citation": "2018 IEEE 38th International Conference on Distributed Computing Systems \u2026, 2018"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:R3hNpaxXUhUC",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5414109454576160770",
+            "cites_id": [
+                "5414109454576160770"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Unveiling political opinion structures with a web-experiment",
+                "pub_year": "2016",
+                "citation": "1st International Conference on Complex Information Systems, COMPLEXIS 2016 \u2026, 2016"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:dhFuZR0502QC",
+            "num_citations": 5,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11828648511269873055",
+            "cites_id": [
+                "11828648511269873055"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Where do migrants and natives belong in a community: a Twitter case study and privacy risk analysis",
+                "pub_year": "2022",
+                "citation": "Social Network Analysis and Mining 13 (1), 15, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:pqnbT2bcN3wC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15204138046906045511",
+            "cites_id": [
+                "15204138046906045511"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Measuring the Salad Bowl: Superdiversity on Twitter",
+                "pub_year": "2022",
+                "citation": "arXiv preprint arXiv:2204.10646, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:ldfaerwXgEUC",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18322149741081561546",
+            "cites_id": [
+                "18322149741081561546"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Characterising different communities of Twitter users: migrants and natives",
+                "pub_year": "2022",
+                "citation": "Complex Networks & Their Applications X: Volume 1, Proceedings of the Tenth \u2026, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:NaGl4SEjCO4C",
+            "num_citations": 3,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2602544792282198123",
+            "cites_id": [
+                "2602544792282198123"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "EGIA\u2013Evolutionary Optimisation of Gene Regulatory Networks, an Integrative Approach",
+                "pub_year": "2014",
+                "citation": "Complex Networks V, 217-229, 2014"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:eQOLeE2rZwMC",
+            "num_citations": 3,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8326795474465635594",
+            "cites_id": [
+                "8326795474465635594"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Regulatory network modelling: Correlation for structure and parameter optimisation",
+                "pub_year": "2010",
+                "citation": "Proceedings of The IASTED Technology Conferences (International Conference \u2026, 2010"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:d1gkVwhDpl0C",
+            "num_citations": 3,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16105438532690304295",
+            "cites_id": [
+                "16105438532690304295"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Bidal source code (2014)",
+                "citation": "URL http://cs. unibo. it/~ sirbu/bidal. zip, 0"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:L8Ckcad2t8MC",
+            "num_citations": 3,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14874577191051497426",
+            "cites_id": [
+                "14874577191051497426"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Dataset of Multi-Aspect Integrated Migration Indicators",
+                "pub_year": "2023",
+                "citation": "Data 8 (9), 139, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:2P1L_qKh6hAC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7707063295364516663",
+            "cites_id": [
+                "7707063295364516663"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "How Can Big Data Analytics Help Understand Migrant Integration?",
+                "pub_year": "2023",
+                "citation": "Harnessing Data Innovation for Migration Policy: A Handbook for \u2026, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:ZHo1McVdvXMC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13213336181165320258",
+            "cites_id": [
+                "13213336181165320258"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Twitter data for migration studies",
+                "pub_year": "2022",
+                "citation": "Data Science for Migration and Mobility, 159-182, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:dfsIfKJdRG4C",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6763394785273476525",
+            "cites_id": [
+                "6763394785273476525"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Public opinion and Algorithmic bias",
+                "pub_year": "2019",
+                "citation": "ERCIM NEWS, 15-16, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:r0BpntZqJG4C",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5239633115771567543",
+            "cites_id": [
+                "5239633115771567543"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Egalitarianism vs. Utilitarianism in Preferential Voting",
+                "pub_year": "2019",
+                "citation": "The Future of Digital Democracy: An Interdisciplinary Approach, 24-37, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:_Qo2XoVZTnwC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10435970826851210920",
+            "cites_id": [
+                "10435970826851210920"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Gene regulatory network modelling with evolutionary algorithms-an integrative approach",
+                "pub_year": "2011",
+                "citation": "Dublin City University. School of Computing, 2011"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:2osOgNQ5qMEC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1016026062306550551",
+            "cites_id": [
+                "1016026062306550551"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Machine learning to identify a composite indicator to predict cardiac death in ischemic heart disease",
+                "pub_year": "2024",
+                "citation": "International Journal of Cardiology 404, 131981, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:fPk4N6BV_jEC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7813586996585365456",
+            "cites_id": [
+                "7813586996585365456"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Algorithmic bias amplifies opinion polarization: A bounded confidence model",
+                "pub_year": "2019",
+                "citation": "StatPhys 27 Main Conference, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:O3NaXMp0MMsC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12595133033103694162",
+            "cites_id": [
+                "12595133033103694162"
+            ]
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Combining Twitter and Mobile Phone Data to Observe Border-Rush: The Turkish-European Border Opening",
+                "pub_year": "2024",
+                "citation": "arXiv preprint arXiv:2405.12642, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:a0OBvERweLwC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Multi-aspect Integrated Migration Indicators",
+                "pub_year": "2024",
+                "citation": "\u039a\u03b1\u03c4\u03ac\u03bb\u03bf\u03b3\u03bf\u03c2 \u0394\u03b5\u03b4\u03bf\u03bc\u03ad\u03bd\u03c9\u03bd SoDaNet, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:yD5IFk8b50cC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "International mobility between the UK and Europe around Brexit: a data-driven study",
+                "pub_year": "2024",
+                "citation": "Journal of Computational Social Science, 1-32, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:4OULZ7Gr8RgC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "PD-L1 Classification of Weakly-Labeled Whole Slide Images of Breast Cancer",
+                "pub_year": "2024",
+                "citation": "arXiv preprint arXiv:2404.10175, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:pyW8ca7W8N0C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Classification of Neisseria meningitidis genomes with a bag-of-words approach and machine learning",
+                "pub_year": "2024",
+                "citation": "iScience, 2024"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:u_35RYKgDlwC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Comparison of Machine Learning Classifiers on Integrated Transcriptomic Data",
+                "pub_year": "2023",
+                "citation": "2023 IEEE International Conference on Big Data (BigData), 4987-4996, 2023"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:zA6iFVUQeVQC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "USE OF NON-TRADITIONAL DATA SOURCES TO NOWCAST MIGRATION TRENDS THROUGH ARTIFICIAL INTELLIGENCE TECHNOLOGIES",
+                "pub_year": "2022",
+                "citation": "Measuring Migration Conference 2022 Conference Proceedings 42, 15, 2022"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:g5m5HwL7SMYC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "KEEP A WATCHFUL EYE ON CYRCADIAN RHYTHM AND BRAIN WELLNESS",
+                "pub_year": "2021",
+                "citation": "KEEP A WATCHFUL EYE ON CYRCADIAN RHYTHM AND BRAIN WELLNESS, 2021"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:3s1wT3WcHBgC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Preface: The Future of Digital Democracy. An Interdisciplinary Approach",
+                "pub_year": "2019",
+                "citation": "Lecture Notes in Computer Science (including subseries Lecture Notes in \u2026, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:rO6llkc54NcC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "The Future of Digital Democracy - Preface",
+                "pub_year": "2019",
+                "citation": "The Future of Digital Democracy, 2019"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:RHpTSmoSYBkC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Participatory Sensing, Opinions and Collective Awareness",
+                "pub_year": "2017",
+                "citation": "Participatory Sensing, Opinions and Collective Awareness; Loreto, V., Haklay \u2026, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:YFjsv_pBGBYC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Applications for Environmental Sensing in EveryAware",
+                "pub_year": "2017",
+                "citation": "Participatory Sensing, Opinions and Collective Awareness, 135-155, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:4TOpqqG69KYC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Experimental Assessment of the Emergence of Awareness and Its Influence on Behavioral Changes: The Everyaware Lesson",
+                "pub_year": "2017",
+                "citation": "Participatory Sensing, Opinions and Collective Awareness, 337-362, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:YOwf2qJgpHMC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Large Scale Engagement Through Web-Gaming and Social Computations",
+                "pub_year": "2017",
+                "citation": "Participatory Sensing, Opinions and Collective Awareness, 237-254, 2017"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:ULOm3_A8WrAC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Participatory Monitoring in Air Pollution Exposure Studies: Framework, Challenges and Case Studies",
+                "pub_year": "2014",
+                "citation": "ISEE Conference Abstracts 26 2014 (1), 2715, 2014"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:J_g5lzvAfSwC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "BiDAl (Big Data Analyzer)",
+                "pub_year": "2014",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:4JMBOYKVnBMC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Awareness and Learning in Participatory Noise Sensing",
+                "pub_year": "2013",
+                "citation": "PLOS ONE 8 (12), 2013"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:j3f4tGmQtD8C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "External information effects in opinion dynamics",
+                "pub_year": "2013",
+                "citation": "25th IUPAP International Conference on Statistical Physics (StatPhys25), 2013"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:HDshCWvjkbEC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Wavelets for analysis of time series gene expression data",
+                "pub_year": "2010",
+                "citation": "2nd COST Action MP0801 Physics of Competition and Conflicts, 2010"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:mB3voiENLucC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Modelling Gene Regulatory Networks-An Integrative Approach.",
+                "pub_year": "2010",
+                "citation": "ERCIM News 2010 (81), 2010"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:LkGwnXOMwfcC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A SOA-based Solution for Resource Monitoring within a Grid System",
+                "pub_year": "2008",
+                "citation": "Distributed Systems Seminar, Suceava, Romania, 2008"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:UeHWp8X0CEIC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "ANALYSIS OF MIGRATION PATTERNS USING INDICATORS EXTRACTED FROM AIR PASSENGER DATA",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:cFHS6HbyZ2cC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Interplay between algorithmic bias and external information effects in opinion dynamics with bounded confidence",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:SeFeTyx0c_EC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "ESTIMATING HIGHLY SKILLED MIGRATION IN EUROPE PART 1: SCIENTIFIC MIGRATION",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:70eg2SAEIzsC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "CityRace: effect of traffic information on driving behaviour",
+                "citation": "Complexity paradigms, 9, 0"
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:lSLTfruPkqcC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Tell us what you think: home and destination attachment for migrants on Twitter",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:ns9cj8rnVeAC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Supplementary Material: Awareness and learning in participatory noise sensing",
+                "citation": ""
+            },
+            "filled": false,
+            "author_pub_id": "o-G11bQAAAAJ:QIV2ME_5wuYC",
+            "num_citations": 0
+        }
+    ],
+    "public_access": {
+        "available": 30,
+        "not_available": 2
+    }
+}

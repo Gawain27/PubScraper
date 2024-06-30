@@ -32,12 +32,11 @@ class WebScraper:
         root_authors: str = config.get_value(ConfigConstants.ROOT_AUTHORS)
         if author_from is not None:
             scraping_authors += NameFetcher.generate_roots(author_from)
-        if root_authors is not None:
+        if root_authors is not None and root_authors != '':
             scraping_authors += StringUtils.process_string(root_authors)
         #  TODO: add flags in generaldata fetcher to enable roots or smh
 
         # -------------------
-
         interfaces: str = config.get_value(ConfigConstants.INTERFACES_ENABLED)
         interface_names = StringUtils.process_string(interfaces)
 
@@ -47,7 +46,7 @@ class WebScraper:
                 logging.warning(f"Interface {name} is not supported")
                 continue
             if isinstance(iface(), ScholarlyDataFetcher):
-                    logging.info("Fetching for %s - Authors: %s", iface.__name__, root_authors)
+                    logging.info("Fetching for %s - Authors: %s", iface.__name__, scraping_authors)
                     ScholarlyDataFetcher(proxy=True).generate_all_relevant_authors(scraping_authors)
                     logging.error("DONE!!!")
                     while True:

@@ -4,7 +4,188 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="cleaned up dead code" />
+    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="refactor + general data collection">
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_1d5n2WkAAAAJdshw04ExmUIC_2019_A_fair_comparison_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_1d5n2WkAAAAJpyW8ca7W8N0C_citation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_1d5n2WkAAAAJzA6iFVUQeVQC_2018_Contextual_graph_markov_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_1dZoYCIAAAAJu-x6o8ySG0sC_2016_The_String_Matching_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_3UL0kVUAAAAJisC4tDSrTZIC_2021_GLocalX-From_Local_to_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_46Vso-sAAAAJipzZ9siozwsC_2022_The_chatbot_usability_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_4nMaoMEAAAAJ9yKSN-GCB0IC_2005_Reasoning_about_inconsistencies_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_4nMaoMEAAAAJt7zJ5fGR-2UC_2002_Lightweight_validation_of_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_4pjeAWcAAAAJaqlVkmm33-oC_2012_A_DHT‐based_discovery_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_55RZxbQAAAAJYOwf2qJgpHMC_2007_Solution_of_the_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_5efz6osAAAAJ6bLC7aUMtPcC_2018_A_survey_of_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_7E4SeoIAAAAJD03iK_w7-QYC_2020_Fault_Matters_Sensor_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_8jpoORMAAAAJf2IySw72cVMC_2020_When_blockchain_meets_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_9foj2J0AAAAJ2vr6o8x5NLkC_2020_The_solar_orbiter_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_9foj2J0AAAAJu5HHmVD_uO8C_2001_First_multispacecraft_ion_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_AeNQ7W4AAAAJdhFuZR0502QC_2020_Agricultural_sustainability_estimation_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Aleandro Prudenzano.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Alessandro Bocci.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Alessandro Bondielli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Alessandro Maggio.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Alessio Conte.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Alessio Malizia.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Alina Sirbu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Andrea Ceni.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Andrea Michienzi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Andrea Pelosi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Anna Bernasconi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Anna Monreale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Antonio Brogi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Antonio Cisternino.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Antonio Frangioni.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Arman Zafaranchi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Arslan Siddique.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Barbara Guidi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Barbara Leporini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Benoit Tran.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Cesare Barbera.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Cesare Zavattari.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Chiara Bodei.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Claudio Gallicchio.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Corrado Priami.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_D8c3aw4AAAAJu-x6o8ySG0sC_2018_Tdap_vaccination_during_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Daniele Mazzei.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Dario Balboni.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Davide Bacciu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Davide Marchi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Dino Pedreschi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Enrico Calandrini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_F2bbBksAAAAJ5MTHONV0fEkC_2014_Iot-oas_An_oauth-based_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_F2bbBksAAAAJfbc8zXXH2BUC_2014_A_scalable_and_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_F2bbBksAAAAJfbc8zXXH2BUC_citation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_F2bbBksAAAAJisU91gLudPYC_2018_IoTChain_A_blockchain_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Fabio Gadducci.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Fabrizio Baiardi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Fabrizio Luccio.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Federica Paganelli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Filippo Bonchi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Filippo Michelis.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Francesca Levi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Francesca Mainas.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Francesco Balzan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Francesco Donini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Francesco Romani.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Franco Turini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_GS1lfsEAAAAJAul-kAQHnToC_2023_Global_carbon_budget_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_GWrrWeEAAAAJ_FxGoFyzp5QC_2007_A_path-based_double_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_GWrrWeEAAAAJ_FxGoFyzp5QC_citation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_GWrrWeEAAAAJhMod-77fHWUC_2013_Existence_and_solution_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Gabriele Mencagli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giacomo Cignoni.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giacomo Grassi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giacomo Lanza.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giacomo Mariani.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giancarlo Bigi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giandomenico Mastroeni.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Gianluca Guidi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Gianluigi Ferrari.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giorgio Gallo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giorgio Ghelli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giorgio Vinciguerra.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giovanna Rosone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giovanni Manzini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giulia Punzi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Giuseppe Prencipe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_HkC6b2EAAAAJD03iK_w7-QYC_2021_A_logic_for_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_HkC6b2EAAAAJzA6iFVUQeVQC_2020_A_survey_of_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Irina Carnat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_KHO57CAAAAAJd1gkVwhDpl0C_2002_Crash_faults_identification_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_KHO57CAAAAAJu-x6o8ySG0sC_2005_GPS_free_coordinate_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_KHO57CAAAAAJu5HHmVD_uO8C_2007_Wireless_sensor_networks_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Laura Galli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Laura Pollacci.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Laura Ricci.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Laura Semini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Leonardo Giovannini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Lorenzo Bellomo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Lorenzo Catoni.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Lorenzo Leonardini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Luca Deri.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Luca Ferrucci.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Luca Gemignani.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Luca Mencarelli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Luca Pedrelli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Lucia Passaro.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Marco Danelutto.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Marco Podda.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Mariarita Pierotti.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Massimo Pappalardo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Massimo Torquati.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Matteo Loporchio.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Matteo Ninniri.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Mattia Setzu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Michele Fontana.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Nadia Pisanti.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Nicolas Lazzari.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Njagi Mwaniki.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_ODbzAR4AAAAJNJ774b8OgUMC_2017_Blockchain_based_access_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_ODbzAR4AAAAJVL0QpB8kHFEC_2016_NG-DBSCAN_scalable_density-based_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_ODbzAR4AAAAJVL0QpB8kHFEC_citation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Paolo Mancarella.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Patrizio Dazzi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Piero Maestrini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_QDIhYPgAAAAJZph67rFs4hoC_2009_StPowla_SOA,_policies_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_QgUIX9gAAAAJ9yKSN-GCB0IC_1995_A_calculus_for_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Roberta Gori.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Roberto Barbuti.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Roberto Bruni.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Roberto Casaluce.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Roberto Grossi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Rossano Venturini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Rourab Paul.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Salvatore Ruggieri.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Sara Mazzilli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Saul Urso.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Silvia Corbara.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Simone Gallo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Stefano Chessa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Susanna Pelagatti.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_TCpEfU8AAAAJd1gkVwhDpl0C_2010_Efficient_Smith-Waterman_on_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_TCpEfU8AAAAJd1gkVwhDpl0C_citation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Tommaso Turchi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Ugo Montanari.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Usama Jameel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_V7hWtykAAAAJL8Ckcad2t8MC_2017_Proactive_elasticity_and_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_V7hWtykAAAAJWp0gIr-vW9MC_2016_Keep_calm_and_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Valentina Macchiati.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Valentina Piras.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Ven8P3EAAAAJblknAaTinKkC_2007_Principles_of_Distributed_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Veronica Guerrini.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Vincenzo Gervasi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Vincenzo Sammartino.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_XAY_AIIAAAAJ2osOgNQ5qMEC_2009_GCM_a_grid_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_XAY_AIIAAAAJkNdYIx-mwKoC_2017_Fastflow_High‐Level_and_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_Yn--uckAAAAJu-x6o8ySG0sC_citation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar__oy9y88AAAAJ1Ye0OR6EYb4C_2021_Global_COVID-19_lockdown_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar__oy9y88AAAAJ4DMP91E08xMC_2001_Contextual_Petri_nets,_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar__oy9y88AAAAJkNdYIx-mwKoC_1997_Algebraic_approaches_to_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_a6Cccr4AAAAJd1gkVwhDpl0C_2022_Secure_Partitioning_of_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_a6Cccr4AAAAJu-x6o8ySG0sC_2021_Placing_FaaS_in_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_a6Cccr4AAAAJu-x6o8ySG0sC_related.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_bA-rXeUAAAAJu5HHmVD_uO8C_2009_Wherenext_a_location_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_bvjdFB4AAAAJblknAaTinKkC_2005_Static_validation_of_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_cgE8d_gAAAAJIjCSPb-OGe4C_2023_The_polifonia_ontology_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_cvaZWfgAAAAJ0EnyYjriUFMC_2002_Pulse_shape_analysis_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_dtXZPEEAAAAJd1gkVwhDpl0C_2018_Semi-Baxter_and_strong-Baxter_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_gA2hju4AAAAJY0pCki6q_DkC_2020_A_review_on_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_lOFQGacAAAAJD_sINldO8mEC_2017_QoS-aware_deployment_of_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_nW57-3kAAAAJM3NEmzRMIkIC_2012_Interacting_with_mobile_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_o-G11bQAAAAJTyk-4Ss8FVUC_2012_RNA-Seq_vs_Dual-and_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_q41ZMpAAAAAJtOudhMTPpwUC_2018_A_survey_of_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_qu0Nli0AAAAJu-x6o8ySG0sC_2024_PD-L1_Classification_of_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_rCnl9L4AAAAJ8k81kl-MbHgC_2019_GenoSurf_metadata_driven_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_rCnl9L4AAAAJd1gkVwhDpl0C_2017_Conceptual_modeling_for_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_rnaNixYAAAAJW7OEmFMy1HYC_2009_Neural_network_for_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_ugYkdyYAAAAJXvxMoLDsR5gC_2000_The_tile_model._pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_xyp_USUAAAAJ9yKSN-GCB0IC_2007_Compressed_representations_of_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_xyp_USUAAAAJu5HHmVD_uO8C_2000_Opportunistic_data_structures_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_yZTneswAAAAJZHo1McVdvXMC_2013_Optimal_listing_of_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_yrRBx5oAAAAJd1gkVwhDpl0C_2020_The_echo_index_pub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar/googlescholar_zWvvg74AAAAJUeHWp8X0CEIC_2024_Query_Authentication_Protocols_pub.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +308,7 @@
       <workItem from="1718461841888" duration="45947000" />
       <workItem from="1718825643009" duration="33087000" />
       <workItem from="1719077177009" duration="41239000" />
-      <workItem from="1719559816317" duration="65191000" />
+      <workItem from="1719559816317" duration="84968000" />
     </task>
     <task id="LOCAL-00001" summary="#47 - Basic structure + general interface unit">
       <option name="closed" value="true" />
@@ -233,7 +414,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719760027773</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="cleaned up JsonReader util">
+      <option name="closed" value="true" />
+      <created>1719760494866</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719760494866</updated>
+    </task>
+    <task id="LOCAL-00015" summary="refactor + general data collection">
+      <option name="closed" value="true" />
+      <created>1719783116812</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719783116812</updated>
+    </task>
+    <task id="LOCAL-00016" summary="refactor + general data collection">
+      <option name="closed" value="true" />
+      <created>1719783440129</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719783440129</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,10 +469,12 @@
     <MESSAGE value="small fix" />
     <MESSAGE value="Included proxy api key for scaping operations" />
     <MESSAGE value="cleaned up dead code" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up dead code" />
+    <MESSAGE value="cleaned up JsonReader util" />
+    <MESSAGE value="refactor + general data collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor + general data collection" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PubScraper$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1719759376071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper" />
+    <SUITE FILE_PATH="coverage/PubScraper$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1719783032520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper" />
     <SUITE FILE_PATH="coverage/PubScraper$main.coverage" NAME="main Coverage Results" MODIFIED="1719015648774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

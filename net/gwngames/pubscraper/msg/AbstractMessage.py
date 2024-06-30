@@ -83,3 +83,6 @@ class AbstractMessage:
         """
         data: Dict[str, str] = json.loads(json_str)
         return cls.from_dict(data)
+
+    def prepare_for_retry(self): # TODO: make this do nothing, implement in specific msg the actions
+        return
