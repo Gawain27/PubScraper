@@ -7,7 +7,7 @@ from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.utils.ClassUtils import ClassUtils
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.RequestState import RequestState
 from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
@@ -18,7 +18,7 @@ class AsyncQueue(queue.Queue):
         super().__init__(maxsize)
         self.logger = logging.getLogger(self.register_me().__name__)
         self.logger.setLevel(LoggingConstants.ASYNC_QUEUE)
-        self.message_stats = FileReader(FileReader.MESSAGE_STAT_FILE_NAME, self.register_me().__name__)
+        self.message_stats = JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME, self.register_me().__name__)
         self.register_queue()
 
     def process_message(self, router: MessageRouter, msg: AbstractMessage):

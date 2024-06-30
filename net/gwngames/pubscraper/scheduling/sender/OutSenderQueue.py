@@ -18,7 +18,7 @@ from net.gwngames.pubscraper.msg.comm.SerializeJSONData import SerializeJSONData
 from net.gwngames.pubscraper.msg.comm.PackageEntity import PackageEntity
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.LoadState import LoadState
 
 
@@ -33,11 +33,11 @@ class OutSenderQueue(AsyncQueue):
         if isinstance(msg, SerializeJSONData):
             logging.info("Processing SerializeJSONData message with file: %s", msg.json_loc)
             try:
-                config = FileReader(FileReader.CONFIG_FILE_NAME)
-                entity_data = FileReader(msg.json_loc)
+                config = JsonReader(JsonReader.CONFIG_FILE_NAME)
+                entity_data = JsonReader(msg.json_loc)
                 entity_num = 0
                 for paper in entity_data.data:
-                    paper_file = FileReader(str(entity_num) + "_" + msg.json_loc)
+                    paper_file = JsonReader(str(entity_num) + "_" + msg.json_loc)
                     paper_file.set_and_save(JsonConstants.TAG_ENTITY_CID, EntityCidConstants.GOOGLE_SCHOLAR_PUB)
                     paper_file.set_and_save(JsonConstants.TAG_ENTITY, paper)
                     while LoadState().keepdown:

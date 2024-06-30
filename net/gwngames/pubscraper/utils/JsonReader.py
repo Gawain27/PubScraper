@@ -5,11 +5,11 @@ import threading
 from typing import Final, Any, Set
 
 
-class FileReader:
+class JsonReader:
     """
-    A class for reading and getting values from a file.
+    A class for reading and getting values from a json file.
 
-    :param file: The path to the file.
+    :param file: The path to the json file.
     """
     CONFIG_FILE_NAME: Final = 'config.json'
     MESSAGE_STAT_FILE_NAME: Final = 'message_stats.json'
@@ -22,9 +22,9 @@ class FileReader:
         self.logger.setLevel(logging.DEBUG)  # Set the logging level to DEBUG
 
         # Initialize lock for this file if not already present
-        if file not in FileReader._locks:
-            FileReader._locks[file] = threading.Lock()
-        self.lock = FileReader._locks[file]
+        if file not in JsonReader._locks:
+            JsonReader._locks[file] = threading.Lock()
+        self.lock = JsonReader._locks[file]
         self.load_file()
 
     def load_file(self, create: bool = False):
@@ -52,7 +52,7 @@ class FileReader:
             except json.JSONDecodeError:
                 self.logger.error(f"Error: Invalid JSON format in file '{self.file}'.")
 
-    def get_value(self, key: str):
+    def get_value(self, key: str) -> Any:
         """
         Retrieve the value for the specified key from the configuration data.
 
@@ -145,32 +145,11 @@ class FileReader:
             self.set_value(key, value)
             self.save_changes()
 
-    def flush_data(self, key: str, value: set[str]) -> None:
-        """
-        Update data by adding new values and save.
-
-        :param key: The key to update.
-        :param value: The values to add.
-        :return: None
-        """
-        self.logger.debug("Flushing data for key: %s", key)
-
-        value_list = list(value)
-
-        with self.lock:
-            prev: list[str] = self.get_value(key)
-            if prev is None:
-                self.set_value(key, value_list)
-                self.logger.debug("New data set for key %s: %s", key, value_list)
-            else:
-                combined_values = list(set(prev) | set(value_list))  # Convert combined set to list
-                self.set_value(key, combined_values)
-                self.logger.debug("Merged data for key %s: %s -> %s", key, prev, combined_values)
-            self.save_changes()
-
     def increment(self, key: str):
         with self.lock:
             prev = self.get_value(key)
+            if prev is None:
+                prev = 0
             self.set_value(key, prev + 1)
             self.save_changes()
 

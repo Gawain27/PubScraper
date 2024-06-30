@@ -9,7 +9,7 @@ from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.comm.PackageEntity import PackageEntity
 from net.gwngames.pubscraper.msg.comm.SendEntity import SendEntity
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.LoadState import LoadState
 
 
@@ -20,7 +20,7 @@ class PackagingUnit:
         This actually acts as the buffer master for the outsender, separating the storing from the sending logic
         """
         self.load_state = LoadState()
-        self.config = FileReader(FileReader.CONFIG_FILE_NAME)
+        self.config = JsonReader(JsonReader.CONFIG_FILE_NAME)
 
     @staticmethod
     def calculate_sleep_duration(load_percentage, threshold, retries):  # TODO: to rework

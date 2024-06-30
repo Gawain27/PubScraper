@@ -5,7 +5,7 @@ from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.scraper.NameFetcher import NameFetcher
 from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
 from net.gwngames.pubscraper.scraper.ifaces.ScholarlyDataFetcher import ScholarlyDataFetcher
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.StringUtils import StringUtils
 
 
@@ -24,7 +24,7 @@ class WebScraper:
 
     @staticmethod
     def scrape_interfaces():
-        config = FileReader(FileReader.CONFIG_FILE_NAME)
+        config = JsonReader(JsonReader.CONFIG_FILE_NAME)
 
         # definition of roots
         scraping_authors: list = []

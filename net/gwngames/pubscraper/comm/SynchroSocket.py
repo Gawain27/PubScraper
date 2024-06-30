@@ -3,7 +3,7 @@ import socket
 import threading
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
 
 class SynchroSocket:
@@ -25,7 +25,7 @@ class SynchroSocket:
     def connect_to_java_socket(self):
         with self.lock:
             if not self.socket:
-                config = FileReader(FileReader.CONFIG_FILE_NAME)
+                config = JsonReader(JsonReader.CONFIG_FILE_NAME)
                 try:
                     self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                     self.socket.connect((config.get_value(ConfigConstants.SERVER_URL), self.port))

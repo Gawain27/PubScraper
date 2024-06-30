@@ -12,7 +12,7 @@ from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.scraper.NameFetcher import NameFetcher
 from net.gwngames.pubscraper.scraper.WebScraper import WebScraper
 from net.gwngames.pubscraper.utils.ClassRegisterer import QueueRegisterer
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 
 
@@ -22,7 +22,7 @@ class ExcludeFilter(logging.Filter):
 
 
 if __name__ == '__main__':
-    conf_reader = FileReader(FileReader.CONFIG_FILE_NAME)
+    conf_reader = JsonReader(JsonReader.CONFIG_FILE_NAME)
 
     max_logfile_lines: int = conf_reader.get_value(ConfigConstants.MAX_LOGFILE_LINES)
 

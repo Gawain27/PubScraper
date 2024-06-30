@@ -6,7 +6,7 @@ from datetime import datetime
 from typing import Callable, Any
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
 
 class ThreadUtils:

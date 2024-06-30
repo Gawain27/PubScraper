@@ -4,287 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="Included proxy api key for scaping operations">
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/NameFetcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/ConfigConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/ConfigConstants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ4OULZ7Gr8RgC_2018_Personalized_market_basket_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ4OULZ7Gr8RgC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ4OULZ7Gr8RgC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_2021_Glocalx-from_local_to_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ5Ul4iDaHHb8C_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_2019_Meaningful_Explanations_of_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ70eg2SAEIzsC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ738O_yMBCRsC_2020_Explaining_sentiment_classification_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ738O_yMBCRsC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ738O_yMBCRsC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_2017_Never_drive_alone_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJ9ZlFYXVOiuMC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_2019_Factual_and_counterfactual_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJEUQCXRtRnyEC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_2022_Explainable_AI_for_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJJQOojiI6XY0C_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_2020_Explaining_any_time_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJLPZeul_q3PIC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_2018_A_survey_of_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJM3NEmzRMIkIC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJMojj43d5GZwC_2021_Principles_of_explainable_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJMojj43d5GZwC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJMojj43d5GZwC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_2021_Human_migration_The_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJP5F9QuxV20EC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJRYcK_YlVTxYC_2018_Personalized_market_basket_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJRYcK_YlVTxYC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJRYcK_YlVTxYC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJTQgYirikUcIC_2017_The_GRAAL_of_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJTQgYirikUcIC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJTQgYirikUcIC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJUxriW0iASnsC_2021_Give_more_data,_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJUxriW0iASnsC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJUxriW0iASnsC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_2017_Myway_Location_prediction_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJWp0gIr-vW9MC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJXD-gHx7UXLsC_2023_Explainable_Artificial_Intelligence_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJXD-gHx7UXLsC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJXD-gHx7UXLsC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_2019_On_the_stability_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJZHo1McVdvXMC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJZeXyd9-uunAC_2016_A_supervised_approach_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJZeXyd9-uunAC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJZph67rFs4hoC_2015_Behavioral_entropy_and_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJZph67rFs4hoC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJZph67rFs4hoC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJblknAaTinKkC_2018_Discovering_temporal_regularities_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJblknAaTinKkC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJblknAaTinKkC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJdfsIfKJdRG4C_2017_Market_basket_prediction_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJdfsIfKJdRG4C_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJdfsIfKJdRG4C_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJe5wmG9Sq2KIC_2017_Clustering_individual_transactional_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJe5wmG9Sq2KIC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJe5wmG9Sq2KIC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJeflP2zaiRacC_2023_Benchmarking_and_survey_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJeflP2zaiRacC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJeflP2zaiRacC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJeq2jaN3J8jMC_2022_Counterfactual_explanations_and_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJeq2jaN3J8jMC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJeq2jaN3J8jMC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_2015_Interaction_prediction_in_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJfPk4N6BV_jEC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJg5m5HwL7SMYC_2020_Explaining_multi-label_black-box_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJg5m5HwL7SMYC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJg5m5HwL7SMYC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_2021_Evaluating_local_explanation_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJl7t_Zn2s7bgC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_2024_Explainable_Artificial_Intelligence_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJp__nRnzSRKYC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_2020_Black_box_explanation_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJpqnbT2bcN3wC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJqxL8FJ1GzNcC_2015_TOSCA_two-steps_clustering_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJqxL8FJ1GzNcC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJqxL8FJ1GzNcC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJt6usbXjVLHcC_2021_Local_rule-based_explanations_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJt6usbXjVLHcC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJt6usbXjVLHcC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJt7zJ5fGR-2UC_2018_Guidotti_R.,_Monreale_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJt7zJ5fGR-2UC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_KZUaK6YAAAAJt7zJ5fGR-2UC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_Laura Semini.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_2017_An_experience_in_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ0EnyYjriUFMC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_2018_Hacking_an_ambiguity_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ4DMP91E08xMC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ4TOpqqG69KYC_1996_Applying_refinement_calculi_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ4TOpqqG69KYC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ4TOpqqG69KYC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_1996_Refining_by_architectural_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ7PzlFSSx8tAC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_1999_A_refinement_calculus_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ8k81kl-MbHgC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_2002_Distributed_states_logic_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ9yKSN-GCB0IC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJIjCSPb-OGe4C_2015_Using_a_machine_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJIjCSPb-OGe4C_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJIjCSPb-OGe4C_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_2008_Logic-based_conflict_detection_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJKlAtU1dfN6UC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_2007_Logic–Based_Detection_of_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJLkGwnXOMwfcC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJRGFaLdJalmkC_2021_A_spaCy-based_tool_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJRGFaLdJalmkC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJRGFaLdJalmkC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJTFP_iSt0sucC_2018_Requirement_engineering_of_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJTFP_iSt0sucC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJTFP_iSt0sucC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_1993_Control_Specification_in_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJULOm3_A8WrAC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_1996_Refinement_in_tuple_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJUebtZRa9Y70C_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJWp0gIr-vW9MC_2002_Mark,_a_reasoning_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJWp0gIr-vW9MC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJWp0gIr-vW9MC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_1996_A_proposal_to_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJZeXyd9-uunAC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJZph67rFs4hoC_2009_StPowla_SOA,_policies_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJZph67rFs4hoC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJZph67rFs4hoC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ_FxGoFyzp5QC_2006_A_logical_view_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ_FxGoFyzp5QC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ_FxGoFyzp5QC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ_Qo2XoVZTnwC_1993_Fairness_in_Logic_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ_Qo2XoVZTnwC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJ_Qo2XoVZTnwC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_2017_Ambiguity_defects_as_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJaqlVkmm33-oC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_2004_Formalizing_an_adaptive_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJbEWYMUwI8FkC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJdhFuZR0502QC_2009_Detecting_policy_conflicts_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJdhFuZR0502QC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJdhFuZR0502QC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_2000_Multiple_Security_Policies_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJe5wmG9Sq2KIC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJeQOLeE2rZwMC_1999_Formal_description_and_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJeQOLeE2rZwMC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJeQOLeE2rZwMC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJhC7cP41nSMkC_2004_Logic_Based_Coordination_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJhC7cP41nSMkC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJhC7cP41nSMkC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJqjMakFHDy7sC_2000_Mobile_Agents_Coordination_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJqjMakFHDy7sC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJqjMakFHDy7sC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJroLk4NBRz8UC_2016_Variability-based_design_of_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJroLk4NBRz8UC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJroLk4NBRz8UC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJufrVoPGSRksC_1999_Composing_Specications_for_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJufrVoPGSRksC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_QDIhYPgAAAAJufrVoPGSRksC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_Riccardo Guidotti.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_Roberto Grossi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ0EnyYjriUFMC_2008_On_searching_compressed_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ0EnyYjriUFMC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ0EnyYjriUFMC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_1997_On_sorting_strings_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ2osOgNQ5qMEC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ9ZlFYXVOiuMC_2009_More_haste,_less_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ9ZlFYXVOiuMC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ9ZlFYXVOiuMC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_2004_When_indexing_equals_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJ9yKSN-GCB0IC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJIjCSPb-OGe4C_1999_IP_address_lookupmade_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJIjCSPb-OGe4C_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJIjCSPb-OGe4C_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJJV2RwH3_ST0C_2013_On_computing_the_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJJV2RwH3_ST0C_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJJV2RwH3_ST0C_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJLkGwnXOMwfcC_2007_On_the_size_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJLkGwnXOMwfcC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJLkGwnXOMwfcC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJRi6SYOTghG4C_2018_D2K_scalable_community_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJRi6SYOTghG4C_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJRi6SYOTghG4C_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJSe3iqnhoufwC_2006_When_indexing_equals_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJSe3iqnhoufwC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJSe3iqnhoufwC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJTyk-4Ss8FVUC_1996_Fast_string_searching_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJTyk-4Ss8FVUC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJTyk-4Ss8FVUC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJUeHWp8X0CEIC_1989_Simple_and_efficient_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJUeHWp8X0CEIC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJUeHWp8X0CEIC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJW7OEmFMy1HYC_1993_Suffix_trees_and_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJW7OEmFMy1HYC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJW7OEmFMy1HYC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJWF5omc3nYNoC_1999_Efficient_cross-tree_for_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJWF5omc3nYNoC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJWF5omc3nYNoC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJY0pCki6q_DkC_2005_Bases_of_motifs_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJY0pCki6q_DkC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJY0pCki6q_DkC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJZHo1McVdvXMC_2013_Optimal_listing_of_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJZHo1McVdvXMC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJZHo1McVdvXMC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJd1gkVwhDpl0C_1999_The_string_B-tree_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJd1gkVwhDpl0C_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJd1gkVwhDpl0C_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJisC4tDSrTZIC_2015_Fast_compressed_tries_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJisC4tDSrTZIC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJisC4tDSrTZIC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJnrtMV_XWKgEC_2016_Sublinear-space_bounded-delay_enumeration_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJnrtMV_XWKgEC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJnrtMV_XWKgEC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJoi2SiIJ9l4AC_2019_On_the_complexity_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJoi2SiIJ9l4AC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJoi2SiIJ9l4AC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJqjMakFHDy7sC_2006_Squeezing_succinct_data_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJqjMakFHDy7sC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJqjMakFHDy7sC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJu-x6o8ySG0sC_2003_High-order_entropy-compressed_text_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJu-x6o8ySG0sC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJu-x6o8ySG0sC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJu5HHmVD_uO8C_2005_Compressed_suffix_arrays_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJu5HHmVD_uO8C_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJu5HHmVD_uO8C_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJufrVoPGSRksC_1996_On_the_construction_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJufrVoPGSRksC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJufrVoPGSRksC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJzYLM7Y9cAGgC_1995_A_fully-dynamic_data_pub.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJzYLM7Y9cAGgC_citation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/googlescholar_yZTneswAAAAJzYLM7Y9cAGgC_related.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/message_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/message_stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/pubscraper.log.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/WebScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/WebScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScholarlyDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScholarlyDataFetcher.py" afterDir="false" />
-    </list>
+    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="cleaned up dead code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -407,7 +127,7 @@
       <workItem from="1718461841888" duration="45947000" />
       <workItem from="1718825643009" duration="33087000" />
       <workItem from="1719077177009" duration="41239000" />
-      <workItem from="1719559816317" duration="64673000" />
+      <workItem from="1719559816317" duration="65191000" />
     </task>
     <task id="LOCAL-00001" summary="#47 - Basic structure + general interface unit">
       <option name="closed" value="true" />
@@ -505,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719744798910</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="cleaned up dead code">
+      <option name="closed" value="true" />
+      <created>1719760027773</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719760027773</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +263,8 @@
     <MESSAGE value="Effectively fetched entities from google scholar interface" />
     <MESSAGE value="small fix" />
     <MESSAGE value="Included proxy api key for scaping operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Included proxy api key for scaping operations" />
+    <MESSAGE value="cleaned up dead code" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up dead code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PubScraper$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1719759376071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper" />

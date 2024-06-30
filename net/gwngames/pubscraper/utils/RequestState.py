@@ -3,7 +3,7 @@ import threading
 from datetime import datetime
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
@@ -16,7 +16,7 @@ class RequestState:
             return
         self.__initialized = True
         self.stored_date = datetime.now()
-        self.max_concurrent_requests = FileReader(FileReader.CONFIG_FILE_NAME).get_value(ConfigConstants.MAX_IFACE_REQUESTS)
+        self.max_concurrent_requests = JsonReader(JsonReader.CONFIG_FILE_NAME).get_value(ConfigConstants.MAX_IFACE_REQUESTS)
         self.active_count = 0
         self.logger = logging.getLogger("RequestState")
 

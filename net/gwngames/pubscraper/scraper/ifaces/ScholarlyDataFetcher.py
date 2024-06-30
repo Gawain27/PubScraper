@@ -12,7 +12,7 @@ from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPubRelatedArticle
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPublication import GetScholarlyPublication
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
 
 class ScholarlyDataFetcher(GeneralDataFetcher):
@@ -27,7 +27,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
 
         self.logger = logging.getLogger('ScholarlyDataFetcher')
         logging.basicConfig(level=LoggingConstants.SCHOLARLY_DATA_FETCHER)
-        self.config = FileReader(FileReader.CONFIG_FILE_NAME, self.INTERFACE_ID)
+        self.config = JsonReader(JsonReader.CONFIG_FILE_NAME, self.INTERFACE_ID)
 
         if self.proxy_enabled and not ScholarlyDataFetcher.PROXY_STARTED:
             self._set_scraperapi_proxy()
@@ -58,7 +58,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         filename = f"{ScholarlyDataFetcher.INTERFACE_ID}_{author}.json"
         # Supposedly only ever one
         for author_snip in search_query:
-            existing_author = FileReader(filename)
+            existing_author = JsonReader(filename)
             if existing_author.is_empty() or existing_author.is_outdated():
                 existing_author.load_file(create=True)
                 full_author = scholarly.fill(author_snip)
@@ -74,7 +74,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
             pub_number: int = 0
             for pub in full_author['publications']:
                 pub_filename = f"{self.generate_unique_key(self.INTERFACE_ID, pub, self.PUBLICATION_SALT)}_pub.json"
-                pub_file = FileReader(pub_filename)
+                pub_file = JsonReader(pub_filename)
                 if pub_number >= self.config.get_value(ConfigConstants.MAX_FETCHABLE):
                     # todo bring this log to general fetcher, add joining of ops before notifying completion
                     self.logger.info("Scraped all publications for this run for Author: %s", author)
@@ -103,7 +103,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
 
     def fetch_pub_citations(self, iter_key: str, citations: Any, pub_id: str, pub: Any = None) -> str:
         filename = f"{self.INTERFACE_ID}_{pub_id}_citation.json"
-        citations_file: FileReader = FileReader(filename)
+        citations_file: JsonReader = JsonReader(filename)
         if citations is None:
             assert pub is not None
             citations = scholarly.citedby(pub)
@@ -111,7 +111,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
                                                        self.INTERFACE_ID)
             self.pub_cit_num[filename] = 0
             self.logger.info(iter_key)
-            self.cit_starting_index[filename] = int(FileReader(FileReader.MESSAGE_STAT_FILE_NAME).get_value(iter_key)[0])-1
+            self.cit_starting_index[filename] = int(JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME).get_value(iter_key)[0]) - 1
             self.logger.info("Scraping citations for %s starting at index %d", iter_key, self.cit_starting_index[filename])
             return "/dev/null"
 
@@ -142,7 +142,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
 
     def fetch_related_articles(self, iter_key: str, articles: Any, pub_id: str, pub: Any = None) -> str:
         filename = f"{self.INTERFACE_ID}_{pub_id}_related.json"
-        articles_file: FileReader = FileReader(filename)
+        articles_file: JsonReader = JsonReader(filename)
         if articles is None:
             assert pub is not None
             articles = scholarly.get_related_articles(pub)
@@ -150,7 +150,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
                                                        self.INTERFACE_ID)
             self.pub_art_num[filename] = 0
             self.logger.info(iter_key)
-            self.art_starting_index[filename] = int(FileReader(FileReader.MESSAGE_STAT_FILE_NAME).get_value(iter_key)[0])-1
+            self.art_starting_index[filename] = int(JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME).get_value(iter_key)[0]) - 1
             self.logger.info("Scraping articles for %s starting at index %d", iter_key, self.art_starting_index[filename])
             return "/dev/null"
 
@@ -179,7 +179,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
     def fetch_author_publication(self, publication: Any) -> str:
         filename = f"{self.generate_unique_key(self.INTERFACE_ID, publication, self.PUBLICATION_SALT)}_pub.json"
         self.logger.info("Fetching author publication %s", filename)
-        pubfile: FileReader = FileReader(filename)
+        pubfile: JsonReader = JsonReader(filename)
 
         pub_filled = scholarly.fill(publication)
 

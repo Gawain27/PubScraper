@@ -13,7 +13,7 @@ from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstant
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.system.SystemStatusReq import SystemStatusReq
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.LoadState import LoadState
 
 
@@ -33,7 +33,7 @@ class StatusServlet:
         if not hasattr(self, '_initialized'):
             self._initialized = True
             self.thread = None
-            self.config = FileReader(FileReader.CONFIG_FILE_NAME)
+            self.config = JsonReader(JsonReader.CONFIG_FILE_NAME)
             self.port = self.config.get_value(ConfigConstants.SERVER_STATUS_PORT)
             self.socket = SynchroSocket(self.port)
             logging.debug("StatusServlet instance initialized")

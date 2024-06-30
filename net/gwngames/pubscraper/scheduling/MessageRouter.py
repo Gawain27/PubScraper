@@ -7,7 +7,7 @@ from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MasterPriorityQueue import MasterPriorityQueue
-from net.gwngames.pubscraper.utils.FileReader import FileReader
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.RequestState import RequestState
 from net.gwngames.pubscraper.utils.Semaphore import SingletonSemaphore
 from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
@@ -43,7 +43,7 @@ class MessageRouter:
         self.started_at = datetime.datetime.now()
         self.incoming_queue = MasterPriorityQueue()
         self.routing_threads: Dict[str, threading.Thread] = {}
-        self.config = FileReader(FileReader.CONFIG_FILE_NAME)
+        self.config = JsonReader(JsonReader.CONFIG_FILE_NAME)
 
     def start(self):
         """
