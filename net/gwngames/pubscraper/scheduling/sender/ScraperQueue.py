@@ -5,8 +5,6 @@ from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstant
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.BaseMessage import BaseMessage
 from net.gwngames.pubscraper.msg.comm.SerializeJSONData import SerializeJSONData
-from net.gwngames.pubscraper.msg.scraper.scholarly.GetGoogleScholarData import GetGoogleScholarData
-from net.gwngames.pubscraper.msg.scraper.core.ScrapeTopic import ScrapeTopic
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyAuthor import GetScholarlyAuthor
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPubCitations import GetScholarlyPubCitations
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPubRelatedArticles import GetScholarlyPubRelatedArticles
@@ -32,12 +30,7 @@ class ScraperQueue(AsyncQueue):
         self.message_stats.set_and_save(msg.content, [str(update_index+1), datetime.today().isoformat()])
 
         scraped_info_file: str = ""
-        if isinstance(msg, ScrapeTopic):
-            self.logger.info("Processing ScrapeTopic message for paper: %s", msg.content)
-            ScholarlyDataFetcher().scrape_paper(msg)
-            self.logger.info("Successfully completed ScrapeTopic message for paper: %s", msg.content)
-            return
-        elif isinstance(msg, GetScholarlyAuthor):
+        if isinstance(msg, GetScholarlyAuthor):
             self.logger.info("Processing message %s of type GetScholarlyAuthor for %s", msg.message_id, msg.author)
             scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_author_data(msg.author)
             self.logger.info("Processed message %s of type GetScholarlyAuthor for %s", msg.message_id, msg.author)
@@ -50,14 +43,6 @@ class ScraperQueue(AsyncQueue):
         elif isinstance(msg, GetScholarlyPubRelatedArticles):
             scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_related_articles(msg.content, msg.articles, StringUtils.sanitize_string(msg.pub_id), msg.pub)
             self.logger.info("Processed message %s of type GetScholarlyPubRelatedArticles", msg.content)
-        elif isinstance(msg, GetGoogleScholarData):
-            self.logger.info("Processing GetGoogleScholarData message with query: %s", msg.query)
-            try:
-                scraped_info_file = ScholarlyDataFetcher(proxy=True).get_new_data_since(msg.query, update_date)
-                self.logger.info("Successfully fetched new data since %s for query: %s", update_date, msg.query)
-            except Exception as e:
-                self.logger.error("Failed to fetch data for query %s: %s", msg.query, str(e))
-                raise e
         else:
             self.logger.error("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
             raise Exception("ScraperQueue - Received undefined message type: %s", type(msg).__name__)

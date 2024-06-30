@@ -9,6 +9,7 @@ from scholarly import ProxyGenerator
 
 from net.gwngames.pubscraper.LogFileHandler import LogFileHandler
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.scraper.NameFetcher import NameFetcher
 from net.gwngames.pubscraper.scraper.WebScraper import WebScraper
 from net.gwngames.pubscraper.utils.ClassRegisterer import QueueRegisterer
 from net.gwngames.pubscraper.utils.FileReader import FileReader
@@ -17,7 +18,7 @@ from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 
 class ExcludeFilter(logging.Filter):
     def filter(self, record):
-        return not any(record.name.startswith(mod) for mod in ('httpx', 'httpcore', 'urllib3', 'selenium'))
+        return not any(record.name.startswith(mod) for mod in ('httpx', 'httpcore', 'urllib3', 'selenium', 'scholarly'))
 
 
 if __name__ == '__main__':
@@ -40,6 +41,7 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG, handlers=[log_file_handler, console_handler])
 
     # -- data configuration
+
     QueueRegisterer().register_queues()
 
     # TODO: all the params flag and stuff

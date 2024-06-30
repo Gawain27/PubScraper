@@ -8,26 +8,6 @@ from net.gwngames.pubscraper.utils.StringUtils import StringUtils
 
 class GeneralDataFetcher:
     SCRAPERAPI_KEY: Final = '24a83a2a4fdd05fc3ae54d34aed33f79'
-    @abstractmethod
-    def get_new_data_since(self, query: str, date: datetime) -> str:
-        """
-        Fetch all new data from a specific date going forward for the given query.
-        :param query: The search query
-        :param date: The start date to filter new data (format: 'YYYY-MM-DD')
-        :return: file location of the new data
-        """
-        pass
-
-    @abstractmethod
-    def generate_all_queries(self, base_query: str, additional_terms: List[str]) -> List[str]:
-        """
-        Generate all possible queries by combining the base query with additional terms.
-
-        :param base_query: The base search query
-        :param additional_terms: List of additional terms to combine with the base query
-        :return: List of all possible queries
-        """
-        pass
 
     @abstractmethod
     def generate_all_relevant_authors(self, authors_list: str):
@@ -54,28 +34,6 @@ class GeneralDataFetcher:
         :return: the file name of the publication
         """
         pass
-
-    @abstractmethod
-    def generate_all_relevant_queries(self, base_query: str) -> List[str]:
-        """
-        Generate all relevant queries by extracting relevant terms from the search results.
-
-        :param base_query: The base search query
-        :return: List of all relevant queries
-        """
-        pass
-
-    @staticmethod
-    def extract_terms(term_list: list[str]) -> Set[str]:
-        """
-        Extract terms from text for use in generating relevant queries.
-
-        :param term_list: The text to extract terms from
-        :return: A set of extracted terms
-        """
-        # For simplicity, we assume terms are words longer than 6 characters.
-        # This function can be enhanced with more complex NLP techniques.
-        return {word for word in term_list if len(word) > 2}
 
     @staticmethod
     def get_data_fetcher_class(interface_id: str) -> type:
@@ -118,7 +76,7 @@ class GeneralDataFetcher:
         return unique_key
 
     @classmethod
-    def get_field_value(self, nested_obj: Any, field_path: str):
+    def get_field_value(cls, nested_obj: Any, field_path: str):
         """
         Retrieves the value from a nested dictionary based on the field path.
 

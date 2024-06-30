@@ -7,12 +7,13 @@
     "entity_port": 8080,
     "status_port": 9090,
     "keepdown_time": 1000,
-    "root_authors": "Riccardo Guidotti,Roberto Grossi,Laura Semini",
+    "authors_ref": "https://di.unipi.it/persone/",
+    "root_authors": "",
     "min_wait_time": 5,
     "max_wait_time": 15,
     "max_ms_worktime": 10000,
     "max_iface_requests": 5,
     "delay_threshold": 50,
     "max_fetchable": 5,
-    "scraper_api_key": "e6002cee8f32fd8d6f11721d3e307dc7"
+    "scraper_api_key": "53c9fca4ac995eb234da954b21f675fb"
 }
