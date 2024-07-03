@@ -5,7 +5,6 @@ from abc import abstractmethod
 
 from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
-from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
@@ -44,6 +43,7 @@ class AsyncQueue(queue.Queue):
                 msg.depth = 0
 
         if msg.delayed:
+            msg.depth -= 1
             router.send_delayed(msg)
             return
         start_time: float = time.time()
