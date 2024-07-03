@@ -2,7 +2,7 @@ import json
 import logging
 import os
 import threading
-from typing import Final, Any, Set
+from typing import Final, Any
 
 from net.gwngames.pubscraper.Context import Context
 

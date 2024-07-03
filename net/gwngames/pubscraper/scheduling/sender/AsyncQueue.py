@@ -3,19 +3,23 @@ import queue
 import time
 from abc import abstractmethod
 
+from net.gwngames.pubscraper.Context import Context
+from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.utils.ClassUtils import ClassUtils
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.RequestState import RequestState
-from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
 class AsyncQueue(queue.Queue):
 
     def __init__(self, maxsize: int = 100):
         super().__init__(maxsize)
+        self.is_queue_depth_limited = False
+        self.ctx = Context()
         self.logger = logging.getLogger(self.register_me().__name__)
         self.logger.setLevel(LoggingConstants.ASYNC_QUEUE)
         self.message_stats = JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME, parent=self.register_me().__name__)
@@ -31,6 +35,14 @@ class AsyncQueue(queue.Queue):
         the routing threads list in the provided `router` object.
         """
         exception_caught = False
+
+        if self.is_queue_depth_limited:
+            if msg.depth is not None and msg.depth > self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX):
+                logging.debug("Max depth reached for message %s - %s", msg.message_type, msg.message_id)
+                return
+            if msg.depth is None:
+                msg.depth = 0
+
         if msg.delayed:
             router.send_delayed(msg)
             return

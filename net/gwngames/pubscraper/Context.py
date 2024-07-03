@@ -20,6 +20,7 @@ class Context:
             self.initialized = True
             self.logger = logging.getLogger('Context')
             self._current_dir = None
+            self._config = None
 
     def build_path(self, path: str):
         return os.path.join(self.get_current_dir(), path)
@@ -31,4 +32,15 @@ class Context:
     def set_current_dir(self, current_dir):
         with self._lock:
             self._current_dir = current_dir
-            self.logger.info("Set current active directory: "+current_dir)
+            self.logger.info("Context added: current active directory: " + current_dir)
+
+    def get_config(self):
+        with self._lock:
+            from net.gwngames.pubscraper.utils.JsonReader import JsonReader
+            dir: JsonReader = self._config
+            return dir
+
+    def set_config(self, config):
+        with self._lock:
+            self._config = config
+            self.logger.info("Context added: Set current config:" + config.file)

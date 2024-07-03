@@ -21,3 +21,4 @@ class ConfigConstants:
     MAX_IFACE_REQUESTS: Final = 'max_iface_requests'
     MAX_FETCHABLE: Final = 'max_fetchable'
     SCRAPERAPI_KEY: Final = 'scraper_api_key'
+    DEPTH_MAX: Final = 'depth_max'

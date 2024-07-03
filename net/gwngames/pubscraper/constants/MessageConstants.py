@@ -18,6 +18,8 @@ class MessageConstants:
     MSG_GOOGLE_SCHOLAR_QUERY: Final = "getGoogleScholarEntity"
     MSG_SCHOLARLY_REL_ARTICLES = "getScholarlyPubRelatedArticles"
     MSG_SCHOLARLY_CITATIONS = "getScholarlyCitations"
+    MSG_ALL_SCHOLARLY_AUTHORS = "allScholarlyAuthor"
+    MSG_SCHOLARLY_ORG = "scholarlyOrg"
 
     #  System messages
     MSG_UPDATE_LOAD_STATE: Final = "updateLoadState"

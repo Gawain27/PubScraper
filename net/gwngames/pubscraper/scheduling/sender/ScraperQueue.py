@@ -5,7 +5,9 @@ from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstant
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.BaseMessage import BaseMessage
 from net.gwngames.pubscraper.msg.comm.SerializeJSONData import SerializeJSONData
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetAllScholarlyAuthors import GetAllScholarlyAuthors
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyAuthor import GetScholarlyAuthor
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyOrg import GetScholarlyOrg
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPubCitations import GetScholarlyPubCitations
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPubRelatedArticles import GetScholarlyPubRelatedArticles
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPublication import GetScholarlyPublication
@@ -17,6 +19,10 @@ from net.gwngames.pubscraper.utils.StringUtils import StringUtils
 
 class ScraperQueue(AsyncQueue):
     QUEUE: Final = QueueConstants.SCRAPER_QUEUE
+
+    def __init__(self):
+        super().__init__()
+        self.is_queue_depth_limited = True
 
     def register_me(self) -> type:
         return ScraperQueue
@@ -30,22 +36,28 @@ class ScraperQueue(AsyncQueue):
         self.message_stats.set_and_save(msg.content, [str(update_index+1), datetime.today().isoformat()])
 
         scraped_info_file: str = ""
+        self.logger.info(f"Processing message {msg.message_id} of type {msg.message_type}: {msg.content}"
+                         f" - with depth {msg.depth if msg.depth is not None else 'None'}")
         if isinstance(msg, GetScholarlyAuthor):
-            self.logger.info("Processing message %s of type GetScholarlyAuthor for %s", msg.message_id, msg.author)
-            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_author_data(msg.author)
-            self.logger.info("Processed message %s of type GetScholarlyAuthor for %s", msg.message_id, msg.author)
+            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_author_data(msg)
+        elif isinstance(msg, GetAllScholarlyAuthors):
+            scraped_info_file = ScholarlyDataFetcher(proxy=True).generate_all_relevant_authors(msg.authors)
+        elif isinstance(msg, GetScholarlyOrg):
+            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_org_data(msg)
         elif isinstance(msg, GetScholarlyPublication):
-            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_author_publication(msg.pub)
-            self.logger.info("Processed message %s of type GetScholarlyPublication", msg.message_id)
+            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_author_publication(msg)
         elif isinstance(msg, GetScholarlyPubCitations):
-            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_pub_citations(msg.content, msg.citations, StringUtils.sanitize_string(msg.pub_id), msg.pub)
-            self.logger.info("Processed message %s of type GetScholarlyPubCitations", msg.content)
+            msg.pub_id = StringUtils.sanitize_string(msg.pub_id)
+            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_pub_citations(msg)
         elif isinstance(msg, GetScholarlyPubRelatedArticles):
-            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_related_articles(msg.content, msg.articles, StringUtils.sanitize_string(msg.pub_id), msg.pub)
-            self.logger.info("Processed message %s of type GetScholarlyPubRelatedArticles", msg.content)
+            msg.pub_id = StringUtils.sanitize_string(msg.pub_id)
+            scraped_info_file = ScholarlyDataFetcher(proxy=True).fetch_related_articles(msg)
         else:
             self.logger.error("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
             raise Exception("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
+
+        self.logger.info(f"Processed message {msg.message_id} of type {msg.message_type}: {msg.content}"
+                         f" - with depth {msg.depth if msg.depth is not None else 'None'}")
 
         return
         if scraped_info_file == JsonReader.DEV_NULL:

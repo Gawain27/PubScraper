@@ -5,14 +5,18 @@ from scholarly import ProxyGenerator
 from scholarly import scholarly
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetAllScholarlyAuthors import GetAllScholarlyAuthors
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyAuthor import GetScholarlyAuthor
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyOrg import GetScholarlyOrg
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPubCitations import GetScholarlyPubCitations
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPubRelatedArticles import GetScholarlyPubRelatedArticles
 from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyPublication import GetScholarlyPublication
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
+from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
 class ScholarlyDataFetcher(GeneralDataFetcher):
@@ -51,13 +55,14 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         authors: list[str] = authors_list
         for author in authors:
             author_msg = GetScholarlyAuthor(self.INTERFACE_ID + "_" + author, author)
-            MessageRouter.get_instance().send_later_in(author_msg, self.INTERFACE_ID)
+            MessageRouter.get_instance().send_later_in(author_msg, self.INTERFACE_ID, depth=0)
             self.logger.info("Sent message %s for author: %s", author_msg.message_id, author)
+            ThreadUtils.random_sleep(0, 1)  # deschedule
 
-    def fetch_author_data(self, author: str) -> str:
-        search_query = scholarly.search_author(author)
+    def fetch_author_data(self, msg: GetScholarlyAuthor) -> str:
+        search_query = scholarly.search_author(msg.author)
 
-        filename = f"{self.INTERFACE_ID}_{author}.json"
+        filename = f"{self.INTERFACE_ID}_{msg.author}.json"
         existing_author = JsonReader(filename, self.INTERFACE_ID)
 
         if existing_author.is_empty() or existing_author.is_outdated():
@@ -65,21 +70,33 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
             # Supposedly only ever one
             author_snip = next(search_query)
             full_author = scholarly.fill(author_snip)
-            self.logger.info("Retrieved author: %s", author)
+            self.logger.info("Retrieved author: %s", msg.author)
 
             existing_author.dump_and_save(full_author)
         else:
             full_author = existing_author.data
             filename = JsonReader.DEV_NULL
-            self.logger.info("Loaded up to date author %s", author)
-            # This must be synchronous, recheck each publication to check for re-scrape
+            self.logger.info("Loaded up to date author %s", msg.author)
+        # This must be synchronous, recheck each publication to check for re-scrape
+
+        # fetch coauthors
+        coauthors = [item['name'] for item in full_author.get(JsonConstants.TAG_COAUTHORS)]
+        msg_coauthors = GetAllScholarlyAuthors(f"{self.INTERFACE_ID}_coauthors_{msg.author}.json", coauthors)
+        MessageRouter.get_instance().send_later_in(msg_coauthors, self.INTERFACE_ID, depth=msg.depth)
+
+        org = str(full_author.get(JsonConstants.TAG_EMAIL_DOMAIN)).split('.')[-2]
+        org_file = JsonReader(f"{self.INTERFACE_ID}_{org}.json", self.INTERFACE_ID)
+        if org_file.is_empty() or org_file.is_outdated():
+            msg_org = GetScholarlyOrg(f"{self.INTERFACE_ID}_{org}.json", org)
+            MessageRouter.get_instance().send_later_in(msg_org, self.INTERFACE_ID)
+
         pub_number: int = 0
         for pub in full_author['publications']:
             pub_filename = f"{self.generate_unique_key(self.INTERFACE_ID, pub, self.PUBLICATION_SALT)}_pub.json"
             pub_file = JsonReader(pub_filename, self.INTERFACE_ID)
             if pub_number >= self.config.get_value(ConfigConstants.MAX_FETCHABLE):
                 # todo bring this log to general fetcher, add joining of ops before notifying completion
-                self.logger.info("Scraped all publications for this run for Author: %s", author)
+                self.logger.info("Scraped all publications for this run for Author: %s", msg.author)
                 break
             if not pub_file.is_empty() and not pub_file.is_outdated():
                 self.logger.info("file %s is up to date", pub_filename)
@@ -91,39 +108,60 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
                 articles_msg = GetScholarlyPubRelatedArticles(self.INTERFACE_ID + "_" + publication_id + "_article",
                                                             publication_id, None, pub_file.data)
                 MessageRouter.get_instance().send_later_in(articles_msg, self.INTERFACE_ID)
+                ThreadUtils.random_sleep(0, 1)  # deschedule
                 continue
             pub_number += 1
 
             publication_msg = GetScholarlyPublication(pub_filename, pub)
             MessageRouter.get_instance().send_later_in(publication_msg, self.INTERFACE_ID)
-            self.logger.info("Sent publication message for pub %s for author %s", pub_filename, author)
+            self.logger.info("Sent publication message for pub %s for author %s", pub_filename, msg.author)
+            ThreadUtils.random_sleep(0, 1)  # deschedule
 
         return filename
+
+    def fetch_org_data(self, msg: GetScholarlyOrg) -> str:
+        org_filename = msg.content
+        org_file = JsonReader(msg.content, self.INTERFACE_ID)
+        if not org_file.is_empty() and not org_file.is_outdated():
+            self.logger.warning("Organization %s was updated concurrently! Aborting", msg.org_name)
+            return JsonReader.DEV_NULL
+
+        org_fetched: bool = False
+
+        possible_orgs: list = scholarly.search_org(msg.org_name)
+
+        if possible_orgs is not None and len(possible_orgs) > 0:
+            actual_org = possible_orgs[0]
+            scholarly.organization(actual_org[id])
+            org_file.dump_and_save(actual_org)
+            self.logger.info("Saved organization %s to file %s", actual_org, org_filename)
+            org_fetched = True
+
+        return org_filename if org_fetched else JsonReader.DEV_NULL
 
     pub_cit_num: dict[str, int] = {}
     cit_starting_index: dict[str, int] = {}
 
-    def fetch_pub_citations(self, iter_key: str, citations: Any, pub_id: str, pub: Any = None) -> str:
-        filename = f"{self.INTERFACE_ID}_{pub_id}_citation.json"
+    def fetch_pub_citations(self, msg: GetScholarlyPubCitations) -> str:
+        filename = f"{self.INTERFACE_ID}_{msg.pub_id}_citation.json"
         citations_file: JsonReader = JsonReader(filename, self.INTERFACE_ID, self.INTERFACE_ID)
-        if citations is None:
-            assert pub is not None
-            citations = scholarly.citedby(pub)
-            MessageRouter.get_instance().send_later_in(GetScholarlyPubCitations(filename, pub_id, citations),
+        if msg.citations is None:
+            assert msg.pub is not None
+            citations = scholarly.citedby(msg.pub)
+            MessageRouter.get_instance().send_later_in(GetScholarlyPubCitations(filename, msg.pub_id, citations),
                                                        self.INTERFACE_ID)
             self.pub_cit_num[filename] = 0
-            self.logger.info(iter_key)
-            self.cit_starting_index[filename] = int(JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME).get_value(iter_key)[0]) - 1
-            self.logger.info("Scraping citations for %s starting at index %d", iter_key, self.cit_starting_index[filename])
+            self.cit_starting_index[filename] = int(JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME).get_value(msg.content)[0]) - 1
+            self.logger.info("Scraping citations for %s starting at index %d", msg.content, self.cit_starting_index[filename])
             return JsonReader.DEV_NULL
 
-        self.logger.info("Fetching citation %s - %s", self.pub_cit_num[filename], pub_id)
+        self.logger.info("Fetching citation %s - %s", self.pub_cit_num[filename], msg.pub_id)
         # TODO: add outdated check for citations
 
         if self.pub_cit_num[filename] > self.config.get_value(ConfigConstants.MAX_FETCHABLE):
             self.logger.warning("Reached max number of citations fetchable for %s", filename)
             return JsonReader.DEV_NULL
-        citation = next(citations, self.cit_starting_index.get(filename, None))
+        citation = next(msg.citations, self.cit_starting_index.get(filename, None))
         if self.cit_starting_index.get(filename, None) is not None:
             self.cit_starting_index[filename] = None
 
@@ -135,34 +173,35 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         else:
             self.logger.info("citation: %s is up to date", unique_citation)
 
-        MessageRouter.get_instance().send_later_in(GetScholarlyPubCitations(filename, pub_id, citations),
+        MessageRouter.get_instance().send_later_in(GetScholarlyPubCitations(filename, msg.pub_id, msg.citations),
                                                    self.INTERFACE_ID)
+        ThreadUtils.random_sleep(0, 1)  # deschedule
+
         return filename
 
     pub_art_num: dict[str, int] = {}
     art_starting_index: dict[str, int] = {}
 
-    def fetch_related_articles(self, iter_key: str, articles: Any, pub_id: str, pub: Any = None) -> str:
-        filename = f"{self.INTERFACE_ID}_{pub_id}_related.json"
+    def fetch_related_articles(self, msg: GetScholarlyPubRelatedArticles) -> str:
+        filename = f"{self.INTERFACE_ID}_{msg.pub_id}_related.json"
         articles_file: JsonReader = JsonReader(filename, self.INTERFACE_ID)
-        if articles is None:
-            assert pub is not None
-            articles = scholarly.get_related_articles(pub)
-            MessageRouter.get_instance().send_later_in(GetScholarlyPubRelatedArticles(filename, pub_id, articles),
+        if msg.articles is None:
+            assert msg.pub is not None
+            articles = scholarly.get_related_articles(msg.pub)
+            MessageRouter.get_instance().send_later_in(GetScholarlyPubRelatedArticles(filename, msg.pub_id, articles),
                                                        self.INTERFACE_ID)
             self.pub_art_num[filename] = 0
-            self.logger.info(iter_key)
-            self.art_starting_index[filename] = int(JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME).get_value(iter_key)[0]) - 1
-            self.logger.info("Scraping articles for %s starting at index %d", iter_key, self.art_starting_index[filename])
+            self.art_starting_index[filename] = int(JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME).get_value(msg.content)[0]) - 1
+            self.logger.info("Scraping articles for %s starting at index %d", msg.content, self.art_starting_index[filename])
             return JsonReader.DEV_NULL
 
-        self.logger.info("Fetching article %s - %s", self.pub_art_num[filename], pub_id)
+        self.logger.info("Fetching article %s - %s", self.pub_art_num[filename], msg.pub_id)
         # TODO: add outdated check for articles
         if self.pub_art_num[filename] > self.config.get_value(ConfigConstants.MAX_FETCHABLE):
             self.logger.warning("Reached max number of articles fetchable for %s", filename)
             return JsonReader.DEV_NULL
 
-        article = next(articles, self.art_starting_index.get(filename, None))
+        article = next(msg.articles, self.art_starting_index.get(filename, None))
         if self.art_starting_index.get(filename, None) is not None:
             self.art_starting_index[filename] = None
 
@@ -174,25 +213,28 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         else:
             self.logger.info("article: %s is up to date", unique_article)
 
-        MessageRouter.get_instance().send_later_in(GetScholarlyPubRelatedArticles(filename, pub_id, articles),
+        MessageRouter.get_instance().send_later_in(GetScholarlyPubRelatedArticles(filename, msg.pub_id, msg.articles),
                                                    self.INTERFACE_ID)
+        ThreadUtils.random_sleep(0, 1)  # deschedule
+
         return filename
 
-    def fetch_author_publication(self, publication: Any) -> str:
-        filename = f"{self.generate_unique_key(self.INTERFACE_ID, publication, self.PUBLICATION_SALT)}_pub.json"
-        self.logger.info("Fetching author publication %s", filename)
-        pubfile: JsonReader = JsonReader(filename, self.INTERFACE_ID)
+    def fetch_author_publication(self, msg: GetScholarlyPublication) -> str:
+        self.logger.info("Fetching author publication %s", msg.content)
+        pubfile: JsonReader = JsonReader(msg.content, self.INTERFACE_ID)
 
-        pub_filled = scholarly.fill(publication)
+        pub_filled = scholarly.fill(msg.pub)
 
         pubfile.dump_and_save(pub_filled)
 
-        publication_id: str = publication['author_pub_id']
+        publication_id: str = msg.pub['author_pub_id']
         citations_msg = GetScholarlyPubCitations(self.INTERFACE_ID + "_" + publication_id + "_citation",
-                                                 publication_id, None, publication)
+                                                 publication_id, None, msg.pub)
         MessageRouter.get_instance().send_later_in(citations_msg, self.INTERFACE_ID)
 
         articles_msg = GetScholarlyPubRelatedArticles(self.INTERFACE_ID + "_" + publication_id + "_article",
-                                                      publication_id, None, publication)
+                                                      publication_id, None, msg.pub)
         MessageRouter.get_instance().send_later_in(articles_msg, self.INTERFACE_ID)
-        return filename
+        ThreadUtils.random_sleep(0, 1)  # deschedule
+
+        return msg.content

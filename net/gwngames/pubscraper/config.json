@@ -14,6 +14,7 @@
     "max_ms_worktime": 3600,
     "max_iface_requests": 5,
     "delay_threshold": 50,
-    "max_fetchable": 5,
-    "scraper_api_key": "5c00977ee888fdb3dd564ce402e68069"
+    "max_fetchable": 1,
+    "scraper_api_key": "fe6bc4d82595dbc68bf6f2c1a2f46e65",
+    "depth_max": 1
 }

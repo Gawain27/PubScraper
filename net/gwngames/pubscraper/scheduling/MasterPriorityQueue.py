@@ -25,7 +25,7 @@ class MasterPriorityQueue(queue.PriorityQueue):
         super(MasterPriorityQueue, self).__init__(*args, **kwargs)
         self.__initialized = True
 
-    def send(self, priority: int, message: 'AbstractMessage', subqueue: queue.Queue):
+    def send(self, priority: int, message: AbstractMessage, subqueue: queue.Queue):
         """
         Put method for MasterPriorityQueue.
 
@@ -34,6 +34,7 @@ class MasterPriorityQueue(queue.PriorityQueue):
         :param message: the AbstractMessage object to be put into the priority queue
         :return: None
         """
+        message.priority = priority
         queue.PriorityQueue.put(self, (priority, message, subqueue))
 
     def receive(self, block: bool = True, timeout: float | None = None) -> Tuple[int, 'AbstractMessage', queue.Queue]:

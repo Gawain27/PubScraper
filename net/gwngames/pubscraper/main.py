@@ -24,6 +24,7 @@ if __name__ == '__main__':
     # Initialize files for caching
     conf_reader = JsonReader(JsonReader.CONFIG_FILE_NAME)
     message_stats = JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME)
+    ctx.set_config(conf_reader)
 
     max_logfile_lines: int = conf_reader.get_value(ConfigConstants.MAX_LOGFILE_LINES)
 

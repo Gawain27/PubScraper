@@ -80,6 +80,7 @@ class MessageRouter:
         """
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
         message_queue: AsyncQueue = message_type
+
         self.routing_threads[message.message_id] = threading.Thread(
             target=message_queue.process_message,
             args=(self, message),
@@ -87,6 +88,7 @@ class MessageRouter:
         )
         # TODO don't randomly start threads, maintain a max and release with wait/notify
         self.routing_threads[message.message_id].start()
+
 
     def send_delayed(self, message: AbstractMessage, priority=0):
         RequestState().update_last_sent(self.config.get_value(ConfigConstants.MIN_WAIT_TIME),
@@ -96,10 +98,11 @@ class MessageRouter:
         message.delayed = False
         self.send_message(message, priority)
 
-    def send_message(self, message: AbstractMessage, priority=0):
+    def send_message(self, message: AbstractMessage, priority=0, depth=None):
         """
         Send a message to a message queue with an optional priority.
 
+        :param depth:
         :param message:  An AbstractMessage object representing the message to be sent.
         :param message_queue:  An AsyncQueue object representing the destination message queue.
         :param priority:  An optional integer representing the priority of the message. Defaults to 0.
@@ -122,15 +125,19 @@ class MessageRouter:
 
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
         loaded_queue: type = AsyncQueue.get_queue_class(message.destination_queue)
-        self.incoming_queue.send(priority, message, loaded_queue())
-        logging.info(f"Message sent: {message} to: {message.destination_queue}")
 
-    def send_later_in(self, message: AbstractMessage, sem_type: str, priority=0):
+        if depth is not None:
+            message.depth = depth+1
+        self.incoming_queue.send(priority, message, loaded_queue())
+        logging.info(f"Message sent: {message} to: {message.destination_queue} with depth: {depth if depth is not None else 'None'}")
+
+    def send_later_in(self, message: AbstractMessage, sem_type: str, priority=0, depth=None):
         sem: SingletonSemaphore = SingletonSemaphore(sem_type,
                                                      self.config.get_value(ConfigConstants.MAX_IFACE_REQUESTS))
         sem.acquire()
         message.locking_type = sem
         logging.info(f"Delaying message: {message.message_id} of type {message.message_type}")
+
         message.delayed = True
         message.synchronize = True
         self.send_message(message, priority)

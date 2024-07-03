@@ -1,3 +1,6 @@
+import logging
+
+
 class EntityBase:
     cid = None  # Static field to store the cid
 
@@ -22,7 +25,7 @@ class EntityBase:
             if hasattr(self, key):
                 setattr(self, key, value)
             else:
-                print(f"Warning: Property '{key}' not found in {type(self).__name__}. Skipping.")
+                logging.warning(f"Warning: Property '{key}' not found in {type(self).__name__}. Skipping.")
 
     def __str__(self):
         return "EntityBase"

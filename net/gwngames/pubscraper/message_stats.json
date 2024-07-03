@@ -1,858 +1,920 @@
 {
-    "scholarlyAuthor": 1678,
+    "scholarlyAuthor": 3998,
     "googlescholar_Davide Bacciu": [
-        "5",
-        "2024-06-30T23:25:14.545354"
+        "7",
+        "2024-07-03T08:27:38.437438"
     ],
     "googlescholar_Fabrizio Baiardi": [
-        "5",
-        "2024-06-30T23:25:42.716877"
+        "7",
+        "2024-07-03T08:27:54.225056"
     ],
     "googlescholar_Antonio Brogi": [
-        "4",
-        "2024-06-30T23:26:00.410695"
+        "6",
+        "2024-07-03T08:22:03.132815"
     ],
-    "getScholarlyCitations": 210,
-    "getScholarlyPubRelatedArticles": 183,
+    "getScholarlyPubRelatedArticles": 166,
     "googlescholar_Roberto Bruni": [
-        "5",
-        "2024-06-30T23:26:24.454400"
+        "6",
+        "2024-07-03T08:22:28.462563"
     ],
-    "scholarlyPublication": 722,
+    "scholarlyOrg": 155,
+    "getScholarlyCitations": 167,
+    "scholarlyPublication": 237,
     "googlescholar_Roberta Gori": [
-        "5",
-        "2024-06-30T23:26:49.471010"
+        "6",
+        "2024-07-03T08:22:51.693773"
+    ],
+    "googlescholar_Fabrizio Falchi": [
+        "2",
+        "2024-07-03T00:28:10.550330"
+    ],
+    "googlescholar_9foj2J0AAAAJ:u5HHmVD_uO8C_article": [
+        "1",
+        "2024-07-01T22:14:15.427571"
+    ],
+    "googlescholar_Stefano Mazzoleni": [
+        "1",
+        "2024-07-01T22:14:38.431346"
     ],
     "googlescholar_Stefano Chessa": [
-        "5",
-        "2024-06-30T23:27:04.718237"
-    ],
-    "googlescholar_lOFQGacAAAAJGnPB-g6toBAC_1991_The_concurrent_language,_pub.json": [
-        "1",
-        "2024-06-30T21:09:42.663918"
-    ],
-    "googlescholar_9foj2J0AAAAJ:u5HHmVD_uO8C_citation": [
-        "3",
-        "2024-06-30T22:15:28.733766"
-    ],
-    "googlescholar_Andrea Corradini": [
-        "3",
-        "2024-06-30T23:27:20.772811"
-    ],
-    "googlescholar_Gianluigi Ferrari": [
-        "3",
-        "2024-06-30T23:27:58.727051"
-    ],
-    "googlescholar_9foj2J0AAAAJu5HHmVD_uO8C_citation.json": [
         "2",
-        "2024-06-30T21:42:38.693148"
-    ],
-    "googlescholar__oy9y88AAAAJ:kNdYIx-mwKoC_citation": [
-        "2",
-        "2024-06-30T21:42:51.837778"
-    ],
-    "googlescholar_Fabio Gadducci": [
-        "4",
-        "2024-06-30T23:28:39.788524"
-    ],
-    "googlescholar_KHO57CAAAAAJd1gkVwhDpl0C_2002_Crash_faults_identification_pub.json": [
-        "1",
-        "2024-06-30T21:10:58.369080"
-    ],
-    "googlescholar_F2bbBksAAAAJ5MTHONV0fEkC_2014_Iot-oas_An_oauth-based_pub.json": [
-        "1",
-        "2024-06-30T21:11:09.282922"
+        "2024-07-01T23:30:32.913180"
     ],
     "googlescholar_Luca Gemignani": [
         "4",
-        "2024-06-30T23:29:03.779429"
+        "2024-07-03T07:33:03.153694"
     ],
-    "googlescholar_Giorgio Ghelli": [
-        "2",
-        "2024-06-30T22:18:05.681723"
-    ],
-    "googlescholar_ugYkdyYAAAAJ:XvxMoLDsR5gC_citation": [
-        "2",
-        "2024-06-30T21:24:58.325516"
-    ],
-    "googlescholar_QgUIX9gAAAAJu5HHmVD_uO8C_1993_An_object_data_pub.json": [
+    "googlescholar_Salvatore Orlando": [
         "1",
-        "2024-06-30T21:11:56.392493"
+        "2024-07-01T22:16:49.408219"
     ],
-    "googlescholar_KHO57CAAAAAJ:d1gkVwhDpl0C_citation": [
+    "googlescholar_Tommaso Pizzorusso": [
         "1",
-        "2024-06-30T21:12:06.212821"
+        "2024-07-01T22:17:13.086629"
     ],
-    "googlescholar_F2bbBksAAAAJ:5MTHONV0fEkC_citation": [
+    "googlescholar_Roberto Grossi": [
+        "4",
+        "2024-07-03T07:33:32.363619"
+    ],
+    "googlescholar_Giovanni Manzini": [
+        "4",
+        "2024-07-03T07:34:15.608041"
+    ],
+    "googlescholar_Romina D'Aurizio": [
         "1",
-        "2024-06-30T21:12:14.885685"
+        "2024-07-01T22:18:40.171974"
     ],
-    "googlescholar_Alessio Micheli": [
-        "2",
-        "2024-06-30T22:20:00.419129"
+    "googlescholar_Giuliano Bonanomi": [
+        "1",
+        "2024-07-01T22:19:02.867513"
     ],
     "googlescholar_Massimo Pappalardo": [
         "4",
-        "2024-06-30T22:20:18.453905"
-    ],
-    "googlescholar_Corrado Priami": [
-        "3",
-        "2024-06-30T22:20:41.914168"
-    ],
-    "googlescholar_Barbara Guidi": [
-        "4",
-        "2024-06-30T22:22:04.622907"
-    ],
-    "googlescholar_Giancarlo Bigi": [
-        "4",
-        "2024-06-30T22:22:25.873795"
-    ],
-    "googlescholar_Laura Galli": [
-        "2",
-        "2024-06-30T21:45:26.958700"
-    ],
-    "googlescholar_Chiara Bodei": [
-        "2",
-        "2024-06-30T21:28:06.765918"
-    ],
-    "googlescholar_55RZxbQAAAAJ:YOwf2qJgpHMC_citation": [
-        "1",
-        "2024-06-30T21:13:50.113604"
-    ],
-    "googlescholar_Filippo Bonchi": [
-        "3",
-        "2024-06-30T22:23:21.706523"
-    ],
-    "googlescholar_Barbara Leporini": [
-        "3",
-        "2024-06-30T22:23:56.987928"
-    ],
-    "googlescholar_Francesca Levi": [
-        "4",
-        "2024-06-30T22:24:22.734256"
-    ],
-    "googlescholar_9foj2J0AAAAJ2vr6o8x5NLkC_2020_The_solar_orbiter_pub.json": [
-        "1",
-        "2024-06-30T21:23:09.661054"
-    ],
-    "googlescholar_lOFQGacAAAAJ:D_sINldO8mEC_citation": [
-        "2",
-        "2024-06-30T22:14:35.142001"
-    ],
-    "googlescholar_Marco Danelutto": [
-        "4",
-        "2024-06-30T23:27:39.589865"
-    ],
-    "googlescholar_9foj2J0AAAAJ:2vr6o8x5NLkC_citation": [
-        "1",
-        "2024-06-30T21:23:48.272568"
-    ],
-    "googlescholar_Antonio Frangioni": [
-        "3",
-        "2024-06-30T23:28:21.314873"
-    ],
-    "googlescholar_KHO57CAAAAAJ:u5HHmVD_uO8C_article": [
-        "1",
-        "2024-06-30T21:24:30.547673"
-    ],
-    "googlescholar_Giovanni Manzini": [
-        "2",
-        "2024-06-30T22:19:20.082991"
-    ],
-    "googlescholar_xyp_USUAAAAJ4DMP91E08xMC_2009_Compressing_and_indexing_pub.json": [
-        "1",
-        "2024-06-30T21:25:13.650502"
+        "2024-07-03T00:18:46.768014"
     ],
     "googlescholar_Dino Pedreschi": [
-        "2",
-        "2024-06-30T21:44:21.837748"
-    ],
-    "googlescholar_GWrrWeEAAAAJhMod-77fHWUC_2013_Existence_and_solution_pub.json": [
         "1",
-        "2024-06-30T21:25:41.960037"
+        "2024-07-01T22:20:01.371830"
     ],
-    "googlescholar_GWrrWeEAAAAJmvPsJ3kp5DgC_2019_Nonlinear_programming_techniques_pub.json": [
+    "googlescholar_Filomena Maggino": [
         "1",
-        "2024-06-30T21:25:47.308798"
+        "2024-07-01T22:21:32.149389"
     ],
-    "googlescholar_Laura Ricci": [
-        "2",
-        "2024-06-30T22:21:07.311437"
-    ],
-    "googlescholar_GWrrWeEAAAAJ:mvPsJ3kp5DgC_article": [
+    "googlescholar_Maurizio Gabbrielli": [
         "1",
-        "2024-06-30T21:26:15.532601"
+        "2024-07-01T22:21:47.699498"
     ],
-    "googlescholar_ODbzAR4AAAAJ:NJ774b8OgUMC_citation": [
+    "googlescholar_George Vouros": [
         "1",
-        "2024-06-30T21:27:47.314036"
+        "2024-07-01T22:22:55.447113"
     ],
-    "googlescholar_ODbzAR4AAAAJVL0QpB8kHFEC_2016_NG-DBSCAN_scalable_density-based_pub.json": [
+    "googlescholar_Roberto Tognetti": [
         "1",
-        "2024-06-30T21:27:55.757313"
+        "2024-07-01T22:23:19.337333"
     ],
-    "googlescholar_ODbzAR4AAAAJ:VL0QpB8kHFEC_citation": [
+    "googlescholar_Cyril Ray": [
         "1",
-        "2024-06-30T21:28:38.385263"
+        "2024-07-01T22:23:46.178787"
     ],
-    "googlescholar_bvjdFB4AAAAJblknAaTinKkC_2005_Static_validation_of_pub.json": [
+    "googlescholar_Laura Galli": [
+        "4",
+        "2024-07-03T07:37:37.854870"
+    ],
+    "googlescholar_marco marchetti": [
         "1",
-        "2024-06-30T21:28:49.980230"
+        "2024-07-01T22:25:14.461170"
     ],
-    "googlescholar_ODbzAR4AAAAJVL0QpB8kHFEC_citation.json": [
-        "2",
-        "2024-06-30T21:29:18.343727"
-    ],
-    "googlescholar_Vincenzo Gervasi": [
-        "2",
-        "2024-06-30T21:45:48.209544"
-    ],
-    "googlescholar_4nMaoMEAAAAJt7zJ5fGR-2UC_2002_Lightweight_validation_of_pub.json": [
+    "googlescholar_Cl\u00e9ment Iphar": [
         "1",
-        "2024-06-30T21:29:48.021490"
+        "2024-07-01T22:25:33.552945"
     ],
-    "googlescholar_Giandomenico Mastroeni": [
-        "3",
-        "2024-06-30T22:25:19.967644"
-    ],
-    "googlescholar_4nMaoMEAAAAJ9yKSN-GCB0IC_citation.json": [
+    "googlescholar_Kajetan Enge": [
         "1",
-        "2024-06-30T21:30:12.595477"
+        "2024-07-01T22:25:59.535167"
     ],
-    "googlescholar_Massimo Torquati": [
-        "3",
-        "2024-06-30T22:26:38.920213"
-    ],
-    "googlescholar_TCpEfU8AAAAJTyk-4Ss8FVUC_2013_Fastflow_high-level_and_pub.json": [
+    "googlescholar_Hui Lin": [
         "1",
-        "2024-06-30T21:31:04.520227"
-    ],
-    "googlescholar_TCpEfU8AAAAJd1gkVwhDpl0C_2010_Efficient_Smith-Waterman_on_pub.json": [
-        "1",
-        "2024-06-30T21:31:11.292135"
-    ],
-    "googlescholar_XAY_AIIAAAAJ2osOgNQ5qMEC_2009_GCM_a_grid_pub.json": [
-        "1",
-        "2024-06-30T21:31:24.952959"
-    ],
-    "googlescholar_TCpEfU8AAAAJ:d1gkVwhDpl0C_citation": [
-        "1",
-        "2024-06-30T21:31:32.214269"
-    ],
-    "googlescholar_TCpEfU8AAAAJ:d1gkVwhDpl0C_article": [
-        "1",
-        "2024-06-30T21:31:39.351246"
-    ],
-    "googlescholar_TCpEfU8AAAAJd1gkVwhDpl0C_citation.json": [
-        "2",
-        "2024-06-30T21:32:04.791080"
-    ],
-    "googlescholar_Nadia Pisanti": [
-        "3",
-        "2024-06-30T22:28:21.913469"
-    ],
-    "googlescholar_5efz6osAAAAJ:6bLC7aUMtPcC_citation": [
-        "1",
-        "2024-06-30T21:32:17.092283"
-    ],
-    "googlescholar_Giovanna Rosone": [
-        "3",
-        "2024-06-30T22:28:47.925627"
-    ],
-    "googlescholar_Alessio Conte": [
-        "3",
-        "2024-06-30T22:29:37.560239"
-    ],
-    "googlescholar_Rossano Venturini": [
-        "2",
-        "2024-06-30T22:30:19.788892"
-    ],
-    "googlescholar_Alessandro Bocci": [
-        "2",
-        "2024-06-30T22:30:48.510990"
-    ],
-    "googlescholar_Andrea Cossu": [
-        "3",
-        "2024-06-30T22:31:14.805029"
-    ],
-    "googlescholar_Daniela Rotelli": [
-        "3",
-        "2024-06-30T22:32:22.362889"
-    ],
-    "googlescholar_a6Cccr4AAAAJd1gkVwhDpl0C_2022_Secure_Partitioning_of_pub.json": [
-        "1",
-        "2024-06-30T21:33:33.801306"
-    ],
-    "googlescholar_Alessandro Tommasi": [
-        "1",
-        "2024-06-30T21:33:39.810866"
-    ],
-    "googlescholar_Enrico Calandrini": [
-        "3",
-        "2024-06-30T22:33:24.083161"
-    ],
-    "googlescholar_a6Cccr4AAAAJ:d1gkVwhDpl0C_article": [
-        "1",
-        "2024-06-30T21:34:05.394883"
-    ],
-    "googlescholar_Lorenzo Catoni": [
-        "2",
-        "2024-06-30T21:52:13.982944"
-    ],
-    "googlescholar_Edoardo Geraci": [
-        "1",
-        "2024-06-30T21:34:23.843148"
-    ],
-    "googlescholar_XAY_AIIAAAAJkNdYIx-mwKoC_2017_Fastflow_High\u2010Level_and_pub.json": [
-        "1",
-        "2024-06-30T21:43:07.074954"
-    ],
-    "googlescholar_Roberto Grossi": [
-        "2",
-        "2024-06-30T22:18:31.819019"
-    ],
-    "googlescholar_Paolo Mancarella": [
-        "2",
-        "2024-06-30T22:19:01.773951"
-    ],
-    "googlescholar_r130WB4AAAAJ:Y0pCki6q_DkC_citation": [
-        "1",
-        "2024-06-30T21:43:51.076010"
-    ],
-    "googlescholar_yZTneswAAAAJZHo1McVdvXMC_2013_Optimal_listing_of_pub.json": [
-        "1",
-        "2024-06-30T21:44:12.519985"
-    ],
-    "googlescholar_yZTneswAAAAJ:ZHo1McVdvXMC_citation": [
-        "1",
-        "2024-06-30T21:44:47.971509"
-    ],
-    "googlescholar_Salvatore Ruggieri": [
-        "1",
-        "2024-06-30T21:44:56.014829"
-    ],
-    "googlescholar_Anna Bernasconi": [
-        "2",
-        "2024-06-30T22:21:44.738961"
+        "2024-07-01T22:26:14.778154"
     ],
     "googlescholar_Alessio Malizia": [
-        "2",
-        "2024-06-30T22:24:51.810838"
-    ],
-    "googlescholar_Daniele Mazzei": [
-        "2",
-        "2024-06-30T22:25:35.764402"
+        "5",
+        "2024-07-03T07:39:00.257332"
     ],
     "googlescholar_Gabriele Mencagli": [
-        "2",
-        "2024-06-30T22:26:16.863606"
+        "5",
+        "2024-07-03T07:40:12.354156"
+    ],
+    "googlescholar_BL William Wong": [
+        "1",
+        "2024-07-01T22:27:22.858838"
     ],
     "googlescholar_Paolo Milazzo": [
+        "2",
+        "2024-07-03T07:43:48.551921"
+    ],
+    "googlescholar_Fabio Luporini": [
         "1",
-        "2024-06-30T21:47:03.256267"
+        "2024-07-01T22:28:16.637902"
+    ],
+    "googlescholar_Gherardo Chirici": [
+        "1",
+        "2024-07-01T22:28:36.115160"
     ],
     "googlescholar_Anna Monreale": [
-        "2",
-        "2024-06-30T22:26:58.064443"
-    ],
-    "googlescholar_94mIc80AAAAJp2g8aNsByqUC_2020_A_Blockchain_Tokenizer_pub.json": [
-        "1",
-        "2024-06-30T21:48:06.769451"
-    ],
-    "googlescholar_Federica Paganelli": [
-        "1",
-        "2024-06-30T21:48:18.369496"
+        "3",
+        "2024-07-03T07:44:15.155078"
     ],
     "googlescholar_Susanna Pelagatti": [
         "2",
-        "2024-06-30T22:27:32.894376"
+        "2024-07-03T07:45:08.908050"
+    ],
+    "googlescholar_Nadia Pisanti": [
+        "1",
+        "2024-07-01T22:29:48.705075"
+    ],
+    "googlescholar_Giuseppe Prencipe": [
+        "4",
+        "2024-07-03T07:45:42.471151"
+    ],
+    "googlescholar_Marco Moriondo": [
+        "1",
+        "2024-07-01T22:30:42.501780"
+    ],
+    "googlescholar_Simone Zaccaria": [
+        "1",
+        "2024-07-01T22:31:06.487542"
+    ],
+    "googlescholar_TRfGqcQAAAAJqUcmZB5y_30C_2005_Applied_combinatorics_on_pub.json": [
+        "1",
+        "2024-07-01T22:31:27.174100"
+    ],
+    "googlescholar_Alessandro Bocci": [
+        "4",
+        "2024-07-03T07:49:03.806013"
+    ],
+    "googlescholar_Alfonso Crisci": [
+        "1",
+        "2024-07-01T22:32:19.380312"
+    ],
+    "googlescholar_Andrea Cossu": [
+        "3",
+        "2024-07-03T07:49:24.130135"
+    ],
+    "googlescholar_Alessandro Bondielli": [
+        "3",
+        "2024-07-03T07:49:52.395692"
+    ],
+    "googlescholar_marco morabito": [
+        "1",
+        "2024-07-01T22:33:29.498923"
+    ],
+    "googlescholar_Marina Baldi": [
+        "1",
+        "2024-07-01T22:33:47.044263"
+    ],
+    "googlescholar_Cesare Zavattari": [
+        "3",
+        "2024-07-03T07:50:51.363323"
+    ],
+    "googlescholar_Lorenzo Catoni": [
+        "2",
+        "2024-07-03T07:51:34.052292"
+    ],
+    "googlescholar_Giacomo Cignoni": [
+        "3",
+        "2024-07-03T07:51:51.723726"
+    ],
+    "googlescholar_Edoardo Geraci": [
+        "3",
+        "2024-07-03T07:52:08.173513"
+    ],
+    "googlescholar_Leonardo Giovannini": [
+        "3",
+        "2024-07-03T07:52:31.911646"
+    ],
+    "googlescholar_Giacomo Grassi": [
+        "2",
+        "2024-07-03T07:52:57.826454"
+    ],
+    "googlescholar_Lorenzo Leonardini": [
+        "3",
+        "2024-07-03T07:53:14.410146"
+    ],
+    "googlescholar_Davide Marchi": [
+        "3",
+        "2024-07-03T07:53:43.226931"
+    ],
+    "googlescholar_Giacomo Mariani": [
+        "3",
+        "2024-07-03T07:54:08.630458"
+    ],
+    "allScholarlyAuthor": 201,
+    "googlescholar_coauthors_Antonio Brogi.json": [
+        "2",
+        "2024-07-03T08:19:41.056040"
+    ],
+    "googlescholar_coauthors_Roberto Bruni.json": [
+        "1",
+        "2024-07-01T23:30:06.937900"
+    ],
+    "googlescholar_coauthors_Roberta Gori.json": [
+        "1",
+        "2024-07-01T23:31:01.952364"
+    ],
+    "googlescholar_HkC6b2EAAAAJmVmsd5A6BfQC_2013_Symbolic_path-oriented_test_pub.json": [
+        "1",
+        "2024-07-01T23:31:17.477899"
+    ],
+    "googlescholar_Antonio Frangioni": [
+        "2",
+        "2024-07-03T00:15:57.290134"
+    ],
+    "googlescholar_Fabio Gadducci": [
+        "3",
+        "2024-07-03T07:31:50.031411"
+    ],
+    "googlescholar_HkC6b2EAAAAJ:mVmsd5A6BfQC_article": [
+        "1",
+        "2024-07-01T23:32:20.992190"
+    ],
+    "googlescholar_Giorgio Ghelli": [
+        "3",
+        "2024-07-03T00:16:38.352293"
+    ],
+    "googlescholar_Paolo Mancarella": [
+        "4",
+        "2024-07-03T07:33:51.250137"
+    ],
+    "googlescholar_QgUIX9gAAAAJd1gkVwhDpl0C_1992_Coherence_of_subsumption,_pub.json": [
+        "1",
+        "2024-07-01T23:33:43.898256"
+    ],
+    "googlescholar_Alessio Micheli": [
+        "4",
+        "2024-07-03T07:34:36.651793"
+    ],
+    "googlescholar_Corrado Priami": [
+        "3",
+        "2024-07-03T07:35:13.650898"
+    ],
+    "googlescholar_Laura Ricci": [
+        "4",
+        "2024-07-03T07:35:32.772089"
+    ],
+    "googlescholar_Salvatore Ruggieri": [
+        "4",
+        "2024-07-03T07:35:54.250767"
+    ],
+    "googlescholar_Anna Bernasconi": [
+        "3",
+        "2024-07-03T07:36:20.192068"
+    ],
+    "googlescholar_Barbara Guidi": [
+        "4",
+        "2024-07-03T07:37:03.357875"
+    ],
+    "googlescholar_Giancarlo Bigi": [
+        "2",
+        "2024-07-03T00:01:06.539364"
+    ],
+    "googlescholar_8jpoORMAAAAJM05iB0D1s5AC_2018_Managing_social_contents_pub.json": [
+        "1",
+        "2024-07-01T23:36:55.027001"
+    ],
+    "googlescholar_8jpoORMAAAAJ:M05iB0D1s5AC_citation": [
+        "1",
+        "2024-07-01T23:37:43.647845"
+    ],
+    "googlescholar_QgUIX9gAAAAJ:d1gkVwhDpl0C_citation": [
+        "1",
+        "2024-07-01T23:38:04.397084"
+    ],
+    "googlescholar_QgUIX9gAAAAJ:d1gkVwhDpl0C_article": [
+        "1",
+        "2024-07-01T23:38:33.148860"
+    ],
+    "googlescholar_Chiara Bodei": [
+        "3",
+        "2024-07-03T00:22:29.696967"
+    ],
+    "googlescholar_QgUIX9gAAAAJd1gkVwhDpl0C_citation.json": [
+        "1",
+        "2024-07-01T23:39:19.709077"
+    ],
+    "googlescholar_Vincenzo Gervasi": [
+        "3",
+        "2024-07-03T00:23:11.249449"
+    ],
+    "googlescholar_Barbara Leporini": [
+        "3",
+        "2024-07-03T00:23:38.136054"
+    ],
+    "googlescholar_Francesca Levi": [
+        "3",
+        "2024-07-03T00:24:03.389936"
+    ],
+    "googlescholar_Giandomenico Mastroeni": [
+        "3",
+        "2024-07-03T07:39:33.863505"
+    ],
+    "googlescholar_Daniele Mazzei": [
+        "4",
+        "2024-07-03T07:39:54.715276"
+    ],
+    "googlescholar_Massimo Torquati": [
+        "1",
+        "2024-07-01T23:42:02.511178"
+    ],
+    "googlescholar_coauthors_Gabriele Mencagli.json": [
+        "1",
+        "2024-07-01T23:42:51.436598"
+    ],
+    "googlescholar_Federica Paganelli": [
+        "1",
+        "2024-07-01T23:43:19.409618"
+    ],
+    "googlescholar_coauthors_Anna Monreale.json": [
+        "1",
+        "2024-07-01T23:43:39.422283"
     ],
     "googlescholar_Mariarita Pierotti": [
         "2",
-        "2024-06-30T22:28:02.186221"
-    ],
-    "googlescholar_bA-rXeUAAAAJX0DADzN9RKwC_2018_A_survey_of_pub.json": [
-        "1",
-        "2024-06-30T21:49:04.772401"
-    ],
-    "googlescholar_bA-rXeUAAAAJu5HHmVD_uO8C_2009_Wherenext_a_location_pub.json": [
-        "1",
-        "2024-06-30T21:49:14.992650"
-    ],
-    "googlescholar_4pjeAWcAAAAJaqlVkmm33-oC_2012_A_DHT\u2010based_discovery_pub.json": [
-        "1",
-        "2024-06-30T21:49:35.177490"
-    ],
-    "googlescholar_cvaZWfgAAAAJ0EnyYjriUFMC_2002_Pulse_shape_analysis_pub.json": [
-        "1",
-        "2024-06-30T21:49:45.468485"
-    ],
-    "googlescholar_Giuseppe Prencipe": [
-        "1",
-        "2024-06-30T21:49:53.038717"
-    ],
-    "googlescholar_bA-rXeUAAAAJ:u5HHmVD_uO8C_citation": [
-        "1",
-        "2024-06-30T21:50:15.041121"
+        "2024-07-03T07:29:26.053876"
     ],
     "googlescholar_Alina Sirbu": [
-        "1",
-        "2024-06-30T21:50:23.711965"
+        "3",
+        "2024-07-03T07:47:58.705716"
     ],
-    "googlescholar_Ven8P3EAAAAJblknAaTinKkC_2007_Principles_of_Distributed_pub.json": [
-        "1",
-        "2024-06-30T21:51:24.539681"
+    "googlescholar_Alessio Conte": [
+        "3",
+        "2024-07-03T07:48:24.016698"
     ],
-    "googlescholar_a6Cccr4AAAAJu-x6o8ySG0sC_2021_Placing_FaaS_in_pub.json": [
-        "1",
-        "2024-06-30T21:51:36.864799"
-    ],
-    "googlescholar_o-G11bQAAAAJTyk-4Ss8FVUC_2012_RNA-Seq_vs_Dual-and_pub.json": [
-        "1",
-        "2024-06-30T21:51:48.459785"
-    ],
-    "googlescholar_Cesare Zavattari": [
+    "googlescholar_Rossano Venturini": [
         "2",
-        "2024-06-30T22:32:58.901054"
+        "2024-07-03T00:32:22.714232"
     ],
-    "googlescholar_Ven8P3EAAAAJ:blknAaTinKkC_article": [
+    "googlescholar_Daniela Rotelli": [
+        "4",
+        "2024-07-03T08:23:15.126753"
+    ],
+    "googlescholar_Alessandro Tommasi": [
+        "3",
+        "2024-07-03T07:50:34.184694"
+    ],
+    "googlescholar_Enrico Calandrini": [
+        "3",
+        "2024-07-03T07:51:06.600595"
+    ],
+    "googlescholar_Maddalena Amendola": [
         "1",
-        "2024-06-30T21:52:19.901461"
+        "2024-07-02T23:54:05.642249"
     ],
-    "googlescholar_a6Cccr4AAAAJ:u-x6o8ySG0sC_article": [
+    "googlescholar_Giuseppe Lomurno": [
         "1",
-        "2024-06-30T21:52:25.391175"
+        "2024-07-02T23:54:29.559388"
     ],
-    "googlescholar_Leonardo Giovannini": [
+    "googlescholar_Andrea Corradini": [
+        "1",
+        "2024-07-02T23:54:46.917885"
+    ],
+    "googlescholar_Marco Danelutto": [
+        "3",
+        "2024-07-03T08:25:08.509655"
+    ],
+    "googlescholar_coauthors_Maddalena Amendola.json": [
+        "1",
+        "2024-07-02T23:55:35.341976"
+    ],
+    "googlescholar_coauthors_Marco Danelutto.json": [
+        "1",
+        "2024-07-02T23:56:14.283889"
+    ],
+    "googlescholar_@unipi.json": [
+        "1",
+        "2024-07-02T23:56:44.224992"
+    ],
+    "googlescholar_coauthors_Giovanni Manzini.json": [
+        "1",
+        "2024-07-02T23:59:19.144207"
+    ],
+    "googlescholar_coauthors_Vincenzo Gervasi.json": [
+        "1",
+        "2024-07-03T00:02:55.874307"
+    ],
+    "googlescholar_Andrea Michienzi": [
         "2",
-        "2024-06-30T22:34:02.129543"
+        "2024-07-03T08:09:43.056298"
     ],
-    "googlescholar_Lorenzo Leonardini": [
+    "googlescholar_Tauheed Waheed": [
         "1",
-        "2024-06-30T21:52:44.410346"
+        "2024-07-03T00:14:11.516495"
     ],
-    "googlescholar_Giacomo Mariani": [
+    "googlescholar_Alessandro Poggiali": [
+        "1",
+        "2024-07-03T00:14:36.885392"
+    ],
+    "googlescholar_coauthors_Andrea Michienzi.json": [
+        "1",
+        "2024-07-03T00:15:12.415992"
+    ],
+    "googlescholar_Gianluigi Ferrari": [
+        "3",
+        "2024-07-03T08:25:37.853310"
+    ],
+    "googlescholar_coauthors_Roberto Grossi.json": [
+        "1",
+        "2024-07-03T00:18:19.952629"
+    ],
+    "googlescholar_coauthors_Alessio Micheli.json": [
+        "1",
+        "2024-07-03T00:19:12.298660"
+    ],
+    "googlescholar_coauthors_Massimo Pappalardo.json": [
+        "1",
+        "2024-07-03T00:20:20.306433"
+    ],
+    "googlescholar_coauthors_Salvatore Ruggieri.json": [
+        "1",
+        "2024-07-03T00:21:32.719725"
+    ],
+    "googlescholar_Filippo Bonchi": [
+        "1",
+        "2024-07-03T00:22:46.434058"
+    ],
+    "googlescholar_coauthors_Davide Bacciu.json": [
         "2",
-        "2024-06-30T22:35:31.947575"
+        "2024-07-03T07:40:28.920975"
     ],
-    "googlescholar_Filippo Michelis": [
+    "googlescholar_unipi.json": [
         "1",
-        "2024-06-30T21:53:11.703870"
+        "2024-07-03T00:25:55.224582"
     ],
-    "googlescholar_a6Cccr4AAAAJu-x6o8ySG0sC_related.json": [
+    "googlescholar_1d5n2WkAAAAJ:dshw04ExmUIC_citation": [
+        "2",
+        "2024-07-03T07:41:13.498256"
+    ],
+    "googlescholar_1d5n2WkAAAAJ:dshw04ExmUIC_article": [
         "1",
-        "2024-06-30T21:53:19.865550"
+        "2024-07-03T00:26:43.573852"
+    ],
+    "googlescholar_1d5n2WkAAAAJUxriW0iASnsC_2020_A_gentle_introduction_pub.json": [
+        "1",
+        "2024-07-03T00:27:00.028384"
+    ],
+    "googlescholar_Roberto Bell\u00f9": [
+        "1",
+        "2024-07-03T00:27:25.188159"
+    ],
+    "googlescholar_1d5n2WkAAAAJdshw04ExmUIC_related.json": [
+        "1",
+        "2024-07-03T00:27:43.122152"
+    ],
+    "googlescholar_Matja\u017e Mihelj": [
+        "1",
+        "2024-07-03T00:28:38.838327"
+    ],
+    "googlescholar_Andrea Bellandi": [
+        "1",
+        "2024-07-03T00:28:57.835475"
+    ],
+    "googlescholar_coauthors_Andrea Bellandi.json": [
+        "1",
+        "2024-07-03T00:30:30.626529"
+    ],
+    "googlescholar_coauthors_Matja\u017e Mihelj.json": [
+        "1",
+        "2024-07-03T00:31:24.756745"
+    ],
+    "googlescholar_coauthors_Roberto Bell\u00f9.json": [
+        "1",
+        "2024-07-03T00:31:40.170264"
+    ],
+    "googlescholar_Joseph McGlynn, Ph.D.": [
+        "1",
+        "2024-07-03T00:32:57.874825"
+    ],
+    "googlescholar_coauthors_Rossano Venturini.json": [
+        "1",
+        "2024-07-03T00:33:21.178430"
+    ],
+    "googlescholar_Marco Pennacchiotti": [
+        "1",
+        "2024-07-03T00:34:17.279633"
+    ],
+    "googlescholar_coauthors_Marco Pennacchiotti.json": [
+        "1",
+        "2024-07-03T00:35:19.617350"
+    ],
+    "googlescholar_@bmw.json": [
+        "1",
+        "2024-07-03T00:35:44.885989"
+    ],
+    "googlescholar_Fabio Massimo Zanzotto": [
+        "1",
+        "2024-07-03T00:36:22.372414"
+    ],
+    "googlescholar_coauthors_Fabio Massimo Zanzotto.json": [
+        "1",
+        "2024-07-03T00:37:51.408372"
     ],
     "googlescholar_Matteo Ninniri": [
         "2",
-        "2024-06-30T22:36:33.099595"
+        "2024-07-03T07:54:51.471374"
     ],
-    "googlescholar_Aleandro Prudenzano": [
+    "googlescholar_Giorgio Satta": [
         "1",
-        "2024-06-30T21:53:40.067539"
-    ],
-    "googlescholar_Vincenzo Sammartino": [
-        "2",
-        "2024-06-30T22:37:38.884487"
+        "2024-07-03T00:39:33.316669"
     ],
     "googlescholar_Giovanni Arras": [
         "2",
-        "2024-06-30T22:38:38.304537"
+        "2024-07-03T07:56:27.070444"
     ],
-    "googlescholar_Dario Balboni": [
+    "googlescholar_Luca Pedrelli": [
         "2",
-        "2024-06-30T22:38:58.415758"
+        "2024-07-03T07:42:21.062680"
     ],
-    "googlescholar_Francesco Balzan": [
+    "googlescholar_Elena Scandurra": [
         "1",
-        "2024-06-30T21:54:10.725558"
+        "2024-07-03T07:30:17.387204"
     ],
-    "googlescholar_Irina Carnat": [
-        "2",
-        "2024-06-30T22:40:10.647226"
-    ],
-    "googlescholar_lOFQGacAAAAJ:D_sINldO8mEC_article": [
+    "googlescholar_Kajal Negi": [
         "1",
-        "2024-06-30T22:14:59.335379"
+        "2024-07-03T07:30:32.600565"
     ],
-    "googlescholar_lOFQGacAAAAJD_sINldO8mEC_citation.json": [
-        "2",
-        "2024-06-30T22:17:39.468819"
-    ],
-    "googlescholar_QgUIX9gAAAAJ9yKSN-GCB0IC_1995_A_calculus_for_pub.json": [
+    "googlescholar_Ramona Serafini": [
         "1",
-        "2024-06-30T22:19:37.352810"
+        "2024-07-03T07:31:02.170538"
     ],
-    "googlescholar_GWrrWeEAAAAJ_FxGoFyzp5QC_2007_A_path-based_double_pub.json": [
+    "googlescholar_coauthors_Luca Pedrelli.json": [
         "1",
-        "2024-06-30T22:21:27.531368"
+        "2024-07-03T07:32:14.401876"
     ],
-    "googlescholar_GWrrWeEAAAAJ:_FxGoFyzp5QC_citation": [
+    "googlescholar_8KIK4OgAAAAJTyk-4Ss8FVUC_2017_Deep_reservoir_computing_pub.json": [
         "1",
-        "2024-06-30T22:22:43.579477"
+        "2024-07-03T07:32:39.452494"
     ],
-    "googlescholar_8jpoORMAAAAJ:f2IySw72cVMC_citation": [
+    "googlescholar_8KIK4OgAAAAJ:Tyk-4Ss8FVUC_citation": [
         "1",
-        "2024-06-30T22:23:00.195046"
+        "2024-07-03T07:34:57.260707"
     ],
-    "googlescholar_GWrrWeEAAAAJ_FxGoFyzp5QC_citation.json": [
+    "googlescholar_coauthors_Laura Ricci.json": [
         "1",
-        "2024-06-30T22:23:37.780687"
+        "2024-07-03T07:36:38.762591"
     ],
-    "googlescholar_rnaNixYAAAAJW7OEmFMy1HYC_2009_Neural_network_for_pub.json": [
+    "googlescholar_coauthors_Anna Bernasconi.json": [
         "1",
-        "2024-06-30T22:25:52.842781"
+        "2024-07-03T07:37:21.345805"
     ],
-    "googlescholar_V7hWtykAAAAJL8Ckcad2t8MC_2017_Proactive_elasticity_and_pub.json": [
+    "googlescholar_Enrico Ferro": [
         "1",
-        "2024-06-30T22:27:15.170700"
+        "2024-07-03T07:37:58.086612"
+    ],
+    "googlescholar_Paola Spoletini": [
+        "1",
+        "2024-07-03T07:38:21.644467"
+    ],
+    "googlescholar_Olha Horlova": [
+        "1",
+        "2024-07-03T07:38:44.227153"
     ],
     "googlescholar_V7hWtykAAAAJ:L8Ckcad2t8MC_citation": [
         "1",
-        "2024-06-30T22:29:16.646083"
+        "2024-07-03T07:40:58.068314"
     ],
-    "googlescholar_rnaNixYAAAAJ:W7OEmFMy1HYC_citation": [
+    "googlescholar_Alfredo Vellido": [
         "1",
-        "2024-06-30T22:29:58.369090"
+        "2024-07-03T07:41:29.318186"
     ],
-    "googlescholar_rnaNixYAAAAJW7OEmFMy1HYC_citation.json": [
+    "googlescholar_Julio Hurtado": [
         "1",
-        "2024-06-30T22:31:42.145434"
+        "2024-07-03T07:41:57.765094"
     ],
-    "googlescholar_Alessandro Bondielli": [
+    "googlescholar_1d5n2WkAAAAJolpn-zPbct0C_2021_Avalanche_an_end-to-end_pub.json": [
         "1",
-        "2024-06-30T22:32:01.767962"
+        "2024-07-03T07:42:54.242549"
     ],
-    "googlescholar_AeNQ7W4AAAAJdhFuZR0502QC_2020_Agricultural_sustainability_estimation_pub.json": [
+    "googlescholar_Federico Pecora": [
         "1",
-        "2024-06-30T22:32:42.463139"
+        "2024-07-03T07:43:26.883898"
     ],
-    "googlescholar_Giacomo Cignoni": [
+    "googlescholar_coauthors_Federico Pecora.json": [
         "1",
-        "2024-06-30T22:33:41.030962"
+        "2024-07-03T07:44:32.729131"
     ],
-    "googlescholar_Giacomo Grassi": [
+    "googlescholar_MR_In0UAAAAJpqnbT2bcN3wC_2013_Giraffplus_Combining_social_pub.json": [
         "1",
-        "2024-06-30T22:34:18.158680"
+        "2024-07-03T07:44:51.265225"
     ],
-    "googlescholar_zcXQk6YAAAAJW7OEmFMy1HYC_2019_A_survey_on_pub.json": [
+    "googlescholar_Paolo Forte": [
         "1",
-        "2024-06-30T22:34:43.293468"
+        "2024-07-03T07:46:27.664176"
     ],
-    "googlescholar_Davide Marchi": [
+    "googlescholar_Giovanna Rosone": [
         "1",
-        "2024-06-30T22:35:09.316060"
+        "2024-07-03T07:47:06.146440"
     ],
-    "googlescholar_qu0Nli0AAAAJu-x6o8ySG0sC_2024_PD-L1_Classification_of_pub.json": [
+    "googlescholar_coauthors_Paolo Forte.json": [
         "1",
-        "2024-06-30T22:35:55.871600"
+        "2024-07-03T07:47:40.774906"
     ],
-    "googlescholar_GS1lfsEAAAAJAul-kAQHnToC_2023_Global_carbon_budget_pub.json": [
+    "googlescholar_Filippo Michelis": [
         "1",
-        "2024-06-30T22:36:13.294072"
+        "2024-07-03T07:54:32.833444"
     ],
-    "googlescholar_Yn--uckAAAAJu-x6o8ySG0sC_2013_GaAs_nanopillar-array_solar_pub.json": [
+    "googlescholar_Aleandro Prudenzano": [
         "1",
-        "2024-06-30T22:36:54.773238"
+        "2024-07-03T07:55:09.762822"
     ],
-    "googlescholar_qu0Nli0AAAAJ:u-x6o8ySG0sC_citation": [
+    "googlescholar_Vincenzo Sammartino": [
         "1",
-        "2024-06-30T22:37:17.027871"
+        "2024-07-03T07:55:26.726804"
+    ],
+    "googlescholar_Giordano Scerra": [
+        "1",
+        "2024-07-03T07:55:53.418792"
     ],
     "googlescholar_Saul Urso": [
         "1",
-        "2024-06-30T22:37:57.282528"
+        "2024-07-03T07:56:08.723167"
     ],
-    "googlescholar_Yn--uckAAAAJ:u-x6o8ySG0sC_citation": [
+    "googlescholar_Dario Balboni": [
         "1",
-        "2024-06-30T22:38:20.915037"
+        "2024-07-03T07:56:46.260833"
+    ],
+    "googlescholar_Francesco Balzan": [
+        "1",
+        "2024-07-03T07:57:14.102531"
     ],
     "googlescholar_Cesare Barbera": [
         "1",
-        "2024-06-30T22:39:17.349128"
+        "2024-07-03T07:57:33.829786"
     ],
-    "googlescholar_Yn--uckAAAAJu-x6o8ySG0sC_citation.json": [
-        "2",
-        "2024-06-30T22:41:22.675716"
+    "googlescholar_Irina Carnat": [
+        "1",
+        "2024-07-03T07:57:53.198087"
     ],
     "googlescholar_Roberto Casaluce": [
         "1",
-        "2024-06-30T22:40:26.510805"
+        "2024-07-03T07:58:22.605818"
+    ],
+    "googlescholar_Federico Cocchi": [
+        "1",
+        "2024-07-03T07:58:42.725637"
     ],
     "googlescholar_Silvia Corbara": [
         "1",
-        "2024-06-30T22:40:54.323532"
+        "2024-07-03T07:59:05.328111"
     ],
     "googlescholar_Simone Gallo": [
         "1",
-        "2024-06-30T22:41:49.107081"
+        "2024-07-03T07:59:22.497939"
     ],
-    "googlescholar_IhaFEzIAAAAJu-x6o8ySG0sC_2022_Process_mining_meets_pub.json": [
+    "googlescholar_Andrea Gini": [
         "1",
-        "2024-06-30T22:42:17.565642"
+        "2024-07-03T07:59:51.642739"
     ],
-    "googlescholar_Q50zso8AAAAJu5HHmVD_uO8C_2019_The_Epistle_to_pub.json": [
+    "googlescholar_Matteo Gregorini": [
         "1",
-        "2024-06-30T22:42:32.804891"
+        "2024-07-03T08:00:13.943508"
     ],
     "googlescholar_Usama Jameel": [
         "1",
-        "2024-06-30T22:42:51.893856"
+        "2024-07-03T08:00:35.283192"
+    ],
+    "googlescholar_Nicolas Lazzari": [
+        "1",
+        "2024-07-03T08:00:52.083391"
     ],
     "googlescholar_Alessandro Maggio": [
         "1",
-        "2024-06-30T22:43:31.333748"
+        "2024-07-03T08:01:13.862273"
     ],
     "googlescholar_Francesca Mainas": [
         "1",
-        "2024-06-30T22:43:58.236981"
+        "2024-07-03T08:01:40.521087"
     ],
     "googlescholar_Sara Mazzilli": [
         "1",
-        "2024-06-30T22:44:21.241752"
+        "2024-07-03T08:02:02.879671"
     ],
-    "googlescholar_cgE8d_gAAAAJIjCSPb-OGe4C_2023_The_polifonia_ontology_pub.json": [
+    "googlescholar_Guido Rocchietti": [
         "1",
-        "2024-06-30T22:44:39.494418"
+        "2024-07-03T08:02:26.521328"
     ],
-    "googlescholar_1dZoYCIAAAAJu-x6o8ySG0sC_2016_The_String_Matching_pub.json": [
+    "googlescholar_Marco Sanchi": [
         "1",
-        "2024-06-30T22:44:59.264838"
+        "2024-07-03T08:02:53.450858"
     ],
     "googlescholar_Arslan Siddique": [
         "1",
-        "2024-06-30T22:45:21.738741"
+        "2024-07-03T08:03:21.154423"
     ],
     "googlescholar_Arman Zafaranchi": [
         "1",
-        "2024-06-30T22:45:43.722204"
+        "2024-07-03T08:03:36.657115"
     ],
-    "googlescholar_D8c3aw4AAAAJu-x6o8ySG0sC_2018_Tdap_vaccination_during_pub.json": [
+    "googlescholar_Antonio Carta": [
         "1",
-        "2024-06-30T22:46:05.190025"
+        "2024-07-03T08:04:04.570608"
     ],
     "googlescholar_Bartosz Filipecki": [
         "1",
-        "2024-06-30T22:46:28.773086"
+        "2024-07-03T08:04:26.588865"
     ],
     "googlescholar_Antonio Cisternino": [
         "1",
-        "2024-06-30T22:46:49.937560"
+        "2024-07-03T08:04:48.142280"
     ],
     "googlescholar_Patrizio Dazzi": [
         "1",
-        "2024-06-30T22:47:17.904179"
+        "2024-07-03T08:05:04.968697"
     ],
     "googlescholar_Claudio Gallicchio": [
         "1",
-        "2024-06-30T22:47:39.923554"
+        "2024-07-03T08:05:21.408244"
     ],
     "googlescholar_Luca Ferrucci": [
         "1",
-        "2024-06-30T22:48:02.870470"
+        "2024-07-03T08:05:40.439256"
     ],
     "googlescholar_Rourab Paul": [
         "1",
-        "2024-06-30T22:48:27.553522"
+        "2024-07-03T08:06:03.612401"
+    ],
+    "googlescholar_Stefano Forti": [
+        "1",
+        "2024-07-03T08:06:24.242520"
     ],
     "googlescholar_Lucia Passaro": [
         "1",
-        "2024-06-30T22:48:46.737520"
+        "2024-07-03T08:06:45.976404"
     ],
     "googlescholar_Veronica Guerrini": [
         "1",
-        "2024-06-30T22:49:06.504824"
+        "2024-07-03T08:07:08.610475"
     ],
     "googlescholar_Giorgio Vinciguerra": [
         "1",
-        "2024-06-30T22:49:32.259953"
+        "2024-07-03T08:07:37.491596"
     ],
-    "googlescholar_7E4SeoIAAAAJD03iK_w7-QYC_2020_Fault_Matters_Sensor_pub.json": [
+    "googlescholar_Riccardo Guidotti": [
         "1",
-        "2024-06-30T22:49:56.209068"
+        "2024-07-03T08:08:00.799394"
     ],
     "googlescholar_Alexander Kocian": [
         "1",
-        "2024-06-30T22:50:22.108887"
-    ],
-    "googlescholar_dtXZPEEAAAAJd1gkVwhDpl0C_2018_Semi-Baxter_and_strong-Baxter_pub.json": [
-        "1",
-        "2024-06-30T22:50:50.498931"
+        "2024-07-03T08:08:17.896074"
     ],
     "googlescholar_Tommaso Turchi": [
         "1",
-        "2024-06-30T22:51:13.691959"
+        "2024-07-03T08:08:40.098457"
     ],
     "googlescholar_Giacomo Lanza": [
         "1",
-        "2024-06-30T22:51:38.024459"
+        "2024-07-03T08:09:02.013905"
     ],
     "googlescholar_Luca Mencarelli": [
         "1",
-        "2024-06-30T22:52:07.080967"
+        "2024-07-03T08:09:26.177850"
     ],
-    "googlescholar_Andrea Michienzi": [
+    "googlescholar_Letizia Milli": [
         "1",
-        "2024-06-30T22:52:29.599781"
-    ],
-    "googlescholar_dtXZPEEAAAAJ:d1gkVwhDpl0C_article": [
-        "1",
-        "2024-06-30T22:52:58.495512"
+        "2024-07-03T08:10:02.007845"
     ],
     "googlescholar_Francesca Naretto": [
         "1",
-        "2024-06-30T22:53:23.020929"
+        "2024-07-03T08:10:20.945958"
     ],
-    "googlescholar_gA2hju4AAAAJY0pCki6q_DkC_2020_A_review_on_pub.json": [
+    "googlescholar_Vincenzo Lomonaco": [
         "1",
-        "2024-06-30T22:53:52.819779"
+        "2024-07-03T08:10:49.473711"
     ],
     "googlescholar_Marco Podda": [
         "1",
-        "2024-06-30T22:54:08.038291"
+        "2024-07-03T08:11:07.931070"
     ],
     "googlescholar_Mattia Setzu": [
         "1",
-        "2024-06-30T22:54:30.012645"
+        "2024-07-03T08:11:25.417665"
     ],
     "googlescholar_Laura Pollacci": [
         "1",
-        "2024-06-30T22:54:55.803112"
+        "2024-07-03T08:11:44.599952"
     ],
     "googlescholar_Giulia Punzi": [
         "1",
-        "2024-06-30T22:55:14.516073"
+        "2024-07-03T08:12:02.010633"
     ],
     "googlescholar_Laura Semini": [
         "1",
-        "2024-06-30T22:55:34.989325"
+        "2024-07-03T08:12:17.401210"
     ],
-    "googlescholar_3UL0kVUAAAAJisC4tDSrTZIC_2021_GLocalX-From_Local_to_pub.json": [
+    "googlescholar_Jacopo Soldani": [
         "1",
-        "2024-06-30T22:55:59.174047"
+        "2024-07-03T08:12:33.003442"
     ],
     "googlescholar_Fabrizio Luccio": [
         "1",
-        "2024-06-30T22:56:22.358672"
+        "2024-07-03T08:12:48.777576"
+    ],
+    "googlescholar_Linda Pagli": [
+        "1",
+        "2024-07-03T08:13:05.736776"
     ],
     "googlescholar_Ugo Montanari": [
         "1",
-        "2024-06-30T22:56:38.308962"
+        "2024-07-03T08:13:25.328196"
     ],
-    "googlescholar_QDIhYPgAAAAJZph67rFs4hoC_2009_StPowla_SOA,_policies_pub.json": [
+    "googlescholar_Giuseppe Attardi": [
         "1",
-        "2024-06-30T22:56:56.373632"
+        "2024-07-03T08:14:02.177232"
     ],
-    "googlescholar_3UL0kVUAAAAJ:isC4tDSrTZIC_citation": [
+    "googlescholar_coauthors_Giuseppe Attardi.json": [
         "1",
-        "2024-06-30T22:57:18.311511"
+        "2024-07-03T08:14:27.962563"
     ],
     "googlescholar_Roberto Barbuti": [
         "1",
-        "2024-06-30T22:57:39.505981"
+        "2024-07-03T08:14:52.647216"
     ],
-    "googlescholar_0PJHjBsAAAAJmVmsd5A6BfQC_1975_On_finding_the_pub.json": [
+    "googlescholar_Pierpaolo Degano": [
         "1",
-        "2024-06-30T22:57:56.604786"
+        "2024-07-03T08:15:12.317639"
     ],
     "googlescholar_Luca Deri": [
-        "1",
-        "2024-06-30T22:58:24.356441"
+        "2",
+        "2024-07-03T08:23:34.953396"
     ],
     "googlescholar_Giorgio Gallo": [
         "1",
-        "2024-06-30T22:58:48.425819"
+        "2024-07-03T08:15:46.805960"
     ],
     "googlescholar_Piero Maestrini": [
         "1",
-        "2024-06-30T22:59:07.073050"
+        "2024-07-03T08:16:08.252739"
     ],
     "googlescholar_Francesco Romani": [
         "1",
-        "2024-06-30T22:59:23.937138"
+        "2024-07-03T08:16:29.018417"
     ],
     "googlescholar_Franco Turini": [
         "1",
-        "2024-06-30T22:59:44.924358"
+        "2024-07-03T08:16:49.257138"
+    ],
+    "googlescholar_Paolo Ferragina": [
+        "1",
+        "2024-07-03T08:17:14.003577"
     ],
     "googlescholar_Andrea Ceni": [
         "1",
-        "2024-06-30T23:00:04.351893"
+        "2024-07-03T08:17:30.941336"
     ],
     "googlescholar_Francesco Landolfi": [
         "1",
-        "2024-06-30T23:00:24.337513"
+        "2024-07-03T08:17:52.117870"
+    ],
+    "googlescholar_Simone Piaggesi": [
+        "1",
+        "2024-07-03T08:18:21.694267"
+    ],
+    "googlescholar_Lapo Cioni": [
+        "1",
+        "2024-07-03T08:18:51.055926"
     ],
     "googlescholar_Matteo Loporchio": [
         "1",
-        "2024-06-30T23:00:51.050379"
+        "2024-07-03T08:19:15.145172"
     ],
-    "googlescholar_yrRBx5oAAAAJ9yKSN-GCB0IC_2020_Interpreting_recurrent_neural_pub.json": [
+    "googlescholar_Domenico Arzilli": [
         "1",
-        "2024-06-30T23:01:06.266722"
+        "2024-07-03T08:24:04.209359"
     ],
-    "googlescholar_yrRBx5oAAAAJu-x6o8ySG0sC_2020_Cross_frequency_coupling_pub.json": [
+    "googlescholar_Giuliano Cornacchia": [
         "1",
-        "2024-06-30T23:01:22.100794"
+        "2024-07-03T08:24:20.478832"
     ],
-    "googlescholar_yrRBx5oAAAAJd1gkVwhDpl0C_2020_The_echo_index_pub.json": [
+    "googlescholar_Cecilia Carmassi": [
         "1",
-        "2024-06-30T23:01:41.194668"
-    ],
-    "googlescholar_Njagi Mwaniki": [
-        "1",
-        "2024-06-30T23:02:01.270209"
-    ],
-    "googlescholar_zWvvg74AAAAJUeHWp8X0CEIC_2024_Query_Authentication_Protocols_pub.json": [
-        "1",
-        "2024-06-30T23:02:27.295059"
-    ],
-    "googlescholar_yrRBx5oAAAAJ:u-x6o8ySG0sC_citation": [
-        "1",
-        "2024-06-30T23:02:45.627142"
-    ],
-    "googlescholar_Luca Pedrelli": [
-        "1",
-        "2024-06-30T23:03:13.475861"
-    ],
-    "googlescholar_Benoit Tran": [
-        "1",
-        "2024-06-30T23:03:43.486033"
-    ],
-    "googlescholar_Lorenzo Bellomo": [
-        "1",
-        "2024-06-30T23:04:11.888247"
-    ],
-    "googlescholar_Francesco Donini": [
-        "1",
-        "2024-06-30T23:04:32.801323"
-    ],
-    "googlescholar_Michele Fontana": [
-        "1",
-        "2024-06-30T23:04:53.026240"
-    ],
-    "googlescholar_Gianluca Guidi": [
-        "1",
-        "2024-06-30T23:05:19.844818"
-    ],
-    "googlescholar_Valentina Macchiati": [
-        "1",
-        "2024-06-30T23:05:38.803097"
-    ],
-    "googlescholar_Mirko Nardi": [
-        "1",
-        "2024-06-30T23:07:51.299195"
-    ],
-    "googlescholar_Andrea Pelosi": [
-        "1",
-        "2024-06-30T23:08:25.448094"
-    ],
-    "googlescholar_Valentina Piras": [
-        "1",
-        "2024-06-30T23:08:53.040895"
-    ],
-    "googlescholar_Reshawn Ramjattan": [
-        "1",
-        "2024-06-30T23:09:10.441770"
+        "2024-07-03T08:24:46.293652"
     ]
 }
