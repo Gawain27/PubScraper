@@ -84,7 +84,12 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         msg_coauthors = GetAllScholarlyAuthors(f"{self.INTERFACE_ID}_coauthors_{msg.author}.json", coauthors)
         MessageRouter.get_instance().send_later_in(msg_coauthors, self.INTERFACE_ID, depth=msg.depth)
 
-        org = str(full_author.get(JsonConstants.TAG_EMAIL_DOMAIN)).split('.')[-2]
+        org_hint: str = full_author.get(JsonConstants.TAG_EMAIL_DOMAIN)
+        if org_hint is not None and org_hint.split('.').__len__() >= 2:
+            org = str(full_author.get(JsonConstants.TAG_EMAIL_DOMAIN)).split('.')[-2]
+        else:
+            self.logger.warning("No organizations found for %s", msg.author)
+            return JsonReader.DEV_NULL
         org_file = JsonReader(f"{self.INTERFACE_ID}_{org}.json", self.INTERFACE_ID)
         if org_file.is_empty() or org_file.is_outdated():
             msg_org = GetScholarlyOrg(f"{self.INTERFACE_ID}_{org}.json", org)
