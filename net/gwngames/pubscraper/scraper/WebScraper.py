@@ -1,12 +1,19 @@
 import logging
 import threading
+import time
+
+from numpy import random
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetAllScholarlyAuthors import GetAllScholarlyAuthors
+from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyAuthor import GetScholarlyAuthor
+from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scraper.NameFetcher import NameFetcher
 from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
 from net.gwngames.pubscraper.scraper.ifaces.ScholarlyDataFetcher import ScholarlyDataFetcher
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.StringUtils import StringUtils
+from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
 class WebScraper:
@@ -36,6 +43,8 @@ class WebScraper:
             scraping_authors += StringUtils.process_string(root_authors)
         #  TODO: add flags in generaldata fetcher to enable roots or smh
 
+        if config.get_value(ConfigConstants.SHUFFLE_ROOTS):
+            random.shuffle(scraping_authors)
         # -------------------
         interfaces: str = config.get_value(ConfigConstants.INTERFACES_ENABLED)
         interface_names = StringUtils.process_string(interfaces)
@@ -45,10 +54,11 @@ class WebScraper:
             if iface is None:
                 logging.warning(f"Interface {name} is not supported")
                 continue
-            if isinstance(iface(), ScholarlyDataFetcher):
-                    logging.info("Fetching for %s - Authors: %s", iface.__name__, scraping_authors)
-                    ScholarlyDataFetcher(proxy=True).generate_all_relevant_authors(scraping_authors)
-                    logging.error("DONE!!!")
-                    while True:
-                        None
-                    #ScholarlyDataFetcher.dispatch_requests(queries)
+
+            iface_instance = iface()
+
+            if isinstance(iface_instance, ScholarlyDataFetcher):
+                logging.info("Fetching for %s - Authors: %s", iface.__name__, scraping_authors)
+                iface_instance.start_interface_fetching(opt_arg=scraping_authors)
+                while True:
+                    time.sleep(100)

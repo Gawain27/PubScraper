@@ -5,10 +5,13 @@ class JsonConstants:
     TAG_ENTITY: Final = "entity"
     TAG_ENTITY_CID: Final = "entity_cid"
 
-    # author tags
+    # Scholarly tags
     TAG_ORGANIZATION: Final = "organization"
     TAG_EMAIL_DOMAIN: Final = "email_domain"
     TAG_COAUTHORS: Final = "coauthors"
+    TAG_PUBLICATIONS: Final = "publications"
+    TAG_PUB_ID: Final = "author_pub_id"
+
 
 
     # server load constants

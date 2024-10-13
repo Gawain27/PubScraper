@@ -2,6 +2,10 @@ import logging
 import os.path
 import threading
 
+from couchdb import Server
+from pymongo import MongoClient, ASCENDING
+from pymongo.errors import DuplicateKeyError
+
 
 class Context:
     _instance = None
@@ -21,6 +25,8 @@ class Context:
             self.logger = logging.getLogger('Context')
             self._current_dir = None
             self._config = None
+            self._message_stats = None
+            self._client: Server = None
 
     def build_path(self, path: str):
         return os.path.join(self.get_current_dir(), path)
@@ -43,4 +49,33 @@ class Context:
     def set_config(self, config):
         with self._lock:
             self._config = config
-            self.logger.info("Context added: Set current config:" + config.file)
+            self.logger.info("Context added: Set current config: " + config.file)
+
+    def get_message_data(self):
+        with self._lock:
+            from net.gwngames.pubscraper.utils.JsonReader import JsonReader
+            dir: JsonReader = self._message_stats
+            return dir
+
+    def set_message_data(self, message_stats):
+        with self._lock:
+            self._message_stats = message_stats
+            self.logger.info("Context added: Set current config: " + message_stats.file)
+
+    def get_dbclient(self) -> Server:
+        with self._lock:
+            return self._client
+
+    def set_client(self, client: Server):
+        with self._lock:
+            self._client = client
+            self.logger.info("Context added: Set current DB client")
+
+# ------------------------------------- OPS ---------------------------------
+
+    def index_exists(self, collection, index_name):
+        indexes = collection.list_indexes()
+        for index in indexes:
+            if index['name'] == index_name:
+                return True
+        return False

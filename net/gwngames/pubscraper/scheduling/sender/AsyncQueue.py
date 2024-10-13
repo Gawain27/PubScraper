@@ -3,6 +3,8 @@ import queue
 import time
 from abc import abstractmethod
 
+from scholarly import MaxTriesExceededException
+
 from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
@@ -38,14 +40,11 @@ class AsyncQueue(queue.Queue):
         if self.is_queue_depth_limited:
             if msg.depth is not None and msg.depth > self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX):
                 logging.debug("Max depth reached for message %s - %s", msg.message_type, msg.message_id)
+                RequestState().notify_update()
                 return
             if msg.depth is None:
                 msg.depth = 0
 
-        if msg.delayed:
-            msg.depth -= 1
-            router.send_delayed(msg)
-            return
         start_time: float = time.time()
         logging.debug(f"Message routed for topic '{msg.message_type}': {msg.message_id}")
 
@@ -53,19 +52,18 @@ class AsyncQueue(queue.Queue):
             self.on_message(msg)  # TODO implement exception catching for logging of errors + retry mech
         except Exception as e:
             exception_caught = True
-            if isinstance(e, StopIteration):
-                logging.error("Reached end of iteration for %s - %s", msg.message_type, msg.message_id)
-            else:
-                raise e
+            RequestState().notify_update()
+            raise e
+        # FIXME catching and managing connectivity exceptions, but what exceptions??
 
-        if exception_caught:
+        if exception_caught is True:
             msg.prepare_for_retry()
 
         elapsed_time: float = (time.time() - start_time) * 1000
         logging.debug(
             f"Managed message for topic '{msg.message_type}': {msg.message_id} - Time: {elapsed_time:.3f} ms.")
         RequestState().notify_update()
-        router.routing_threads.pop(msg.message_id)
+        router.routing_threads[msg.message_id] = None
 
     @abstractmethod
     def on_message(self, msg: AbstractMessage) -> None:

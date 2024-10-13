@@ -1,0 +1,56 @@
+import logging
+import time
+
+from couchdb import ResourceConflict, ResourceNotFound, Unauthorized, ServerError, Database
+
+
+class DatabaseHandler:
+    def __init__(self, client, db_name, logger_name='DatabaseHandler'):
+        self.client = client
+        self.db_name = db_name
+        self.logger = logging.getLogger(logger_name)
+        self.db = self.get_or_create_db()
+
+    def get_or_create_db(self) -> Database:
+        self.logger.info(f"Database {self.db_name}")
+        try:
+            db = self.client[self.db_name]
+        except ResourceNotFound:
+            self.logger.info(f"Database {self.db_name} not found. Creating new database.")
+            db = self.client.create(self.db_name)
+        except Unauthorized:
+            self.logger.error("Unauthorized access to CouchDB. Check your credentials.")
+            raise
+        except ServerError as e:
+            self.logger.error(f"Server error: {e}")
+            raise
+        return db
+
+    def get_document(self, doc_id):
+        try:
+            return self.db.get(doc_id)
+        except ResourceNotFound:
+            self.logger.info(f"Document {doc_id} not found.")
+            return None
+        except Exception as e:
+            self.logger.error(f"Error fetching document {doc_id}: {e}")
+            raise
+
+    def insert_or_update_document(self, doc_type, doc_id, doc):
+        doc['_id'] = doc_id
+        doc['type'] = doc_type
+
+        try:
+            existing_doc = self.get_document(doc_id)
+            if existing_doc:
+                doc['_rev'] = existing_doc['_rev']
+            self.db.save(doc)
+            self.logger.info(f"Document of type {doc_type} with id {doc_id} saved successfully.")
+        except ResourceConflict:
+            self.logger.warning(
+                f"Conflict encountered while saving document of type {doc_type} with id {doc_id}. Retrying.")
+            time.sleep(1)
+            self.insert_or_update_document(doc_type, doc_id, doc)
+        except Exception as e:
+            self.logger.error(f"Error saving document {doc_id}: {e}")
+            raise

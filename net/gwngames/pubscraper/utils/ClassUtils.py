@@ -18,3 +18,9 @@ class ClassUtils:
             # Python does not allow direct modification of __subclasses__ attribute.
             # Hence, we simulate this by manually setting the __bases__ of the subclass.
             subclass.__bases__ = (superclass,) + subclass.__bases__[1:]
+
+    @staticmethod
+    def add_subclasses_to_superclass(superclass: type, subclasses: set):
+        for subclass in subclasses:
+            if subclass not in superclass.__subclasses__():
+                subclass.__bases__ = (superclass,) + subclass.__bases__[1:]

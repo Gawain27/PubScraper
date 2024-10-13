@@ -1,19 +1,30 @@
+import atexit
 import logging
 import os
 import sys
 
+import couchdb
+from pymongo import MongoClient
+
 from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.LogFileHandler import LogFileHandler
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.scheduling.IntegerMap import IntegerMap
 from net.gwngames.pubscraper.scraper.WebScraper import WebScraper
+from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
 from net.gwngames.pubscraper.utils.ClassRegisterer import QueueRegisterer
+from net.gwngames.pubscraper.utils.ClassUtils import ClassUtils
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 
 
 class ExcludeFilter(logging.Filter):
     def filter(self, record):
-        return not any(record.name.startswith(mod) for mod in ('httpx', 'httpcore', 'urllib3', 'selenium', 'scholarly'))
+        return not any(record.name.startswith(mod) for mod in ('httpx', 'httpcore', 'urllib3', 'selenium'))
+
+
+def on_failure_actions():
+    IntegerMap().store_all_on_failure()
 
 
 if __name__ == '__main__':
@@ -25,11 +36,23 @@ if __name__ == '__main__':
     conf_reader = JsonReader(JsonReader.CONFIG_FILE_NAME)
     message_stats = JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME)
     ctx.set_config(conf_reader)
+    ctx.set_message_data(message_stats)
+
+    # Executes on failure operations
+    atexit.register(on_failure_actions)
+
+    #Initialize DB
+    client = couchdb.Server('http://' + conf_reader.get_value(ConfigConstants.DB_USER) + ":" + conf_reader.get_value(
+        ConfigConstants.DB_PASSWORD)
+                            + "@" + str(conf_reader.get_value(ConfigConstants.DB_HOST)) + ':' + str(
+        conf_reader.get_value(ConfigConstants.DB_PORT)) + '/')
+    ctx.set_client(client)
 
     max_logfile_lines: int = conf_reader.get_value(ConfigConstants.MAX_LOGFILE_LINES)
 
     # Create a LogFileHandler for writing logs to a file
-    log_file_handler = LogFileHandler(filename=ConfigConstants.LOG_FILENAME, max_lines=max_logfile_lines, encoding='utf-8')
+    log_file_handler = LogFileHandler(filename=ConfigConstants.LOG_FILENAME, max_lines=max_logfile_lines,
+                                      encoding='utf-8')
 
     console_handler = logging.StreamHandler(sys.stdout)
 

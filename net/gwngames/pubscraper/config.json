@@ -1,6 +1,6 @@
 {
     "max_logfile_lines": 1000,
-    "interfaces_enabled": "googlescholar",
+    "interfaces_enabled": "google_scholar",
     "max_buffer_retries": 3,
     "acceptable_load": 0.5,
     "server_url": "https://example.com",
@@ -9,12 +9,16 @@
     "keepdown_time": 1000,
     "authors_ref": "https://di.unipi.it/persone/",
     "root_authors": "",
+    "shuffle_roots": true,
     "min_wait_time": 15,
     "max_wait_time": 30,
-    "max_ms_worktime": 3600,
-    "max_iface_requests": 5,
-    "delay_threshold": 50,
-    "max_fetchable": 1,
-    "scraper_api_key": "fe6bc4d82595dbc68bf6f2c1a2f46e65",
-    "depth_max": 1
+    "max_ms_worktime": 360000,
+    "max_iface_requests": 1,
+    "scraper_api_key": "e572850ac38dd081b500519cedba9102",
+    "depth_max": 1,
+    "db_host": "localhost",
+    "db_port": 5984,
+    "db_user": "admin",
+    "db_password": "admin",
+    "proxy_type": "SCRAPERAPI"
 }

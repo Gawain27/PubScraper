@@ -89,15 +89,6 @@ class MessageRouter:
         # TODO don't randomly start threads, maintain a max and release with wait/notify
         self.routing_threads[message.message_id].start()
 
-
-    def send_delayed(self, message: AbstractMessage, priority=0):
-        RequestState().update_last_sent(self.config.get_value(ConfigConstants.MIN_WAIT_TIME),
-                                        self.config.get_value(ConfigConstants.MAX_WAIT_TIME),
-                                        message.message_type)
-
-        message.delayed = False
-        self.send_message(message, priority)
-
     def send_message(self, message: AbstractMessage, priority=0, depth=None):
         """
         Send a message to a message queue with an optional priority.
@@ -118,7 +109,7 @@ class MessageRouter:
             send_message(self, message, queue, priority=1)
         """
         if self.config.get_value(ConfigConstants.MAX_MS_WORKTIME) < (
-                datetime.datetime.now() - self.started_at).total_seconds()\
+                datetime.datetime.now() - self.started_at).total_seconds() \
                 and message.destination_queue == QueueConstants.SCRAPER_QUEUE:
             logging.info(f"Scraping Timeout. Not starting message: {message}")
             return
@@ -127,21 +118,21 @@ class MessageRouter:
         loaded_queue: type = AsyncQueue.get_queue_class(message.destination_queue)
 
         if depth is not None:
-            message.depth = depth+1
+            message.depth = depth + 1
         self.incoming_queue.send(priority, message, loaded_queue())
-        logging.info(f"Message sent: {message} to: {message.destination_queue} with depth: {depth if depth is not None else 'None'}")
+        logging.info(
+            f"Message sent: {message} to: {message.destination_queue} with depth: {depth if depth is not None else 'None'}")
 
-    def send_later_in(self, message: AbstractMessage, sem_type: str, priority=0, depth=None):
-        sem: SingletonSemaphore = SingletonSemaphore(sem_type,
-                                                     self.config.get_value(ConfigConstants.MAX_IFACE_REQUESTS))
-        sem.acquire()
-        message.locking_type = sem
+    def send_later_in(self, message: AbstractMessage, priority=0, depth=None):
         logging.info(f"Delaying message: {message.message_id} of type {message.message_type}")
 
         message.delayed = True
         message.synchronize = True
-        self.send_message(message, priority)
-        sem.release()
+        self.send_message(message, priority=priority, depth=depth)
+
+    @staticmethod
+    def later_in(data, priority: int):
+        MessageRouter.get_instance().send_later_in(data, priority)
 
     @staticmethod
     def get_instance():

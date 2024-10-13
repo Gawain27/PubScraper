@@ -2,7 +2,10 @@ from typing import Final
 
 
 class ConfigConstants:
-    # FIXME Deprecated, will be removed when implemented the automatic from link
+    DB_HOST = "db_host"
+    DB_PORT = "db_port"
+    DB_USER = "db_user"
+    DB_PASSWORD = "db_password"
     AUTHORS_REF = "authors_ref"
     DELAY_THRESHOLD: Final = "delay_threshold"
     ROOT_AUTHORS: Final = "root_authors"
@@ -22,3 +25,5 @@ class ConfigConstants:
     MAX_FETCHABLE: Final = 'max_fetchable'
     SCRAPERAPI_KEY: Final = 'scraper_api_key'
     DEPTH_MAX: Final = 'depth_max'
+    SHUFFLE_ROOTS: Final = 'shuffle_roots'
+    PROXY_TYPE: Final = 'proxy_type'
