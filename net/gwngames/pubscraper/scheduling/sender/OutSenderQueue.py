@@ -25,36 +25,18 @@ class OutSenderQueue(AsyncQueue):
         return OutSenderQueue
 
     def on_message(self, msg: BaseMessage) -> None:
-        if isinstance(msg, SerializeJSONData):
-            logging.info("Processing SerializeJSONData message with file: %s", msg.json_loc)
-            try:
-                config = JsonReader(JsonReader.CONFIG_FILE_NAME)
-                entity_data = JsonReader(msg.json_loc, msg.json_loc.split(',')[0])
-                #TODO
-                entity_path = msg.json_loc.split(',')[0]+"_entity"
-                entity_name = msg.json_loc+"_entity"
-                entity_file = JsonReader(entity_name, entity_path)
-                # TODO: logic for automatic entity association
-                entity_serialize_req = SerializeEntity(msg.content, "the entity file name here" + "_" + msg.json_loc)
-                MessageRouter().send_message(entity_serialize_req,
-                                                PriorityConstants.ENTITY_SERIAL_REQ)
-                logging.info("Successfully requested serialization for file: %s", msg.json_loc)
-            except Exception as e:
-                logging.error("Failed to read entities for file %s: %s", msg.json_loc, str(e))
-                raise e
-        elif isinstance(msg, SerializeEntity):
-            logging.info("Processing SerializeEntity message with file: %s", msg.entity_loc)
-            #  entity gets handed over to the packager right away, compress during serialization
+        if isinstance(msg, SerializeEntity):
+            logging.info("Processing SerializeEntity message with id: %s - %s", msg.entity_id, msg.entity_db)
+            #  entity gets handed over to the packager right away, quick serialization only
             SerializationUnit().execute(msg)
-            logging.info("Serialized and sent for validation message with file: %s", msg.entity_loc)
+            logging.info("Serialized and sent for validation message entity: %s - %s", msg.entity_id, msg.entity_db)
         elif isinstance(msg, PackageEntity):
-            logging.info("Processing Entity %s with message id: %s", msg.entity_cid, msg.message_id)
-            PackagingUnit().sleep_based_on_load(msg)
-            logging.info("Packaged Entity %s with message id: %s", msg.entity_cid, msg.message_id)
+            logging.info("Processing Entity with id: %s - %s", msg.entity_id, msg.entity_db)
+            PackagingUnit().package_based_on_load(msg)
+            logging.info("Packaged Entity with  id: %s - %s", msg.entity_id, msg.entity_db)
         elif isinstance(msg, SendEntity):
-            logging.info("Sending bufferized Entity %s with message id: %s", msg.entity_cid, msg.message_id)
-            OutSender().send_data(msg.entity)
-            logging.info("Entity %s with message id: %s successfully delivered to server", msg.entity_cid,
-                         msg.message_id)
+            logging.info("Sending bufferized Entity %s - %s", msg.entity_id, msg.entity_db)
+            OutSender().send_data(msg)
+            logging.info("Entity %s successfully delivered to server", msg.entity_id, msg.entity_db,)
         else:
             logging.error("OutSenderQueue - Received undefined message type: %s", type(msg).__name__)

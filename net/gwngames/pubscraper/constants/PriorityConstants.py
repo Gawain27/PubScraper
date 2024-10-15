@@ -10,9 +10,7 @@ class PriorityConstants:
     SYSTEM_REQ: Final = 70  # This has priority, usually needed to regulate traffic
 
     # Scraping priorities #
-    REL_ART_REQ: Final = 11
     COAUTHOR_REQ: Final = 12
     AUTHOR_REQ: Final = 13
-    ORG_REQ: Final = 14
     CIT_REQ: Final = 15
     PUB_REQ: Final = 16

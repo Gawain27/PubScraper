@@ -4,18 +4,19 @@ import os
 import sys
 
 import couchdb
-from pymongo import MongoClient
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.LogFileHandler import LogFileHandler
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.scheduling.IntegerMap import IntegerMap
-from net.gwngames.pubscraper.scraper.WebScraper import WebScraper
-from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
-from net.gwngames.pubscraper.utils.ClassRegisterer import QueueRegisterer
-from net.gwngames.pubscraper.utils.ClassUtils import ClassUtils
-from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
+from net.gwngames.pubscraper.scraper.WebScraper import WebScraper
+from net.gwngames.pubscraper.scraper.scraper.ScholarScraper import fetch_publications, get_scholar_profile, \
+    fetch_publication_data, scrape_all_citations
+from net.gwngames.pubscraper.utils.ClassRegisterer import QueueRegisterer
+from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
 
 class ExcludeFilter(logging.Filter):
@@ -69,7 +70,6 @@ if __name__ == '__main__':
 
     QueueRegisterer().register_queues()
 
-    # TODO: all the params flag and stuff
     router = MessageRouter.get_instance()
     router.start()
 

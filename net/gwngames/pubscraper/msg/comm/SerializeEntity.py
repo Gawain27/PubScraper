@@ -5,8 +5,12 @@ from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.BaseMessage import BaseMessage
 
 
-class SerializeEntity(BaseMessage): # TODO logging stuff
-    def __init__(self, content: str, entity_loc: str, timestamp: datetime = None) -> None:
+class SerializeEntity(BaseMessage):
+    def __init__(self, content: str, entity_id: str, entity_db: str,
+                 entity_class: int, entity_variant: int, timestamp: datetime = None) -> None:
         super().__init__(MessageConstants.MSG_SERIALIZE_ENTITY, content, timestamp)
-        self.entity_loc: str = entity_loc
+        self.entity_id: str = entity_id
+        self.entity_db: str = entity_db
+        self.entity_class: int = entity_class
+        self.entity_variant: int = entity_variant
         self.destination_queue = QueueConstants.OUTSENDER_QUEUE

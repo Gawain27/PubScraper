@@ -27,3 +27,5 @@ class ConfigConstants:
     DEPTH_MAX: Final = 'depth_max'
     SHUFFLE_ROOTS: Final = 'shuffle_roots'
     PROXY_TYPE: Final = 'proxy_type'
+    MIN_LOAD_WAIT: Final = 'min_load_wait'
+    MAX_LOAD_WAIT: Final = 'max_load_wait'

@@ -1,19 +1,19 @@
 import logging
 import threading
 from abc import abstractmethod
-from datetime import datetime
-from typing import List, Set, Any, Final
+from typing import Any
 
 from couchdb import Database, Document
 
 from net.gwngames.pubscraper.Context import Context
+from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
+from net.gwngames.pubscraper.msg.comm.SerializeEntity import SerializeEntity
 from net.gwngames.pubscraper.msg.scraper.scholarly.FetchGeneralData import FetchGeneralData
 from net.gwngames.pubscraper.scheduling.IntegerMap import IntegerMap
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scraper.adapter.AdapterPropertiesConstants import AdapterPropertiesConstants
 from net.gwngames.pubscraper.scraper.adapter.GeneralDataAdapter import GeneralDataAdapter
 from net.gwngames.pubscraper.scraper.buffer.DatabaseHandler import DatabaseHandler
-from net.gwngames.pubscraper.scraper.ifaces.ProxyRunner import ProxyRunner
 from net.gwngames.pubscraper.utils.ClassUtils import ClassUtils
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.StringUtils import StringUtils
@@ -22,12 +22,10 @@ from net.gwngames.pubscraper.utils.StringUtils import StringUtils
 class GeneralDataFetcher:
     def __init__(self):
         self.ctx = Context()
-        self._proxy = ProxyRunner()
         self.logger = logging.getLogger(self.__class__.__name__)
         # todo here we will add next entity for the adapter, first is author with the list (see two phase param in const)
         self.adapter_list = []
         self.priorities_map = {}
-        self._proxy.init_proxy_choice()
 
     def generate_fetch_adapter(self, adapter_code: int, opt_arg: list = None) -> GeneralDataAdapter:
         pass
@@ -69,7 +67,7 @@ class GeneralDataFetcher:
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX_PARAM, existing_data_id)
             adapter.add_property(AdapterPropertiesConstants.ALT_ITERABLE, fetch_iterator)
         else:
-            existing_data_id = adapter.get_property(AdapterPropertiesConstants.NEXT_PHASE_ID)
+            existing_data_id = adapter.get_property(AdapterPropertiesConstants.EXPECTED_ID)
 
         # Step 3 - Fetch the related entity through the interface or from the data source
         existing_object = database.get(existing_data_id)
@@ -83,34 +81,46 @@ class GeneralDataFetcher:
         if entity_none_or_outdated:
 
             # Step 3.5 - Differentiate between iterators and simple objects
-            if interface_iter_idx is False:  # Does not require index
-                method_iter = interface_fx(interface_fx_param)
-                fetched_entity = next(method_iter)
-                self.logger.info("Fetched entity: %s - %s", data.content, existing_data_id)
-            else:  # Requires index
-                if adapter.get_property(AdapterPropertiesConstants.IFACE_CACHED_ITER) is None:
-                    iter_coll = interface_fx(interface_fx_param)
-                    adapter.add_property(AdapterPropertiesConstants.IFACE_CACHED_ITER, iter_coll)
-                    adapter.add_property(AdapterPropertiesConstants.NEXT_PHASE_ID, JsonReader.DEV_NULL)
+            if not adapter.get_property(AdapterPropertiesConstants.IFACE_IS_ITERATOR):
+                fetched_entity = interface_fx(interface_fx_param)
+                self.logger.info("Fetched simple entity: %s - %s", data.content, existing_data_id)
+            else:
+                if interface_iter_idx is False:  # Does not require index
+                    method_iter = interface_fx(interface_fx_param)
+                    fetched_entity = next(method_iter)
+                    self.logger.info("Fetched entity: %s - %s", data.content, existing_data_id)
+                else:  # Requires index
+                    if adapter.get_property(AdapterPropertiesConstants.IFACE_CACHED_ITER) is None:
+                        iter_coll = interface_fx(interface_fx_param)
+                        adapter.add_property(AdapterPropertiesConstants.IFACE_CACHED_ITER, iter_coll)
+                        adapter.add_property(AdapterPropertiesConstants.EXPECTED_ID, JsonReader.DEV_NULL)
 
-                iterMap = adapter.get_property(AdapterPropertiesConstants.IFACE_CACHED_ITER)
-                next_id: int = IntegerMap().get_next_id(self.generate_unique_key(interface_fx_param, self.get_key_fields(interface_fx_ref), limit=True))
-                fetched_entity = next(iterMap, next_id)
-                self.logger.info("Loaded entity: %s - %s - for id: %s", data.content, existing_data_id, next_id)
+                    iter_map = adapter.get_property(AdapterPropertiesConstants.IFACE_CACHED_ITER)
+                    next_id: int = IntegerMap().get_next_id(
+                        self.generate_unique_key(interface_fx_param, self.get_key_fields(interface_fx_ref), limit=True))
+                    fetched_entity = next(iter_map, next_id)
+                    self.logger.info("Loaded entity: %s - %s - for id: %s", data.content, existing_data_id, next_id)
 
             additional_fx = adapter.get_property(AdapterPropertiesConstants.IFACE_ADDITIONAL_FX, True)
             if additional_fx is not False:
                 fetched_entity = additional_fx(fetched_entity)
                 self.logger.info("Enriched entity: %s - %s", data.content, existing_data_id)
-
+                if adapter.get_property(AdapterPropertiesConstants.MULTI_RESULT) is True:
+                    fetched_entity[AdapterPropertiesConstants.MULTI_RESULT] = "true"
+            fetched_entity['serialized'] = False
             data_source.insert_or_update_document(data.content, existing_data_id, fetched_entity)
         else:
+            self.logger.info("Up to date entity: %s - %s", data.content, existing_data_id)
             fetched_entity = existing_object
 
         # Step 4 - Request serialization for new object
         if entity_none_or_outdated:
-            # todo serialization
-            None
+            serialize_entity_msg = SerializeEntity(data.content,
+                                                   entity_id=existing_data_id,
+                                                   entity_db=adapter.get_property(AdapterPropertiesConstants.IFACE_REF),
+                                                   entity_class= int(adapter.get_property(AdapterPropertiesConstants.PHASE_REF)),
+                                                   entity_variant= self.get_variant_type())
+            MessageRouter.get_instance().send_later_in(serialize_entity_msg, PriorityConstants.ENTITY_SERIAL_REQ)
 
         # Step 5 - Prepare adapters for the next phases
 
@@ -123,37 +133,12 @@ class GeneralDataFetcher:
             next_adapters.append(adapter)
             next_prio[adapter] = data.priority
         for next_adapter, prio in zip(next_adapters, next_prio):
-            nextMessage: FetchGeneralData = FetchGeneralData(next_adapter, prio)
-            MessageRouter.later_in(nextMessage, priority=prio)
+            next_message: FetchGeneralData = FetchGeneralData(next_adapter, prio)
+            MessageRouter.later_in(next_message, priority=prio)
 
     def prepare_next_phase(self, phase_ref: int, current_entity: Document) -> tuple[list[GeneralDataAdapter], dict]:
         return self.adapter_list, self.priorities_map
 
-    @abstractmethod
-    def generate_all_relevant_authors(self, authors_list: str):
-        """
-                Generate all relevant authors by extracting relevant links from the search results.
-
-                :param authors_list: The base author's list (e.g. '<NAME>, etc...')'
-                :return: None, everything is handled with files for less ram complexity
-                """
-        pass
-
-    @abstractmethod
-    def fetch_author_data(self, author: str) -> str:
-        """
-        :param author:
-        :return: the file name of the author
-        """
-        pass
-
-    @abstractmethod
-    def fetch_author_publication(self, publication: Any) -> str:
-        """
-        :param publication:
-        :return: the file name of the publication
-        """
-        pass
 
     @staticmethod
     def get_data_fetcher_class(interface_id: str) -> type:
@@ -220,14 +205,14 @@ class GeneralDataFetcher:
                 return ''
         return current_value
 
+    @abstractmethod
     def is_outdated(self, entity: Document):
         # Placeholder function for checking if a record is outdated
         if entity is None:
             return True
-        # todo the logic with lambda functions in subclasses
-        return False
+        pass
 
-    def generate_adapter_with_prio(self, ref: int, prio: int, param: Any):
+    def generate_adapter_with_prio(self, ref: int, prio: int, param: Any, expected_id: str):
         tmp_adapter = self.generate_fetch_adapter(ref)
 
         if param is None:
@@ -240,7 +225,10 @@ class GeneralDataFetcher:
             tmp_adapter.add_property(AdapterPropertiesConstants.ALT_ITERABLE, param)
         else:
             tmp_adapter.add_property(AdapterPropertiesConstants.IFACE_FX_PARAM, param)
-            tmp_adapter.add_property(AdapterPropertiesConstants.NEXT_PHASE_ID, param)
+            tmp_adapter.add_property(AdapterPropertiesConstants.EXPECTED_ID, expected_id)
 
         self.adapter_list.append(tmp_adapter)
         self.priorities_map[tmp_adapter] = prio
+
+    def get_variant_type(self) -> int:
+        pass

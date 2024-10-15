@@ -10,7 +10,6 @@ from net.gwngames.pubscraper.comm.SynchroSocket import SynchroSocket
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
-from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.system.SystemStatusReq import SystemStatusReq
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader

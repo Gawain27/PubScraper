@@ -20,5 +20,7 @@
     "db_port": 5984,
     "db_user": "admin",
     "db_password": "admin",
-    "proxy_type": "SCRAPERAPI"
+    "proxy_type": "SCRAPERAPI",
+    "min_load_wait": 1,
+    "max_load_wait": 600
 }

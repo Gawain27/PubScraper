@@ -9,9 +9,11 @@ class AdapterPropertiesConstants:
     IFACE_IDX: Final = "iface_idx"
     IFACE_CACHED_ITER: Final = "iface_cached_iter"
     IFACE_ADDITIONAL_FX = "iface_add_fx"
+    IFACE_IS_ITERATOR = "iface_is_iterator"
+    MULTI_RESULT = "multi_result" # Returns a list of persistable entities
     ALT_ITERABLE: Final = "alt_iterable"  # Must be a list, complex types are not expected
     NEXT_PHASES: Final = "next_phases"  # Must be a list, multiple started per iteration
     # tell which entity is expected for next phase, on first phase is None.
-    NEXT_PHASE_ID: Final = "next_phase_id"
+    EXPECTED_ID: Final = "expected_id"
     NEXT_PHASE_INPUT: Final = "next_phase_input"
 

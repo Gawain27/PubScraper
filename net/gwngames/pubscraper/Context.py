@@ -3,8 +3,6 @@ import os.path
 import threading
 
 from couchdb import Server
-from pymongo import MongoClient, ASCENDING
-from pymongo.errors import DuplicateKeyError
 
 
 class Context:
