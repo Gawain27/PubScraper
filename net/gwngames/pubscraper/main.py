@@ -2,10 +2,9 @@ import atexit
 import logging
 import os
 import sys
+import time
 
 import couchdb
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 
 from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.LogFileHandler import LogFileHandler
@@ -13,15 +12,14 @@ from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.scheduling.IntegerMap import IntegerMap
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scraper.WebScraper import WebScraper
-from net.gwngames.pubscraper.scraper.scraper.ScholarScraper import fetch_publications, get_scholar_profile, \
-    fetch_publication_data, scrape_all_citations
 from net.gwngames.pubscraper.utils.ClassRegisterer import QueueRegisterer
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
 
 class ExcludeFilter(logging.Filter):
     def filter(self, record):
-        return not any(record.name.startswith(mod) for mod in ('httpx', 'httpcore', 'urllib3', 'selenium'))
+        return not any(
+            record.name.startswith(mod) for mod in ('httpx', 'httpcore', 'urllib3', 'selenium'))
 
 
 def on_failure_actions():
@@ -42,7 +40,7 @@ if __name__ == '__main__':
     # Executes on failure operations
     atexit.register(on_failure_actions)
 
-    #Initialize DB
+    # Initialize DB
     client = couchdb.Server('http://' + conf_reader.get_value(ConfigConstants.DB_USER) + ":" + conf_reader.get_value(
         ConfigConstants.DB_PASSWORD)
                             + "@" + str(conf_reader.get_value(ConfigConstants.DB_HOST)) + ':' + str(
@@ -75,3 +73,6 @@ if __name__ == '__main__':
 
     scraper = WebScraper()
     scraper.start()  # Asynchronous call, scraper has started
+
+    while True:  # Keep child processes alive
+        time.sleep(100000)

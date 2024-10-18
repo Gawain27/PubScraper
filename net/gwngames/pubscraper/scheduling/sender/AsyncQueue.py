@@ -1,9 +1,8 @@
 import logging
 import queue
 import time
+import traceback
 from abc import abstractmethod
-
-from scholarly import MaxTriesExceededException
 
 from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
@@ -35,35 +34,55 @@ class AsyncQueue(queue.Queue):
         This method is used to process a message by invoking the `on_message` method and removing the message from
         the routing threads list in the provided `router` object.
         """
+        if msg.delayed:
+            RequestState().update_last_sent(msg)
+
+        retries = self.ctx.get_config().get_value(ConfigConstants.MAX_BUFFER_RETRIES)
+        retry_time = self.ctx.get_config().get_value(ConfigConstants.RETRY_TIME_SEC)
         exception_caught = False
-
-        if self.is_queue_depth_limited:
-            if msg.depth is not None and msg.depth > self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX):
-                logging.debug("Max depth reached for message %s - %s", msg.message_type, msg.message_id)
-                RequestState().notify_update()
-                return
-            if msg.depth is None:
-                msg.depth = 0
-
         start_time: float = time.time()
-        logging.debug(f"Message routed for topic '{msg.message_type}': {msg.message_id}")
 
-        try:
-            self.on_message(msg)  # TODO implement exception catching for logging of errors + retry mech
-        except Exception as e:
-            exception_caught = True
-            RequestState().notify_update()
-            raise e
-        # FIXME catching and managing connectivity exceptions, but what exceptions??
+        while retries != 0:
+            exception_caught = False
+            if self.is_queue_depth_limited:
+                if msg.depth is not None and msg.depth > self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX):
+                    logging.debug("Max depth reached for message %s - %s", msg.message_type, msg.message_id)
+                    if msg.delayed:
+                        RequestState().notify_update(msg)
+                    return
+                if msg.depth is None:
+                    msg.depth = 0
+
+            self.logger.debug(f"Message routed for topic '{msg.message_type}': {msg.message_id}")
+
+            try:
+                self.on_message(msg)
+                retries = 0
+            except Exception as e:
+                exception_caught = True
+                full_exception = traceback.format_exc()
+                logging.error(full_exception)
+
+            # FIXME catching and managing connectivity exceptions, but what exceptions??
+
+            if exception_caught is True:
+                msg.prepare_for_retry()
+                self.logger.error(
+                    f"[FAILURE] for topic '{msg.message_type}': {msg.message_id}, retrying in {retry_time} seconds...")
+                time.sleep(retry_time)
+                retries -= 1
 
         if exception_caught is True:
-            msg.prepare_for_retry()
+            self.logger.error(f"[CRITICAL FAILURE] for topic '{msg.message_type}': {msg.message_id}, aborting...")
+            # TODO: add storing mechanism for recovery
 
         elapsed_time: float = (time.time() - start_time) * 1000
-        logging.debug(
+        self.logger.debug(
             f"Managed message for topic '{msg.message_type}': {msg.message_id} - Time: {elapsed_time:.3f} ms.")
-        RequestState().notify_update()
-        router.routing_threads[msg.message_id] = None
+        if msg.delayed:
+            RequestState().notify_update(msg)
+        if router.routing_threads.__contains__(msg.message_id):
+            router.routing_threads.pop(msg.message_id)
 
     @abstractmethod
     def on_message(self, msg: AbstractMessage) -> None:

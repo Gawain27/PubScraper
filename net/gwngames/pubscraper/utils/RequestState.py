@@ -3,12 +3,12 @@ import threading
 from datetime import datetime
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
-from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
 class RequestState:
-    _instance = None # todo make request per interface, or per msg type
+    _instance = None  # todo make request per interface, or per msg type
     _lock = threading.Lock()
 
     def __init__(self):
@@ -20,6 +20,7 @@ class RequestState:
             self.max_concurrent_requests = JsonReader(JsonReader.CONFIG_FILE_NAME).get_value(
                 ConfigConstants.MAX_IFACE_REQUESTS)
             self.active_count = 0
+            self.groups_active = {}
             self.logger = logging.getLogger("RequestState")
             self.condition = threading.Condition()
 
@@ -31,33 +32,35 @@ class RequestState:
                     cls._instance.__initialized = False  # Ensure initialization flag is set before init
         return cls._instance
 
-    def update_last_sent(self, min_seconds: int, max_seconds: int, message_id: str, message_type):
-        with self.condition:
-            while (datetime.now() - self.stored_date).total_seconds() < min_seconds:
-                if self.active_count < self.max_concurrent_requests:
-                    self.active_count += 1
-                    self.logger.info("breaking")
-                    break
-                else:
-                    self.logger.info("waiting")
-                    self.condition.wait()
-        ThreadUtils.random_sleep(min_seconds, max_seconds, self.logger)
-        self.logger.info(f"Serving next request {message_type} - {message_id} after waited time {datetime.now() - self.stored_date} - Total: {self.active_count}")
-        self.stored_date = datetime.now()
-
-    def notify_reschedule(self, key):
+    def update_last_sent(self, msg: AbstractMessage):
+        start_time = datetime.now()
         with self.condition:
             while True:
-                if self.active_count < self.max_concurrent_requests:
-                    self.logger.info(f"Rescheduled message {key}")
+                if self.active_count < self.max_concurrent_requests and self.groups_active.pop(msg.get_group_key(), False) is False:
                     self.active_count += 1
+                    self.groups_active[msg.get_group_key()] = True
                     break
                 else:
+                    self.groups_active[msg.get_group_key()] = True
+                    self.condition.wait()
+        self.logger.info(f"Serving next request {msg.get_group_key()} - {msg.message_id} after waited time {datetime.now() - start_time} - Total: {self.active_count}")
+
+    def notify_reschedule(self, msg: AbstractMessage):
+        with self.condition:
+            while True:
+                if self.active_count < self.max_concurrent_requests and self.groups_active.pop(msg.get_group_key(), False) is False:
+                    self.logger.info(f"Rescheduled message {msg.message_id}")
+                    self.active_count += 1
+                    self.groups_active[msg.get_group_key()] = True
+                    break
+                else:
+                    self.groups_active[msg.get_group_key()] = True
                     self.condition.wait()
 
-    def notify_update(self):
+    def notify_update(self, msg: AbstractMessage):
         with self.condition:
             if self.active_count > 0:
                 self.active_count -= 1
+                if msg.get_group_key() is not None:
+                    self.groups_active[msg.get_group_key()] = False
                 self.condition.notify_all()
-

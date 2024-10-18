@@ -1,6 +1,7 @@
 import datetime
 import logging
 import threading
+import time
 from typing import Dict, Any
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
@@ -8,9 +9,6 @@ from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MasterPriorityQueue import MasterPriorityQueue
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
-from net.gwngames.pubscraper.utils.RequestState import RequestState
-from net.gwngames.pubscraper.utils.Semaphore import SingletonSemaphore
-from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
 class MessageRouter:
@@ -44,6 +42,7 @@ class MessageRouter:
         self.incoming_queue = MasterPriorityQueue()
         self.routing_threads: Dict[str, threading.Thread] = {}
         self.config = JsonReader(JsonReader.CONFIG_FILE_NAME)
+        self.logger = logging.getLogger(MessageRouter.__name__)
 
     def start(self):
         """
@@ -95,24 +94,26 @@ class MessageRouter:
 
         :param depth:
         :param message:  An AbstractMessage object representing the message to be sent.
-        :param message_queue:  An AsyncQueue object representing the destination message queue.
         :param priority:  An optional integer representing the priority of the message. Defaults to 0.
         :return:  None
 
         This method sends the given message to the specified message queue with an optional priority.
-        It uses the `send` method of the `incoming_queue` to enqueue the message, and logs the successful
-        sending of the message using the `logging.info` function.
+        It uses the `send` method of the `incoming_queue` to enqueue the message
 
         Example usage:
-            message = Message("Hello, world!")
+            message = Message("Ciao Rick")
             queue = AsyncQueue()
             send_message(self, message, queue, priority=1)
         """
-        if self.config.get_value(ConfigConstants.MAX_MS_WORKTIME) < (
-                datetime.datetime.now() - self.started_at).total_seconds() \
-                and message.destination_queue == QueueConstants.SCRAPER_QUEUE:
-            logging.info(f"Scraping Timeout. Not starting message: {message}")
+        if (self.config.get_value(ConfigConstants.MAX_MS_WORKTIME) != -1
+                and self.config.get_value(ConfigConstants.MAX_MS_WORKTIME) < (
+                datetime.datetime.now() - self.started_at).total_seconds()
+                and message.destination_queue == QueueConstants.SCRAPER_QUEUE):
+            self.logger.info(f"Scraping Timeout. Not starting message: {message}")
             return
+
+        if self.config.get_value(ConfigConstants.DEBUG_DELAY):
+            time.sleep(10)
 
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
         loaded_queue: type = AsyncQueue.get_queue_class(message.destination_queue)
@@ -120,12 +121,8 @@ class MessageRouter:
         if depth is not None:
             message.depth = depth + 1
         self.incoming_queue.send(priority, message, loaded_queue())
-        logging.info(
-            f"Message sent: {message} to: {message.destination_queue} with depth: {depth if depth is not None else 'None'}")
 
     def send_later_in(self, message: AbstractMessage, priority=0, depth=None):
-        logging.info(f"Delaying message: {message.message_id} of type {message.message_type}")
-
         message.delayed = True
         message.synchronize = True
         self.send_message(message, priority=priority, depth=depth)

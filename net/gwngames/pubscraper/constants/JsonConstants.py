@@ -12,6 +12,7 @@ class JsonConstants:
     TAG_COAUTHORS: Final = "coauthors"
     TAG_PUBLICATIONS: Final = "publications"
     TAG_PUB_ID: Final = "author_pub_id"
+    TAG_ALL_VERSIONS: Final = "all_versions_url"
 
 
 

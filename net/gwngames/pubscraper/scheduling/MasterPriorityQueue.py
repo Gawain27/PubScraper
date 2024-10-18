@@ -1,4 +1,3 @@
-import logging
 import queue
 from typing import Tuple
 
@@ -41,7 +40,7 @@ class MasterPriorityQueue(queue.PriorityQueue):
         """
 
         message.priority = priority
-        queue.PriorityQueue.put(self, (-priority, message, subqueue))
+        queue.PriorityQueue.put(self, (priority, message, subqueue))
 
     def receive(self, block: bool = True, timeout: float | None = None) -> Tuple[int, 'AbstractMessage', queue.Queue]:
         """
@@ -57,10 +56,5 @@ class MasterPriorityQueue(queue.PriorityQueue):
                  and priority_queue is the PriorityQueue object associated with the item.
         """
         priority, message, subqueue = queue.PriorityQueue.get(self, block, timeout)
-        logging.debug(f"New message - priority: {-priority}, message: {message}, subqueue: {subqueue}")
 
-        if message.delayed:
-            RequestState().update_last_sent(self.ctx.get_config().get_value(ConfigConstants.MIN_WAIT_TIME),
-                                            self.ctx.get_config().get_value(ConfigConstants.MAX_WAIT_TIME),
-                                            message.message_id, message.message_type)
-        return -priority, message, subqueue
+        return priority, message, subqueue

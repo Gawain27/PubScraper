@@ -5,15 +5,11 @@ import time
 from numpy import random
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
-from net.gwngames.pubscraper.msg.scraper.scholarly.GetAllScholarlyAuthors import GetAllScholarlyAuthors
-from net.gwngames.pubscraper.msg.scraper.scholarly.GetScholarlyAuthor import GetScholarlyAuthor
-from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scraper.NameFetcher import NameFetcher
 from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
-from net.gwngames.pubscraper.scraper.ifaces.ScholarlyDataFetcher import ScholarlyDataFetcher
+from net.gwngames.pubscraper.scraper.ifaces.ScholarDataFetcher import ScholarlyDataFetcher
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.StringUtils import StringUtils
-from net.gwngames.pubscraper.utils.ThreadUtils import ThreadUtils
 
 
 class WebScraper:
@@ -60,5 +56,3 @@ class WebScraper:
             if isinstance(iface_instance, ScholarlyDataFetcher):
                 logging.info("Fetching for %s - Authors: %s", iface.__name__, scraping_authors)
                 iface_instance.start_interface_fetching(opt_arg=scraping_authors)
-                while True:
-                    time.sleep(100)

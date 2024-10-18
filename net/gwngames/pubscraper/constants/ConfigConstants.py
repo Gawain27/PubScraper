@@ -2,17 +2,25 @@ from typing import Final
 
 
 class ConfigConstants:
-    DB_HOST = "db_host"
-    DB_PORT = "db_port"
-    DB_USER = "db_user"
-    DB_PASSWORD = "db_password"
-    AUTHORS_REF = "authors_ref"
+    URL_TIMEOUT: Final = "url_timeout"
+    CAPTCHA_API_KEY: Final = '2captcha_api_key'
+    CAPTCHA_ACTION: Final = 'captcha_action'
+    BROWSER_TYPE: Final = "browser_type"
+    MIN_SECONDS_BEWTWEEN_UPDATES: Final = "min_seconds_between_updates"
+    BROWSER_DATA_PATH: Final = "browser_data_path"
+    BROWSER_DRIVER_PATH: Final = "browser_driver_path"
+    DB_HOST: Final = "db_host"
+    DB_PORT: Final = "db_port"
+    DB_USER: Final = "db_user"
+    DB_PASSWORD: Final = "db_password"
+    AUTHORS_REF: Final = "authors_ref"
     DELAY_THRESHOLD: Final = "delay_threshold"
     ROOT_AUTHORS: Final = "root_authors"
     MAX_LOGFILE_LINES: Final = "max_logfile_lines"
     LOG_FILENAME: Final = 'pubscraper.log'
     INTERFACES_ENABLED: Final = 'interfaces_enabled'
     MAX_BUFFER_RETRIES: Final = 'max_buffer_retries'
+    RETRY_TIME_SEC: Final = 'retry_time_sec'
     ACCEPTABLE_LOAD: Final = 'acceptable_load'
     SERVER_URL: Final = 'server_url'
     SERVER_ENTITY_PORT: Final = 'entity_port'
@@ -23,9 +31,8 @@ class ConfigConstants:
     MAX_MS_WORKTIME: Final = 'max_ms_worktime'
     MAX_IFACE_REQUESTS: Final = 'max_iface_requests'
     MAX_FETCHABLE: Final = 'max_fetchable'
-    SCRAPERAPI_KEY: Final = 'scraper_api_key'
     DEPTH_MAX: Final = 'depth_max'
     SHUFFLE_ROOTS: Final = 'shuffle_roots'
-    PROXY_TYPE: Final = 'proxy_type'
     MIN_LOAD_WAIT: Final = 'min_load_wait'
     MAX_LOAD_WAIT: Final = 'max_load_wait'
+    DEBUG_DELAY: Final = 'debug_delay'

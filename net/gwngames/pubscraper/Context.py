@@ -19,12 +19,13 @@ class Context:
     # Add attributes as needed
     def __init__(self):
         if not hasattr(self, 'initialized'):
+            self._drivers = {}
             self.initialized = True
             self.logger = logging.getLogger('Context')
             self._current_dir = None
             self._config = None
             self._message_stats = None
-            self._client: Server = None
+            self._client: Server = Server()
 
     def build_path(self, path: str):
         return os.path.join(self.get_current_dir(), path)
@@ -41,8 +42,8 @@ class Context:
     def get_config(self):
         with self._lock:
             from net.gwngames.pubscraper.utils.JsonReader import JsonReader
-            dir: JsonReader = self._config
-            return dir
+            _dir: JsonReader = self._config
+            return _dir
 
     def set_config(self, config):
         with self._lock:
@@ -52,8 +53,8 @@ class Context:
     def get_message_data(self):
         with self._lock:
             from net.gwngames.pubscraper.utils.JsonReader import JsonReader
-            dir: JsonReader = self._message_stats
-            return dir
+            _dir: JsonReader = self._message_stats
+            return _dir
 
     def set_message_data(self, message_stats):
         with self._lock:
@@ -68,12 +69,3 @@ class Context:
         with self._lock:
             self._client = client
             self.logger.info("Context added: Set current DB client")
-
-# ------------------------------------- OPS ---------------------------------
-
-    def index_exists(self, collection, index_name):
-        indexes = collection.list_indexes()
-        for index in indexes:
-            if index['name'] == index_name:
-                return True
-        return False

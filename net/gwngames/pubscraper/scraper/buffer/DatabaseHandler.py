@@ -1,5 +1,6 @@
 import logging
 import time
+from datetime import datetime
 
 from couchdb import ResourceConflict, ResourceNotFound, Unauthorized, ServerError, Database
 
@@ -12,7 +13,6 @@ class DatabaseHandler:
         self.db = self.get_or_create_db()
 
     def get_or_create_db(self) -> Database:
-        self.logger.info(f"Database {self.db_name}")
         try:
             db = self.client[self.db_name]
         except ResourceNotFound:
@@ -39,10 +39,12 @@ class DatabaseHandler:
     def insert_or_update_document(self, doc_type, doc_id, doc):
         doc['_id'] = doc_id
         doc['type'] = doc_type
+        doc['update_date'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         try:
             existing_doc = self.get_document(doc_id)
             if existing_doc:
+                doc['update_count'] = doc['update_count'] + 1 if doc.__contains__('update_count') else 1
                 doc['_rev'] = existing_doc['_rev']
             self.db.save(doc)
             self.logger.info(f"Document of type {doc_type} with id {doc_id} saved successfully.")

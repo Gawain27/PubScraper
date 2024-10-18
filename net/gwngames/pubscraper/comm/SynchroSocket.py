@@ -1,6 +1,7 @@
 import logging
 import socket
 import threading
+import time
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
@@ -23,26 +24,30 @@ class SynchroSocket:
             return cls._instances[port]
 
     def connect_to_java_socket(self):
-        with self.lock:
-            if not self.socket:
-                config = JsonReader(JsonReader.CONFIG_FILE_NAME)
-                try:
-                    self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-                    self.socket.connect((config.get_value(ConfigConstants.SERVER_URL), self.port))
-                    logging.info(f'Connected to Java socket on port {self.port}')
-                except Exception as e:
-                    logging.error(f'Error connecting to Java socket on port {self.port}: {e}')
+        if not self.socket:
+            config = JsonReader(JsonReader.CONFIG_FILE_NAME)
+            try:
+                self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                self.socket.connect((config.get_value(ConfigConstants.SERVER_URL), self.port))
+                logging.info(f'Connected to Java socket on port {self.port}')
+            except Exception as e:
+                logging.error(f'Error connecting to Java socket on port {self.port}: {e}')
 
-    def send_message(self, message):
+    def send_message(self, message: bytes):
         with self.lock:
             if not self.socket:
                 self.connect_to_java_socket()
             try:
-                full_message = message + '\n'  # Append newline as message delimiter
-                self.socket.sendall(full_message.encode())
+                full_message = message + '\n'.encode("utf-8")  # Append newline as message delimiter
+                self.socket.sendall(full_message)
                 logging.debug(f'Sent message to Java socket on port {self.port}: {message}')
+                return
+            except ConnectionAbortedError:
+                time.sleep(3)
             except Exception as e:
                 logging.error(f'Error sending message to Java socket on port {self.port}: {e}')
+                raise e
+        self.send_message(message)
 
     def receive_message(self):
         with self.lock:

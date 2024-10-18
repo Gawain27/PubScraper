@@ -11,7 +11,8 @@ class AbstractMessage:
     :param message_type: The type of the message.
     """
 
-    def __init__(self, message_type: str, delayed: bool = False, synchronized: bool = False, destination_queue: str = "") -> None:
+    def __init__(self, message_type: str, delayed: bool = False, synchronized: bool = False,
+                 destination_queue: str = "") -> None:
         self.depth = None
         self.stats: JsonReader = JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME)
         self.message_type: str = message_type
@@ -97,5 +98,12 @@ class AbstractMessage:
         data: Dict[str, str] = json.loads(json_str)
         return cls.from_dict(data)
 
-    def prepare_for_retry(self): # TODO: make this do nothing, implement in specific msg the actions
+    def prepare_for_retry(self):  # TODO: make this do nothing, implement in specific msg the actions
         return
+
+    def get_group_key(self) -> str:
+        """
+        Determine the group key for the message, to subqueue custom message types
+        :return: The group key for the message to be delayed
+        """
+        pass

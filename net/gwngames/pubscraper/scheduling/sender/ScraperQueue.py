@@ -1,11 +1,14 @@
+import traceback
 from datetime import datetime
 from typing import Final
 
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
+from net.gwngames.pubscraper.exception.IgnoreCaptchaException import IgnoreCaptchaException
+from net.gwngames.pubscraper.exception.UninplementedCaptchaException import UninmplementedCaptchaException
 from net.gwngames.pubscraper.msg.BaseMessage import BaseMessage
-from net.gwngames.pubscraper.msg.scraper.scholarly.FetchScholarlyData import FetchScholarlyData
+from net.gwngames.pubscraper.msg.scraper.scholar.FetchScholarData import FetchScholarlyData
 from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
-from net.gwngames.pubscraper.scraper.ifaces.ScholarlyDataFetcher import ScholarlyDataFetcher
+from net.gwngames.pubscraper.scraper.ifaces.ScholarDataFetcher import ScholarlyDataFetcher
 
 
 class ScraperQueue(AsyncQueue):
@@ -36,12 +39,15 @@ class ScraperQueue(AsyncQueue):
                 raise Exception("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
 
         except Exception as e:
-            if isinstance(e, StopIteration):
+            full_exception = traceback.format_exc()
+            if isinstance(e, IgnoreCaptchaException) or isinstance(e, UninmplementedCaptchaException):
+                self.logger.warning(full_exception)
+            elif isinstance(e, StopIteration):
                 self.logger.error("Reached end of iteration for %s - %s", msg.message_type, msg.content)
             elif isinstance(e, KeyError):
                 # ignore error as the entity cannot be processed
                 self.logger.error("Entity not processable for %s - %s", msg.message_type, msg.content)
-                return
+                self.logger.error(full_exception)
             else:
                 raise e
         self.logger.info(f"Processed message {msg.message_id} of type {msg.message_type}: {msg.content}"

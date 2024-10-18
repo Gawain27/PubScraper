@@ -1,4 +1,5 @@
 import gzip
+import json
 import logging
 import math
 import pickle
@@ -28,16 +29,18 @@ class PackagingUnit:
         self.ctx = Context()
 
     @staticmethod
-    def compress_object(obj: Any) -> bytes:
+    def compress_json(obj: dict) -> bytes:
         """
-            Compress a Python object.
+        Compress a Python dictionary as JSON.
+        Args:
+            obj: A Python dictionary to be serialized to JSON and compressed.
         Returns:
             The compressed byte stream.
         """
-        # Serialize the object using pickle
-        serialized_data = pickle.dumps(obj)
-        # Compress the serialized data using gzip
-        compressed_data = gzip.compress(serialized_data)
+        # Serialize the object to JSON
+        json_data = json.dumps(obj).encode('utf-8')
+        # Compress the serialized JSON data using gzip
+        compressed_data = gzip.compress(json_data)
 
         return compressed_data
 
@@ -110,7 +113,7 @@ class PackagingUnit:
         if entity['sent'] is True:
             return  # Avoid re-sending
 
-        compressed_entity = self.compress_object(entity)
+        compressed_entity = self.compress_json(entity)
 
         entity_send_req = SendEntity(msg.content, compressed_entity, msg.entity_id, msg.entity_db)
         MessageRouter.get_instance().send_message(entity_send_req, PriorityConstants.ENTITY_SEND_REQ)
