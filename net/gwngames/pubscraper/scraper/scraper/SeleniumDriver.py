@@ -31,7 +31,8 @@ class SeleniumDriver:
 
         self.logger = logging.getLogger(SeleniumDriver.__name__)
         self.config = JsonReader(JsonReader.CONFIG_FILE_NAME)
-        self.number_of_tabs = self.config.get_value(ConfigConstants.MAX_IFACE_REQUESTS)
+        self.number_of_interfaces = len(self.config.get_value(ConfigConstants.INTERFACES_ENABLED).split(','))
+        self.number_of_tabs = self.config.get_value(ConfigConstants.MAX_IFACE_REQUESTS) * int(self.number_of_interfaces)
         self.available_tabs = {}
         for i in range(self.number_of_tabs):
             self.available_tabs[i] = True

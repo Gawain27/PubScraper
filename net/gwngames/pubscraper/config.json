@@ -29,5 +29,6 @@
     "browser_type": "firefox",
     "captcha_action": 2,
     "2captcha_api_key": "f8f3605447f0ed41a330e74e4edd4b5d",
-    "url_timeout": 100
+    "url_timeout": 100,
+    "max_active_threads": 20
 }

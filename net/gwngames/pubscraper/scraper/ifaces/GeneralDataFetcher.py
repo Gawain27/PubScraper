@@ -26,7 +26,6 @@ class GeneralDataFetcher:
     def __init__(self):
         self.ctx = Context()
         self.logger = logging.getLogger(self.__class__.__name__)
-        # todo here we will add next entity for the adapter, first is author with the list (see two phase param in const)
         self.adapter_list = []
         self.priorities_map = {}
 
@@ -62,7 +61,6 @@ class GeneralDataFetcher:
             database: Database = data_source.get_or_create_db()
 
             # Step 2 - Obtain id of the entity to process
-            existing_data_id = None
             fetch_iterator: list = adapter.get_property(AdapterPropertiesConstants.ALT_ITERABLE, False)
 
             if fetch_iterator is not False:
@@ -78,7 +76,6 @@ class GeneralDataFetcher:
             interface_fx_param = adapter.get_property(AdapterPropertiesConstants.IFACE_FX_PARAM)
             interface_fx_ref = adapter.get_property(AdapterPropertiesConstants.PHASE_REF)
             interface_iter_idx = adapter.get_property(AdapterPropertiesConstants.IFACE_IDX, False)
-            fetched_entity = None
             entity_none_or_outdated = self.is_outdated(existing_object)
 
             if entity_none_or_outdated:
@@ -112,7 +109,7 @@ class GeneralDataFetcher:
                     fetched_entity = additional_fx(fetched_entity)
                     self.logger.info("Enriched entity for content: %s - ID: %s", data.content, existing_data_id)
 
-                if fetched_entity is not None:
+                if fetched_entity is not None and fetched_entity is not False:  # falsy conversion for empty lists, etc...
                     if isinstance(fetched_entity, dict):
                         fetched_entity["serialized"] = False
                     elif isinstance(fetched_entity, str):

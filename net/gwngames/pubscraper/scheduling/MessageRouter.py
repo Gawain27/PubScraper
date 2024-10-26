@@ -2,7 +2,8 @@ import datetime
 import logging
 import threading
 import time
-from typing import Dict, Any
+from concurrent.futures import ThreadPoolExecutor
+from typing import Any
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
@@ -14,14 +15,6 @@ from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 class MessageRouter:
     """
     A class that handles routing of messages.
-
-    Methods: - start() Starts the message processing loop in a separate thread. - process_messages() Processes
-    incoming messages from the incoming_queue. Routes messages to the appropriate message_queue based on the message
-    type. - route_message(message: AbstractMessage, message_queue: AsyncQueue) Routes a message to a specific
-    message_queue for processing. - send_message(message: AbstractMessage, message_queue: AsyncQueue, priority=0)
-    Sends a message to the incoming_queue for routing. - get_instance() -> MessageRouter Returns the singleton
-    instance of the MessageRouter class.
-
     """
     _instance = None
     _lock = threading.Lock()
@@ -40,74 +33,46 @@ class MessageRouter:
         self.__initialized = True
         self.started_at = datetime.datetime.now()
         self.incoming_queue = MasterPriorityQueue()
-        self.routing_threads: Dict[str, threading.Thread] = {}
         self.config = JsonReader(JsonReader.CONFIG_FILE_NAME)
         self.logger = logging.getLogger(MessageRouter.__name__)
+        self.MAX_ACTIVE_THREADS = self.config.get_value(ConfigConstants.MAX_ACTIVE_THREADS)
+        self.executor = ThreadPoolExecutor(max_workers=self.MAX_ACTIVE_THREADS)
 
     def start(self):
         """
         Starts the processing of messages in a separate thread.
-
-        :return: None
         """
         threading.Thread(target=self.process_messages, daemon=True).start()
 
     def process_messages(self):
         """
-        Process the incoming messages.
-
-        The method receives messages from the incoming queue, routes the messages to the appropriate message queue
-        based on their priority, and marks the processed messages as done in the incoming queue.
-
-        :return: This method does not return anything.
+        Process the incoming messages by priority and submits tasks to a ThreadPoolExecutor.
         """
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
         while True:
+            # Get the next message by priority (lowest first)
             priority, message, message_queue = self.incoming_queue.receive()
             if isinstance(message, AbstractMessage) and isinstance(message_queue, AsyncQueue):
-                self.route_message(message, message_queue)
+                # Submit to the thread pool executor for processing
+                self.executor.submit(self.route_message, message, message_queue)
             else:
                 logging.warning(f"Ignoring message of unknown type: {type(message)}")
 
-    def route_message(self, message: AbstractMessage, message_type: Any):
+    def route_message(self, message: AbstractMessage, message_queue: Any):
         """
         Route a message to a message queue for processing.
-
-        :param message: The message to be routed.
-        :param message_type: The message queue to route the message to.
-        :return: None
         """
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
-        message_queue: AsyncQueue = message_type
-
-        self.routing_threads[message.message_id] = threading.Thread(
-            target=message_queue.process_message,
-            args=(self, message),
-            daemon=True
-        )
-        # TODO don't randomly start threads, maintain a max and release with wait/notify
-        self.routing_threads[message.message_id].start()
+        message_queue: AsyncQueue = message_queue
+        message_queue.process_message(self, message)  # Directly call the queue's process method
 
     def send_message(self, message: AbstractMessage, priority=0, depth=None):
         """
         Send a message to a message queue with an optional priority.
-
-        :param depth:
-        :param message:  An AbstractMessage object representing the message to be sent.
-        :param priority:  An optional integer representing the priority of the message. Defaults to 0.
-        :return:  None
-
-        This method sends the given message to the specified message queue with an optional priority.
-        It uses the `send` method of the `incoming_queue` to enqueue the message
-
-        Example usage:
-            message = Message("Ciao Rick")
-            queue = AsyncQueue()
-            send_message(self, message, queue, priority=1)
         """
         if (self.config.get_value(ConfigConstants.MAX_MS_WORKTIME) != -1
                 and self.config.get_value(ConfigConstants.MAX_MS_WORKTIME) < (
-                datetime.datetime.now() - self.started_at).total_seconds()
+                        datetime.datetime.now() - self.started_at).total_seconds()
                 and message.destination_queue == QueueConstants.SCRAPER_QUEUE):
             self.logger.info(f"Scraping Timeout. Not starting message: {message}")
             return

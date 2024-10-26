@@ -2,6 +2,7 @@ from typing import Final
 
 
 class ConfigConstants:
+    MAX_ACTIVE_THREADS: Final = "max_active_threads"
     URL_TIMEOUT: Final = "url_timeout"
     CAPTCHA_API_KEY: Final = '2captcha_api_key'
     CAPTCHA_ACTION: Final = 'captcha_action'

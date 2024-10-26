@@ -1,8 +1,6 @@
 import logging
-import re
 
 from net.gwngames.pubscraper.Context import Context
-from net.gwngames.pubscraper.constants.CaptchaConstants import CaptchaConstants
 from net.gwngames.pubscraper.scraper.scraper.SeleniumDriver import SeleniumDriver
 
 

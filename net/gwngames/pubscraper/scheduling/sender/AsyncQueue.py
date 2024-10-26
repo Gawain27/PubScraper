@@ -35,7 +35,7 @@ class AsyncQueue(queue.Queue):
         the routing threads list in the provided `router` object.
         """
         if msg.delayed:
-            RequestState().update_last_sent(msg)
+            RequestState(msg.priority).update_last_sent(msg)
 
         retries = self.ctx.get_config().get_value(ConfigConstants.MAX_BUFFER_RETRIES)
         retry_time = self.ctx.get_config().get_value(ConfigConstants.RETRY_TIME_SEC)
@@ -48,7 +48,7 @@ class AsyncQueue(queue.Queue):
                 if msg.depth is not None and msg.depth > self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX):
                     logging.debug("Max depth reached for message %s - %s", msg.message_type, msg.message_id)
                     if msg.delayed:
-                        RequestState().notify_update(msg)
+                        RequestState(msg.priority).notify_update(msg)
                     return
                 if msg.depth is None:
                     msg.depth = 0
@@ -80,7 +80,7 @@ class AsyncQueue(queue.Queue):
         self.logger.debug(
             f"Managed message for topic '{msg.message_type}': {msg.message_id} - Time: {elapsed_time:.3f} ms.")
         if msg.delayed:
-            RequestState().notify_update(msg)
+            RequestState(msg.priority).notify_update(msg)
         if router.routing_threads.__contains__(msg.message_id):
             router.routing_threads.pop(msg.message_id)
 
