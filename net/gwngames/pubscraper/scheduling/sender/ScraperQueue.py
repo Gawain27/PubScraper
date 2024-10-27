@@ -6,9 +6,15 @@ from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.exception.IgnoreCaptchaException import IgnoreCaptchaException
 from net.gwngames.pubscraper.exception.UninplementedCaptchaException import UninmplementedCaptchaException
 from net.gwngames.pubscraper.msg.BaseMessage import BaseMessage
-from net.gwngames.pubscraper.msg.scraper.scholar.FetchScholarData import FetchScholarlyData
+from net.gwngames.pubscraper.msg.scraper.FetchCoreEduData import FetchCoreEduData
+from net.gwngames.pubscraper.msg.scraper.FetchDblpData import FetchDblpData
+from net.gwngames.pubscraper.msg.scraper.FetchScholarData import FetchScholarlyData
+from net.gwngames.pubscraper.msg.scraper.FetchScimagoData import FetchScimagoData
 from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
+from net.gwngames.pubscraper.scraper.ifaces.CoreEduDataFetcher import CoreEduDataFetcher
+from net.gwngames.pubscraper.scraper.ifaces.DblpDataFetcher import DblpDataFetcher
 from net.gwngames.pubscraper.scraper.ifaces.ScholarDataFetcher import ScholarlyDataFetcher
+from net.gwngames.pubscraper.scraper.ifaces.ScimagoDataFetcher import ScimagoDataFetcher
 
 
 class ScraperQueue(AsyncQueue):
@@ -34,6 +40,12 @@ class ScraperQueue(AsyncQueue):
                          f" - with depth {msg.depth if msg.depth is not None else 'None'}")
             if isinstance(msg, FetchScholarlyData):
                 ScholarlyDataFetcher().fetch_general_data(msg)
+            elif isinstance(msg, FetchDblpData):
+                DblpDataFetcher().fetch_general_data(msg)
+            elif isinstance(msg, FetchScimagoData):
+                ScimagoDataFetcher().fetch_general_data(msg)
+            elif isinstance(msg, FetchCoreEduData):
+                CoreEduDataFetcher().fetch_general_data(msg)
             else:
                 self.logger.error("ScraperQueue - Received undefined message type: %s", type(msg).__name__)
                 raise Exception("ScraperQueue - Received undefined message type: %s", type(msg).__name__)

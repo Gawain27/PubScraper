@@ -74,7 +74,6 @@ class ScholarScraper(GeneralScraper):
 
             data_cells = soup.find_all('td', class_='gsc_rsb_std')
 
-            # Extract the specific values we need in the table
             h_index = data_cells[2].text
             i10_index = data_cells[4].text
 
@@ -372,32 +371,39 @@ class ScholarScraper(GeneralScraper):
             authors_tag = citation.find('div', class_='gs_a')
             author_ids = []
             profile_urls = []
+            author_names = []
             if authors_tag:
                 author_links = authors_tag.find_all('a')
                 for author_link in author_links:
                     profile_url = author_link['href']
+                    author_name = author_link.get_text(strip=True)
                     author_id_match = re.search(r'user=([a-zA-Z0-9_-]+)', profile_url)
                     if author_id_match:
+                        # If there's an author id, add it to author_ids and profile_urls
                         author_ids.append(author_id_match.group(1))
                         profile_urls.append(f"https://scholar.google.com{profile_url}")
+                    else:
+                        # Only add the author name if no author_id is present
+                        author_names.append(author_name)
 
             summary_tag = citation.find('div', class_='gs_rs')
             summary = summary_tag.get_text(strip=True) if summary_tag else 'No Summary'
 
-            document_link = soup.find('div', class_='gs_or_ggsm')
+            document_link = citation.find('div', class_='gs_or_ggsm')
             if document_link is not None:
                 document_link = document_link.find('a')['href']
             else:
                 document_link = "No Document link"
 
             self.logger.debug(
-                f"TAB[{i}] - Extracted citation: Title={title}, Link={link}, Authors={author_ids}, Profile URLs={profile_urls}")
+                f"TAB[{i}] - Extracted citation: Title={title}, Link={link}, Authors={author_ids}, Author Names={author_names}, Profile URLs={profile_urls}")
 
             citation_data.append({
                 'cites_id': cites_id,
                 'title': title,
                 'link': link,
                 'author_ids': author_ids,
+                'author_names': author_names,
                 'profile_urls': profile_urls,
                 'summary': summary,
                 'document_link': document_link

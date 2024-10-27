@@ -8,5 +8,9 @@ class LoggingConstants:
 
     GENERAL_DATA_FETCHER: Final = logging.DEBUG
     SCHOLARLY_DATA_FETCHER: Final = logging.DEBUG
+    DBLP_DATA_FETCHER: Final = logging.DEBUG
+    CORE_EDU_DATA_FETCHER: Final = logging.DEBUG
+    SCIMAGO_DATA_FETCHER: Final = logging.DEBUG
+
 
     WEBSCRAPER: Final = logging.DEBUG

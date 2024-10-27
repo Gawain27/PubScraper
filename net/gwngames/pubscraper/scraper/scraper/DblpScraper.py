@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 
+from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScraper
 import urllib.parse
 
@@ -79,7 +80,7 @@ class DblpScraper(GeneralScraper):
 
         self.driver_manager.release_tab(i)
         self.logger.info("Completed fetching publications for author: %s", author_name)
-        return publications
+        return {JsonConstants.TAG_PUBLICATIONS: publications}
 
     def get_journal_volume_data(self, volume_url):
         self.logger.info("Starting to fetch journal volume data from: %s", volume_url)
@@ -88,11 +89,14 @@ class DblpScraper(GeneralScraper):
         soup = BeautifulSoup(journal_page, 'html.parser')
 
         collection_title = soup.find('h1').text.strip() if soup.find('h1') else "Unknown Collection Title"
+
         self.logger.debug("Collection title found: %s", collection_title)
 
         journals = []
         volume_number = collection_title.split(", Volume ")[
             -1] if ", Volume " in collection_title else "Unknown Volume Number"
+
+        collection_title = collection_title.split(',')[0]
 
         for entry in soup.select('li.entry.article'):
             title = entry.find(class_='title').get_text(strip=True) if entry.find(class_='title') else "Unknown Title"
@@ -124,7 +128,7 @@ class DblpScraper(GeneralScraper):
 
         self.driver_manager.release_tab(i)
         self.logger.info("Completed fetching journal volume data for: %s", volume_url)
-        return journals
+        return {JsonConstants.TAG_JOURNALS: journals}
 
     def extract_articles(self, conference_url):
         self.logger.info("Starting to extract articles from conference: %s", conference_url)
@@ -132,6 +136,10 @@ class DblpScraper(GeneralScraper):
         html_content = self.driver_manager.get_html_of_tab(i)
         soup = BeautifulSoup(html_content, 'html.parser')
         articles_data = []
+
+        breadcrumb_elements = soup.find('div', id='breadcrumbs').find_all('span', itemprop='name')
+        conferences = [element.text.strip() for element in breadcrumb_elements if len(element.text.strip()) <= 5]
+        self.logger.debug("Conferences found: %s", conferences)
 
         conference_title = soup.find('h1').text if soup.find('h1') else 'Unknown Conference'
         self.logger.debug("Conference title found: %s", conference_title)
@@ -144,7 +152,6 @@ class DblpScraper(GeneralScraper):
             for article in articles:
                 title_tag = article.find('span', class_='title')
                 article_title = title_tag.text.strip() if title_tag else 'Unknown Title'
-                conference_short = article_title.split()[0] if article_title else 'Unknown'
 
                 authors = [author.text.strip() for author in article.find_all('span', itemprop='name')]
                 year_tag = article.find('meta', itemprop='datePublished')
@@ -152,14 +159,14 @@ class DblpScraper(GeneralScraper):
 
                 article_data = {
                     'conference_title': conference_title,
-                    'conference': conference_short,
                     'authors': ', '.join(authors),
                     'article_title': article_title,
                     'year': year,
-                    'workshop_name': workshop_name
+                    'workshop_name': workshop_name,
+                    'conferences': conferences  # Add the dynamically extracted list of conference acronyms
                 }
                 articles_data.append(article_data)
 
         self.driver_manager.release_tab(i)
         self.logger.info("Completed extracting articles from conference: %s", conference_url)
-        return articles_data
+        return {JsonConstants.TAG_CONFERENCES: articles_data}

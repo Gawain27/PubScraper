@@ -6,7 +6,7 @@ class JsonConstants:
     TAG_ENTITY: Final = "entity"
     TAG_ENTITY_CID: Final = "entity_cid"
 
-    # Scholarly tags
+    # Scholar tags
     TAG_ORGANIZATION: Final = "organization"
     TAG_EMAIL_DOMAIN: Final = "email_domain"
     TAG_COAUTHORS: Final = "coauthors"
@@ -14,7 +14,10 @@ class JsonConstants:
     TAG_PUB_ID: Final = "author_pub_id"
     TAG_ALL_VERSIONS: Final = "all_versions_url"
 
-
+    # Dblp tags
+    TAG_JOURNALS: Final = "journals"
+    TAG_CONFERENCES: Final = "conferences"
+    TAG_TYPE: Final = "type"
 
     # server load constants
     TAG_DB_LOAD: Final = "db_load"

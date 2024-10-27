@@ -2,7 +2,7 @@ import logging
 from datetime import datetime, timedelta
 from typing import Final
 
-from couchdb import ResourceNotFound, ServerError, Unauthorized, Server, Document
+from couchdb import Document
 
 from net.gwngames.pubscraper.constants.EntityCidConstants import EntityCidConstants
 from net.gwngames.pubscraper.constants.EntityVidConstants import EntityVidConstants
@@ -10,7 +10,7 @@ from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
 from net.gwngames.pubscraper.constants.MessageConstants import MessageConstants
 from net.gwngames.pubscraper.constants.PriorityConstants import PriorityConstants
-from net.gwngames.pubscraper.msg.scraper.scholar.FetchScholarData import FetchScholarlyData
+from net.gwngames.pubscraper.msg.scraper.FetchScholarData import FetchScholarlyData
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scraper.adapter.AdapterPropertiesConstants import AdapterPropertiesConstants
 from net.gwngames.pubscraper.scraper.adapter.GeneralDataAdapter import GeneralDataAdapter
@@ -20,10 +20,7 @@ from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
 
 class ScholarlyDataFetcher(GeneralDataFetcher):
-    BASE_URL: Final = "https://scholar.google.com"
-    PUBLICATION_SALT: Final = ['author_pub_id', 'bib.pub_year', 'bib.title']
     CIT_ART_SALT: Final = ['bib.title']
-    AUTHOR_SALT: Final = ['scholar_id', 'name']
     INTERFACE_ID: Final = 'google_scholar'
 
     def __init__(self):
@@ -31,22 +28,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
         self.logger = logging.getLogger(self.__class__.__name__)
         logging.basicConfig(level=LoggingConstants.SCHOLARLY_DATA_FETCHER)
         self.config = JsonReader(JsonReader.CONFIG_FILE_NAME, parent=self.INTERFACE_ID)
-
         self.db = self.get_or_create_db(self.ctx.get_dbclient(), self.INTERFACE_ID)
-
-    def get_or_create_db(self, client: Server, db_name):
-        try:
-            db = client[db_name]
-        except ResourceNotFound:
-            self.logger.info(f"Database {db_name} not found. Creating new database.")
-            db = client.create(db_name)
-        except Unauthorized:
-            self.logger.error("Unauthorized access to CouchDB. Check your credentials.")
-            raise
-        except ServerError as e:
-            self.logger.error(f"Server error: {e}")
-            raise
-        return db
 
     def get_interface_id(self):
         return self.INTERFACE_ID
@@ -70,7 +52,7 @@ class ScholarlyDataFetcher(GeneralDataFetcher):
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, ScholarScraper().scrape_all_versions)
             adapter.add_property(AdapterPropertiesConstants.MULTI_RESULT, True)
         else:
-            raise Exception("Scholarly - unknown adapter: " + str(adapter_code))
+            raise Exception("Scholar - unknown adapter: " + str(adapter_code))
 
         if opt_arg is not None:
             adapter.add_property(AdapterPropertiesConstants.ALT_ITERABLE, opt_arg)

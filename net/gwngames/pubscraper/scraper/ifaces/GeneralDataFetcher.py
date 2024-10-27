@@ -2,10 +2,11 @@ import json
 import logging
 import threading
 import traceback
+from abc import abstractmethod
 from datetime import datetime, timedelta
 from typing import Any
 
-from couchdb import Database, Document
+from couchdb import Database, Document, Server, ResourceNotFound, Unauthorized, ServerError
 
 from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
@@ -29,6 +30,21 @@ class GeneralDataFetcher:
         self.adapter_list = []
         self.priorities_map = {}
 
+    def get_or_create_db(self, client: Server, db_name):
+        try:
+            db = client[db_name]
+        except ResourceNotFound:
+            self.logger.info(f"Database {db_name} not found. Creating new database.")
+            db = client.create(db_name)
+        except Unauthorized:
+            self.logger.error("Unauthorized access to CouchDB. Check your credentials.")
+            raise
+        except ServerError as e:
+            self.logger.error(f"Server error: {e}")
+            raise
+        return db
+
+    @abstractmethod
     def generate_fetch_adapter(self, adapter_code: int, opt_arg: list = None) -> GeneralDataAdapter:
         pass
 
@@ -40,12 +56,15 @@ class GeneralDataFetcher:
         ).start()
 
     # methods must implement loop for scraping for each object, stop signal is given by queue
+    @abstractmethod
     def _start_interface_collectors(self, opt_arg: list = None):
         pass
 
+    @abstractmethod
     def get_interface_id(self) -> str:
         pass
 
+    @abstractmethod
     def get_key_fields(self, entity_cid: int) -> list[str]:
         pass
 
@@ -161,6 +180,7 @@ class GeneralDataFetcher:
             self.logger.error(traceback.format_exc())
             raise e
 
+    @abstractmethod
     def prepare_next_phase(self, phase_ref: int, current_entity: Document) -> tuple[list[GeneralDataAdapter], dict]:
         return self.adapter_list, self.priorities_map
 
@@ -240,12 +260,15 @@ class GeneralDataFetcher:
             return True
         return False
 
-    def generate_adapter_with_prio(self, ref: int, prio: int, param: Any, expected_id: str):
+    def generate_adapter_with_prio(self, ref: int, prio: int, param: Any, expected_id: str, fetcher=None):
         if param is None:
             self.logger.warning(f"None FX parameter found: {ref} - {prio}")
             return
 
-        tmp_adapter = self.generate_fetch_adapter(ref)
+        if fetcher is not None:
+            tmp_adapter = fetcher.generate_fetch_adapter(ref)
+        else:
+            tmp_adapter = self.generate_fetch_adapter(ref)
 
         if isinstance(param, list):
             if len(param) == 0:
@@ -258,5 +281,6 @@ class GeneralDataFetcher:
         self.adapter_list.append(tmp_adapter)
         self.priorities_map[tmp_adapter] = prio
 
+    @abstractmethod
     def get_variant_type(self) -> int:
         pass

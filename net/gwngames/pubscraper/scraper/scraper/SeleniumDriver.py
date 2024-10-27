@@ -13,6 +13,7 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.support.wait import WebDriverWait
 from twocaptcha import TwoCaptcha
 
+from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.constants.CaptchaConstants import CaptchaActionConstants, CaptchaConstants
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.exception.IgnoreCaptchaException import IgnoreCaptchaException
@@ -30,9 +31,9 @@ class SeleniumDriver:
             raise Exception("This class is a singleton! Use 'get_instance()' instead.")
 
         self.logger = logging.getLogger(SeleniumDriver.__name__)
+        self.ctx = Context()
         self.config = JsonReader(JsonReader.CONFIG_FILE_NAME)
-        self.number_of_interfaces = len(self.config.get_value(ConfigConstants.INTERFACES_ENABLED).split(','))
-        self.number_of_tabs = self.config.get_value(ConfigConstants.MAX_IFACE_REQUESTS) * int(self.number_of_interfaces)
+        self.number_of_tabs = self.ctx.get_max_requests()
         self.available_tabs = {}
         for i in range(self.number_of_tabs):
             self.available_tabs[i] = True

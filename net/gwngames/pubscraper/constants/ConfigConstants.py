@@ -20,6 +20,7 @@ class ConfigConstants:
     MAX_LOGFILE_LINES: Final = "max_logfile_lines"
     LOG_FILENAME: Final = 'pubscraper.log'
     INTERFACES_ENABLED: Final = 'interfaces_enabled'
+    SUB_INTERFACES_ENABLED: Final = 'sub_interfaces_enabled'
     MAX_BUFFER_RETRIES: Final = 'max_buffer_retries'
     RETRY_TIME_SEC: Final = 'retry_time_sec'
     ACCEPTABLE_LOAD: Final = 'acceptable_load'

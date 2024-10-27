@@ -4,6 +4,9 @@ import threading
 
 from couchdb import Server
 
+from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.utils.StringUtils import StringUtils
+
 
 class Context:
     _instance = None
@@ -69,3 +72,20 @@ class Context:
         with self._lock:
             self._client = client
             self.logger.info("Context added: Set current DB client")
+
+    def get_active_interfaces(self) -> list[str]:
+        main = self.get_main_interfaces()
+        sub = self.get_sub_interfaces()
+        return main + sub
+
+    def get_main_interfaces(self) -> list:
+        main = self.get_config().get_value(ConfigConstants.INTERFACES_ENABLED)
+        return StringUtils.process_string(main)
+
+    def get_sub_interfaces(self) -> list:
+        sub = self.get_config().get_value(ConfigConstants.SUB_INTERFACES_ENABLED)
+        return StringUtils.process_string(sub)
+
+    def get_max_requests(self) -> int:
+        reqs = self.get_config().get_value(ConfigConstants.MAX_IFACE_REQUESTS)
+        return len(self.get_active_interfaces()) * reqs

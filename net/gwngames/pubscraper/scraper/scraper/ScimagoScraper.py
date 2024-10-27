@@ -5,7 +5,7 @@ from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScrape
 
 class ScimagoScraper(GeneralScraper):
 
-    def get_journal_details(self, journal_url):
+    def get_journal_details(self, journal_url) -> dict:
         self.logger.info("Fetching journal details from URL: %s", journal_url)
         i = self.driver_manager.load_url_in_available_tab(journal_url, 'journal_details')
         html = self.driver_manager.get_html_of_tab(i)

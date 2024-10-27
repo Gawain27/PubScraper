@@ -13,13 +13,8 @@ class MessageConstants:
     MSG_SCRAPE_LEAF: Final = "scrapeLeaf"
 
     #  Scraper messages -- Interface
-    MSG_SCHOLARLY_AUTHOR: Final = "scholarlyAuthor"
-    MSG_SCHOLARLY_PUB: Final = "scholarlyPublication"
-    MSG_GOOGLE_SCHOLAR_QUERY: Final = "getGoogleScholarEntity"
-    MSG_SCHOLARLY_REL_ARTICLES = "getScholarlyPubRelatedArticles"
-    MSG_SCHOLARLY_CITATIONS = "getScholarlyCitations"
-    MSG_ALL_SCHOLARLY_AUTHORS = "allScholarlyAuthor"
-    MSG_SCHOLARLY_ORG = "scholarlyOrg"
+    MSG_ALL_SCHOLARLY_AUTHORS = "allScholarAuthor"
+    MSG_ALL_DBLP_AUTHORS = "allDblpAuthor"
 
     #  System messages
     MSG_UPDATE_LOAD_STATE: Final = "updateLoadState"

@@ -4,21 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="PubScraper 1.0 - No recovery impl">
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/CoreEduScraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/DblpScraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/ScimagoScraper.py" afterDir="false" />
+    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="Additional scrapers added + synchronization fixes">
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/scraper/FetchCoreEduData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/scraper/FetchDblpData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/scraper/FetchScimagoData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/CoreEduDataFetcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/DblpDataFetcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScimagoDataFetcher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/Context.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/Context.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/ConfigConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/ConfigConstants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/AbstractMessage.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/AbstractMessage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/MasterPriorityQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/MasterPriorityQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/MessageRouter.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/MessageRouter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/EntityCidConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/EntityCidConstants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/EntityVidConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/EntityVidConstants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/JsonConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/JsonConstants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/LoggingConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/LoggingConstants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/MessageConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/MessageConstants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/PriorityConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/PriorityConstants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/scraper/scholar/FetchScholarData.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/msg/scraper/FetchScholarData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/AsyncQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/AsyncQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/ScraperQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scheduling/sender/ScraperQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/WebScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/WebScraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/GeneralDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/GeneralDataFetcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/GeneralScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/GeneralScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScholarDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScholarDataFetcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/CoreEduScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/CoreEduScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/DblpScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/DblpScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/ScholarScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/ScholarScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/ScimagoScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/ScimagoScraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/SeleniumDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/SeleniumDriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/RequestState.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/utils/RequestState.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +178,8 @@
       <workItem from="1728895469707" duration="26588000" />
       <workItem from="1729180280527" duration="45345000" />
       <workItem from="1729787318543" duration="12085000" />
-      <workItem from="1729954978457" duration="4296000" />
+      <workItem from="1729954978457" duration="6987000" />
+      <workItem from="1730019937673" duration="10956000" />
     </task>
     <task id="LOCAL-00001" summary="#47 - Basic structure + general interface unit">
       <option name="closed" value="true" />
@@ -311,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729264567437</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Additional scrapers added + synchronization fixes">
+      <option name="closed" value="true" />
+      <created>1729961458732</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729961458732</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +367,8 @@
     <MESSAGE value="cleaned up JsonReader util" />
     <MESSAGE value="refactor + general data collection" />
     <MESSAGE value="PubScraper 1.0 - No recovery impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="PubScraper 1.0 - No recovery impl" />
+    <MESSAGE value="Additional scrapers added + synchronization fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional scrapers added + synchronization fixes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PubScraper$test.coverage" NAME="test Coverage Results" MODIFIED="1729007059785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper/utils" />

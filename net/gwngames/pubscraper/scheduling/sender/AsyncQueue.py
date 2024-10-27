@@ -81,8 +81,6 @@ class AsyncQueue(queue.Queue):
             f"Managed message for topic '{msg.message_type}': {msg.message_id} - Time: {elapsed_time:.3f} ms.")
         if msg.delayed:
             RequestState(msg.priority).notify_update(msg)
-        if router.routing_threads.__contains__(msg.message_id):
-            router.routing_threads.pop(msg.message_id)
 
     @abstractmethod
     def on_message(self, msg: AbstractMessage) -> None:

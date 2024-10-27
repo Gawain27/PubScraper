@@ -2,6 +2,7 @@ import urllib.parse
 
 from bs4 import BeautifulSoup
 
+from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScraper
 
 
@@ -63,7 +64,7 @@ class CoreEduScraper(GeneralScraper):
 
         self.driver_manager.release_tab(i)
         self.logger.info("Extracted details for %d conferences with acronym %s", len(conference_details), acronym)
-        return conference_details
+        return {JsonConstants.TAG_CONFERENCES, conference_details}
 
     def get_conference_year_details(self, conference_url):
         self.logger.info("Fetching conference details from URL: %s", conference_url)
