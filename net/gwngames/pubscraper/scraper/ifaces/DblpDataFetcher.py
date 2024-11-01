@@ -53,6 +53,7 @@ class DblpDataFetcher(GeneralDataFetcher):
         return adapter
 
     def prepare_next_phase(self, phase_ref: int, current_entity: Document) -> tuple[list[GeneralDataAdapter], dict]:
+        from net.gwngames.pubscraper.constants.InterfaceConstants import InterfaceConstants
         self.adapter_list, self.priorities_map = ([], {})
 
         self.logger.info(f"Preparing next phase for phase_ref: {phase_ref}")
@@ -74,22 +75,26 @@ class DblpDataFetcher(GeneralDataFetcher):
             self.logger.debug("Processing Dblp journal phase")
             journals = current_entity.get(JsonConstants.TAG_JOURNALS, [])
 
-            for journal in journals:
-                self.generate_adapter_with_prio(EntityCidConstants.SCIMAGO_JOURNAL_RANK, PriorityConstants.JOURNAL_RANK_REQ,
-                                                journal['collection_title'], journal['collection_title'], ScimagoDataFetcher())
+            if self.ctx.is_iface_enabled(InterfaceConstants.SCIMAGO_JR):
+                for journal in journals:
+                    self.generate_adapter_with_prio(EntityCidConstants.SCIMAGO_JOURNAL_RANK,
+                                                    PriorityConstants.JOURNAL_RANK_REQ,
+                                                    journal['collection_title'], journal['collection_title'],
+                                                    ScimagoDataFetcher())
 
         elif phase_ref == EntityCidConstants.DBLP_CONFERENCE:
             self.logger.debug("Processing Dblp conference phase")
             conferences = current_entity.get(JsonConstants.TAG_CONFERENCES, [])
 
-            for conf in conferences:
-                acronyms = conf['conferences']
-                for acronym in acronyms:
-                    self.generate_adapter_with_prio(EntityCidConstants.CORE_MAIN_CONFERENCE_RANK,
-                                                    PriorityConstants.CONFERENCE_MAIN_RANK_REQ,
-                                                    acronym, acronym,
-                                                    CoreEduDataFetcher())
-                break  # only first record if exists
+            if self.ctx.is_iface_enabled(InterfaceConstants.CORE_EDU):
+                for conf in conferences:
+                    acronyms = conf['conferences']
+                    for acronym in acronyms:
+                        self.generate_adapter_with_prio(EntityCidConstants.CORE_MAIN_CONFERENCE_RANK,
+                                                        PriorityConstants.CONFERENCE_MAIN_RANK_REQ,
+                                                        acronym, acronym,
+                                                        CoreEduDataFetcher())
+                    break  # only first record if exists
 
         self.logger.info("Completed preparing next phase for phase_ref: {phase_ref}")
         return super(DblpDataFetcher, self).prepare_next_phase(phase_ref, current_entity)

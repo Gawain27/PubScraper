@@ -10,6 +10,7 @@ from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 class SynchroSocket:
     _instances = {}
     lock = threading.Lock()
+    logger = logging.getLogger('SynchroSocket')
     socket = None
     port = None
 
@@ -20,7 +21,7 @@ class SynchroSocket:
                 cls._instances[port].port = port
                 cls._instances[port].socket = None  # Initialize socket attribute
                 cls._instances[port].lock = threading.Lock()  # Lock for socket operations
-                logging.info(f'Created new SynchroSocket instance for port {port}')
+                SynchroSocket.logger.info(f'Created new SynchroSocket instance for port {port}')
             return cls._instances[port]
 
     def connect_to_java_socket(self):
@@ -29,9 +30,9 @@ class SynchroSocket:
             try:
                 self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 self.socket.connect((config.get_value(ConfigConstants.SERVER_URL), self.port))
-                logging.info(f'Connected to Java socket on port {self.port}')
+                SynchroSocket.logger.info(f'Connected to Java socket on port {self.port}')
             except Exception as e:
-                logging.error(f'Error connecting to Java socket on port {self.port}: {e}')
+                SynchroSocket.logger.error(f'Error connecting to Java socket on port {self.port}: {e}')
 
     def send_message(self, message: bytes):
         with self.lock:
@@ -40,12 +41,12 @@ class SynchroSocket:
             try:
                 full_message = message + '\n'.encode("utf-8")  # Append newline as message delimiter
                 self.socket.sendall(full_message)
-                logging.debug(f'Sent message to Java socket on port {self.port}: {message}')
+                SynchroSocket.logger.debug(f'Sent message to Java socket on port {self.port}: {message}')
                 return
             except ConnectionAbortedError:
                 time.sleep(3)
             except Exception as e:
-                logging.error(f'Error sending message to Java socket on port {self.port}: {e}')
+                SynchroSocket.logger.error(f'Error sending message to Java socket on port {self.port}: {e}')
                 raise e
         self.send_message(message)
 
@@ -76,7 +77,7 @@ class SynchroSocket:
                         continue
 
                 except Exception as e:
-                    logging.error(f'Error receiving message from Java socket on port {self.port}: {e}')
+                    SynchroSocket.logger.error(f'Error receiving message from Java socket on port {self.port}: {e}')
                     break
 
             # After exiting the loop, yield any remaining message in the buffer

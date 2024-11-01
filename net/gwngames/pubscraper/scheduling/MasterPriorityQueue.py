@@ -1,6 +1,8 @@
 import queue
+import threading
 from typing import Tuple
 
+from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 
 
@@ -9,6 +11,8 @@ class MasterPriorityQueue(queue.PriorityQueue):
     Class MasterPriorityQueue - A singleton priority queue with methods to send and receive prioritized items.
     """
     _instance = None
+    _message_count = 0
+    _lock = threading.Lock()  # Lock to prevent simultaneous access during priority adjustment
 
     def __new__(cls, *args, **kwargs):
         if not cls._instance:
@@ -21,16 +25,42 @@ class MasterPriorityQueue(queue.PriorityQueue):
             return
         super(MasterPriorityQueue, self).__init__(*args, **kwargs)
         self.__initialized = True
+        self.ctx = Context()
+        self.adjustment_interval = len(self.ctx.get_active_interfaces())
 
-    def send(self, priority: int, message: AbstractMessage, subqueue: queue.Queue):
+    def send(self, priority: int, message: 'AbstractMessage', subqueue: queue.Queue):
         """
         Enqueue a message with a specific priority and subqueue.
         """
-        message.priority = priority
-        self.put((priority, message, subqueue))  # Ensures messages are prioritized
+        with self._lock:
+            message.priority = priority
+            self.put((priority, message, subqueue))
 
     def receive(self, block: bool = True, timeout: float | None = None) -> Tuple[int, 'AbstractMessage', queue.Queue]:
         """
         Get the highest-priority (lowest-number) item from the queue.
         """
-        return self.get(block, timeout)
+        item = self.get(block, timeout)
+        self._message_count += 1
+
+        # After max_req executed, decrease the priority of all messages in the queue and reset the counter
+        if self._message_count >= self.adjustment_interval:
+            with self._lock:
+                self._decrease_priorities()
+            self._message_count = 0
+
+        return item
+
+    def _decrease_priorities(self):
+        """
+        Decreases the priority of all messages in the queue by one.
+        """
+        temp_items = []
+
+        while not self.empty():
+            priority, message, subqueue = self.get()
+            new_priority = priority + 1
+            temp_items.append((new_priority, message, subqueue))
+
+        for item in temp_items:
+            self.put(item)

@@ -9,12 +9,14 @@ from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.scraper.NameFetcher import NameFetcher
 from net.gwngames.pubscraper.scraper.ifaces.DblpDataFetcher import DblpDataFetcher
 from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
-from net.gwngames.pubscraper.scraper.ifaces.ScholarDataFetcher import ScholarlyDataFetcher
+from net.gwngames.pubscraper.scraper.ifaces.ScholarDataFetcher import ScholarDataFetcher
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.StringUtils import StringUtils
 
 
 class WebScraper:
+    logger = logging.getLogger('WebScraper')
+
     class SemicolonFoundException(Exception):
         pass
 
@@ -25,7 +27,7 @@ class WebScraper:
         if self.thread is None:
             self.thread = threading.Thread(target=self.scrape_interfaces(), daemon=True)
             self.thread.start()
-            logging.debug("Massive General Scraping started")
+            WebScraper.logger.debug("Massive General Scraping started")
 
     @staticmethod
     def scrape_interfaces():
@@ -44,17 +46,19 @@ class WebScraper:
             random.shuffle(scraping_authors)
         # -------------------
         interface_names = Context().get_main_interfaces()
+        WebScraper.logger.info("Main interfaces enabled: " + str(interface_names))
+        WebScraper.logger.info("Sub interfaces enabled: " + str(Context().get_sub_interfaces()))
 
         for name in interface_names:
             iface: type = GeneralDataFetcher.get_data_fetcher_class(name)
             if iface is None:
-                logging.warning(f"Interface {name} is not supported")
+                WebScraper.logger.warning(f"Interface {name} is not supported")
                 continue
 
             iface_instance = iface()
-            logging.info("Fetching for %s - Authors: %s", iface.__name__, scraping_authors)
+            WebScraper.logger.info("Fetching for %s - Authors: %s", iface.__name__, scraping_authors)
 
-            if isinstance(iface_instance, ScholarlyDataFetcher):
+            if isinstance(iface_instance, ScholarDataFetcher):
                 iface_instance.start_interface_fetching(opt_arg=scraping_authors)
             elif isinstance(iface_instance, DblpDataFetcher):
                 iface_instance.start_interface_fetching(opt_arg=scraping_authors)

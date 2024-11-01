@@ -2,10 +2,8 @@ import gzip
 import json
 import logging
 import math
-import pickle
 import random
 import time
-from typing import Any
 
 from couchdb import Database
 
@@ -27,6 +25,7 @@ class PackagingUnit:
         """
         self.load_state = LoadState()
         self.ctx = Context()
+        self.logger = logging.getLogger('PackagingUnit')
 
     @staticmethod
     def compress_json(obj: dict) -> bytes:
@@ -93,12 +92,12 @@ class PackagingUnit:
         while retries < max_retries:
             load_percentage = self.load_state.load_perc
             if load_percentage < acceptable_load:
-                logging.debug(f"Message: {msg.content} - Load is {load_percentage}%. No need to sleep.")
+                self.logger.debug(f"Message: {msg.content} - Load is {load_percentage}%. No need to sleep.")
                 break
 
             threshold = self.ctx.get_config().get_value(ConfigConstants.DELAY_THRESHOLD)
             sleep_duration = self.calculate_sleep_duration(load_percentage, threshold, retries)
-            logging.debug(f"Message: {msg.content} - Load is {load_percentage}%. Sleeping for {sleep_duration:.2f} seconds.")
+            self.logger.debug(f"Message: {msg.content} - Load is {load_percentage}%. Sleeping for {sleep_duration:.2f} seconds.")
             time.sleep(sleep_duration)
             retries += 1
 

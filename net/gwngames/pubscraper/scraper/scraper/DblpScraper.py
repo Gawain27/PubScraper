@@ -24,7 +24,7 @@ class DblpScraper(GeneralScraper):
 
         if not author_link_element:
             self.logger.warning("No author profile found for %s", author_name)
-            return []
+            return {}
 
         author_profile_link = author_link_element.get("href")
         self.logger.info("Found author profile link: %s", author_profile_link)
@@ -52,7 +52,7 @@ class DblpScraper(GeneralScraper):
             # Extract publication details
             title = item.find(class_="title").get_text(strip=True)
             year = item.find_previous_sibling("li", class_="year").get_text(strip=True)
-            link = item.select_one("nav.publ li.ee a").get("href")
+            link = item.select_one("cite > a:last-of-type").get("href")
             authors = [author.get_text(strip=True) for author in
                        item.select("span[itemprop='author'] span[itemprop='name']")]
 

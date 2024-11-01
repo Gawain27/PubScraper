@@ -6,11 +6,35 @@ from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScrape
 class ScimagoScraper(GeneralScraper):
 
     def get_journal_details(self, journal_url) -> dict:
-        self.logger.info("Fetching journal details from URL: %s", journal_url)
+        journal = journal_url
+        self.logger.info("Fetching journal details for: %s", journal_url)
+        journal_url = "https://www.scimagojr.com/journalsearch.php?q=" + journal_url.replace(' ', '+')
         i = self.driver_manager.load_url_in_available_tab(journal_url, 'journal_details')
         html = self.driver_manager.get_html_of_tab(i)
 
         soup = BeautifulSoup(html, 'html.parser')
+
+        search_results = soup.find('div', class_='search_results')
+        if not search_results:
+            self.logger.info("No search results found for: %s", journal)
+            return {}
+
+        found = False
+        for link in search_results.find_all('a', href=True):
+            journal_name = link.find('span', class_='jrnlname').get_text(strip=True)
+
+            if journal_name.lower() == journal:
+                url = 'https://www.scimagojr.com//' + link['href']  # Base URL or modify as needed
+                self.driver_manager.load_url_in_available_tab(url, 'journal_details', prev_ind=i)
+                found = True
+
+        if found is False:
+            self.logger.info("Not found: %s", journal)
+            return {}
+        # Journal details
+        html = self.driver_manager.get_html_of_tab(self, i)
+        soup = BeautifulSoup(html, 'html.parser')
+
         journal_details = {"title": soup.find("h1").get_text(strip=True)}
 
         country_section = soup.find("h2", text="Country")

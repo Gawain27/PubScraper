@@ -64,7 +64,7 @@ class CoreEduScraper(GeneralScraper):
 
         self.driver_manager.release_tab(i)
         self.logger.info("Extracted details for %d conferences with acronym %s", len(conference_details), acronym)
-        return {JsonConstants.TAG_CONFERENCES, conference_details}
+        return {JsonConstants.TAG_CONFERENCES: conference_details}
 
     def get_conference_year_details(self, conference_url):
         self.logger.info("Fetching conference details from URL: %s", conference_url)

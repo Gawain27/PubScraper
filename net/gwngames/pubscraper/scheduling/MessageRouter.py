@@ -5,6 +5,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from typing import Any
 
+from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
@@ -32,8 +33,8 @@ class MessageRouter:
             return
         self.__initialized = True
         self.started_at = datetime.datetime.now()
-        self.incoming_queue = MasterPriorityQueue()
         self.config = JsonReader(JsonReader.CONFIG_FILE_NAME)
+        self.incoming_queue = MasterPriorityQueue()
         self.logger = logging.getLogger(MessageRouter.__name__)
         self.MAX_ACTIVE_THREADS = self.config.get_value(ConfigConstants.MAX_ACTIVE_THREADS)
         self.executor = ThreadPoolExecutor(max_workers=self.MAX_ACTIVE_THREADS)

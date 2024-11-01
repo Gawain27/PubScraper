@@ -181,33 +181,42 @@ class SeleniumDriver:
         self.logger.info(
             f"Initialized {self.number_of_tabs} tabs for {self.config.get_value(ConfigConstants.BROWSER_TYPE)}.")
 
-    def load_url_in_available_tab(self, url, url_type, possible_captcha = None):
+    def _load_url(self, index_tab, possible_captcha, url):
+        self.driver.switch_to.window(self.window_handles[index_tab])
+        self.driver.get(url)
+        WebDriverWait(self.driver, self.timeout).until(
+            lambda x: self.driver.execute_script("return document.readyState") == "complete")
+        self.check_for_captcha(index_tab, possible_captcha)
+        self._condition.notify_all()  # Notify other threads
+
+    def load_url_in_available_tab(self, url, url_type, possible_captcha=None, prev_ind=None):
         index_tab = None
         try:
             while True:
                 with self._condition:
                     # Check if a tab is already assigned for this url_type
-                    if url_type in self.tab_to_url_type.values():
+                    if prev_ind is None and url_type in self.tab_to_url_type.values():
                         self._condition.wait()
                         continue  # Retry after waiting
 
                     # Critical section to ensure only one thread can select an available tab
-                    for i, is_available in self.available_tabs.items():
-                        if is_available:
-                            # Mark tab as unavailable and assign the url_type to this tab
-                            self.available_tabs[i] = False
-                            self.tab_to_url_type[i] = url_type
-                            index_tab = i
-                            break  # Exit the loop once a tab is assigned
+                    if prev_ind is None:
+                        for i, is_available in self.available_tabs.items():
+                            if is_available:
+                                # Mark tab as unavailable and assign the url_type to this tab
+                                self.available_tabs[i] = False
+                                self.tab_to_url_type[i] = url_type
+                                index_tab = i
+                                break  # Exit the loop once a tab is assigned
+
+                    if prev_ind is not None:
+                        index_tab = prev_ind
+                        self._load_url(prev_ind, possible_captcha, url)
+                        break  # Exit the while loop once a tab is resynched
 
                     if index_tab is not None:
-                        self.driver.switch_to.window(self.window_handles[index_tab])
-                        self.driver.get(url)
-                        WebDriverWait(self.driver, self.timeout).until(
-                            lambda x: self.driver.execute_script("return document.readyState") == "complete")
-                        self.check_for_captcha(index_tab, possible_captcha)
-                        self._condition.notify_all()  # Notify other threads
-                        break  # Exit the while loop once a tab is successfully assigned
+                        self._load_url(index_tab, possible_captcha, url)
+                        break
 
                     # If no tabs are available, wait for a tab to be released
                     self._condition.wait()

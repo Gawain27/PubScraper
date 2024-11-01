@@ -13,7 +13,7 @@ from net.gwngames.pubscraper.msg.scraper.FetchScimagoData import FetchScimagoDat
 from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
 from net.gwngames.pubscraper.scraper.ifaces.CoreEduDataFetcher import CoreEduDataFetcher
 from net.gwngames.pubscraper.scraper.ifaces.DblpDataFetcher import DblpDataFetcher
-from net.gwngames.pubscraper.scraper.ifaces.ScholarDataFetcher import ScholarlyDataFetcher
+from net.gwngames.pubscraper.scraper.ifaces.ScholarDataFetcher import ScholarDataFetcher
 from net.gwngames.pubscraper.scraper.ifaces.ScimagoDataFetcher import ScimagoDataFetcher
 
 
@@ -39,7 +39,7 @@ class ScraperQueue(AsyncQueue):
             self.logger.info(f"Processing message {msg.message_id} of type {msg.message_type}: {msg.content}"
                          f" - with depth {msg.depth if msg.depth is not None else 'None'}")
             if isinstance(msg, FetchScholarlyData):
-                ScholarlyDataFetcher().fetch_general_data(msg)
+                ScholarDataFetcher().fetch_general_data(msg)
             elif isinstance(msg, FetchDblpData):
                 DblpDataFetcher().fetch_general_data(msg)
             elif isinstance(msg, FetchScimagoData):
