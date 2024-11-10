@@ -3,6 +3,7 @@ import threading
 from typing import Tuple
 
 from net.gwngames.pubscraper.Context import Context
+from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 
 
@@ -27,6 +28,7 @@ class MasterPriorityQueue(queue.PriorityQueue):
         self.__initialized = True
         self.ctx = Context()
         self.adjustment_interval = len(self.ctx.get_active_interfaces())
+        self.avg_depth = self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX)
 
     def send(self, priority: int, message: 'AbstractMessage', subqueue: queue.Queue):
         """
@@ -53,13 +55,14 @@ class MasterPriorityQueue(queue.PriorityQueue):
 
     def _decrease_priorities(self):
         """
-        Decreases the priority of all messages in the queue by one.
+        Decreases the priority of all messages in the queue by a depth based value.
         """
         temp_items = []
 
         while not self.empty():
             priority, message, subqueue = self.get()
-            new_priority = priority + 1
+            message: AbstractMessage
+            new_priority = priority - self.avg_depth + message.depth
             temp_items.append((new_priority, message, subqueue))
 
         for item in temp_items:

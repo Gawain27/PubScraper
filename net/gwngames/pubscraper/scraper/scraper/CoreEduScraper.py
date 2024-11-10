@@ -22,7 +22,7 @@ class CoreEduScraper(GeneralScraper):
         if not table:
             self.logger.warning("No conference table found on page.")
             self.driver_manager.release_tab(i)
-            return []
+            return {}
 
         conference_details = []
 

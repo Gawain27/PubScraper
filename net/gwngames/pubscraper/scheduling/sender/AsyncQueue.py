@@ -8,7 +8,6 @@ from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
-from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.utils.ClassUtils import ClassUtils
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.RequestState import RequestState
@@ -25,9 +24,8 @@ class AsyncQueue(queue.Queue):
         self.message_stats = JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME, parent=self.register_me().__name__)
         self.register_queue()
 
-    def process_message(self, router: MessageRouter, msg: AbstractMessage):
+    def process_message(self, msg: AbstractMessage):
         """
-        :param router: The `MessageRouter` object that handles message routing.
         :param msg: The `AbstractMessage` object to process.
         :return: None
 

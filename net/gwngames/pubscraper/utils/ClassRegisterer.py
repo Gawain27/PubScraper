@@ -1,7 +1,6 @@
 #
 #  Various registerers are created here, they are not many
 #
-from net.gwngames.pubscraper.scraper.ifaces.ScholarDataFetcher import ScholarDataFetcher
 from net.gwngames.pubscraper.utils.DataRegisterer import DataRegisterer
 
 

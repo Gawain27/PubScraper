@@ -173,6 +173,7 @@ class GeneralDataFetcher:
 
             for next_adapter, prio in zip(next_adapters, next_prio.values()):
                 next_message = data.__class__(data.__class__.__name__, adapter=next_adapter)
+                next_message.depth = data.depth + 1
                 MessageRouter.later_in(next_message, priority=prio)
 
         except Exception as e:

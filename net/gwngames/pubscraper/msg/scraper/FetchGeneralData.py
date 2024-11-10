@@ -12,6 +12,7 @@ class FetchGeneralData(BaseMessage):
                          adapter.get_property(AdapterPropertiesConstants.PHASE_REF), timestamp)
         self.adapter: GeneralDataAdapter = adapter
         self.destination_queue = QueueConstants.SCRAPER_QUEUE
+        self.depth = 0
 
     def get_group_key(self) -> str:
         return str(self.adapter.get_property(AdapterPropertiesConstants.PHASE_REF))

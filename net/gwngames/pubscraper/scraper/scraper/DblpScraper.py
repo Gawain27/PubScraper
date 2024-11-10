@@ -12,13 +12,11 @@ class DblpScraper(GeneralScraper):
         base_url = "https://dblp.org/search?q="
         search_url = base_url + urllib.parse.quote(author_name)
 
-        # Load the search page
         self.logger.debug("Loading search URL: %s", search_url)
         i = self.driver_manager.load_url_in_available_tab(search_url, 'dblp_pubs')
         search_content = self.driver_manager.get_html_of_tab(i)
         search_soup = BeautifulSoup(search_content, "html.parser")
 
-        # Locate author profile link
         author_link_element = search_soup.select_one("div#completesearch-authors .result-list li a")
         self.driver_manager.release_tab(i)
 
@@ -29,7 +27,6 @@ class DblpScraper(GeneralScraper):
         author_profile_link = author_link_element.get("href")
         self.logger.info("Found author profile link: %s", author_profile_link)
 
-        # Fetch the author's profile page
         i = self.driver_manager.load_url_in_available_tab(author_profile_link, 'dblp_pubs')
         profile_content = self.driver_manager.get_html_of_tab(i)
         profile_soup = BeautifulSoup(profile_content, "html.parser")
@@ -138,7 +135,7 @@ class DblpScraper(GeneralScraper):
         articles_data = []
 
         breadcrumb_elements = soup.find('div', id='breadcrumbs').find_all('span', itemprop='name')
-        conferences = [element.text.strip() for element in breadcrumb_elements if len(element.text.strip()) <= 5]
+        conferences = [element.text.strip() for element in breadcrumb_elements if len(element.text.strip()) <= 5 and not element.text.__contains__('Home')]
         self.logger.debug("Conferences found: %s", conferences)
 
         conference_title = soup.find('h1').text if soup.find('h1') else 'Unknown Conference'

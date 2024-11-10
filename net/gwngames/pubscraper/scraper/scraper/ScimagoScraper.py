@@ -6,33 +6,36 @@ from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScrape
 class ScimagoScraper(GeneralScraper):
 
     def get_journal_details(self, journal_url) -> dict:
-        journal = journal_url
+        journal = journal_url.lower().strip()
         self.logger.info("Fetching journal details for: %s", journal_url)
-        journal_url = "https://www.scimagojr.com/journalsearch.php?q=" + journal_url.replace(' ', '+')
-        i = self.driver_manager.load_url_in_available_tab(journal_url, 'journal_details')
-        html = self.driver_manager.get_html_of_tab(i)
 
+        search_url = "https://www.scimagojr.com/journalsearch.php?q=" + journal_url.replace(' ', '+')
+        i = self.driver_manager.load_url_in_available_tab(search_url, 'journal_details')
+        html = self.driver_manager.get_html_of_tab(i)
         soup = BeautifulSoup(html, 'html.parser')
 
         search_results = soup.find('div', class_='search_results')
         if not search_results:
             self.logger.info("No search results found for: %s", journal)
+            self.driver_manager.release_tab(i)
             return {}
 
+        # Iterate through the results to find a matching journal
         found = False
         for link in search_results.find_all('a', href=True):
-            journal_name = link.find('span', class_='jrnlname').get_text(strip=True)
-
-            if journal_name.lower() == journal:
-                url = 'https://www.scimagojr.com//' + link['href']  # Base URL or modify as needed
-                self.driver_manager.load_url_in_available_tab(url, 'journal_details', prev_ind=i)
+            journal_name = link.find('span', class_='jrnlname').get_text(strip=True).lower()
+            if journal_name == journal:
+                detail_url = 'https://www.scimagojr.com/' + link['href']
+                self.driver_manager.load_url_in_available_tab(detail_url, 'journal_details', prev_ind=i)
                 found = True
+                break
 
-        if found is False:
+        if not found:
             self.logger.info("Not found: %s", journal)
+            self.driver_manager.release_tab(i)
             return {}
-        # Journal details
-        html = self.driver_manager.get_html_of_tab(self, i)
+
+        html = self.driver_manager.get_html_of_tab(i)
         soup = BeautifulSoup(html, 'html.parser')
 
         journal_details = {"title": soup.find("h1").get_text(strip=True)}
@@ -71,11 +74,7 @@ class ScimagoScraper(GeneralScraper):
 
         information_section = soup.find("h2", text="Information")
         links = information_section.find_next_siblings("p") if information_section else []
-        journal_details["information_links"] = {
-            "homepage": "None",
-            "submission": "None",
-            "contact_email": "None"
-        }
+        journal_details["information_links"] = {"homepage": "None", "submission": "None", "contact_email": "None"}
         for link in links:
             if "Homepage" in link.get_text(strip=True):
                 journal_details["information_links"]["homepage"] = link.find_next("a")["href"]
@@ -85,8 +84,9 @@ class ScimagoScraper(GeneralScraper):
                 journal_details["information_links"]["contact_email"] = link.get_text(strip=True)
 
         scope_section = soup.find("h2", text="Scope")
-        journal_details["scope"] = scope_section.find_next("div", class_="fullwidth").get_text(
-            strip=True) if scope_section else "Unknown"
+        scope = scope_section.find_next("div", class_="fullwidth") if scope_section else None
+        journal_details["scope"] = scope.get_text(
+            strip=True) if scope else "Unknown"
 
         quartile_data = []
         quartile_table = soup.find("table")
@@ -102,3 +102,4 @@ class ScimagoScraper(GeneralScraper):
         self.driver_manager.release_tab(i)
         self.logger.info("Completed extraction for journal URL: %s", journal_url)
         return journal_details
+

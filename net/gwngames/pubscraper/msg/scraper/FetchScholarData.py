@@ -1,7 +1,6 @@
 import datetime
 
 from net.gwngames.pubscraper.msg.scraper.FetchGeneralData import FetchGeneralData
-from net.gwngames.pubscraper.scraper.adapter.AdapterPropertiesConstants import AdapterPropertiesConstants
 from net.gwngames.pubscraper.scraper.adapter.GeneralDataAdapter import GeneralDataAdapter
 
 

@@ -65,7 +65,7 @@ class MessageRouter:
         """
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
         message_queue: AsyncQueue = message_queue
-        message_queue.process_message(self, message)  # Directly call the queue's process method
+        message_queue.process_message(message)  # Directly call the queue's process method
 
     def send_message(self, message: AbstractMessage, priority=0, depth=None):
         """
