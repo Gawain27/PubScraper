@@ -1,4 +1,3 @@
-import logging
 from typing import Final
 
 from net.gwngames.pubscraper.comm.OutSender import OutSender

@@ -30,9 +30,9 @@ class SynchroSocket:
             try:
                 self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 self.socket.connect((config.get_value(ConfigConstants.SERVER_URL), self.port))
-                SynchroSocket.logger.info(f'Connected to Java socket on port {self.port}')
+                SynchroSocket.logger.info(f'Connected to socket on port {self.port}')
             except Exception as e:
-                SynchroSocket.logger.error(f'Error connecting to Java socket on port {self.port}: {e}')
+                SynchroSocket.logger.error(f'Error connecting to socket on port {self.port}: {e}')
 
     def send_message(self, message: bytes):
         with self.lock:
@@ -41,12 +41,12 @@ class SynchroSocket:
             try:
                 full_message = message + '\n'.encode("utf-8")  # Append newline as message delimiter
                 self.socket.sendall(full_message)
-                SynchroSocket.logger.debug(f'Sent message to Java socket on port {self.port}: {message}')
+                SynchroSocket.logger.debug(f'Sent message to socket on port {self.port}: {message}')
                 return
             except ConnectionAbortedError:
                 time.sleep(3)
             except Exception as e:
-                SynchroSocket.logger.error(f'Error sending message to Java socket on port {self.port}: {e}')
+                SynchroSocket.logger.error(f'Error sending message to socket on port {self.port}: {e}')
                 raise e
         self.send_message(message)
 

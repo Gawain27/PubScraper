@@ -1,105 +1,119 @@
-from bs4 import BeautifulSoup
-
+from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScraper
 
 
 class ScimagoScraper(GeneralScraper):
+    year = 1999  # Static years, every publication beging at this point, incremental only
 
-    def get_journal_details(self, journal_url) -> dict:
-        journal = journal_url.lower().strip()
-        self.logger.info("Fetching journal details for: %s", journal_url)
+    def get_journals_from_page(self, area):
+        """
+        Retrieves journal data for the given year, area, and page number from SCImago Journal Rank.
+        """
+        import re
+        from bs4 import BeautifulSoup
 
-        search_url = "https://www.scimagojr.com/journalsearch.php?q=" + journal_url.replace(' ', '+')
-        i = self.driver_manager.load_url_in_available_tab(search_url, 'journal_details')
-        html = self.driver_manager.get_html_of_tab(i)
-        soup = BeautifulSoup(html, 'html.parser')
+        base_url = "https://www.scimagojr.com/journalrank.php"
+        target_url = f"{base_url}?year={ScimagoScraper.year}&area={area}&page={self.ctx.get_config().get_value(ConfigConstants.SCIMAGO_STARTING_PAGE)}"
+        self.logger.info("Fetching journals from URL: %s", target_url)
 
-        search_results = soup.find('div', class_='search_results')
-        if not search_results:
-            self.logger.info("No search results found for: %s", journal)
+        try:
+            i = self.driver_manager.load_url_in_available_tab(target_url, 'scimago_journals')
+            page_content = self.driver_manager.get_html_of_tab(i)
             self.driver_manager.release_tab(i)
-            return {}
+        except Exception as e:
+            self.logger.error("Error loading or releasing tab: %s", e)
+            return {"journals": [], "end": False}
 
-        # Iterate through the results to find a matching journal
-        found = False
-        for link in search_results.find_all('a', href=True):
-            journal_name = link.find('span', class_='jrnlname').get_text(strip=True).lower()
-            if journal_name == journal:
-                detail_url = 'https://www.scimagojr.com/' + link['href']
-                self.driver_manager.load_url_in_available_tab(detail_url, 'journal_details', prev_ind=i)
-                found = True
-                break
+        try:
+            page_soup = BeautifulSoup(page_content, "html.parser")
+        except Exception as e:
+            self.logger.error("Error parsing page content with BeautifulSoup: %s", e)
+            return {"journals": [], "end": False}
 
-        if not found:
-            self.logger.info("Not found: %s", journal)
-            self.driver_manager.release_tab(i)
-            return {}
+        # Extract pagination information
+        pagination_text = None
+        try:
+            pagination_div = page_soup.find("div", class_="pagination")
+            if pagination_div:
+                pagination_text = pagination_div.get_text(strip=True)
+            self.logger.debug("Pagination text: %s", pagination_text)
+        except Exception as e:
+            self.logger.error("Error extracting pagination information: %s", e)
 
-        html = self.driver_manager.get_html_of_tab(i)
-        soup = BeautifulSoup(html, 'html.parser')
+        is_end = False
+        if pagination_text:
+            try:
+                match = re.match(r"(\d+)\s*-\s*(\d+)\s*of\s*(\d+)", pagination_text)
+                if match:
+                    start, end, total = map(int, match.groups())
+                    is_end = (end == total)
+                else:
+                    self.logger.warning("Could not parse pagination text: %s", pagination_text)
+            except Exception as e:
+                self.logger.error("Error parsing pagination text: %s", e)
 
-        journal_details = {"title": soup.find("h1").get_text(strip=True)}
+        # Extract journal data
+        journals = []
+        try:
+            table = page_soup.find("div", class_="table_wrap").find("table")
+            if not table:
+                self.logger.warning("No table found on the page")
+                return {"journals": [], "end": is_end}
 
-        country_section = soup.find("h2", text="Country")
-        journal_details["country"] = country_section.find_next("p").get_text(
-            strip=True) if country_section else "Unknown"
+            rows = table.find("tbody").find_all("tr")
+            self.logger.info("Found %d journal entries on the page", len(rows))
 
-        subject_area_section = soup.find("h2", text="Subject Area and Category")
-        subject_areas = []
-        if subject_area_section:
-            for category in subject_area_section.find_next("ul").find_all("li", recursive=False):
-                area = category.find("a").get_text(strip=True)
-                categories = [cat.get_text(strip=True) for cat in category.find_all("li")]
-                subject_areas.append({"area": area, "categories": categories})
-        journal_details["subject_areas"] = subject_areas
+            for row in rows:
+                try:
+                    cells = row.find_all("td")
+                    if len(cells) < 13:
+                        self.logger.warning("Skipping row with insufficient columns: %s", row)
+                        continue
 
-        publisher_section = soup.find("h2", text="Publisher")
-        journal_details["publisher"] = publisher_section.find_next("p").get_text(
-            strip=True) if publisher_section else "Unknown"
+                    title_cell = cells[1] if len(cells) > 1 else None
+                    title = title_cell.get_text(strip=True) if title_cell else "N/A"
+                    link_element = title_cell.find("a") if title_cell else None
+                    link = link_element["href"] if link_element and link_element.has_attr("href") else "N/A"
 
-        hindex_section = soup.find("h2", text="H-Index")
-        journal_details["h_index"] = hindex_section.find_next("p", class_="hindexnumber").get_text(
-            strip=True) if hindex_section else "Unknown"
+                    pub_type = cells[2].get_text(strip=True) if len(cells) > 2 else "N/A"
+                    sjr = cells[3].get_text(strip=True) if len(cells) > 3 else "N/A"
+                    h_index = cells[4].get_text(strip=True) if len(cells) > 4 else "N/A"
+                    total_docs_2008 = cells[5].get_text(strip=True) if len(cells) > 5 else "N/A"
+                    total_docs_3years = cells[6].get_text(strip=True) if len(cells) > 6 else "N/A"
+                    total_refs_2008 = cells[7].get_text(strip=True) if len(cells) > 7 else "N/A"
+                    total_cites_3years = cells[8].get_text(strip=True) if len(cells) > 8 else "N/A"
+                    citable_docs_3years = cells[9].get_text(strip=True) if len(cells) > 9 else "N/A"
+                    cites_per_doc_2years = cells[10].get_text(strip=True) if len(cells) > 10 else "N/A"
+                    refs_per_doc_2008 = cells[11].get_text(strip=True) if len(cells) > 11 else "N/A"
+                    female_percent_2008 = cells[12].get_text(strip=True) if len(cells) > 12 else "N/A"
 
-        publication_type_section = soup.find("h2", text="Publication type")
-        journal_details["publication_type"] = publication_type_section.find_next("p").get_text(
-            strip=True) if publication_type_section else "Unknown"
+                    # Extract Q rank (e.g., Q1) if present in SJR cell
+                    q_rank_element = cells[3].find("span", class_="q1") if len(cells) > 3 else None
+                    q_rank = q_rank_element.get_text(strip=True) if q_rank_element else "N/A"
 
-        issn_section = soup.find("h2", text="ISSN")
-        journal_details["issn"] = issn_section.find_next("p").get_text(strip=True) if issn_section else "Unknown"
+                    journal_data = {
+                        "title": title,
+                        "link": link,
+                        "type": pub_type,
+                        "sjr": sjr,
+                        "q_rank": q_rank,
+                        "h_index": h_index,
+                        "total_docs_2008": total_docs_2008,
+                        "total_docs_3years": total_docs_3years,
+                        "total_refs_2008": total_refs_2008,
+                        "total_cites_3years": total_cites_3years,
+                        "citable_docs_3years": citable_docs_3years,
+                        "cites_per_doc_2years": cites_per_doc_2years,
+                        "refs_per_doc_2008": refs_per_doc_2008,
+                        "female_percent_2008": female_percent_2008,
+                    }
+                    journals.append(journal_data)
+                except Exception as e:
+                    self.logger.error("Error parsing journal row: %s", e)
+        except Exception as e:
+            self.logger.error("Error extracting journal data: %s", e)
 
-        coverage_section = soup.find("h2", text="Coverage")
-        journal_details["coverage_years"] = coverage_section.find_next("p").get_text(
-            strip=True) if coverage_section else "Unknown"
-
-        information_section = soup.find("h2", text="Information")
-        links = information_section.find_next_siblings("p") if information_section else []
-        journal_details["information_links"] = {"homepage": "None", "submission": "None", "contact_email": "None"}
-        for link in links:
-            if "Homepage" in link.get_text(strip=True):
-                journal_details["information_links"]["homepage"] = link.find_next("a")["href"]
-            elif "How to publish in this journal" in link.get_text(strip=True):
-                journal_details["information_links"]["submission"] = link.find_next("a")["href"]
-            elif "@" in link.get_text(strip=True):
-                journal_details["information_links"]["contact_email"] = link.get_text(strip=True)
-
-        scope_section = soup.find("h2", text="Scope")
-        scope = scope_section.find_next("div", class_="fullwidth") if scope_section else None
-        journal_details["scope"] = scope.get_text(
-            strip=True) if scope else "Unknown"
-
-        quartile_data = []
-        quartile_table = soup.find("table")
-        if quartile_table:
-            for row in quartile_table.find("tbody").find_all("tr"):
-                cells = row.find_all("td")
-                category = cells[0].get_text(strip=True)
-                year = cells[1].get_text(strip=True)
-                quartile = cells[2].get_text(strip=True)
-                quartile_data.append({"category": category, "year": year, "quartile": quartile})
-        journal_details["quartiles"] = quartile_data
-
-        self.driver_manager.release_tab(i)
-        self.logger.info("Completed extraction for journal URL: %s", journal_url)
-        return journal_details
-
+        if is_end:
+            ScimagoScraper.year = ScimagoScraper.year + 1
+        return {JsonConstants.TAG_JOURNALS: journals, JsonConstants.TAG_IS_END: is_end, "area": area}

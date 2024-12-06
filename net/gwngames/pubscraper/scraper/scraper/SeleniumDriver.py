@@ -6,7 +6,7 @@ import time
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from selenium import webdriver
-from selenium.common import NoSuchElementException
+from selenium.common import NoSuchElementException, TimeoutException
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
@@ -94,7 +94,7 @@ class SeleniumDriver:
 
             if captcha_type == CaptchaConstants.RECAPTCHA_V2:
                 captcha_result = solver.recaptcha(sitekey=captcha_key, url=captcha_url, userAgent=self.user_agent,
-                                            cookies=cookie_string)
+                                                  cookies=cookie_string)
                 self.logger.info("zyz" + str(captcha_result))
                 textarea = self.driver.find_element(By.ID, "g-recaptcha-response")
 
@@ -195,7 +195,12 @@ class SeleniumDriver:
             while True:
                 with self._condition:
                     # Check if a tab is already assigned for this url_type
-                    if prev_ind is None and url_type in self.tab_to_url_type.values():
+                    if prev_ind is None and url_type in self.tab_to_url_type.values() and [value for value in
+                                                                                           self.tab_to_url_type.values()
+                                                                                           if
+                                                                                           self.count_key_occurrences(
+                                                                                               self.tab_to_url_type.values(),
+                                                                                               value) >= self.ctx.get_max_requests()].__len__() > 0:
                         self._condition.wait()
                         continue  # Retry after waiting
 
@@ -229,6 +234,20 @@ class SeleniumDriver:
             if index_tab is not None:
                 self.release_tab(index_tab)
             raise e
+
+    def count_key_occurrences(self, data, target_key):
+        count = 0
+        if isinstance(data, dict):
+            for key, value in data.items():
+                if key == target_key:
+                    count += 1
+                # Recursively check nested dictionaries
+                count += self.count_key_occurrences(value, target_key)
+        elif isinstance(data, list):
+            for item in data:
+                # Recursively check items in lists
+                count += self.count_key_occurrences(item, target_key)
+        return count
 
     def get_html_of_tab(self, tab_id):
         with self._condition:

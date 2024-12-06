@@ -37,18 +37,18 @@ class ScholarDataFetcher(GeneralDataFetcher):
         adapter: GeneralDataAdapter = GeneralDataAdapter()
         adapter.add_property(AdapterPropertiesConstants.IFACE_REF, self.get_interface_id())
         adapter.add_property(AdapterPropertiesConstants.PHASE_REF, adapter_code)
-        if adapter_code == EntityCidConstants.GOOGLE_SCHOLAR_AUTHOR:
+        if adapter_code == EntityCidConstants.AUTHOR:
             adapter.add_property(AdapterPropertiesConstants.IFACE_IS_ITERATOR, True)
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, ScholarScraper().get_scholar_profile)
-        elif adapter_code == EntityCidConstants.GOOGLE_SCHOLAR_COAUTHOR:
-            adapter.add_property(AdapterPropertiesConstants.PHASE_REF, EntityCidConstants.GOOGLE_SCHOLAR_AUTHOR)
+        elif adapter_code == EntityCidConstants.COAUTHOR:
+            adapter.add_property(AdapterPropertiesConstants.PHASE_REF, EntityCidConstants.AUTHOR)
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, ScholarScraper().get_scholar_profile)
-        elif adapter_code == EntityCidConstants.GOOGLE_SCHOLAR_PUB:
+        elif adapter_code == EntityCidConstants.PUB:
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, ScholarScraper().fetch_publication_data)
-        elif adapter_code == EntityCidConstants.GOOGLE_SCHOLAR_CIT:
+        elif adapter_code == EntityCidConstants.CIT:
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, ScholarScraper().scrape_all_citations)
             adapter.add_property(AdapterPropertiesConstants.MULTI_RESULT, True)
-        elif adapter_code == EntityCidConstants.GOOGLE_SCHOLAR_VERSION:
+        elif adapter_code == EntityCidConstants.VERSION:
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, ScholarScraper().scrape_all_versions)
             adapter.add_property(AdapterPropertiesConstants.MULTI_RESULT, True)
         else:
@@ -62,46 +62,46 @@ class ScholarDataFetcher(GeneralDataFetcher):
         self.adapter_list, self.priorities_map = ([], {})
         self.logger.info(f"Preparing next phase for phase_ref: {phase_ref}")
 
-        if (phase_ref == EntityCidConstants.GOOGLE_SCHOLAR_AUTHOR
-                or phase_ref == EntityCidConstants.GOOGLE_SCHOLAR_COAUTHOR):
+        if (phase_ref == EntityCidConstants.AUTHOR
+                or phase_ref == EntityCidConstants.COAUTHOR):
             self.logger.debug("Processing Google Scholar Author or Coauthor phase")
             publications = current_entity.get(JsonConstants.TAG_PUBLICATIONS, [])
 
             for pub in publications:
-                self.generate_adapter_with_prio(EntityCidConstants.GOOGLE_SCHOLAR_PUB,
+                self.generate_adapter_with_prio(EntityCidConstants.PUB,
                                                 PriorityConstants.PUB_REQ, pub['url'], pub['publication_id'])
 
             coauthors = current_entity.get(JsonConstants.TAG_COAUTHORS, [])
 
             for coauthor in coauthors:
-                self.generate_adapter_with_prio(EntityCidConstants.GOOGLE_SCHOLAR_COAUTHOR,
+                self.generate_adapter_with_prio(EntityCidConstants.COAUTHOR,
                                                 PriorityConstants.COAUTHOR_REQ, coauthor, coauthor)
 
-        elif phase_ref == EntityCidConstants.GOOGLE_SCHOLAR_PUB:
+        elif phase_ref == EntityCidConstants.PUB:
             self.logger.debug("Processing Google Scholar Publication phase")
             cit_graph = current_entity.get(JsonConstants.TAG_CITATION_GRAPH, [])
 
             for citation_year in cit_graph:
-                self.generate_adapter_with_prio(EntityCidConstants.GOOGLE_SCHOLAR_CIT,
+                self.generate_adapter_with_prio(EntityCidConstants.CIT,
                                                 PriorityConstants.CIT_REQ, citation_year['citation_link'],
                                                 citation_year['citation_link'])
 
             all_versions_url = current_entity.get(JsonConstants.TAG_ALL_VERSIONS, [])
-            self.generate_adapter_with_prio(EntityCidConstants.GOOGLE_SCHOLAR_VERSION,
+            self.generate_adapter_with_prio(EntityCidConstants.VERSION,
                                             PriorityConstants.VERSION_REQ, all_versions_url, all_versions_url)
 
         self.logger.info("Completed preparing next phase for phase_ref: {phase_ref}")
         return super(ScholarDataFetcher, self).prepare_next_phase(phase_ref, current_entity)
 
     def get_key_fields(self, entity_cid: int) -> list[str]:
-        if entity_cid == EntityCidConstants.GOOGLE_SCHOLAR_CIT or entity_cid == EntityCidConstants.GOOGLE_SCHOLAR_ART:
+        if entity_cid == EntityCidConstants.CIT:
             return self.CIT_ART_SALT
         else:
             raise Exception("Scholarly - unknown iter cid: " + str(entity_cid))
 
-    def _start_interface_collectors(self, opt_arg: list = None):
+    def _start_interface_collectors(self, opt_arg: list | int = None):
         MessageRouter.later_in(FetchScholarlyData(MessageConstants.MSG_ALL_SCHOLARLY_AUTHORS,
-            self.generate_fetch_adapter(EntityCidConstants.GOOGLE_SCHOLAR_AUTHOR, opt_arg)),
+            self.generate_fetch_adapter(EntityCidConstants.AUTHOR, opt_arg)),
             PriorityConstants.AUTHOR_REQ)
 
     def is_outdated(self, entity: Document):

@@ -75,21 +75,15 @@ class Context:
 
     def get_active_interfaces(self) -> list[str]:
         main = self.get_main_interfaces()
-        sub = self.get_sub_interfaces()
-        return main + sub
+        return main
 
     def get_main_interfaces(self) -> list:
         main = self.get_config().get_value(ConfigConstants.INTERFACES_ENABLED)
         return StringUtils.process_string(main)
-
-    def get_sub_interfaces(self) -> list:
-        sub = self.get_config().get_value(ConfigConstants.SUB_INTERFACES_ENABLED)
-        return StringUtils.process_string(sub)
 
     def get_max_requests(self) -> int:
         reqs = self.get_config().get_value(ConfigConstants.MAX_IFACE_REQUESTS)
         return len(self.get_active_interfaces()) * reqs
 
     def is_iface_enabled(self, iface_name) -> bool:
-        return (iface_name in self.get_config().get_value(ConfigConstants.INTERFACES_ENABLED)
-                or iface_name in self.get_config().get_value(ConfigConstants.SUB_INTERFACES_ENABLED))
+        return iface_name in self.get_config().get_value(ConfigConstants.INTERFACES_ENABLED)

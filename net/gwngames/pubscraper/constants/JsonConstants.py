@@ -2,6 +2,7 @@ from typing import Final
 
 
 class JsonConstants:
+    TAG_IS_END = "is_end"
     TAG_CITATION_GRAPH = "citation_graph"
     TAG_ENTITY: Final = "entity"
     TAG_ENTITY_CID: Final = "entity_cid"

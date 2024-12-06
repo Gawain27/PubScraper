@@ -18,6 +18,11 @@ class OutSender:
         self.ctx = Context()
 
     def send_data(self, data: SendEntity):
+        """
+        Sends a message over the socket with a \n divided payload.
+
+        :param data: SendEntity containing the entity data to send.
+        """
         data_source: DatabaseHandler = DatabaseHandler(self.ctx.get_dbclient(), data.entity_db)
         database: Database = data_source.get_or_create_db()
 
@@ -31,4 +36,5 @@ class OutSender:
 
         entity['sent'] = True
         data_source.insert_or_update_document(data.content, data.entity_id, entity)
+
 

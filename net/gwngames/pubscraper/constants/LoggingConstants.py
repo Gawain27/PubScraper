@@ -12,5 +12,4 @@ class LoggingConstants:
     CORE_EDU_DATA_FETCHER: Final = logging.DEBUG
     SCIMAGO_DATA_FETCHER: Final = logging.DEBUG
 
-
     WEBSCRAPER: Final = logging.DEBUG

@@ -1,6 +1,5 @@
 import logging
 import os
-from typing import Final
 
 
 class LogFileHandler(logging.Handler):

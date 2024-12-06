@@ -15,6 +15,7 @@ class MessageConstants:
     #  Scraper messages -- Interface
     MSG_ALL_SCHOLARLY_AUTHORS = "allScholarAuthor"
     MSG_ALL_DBLP_AUTHORS = "allDblpAuthor"
-
+    MSG_ALL_SCIMAGO_JOURNALS = "allScimagoJournal"
+    MSG_ALL_CORE_CONFERENCE = "allCoreConference"
     #  System messages
     MSG_UPDATE_LOAD_STATE: Final = "updateLoadState"

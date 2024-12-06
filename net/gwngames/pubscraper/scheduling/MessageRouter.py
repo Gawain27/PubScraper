@@ -5,7 +5,6 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from typing import Any
 
-from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.QueueConstants import QueueConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage

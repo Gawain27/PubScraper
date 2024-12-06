@@ -10,11 +10,8 @@ class PriorityConstants:
 
     # Scraping priorities # - Less authors, more data
     VERSION_REQ = 130
-    JOURNAL_RANK_REQ = 122
-    CONFERENCE_RANK_REQ = 121
-    CONFERENCE_MAIN_RANK_REQ = 120
-    JOURNAL_REQ: Final = 116
-    CONFERENCE_REQ: Final = 115
+    JOURNAL_REQ: Final = 102
+    CONFERENCE_REQ: Final = 102
     CIT_REQ: Final = 110
     PUB_REQ: Final = 105
     COAUTHOR_REQ: Final = 103

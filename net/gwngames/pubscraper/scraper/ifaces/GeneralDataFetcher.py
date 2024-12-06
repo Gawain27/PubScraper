@@ -48,7 +48,7 @@ class GeneralDataFetcher:
     def generate_fetch_adapter(self, adapter_code: int, opt_arg: list = None) -> GeneralDataAdapter:
         pass
 
-    def start_interface_fetching(self, opt_arg: list = None):
+    def start_interface_fetching(self, opt_arg: list | int = None):
         threading.Thread(
             target=self._start_interface_collectors,
             args=(opt_arg,),
@@ -57,7 +57,7 @@ class GeneralDataFetcher:
 
     # methods must implement loop for scraping for each object, stop signal is given by queue
     @abstractmethod
-    def _start_interface_collectors(self, opt_arg: list = None):
+    def _start_interface_collectors(self, opt_arg: list | int = None):
         pass
 
     @abstractmethod
@@ -80,7 +80,7 @@ class GeneralDataFetcher:
             database: Database = data_source.get_or_create_db()
 
             # Step 2 - Obtain id of the entity to process
-            fetch_iterator: list = adapter.get_property(AdapterPropertiesConstants.ALT_ITERABLE, False)
+            fetch_iterator: list | bool = adapter.get_property(AdapterPropertiesConstants.ALT_ITERABLE, False)
 
             if fetch_iterator is not False:
                 existing_data_id = fetch_iterator.pop()
