@@ -92,7 +92,7 @@ class ScimagoScraper(GeneralScraper):
                     q_rank_element = cells[3].find("span", class_="q1") if len(cells) > 3 else None
                     q_rank = q_rank_element.get_text(strip=True) if q_rank_element else sjr[-2:] if sjr[-2] == 'q' else "N/A"
 
-                    match = re.search(r'year=(\d{4})', url)
+                    match = re.search(r'year=(\d{4})', link)
                     year = match.group(1) if match else 0
                     if year is 0:
                         continue
