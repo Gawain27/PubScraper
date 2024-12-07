@@ -91,7 +91,7 @@ class ScholarDataFetcher(GeneralDataFetcher):
                                             PriorityConstants.VERSION_REQ, all_versions_url, all_versions_url)
 
         self.logger.info("Completed preparing next phase for phase_ref: {phase_ref}")
-        return super(ScholarDataFetcher, self).prepare_next_phase(phase_ref, current_entity)
+        return super(ScholarDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth)
 
     def get_key_fields(self, entity_cid: int) -> list[str]:
         if entity_cid == EntityCidConstants.CIT:

@@ -285,6 +285,8 @@ class GeneralDataFetcher:
 
         self.adapter_list.append(tmp_adapter)
         self.priorities_map[tmp_adapter] = prio
+        
+        return tmp_adapter
 
     @abstractmethod
     def get_variant_type(self) -> int:

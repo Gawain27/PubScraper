@@ -206,6 +206,8 @@ class SeleniumDriver:
 
                             # Wait if the active count exceeds the maximum allowed
                             if active_count >= self.ctx.get_max_requests():
+                                self.logger.info(f"Waiting for - {active_count} -{url}")
+
                                 self._condition.wait()
                                 continue  # Retry after waiting
 

@@ -1,6 +1,6 @@
 {
     "max_logfile_lines": 1000,
-    "interfaces_enabled": "dblp,scimago,core_edu",
+    "interfaces_enabled": "google_scholar",
     "max_buffer_retries": 1,
     "acceptable_load": 0.5,
     "server_url": "localhost",
