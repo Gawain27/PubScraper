@@ -14,7 +14,7 @@ class BaseMessage(AbstractMessage):
     :param timestamp: The time the message was created.
     """
 
-    def __init__(self, message_type: str, content: str, timestamp: datetime = None, is_first_run: bool = False) -> None:
+    def __init__(self, message_type: str, content: str, timestamp: datetime = None) -> None:
         super().__init__(message_type)  # Initialize the parent class
         self.content: str = content
         self.timestamp: datetime = timestamp if timestamp else datetime.now()

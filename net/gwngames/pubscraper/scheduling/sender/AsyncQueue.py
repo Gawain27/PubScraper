@@ -10,8 +10,6 @@ from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.utils.ClassUtils import ClassUtils
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
-from net.gwngames.pubscraper.utils.RequestState import RequestState
-
 
 class AsyncQueue(queue.Queue):
 
@@ -32,9 +30,6 @@ class AsyncQueue(queue.Queue):
         This method is used to process a message by invoking the `on_message` method and removing the message from
         the routing threads list in the provided `router` object.
         """
-        if msg.delayed:
-            RequestState(msg.priority).update_last_sent(msg)
-
         retries = self.ctx.get_config().get_value(ConfigConstants.MAX_BUFFER_RETRIES)
         retry_time = self.ctx.get_config().get_value(ConfigConstants.RETRY_TIME_SEC)
         exception_caught = False
@@ -45,8 +40,6 @@ class AsyncQueue(queue.Queue):
             if self.is_queue_depth_limited:
                 if msg.depth is not None and msg.depth > self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX):
                     logging.debug("Max depth reached for message %s - %s", msg.message_type, msg.message_id)
-                    if msg.delayed:
-                        RequestState(msg.priority).notify_update(msg)
                     return
                 if msg.depth is None:
                     msg.depth = 0
@@ -77,8 +70,6 @@ class AsyncQueue(queue.Queue):
         elapsed_time: float = (time.time() - start_time) * 1000
         self.logger.debug(
             f"Managed message for topic '{msg.message_type}': {msg.message_id} - Time: {elapsed_time:.3f} ms.")
-        if msg.delayed:
-            RequestState(msg.priority).notify_update(msg)
 
     @abstractmethod
     def on_message(self, msg: AbstractMessage) -> None:

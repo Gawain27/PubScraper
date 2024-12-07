@@ -9,4 +9,3 @@ class GeneralScraper:
         self.logger = logging.getLogger(self.__class__.__name__)
         self.ctx = Context()
         self.driver_manager = SeleniumDriver.get_instance()
-

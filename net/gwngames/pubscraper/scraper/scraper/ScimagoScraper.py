@@ -90,7 +90,7 @@ class ScimagoScraper(GeneralScraper):
 
                     # Extract Q rank (e.g., Q1) if present in SJR cell
                     q_rank_element = cells[3].find("span", class_="q1") if len(cells) > 3 else None
-                    q_rank = q_rank_element.get_text(strip=True) if q_rank_element else "N/A"
+                    q_rank = q_rank_element.get_text(strip=True) if q_rank_element else sjr[-2:] if sjr[-2] == 'q' else "N/A"
 
                     journal_data = {
                         "title": title,

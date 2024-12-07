@@ -15,5 +15,5 @@ class AdapterPropertiesConstants:
     NEXT_PHASES: Final = "next_phases"  # Must be a list, multiple started per iteration
     # tell which entity is expected for next phase, on first phase is None.
     EXPECTED_ID: Final = "expected_id"
-    NEXT_PHASE_INPUT: Final = "next_phase_input"
+    NEXT_PHASE_DEPTH: Final = "next_phase_depth"
 

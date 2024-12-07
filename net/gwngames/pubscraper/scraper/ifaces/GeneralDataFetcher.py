@@ -163,7 +163,7 @@ class GeneralDataFetcher:
                              or interface_iter_idx is not False)
             next_adapters, next_prio = ([], {})
             if fetched_entity is not None:
-                next_adapters, next_prio = self.prepare_next_phase(interface_fx_ref, fetched_entity)
+                next_adapters, next_prio = self.prepare_next_phase(interface_fx_ref, fetched_entity, data.depth)
 
             if reuse_adapter:
                 self.logger.debug("Reusing adapter for content: %s - ID: %s", data.content, existing_data_id)
@@ -174,6 +174,10 @@ class GeneralDataFetcher:
             for next_adapter, prio in zip(next_adapters, next_prio.values()):
                 next_message = data.__class__(data.__class__.__name__, adapter=next_adapter)
                 next_message.depth = data.depth + 1
+
+                if next_adapter.get_property(AdapterPropertiesConstants.IFACE_IDX, failable=False) is not False:
+                    next_message.depth -= 1 # Re-iterable should not decrease, they are multi root
+
                 MessageRouter.later_in(next_message, priority=prio)
 
         except Exception as e:
@@ -182,7 +186,7 @@ class GeneralDataFetcher:
             raise e
 
     @abstractmethod
-    def prepare_next_phase(self, phase_ref: int, current_entity: Document) -> tuple[list[GeneralDataAdapter], dict]:
+    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int) -> tuple[list[GeneralDataAdapter], dict]:
         return self.adapter_list, self.priorities_map
 
     @staticmethod

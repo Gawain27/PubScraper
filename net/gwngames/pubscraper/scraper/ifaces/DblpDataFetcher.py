@@ -43,9 +43,16 @@ class DblpDataFetcher(GeneralDataFetcher):
             adapter.add_property(AdapterPropertiesConstants.ALT_ITERABLE, opt_arg)
         return adapter
 
-    def prepare_next_phase(self, phase_ref: int, current_entity: Document) -> tuple[list[GeneralDataAdapter], dict]:
+    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int) -> tuple[list[GeneralDataAdapter], dict]:
         self.adapter_list, self.priorities_map = ([], {})
-        return super(DblpDataFetcher, self).prepare_next_phase(phase_ref, current_entity)
+
+        if phase_ref == EntityCidConstants.PUB:
+            for author in current_entity.get("authors", []):
+                self.generate_adapter_with_prio(EntityCidConstants.PUB,
+                                                PriorityConstants.PUB_REQ, author, author)
+                self.logger.debug("Processing Dblp Authors next phase")
+
+        return super(DblpDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth=phase_depth)
 
     def _start_interface_collectors(self, opt_arg: list | int = None):
         MessageRouter.later_in(FetchDblpData(MessageConstants.MSG_ALL_DBLP_AUTHORS,

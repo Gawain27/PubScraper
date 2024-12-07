@@ -11,7 +11,6 @@ from net.gwngames.pubscraper.scraper.ifaces.DblpDataFetcher import DblpDataFetch
 from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
 from net.gwngames.pubscraper.scraper.ifaces.ScholarDataFetcher import ScholarDataFetcher
 from net.gwngames.pubscraper.scraper.ifaces.ScimagoDataFetcher import ScimagoDataFetcher
-from net.gwngames.pubscraper.scraper.scraper.SeleniumDriver import SeleniumDriver
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 from net.gwngames.pubscraper.utils.StringUtils import StringUtils
 

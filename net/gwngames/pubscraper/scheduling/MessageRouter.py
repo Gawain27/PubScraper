@@ -85,6 +85,8 @@ class MessageRouter:
 
         if depth is not None:
             message.depth = depth + 1
+
+        message.priority = priority
         self.incoming_queue.send(priority, message, loaded_queue())
 
     def send_later_in(self, message: AbstractMessage, priority=0, depth=None):

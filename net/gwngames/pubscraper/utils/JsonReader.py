@@ -184,7 +184,7 @@ class JsonReader:
 
     def increment(self, key: str):
         with self.lock:
-            prev = self.get_value(key)
+            prev = int(self.get_value(key))
             if prev is None:
                 prev = 0
             self.set_value(key, prev + 1)

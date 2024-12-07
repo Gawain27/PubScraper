@@ -58,7 +58,7 @@ class ScholarDataFetcher(GeneralDataFetcher):
             adapter.add_property(AdapterPropertiesConstants.ALT_ITERABLE, opt_arg)
         return adapter
 
-    def prepare_next_phase(self, phase_ref: int, current_entity: Document) -> tuple[list[GeneralDataAdapter], dict]:
+    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int) -> tuple[list[GeneralDataAdapter], dict]:
         self.adapter_list, self.priorities_map = ([], {})
         self.logger.info(f"Preparing next phase for phase_ref: {phase_ref}")
 
@@ -69,7 +69,7 @@ class ScholarDataFetcher(GeneralDataFetcher):
 
             for pub in publications:
                 self.generate_adapter_with_prio(EntityCidConstants.PUB,
-                                                PriorityConstants.PUB_REQ, pub['url'], pub['publication_id'])
+                                                PriorityConstants.PUB_REQ, pub['url'], pub['publication_id']).add_property(AdapterPropertiesConstants.NEXT_PHASE_DEPTH, phase_depth+1)
 
             coauthors = current_entity.get(JsonConstants.TAG_COAUTHORS, [])
 

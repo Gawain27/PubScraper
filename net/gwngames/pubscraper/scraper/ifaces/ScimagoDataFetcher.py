@@ -3,6 +3,7 @@ from typing import Final
 
 from couchdb import Document
 
+from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.EntityCidConstants import EntityCidConstants
 from net.gwngames.pubscraper.constants.EntityVidConstants import EntityVidConstants
 from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
@@ -44,7 +45,7 @@ class ScimagoDataFetcher(GeneralDataFetcher):
             adapter.add_property(AdapterPropertiesConstants.ALT_ITERABLE, opt_arg)
         return adapter
 
-    def prepare_next_phase(self, phase_ref: int, current_entity: Document) -> tuple[list[GeneralDataAdapter], dict]:
+    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int) -> tuple[list[GeneralDataAdapter], dict]:
         self.adapter_list, self.priorities_map = ([], {})
 
         if phase_ref == EntityCidConstants.JOURNAL:
@@ -54,13 +55,19 @@ class ScimagoDataFetcher(GeneralDataFetcher):
             area = current_entity.get("area", "")  # Default to void
 
             if not is_end:
+                page_num = self.ctx.get_config().get_value(ConfigConstants.SCIMAGO_STARTING_PAGE)
+                self.ctx.get_config().set_value(ConfigConstants.SCIMAGO_STARTING_PAGE, page_num + 1)
                 self.generate_adapter_with_prio(EntityCidConstants.JOURNAL,
-                                                PriorityConstants.JOURNAL_REQ, area, area + str(ScimagoScraper.year))
+                                                PriorityConstants.JOURNAL_REQ, area, area + str(ScimagoScraper.year) + str(self.ctx.get_config().get_value(ConfigConstants.SCIMAGO_STARTING_PAGE)))
+            else:
+                self.ctx.get_config().set_value(ConfigConstants.SCIMAGO_STARTING_PAGE, 1)
+                self.generate_adapter_with_prio(EntityCidConstants.JOURNAL,
+                                                PriorityConstants.JOURNAL_REQ, area + str(ScimagoScraper.year) + str(self.ctx.get_config().get_value(ConfigConstants.SCIMAGO_STARTING_PAGE)))
 
         self.logger.info("Completed preparing next phase for phase_ref: {phase_ref}")
 
         # Message is re executed
-        return super(ScimagoDataFetcher, self).prepare_next_phase(phase_ref, current_entity)
+        return super(ScimagoDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth)
 
     def _start_interface_collectors(self, opt_arg: list | int = None):
         MessageRouter.later_in(FetchScimagoData(MessageConstants.MSG_ALL_SCIMAGO_JOURNALS,

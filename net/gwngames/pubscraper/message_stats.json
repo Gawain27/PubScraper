@@ -1,11 +1,11 @@
 {
-    "allDblpAuthor": 21,
+    "allDblpAuthor": 30,
     "1100": [
         "1",
         "2024-11-10T21:35:52.769316"
     ],
-    "serializeEntity": 177,
-    "FetchDblpData": 93,
+    "serializeEntity": 332,
+    "FetchDblpData": 147,
     "1110": [
         "1",
         "2024-11-10T21:35:52.760342"
@@ -14,22 +14,22 @@
         "1",
         "2024-11-10T21:35:52.752363"
     ],
-    "validateEntity": 170,
-    "sendEntity": 170,
-    "allCoreConference": 26,
+    "validateEntity": 319,
+    "sendEntity": 324,
+    "allCoreConference": 33,
     "1040": [
         "1",
-        "2024-12-06T22:49:58.359543"
+        "2024-12-07T08:54:33.319443"
     ],
-    "allScimagoJournal": 15,
+    "allScimagoJournal": 23,
     "1030": [
         "1",
-        "2024-12-06T23:48:40.457671"
+        "2024-12-07T08:54:37.125343"
     ],
     "1010": [
         "1",
-        "2024-12-06T23:48:40.454679"
+        "2024-12-07T08:54:39.644890"
     ],
-    "FetchCoreEduData": 11,
-    "FetchScimagoData": 97
+    "FetchCoreEduData": 60,
+    "FetchScimagoData": 146
 }

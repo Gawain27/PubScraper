@@ -44,7 +44,7 @@ class CoreEduDataFetcher(GeneralDataFetcher):
 
     page_fallback = 1
 
-    def prepare_next_phase(self, phase_ref: int, current_entity: Document) -> tuple[list[GeneralDataAdapter], dict]:
+    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int) -> tuple[list[GeneralDataAdapter], dict]:
         self.adapter_list, self.priorities_map = ([], {})
 
         if phase_ref == EntityCidConstants.CONFERENCE and current_entity:
@@ -59,7 +59,7 @@ class CoreEduDataFetcher(GeneralDataFetcher):
         self.logger.info("Completed preparing next phase for phase_ref: {phase_ref}")
 
         # Message is re executed
-        return super(CoreEduDataFetcher, self).prepare_next_phase(phase_ref, current_entity)
+        return super(CoreEduDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth)
 
     def _start_interface_collectors(self, opt_arg: list | int = None):
         MessageRouter.later_in(FetchCoreEduData(MessageConstants.MSG_ALL_CORE_CONFERENCE,
