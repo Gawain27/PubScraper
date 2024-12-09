@@ -50,6 +50,7 @@ class SerializationUnit:
             self.logger.info(f"Entity {msg.entity_id} serialized and updated in database {msg.entity_db}.")
 
             entity_package_req: PackageEntity = PackageEntity(msg.content, msg.entity_id, msg.entity_db)
+            entity_package_req.system_message = True
             self.logger.debug(f"Sending ENTITY_PACKAGE_REQ for entity ID {msg.entity_id}.")
             MessageRouter.get_instance().send_message(entity_package_req, PriorityConstants.ENTITY_PACKAGE_REQ)
 

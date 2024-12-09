@@ -156,6 +156,7 @@ class GeneralDataFetcher:
                                                        entity_class=int(
                                                            adapter.get_property(AdapterPropertiesConstants.PHASE_REF)),
                                                        entity_variant=self.get_variant_type())
+                serialize_entity_msg.system_message = True
                 MessageRouter.get_instance().send_message(serialize_entity_msg, priority=PriorityConstants.ENTITY_SERIAL_REQ)
 
             # Step 5 - Prepare adapters for the next phases

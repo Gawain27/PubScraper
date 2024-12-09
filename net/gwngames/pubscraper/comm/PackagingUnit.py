@@ -115,4 +115,5 @@ class PackagingUnit:
         compressed_entity = self.compress_json(entity)
 
         entity_send_req = SendEntity(msg.content, compressed_entity, msg.entity_id, msg.entity_db)
+        entity_send_req.system_message = True
         MessageRouter.get_instance().send_message(entity_send_req, PriorityConstants.ENTITY_SEND_REQ)

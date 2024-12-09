@@ -20,6 +20,7 @@ class AbstractMessage:
         self.delayed: bool = delayed
         self.synchronized: bool = synchronized
         self.destination_queue: str = destination_queue
+        self.system_message = False
         self.priority: int = -99 # Internal
         # TODO: loading of message types from file, define constant enum
 
