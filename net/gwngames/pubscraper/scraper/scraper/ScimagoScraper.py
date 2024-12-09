@@ -64,6 +64,20 @@ class ScimagoScraper(GeneralScraper):
             rows = table.find("tbody").find_all("tr")
             self.logger.info("Found %d journal entries on the page", len(rows))
 
+            thead = table.find("thead")
+            # Check if thead exists and extract titles or headers
+            if thead:
+                titles = [th['title'] for th in thead.find_all('th', title=True)]
+                combined_titles = ' '.join(titles)
+
+                match = re.search(r'\b(\d{4})\b', combined_titles)  # Matches years like 2020, 2021, etc.
+                year = int(match.group(1)) if match else None
+                if year is None:
+                    raise Exception("Cannot save journal without date")
+            else:
+                raise Exception("No table found on the page")
+
+
             for row in rows:
                 try:
                     cells = row.find_all("td")
@@ -92,15 +106,9 @@ class ScimagoScraper(GeneralScraper):
                     q_rank_element = cells[3].find("span", class_="q1") if len(cells) > 3 else None
                     q_rank = q_rank_element.get_text(strip=True) if q_rank_element else sjr[-2:] if sjr[-2] == 'q' else "N/A"
 
-                    match = re.search(r'year=(\d{4})', link)
-                    year = match.group(1) if match else 0
-                    if year is 0:
-                        continue
-
                     journal_data = {
                         "title": title,
                         "link": link,
-                        "year": year,
                         "type": pub_type,
                         "sjr": sjr,
                         "q_rank": q_rank,
@@ -113,6 +121,7 @@ class ScimagoScraper(GeneralScraper):
                         "cites_per_doc_2years": cites_per_doc_2years,
                         "refs_per_doc_2008": refs_per_doc_2008,
                         "female_percent_2008": female_percent_2008,
+                        "year": year
                     }
                     journals.append(journal_data)
                 except Exception as e:

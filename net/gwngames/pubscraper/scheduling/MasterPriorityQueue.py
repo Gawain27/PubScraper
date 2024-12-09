@@ -1,13 +1,20 @@
+import logging
+import queue
+import threading
+from collections import defaultdict
+from typing import Tuple
+
 from net.gwngames.pubscraper.Context import Context
+from net.gwngames.pubscraper.LogFileHandler import LogFileHandler
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 
+log_filename = "master_priority_queue.log"
+log_handler = LogFileHandler(filename=log_filename, max_lines=10000)
 
-import queue
-import threading
-from typing import Tuple
-from collections import defaultdict
-
+logger = logging.getLogger("MasterPriorityQueue")
+logger.setLevel(logging.DEBUG)  # Adjust logging level as needed
+logger.addHandler(log_handler)
 
 class MasterPriorityQueue(queue.PriorityQueue):
     """
@@ -33,15 +40,19 @@ class MasterPriorityQueue(queue.PriorityQueue):
         self.adjustment_interval = len(self.ctx.get_active_interfaces())
         self.avg_depth = self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX)
         self.message_type_count = defaultdict(int)  # Track counts of each message type
+        logger.debug("MasterPriorityQueue initialized with adjustment_interval=%s, avg_depth=%s",
+                     self.adjustment_interval, self.avg_depth)
 
     def send(self, priority: int, message: 'AbstractMessage', subqueue: queue.Queue):
         """
         Enqueue a message with a specific priority and subqueue.
         """
         with self._lock:
-            self.message_type_count[message.message_type] += 1
             effective_priority = self._calculate_effective_priority(priority, message)
+            self.message_type_count[message.message_type] += 1
             self.put((effective_priority, message, subqueue))
+            logger.info("Message sent: %s with priority %s (effective priority: %s)",
+                        message, priority, effective_priority)
 
     def receive(self, block: bool = True, timeout: float | None = None) -> Tuple[int, 'AbstractMessage', queue.Queue]:
         """
@@ -51,10 +62,12 @@ class MasterPriorityQueue(queue.PriorityQueue):
         _, message, _ = item
         self.message_type_count[message.message_type] -= 1
         self._message_count += 1
+        logger.info("Message received: %s with priority %s", message, item[0])
 
         # After max_req executed, decrease the priority of all messages in the queue and reset the counter
         if self._message_count >= self.adjustment_interval:
             with self._lock:
+                logger.debug("Decreasing priorities for all messages in the queue...")
                 self._decrease_priorities()
             self._message_count = 0
 
@@ -71,6 +84,7 @@ class MasterPriorityQueue(queue.PriorityQueue):
             priority, message, subqueue = self.get()
             new_priority = self._calculate_effective_priority(priority, message, adjust=True)
             temp_items.append((new_priority, message, subqueue))
+            logger.debug("Adjusted priority for message: %s from %s to %s", message, priority, new_priority)
 
         for item in temp_items:
             self.put(item)
@@ -83,5 +97,8 @@ class MasterPriorityQueue(queue.PriorityQueue):
         fairness_penalty = self.message_type_count[message.message_type]
         depth_penalty = message.depth if message.depth is not None else 0
         adjustment = -self.avg_depth if adjust else 0
-        # Lower effective priority means higher priority in the queue
-        return priority + fairness_penalty + depth_penalty + adjustment
+        effective_priority = priority + fairness_penalty + depth_penalty + adjustment
+        logger.debug("Calculated effective priority: %s (base: %s, fairness: %s, depth: %s, adjustment: %s)",
+                     effective_priority, priority, fairness_penalty, depth_penalty, adjustment)
+        return effective_priority
+

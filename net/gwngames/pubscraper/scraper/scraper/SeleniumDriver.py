@@ -2,12 +2,11 @@ import logging
 import re
 import threading
 import time
-from collections import defaultdict
 
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from selenium import webdriver
-from selenium.common import NoSuchElementException, TimeoutException
+from selenium.common import NoSuchElementException
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
@@ -40,7 +39,6 @@ class SeleniumDriver:
             self.available_tabs[i] = True
         self.window_handles = {}
         self.tab_to_url_type = {}
-        self.active_url_types = {}
         self._condition = threading.Condition()
         self.timeout = self.config.get_value(ConfigConstants.URL_TIMEOUT)
 
@@ -193,23 +191,18 @@ class SeleniumDriver:
 
     def load_url_in_available_tab(self, url, url_type, possible_captcha=None, prev_ind=None):
         index_tab = None
-        active_url_type_counts = defaultdict(int)  # Track active counts for each url_type
-
         try:
             while True:
                 with self._condition:
                     # Check if a tab is already assigned for this url_type
-                    if prev_ind is None:
-                        if url_type in self.tab_to_url_type.values():
-                            # Count active instances of this url_type
-                            active_count = sum(1 for v in self.tab_to_url_type.values() if v == url_type)
-
-                            # Wait if the active count exceeds the maximum allowed
-                            if active_count >= self.ctx.get_max_requests():
-                                self.logger.info(f"Waiting for - {active_count} -{url}")
-
-                                self._condition.wait()
-                                continue  # Retry after waiting
+                    if prev_ind is None and url_type in self.tab_to_url_type.values() and [value for value in
+                                                                                           self.tab_to_url_type.values()
+                                                                                           if
+                                                                                           self.count_key_occurrences(
+                                                                                               self.tab_to_url_type.values(),
+                                                                                               value) >= self.ctx.get_max_requests()].__len__() > 0:
+                        self._condition.wait()
+                        continue  # Retry after waiting
 
                     # Critical section to ensure only one thread can select an available tab
                     if prev_ind is None:
@@ -218,7 +211,6 @@ class SeleniumDriver:
                                 # Mark tab as unavailable and assign the url_type to this tab
                                 self.available_tabs[i] = False
                                 self.tab_to_url_type[i] = url_type
-                                active_url_type_counts[url_type] += 1
                                 index_tab = i
                                 break  # Exit the loop once a tab is assigned
 
@@ -241,14 +233,7 @@ class SeleniumDriver:
         except Exception as e:
             if index_tab is not None:
                 self.release_tab(index_tab)
-                with self._condition:
-                    active_url_type_counts[url_type] -= 1  # Adjust the active count
             raise e
-
-        finally:
-            with self._condition:
-                if index_tab is not None and url_type in active_url_type_counts:
-                    active_url_type_counts[url_type] -= 1
 
     def count_key_occurrences(self, data, target_key):
         count = 0

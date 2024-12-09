@@ -1,3 +1,5 @@
+import re
+
 from bs4 import BeautifulSoup
 
 from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScraper
@@ -53,6 +55,9 @@ class CoreEduScraper(GeneralScraper):
             comments = cells[7].get_text(strip=True)
             avg_rating = cells[8].get_text(strip=True)
 
+            match = re.search(r'\b(\d{4})\b$', source)
+            year = match.group(1) if match else None
+
             conference_data = {
                 "title": title,
                 "acronym": acronym,
@@ -63,6 +68,7 @@ class CoreEduScraper(GeneralScraper):
                 "primary_for": primary_for,
                 "comments": comments,
                 "average_rating": avg_rating,
+                "year": year
             }
 
             self.logger.debug("Extracted conference: %s", conference_data)

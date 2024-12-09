@@ -10,10 +10,10 @@
     "authors_ref": "https://di.unipi.it/persone/",
     "root_authors": "",
     "shuffle_roots": true,
-    "min_wait_time": 3,
-    "max_wait_time": 8,
+    "min_wait_time": 10,
+    "max_wait_time": 25,
     "max_ms_worktime": 360000,
-    "max_iface_requests": 2,
+    "max_iface_requests": 4,
     "depth_max": 10,
     "db_host": "localhost",
     "db_port": 5984,
@@ -31,6 +31,6 @@
     "2captcha_api_key": "f8f3605447f0ed41a330e74e4edd4b5d",
     "url_timeout": 100,
     "max_active_threads": 20,
-    "scimago_starting_page": 20,
+    "scimago_starting_page": 8,
     "scimago_area_codes": "1700"
 }

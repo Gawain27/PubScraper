@@ -62,7 +62,7 @@ class ScimagoDataFetcher(GeneralDataFetcher):
             else:
                 self.ctx.get_config().set_value(ConfigConstants.SCIMAGO_STARTING_PAGE, 1)
                 self.generate_adapter_with_prio(EntityCidConstants.JOURNAL,
-                                                PriorityConstants.JOURNAL_REQ, area + str(ScimagoScraper.year) + str(self.ctx.get_config().get_value(ConfigConstants.SCIMAGO_STARTING_PAGE)))
+                                                PriorityConstants.JOURNAL_REQ, area, area + str(ScimagoScraper.year) + str(self.ctx.get_config().get_value(ConfigConstants.SCIMAGO_STARTING_PAGE)))
 
         self.logger.info("Completed preparing next phase for phase_ref: {phase_ref}")
 

@@ -39,9 +39,9 @@ class PackagingUnit:
         # Serialize the object to JSON
         json_data = json.dumps(obj).encode('utf-8')
         # Compress the serialized JSON data using gzip
-        compressed_data = gzip.compress(json_data)
+        #compressed_data = gzip.compress(json_data)
 
-        return compressed_data
+        return json_data
 
     def calculate_sleep_duration(self, load_percentage, threshold, retries):  # TODO: to rework
         """

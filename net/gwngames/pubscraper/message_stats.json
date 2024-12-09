@@ -1,11 +1,11 @@
 {
-    "allDblpAuthor": 30,
+    "allDblpAuthor": 45,
     "1100": [
         "1",
         "2024-11-10T21:35:52.769316"
     ],
-    "serializeEntity": 348,
-    "FetchDblpData": 147,
+    "serializeEntity": 631,
+    "FetchDblpData": 248,
     "1110": [
         "1",
         "2024-11-10T21:35:52.760342"
@@ -14,40 +14,40 @@
         "1",
         "2024-11-10T21:35:52.752363"
     ],
-    "validateEntity": 334,
-    "sendEntity": 337,
-    "allCoreConference": 33,
+    "validateEntity": 608,
+    "sendEntity": 613,
+    "allCoreConference": 41,
     "1040": [
         "1",
-        "2024-12-07T08:54:33.319443"
+        "2024-12-09T08:23:39.925604"
     ],
-    "allScimagoJournal": 23,
+    "allScimagoJournal": 36,
     "1030": [
         "1",
-        "2024-12-07T08:54:37.125343"
+        "2024-12-09T08:52:13.894239"
     ],
     "1010": [
         "1",
-        "2024-12-07T09:11:44.143356"
+        "2024-12-09T10:24:05.764999"
     ],
-    "FetchCoreEduData": 60,
-    "FetchScimagoData": 146,
-    "allScholarAuthor": 3,
+    "FetchCoreEduData": 108,
+    "FetchScimagoData": 245,
+    "allScholarAuthor": 19,
     "1000": [
         "1",
-        "2024-12-07T09:11:00.210717"
+        "2024-12-09T10:19:02.693364"
     ],
-    "FetchScholarlyData": 63,
+    "FetchScholarlyData": 507,
     "1020": [
         "1",
-        "2024-12-07T09:10:19.641108"
+        "2024-12-09T10:21:55.532936"
     ],
     "1011": [
         "1",
-        "2024-12-07T09:10:25.037294"
+        "2024-12-09T10:21:55.543984"
     ],
     "1010": [
         "1",
-        "2024-12-07T09:15:04.764524"
+        "2024-12-09T10:30:47.817740"
     ]
 }
