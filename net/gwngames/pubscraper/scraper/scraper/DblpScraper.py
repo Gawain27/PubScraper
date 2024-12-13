@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup
 
+from net.gwngames.pubscraper.Context import Context
+from net.gwngames.pubscraper.scraper.BanChecker import BanChecker
 from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScraper
 import urllib.parse
 
@@ -12,8 +14,11 @@ class DblpScraper(GeneralScraper):
         search_url = base_url + urllib.parse.quote(author_name)
 
         self.logger.debug("Loading search URL: %s", search_url)
-        i = self.driver_manager.load_url_in_available_tab(search_url, 'dblp_pubs')
-        search_content = self.driver_manager.get_html_of_tab(i)
+        i, search_content = self.driver_manager.retrieve_html_in_tab(search_url, 'dblp_pubs')
+
+        if BanChecker(Context()).has_ban_phrase(search_content, "Too Many Requests"):
+            self.driver_manager.restart_driver()
+
         search_soup = BeautifulSoup(search_content, "html.parser")
 
         author_link_element = search_soup.select_one("div#completesearch-authors .result-list li a")
@@ -30,8 +35,7 @@ class DblpScraper(GeneralScraper):
 
         self.logger.info("Found author profile link: %s", author_profile_link)
 
-        i = self.driver_manager.load_url_in_available_tab(author_profile_link, 'dblp_pubs')
-        profile_content = self.driver_manager.get_html_of_tab(i)
+        i, profile_content = self.driver_manager.retrieve_html_in_tab(author_profile_link, 'dblp_pubs')
         profile_soup = BeautifulSoup(profile_content, "html.parser")
         publications = []
 

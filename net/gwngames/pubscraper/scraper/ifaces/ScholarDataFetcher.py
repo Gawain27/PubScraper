@@ -1,6 +1,6 @@
 import logging
 from datetime import datetime, timedelta
-from typing import Final
+from typing import Final, Set
 
 from couchdb import Document
 
@@ -22,6 +22,8 @@ from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 class ScholarDataFetcher(GeneralDataFetcher):
     CIT_ART_SALT: Final = ['bib.title']
     INTERFACE_ID: Final = 'google_scholar'
+
+    PUB_AUTHORS: Set = set()
 
     def __init__(self):
         super().__init__()
@@ -58,7 +60,7 @@ class ScholarDataFetcher(GeneralDataFetcher):
             adapter.add_property(AdapterPropertiesConstants.ALT_ITERABLE, opt_arg)
         return adapter
 
-    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int) -> tuple[list[GeneralDataAdapter], dict]:
+    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int, prev_adapter: GeneralDataAdapter) -> tuple[list[GeneralDataAdapter], dict]:
         self.adapter_list, self.priorities_map = ([], {})
         self.logger.info(f"Preparing next phase for phase_ref: {phase_ref}")
 
@@ -69,29 +71,38 @@ class ScholarDataFetcher(GeneralDataFetcher):
 
             for pub in publications:
                 self.generate_adapter_with_prio(EntityCidConstants.PUB,
-                                                PriorityConstants.PUB_REQ, pub['url'], pub['publication_id']).add_property(AdapterPropertiesConstants.NEXT_PHASE_DEPTH, phase_depth+1)
+                                                PriorityConstants.PUB_REQ*3, pub['url'], pub['publication_id']).add_property(AdapterPropertiesConstants.NEXT_PHASE_DEPTH, phase_depth+1)
 
             coauthors = current_entity.get(JsonConstants.TAG_COAUTHORS, [])
 
             for coauthor in coauthors:
-                self.generate_adapter_with_prio(EntityCidConstants.COAUTHOR,
+                if coauthor not in ScholarDataFetcher.PUB_AUTHORS:
+                    self.generate_adapter_with_prio(EntityCidConstants.COAUTHOR,
                                                 PriorityConstants.COAUTHOR_REQ, coauthor, coauthor)
 
         elif phase_ref == EntityCidConstants.PUB:
             self.logger.debug("Processing Google Scholar Publication phase")
             cit_graph = current_entity.get(JsonConstants.TAG_CITATION_GRAPH, [])
+            authors = current_entity.get("authors")
+            pub_id = current_entity.get("publication_id")
 
-            for citation_year in cit_graph:
-                self.generate_adapter_with_prio(EntityCidConstants.CIT,
-                                                PriorityConstants.CIT_REQ, citation_year['citation_link'],
-                                                citation_year['citation_link'])
+            for author in authors:
+                if author not in ScholarDataFetcher.PUB_AUTHORS:
+                    self.generate_adapter_with_prio(EntityCidConstants.COAUTHOR,
+                                                PriorityConstants.COAUTHOR_REQ * 5, author, author)
+                    ScholarDataFetcher.PUB_AUTHORS.add(author)
 
-            all_versions_url = current_entity.get(JsonConstants.TAG_ALL_VERSIONS, [])
-            self.generate_adapter_with_prio(EntityCidConstants.VERSION,
-                                            PriorityConstants.VERSION_REQ, all_versions_url, all_versions_url)
+           # for citation_year in cit_graph:
+            #    self.generate_adapter_with_prio(EntityCidConstants.CIT,
+             #                                   PriorityConstants.CIT_REQ * 10, citation_year['citation_link'],
+              #                                  citation_year['citation_link'], opt_param=pub_id)
+
+            #all_versions_url = current_entity.get(JsonConstants.TAG_ALL_VERSIONS, [])
+           # self.generate_adapter_with_prio(EntityCidConstants.VERSION,
+            #                                PriorityConstants.VERSION_REQ*10, all_versions_url, all_versions_url)
 
         self.logger.info("Completed preparing next phase for phase_ref: {phase_ref}")
-        return super(ScholarDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth)
+        return super(ScholarDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth, prev_adapter)
 
     def get_key_fields(self, entity_cid: int) -> list[str]:
         if entity_cid == EntityCidConstants.CIT:
@@ -102,7 +113,7 @@ class ScholarDataFetcher(GeneralDataFetcher):
     def _start_interface_collectors(self, opt_arg: list | int = None):
         MessageRouter.later_in(FetchScholarlyData(MessageConstants.MSG_ALL_SCHOLARLY_AUTHORS,
             self.generate_fetch_adapter(EntityCidConstants.AUTHOR, opt_arg)),
-            PriorityConstants.AUTHOR_REQ)
+            PriorityConstants.AUTHOR_REQ, 0)
 
     def is_outdated(self, entity: Document):
         if entity is None or entity.get("update_date") is None:
@@ -116,3 +127,4 @@ class ScholarDataFetcher(GeneralDataFetcher):
 
     def get_variant_type(self):
         return EntityVidConstants.SCHOLAR_VID
+

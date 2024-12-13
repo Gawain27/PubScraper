@@ -37,5 +37,3 @@ class ConfigConstants:
     MIN_LOAD_WAIT: Final = 'min_load_wait'
     MAX_LOAD_WAIT: Final = 'max_load_wait'
     DEBUG_DELAY: Final = 'debug_delay'
-    SCIMAGO_STARTING_PAGE = 'scimago_starting_page'
-    SCIMAGO_AREA_CODES = "scimago_area_codes"

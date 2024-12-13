@@ -95,8 +95,8 @@ class MessageRouter:
         self.send_message(message, priority=priority, depth=depth)
 
     @staticmethod
-    def later_in(data, priority: int):
-        MessageRouter.get_instance().send_later_in(data, priority)
+    def later_in(data, priority: int, depth: int):
+        MessageRouter.get_instance().send_later_in(data, priority, depth)
 
     @staticmethod
     def get_instance():

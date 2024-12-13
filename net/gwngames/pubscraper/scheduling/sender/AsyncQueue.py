@@ -38,9 +38,6 @@ class AsyncQueue(queue.Queue):
         while retries != 0:
             exception_caught = False
             if self.is_queue_depth_limited:
-                if msg.depth is not None and msg.depth > self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX):
-                    logging.debug("Max depth reached for message %s - %s", msg.message_type, msg.message_id)
-                    return
                 if msg.depth is None:
                     msg.depth = 0
 
@@ -49,7 +46,7 @@ class AsyncQueue(queue.Queue):
             try:
                 self.on_message(msg)
                 retries = 0
-            except Exception as e:
+            except Exception:
                 exception_caught = True
                 full_exception = traceback.format_exc()
                 logging.error(full_exception)

@@ -82,7 +82,7 @@ class GeneralDataFetcher:
             # Step 2 - Obtain id of the entity to process
             fetch_iterator: list | bool = adapter.get_property(AdapterPropertiesConstants.ALT_ITERABLE, False)
 
-            if fetch_iterator is not False:
+            if fetch_iterator is not None:
                 existing_data_id = fetch_iterator.pop()
                 adapter.add_property(AdapterPropertiesConstants.IFACE_FX_PARAM, existing_data_id)
                 adapter.add_property(AdapterPropertiesConstants.ALT_ITERABLE, fetch_iterator)
@@ -93,6 +93,7 @@ class GeneralDataFetcher:
             existing_object = database.get(existing_data_id)
             interface_fx = adapter.get_property(AdapterPropertiesConstants.IFACE_FX)
             interface_fx_param = adapter.get_property(AdapterPropertiesConstants.IFACE_FX_PARAM)
+            interface_fx_opt_param = adapter.get_property(AdapterPropertiesConstants.IFACE_FX_OPT_PARAM, False)
             interface_fx_ref = adapter.get_property(AdapterPropertiesConstants.PHASE_REF)
             interface_iter_idx = adapter.get_property(AdapterPropertiesConstants.IFACE_IDX, False)
             entity_none_or_outdated = self.is_outdated(existing_object)
@@ -102,16 +103,16 @@ class GeneralDataFetcher:
 
                 # Step 3.5 - Differentiate between iterators and simple objects
                 if not adapter.get_property(AdapterPropertiesConstants.IFACE_IS_ITERATOR, failable=False):
-                    fetched_entity = interface_fx(interface_fx_param)
+                    fetched_entity = interface_fx(interface_fx_param, interface_fx_opt_param) if interface_fx_opt_param is not None else interface_fx(interface_fx_param)
                     self.logger.info("Fetched simple entity: %s - ID: %s", data.content, existing_data_id)
                 else:
-                    if interface_iter_idx is False:  # Does not require index
-                        fetched_entity = interface_fx(interface_fx_param)
+                    if interface_iter_idx is None:  # Does not require index
+                        fetched_entity = interface_fx(interface_fx_param, interface_fx_opt_param) if interface_fx_opt_param is not None else interface_fx(interface_fx_param)
                         self.logger.info("Fetched entity from iterator: %s - ID: %s", data.content, existing_data_id)
                     else:  # Requires index
                         if adapter.get_property(AdapterPropertiesConstants.IFACE_CACHED_ITER) is None:
                             self.logger.debug("Initializing new cached iterator for content: %s", data.content)
-                            iter_coll = interface_fx(interface_fx_param)
+                            iter_coll = interface_fx(interface_fx_param, interface_fx_opt_param) if interface_fx_opt_param is not None else interface_fx(interface_fx_param)
                             adapter.add_property(AdapterPropertiesConstants.IFACE_CACHED_ITER, iter_coll)
                             adapter.add_property(AdapterPropertiesConstants.EXPECTED_ID, JsonReader.DEV_NULL)
 
@@ -124,16 +125,16 @@ class GeneralDataFetcher:
                                          existing_data_id, next_id)
 
                 additional_fx = adapter.get_property(AdapterPropertiesConstants.IFACE_ADDITIONAL_FX, failable=False)
-                if additional_fx is not False:
+                if additional_fx is not None:
                     fetched_entity = additional_fx(fetched_entity)
                     self.logger.info("Enriched entity for content: %s - ID: %s", data.content, existing_data_id)
 
-                if fetched_entity is not None and fetched_entity is not False:  # falsy conversion for empty lists, etc...
+                if fetched_entity is not None and fetched_entity is not None:  # falsy conversion for empty lists, etc...
                     if isinstance(fetched_entity, dict):
-                        fetched_entity["serialized"] = False
+                        fetched_entity["serialized"] = None
                     elif isinstance(fetched_entity, str):
                         fetched_entity = json.loads(fetched_entity)
-                        fetched_entity["serialized"] = False
+                        fetched_entity["serialized"] = None
                     else:
                         raise Exception(fetched_entity.__class__.__name__ + " not serializable")
 
@@ -160,26 +161,23 @@ class GeneralDataFetcher:
                 MessageRouter.get_instance().send_message(serialize_entity_msg, priority=PriorityConstants.ENTITY_SERIAL_REQ)
 
             # Step 5 - Prepare adapters for the next phases
-            reuse_adapter = ((fetch_iterator is not False and fetch_iterator.__len__() > 0)
-                             or interface_iter_idx is not False)
+            reuse_adapter = ((fetch_iterator is not None and fetch_iterator.__len__() > 0)
+                             or interface_iter_idx is not None)
             next_adapters, next_prio = ([], {})
             if fetched_entity is not None:
-                next_adapters, next_prio = self.prepare_next_phase(interface_fx_ref, fetched_entity, data.depth)
+                next_adapters, next_prio = self.prepare_next_phase(interface_fx_ref, fetched_entity, data.depth, data.adapter)
 
             if reuse_adapter:
                 self.logger.debug("Reusing adapter for content: %s - ID: %s", data.content, existing_data_id)
                 # adapter is still needed (it's an iterable), reuse it
                 next_adapters.append(adapter)
-                next_prio[adapter] = data.priority
+                next_prio[adapter] = data.priority -5
 
             for next_adapter, prio in zip(next_adapters, next_prio.values()):
                 next_message = data.__class__(data.__class__.__name__, adapter=next_adapter)
-                next_message.depth = data.depth + 1
+                next_message.depth = data.depth
 
-                if next_adapter.get_property(AdapterPropertiesConstants.IFACE_IDX, failable=False) is not False:
-                    next_message.depth -= 1 # Re-iterable should not decrease, they are multi root
-
-                MessageRouter.later_in(next_message, priority=prio)
+                MessageRouter.later_in(next_message, priority=prio, depth=next_message.depth)
 
         except Exception as e:
             self.logger.error("Error fetching general data for content: %s - Error: %s", data.content, str(e))
@@ -187,7 +185,7 @@ class GeneralDataFetcher:
             raise e
 
     @abstractmethod
-    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int) -> tuple[list[GeneralDataAdapter], dict]:
+    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int, prev_adapter: GeneralDataAdapter) -> tuple[list[GeneralDataAdapter], dict]:
         return self.adapter_list, self.priorities_map
 
     @staticmethod
@@ -266,15 +264,12 @@ class GeneralDataFetcher:
             return True
         return False
 
-    def generate_adapter_with_prio(self, ref: int, prio: int, param: Any, expected_id: str, fetcher=None):
+    def generate_adapter_with_prio(self, ref: int, prio: int, param: Any, expected_id: str, opt_param: Any = None):
         if param is None:
             self.logger.warning(f"None FX parameter found: {ref} - {prio}")
             return
 
-        if fetcher is not None:
-            tmp_adapter = fetcher.generate_fetch_adapter(ref)
-        else:
-            tmp_adapter = self.generate_fetch_adapter(ref)
+        tmp_adapter = self.generate_fetch_adapter(ref)
 
         if isinstance(param, list):
             if len(param) == 0:
@@ -284,8 +279,10 @@ class GeneralDataFetcher:
             tmp_adapter.add_property(AdapterPropertiesConstants.IFACE_FX_PARAM, param)
             tmp_adapter.add_property(AdapterPropertiesConstants.EXPECTED_ID, expected_id)
 
+        tmp_adapter.add_property(AdapterPropertiesConstants.IFACE_FX_OPT_PARAM, opt_param)
         self.adapter_list.append(tmp_adapter)
         self.priorities_map[tmp_adapter] = prio
+
         
         return tmp_adapter
 

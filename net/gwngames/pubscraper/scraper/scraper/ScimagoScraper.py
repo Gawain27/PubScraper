@@ -1,25 +1,25 @@
-from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
 from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScraper
 
 
 class ScimagoScraper(GeneralScraper):
-    year = 1999  # Static years, every publication beging at this point, incremental only
 
-    def get_journals_from_page(self, area):
+    def get_journals_from_page(self, journal_year, page):
         """
         Retrieves journal data for the given year, area, and page number from SCImago Journal Rank.
         """
         import re
         from bs4 import BeautifulSoup
 
+        if page is False:
+            return {}
+
         base_url = "https://www.scimagojr.com/journalrank.php"
-        target_url = f"{base_url}?year={ScimagoScraper.year}&area={area}&page={self.ctx.get_config().get_value(ConfigConstants.SCIMAGO_STARTING_PAGE)}"
+        target_url = f"{base_url}?year={journal_year}&area=1700&page={page}"
         self.logger.info("Fetching journals from URL: %s", target_url)
 
         try:
-            i = self.driver_manager.load_url_in_available_tab(target_url, 'scimago_journals')
-            page_content = self.driver_manager.get_html_of_tab(i)
+            i, page_content = self.driver_manager.retrieve_html_in_tab(target_url, 'scimago_journals')
             self.driver_manager.release_tab(i)
         except Exception as e:
             self.logger.error("Error loading or releasing tab: %s", e)
@@ -104,7 +104,9 @@ class ScimagoScraper(GeneralScraper):
 
                     # Extract Q rank (e.g., Q1) if present in SJR cell
                     q_rank_element = cells[3].find("span", class_="q1") if len(cells) > 3 else None
-                    q_rank = q_rank_element.get_text(strip=True) if q_rank_element else sjr[-2:] if sjr[-2] == 'q' else "N/A"
+                    q_rank = q_rank_element.get_text(strip=True) if q_rank_element else sjr[-2:] if sjr[-2] == 'Q' else "N/A"
+                    match = re.match(r'^(\d+\.\d+)', q_rank_element)
+                    sjr = match.group(1) if match else 0
 
                     journal_data = {
                         "title": title,
@@ -113,14 +115,14 @@ class ScimagoScraper(GeneralScraper):
                         "sjr": sjr,
                         "q_rank": q_rank,
                         "h_index": h_index,
-                        "total_docs_2008": total_docs_2008,
+                        "total_docs": total_docs_2008,
                         "total_docs_3years": total_docs_3years,
-                        "total_refs_2008": total_refs_2008,
+                        "total_refs": total_refs_2008,
                         "total_cites_3years": total_cites_3years,
                         "citable_docs_3years": citable_docs_3years,
                         "cites_per_doc_2years": cites_per_doc_2years,
-                        "refs_per_doc_2008": refs_per_doc_2008,
-                        "female_percent_2008": female_percent_2008,
+                        "refs_per_doc": refs_per_doc_2008,
+                        "female_percent": female_percent_2008,
                         "year": year
                     }
                     journals.append(journal_data)
@@ -129,6 +131,4 @@ class ScimagoScraper(GeneralScraper):
         except Exception as e:
             self.logger.error("Error extracting journal data: %s", e)
 
-        if is_end:
-            ScimagoScraper.year = ScimagoScraper.year + 1
-        return {JsonConstants.TAG_JOURNALS: journals, JsonConstants.TAG_IS_END: is_end, "area": area}
+        return {JsonConstants.TAG_JOURNALS: journals, "is_end": is_end}

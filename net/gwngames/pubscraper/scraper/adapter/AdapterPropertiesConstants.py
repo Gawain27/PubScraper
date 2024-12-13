@@ -6,6 +6,7 @@ class AdapterPropertiesConstants:
     PHASE_REF: Final = "phase_ref"
     IFACE_FX: Final = "iface_fx"
     IFACE_FX_PARAM: Final = "iface_fx_param"
+    IFACE_FX_OPT_PARAM: Final = "iface_fx_opt_param"
     IFACE_IDX: Final = "iface_idx"
     IFACE_CACHED_ITER: Final = "iface_cached_iter"
     IFACE_ADDITIONAL_FX = "iface_add_fx"

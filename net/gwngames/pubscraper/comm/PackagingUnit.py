@@ -1,4 +1,3 @@
-import gzip
 import json
 import logging
 import math
@@ -38,8 +37,6 @@ class PackagingUnit:
         """
         # Serialize the object to JSON
         json_data = json.dumps(obj).encode('utf-8')
-        # Compress the serialized JSON data using gzip
-        #compressed_data = gzip.compress(json_data)
 
         return json_data
 

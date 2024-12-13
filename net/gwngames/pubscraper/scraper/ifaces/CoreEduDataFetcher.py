@@ -40,31 +40,35 @@ class CoreEduDataFetcher(GeneralDataFetcher):
         if opt_arg is not None:
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX_PARAM, str(opt_arg))
             adapter.add_property(AdapterPropertiesConstants.EXPECTED_ID, str(opt_arg))
+            self.ctx.get_message_data().set_value("core_edu_page", 1)
         return adapter
 
-    page_fallback = 1
-
-    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int) -> tuple[list[GeneralDataAdapter], dict]:
+    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int, prev_adapter: GeneralDataAdapter) -> tuple[list[GeneralDataAdapter], dict]:
         self.adapter_list, self.priorities_map = ([], {})
 
         if phase_ref == EntityCidConstants.CONFERENCE and current_entity:
-            self.logger.debug("Processing Scimago Journals next phase")
+            self.logger.debug("Processing Core Conference next phase")
 
-            page_number = current_entity.get("page_number", CoreEduDataFetcher.page_fallback)
-            CoreEduDataFetcher.page_fallback += 1
+            count = 10
+            current_page = self.ctx.get_message_data().get_value("core_edu_page")
+            self.logger.info(current_page)
+            while count > 0 and str(current_page)[-1] == "1" and current_entity != {}:
+                count -= 1
+                next_page = self.ctx.get_message_data().get_value("core_edu_page")
+                next_page = str(next_page)
+                self.ctx.get_message_data().increment("core_edu_page")
+                self.generate_adapter_with_prio(EntityCidConstants.CONFERENCE,
+                                                PriorityConstants.CONFERENCE_REQ, next_page, next_page)
 
-            self.generate_adapter_with_prio(EntityCidConstants.CONFERENCE,
-                                            PriorityConstants.CONFERENCE_REQ, page_number, str(page_number))
-
-        self.logger.info("Completed preparing next phase for phase_ref: {phase_ref}")
+        self.logger.info(f"Completed preparing next phase for phase_ref: {phase_ref}")
 
         # Message is re executed
-        return super(CoreEduDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth)
+        return super(CoreEduDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth, prev_adapter)
 
     def _start_interface_collectors(self, opt_arg: list | int = None):
         MessageRouter.later_in(FetchCoreEduData(MessageConstants.MSG_ALL_CORE_CONFERENCE,
                                                 self.generate_fetch_adapter(EntityCidConstants.CONFERENCE, opt_arg)),
-                               PriorityConstants.CONFERENCE_REQ)
+                               PriorityConstants.CONFERENCE_REQ, 0)
 
     def get_interface_id(self) -> str:
         return self.INTERFACE_ID

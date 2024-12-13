@@ -12,9 +12,11 @@ class CoreEduScraper(GeneralScraper):
         base_url = "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=all&sort=atitle&page="
         target_url = base_url + str(page_number)
 
+        if page_number is False:
+            return {}
+
         self.logger.debug("Loading URL: %s", target_url)
-        i = self.driver_manager.load_url_in_available_tab(target_url, 'core_conferences')
-        page_content = self.driver_manager.get_html_of_tab(i)
+        i, page_content = self.driver_manager.retrieve_html_in_tab(target_url, 'core_conferences')
         page_soup = BeautifulSoup(page_content, "html.parser")
 
         self.driver_manager.release_tab(i)
@@ -55,8 +57,8 @@ class CoreEduScraper(GeneralScraper):
             comments = cells[7].get_text(strip=True)
             avg_rating = cells[8].get_text(strip=True)
 
-            match = re.search(r'\b(\d{4})\b$', source)
-            year = match.group(1) if match else None
+            match = re.search(r'\d{4}', source)
+            year = match.group(0) if match else 0
 
             conference_data = {
                 "title": title,

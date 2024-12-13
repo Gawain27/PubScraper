@@ -11,8 +11,8 @@ from net.gwngames.pubscraper.LogFileHandler import LogFileHandler
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.scheduling.IntegerMap import IntegerMap
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
+from net.gwngames.pubscraper.scraper.BanChecker import BanChecker
 from net.gwngames.pubscraper.scraper.WebScraper import WebScraper
-from net.gwngames.pubscraper.scraper.scraper.SeleniumDriver import SeleniumDriver
 from net.gwngames.pubscraper.utils.ClassRegisterer import QueueRegisterer
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
@@ -69,10 +69,10 @@ if __name__ == '__main__':
 
     QueueRegisterer().register_queues()
 
-    SeleniumDriver.get_instance()  # init manager
-
     router = MessageRouter.get_instance()
     router.start()
+
+    BanChecker(ctx).start_monitoring()
 
     scraper = WebScraper()
     scraper.start()  # Asynchronous call, scraper has started

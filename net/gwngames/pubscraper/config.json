@@ -1,6 +1,6 @@
 {
     "max_logfile_lines": 1000,
-    "interfaces_enabled": "google_scholar,dblp,core_edu,scimago",
+    "interfaces_enabled": "google_scholar",
     "max_buffer_retries": 1,
     "acceptable_load": 0.5,
     "server_url": "localhost",
@@ -10,11 +10,11 @@
     "authors_ref": "https://di.unipi.it/persone/",
     "root_authors": "",
     "shuffle_roots": true,
-    "min_wait_time": 10,
-    "max_wait_time": 25,
+    "min_wait_time": 17,
+    "max_wait_time": 16,
     "max_ms_worktime": 360000,
-    "max_iface_requests": 3,
-    "depth_max": 10,
+    "max_iface_requests": 6,
+    "depth_max": 7,
     "db_host": "localhost",
     "db_port": 5984,
     "db_user": "admin",
@@ -29,8 +29,6 @@
     "browser_type": "firefox",
     "captcha_action": 2,
     "2captcha_api_key": "f8f3605447f0ed41a330e74e4edd4b5d",
-    "url_timeout": 100,
-    "max_active_threads": 20,
-    "scimago_starting_page": 1,
-    "scimago_area_codes": "1700"
+    "url_timeout": 30,
+    "max_active_threads": 200
 }

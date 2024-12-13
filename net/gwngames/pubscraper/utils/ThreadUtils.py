@@ -6,7 +6,7 @@ import time
 class ThreadUtils:
 
     @staticmethod
-    def random_sleep(min_seconds: float, max_seconds: float, logger: logging.Logger, object_for: str):
+    def sleep_for(min_seconds: float, max_seconds: float, logger: logging.Logger, object_for: str):
         """
         Sleep for a random number of seconds between min_seconds and max_seconds,
         with an additional delta that either adds or subtracts from the sleep time.

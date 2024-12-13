@@ -4,10 +4,14 @@ import traceback
 
 from bs4 import BeautifulSoup
 
+from net.gwngames.pubscraper.scraper.BanChecker import BanChecker
 from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScraper
 
 
 class ScholarScraper(GeneralScraper):
+    def __init__(self):
+        super().__init__()
+        self.driver_manager.mode = self.driver_manager.ONE_PER_REQ
 
     def get_author_profile_data(self, profile_id):
         self.logger.info(f"Starting profile data extraction for: {profile_id}")
@@ -15,9 +19,8 @@ class ScholarScraper(GeneralScraper):
         author_base_url = "https://scholar.google.com/citations?hl=it&user=" + profile_id
         i = None
         try:
-            i = self.driver_manager.load_url_in_available_tab(author_base_url, 'scholar_author')
+            i, page_source = self.driver_manager.retrieve_html_in_tab(author_base_url, 'scholar_author')
 
-            page_source = self.driver_manager.get_html_of_tab(i)
             soup = BeautifulSoup(page_source, 'html.parser')
 
             profile_section = soup.find('div', id='gsc_prf_w')
@@ -74,8 +77,11 @@ class ScholarScraper(GeneralScraper):
 
             data_cells = soup.find_all('td', class_='gsc_rsb_std')
 
-            h_index = data_cells[2].text
-            i10_index = data_cells[4].text
+            h_index = -1
+            i10_index = -1
+            if data_cells.__len__() >= 5:
+                h_index = data_cells[2].text
+                i10_index = data_cells[4].text
 
             coauthors = self.fetch_colleagues_ids(author_id)
 
@@ -97,7 +103,6 @@ class ScholarScraper(GeneralScraper):
             }
             self.logger.info(f"TAB[{i}] - Profile data extraction complete for: {name}")
             return author_data
-
         except Exception:
             self.logger.error(f"Error extracting profile data: {str(traceback.format_exc())}")
             if i is not None:
@@ -113,9 +118,10 @@ class ScholarScraper(GeneralScraper):
             search_url = f"https://scholar.google.com/citations?view_op=search_authors&mauthors={formatted_name}&hl=en&oi=ao"
 
             self.logger.info(f"Opening search URL: {search_url}")
-            i = self.driver_manager.load_url_in_available_tab(search_url, 'scholar_profile', 'gs_captcha_ccl')
+            i, page_source = self.driver_manager.retrieve_html_in_tab(search_url, 'scholar_profile', 'gs_captcha_ccl')
 
-            page_source = self.driver_manager.get_html_of_tab(i)
+            if BanChecker(self.ctx).has_ban_phrase(page_source):
+                self.driver_manager.restart_driver()
             soup = BeautifulSoup(page_source, 'html.parser')
 
             author_div = soup.find('div', class_='gsc_1usr')
@@ -159,9 +165,8 @@ class ScholarScraper(GeneralScraper):
             self.logger.info(f"Loading page with start index {cstart} and page size {pagesize}")
             i = None
             try:
-                i = self.driver_manager.load_url_in_available_tab(paginated_url, 'scholar_pubs')
+                i, page_source = self.driver_manager.retrieve_html_in_tab(paginated_url, 'scholar_pubs')
 
-                page_source = self.driver_manager.get_html_of_tab(i)
                 soup = BeautifulSoup(page_source, 'html.parser')
 
                 # Find the publication table content
@@ -209,15 +214,19 @@ class ScholarScraper(GeneralScraper):
 
     def fetch_publication_data(self, publication_url):
         """
-        This function takes a Selenium WebDriver instance and a Google Scholar publication URL,
-        extracts all relevant publication data, and returns the data in JSON format.
+        Extracts publication data from a Google Scholar publication URL using Selenium and BeautifulSoup.
+        Returns the data in JSON format.
         """
         self.logger.info(f"Fetching publication data from: {publication_url}")
         i = None
         try:
-            i = self.driver_manager.load_url_in_available_tab(publication_url, 'scholar_pub_data')
+            i, page_source = self.driver_manager.retrieve_html_in_tab(publication_url, 'scholar_pub_data')
 
-            page_source = self.driver_manager.get_html_of_tab(i)
+            if not page_source:
+                self.logger.error(f"TAB[{i}] - Failed to retrieve page source for: {publication_url}")
+                self.driver_manager.release_tab(i)
+                return None
+
             soup = BeautifulSoup(page_source, 'html.parser')
 
             publication_id_match = re.search(r'citation_for_view=([^&]+)', publication_url)
@@ -228,25 +237,32 @@ class ScholarScraper(GeneralScraper):
             title = title_tag.text.strip() if title_tag else "Title not available"
             title_link = title_tag['href'] if title_tag and title_tag.has_attr('href') else "Title link not available"
 
-            pdf_link_tag = soup.find('a', class_='gsc_vcd_title_ggt')
+            pdf_link_tag = soup.find('span', class_='gsc_vcd_title_ggt')
             pdf_link = pdf_link_tag.find_parent('a')['href'] if pdf_link_tag else "PDF link not available"
 
-            # Extract authors, publication date, conference, pages, publisher, description
-            # All these values share the same structure with the class 'gsc_oci_value'
-            gsc_oci_values = soup.find_all('div', class_='gsc_oci_value')
+            gsc_oci_fields = soup.find_all('div', class_='gs_scl')
 
-            authors = [author.strip() for author in gsc_oci_values[0].text.split(',')] if gsc_oci_values else [
-                "Authors not available"]
+            authors = ""
+            publication_date = 0
+            conference = "Conference not available"
+            pages = "Pages not available"
+            publisher = "Publisher not available"
+            description = "Description not available"
 
-            publication_date = gsc_oci_values[1].text.strip() if len(gsc_oci_values) > 1 else "Date not available"
-
-            conference = gsc_oci_values[2].text.strip() if len(gsc_oci_values) > 2 else "Conference not available"
-
-            pages = gsc_oci_values[3].text.strip() if len(gsc_oci_values) > 3 else "Pages not available"
-
-            publisher = gsc_oci_values[4].text.strip() if len(gsc_oci_values) > 4 else "Publisher not available"
-
-            description = gsc_oci_values[5].text.strip() if len(gsc_oci_values) > 5 else "Description not available"
+            for field in gsc_oci_fields:
+                key = field.find('div', class_='gsc_oci_field').text.strip()
+                value = field.find('div', class_='gsc_oci_value').text.strip()
+                datum = re.match(r'^\d{4}', value)
+                if "Aut" in key:
+                    authors = [author.strip() for author in value.split(',')]
+                elif "Pag" in key:
+                    pages = value
+                elif "Edito" in key:
+                    publisher = value
+                elif len(value) > 300:
+                    description = value
+                elif datum is not None and len(value) < 50:
+                    publication_date = datum.group(0)
 
             citations_tag = soup.find('a', href=True, text=lambda x: x and x.startswith("Cit"))
             if citations_tag:
@@ -259,28 +275,31 @@ class ScholarScraper(GeneralScraper):
                 citations_number = 0
                 self.logger.warning(f"TAB[{i}] - Total citations not found.")
 
-            # Extract citation graph data, including the publication ID and year-specific citation links
             citation_graph = []
             graph_bars = soup.find_all('a', class_='gsc_oci_g_a')
             for bar in graph_bars:
-                year = bar['href'].split("as_ylo=")[1].split("&")[0]
-                citation_count = bar.find('span').text.strip()
-                citation_link = f"{bar['href']}"
-                citation_graph.append({
-                    "year": year,
-                    "citations": citation_count,
-                    "publication_id": publication_id,
-                    "citation_link": citation_link
-                })
+                try:
+                    year = bar['href'].split("as_ylo=")[1].split("&")[0]
+                    citation_count = bar.find('span').text.strip()
+                    citation_link = bar['href']
+                    citation_graph.append({
+                        "year": year,
+                        "citations": citation_count,
+                        "publication_id": publication_id,
+                        "citation_link": citation_link
+                    })
+                except Exception as e:
+                    self.logger.error(f"TAB[{i}] - Error extracting citation graph data: {str(e)}")
+
             self.logger.info(f"TAB[{i}] - Extracted citation graph data: {citation_graph}")
 
             gsc_oms_links = soup.find_all('a', class_='gsc_oms_link')
-
-            # Assume the first link is related articles and the second is all versions
-            related_articles_url = f"{gsc_oms_links[0]['href']}" if len(
-                gsc_oms_links) > 0 else "No related articles link"
-            all_versions_url = f"{gsc_oms_links[1]['href']}" if len(
-                gsc_oms_links) > 1 else "No all versions link"
+            related_articles_url = (
+                gsc_oms_links[0]['href'] if len(gsc_oms_links) > 0 else "No related articles link"
+            )
+            all_versions_url = (
+                gsc_oms_links[1]['href'] if len(gsc_oms_links) > 1 else "No all versions link"
+            )
 
             self.logger.info(f"TAB[{i}] - Extracted related articles URL: {related_articles_url}")
             self.logger.info(f"TAB[{i}] - Extracted all versions URL: {all_versions_url}")
@@ -325,9 +344,8 @@ class ScholarScraper(GeneralScraper):
         colleagues_url = base_url.format(user_id)
         i = None
         try:
-            i = self.driver_manager.load_url_in_available_tab(colleagues_url, 'scholar_colleagues')
+            i, page_source = self.driver_manager.retrieve_html_in_tab(colleagues_url, 'scholar_colleagues')
 
-            page_source = self.driver_manager.get_html_of_tab(i)
             soup = BeautifulSoup(page_source, 'html.parser')
 
             author_names = [h3.get_text() for h3 in soup.find_all('h3', class_='gs_ai_name')]
@@ -350,9 +368,10 @@ class ScholarScraper(GeneralScraper):
     def get_citations_from_page(self, url, cites_id):
         stop = False
         self.logger.info(f"Fetching page citation page: {url}")
-        i = self.driver_manager.load_url_in_available_tab(url, 'scholar_citation', 'gs_captcha_ccl')
+        i, page_source = self.driver_manager.retrieve_html_in_tab(url, 'scholar_citation', 'gs_captcha_ccl')
 
-        page_source = self.driver_manager.get_html_of_tab(i)
+        if BanChecker(self.ctx).has_ban_phrase(page_source):
+            self.driver_manager.restart_driver()
         soup = BeautifulSoup(page_source, 'html.parser')
 
         citation_divs = soup.find_all('div', class_='gs_r')
@@ -413,7 +432,7 @@ class ScholarScraper(GeneralScraper):
         self.driver_manager.release_tab(i)
         return citation_data, stop
 
-    def scrape_all_citations(self, base_url):
+    def scrape_all_citations(self, base_url, pub_id):
         start = 0
         all_citations = []
         cites_id = self.extract_id_from(base_url, "cites")
@@ -437,14 +456,16 @@ class ScholarScraper(GeneralScraper):
         if len(all_citations) == 0:
             raise Exception("No citations found for: " + base_url)
         self.logger.info(f"Scraping complete. Total citations collected: {len(all_citations)}")
-        return {"citations": all_citations}
+        return {"citations": all_citations, "cites_id": cites_id, "pub_id": pub_id}
 
     def get_versions_from_page(self, url, cluster_id):
         stop = False
         self.logger.info(f"Fetching versions page: {url}")
-        i = self.driver_manager.load_url_in_available_tab(url, 'scholar_version', 'gs_captcha_ccl')
+        i, page_source = self.driver_manager.retrieve_html_in_tab(url, 'scholar_version', 'gs_captcha_ccl')
 
-        page_source = self.driver_manager.get_html_of_tab(i)
+        if BanChecker(self.ctx).has_ban_phrase(page_source):
+            self.driver_manager.restart_driver()
+
         soup = BeautifulSoup(page_source, 'html.parser')
 
         extracted_data = []

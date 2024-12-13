@@ -62,4 +62,7 @@ class NameFetcher:
         NameFetcher.recursive_find_json(soup, json_objects)
         # Extract names from the JSON-like objects
         names = NameFetcher.extract_names_from_json(json_objects)
-        return names if names is not None else []
+        if names is not None:
+            return list(reversed(names))
+        else:
+            return []

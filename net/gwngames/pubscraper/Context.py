@@ -83,7 +83,7 @@ class Context:
 
     def get_max_requests(self) -> int:
         reqs = self.get_config().get_value(ConfigConstants.MAX_IFACE_REQUESTS)
-        return len(self.get_active_interfaces()) * reqs
+        return reqs
 
     def is_iface_enabled(self, iface_name) -> bool:
         return iface_name in self.get_config().get_value(ConfigConstants.INTERFACES_ENABLED)

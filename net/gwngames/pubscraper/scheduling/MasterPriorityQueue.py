@@ -25,6 +25,7 @@ class MasterPriorityQueue:
     _instance = None
     _message_count = 0
     _lock = threading.Lock()  # Lock to prevent simultaneous access during priority adjustment
+    _system_lock = threading.Lock()
 
     def __new__(cls, *args, **kwargs):
         if not cls._instance:
@@ -41,26 +42,33 @@ class MasterPriorityQueue:
         self.ctx = Context()
         self.adjustment_interval = len(self.ctx.get_active_interfaces())
         self.last_adjustment_time = datetime.now()  # Initialize the last adjustment timestamp
-        self.avg_depth = self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX)
+        self.max_depth = self.ctx.get_config().get_value(ConfigConstants.DEPTH_MAX)
         self.message_type_count = defaultdict(int)  # Track counts of each message type
-        logger.debug("MasterPriorityQueue initialized with adjustment_interval=%s, avg_depth=%s",
-                     self.adjustment_interval, self.avg_depth)
+        logger.debug("MasterPriorityQueue initialized with adjustment_interval=%s, max_depth=%s",
+                     self.adjustment_interval, self.max_depth)
 
     def send(self, priority: int, message: 'AbstractMessage', subqueue: queue.Queue = None):
         """
         Enqueue a message with a specific priority into the appropriate queue.
         """
-        with self._lock:
-            effective_priority = self._calculate_effective_priority(priority, message)
-            self.message_type_count[message.message_type] += 1
-            if message.system_message:
+        if message.depth > self.max_depth != -1:
+            logger.warning("Depth max reached for: " + message.message_type +"_"+message.message_id)
+            return
+
+        effective_priority = self._calculate_effective_priority(priority, message)
+        if message.system_message:
+            with self._system_lock:
+                self.message_type_count[message.message_type] += 1
                 self.system_queue.put((effective_priority, message, subqueue))
                 logger.info("System message sent: %s with priority %s (effective priority: %s)",
-                            message, priority, effective_priority)
-            else:
+                        message, priority, effective_priority)
+        else:
+            with self._lock:
+                self.message_type_count[message.message_type] += 1
                 self.process_queue.put((effective_priority, message, subqueue))
-                logger.info("Process message sent: %s with priority %s (effective priority: %s)",
-                            message, priority, effective_priority)
+                logger.info("Process message sent: %s with priority %s (effective priority: %s) - depth %s",
+                        message, priority, effective_priority, message.depth)
+
 
     def receive(self, block: bool = True, timeout: float | None = None) -> Tuple[int, 'AbstractMessage', queue.Queue]:
         """
@@ -74,7 +82,7 @@ class MasterPriorityQueue:
         _, message, _ = item
         self.message_type_count[message.message_type] -= 1
         self._message_count += 1
-        logger.info("Message received: %s with priority %s", message, item[0])
+        logger.info("Message received: %s with priority %s and depth %s", message, item[0], message.depth)
 
         # Check if x minute has passed since the last adjustment
         current_time = datetime.now()
@@ -90,7 +98,6 @@ class MasterPriorityQueue:
         """
         Decreases the priority of all messages in both the system and process queues by a depth-based value.
         """
-        self._adjust_queue_priorities(self.system_queue, "system")
         self._adjust_queue_priorities(self.process_queue, "process")
 
     def _adjust_queue_priorities(self, target_queue, queue_name):
@@ -103,8 +110,6 @@ class MasterPriorityQueue:
             priority, message, subqueue = target_queue.get()
             new_priority = self._calculate_effective_priority(priority, message, adjust=True)
             temp_items.append((new_priority, message, subqueue))
-            logger.debug("Adjusted priority for message in %s queue: %s from %s to %s",
-                         queue_name, message, priority, new_priority)
 
         for item in temp_items:
             target_queue.put(item)
@@ -116,10 +121,8 @@ class MasterPriorityQueue:
         """
         fairness_penalty = self.message_type_count[message.message_type]
         depth_penalty = message.depth if message.depth is not None else 0
-        adjustment = -self.avg_depth if adjust else 0
+        adjustment = -self.max_depth if adjust else 0
         effective_priority = priority + fairness_penalty + depth_penalty + adjustment
-        logger.debug("Calculated effective priority: %s (base: %s, fairness: %s, depth: %s, adjustment: %s)",
-                     effective_priority, priority, fairness_penalty, depth_penalty, adjustment)
         return effective_priority
 
 

@@ -43,21 +43,21 @@ class DblpDataFetcher(GeneralDataFetcher):
             adapter.add_property(AdapterPropertiesConstants.ALT_ITERABLE, opt_arg)
         return adapter
 
-    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int) -> tuple[list[GeneralDataAdapter], dict]:
+    def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int, prev_adapter: GeneralDataAdapter) -> tuple[list[GeneralDataAdapter], dict]:
         self.adapter_list, self.priorities_map = ([], {})
 
         if phase_ref == EntityCidConstants.PUB:
             for author in current_entity.get("authors", []):
                 self.generate_adapter_with_prio(EntityCidConstants.PUB,
-                                                PriorityConstants.PUB_REQ, author, author)
+                                                PriorityConstants.PUB_REQ*5, author, author)
                 self.logger.debug("Processing Dblp Authors next phase")
 
-        return super(DblpDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth=phase_depth)
+        return super(DblpDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth=phase_depth, prev_adapter=prev_adapter)
 
     def _start_interface_collectors(self, opt_arg: list | int = None):
         MessageRouter.later_in(FetchDblpData(MessageConstants.MSG_ALL_DBLP_AUTHORS,
                                              self.generate_fetch_adapter(EntityCidConstants.PUB, opt_arg)),
-                               PriorityConstants.PUB_REQ)
+                               PriorityConstants.PUB_REQ, 0)
 
     def get_interface_id(self) -> str:
         return self.INTERFACE_ID

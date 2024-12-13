@@ -13,7 +13,7 @@ class AbstractMessage:
 
     def __init__(self, message_type: str, delayed: bool = False, synchronized: bool = False,
                  destination_queue: str = "") -> None:
-        self.depth = None
+        self.depth = 0
         self.stats: JsonReader = JsonReader(JsonReader.MESSAGE_STAT_FILE_NAME)
         self.message_type: str = message_type
         self.message_id: str = self.generate_message_id()

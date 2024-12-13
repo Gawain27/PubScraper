@@ -8,7 +8,7 @@ class GeneralDataAdapter:
         if element is None:
             if failable:
                 raise Exception("Illegal Fetching property requested: " + property_name + " - Found None")
-            element = False
+            element = None
 
         return element
 

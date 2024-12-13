@@ -36,16 +36,13 @@ class WebScraper:
 
         # definition of roots
         scraping_authors: list = []
-        area_codes: list[str] = []
         author_from: str = config.get_value(ConfigConstants.AUTHORS_REF)
         root_authors: str = config.get_value(ConfigConstants.ROOT_AUTHORS)
-        area_from: str = config.get_value(ConfigConstants.SCIMAGO_AREA_CODES)
+        years = [str(year) for year in range(1999, __import__('datetime').datetime.now().year)]
         if author_from is not None:
             scraping_authors += NameFetcher.generate_roots(author_from)
         if root_authors is not None and root_authors != '':
             scraping_authors += StringUtils.process_string(root_authors)
-        if area_from is not None and area_codes != '':
-            area_codes = StringUtils.process_string(area_from)
 
         if config.get_value(ConfigConstants.SHUFFLE_ROOTS):
             random.shuffle(scraping_authors)
@@ -68,8 +65,8 @@ class WebScraper:
                 WebScraper.logger.info("Fetching for %s - Authors: %s", iface.__name__, scraping_authors)
                 iface_instance.start_interface_fetching(opt_arg=scraping_authors)
             elif isinstance(iface_instance, ScimagoDataFetcher):
-                WebScraper.logger.info("Fetching for %s - Codes: %s", iface.__name__, area_codes)
-                iface_instance.start_interface_fetching(opt_arg=area_codes)
+                WebScraper.logger.info("Fetching for %s - Years: %s", iface.__name__, years)
+                iface_instance.start_interface_fetching(opt_arg=years)
             elif isinstance(iface_instance, CoreEduDataFetcher):
                 WebScraper.logger.info("Fetching from %s - page: %s", iface.__name__, "1")
                 iface_instance.start_interface_fetching(1)  # start from page one
