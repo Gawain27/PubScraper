@@ -19,7 +19,7 @@ from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
 class DblpDataFetcher(GeneralDataFetcher):
     INTERFACE_ID: Final = 'dblp'
-
+    authors_seen = []
     def __init__(self):
         super().__init__()
         self.logger = logging.getLogger(self.__class__.__name__)
@@ -45,12 +45,15 @@ class DblpDataFetcher(GeneralDataFetcher):
 
     def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int, prev_adapter: GeneralDataAdapter) -> tuple[list[GeneralDataAdapter], dict]:
         self.adapter_list, self.priorities_map = ([], {})
-
         if phase_ref == EntityCidConstants.PUB:
-            for author in current_entity.get("authors", []):
-                self.generate_adapter_with_prio(EntityCidConstants.PUB,
-                                                PriorityConstants.PUB_REQ*5, author, author)
-                self.logger.debug("Processing Dblp Authors next phase")
+            pubs = current_entity.get("publications", [])
+            for pub in pubs:
+                for author in pub.get("authors", []):
+                    if author not in DblpDataFetcher.authors_seen:
+                        DblpDataFetcher.authors_seen.append(author)
+                        self.generate_adapter_with_prio(EntityCidConstants.PUB,
+                                                        PriorityConstants.PUB_REQ * 5, author, author)
+                        self.logger.debug("Processing Dblp Authors next phase")
 
         return super(DblpDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth=phase_depth, prev_adapter=prev_adapter)
 
@@ -67,3 +70,4 @@ class DblpDataFetcher(GeneralDataFetcher):
 
     def get_variant_type(self) -> int:
         return EntityVidConstants.DBLP_VID
+

@@ -102,7 +102,7 @@ class GeneralDataFetcher:
                 self.logger.info("Entity outdated or not found for ID: %s", existing_data_id)
 
                 # Step 3.5 - Differentiate between iterators and simple objects
-                if not adapter.get_property(AdapterPropertiesConstants.IFACE_IS_ITERATOR, failable=False):
+                if not adapter.get_property(AdapterPropertiesConstants.IFACE_IS_ITERATOR, can_fail=False):
                     fetched_entity = interface_fx(interface_fx_param, interface_fx_opt_param) if interface_fx_opt_param is not None else interface_fx(interface_fx_param)
                     self.logger.info("Fetched simple entity: %s - ID: %s", data.content, existing_data_id)
                 else:
@@ -124,7 +124,7 @@ class GeneralDataFetcher:
                         self.logger.info("Loaded entity from cached iterator: %s - ID: %s - Next ID: %s", data.content,
                                          existing_data_id, next_id)
 
-                additional_fx = adapter.get_property(AdapterPropertiesConstants.IFACE_ADDITIONAL_FX, failable=False)
+                additional_fx = adapter.get_property(AdapterPropertiesConstants.IFACE_ADDITIONAL_FX, can_fail=False)
                 if additional_fx is not None:
                     fetched_entity = additional_fx(fetched_entity)
                     self.logger.info("Enriched entity for content: %s - ID: %s", data.content, existing_data_id)
@@ -138,7 +138,7 @@ class GeneralDataFetcher:
                     else:
                         raise Exception(fetched_entity.__class__.__name__ + " not serializable")
 
-                    if adapter.get_property(AdapterPropertiesConstants.MULTI_RESULT, failable=False) is True:
+                    if adapter.get_property(AdapterPropertiesConstants.MULTI_RESULT, can_fail=False) is True:
                         fetched_entity[AdapterPropertiesConstants.MULTI_RESULT] = True
 
                     self.logger.debug("Inserting or updating document in data source for content: %s - %s", data.content, existing_data_id)
@@ -171,11 +171,14 @@ class GeneralDataFetcher:
                 self.logger.debug("Reusing adapter for content: %s - ID: %s", data.content, existing_data_id)
                 # adapter is still needed (it's an iterable), reuse it
                 next_adapters.append(adapter)
-                next_prio[adapter] = data.priority -5
+                next_prio[adapter] = data.priority - 5 #  Ensure root will always have priority
 
             for next_adapter, prio in zip(next_adapters, next_prio.values()):
                 next_message = data.__class__(data.__class__.__name__, adapter=next_adapter)
                 next_message.depth = data.depth
+
+                if adapter.get_property(AdapterPropertiesConstants.ROLL_OVER_DEPTH, can_fail=False) is True:
+                    next_message.depth = next_message.depth - 1
 
                 MessageRouter.later_in(next_message, priority=prio, depth=next_message.depth)
 

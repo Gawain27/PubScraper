@@ -53,11 +53,7 @@ class ScimagoDataFetcher(GeneralDataFetcher):
         if phase_ref == EntityCidConstants.JOURNAL:
             self.logger.debug("Processing Scimago Journals next phase")
 
-            count = 10
-            current_page = self.ctx.get_message_data().get_value(
-                "scimago_year_" + prev_adapter.get_property(AdapterPropertiesConstants.IFACE_FX_PARAM))
-            while count > 0 and str(current_page)[-1] == "1" and current_entity["is_end"] == False:
-                count-=1
+            if current_entity.get("is_end") == False:
                 next_page = self.ctx.get_message_data().get_value("scimago_year_"+prev_adapter.get_property(AdapterPropertiesConstants.IFACE_FX_PARAM))
                 next_page = str(next_page)
                 self.ctx.get_message_data().increment("scimago_year_" + prev_adapter.get_property(AdapterPropertiesConstants.IFACE_FX_PARAM))

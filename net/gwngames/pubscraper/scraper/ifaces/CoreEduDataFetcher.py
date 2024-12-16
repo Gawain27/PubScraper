@@ -46,19 +46,14 @@ class CoreEduDataFetcher(GeneralDataFetcher):
     def prepare_next_phase(self, phase_ref: int, current_entity: Document, phase_depth: int, prev_adapter: GeneralDataAdapter) -> tuple[list[GeneralDataAdapter], dict]:
         self.adapter_list, self.priorities_map = ([], {})
 
-        if phase_ref == EntityCidConstants.CONFERENCE and current_entity:
+        if phase_ref == EntityCidConstants.CONFERENCE and current_entity.get("conferences", None) is not None:
             self.logger.debug("Processing Core Conference next phase")
 
-            count = 10
-            current_page = self.ctx.get_message_data().get_value("core_edu_page")
-            self.logger.info(current_page)
-            while count > 0 and str(current_page)[-1] == "1" and current_entity != {}:
-                count -= 1
-                next_page = self.ctx.get_message_data().get_value("core_edu_page")
-                next_page = str(next_page)
-                self.ctx.get_message_data().increment("core_edu_page")
-                self.generate_adapter_with_prio(EntityCidConstants.CONFERENCE,
-                                                PriorityConstants.CONFERENCE_REQ, next_page, next_page)
+            next_page = self.ctx.get_message_data().get_value("core_edu_page")
+            next_page = str(next_page)
+            self.ctx.get_message_data().increment("core_edu_page")
+            self.generate_adapter_with_prio(EntityCidConstants.CONFERENCE,
+                                            PriorityConstants.CONFERENCE_REQ, next_page, next_page)
 
         self.logger.info(f"Completed preparing next phase for phase_ref: {phase_ref}")
 

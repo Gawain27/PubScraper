@@ -2,12 +2,9 @@ import logging
 import re
 import threading
 import time
-from random import Random
-from tkinter.constants import FALSE
 
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
-from numpy.random import random
 from selenium import webdriver
 from selenium.common import NoSuchElementException
 from selenium.webdriver.chrome.options import Options as ChromeOptions
@@ -124,7 +121,6 @@ class SeleniumDriver:
                                 self.logger.debug(f"TAB[{tab_id}] assigned in FREE mode to URL type: {url_type}")
                                 break
                         if index_tab is None:
-                            self.logger.debug("No available tabs. Waiting...")
                             self._condition.wait()
                             continue
 

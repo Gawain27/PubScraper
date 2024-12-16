@@ -46,11 +46,14 @@ class ScholarDataFetcher(GeneralDataFetcher):
             adapter.add_property(AdapterPropertiesConstants.PHASE_REF, EntityCidConstants.AUTHOR)
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, ScholarScraper().get_scholar_profile)
         elif adapter_code == EntityCidConstants.PUB:
+            adapter.add_property(AdapterPropertiesConstants.ROLL_OVER_DEPTH, True)
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, ScholarScraper().fetch_publication_data)
         elif adapter_code == EntityCidConstants.CIT:
+            adapter.add_property(AdapterPropertiesConstants.ROLL_OVER_DEPTH, True)
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, ScholarScraper().scrape_all_citations)
             adapter.add_property(AdapterPropertiesConstants.MULTI_RESULT, True)
         elif adapter_code == EntityCidConstants.VERSION:
+            adapter.add_property(AdapterPropertiesConstants.ROLL_OVER_DEPTH, True)
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, ScholarScraper().scrape_all_versions)
             adapter.add_property(AdapterPropertiesConstants.MULTI_RESULT, True)
         else:
@@ -120,11 +123,12 @@ class ScholarDataFetcher(GeneralDataFetcher):
             return True
         decoded_date = datetime.strptime(entity.get("update_date"), "%Y-%m-%d %H:%M:%S")
         time_difference = datetime.now() - decoded_date
-        if abs(time_difference) > timedelta(hours=2):
+        if abs(time_difference) > timedelta(hours=200):
             self.logger.info("[Scholar] Entity outdated: " + str(entity.get("_id")))
             return True
         return False
 
     def get_variant_type(self):
         return EntityVidConstants.SCHOLAR_VID
+
 

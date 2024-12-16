@@ -1,4 +1,7 @@
-from net.gwngames.pubscraper.constants.JsonConstants import JsonConstants
+import re
+
+from bs4 import BeautifulSoup, Tag
+
 from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScraper
 
 
@@ -8,14 +11,11 @@ class ScimagoScraper(GeneralScraper):
         """
         Retrieves journal data for the given year, area, and page number from SCImago Journal Rank.
         """
-        import re
-        from bs4 import BeautifulSoup
-
         if page is False:
             return {}
 
         base_url = "https://www.scimagojr.com/journalrank.php"
-        target_url = f"{base_url}?year={journal_year}&area=1700&page={page}"
+        target_url = f"{base_url}?year={journal_year}&page={page}"
         self.logger.info("Fetching journals from URL: %s", target_url)
 
         try:
@@ -23,13 +23,13 @@ class ScimagoScraper(GeneralScraper):
             self.driver_manager.release_tab(i)
         except Exception as e:
             self.logger.error("Error loading or releasing tab: %s", e)
-            return {"journals": [], "end": False}
+            return {"journals": [], "is_end": False}
 
         try:
             page_soup = BeautifulSoup(page_content, "html.parser")
         except Exception as e:
             self.logger.error("Error parsing page content with BeautifulSoup: %s", e)
-            return {"journals": [], "end": False}
+            return {"journals": [], "is_end": False}
 
         # Extract pagination information
         pagination_text = None
@@ -59,7 +59,7 @@ class ScimagoScraper(GeneralScraper):
             table = page_soup.find("div", class_="table_wrap").find("table")
             if not table:
                 self.logger.warning("No table found on the page")
-                return {"journals": [], "end": is_end}
+                raise Exception("No table found on page: " + str(page) + " for year: " + str(journal_year))
 
             rows = table.find("tbody").find_all("tr")
             self.logger.info("Found %d journal entries on the page", len(rows))
@@ -75,23 +75,36 @@ class ScimagoScraper(GeneralScraper):
                 if year is None:
                     raise Exception("Cannot save journal without date")
             else:
-                raise Exception("No table found on the page")
-
+                raise Exception("No table header found on the page")
 
             for row in rows:
                 try:
                     cells = row.find_all("td")
-                    if len(cells) < 13:
+                    if not cells or len(cells) < 13:
                         self.logger.warning("Skipping row with insufficient columns: %s", row)
                         continue
 
                     title_cell = cells[1] if len(cells) > 1 else None
-                    title = title_cell.get_text(strip=True) if title_cell else "N/A"
-                    link_element = title_cell.find("a") if title_cell else None
+                    title = title_cell.get_text(strip=True) if title_cell and isinstance(title_cell, Tag) else "N/A"
+                    link_element = title_cell.find("a") if title_cell and isinstance(title_cell, Tag) else None
                     link = link_element["href"] if link_element and link_element.has_attr("href") else "N/A"
 
                     pub_type = cells[2].get_text(strip=True) if len(cells) > 2 else "N/A"
                     sjr = cells[3].get_text(strip=True) if len(cells) > 3 else "N/A"
+                    sjr = sjr[:5]
+
+                    # Extract Q rank (e.g., Q1) if present in SJR cell
+                    if len(cells) > 3:
+                        q_rank_element = cells[3].find("span", class_="q1") if cells[3].find("span", class_="q1") \
+                            else cells[3].find("span", class_="q2") if cells[3].find("span", class_="q2") \
+                            else cells[3].find("span", class_="q3") if cells[3].find("span", class_="q3") \
+                            else cells[3].find("span", class_="q4") if cells[3].find("span", class_="q4") else None
+                    else:
+                        q_rank_element = None
+
+                    q_rank = q_rank_element.get_text(strip=True) if q_rank_element and isinstance(q_rank_element,
+                                                                                                  Tag) else "N/A"
+
                     h_index = cells[4].get_text(strip=True) if len(cells) > 4 else "N/A"
                     total_docs_2008 = cells[5].get_text(strip=True) if len(cells) > 5 else "N/A"
                     total_docs_3years = cells[6].get_text(strip=True) if len(cells) > 6 else "N/A"
@@ -101,12 +114,6 @@ class ScimagoScraper(GeneralScraper):
                     cites_per_doc_2years = cells[10].get_text(strip=True) if len(cells) > 10 else "N/A"
                     refs_per_doc_2008 = cells[11].get_text(strip=True) if len(cells) > 11 else "N/A"
                     female_percent_2008 = cells[12].get_text(strip=True) if len(cells) > 12 else "N/A"
-
-                    # Extract Q rank (e.g., Q1) if present in SJR cell
-                    q_rank_element = cells[3].find("span", class_="q1") if len(cells) > 3 else None
-                    q_rank = q_rank_element.get_text(strip=True) if q_rank_element else sjr[-2:] if sjr[-2] == 'Q' else "N/A"
-                    match = re.match(r'^(\d+\.\d+)', q_rank_element)
-                    sjr = match.group(1) if match else 0
 
                     journal_data = {
                         "title": title,
@@ -127,8 +134,9 @@ class ScimagoScraper(GeneralScraper):
                     }
                     journals.append(journal_data)
                 except Exception as e:
-                    self.logger.error("Error parsing journal row: %s", e)
+                    self.logger.error("Error parsing journal row: %s. Row content: %s", e, row)
         except Exception as e:
             self.logger.error("Error extracting journal data: %s", e)
 
-        return {JsonConstants.TAG_JOURNALS: journals, "is_end": is_end}
+        return {"journals": journals, "is_end": is_end}
+

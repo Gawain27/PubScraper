@@ -11,7 +11,7 @@ from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScrape
 class ScholarScraper(GeneralScraper):
     def __init__(self):
         super().__init__()
-        self.driver_manager.mode = self.driver_manager.ONE_PER_REQ
+        self.driver_manager.mode = self.driver_manager.FREE
 
     def get_author_profile_data(self, profile_id):
         self.logger.info(f"Starting profile data extraction for: {profile_id}")
@@ -232,10 +232,18 @@ class ScholarScraper(GeneralScraper):
             publication_id_match = re.search(r'citation_for_view=([^&]+)', publication_url)
             publication_id = publication_id_match.group(1) if publication_id_match else "Publication ID not available"
             self.logger.info(f"TAB[{i}] - Extracted publication ID: {publication_id}")
-
+            # Find the title tag and link (if available)
             title_tag = soup.find('a', class_='gsc_oci_title_link')
-            title = title_tag.text.strip() if title_tag else "Title not available"
-            title_link = title_tag['href'] if title_tag and title_tag.has_attr('href') else "Title link not available"
+
+            # Extract title and link
+            if title_tag:
+                title = title_tag.text.strip()
+                title_link = title_tag['href'] if title_tag.has_attr('href') else "Title link not available"
+            else:
+                # If no 'gsc_oci_title_link' anchor tag, try the main title div
+                title_div = soup.find('div', id='gsc_oci_title')
+                title = title_div.text.strip() if title_div else "Title not available"
+                title_link = "Title link not available"
 
             pdf_link_tag = soup.find('span', class_='gsc_vcd_title_ggt')
             pdf_link = pdf_link_tag.find_parent('a')['href'] if pdf_link_tag else "PDF link not available"
@@ -528,3 +536,4 @@ class ScholarScraper(GeneralScraper):
             raise Exception("No versions found for: " + base_url)
         self.logger.info(f"Scraping complete. Total versions collected: {len(all_versions)}")
         return {"versions": all_versions}
+

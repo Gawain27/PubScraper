@@ -17,4 +17,5 @@ class AdapterPropertiesConstants:
     # tell which entity is expected for next phase, on first phase is None.
     EXPECTED_ID: Final = "expected_id"
     NEXT_PHASE_DEPTH: Final = "next_phase_depth"
+    ROLL_OVER_DEPTH: Final = "roll_over_depth"
 
