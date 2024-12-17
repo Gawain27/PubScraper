@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="stable retrieval (except journal)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/adapter/AdapterPropertiesConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/adapter/AdapterPropertiesConstants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/adapter/GeneralDataAdapter.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/adapter/GeneralDataAdapter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/CoreEduDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/CoreEduDataFetcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/DblpDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/DblpDataFetcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/GeneralDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/GeneralDataFetcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScholarDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScholarDataFetcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScimagoDataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/ifaces/ScimagoDataFetcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/ScholarScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/ScholarScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/ScimagoScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/ScimagoScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/SeleniumDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/SeleniumDriver.py" afterDir="false" />
-    </list>
+    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="updated network component to be generative" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (1)" />
       </list>
@@ -422,10 +410,11 @@
     <MESSAGE value="Added year constraint" />
     <MESSAGE value="decoupled system messages" />
     <MESSAGE value="stable retrieval (except journal)" />
-    <option name="LAST_COMMIT_MESSAGE" value="stable retrieval (except journal)" />
+    <MESSAGE value="updated network component to be generative" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated network component to be generative" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PubScraper$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1734263108233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper" />
+    <SUITE FILE_PATH="coverage/PubScraper$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1734335779454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper" />
     <SUITE FILE_PATH="coverage/PubScraper$test.coverage" NAME="test Coverage Results" MODIFIED="1729007059785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper/utils" />
     <SUITE FILE_PATH="coverage/PubScraper$CoreEduScraper.coverage" NAME="CoreEduScraper Coverage Results" MODIFIED="1731262179804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper" />
     <SUITE FILE_PATH="coverage/PubScraper$main.coverage" NAME="main Coverage Results" MODIFIED="1719015648774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
