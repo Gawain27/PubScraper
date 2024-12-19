@@ -2,6 +2,7 @@ import re
 
 from bs4 import BeautifulSoup
 
+from net.gwngames.pubscraper.scraper.BanChecker import BanChecker
 from net.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScraper
 
 
@@ -20,6 +21,10 @@ class CoreEduScraper(GeneralScraper):
         page_soup = BeautifulSoup(page_content, "html.parser")
 
         self.driver_manager.release_tab(i)
+
+        if BanChecker(self.ctx).has_ban_phrase(page_content, phrase="Server Error"):
+            self.driver_manager.close_driver()  # Retrieved all conferences
+            return
 
         container = page_soup.find("div", id="container")
         if not container:

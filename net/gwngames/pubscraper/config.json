@@ -30,5 +30,6 @@
     "captcha_action": 2,
     "2captcha_api_key": "f8f3605447f0ed41a330e74e4edd4b5d",
     "url_timeout": 30,
-    "max_active_threads": 200
+    "max_active_threads": 200,
+    "ban_penalty": 15
 }

@@ -1,4 +1,4 @@
-import logging
+import math
 import threading
 import time
 from random import Random
@@ -11,6 +11,7 @@ from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 class BanChecker:
     def __init__(self, ctx):
         self.ctx = ctx
+        self.penalty = ctx.get_config().get_value(ConfigConstants.BAN_PENALTY)
 
     def has_ban_phrase(self, html_content: str, phrase: str = "We're sorry...") -> bool:
         """
@@ -26,13 +27,25 @@ class BanChecker:
         text_content = soup.get_text(separator=' ', strip=True)
 
         if phrase in text_content:
-            if (Random().random() > 0.5
-                    and (self.ctx.get_config().get_value(ConfigConstants.MAX_WAIT_TIME) > self.ctx.get_config().get_value(ConfigConstants.MIN_WAIT_TIME))):
-                self.ctx.get_config().set_and_save(ConfigConstants.MIN_WAIT_TIME,
-                    self.ctx.get_config().get_value(ConfigConstants.MIN_WAIT_TIME) + 1)
+            min_wait_time = self.ctx.get_config().get_value(ConfigConstants.MIN_WAIT_TIME)
+            max_wait_time = self.ctx.get_config().get_value(ConfigConstants.MAX_WAIT_TIME)
+
+            if Random().random() > 0.5 and max_wait_time > min_wait_time:
+                new_min_wait_time = min_wait_time + self.penalty
+                self.ctx.get_config().set_and_save(ConfigConstants.MIN_WAIT_TIME, new_min_wait_time)
+
+                # Ensure max wait time remains valid
+                if max_wait_time < new_min_wait_time + math.sqrt(new_min_wait_time):
+                    self.ctx.get_config().set_and_save(ConfigConstants.MAX_WAIT_TIME,
+                                                       new_min_wait_time + math.sqrt(new_min_wait_time))
             else:
-                self.ctx.get_config().set_and_save(ConfigConstants.MAX_WAIT_TIME,
-                    self.ctx.get_config().get_value(ConfigConstants.MAX_WAIT_TIME) + 1)
+                new_max_wait_time = max_wait_time + self.penalty
+                self.ctx.get_config().set_and_save(ConfigConstants.MAX_WAIT_TIME, new_max_wait_time)
+
+                # Ensure max wait time remains valid
+                if new_max_wait_time < min_wait_time + math.sqrt(min_wait_time):
+                    self.ctx.get_config().set_and_save(ConfigConstants.MAX_WAIT_TIME,
+                                                       min_wait_time + math.sqrt(min_wait_time))
 
             self.ctx.get_message_data().set_and_save("was_banned", True)
             return True
@@ -43,14 +56,16 @@ class BanChecker:
         """
         Perform the opposite of the logic specified in `has_ban_phrase`.
         """
-        if (Random().random() > 0.5
-                and (self.ctx.get_config().get_value(ConfigConstants.MAX_WAIT_TIME) <= self.ctx.get_config().get_value(
-                    ConfigConstants.MIN_WAIT_TIME))):
-            self.ctx.get_config().set_and_save(ConfigConstants.MIN_WAIT_TIME,
-                self.ctx.get_config().get_value(ConfigConstants.MIN_WAIT_TIME) - 1)
+        min_wait_time = self.ctx.get_config().get_value(ConfigConstants.MIN_WAIT_TIME)
+        max_wait_time = self.ctx.get_config().get_value(ConfigConstants.MAX_WAIT_TIME)
+
+        if Random().random() > 0.5 and max_wait_time <= min_wait_time:
+            new_min_wait_time = min_wait_time - 1
+            self.ctx.get_config().set_and_save(ConfigConstants.MIN_WAIT_TIME, max(new_min_wait_time, 0))
         else:
-            self.ctx.get_config().set_and_save(ConfigConstants.MAX_WAIT_TIME,
-                self.ctx.get_config().get_value(ConfigConstants.MAX_WAIT_TIME) - 1)
+            new_max_wait_time = max_wait_time - 1
+            valid_max_wait_time = max(min_wait_time + math.sqrt(min_wait_time), new_max_wait_time)
+            self.ctx.get_config().set_and_save(ConfigConstants.MAX_WAIT_TIME, valid_max_wait_time)
 
     def monitor_ban_state(self):
         """
