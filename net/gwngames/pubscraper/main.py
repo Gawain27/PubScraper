@@ -9,6 +9,7 @@ import couchdb
 from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.LogFileHandler import LogFileHandler
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.install_browser import install_browser
 from net.gwngames.pubscraper.scheduling.IntegerMap import IntegerMap
 from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
 from net.gwngames.pubscraper.scraper.BanChecker import BanChecker
@@ -72,7 +73,16 @@ if __name__ == '__main__':
     router = MessageRouter.get_instance()
     router.start()
 
-    BanChecker(ctx).start_monitoring()
+    if conf_reader.get_value(ConfigConstants.AUTO_ADAPTIVE) is True:
+        logging.info("Monitoring scraping state")
+        BanChecker(ctx).start_monitoring()
+
+    # Check if embedded browser is required
+    if conf_reader.get_value(ConfigConstants.BROWSER_EMBEDDED) is True:
+        logging.info("Using embedded browser")
+        install_browser()
+        conf_reader.set_and_save(ConfigConstants.BROWSER_DRIVER_PATH, "tor_download/tor-browser/Browser/firefox")
+        conf_reader.set_and_save(ConfigConstants.BROWSER_DATA_PATH, "tor_download/tor-browser/Browser/TorBrowser/Data/Browser")
 
     scraper = WebScraper()
     scraper.start()  # Asynchronous call, scraper has started

@@ -2,6 +2,8 @@ from typing import Final
 
 
 class ConfigConstants:
+    AUTO_ADAPTIVE: Final = "auto_adaptive"
+    BROWSER_EMBEDDED: Final = "browser_embedded"
     BAN_PENALTY: Final = "ban_penalty"
     MAX_ACTIVE_THREADS: Final = "max_active_threads"
     URL_TIMEOUT: Final = "url_timeout"

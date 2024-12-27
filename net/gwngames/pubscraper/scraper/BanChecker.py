@@ -9,6 +9,7 @@ from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 
 
 class BanChecker:
+    lower_limit = None
     def __init__(self, ctx):
         self.ctx = ctx
         self.penalty = ctx.get_config().get_value(ConfigConstants.BAN_PENALTY)

@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from selenium import webdriver
 from selenium.common import NoSuchElementException
+from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
@@ -76,12 +77,24 @@ class SeleniumDriver:
         return driver
 
     def _initialize_tabs(self):
-        for _ in range(1, self.number_of_tabs):
+        for tab in range(1, self.number_of_tabs):
             self.driver.execute_script("window.open('about:blank', '_blank');")
-            time.sleep(1)
+            time.sleep(2)
+            if tab == 1 and self.config.get_value(ConfigConstants.BROWSER_EMBEDDED):
+                self.click_always_connect_automatically()
+                time.sleep(5)
         for i, handle in enumerate(self.driver.window_handles):
             self.window_handles[i] = handle
         self.logger.info(f"Initialized {self.number_of_tabs} tabs.")
+
+    def click_always_connect_automatically(self):
+        try:
+            # Locate the "Always connect automatically" toggle by its <moz-toggle> tag and its unique id
+            toggle_button = self.driver.find_element(By.ID, "quickstartToggle")
+            ActionChains(self.driver).move_to_element(toggle_button).click().perform()
+            self.logger.info("Clicked 'Always connect automatically' toggle button.")
+        except Exception as e:
+            self.logger.error(f"Error: {e}")
 
     def restart_driver(self):
         with self._condition:

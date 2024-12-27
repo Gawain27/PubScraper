@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="license">
+    <list default="true" id="3820400a-77ea-4245-9701-03161d13865f" name="Changes" comment="scheduling improvements">
+      <change afterPath="$PROJECT_DIR$/deploy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/install_browser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/ConfigConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/constants/ConfigConstants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/BanChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/BanChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/SeleniumDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper/SeleniumDriver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +177,7 @@
       <workItem from="1734061433696" duration="604000" />
       <workItem from="1734065853339" duration="23426000" />
       <workItem from="1734158976959" duration="17172000" />
-      <workItem from="1734553528187" duration="4197000" />
+      <workItem from="1734553528187" duration="17935000" />
     </task>
     <task id="LOCAL-00001" summary="#47 - Basic structure + general interface unit">
       <option name="closed" value="true" />
@@ -383,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734414084870</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="scheduling improvements">
+      <option name="closed" value="true" />
+      <created>1734600183378</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734600183378</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#47 - Basic structure + general interface unit" />
     <MESSAGE value="#48 - Bufferization of unprocessed entities via disk storage" />
     <MESSAGE value="#47 - file loading logic refactor" />
     <MESSAGE value="#44 - SerializationUnit (rough impl)" />
@@ -426,10 +437,11 @@
     <MESSAGE value="stable retrieval (except journal)" />
     <MESSAGE value="updated network component to be generative" />
     <MESSAGE value="license" />
-    <option name="LAST_COMMIT_MESSAGE" value="license" />
+    <MESSAGE value="scheduling improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="scheduling improvements" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PubScraper$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1734335779454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper" />
+    <SUITE FILE_PATH="coverage/PubScraper$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1735298402898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper" />
     <SUITE FILE_PATH="coverage/PubScraper$test.coverage" NAME="test Coverage Results" MODIFIED="1729007059785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper/utils" />
     <SUITE FILE_PATH="coverage/PubScraper$CoreEduScraper.coverage" NAME="CoreEduScraper Coverage Results" MODIFIED="1731262179804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net/gwngames/pubscraper/scraper/scraper" />
     <SUITE FILE_PATH="coverage/PubScraper$main.coverage" NAME="main Coverage Results" MODIFIED="1719015648774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

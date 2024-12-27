@@ -11,7 +11,7 @@
     "root_authors": "",
     "shuffle_roots": false,
     "min_wait_time": 15,
-    "max_wait_time": 14,
+    "max_wait_time": 25,
     "max_ms_worktime": 360000,
     "max_iface_requests": 6,
     "depth_max": 4,
@@ -31,5 +31,7 @@
     "2captcha_api_key": "f8f3605447f0ed41a330e74e4edd4b5d",
     "url_timeout": 30,
     "max_active_threads": 200,
-    "ban_penalty": 15
+    "ban_penalty": 15,
+    "auto_adaptive": true,
+    "browser_embedded": true
 }
