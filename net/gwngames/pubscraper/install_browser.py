@@ -69,7 +69,7 @@ def install_browser():
     # Create download directory if it doesn't exist
     os.makedirs(download_dir, exist_ok=True)
     logging.info("Operating system: " + system)
-    if system == "Windows":
+    if system == "Linux":
         logging.info("Detected Linux system.")
         linux_url = "https://www.torproject.org/dist/torbrowser/14.0.3/tor-browser-linux-x86_64-14.0.3.tar.xz"
         install_on_linux(linux_url, download_dir)

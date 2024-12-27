@@ -13,6 +13,7 @@ class ConfigConstants:
     MIN_SECONDS_BEWTWEEN_UPDATES: Final = "min_seconds_between_updates"
     BROWSER_DATA_PATH: Final = "browser_data_path"
     BROWSER_DRIVER_PATH: Final = "browser_driver_path"
+    DB_PREFIX: Final = "db_prefix"
     DB_HOST: Final = "db_host"
     DB_PORT: Final = "db_port"
     DB_USER: Final = "db_user"

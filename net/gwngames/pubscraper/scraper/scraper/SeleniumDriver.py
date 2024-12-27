@@ -64,7 +64,7 @@ class SeleniumDriver:
             firefox_options.headless = True
             self.user_agent = UserAgent().random
             profile = webdriver.FirefoxProfile(
-                f"{self.config.get_value(ConfigConstants.BROWSER_DATA_PATH)}\\profile.default")
+                f"{self.config.get_value(ConfigConstants.BROWSER_DATA_PATH)}")
             profile.set_preference("general.useragent.override", self.user_agent)
             profile.set_preference("dom.webdriver.enabled", False)
             firefox_options.profile = profile

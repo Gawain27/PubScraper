@@ -43,7 +43,8 @@ if __name__ == '__main__':
     atexit.register(on_failure_actions)
 
     # Initialize DB
-    client = couchdb.Server('http://' + conf_reader.get_value(ConfigConstants.DB_USER) + ":" + conf_reader.get_value(
+    client = couchdb.Server( conf_reader.get_value(ConfigConstants.DB_PREFIX) +
+        '://' + conf_reader.get_value(ConfigConstants.DB_USER) + ":" + conf_reader.get_value(
         ConfigConstants.DB_PASSWORD)
                             + "@" + str(conf_reader.get_value(ConfigConstants.DB_HOST)) + ':' + str(
         conf_reader.get_value(ConfigConstants.DB_PORT)) + '/')
@@ -81,8 +82,12 @@ if __name__ == '__main__':
     if conf_reader.get_value(ConfigConstants.BROWSER_EMBEDDED) is True:
         logging.info("Using embedded browser")
         install_browser()
-        conf_reader.set_and_save(ConfigConstants.BROWSER_DRIVER_PATH, "tor_download/tor-browser/Browser/firefox")
-        conf_reader.set_and_save(ConfigConstants.BROWSER_DATA_PATH, "tor_download/tor-browser/Browser/TorBrowser/Data/Browser")
+        current_dir = os.getcwd()
+        browser_driver_path = os.path.join(current_dir, "tor_download/tor-browser/Browser/firefox")
+        browser_data_path = os.path.join(current_dir,
+                                         "tor_download/tor-browser/Browser/TorBrowser/Data/Browser/profile.default")
+        conf_reader.set_and_save(ConfigConstants.BROWSER_DRIVER_PATH, browser_driver_path)
+        conf_reader.set_and_save(ConfigConstants.BROWSER_DATA_PATH, browser_data_path)
 
     scraper = WebScraper()
     scraper.start()  # Asynchronous call, scraper has started

@@ -33,10 +33,10 @@ if __name__ == "__main__":
     script_directory = os.path.dirname(os.path.abspath(__file__))
 
     # Remote configuration
-    REMOTE_HOST = "remote.server.com"  # Replace with your remote server's address
-    REMOTE_USER = "username"  # Replace with your username
-    REMOTE_PASSWORD = "password"  # Replace with your password
-    REMOTE_DIRECTORY = "/path/to/remote/directory"  # Replace with your target directory on the remote machine
+    REMOTE_HOST = "gwngames.com"  # Replace with your remote server's address
+    REMOTE_USER = ""  # Replace with your username
+    REMOTE_PASSWORD = ""  # Replace with your password
+    REMOTE_DIRECTORY = "/opt/gpub/scholar-1"  # Replace with your target directory on the remote machine
 
     # Deploy the script's directory
     deploy_directory(script_directory, REMOTE_HOST, REMOTE_USER, REMOTE_PASSWORD, REMOTE_DIRECTORY)
