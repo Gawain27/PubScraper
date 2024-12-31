@@ -41,18 +41,28 @@ class DatabaseHandler:
         doc['type'] = doc_type
         doc['update_date'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        try:
-            existing_doc = self.get_document(doc_id)
-            if existing_doc:
-                doc['update_count'] = doc['update_count'] + 1 if doc.__contains__('update_count') else 1
-                doc['_rev'] = existing_doc['_rev']
-            self.db.save(doc)
-            self.logger.info(f"Document of type {doc_type} with id {doc_id} saved successfully.")
-        except ResourceConflict:
-            self.logger.warning(
-                f"Conflict encountered while saving document of type {doc_type} with id {doc_id}. Retrying.")
-            time.sleep(1)
-            self.insert_or_update_document(doc_type, doc_id, doc)
-        except Exception as e:
-            self.logger.error(f"Error saving document {doc_id}: {e}")
-            raise
+        retry_count = 0
+        max_retries = 3
+
+        while retry_count < max_retries:
+            try:
+                existing_doc = self.get_document(doc_id)
+                if existing_doc:
+                    doc['update_count'] = doc['update_count'] + 1 if doc.__contains__('update_count') else 1
+                    doc['_rev'] = existing_doc['_rev']
+                self.db.save(doc)
+                self.logger.info(f"Document of type {doc_type} with id {doc_id} saved successfully.")
+                return
+
+            except ResourceConflict:
+                self.logger.warning(
+                    f"Conflict encountered while saving document of type {doc_type} with id {doc_id}. Retrying ({retry_count + 1}/{max_retries}).")
+                retry_count += 1
+                time.sleep(5)
+
+            except Exception as e:
+                self.logger.error(f"Error saving document {doc_id}: {e}")
+                raise
+
+        # If max retries exceeded, raise an exception
+        raise Exception(f"Failed to save document of type {doc_type} with id {doc_id} after {max_retries} retries.")

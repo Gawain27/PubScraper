@@ -16,3 +16,13 @@ class FetchGeneralData(BaseMessage):
 
     def get_group_key(self) -> str:
         return str(self.adapter.get_property(AdapterPropertiesConstants.PHASE_REF))
+
+    def __str__(self) -> str:
+        expected_id = self.adapter.get_property(AdapterPropertiesConstants.EXPECTED_ID, can_fail=False)
+        if expected_id is None:
+            expected_id = "None"
+            return f"Message Type: {self.message_type}, Expected ID: {expected_id}, Timestamp: {self.timestamp}"
+        else:
+            return f"Message Type: {self.message_type}, Expected ID: {str(expected_id)}"
+
+

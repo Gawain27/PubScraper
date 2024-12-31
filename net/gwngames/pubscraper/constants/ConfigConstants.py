@@ -2,6 +2,7 @@ from typing import Final
 
 
 class ConfigConstants:
+    DEPTH_ORDERING: Final = "depth_ordering"
     AUTO_ADAPTIVE: Final = "auto_adaptive"
     BROWSER_EMBEDDED: Final = "browser_embedded"
     BAN_PENALTY: Final = "ban_penalty"
@@ -41,3 +42,4 @@ class ConfigConstants:
     MIN_LOAD_WAIT: Final = 'min_load_wait'
     MAX_LOAD_WAIT: Final = 'max_load_wait'
     DEBUG_DELAY: Final = 'debug_delay'
+    RECOVERY_INST: Final = 'recovery_instance'

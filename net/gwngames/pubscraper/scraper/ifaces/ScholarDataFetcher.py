@@ -118,16 +118,6 @@ class ScholarDataFetcher(GeneralDataFetcher):
             self.generate_fetch_adapter(EntityCidConstants.AUTHOR, opt_arg)),
             PriorityConstants.AUTHOR_REQ, 0)
 
-    def is_outdated(self, entity: Document):
-        if entity is None or entity.get("update_date") is None:
-            return True
-        decoded_date = datetime.strptime(entity.get("update_date"), "%Y-%m-%d %H:%M:%S")
-        time_difference = datetime.now() - decoded_date
-        if abs(time_difference) > timedelta(hours=200):
-            self.logger.info("[Scholar] Entity outdated: " + str(entity.get("_id")))
-            return True
-        return False
-
     def get_variant_type(self):
         return EntityVidConstants.SCHOLAR_VID
 

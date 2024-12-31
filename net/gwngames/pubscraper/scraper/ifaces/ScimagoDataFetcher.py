@@ -43,7 +43,8 @@ class ScimagoDataFetcher(GeneralDataFetcher):
         if opt_arg is not None:
             adapter.add_property(AdapterPropertiesConstants.ALT_ITERABLE, opt_arg)
             for year in opt_arg:
-                self.ctx.get_message_data().set_value("scimago_year_" + year, 1)
+                if self.ctx.get_message_data().get_value("scimago_year_" + year) is None:
+                    self.ctx.get_message_data().set_value("scimago_year_" + year, 1)
 
         return adapter
 

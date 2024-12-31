@@ -6,11 +6,11 @@ import time
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 from selenium import webdriver
-from selenium.common import NoSuchElementException
-from selenium.webdriver import ActionChains
+from selenium.common import NoSuchElementException, NoAlertPresentException, UnexpectedAlertPresentException
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.firefox.options import Options as FirefoxOptions, Options
+from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from twocaptcha import TwoCaptcha
 from typing_extensions import Final
@@ -70,6 +70,15 @@ class SeleniumDriver:
             firefox_options.profile = profile
             firefox_options.binary_location = browser_driver_path
             driver = webdriver.Firefox(options=firefox_options)
+        elif browser_type.lower() == 'embedded':
+            options = Options()
+            options.binary_location = self.config.get_value(ConfigConstants.BROWSER_DRIVER_PATH)
+            service = Service(executable_path=self.config.get_value("geckodriver"))
+
+            driver = webdriver.Firefox(
+                options=options,
+                service=service
+            )
         else:
             raise ValueError(f"Unsupported browser type: {browser_type}")
 
@@ -89,10 +98,9 @@ class SeleniumDriver:
 
     def click_always_connect_automatically(self):
         try:
-            # Locate the "Always connect automatically" toggle by its <moz-toggle> tag and its unique id
-            toggle_button = self.driver.find_element(By.ID, "quickstartToggle")
-            ActionChains(self.driver).move_to_element(toggle_button).click().perform()
-            self.logger.info("Clicked 'Always connect automatically' toggle button.")
+            connect_button = self.driver.find_element(By.ID, "connectButton")
+            connect_button.click()
+            self.logger.info("Connection was successful.")
         except Exception as e:
             self.logger.error(f"Error: {e}")
 
@@ -108,41 +116,39 @@ class SeleniumDriver:
         try:
             while True:
                 with self._condition:
-                    if self.mode == SeleniumDriver.ONE_PER_REQ:
-                        # Lock one tab for each url_type
-                        if url_type not in self.tab_to_url_type.values():
-                            for tab_id, is_available in self.available_tabs.items():
-                                if is_available:
-                                    index_tab = tab_id
-                                    self.available_tabs[tab_id] = False
-                                    self.tab_to_url_type[tab_id] = url_type
-                                    self.logger.debug(f"TAB[{tab_id}] assigned to URL type: {url_type}")
-                                    break
-                            if index_tab is None:
-                                self._condition.wait()
-                                continue
-                        else:
-                            self._condition.wait()
-                            continue
-                    elif self.mode == SeleniumDriver.FREE:
+                    if self.mode == SeleniumDriver.FREE:
                         # Use any available tab
                         for tab_id, is_available in self.available_tabs.items():
                             if is_available:
                                 index_tab = tab_id
                                 self.available_tabs[tab_id] = False
                                 self.tab_to_url_type[tab_id] = url_type
-                                self.logger.debug(f"TAB[{tab_id}] assigned in FREE mode to URL type: {url_type}")
+                                self.logger.info(f"TAB[{tab_id}] assigned in FREE mode to URL type: {url_type}")
                                 break
                         if index_tab is None:
                             self._condition.wait()
                             continue
+                    else:
+                        raise Exception(f"Unsupported browser mode: {self.mode}")
 
                     if index_tab is not None:
                         self.driver.switch_to.window(self.window_handles[index_tab])
                         self.driver.get(url)
-                        WebDriverWait(self.driver, self.timeout).until(
-                            lambda x: self.driver.execute_script("return document.readyState") == "complete"
-                        )
+
+                        # Handle potential alerts
+                        try:
+                            WebDriverWait(self.driver, self.timeout).until(
+                                lambda x: self.driver.execute_script("return document.readyState") == "complete"
+                            )
+                        except UnexpectedAlertPresentException:
+                            self.logger.warning("Unexpected alert detected; dismissing.")
+                            try:
+                                alert = self.driver.switch_to.alert
+                                alert.dismiss()
+                                time.sleep(5)
+                            except NoAlertPresentException:
+                                time.sleep(5)
+                                pass  # Alert might have disappeared
 
                         self.check_for_captcha(index_tab, possible_captcha)
                         html_content = self.driver.page_source
@@ -170,7 +176,7 @@ class SeleniumDriver:
         ThreadUtils.sleep_for(self.ctx.get_config().get_value(ConfigConstants.MIN_WAIT_TIME),
                               self.ctx.get_config().get_value(ConfigConstants.MAX_WAIT_TIME),
                               self.logger,
-                              tab_id)
+                              str(tab_id))
         with self._condition:
             self.available_tabs[tab_id] = True
             self.tab_to_url_type.pop(tab_id, None)

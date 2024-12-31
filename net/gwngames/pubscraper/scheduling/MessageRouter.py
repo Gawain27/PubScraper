@@ -3,6 +3,7 @@ import logging
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
+from queue import PriorityQueue
 from typing import Any
 
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
@@ -11,6 +12,16 @@ from net.gwngames.pubscraper.msg.AbstractMessage import AbstractMessage
 from net.gwngames.pubscraper.scheduling.MasterPriorityQueue import MasterPriorityQueue
 from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
+
+duplicate_messages = set()
+
+class PrioritizedTask:
+    def __init__(self, priority, task):
+        self.priority = priority
+        self.task = task
+
+    def __lt__(self, other):
+        return self.priority < other.priority
 
 class MessageRouter:
     """
@@ -37,6 +48,8 @@ class MessageRouter:
         self.logger = logging.getLogger(MessageRouter.__name__)
         self.MAX_ACTIVE_THREADS = self.config.get_value(ConfigConstants.MAX_ACTIVE_THREADS)
         self.executor = ThreadPoolExecutor(max_workers=self.MAX_ACTIVE_THREADS)
+        self.task_queue = PriorityQueue()
+        threading.Thread(target=self._process_task_queue, daemon=True).start()
 
     def start(self):
         """
@@ -44,17 +57,27 @@ class MessageRouter:
         """
         threading.Thread(target=self.process_messages, daemon=True).start()
 
+    def _process_task_queue(self):
+        while True:
+            prioritized_task = self.task_queue.get()
+            if prioritized_task:
+                prioritized_task.task()
+
     def process_messages(self):
-        """
-        Process the incoming messages by priority and submits tasks to a ThreadPoolExecutor.
-        """
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
         while True:
             # Get the next message by priority (lowest first)
             priority, message, message_queue = self.incoming_queue.receive()
             if isinstance(message, AbstractMessage) and isinstance(message_queue, AsyncQueue):
-                # Submit to the thread pool executor for processing
-                self.executor.submit(self.route_message, message, message_queue)
+                if message.system_message:
+                    # Execute system messages immediately
+                    try:
+                        self.route_message(message, message_queue)
+                    except Exception as e:
+                        logging.error(f"Error processing system message: {e}")
+                else:
+                    # Non-system messages are scheduled
+                    self.task_queue.put(PrioritizedTask(1, lambda: self.route_message(message, message_queue)))
             else:
                 logging.warning(f"Ignoring message of unknown type: {type(message)}")
 
@@ -64,7 +87,12 @@ class MessageRouter:
         """
         from net.gwngames.pubscraper.scheduling.sender.AsyncQueue import AsyncQueue
         message_queue: AsyncQueue = message_queue
-        message_queue.process_message(message)  # Directly call the queue's process method
+        if message.system_message:
+            self.logger.info("Executing system message %s", message.message_id)
+            message_queue.process_message(message)
+        else:
+            self.logger.info("Scheduling message %s", message.message_id)
+            self.executor.submit(message_queue.process_message, message)
 
     def send_message(self, message: AbstractMessage, priority=0, depth=None):
         """
@@ -86,6 +114,12 @@ class MessageRouter:
         if depth is not None:
             message.depth = depth + 1
 
+        if str(message) in duplicate_messages:
+            return
+        else:
+            self.logger.info(f"Scrapping message: {message}")
+            duplicate_messages.add(str(message))
+
         message.priority = priority
         self.incoming_queue.send(priority, message, loaded_queue())
 
@@ -101,3 +135,4 @@ class MessageRouter:
     @staticmethod
     def get_instance():
         return MessageRouter()
+

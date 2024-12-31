@@ -1,11 +1,17 @@
 import logging
 import threading
+import time
 
 from numpy import random
 
 from net.gwngames.pubscraper.Context import Context
+from net.gwngames.pubscraper.comm.OutSender import OutSender
+from net.gwngames.pubscraper.comm.PackagingUnit import PackagingUnit
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
+from net.gwngames.pubscraper.msg.comm.PackageEntity import PackageEntity
+from net.gwngames.pubscraper.msg.comm.SendEntity import SendEntity
 from net.gwngames.pubscraper.scraper.NameFetcher import NameFetcher
+from net.gwngames.pubscraper.scraper.buffer.DatabaseHandler import DatabaseHandler
 from net.gwngames.pubscraper.scraper.ifaces.CoreEduDataFetcher import CoreEduDataFetcher
 from net.gwngames.pubscraper.scraper.ifaces.DblpDataFetcher import DblpDataFetcher
 from net.gwngames.pubscraper.scraper.ifaces.GeneralDataFetcher import GeneralDataFetcher
@@ -46,7 +52,11 @@ class WebScraper:
 
         if config.get_value(ConfigConstants.SHUFFLE_ROOTS):
             random.shuffle(scraping_authors)
-        # -------------------
+
+        # ---- RECOVERY ----
+        if config.get_value(ConfigConstants.RECOVERY_INST) is True:
+            WebScraper.recover_unsent_documents()
+        # ------------------
         interface_names = Context().get_main_interfaces()
         WebScraper.logger.info("Main interfaces enabled: " + str(interface_names))
 
@@ -70,3 +80,30 @@ class WebScraper:
             elif isinstance(iface_instance, CoreEduDataFetcher):
                 WebScraper.logger.info("Fetching from %s - page: %s", iface.__name__, "1")
                 iface_instance.start_interface_fetching(1)  # start from page one
+
+
+    @staticmethod
+    def recover_unsent_documents():
+        context = Context()
+        db_client = context.get_dbclient()
+
+        try:
+            # Iterate over all databases in the CouchDB server
+            for db_name in db_client:
+                db = db_client[db_name]  # Access each database
+                for doc_id in db:
+                    doc = db[doc_id]
+                    if doc.get('sent') is False:
+                        entity_package_req: PackageEntity = PackageEntity("RECOVERY", doc_id, db_name)
+                        entity_package_req.system_message = True
+                        WebScraper.logger.debug(f"Sending ENTITY_PACKAGE_REQ for RECOVERED entity ID {doc_id}.")
+                        compressed_data = PackagingUnit().compress_json(doc)
+                        OutSender().send_data(SendEntity("RECOVERY", compressed_data, doc_id, db_name))
+                        try:
+                            DatabaseHandler(context.get_dbclient(), db_name).insert_or_update_document(doc['type'], doc_id, doc)
+                        except Exception:
+                            continue
+                        time.sleep(1)
+        except Exception as e:
+            context.logger.error(f"Error recovering unsent documents: {e}")
+

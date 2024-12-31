@@ -4,6 +4,8 @@ import time
 import traceback
 from abc import abstractmethod
 
+from selenium.common import TimeoutException
+
 from net.gwngames.pubscraper.Context import Context
 from net.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from net.gwngames.pubscraper.constants.LoggingConstants import LoggingConstants
@@ -13,8 +15,8 @@ from net.gwngames.pubscraper.utils.JsonReader import JsonReader
 
 class AsyncQueue(queue.Queue):
 
-    def __init__(self, maxsize: int = 100):
-        super().__init__(maxsize)
+    def __init__(self):
+        super().__init__()
         self.is_queue_depth_limited = False
         self.ctx = Context()
         self.logger = logging.getLogger(self.register_me().__name__)
@@ -46,6 +48,10 @@ class AsyncQueue(queue.Queue):
             try:
                 self.on_message(msg)
                 retries = 0
+            except TimeoutException:
+                #  Network issues, ignore and re-send
+                from net.gwngames.pubscraper.scheduling.MessageRouter import MessageRouter
+                MessageRouter.get_instance().send_later_in(msg, msg.priority, msg.depth)
             except Exception:
                 exception_caught = True
                 full_exception = traceback.format_exc()

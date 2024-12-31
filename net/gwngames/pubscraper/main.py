@@ -86,8 +86,11 @@ if __name__ == '__main__':
         browser_driver_path = os.path.join(current_dir, "tor_download/tor-browser/Browser/firefox")
         browser_data_path = os.path.join(current_dir,
                                          "tor_download/tor-browser/Browser/TorBrowser/Data/Browser/profile.default")
+        gecko_dir = os.path.join(current_dir, "tor_download/geckodriver")
         conf_reader.set_and_save(ConfigConstants.BROWSER_DRIVER_PATH, browser_driver_path)
         conf_reader.set_and_save(ConfigConstants.BROWSER_DATA_PATH, browser_data_path)
+        conf_reader.set_and_save(ConfigConstants.BROWSER_TYPE, "embedded")
+        conf_reader.set_and_save("geckodriver", gecko_dir)
 
     scraper = WebScraper()
     scraper.start()  # Asynchronous call, scraper has started

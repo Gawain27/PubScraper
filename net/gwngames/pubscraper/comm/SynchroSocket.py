@@ -24,26 +24,43 @@ class SynchroSocket:
                 SynchroSocket.logger.info(f'Created new SynchroSocket instance for port {port}')
             return cls._instances[port]
 
-    def connect_to_java_socket(self):
+    def connect_to_socket(self):
         if not self.socket:
             config = JsonReader(JsonReader.CONFIG_FILE_NAME)
             try:
                 self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                self.socket.settimeout(30)  # Set timeout for socket operations
+                self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_SNDBUF, 50 * 1024 * 1024)  # Set send buffer size to 50 MB
                 self.socket.connect((config.get_value(ConfigConstants.SERVER_URL), self.port))
                 SynchroSocket.logger.info(f'Connected to socket on port {self.port}')
             except Exception as e:
                 SynchroSocket.logger.error(f'Error connecting to socket on port {self.port}: {e}')
 
+    def reset_socket(self):
+        """Reset the socket after a defined number of usages."""
+        self.logger.info(f'Resetting socket after successful usage.')
+        if self.socket:
+            try:
+                self.socket.close()
+            except Exception as e:
+                self.logger.error(f'Error closing socket: {e}')
+            finally:
+                self.socket = None
+
     def send_message(self, message: bytes):
         with self.lock:
             if not self.socket:
-                self.connect_to_java_socket()
+                self.connect_to_socket()
             try:
                 full_message = message + '\n'.encode("utf-8")  # Append newline as message delimiter
                 self.socket.sendall(full_message)
-                SynchroSocket.logger.debug(f'Sent message to socket on port {self.port}: {message}')
+                SynchroSocket.logger.info(f'Sent message to socket on port {self.port}: {message}')
+
+                self.reset_socket()
+
                 return
             except ConnectionAbortedError:
+                SynchroSocket.logger.info("Connection aborted.")
                 time.sleep(3)
             except Exception as e:
                 SynchroSocket.logger.error(f'Error sending message to socket on port {self.port}: {e}')
@@ -53,7 +70,7 @@ class SynchroSocket:
     def receive_message(self):
         with self.lock:
             if not self.socket:
-                self.connect_to_java_socket()
+                self.connect_to_socket()
 
             # Initialize an empty buffer to accumulate received data
             buffer = ''
@@ -83,3 +100,4 @@ class SynchroSocket:
             # After exiting the loop, yield any remaining message in the buffer
             if buffer:
                 yield buffer.strip()
+

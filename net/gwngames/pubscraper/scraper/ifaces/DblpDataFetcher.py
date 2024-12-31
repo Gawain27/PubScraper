@@ -33,7 +33,6 @@ class DblpDataFetcher(GeneralDataFetcher):
         adapter.add_property(AdapterPropertiesConstants.PHASE_REF, adapter_code)
 
         if adapter_code == EntityCidConstants.PUB:
-            adapter.add_property(AdapterPropertiesConstants.IFACE_IS_ITERATOR, True)
             adapter.add_property(AdapterPropertiesConstants.IFACE_FX, DblpScraper().get_author_publications)
             adapter.add_property(AdapterPropertiesConstants.MULTI_RESULT, True)
         else:
@@ -58,9 +57,12 @@ class DblpDataFetcher(GeneralDataFetcher):
         return super(DblpDataFetcher, self).prepare_next_phase(phase_ref, current_entity, phase_depth=phase_depth, prev_adapter=prev_adapter)
 
     def _start_interface_collectors(self, opt_arg: list | int = None):
-        MessageRouter.later_in(FetchDblpData(MessageConstants.MSG_ALL_DBLP_AUTHORS,
-                                             self.generate_fetch_adapter(EntityCidConstants.PUB, opt_arg)),
-                               PriorityConstants.PUB_REQ, 0)
+        for author_name in opt_arg:
+            adapter = self.generate_fetch_adapter(EntityCidConstants.PUB)
+            adapter.add_property(AdapterPropertiesConstants.IFACE_FX_PARAM, author_name)
+            adapter.add_property(AdapterPropertiesConstants.EXPECTED_ID, author_name)
+            MessageRouter.later_in(FetchDblpData(MessageConstants.MSG_ALL_DBLP_AUTHORS, adapter),
+                                    PriorityConstants.PUB_REQ, 0)
 
     def get_interface_id(self) -> str:
         return self.INTERFACE_ID

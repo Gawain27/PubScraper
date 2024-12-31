@@ -1,3 +1,4 @@
+from threading import Lock
 from typing import Final
 
 from net.gwngames.pubscraper.comm.OutSender import OutSender
@@ -29,7 +30,7 @@ class OutSenderQueue(AsyncQueue):
             self.logger.info("Packaged Entity with  id: %s - %s", msg.entity_id, msg.entity_db)
         elif isinstance(msg, SendEntity):
             OutSender().send_data(msg)
-            self.logger.info("Entity %s - %s successfully delivered to server", msg.entity_id, msg.entity_db,)
+            self.logger.info("Entity %s - %s successfully delivered to server", msg.entity_id, msg.entity_db)
         else:
             self.logger.error("OutSenderQueue - Received undefined message type: %s", type(msg).__name__)
         return
