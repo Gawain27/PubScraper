@@ -659,3 +659,9 @@ specific requirements.
 if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
+
+The conditions stated on this license propagate to all the following repositories,
+whose code is to be considered as part of the same software:
+https://github.com/Gawain27/PubScraper
+https://github.com/Gawain27/PubPersister
+https://github.com/Gawain27/PubViewer
