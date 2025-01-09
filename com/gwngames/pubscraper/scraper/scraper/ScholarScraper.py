@@ -131,6 +131,15 @@ class ScholarScraper(GeneralScraper):
             soup = BeautifulSoup(page_source, 'html.parser')
 
             author_divs = soup.find_all('h4', class_='gs_rt2')
+
+            if len(author_divs) == 0: # Fallback measure
+                search_url = f"https://scholar.google.com/citations?view_op=search_authors&mauthors={formatted_name}"
+                self.logger.info(f"Opening fallback search URL: {search_url}")
+                self.driver_manager.load_url_from_tab(i, search_url)
+                page_source = self.driver_manager.obtain_html_from_tab(i)
+                soup = BeautifulSoup(page_source, 'html.parser')
+                author_divs = soup.find_all('div', class_='gsc_1usr')
+
             author_div = author_divs[-1]
             if not author_div:
                 self.logger.error(f"TAB[{i}] - No author found for the name: {author_name}")
