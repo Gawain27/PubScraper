@@ -30,6 +30,7 @@ class SeleniumDriver:
         self.available_tabs = {i: True for i in range(self.number_of_tabs)}
         self.window_handles = {}
         self._condition = threading.Condition()
+        self._captcha_condition = threading.Condition()
         self.timeout = self.config.get_value(ConfigConstants.URL_TIMEOUT)
         self.logger.debug(f"Timeout set to {self.timeout} seconds.")
         self.driver = self._initialize_driver()
@@ -199,13 +200,14 @@ class SeleniumDriver:
                 self.driver.switch_to.window(self.window_handles[index_tab])
 
                 if possible_captcha is not None:
-                    captcha_handler = CaptchaHandler(self.driver, index_tab, self.timeout, self.user_agent,
-                                                     possible_captcha)
+                    with self._captcha_condition:
+                        captcha_handler = CaptchaHandler(self.driver, index_tab, self.timeout, self.user_agent,
+                                                         possible_captcha)
 
-                    if captcha_handler.check_for_captcha():
-                        self.logger.info("Captcha detected. Attempting to solve.")
-                        captcha_handler.solve_captcha()
-                        time.sleep(5)
+                        if captcha_handler.check_for_captcha():
+                            self.logger.info("Captcha detected. Attempting to solve.")
+                            captcha_handler.solve_captcha()
+                            self.refresh_all_tabs()
 
                 self.logger.info(f"HTML obtained from tab[{index_tab}].")
                 self._condition.notify_all()
@@ -227,6 +229,13 @@ class SeleniumDriver:
             error_msg = f"Invalid tab index: {index_tab} during release for URL search: {url_search}"
             self.logger.error(error_msg)
             raise Exception(error_msg)
+
+    def refresh_all_tabs(self):
+        for tab in self.driver.window_handles:
+            self.driver.switch_to.window(tab)
+            self.driver.get(self.driver.current_url)
+            time.sleep(5)
+        time.sleep(5)
 
     def close_driver(self):
         self.logger.info("Closing browser driver.")
