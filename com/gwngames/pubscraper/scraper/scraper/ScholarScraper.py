@@ -140,7 +140,14 @@ class ScholarScraper(GeneralScraper):
                 soup = BeautifulSoup(page_source, 'html.parser')
                 author_divs = soup.find_all('div', class_='gsc_1usr')
 
-            author_div = author_divs[-1]
+            author_div = None
+            for div in reversed(author_divs):
+                if div.find_next('a').get_text().lower() == author_name.lower():
+                    author_div = div
+
+            if author_div is None and len(author_divs) > 0:
+                author_div = author_divs[-1]
+
             if not author_div:
                 self.logger.error(f"TAB[{i}] - No author found for the name: {author_name}")
                 if i is not None:
