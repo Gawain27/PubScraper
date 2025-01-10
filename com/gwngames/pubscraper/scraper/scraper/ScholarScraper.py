@@ -12,13 +12,12 @@ class ScholarScraper(GeneralScraper):
     def __init__(self):
         super().__init__()
 
-    def get_author_profile_data(self, profile_id):
+    def get_author_profile_data(self, profile_id, tab_id):
         self.logger.info(f"Starting profile data extraction for: {profile_id}")
 
         author_base_url = "https://scholar.google.com/citations?hl=it&user=" + profile_id
-        i = None
+        i = tab_id
         try:
-            i = self.driver_manager.obtain_tab(profile_id)
             self.driver_manager.load_url_from_tab(i, author_base_url)
 
             page_source = self.driver_manager.obtain_html_from_tab(i)
@@ -72,10 +71,9 @@ class ScholarScraper(GeneralScraper):
             interests = [interest.text for interest in
                          interests_section.find_all('a')] if interests_section else "Interests not available"
             self.logger.info(f"TAB[{i}] - Extracted interests: {interests}")
-            self.driver_manager.release_tab(i, profile_id)
-            i = None
+
             self.logger.info(f"TAB[{i}] - Starting publication extraction.")
-            publications = self.fetch_publications(author_base_url)
+            publications = self.fetch_publications(author_base_url, i)
             self.logger.info(f"TAB[{i}] - Successfully extracted {len(publications)} publications.")
 
             data_cells = soup.find_all('td', class_='gsc_rsb_std')
@@ -86,7 +84,7 @@ class ScholarScraper(GeneralScraper):
                 h_index = data_cells[2].text
                 i10_index = data_cells[4].text
 
-            coauthors = self.fetch_colleagues_ids(author_id)
+            coauthors = self.fetch_colleagues_ids(author_id, i)
 
             author_data = {
                 "author_id": author_id,
@@ -141,7 +139,7 @@ class ScholarScraper(GeneralScraper):
                 author_divs = soup.find_all('div', class_='gsc_1usr')
 
             author_div = None
-            for div in reversed(author_divs):
+            for div in author_divs:
                 if div.find_next('a').get_text().lower() == author_name.lower():
                     author_div = div
 
@@ -158,14 +156,13 @@ class ScholarScraper(GeneralScraper):
             full_profile_url = f"TAB[{i}] - https://scholar.google.com{profile_link}"
 
             self.logger.info(f"Found profile URL: {full_profile_url}")
-            self.driver_manager.release_tab(i, author_name)
-            i = None
 
             match = re.search(r'user=([^&]+)', full_profile_url)
             user_id = match.group(1)
 
-            author_data = self.get_author_profile_data(user_id)
+            author_data = self.get_author_profile_data(user_id, i)
 
+            self.driver_manager.release_tab(i, author_name)
             self.logger.info(f"TAB[{i}] - Author profile {author_name} found and data extracted successfully.")
             return json.dumps(author_data, indent=4)
 
@@ -175,7 +172,7 @@ class ScholarScraper(GeneralScraper):
                 self.driver_manager.release_tab(i, author_name)
             return {}
 
-    def fetch_publications(self, profile_url):
+    def fetch_publications(self, profile_url, tab_id):
         """
         This function takes a Selenium WebDriver instance and the Google Scholar profile URL,
         makes successive requests to retrieve all the author's publications, and returns the data.
@@ -189,7 +186,7 @@ class ScholarScraper(GeneralScraper):
         more_results = True
         total_pages = 0
 
-        i = self.driver_manager.obtain_tab(profile_url)
+        i = tab_id
 
         while more_results:
             paginated_url = f"{base_url}&cstart={cstart}&pagesize={pagesize}"
@@ -234,8 +231,6 @@ class ScholarScraper(GeneralScraper):
                 if i is not None:
                     self.driver_manager.release_tab(i, profile_url)
                 break
-
-        self.driver_manager.release_tab(i, profile_url)
 
         # Log the total number of pages loaded and total publications extracted
         self.logger.info(
@@ -387,7 +382,7 @@ class ScholarScraper(GeneralScraper):
                 self.driver_manager.release_tab(i, publication_url)
             return {}
 
-    def fetch_colleagues_ids(self, user_id):
+    def fetch_colleagues_ids(self, user_id, tab_id):
         """
         This function takes a Selenium WebDriver instance and a Google Scholar user ID,
         modifies the colleagues URL with the user ID, retrieves the colleagues' IDs from the HTML,
@@ -397,16 +392,14 @@ class ScholarScraper(GeneralScraper):
 
         base_url = "https://scholar.google.com/citations?view_op=list_colleagues&hl=it&json=&user={}"
         colleagues_url = base_url.format(user_id)
-        i = None
+        i = tab_id
         try:
-            i = self.driver_manager.obtain_tab(user_id)
             self.driver_manager.load_url_from_tab(i, colleagues_url)
             page_source = self.driver_manager.obtain_html_from_tab(i)
             soup = BeautifulSoup(page_source, 'html.parser')
 
             author_names = [h3.get_text() for h3 in soup.find_all('h3', class_='gs_ai_name')]
             self.logger.info(f"TAB[{i}] - Extracted coauthor IDs: {len(author_names)}")
-            self.driver_manager.release_tab(i, user_id)
             return author_names
 
         except Exception as e:

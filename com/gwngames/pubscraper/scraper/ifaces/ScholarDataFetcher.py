@@ -110,7 +110,7 @@ class ScholarDataFetcher(GeneralDataFetcher):
             MessageRouter.get_instance().send_message(FetchScholarlyData(MessageConstants.MSG_SCHOLARLY_AUTHOR,
                 author_adapter),
                 PriorityConstants.AUTHOR_REQ)
-            time.sleep(10)
+            time.sleep(30)
 
     def get_variant_type(self):
         return EntityVidConstants.SCHOLAR_VID
