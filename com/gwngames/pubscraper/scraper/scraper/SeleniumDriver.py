@@ -156,7 +156,7 @@ class SeleniumDriver:
                 self._condition.notify_all()
                 return index_tab
 
-    def load_url_from_tab(self, index_tab: int, url: str):
+    def load_url_from_tab(self, index_tab: int, url: str, skip_ready_wait: bool = False):
         self.logger.info(f"Loading URL: {url} in tab[{index_tab}].")
         if index_tab is not None and (0 <= index_tab < self.number_of_tabs):
             with self._condition:
@@ -164,9 +164,12 @@ class SeleniumDriver:
                 self.driver.get(url)
 
                 try:
-                    WebDriverWait(self.driver, self.timeout).until(
-                        lambda x: self.driver.execute_script("return document.readyState") == "complete"
-                    )
+                    if not skip_ready_wait:
+                        WebDriverWait(self.driver, self.timeout).until(
+                            lambda x: self.driver.execute_script("return document.readyState") == "complete"
+                        )
+                    else:
+                        time.sleep(3)
                     self.logger.info(f"URL {url} loaded successfully in tab[{index_tab}].")
                 except UnexpectedAlertPresentException:
                     self.logger.warning("Unexpected alert detected; dismissing.")

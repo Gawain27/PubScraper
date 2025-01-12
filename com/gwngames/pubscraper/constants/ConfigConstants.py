@@ -2,6 +2,7 @@ from typing import Final
 
 
 class ConfigConstants:
+    FAVORED_ORG: Final = "favored_org"
     CORE_PAGES_NUMBER: Final = "core_pages_number"
     AUTO_ADAPTIVE: Final = "auto_adaptive"
     BROWSER_EMBEDDED: Final = "browser_embedded"

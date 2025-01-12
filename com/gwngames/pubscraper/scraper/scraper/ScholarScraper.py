@@ -1,9 +1,11 @@
 import json
 import re
 import traceback
+from datetime import datetime
 
 from bs4 import BeautifulSoup
 
+from com.gwngames.pubscraper.constants.ConfigConstants import ConfigConstants
 from com.gwngames.pubscraper.scraper.BanChecker import BanChecker
 from com.gwngames.pubscraper.scraper.scraper.GeneralScraper import GeneralScraper
 
@@ -112,6 +114,7 @@ class ScholarScraper(GeneralScraper):
 
     def get_scholar_profile(self, author_name):
         self.logger.info(f"Starting search for author: {author_name}")
+        favored_org = self.ctx.get_config().get_value(ConfigConstants.FAVORED_ORG)
         i = None
 
         try:
@@ -129,6 +132,8 @@ class ScholarScraper(GeneralScraper):
             soup = BeautifulSoup(page_source, 'html.parser')
 
             author_divs = soup.find_all('h4', class_='gs_rt2')
+            author_orgs = soup.find_all('span', class_='gs_nph', attrs={"class": ["gs_nph"]})
+            author_orgs.pop(0)
 
             if len(author_divs) == 0: # Fallback measure
                 search_url = f"https://scholar.google.com/citations?view_op=search_authors&mauthors={formatted_name}"
@@ -137,11 +142,19 @@ class ScholarScraper(GeneralScraper):
                 page_source = self.driver_manager.obtain_html_from_tab(i)
                 soup = BeautifulSoup(page_source, 'html.parser')
                 author_divs = soup.find_all('div', class_='gsc_1usr')
+                author_orgs = soup.find_all('div', class_='gs_ai_eml')
 
             author_div = None
-            for div in author_divs:
-                if div.find_next('a').get_text().lower() == author_name.lower():
+            for idx, div in enumerate(author_divs):
+                if favored_org.lower() in author_orgs[idx].get_text().lower():
                     author_div = div
+                    break
+
+            if author_div is None:
+                for div in author_divs:
+                    if div.find_next('a').get_text().lower() == author_name.lower():
+                        author_div = div
+                        break
 
             if author_div is None and len(author_divs) > 0:
                 author_div = author_divs[-1]
@@ -312,7 +325,9 @@ class ScholarScraper(GeneralScraper):
                         # Now safely extract all textual content:
                         description = descr_div.get_text(separator=' ', strip=True)
                 elif datum is not None and len(value_div.get_text(strip=True)) < 50:
-                    publication_date = datum.group(0)
+                    year_val = datum.group(0)
+                    if 1950 <= int(year_val) <= datetime.now().year:
+                        publication_date = year_val
 
             citations_tag = soup.find('a', href=True, text=lambda x: x and x.startswith("Cit"))
             if citations_tag:
