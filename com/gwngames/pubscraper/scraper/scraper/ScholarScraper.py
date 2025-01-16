@@ -114,7 +114,8 @@ class ScholarScraper(GeneralScraper):
 
     def get_scholar_profile(self, author_name):
         self.logger.info(f"Starting search for author: {author_name}")
-        favored_org = self.ctx.get_config().get_value(ConfigConstants.FAVORED_ORG)
+        favored_orgs = self.ctx.get_config().get_value(ConfigConstants.FAVORED_ORG)
+        favored_orgs = favored_orgs.split(',')
         i = None
 
         try:
@@ -146,9 +147,10 @@ class ScholarScraper(GeneralScraper):
 
             author_div = None
             for idx, div in enumerate(author_divs):
-                if favored_org.lower() in author_orgs[idx].get_text().lower():
-                    author_div = div
-                    break
+                for favored_org in favored_orgs:
+                    if favored_org.lower() in author_orgs[idx].get_text().lower():
+                        author_div = div
+                        break
 
             if author_div is None:
                 for div in author_divs:

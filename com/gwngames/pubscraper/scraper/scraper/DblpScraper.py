@@ -61,7 +61,8 @@ class DblpScraper(GeneralScraper):
         search_url = base_url + urllib.parse.quote(author_name)
 
         self.logger.debug("Loading search URL: %s", search_url)
-        favored_org = self.ctx.get_config().get_value(ConfigConstants.FAVORED_ORG)
+        favored_orgs = self.ctx.get_config().get_value(ConfigConstants.FAVORED_ORG)
+        favored_orgs = favored_orgs.split(",")
         i = self.driver_manager.obtain_tab(author_name)
         try:
             self.driver_manager.load_url_from_tab(i, search_url)
@@ -78,9 +79,10 @@ class DblpScraper(GeneralScraper):
 
             author_link_element = None
             for idx, element in enumerate(author_link_elements):
-                if favored_org.lower() in author_org_elements[idx].get_text().lower():
-                    author_link_element = element
-                    break
+                for favored_org in favored_orgs:
+                    if favored_org.lower() in author_org_elements[idx].get_text().lower():
+                        author_link_element = element
+                        break
 
             if author_link_element is None:
                 for element in author_link_elements:

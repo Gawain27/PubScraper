@@ -1,17 +1,17 @@
 {
-    "max_logfile_lines": 10000,
-    "interfaces_enabled": "google_scholar",
-    "max_buffer_retries": 1,
+    "max_logfile_lines": 7000,
+    "interfaces_enabled": "dblp",
+    "max_buffer_retries": 3,
     "server_url": "172.16.0.78",
     "entity_port": 5151,
     "authors_ref": "https://di.unipi.it/persone/",
     "root_authors": "",
     "shuffle_roots": true,
-    "min_wait_time": 40,
-    "max_wait_time": 50,
+    "min_wait_time": 180,
+    "max_wait_time": 240,
     "max_ms_worktime": -1,
-    "max_iface_requests": 2,
-    "depth_max": 5,
+    "max_iface_requests": 4,
+    "depth_max": 4,
     "db_prefix": "http",
     "db_host": "",
     "db_port": 0,
@@ -32,5 +32,6 @@
     "browser_embedded": true,
     "geckodriver": "/home/gwng/PycharmProjects/PubScraper2.0/com/gwngames/pubscraper/tor_download/geckodriver",
     "recovery_instance": false,
-    "core_pages_number": 45
+    "core_pages_number": 45,
+    "favored_org": "pisa,cnr"
 }
